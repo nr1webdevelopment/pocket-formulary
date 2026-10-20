@@ -1,0 +1,250 @@
+<title>Pocket Formulary</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a pharmacy-label reference. One narrow column; condition colors come from each disease's awareness symbol
+   (HIV red ribbon, ADHD orange ribbon, diabetes blue circle). List view <-> profile view via #slug. */
+:root {
+  --bg: #F3F5F7; --surface: #FFFFFF; --ink: #15202B; --muted: #5A6774; --line: #DAE0E6; --soft: #E9EDF1;
+  --hiv: #C8102E; --adhd: #C2600A; --diabetes: #1C64C8; --warn: #8A5A00; --warn-bg: #FFF2D6;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --body: "Public Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0E141A; --surface: #151D25; --ink: #E5EBF0; --muted: #94A2AF; --line: #27323D; --soft: #1C2630;
+  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0E141A; --surface: #151D25; --ink: #E5EBF0; --muted: #94A2AF; --line: #27323D; --soft: #1C2630;
+  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10; color-scheme: dark; }
+
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); margin: 0; }
+.wrap { max-width: 920px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--diabetes); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.sym { width: 18px; height: 18px; flex: none; }
+
+/* masthead */
+.mast { display: flex; flex-direction: column; gap: 6px; margin-bottom: 22px; }
+.mast .rx { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.mast h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.05; letter-spacing: -.01em; }
+.mast p { margin: 0; color: var(--muted); max-width: 60ch; }
+
+/* condition tabs */
+.tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
+.tab { display: flex; flex-direction: column; gap: 2px; text-align: left; padding: 12px 14px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); border-radius: 10px; cursor: pointer; font: inherit; min-width: 0; }
+.tab .t { display: flex; align-items: center; gap: 8px; font-family: var(--display); font-weight: 700; font-size: 17px; }
+.tab .n { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.tab:hover { border-color: var(--muted); }
+.tab[aria-pressed="true"] { border-color: var(--c, var(--ink)); box-shadow: inset 0 0 0 1px var(--c, var(--ink)); }
+@media (max-width: 560px) { .tabs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.tools { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 8px; }
+.search { flex: 1 1 260px; min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); color: var(--ink); font: inherit; }
+.search::placeholder { color: var(--muted); }
+.check { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 14px; cursor: pointer; }
+.blurb { color: var(--muted); font-size: 14px; margin: 4px 0 0; min-height: 1.5em; }
+
+/* list */
+.cond-block { margin-top: 30px; }
+.cond-h { display: flex; align-items: center; gap: 10px; color: var(--c); padding-bottom: 8px; border-bottom: 2px solid var(--c); }
+.cond-h h2 { font-size: 24px; color: var(--ink); }
+.cond-h .n { margin-left: auto; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.grp-h { font-family: var(--mono); font-size: 11.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+  margin: 18px 0 4px; display: flex; gap: 8px; }
+.rows { display: flex; flex-direction: column; }
+.row { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr) 170px; gap: 4px 16px; align-items: baseline;
+  padding: 10px 8px; border-bottom: 1px solid var(--line); text-decoration: none; border-radius: 6px; }
+.row:hover { background: var(--soft); }
+.row .nm { min-width: 0; }
+.row .nm b { font-weight: 600; }
+.row .gen { color: var(--muted); margin-left: 8px; font-size: 14px; }
+.row .cls { color: var(--muted); font-size: 13.5px; min-width: 0; }
+.row .yr { font-family: var(--mono); font-size: 13px; color: var(--muted); display: flex; gap: 8px; align-items: baseline; justify-content: flex-end; }
+@media (max-width: 600px) { .row { grid-template-columns: minmax(0, 1fr) auto; } .row .cls { grid-column: 1 / -1; grid-row: 2; } .row .gen { display: block; margin: 0; } }
+.pill { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px;
+  border-radius: 99px; border: 1px solid currentColor; white-space: nowrap; }
+.pill.disc { color: var(--warn); background: var(--warn-bg); border-color: transparent; }
+.pill.new { color: var(--c); }
+.empty { padding: 40px 0; color: var(--muted); text-align: center; }
+
+/* profile */
+.back { display: inline-flex; align-items: center; gap: 6px; font: 500 14px var(--body); color: var(--muted);
+  background: none; border: 0; padding: 6px 0; cursor: pointer; margin-bottom: 18px; }
+.back:hover { color: var(--ink); }
+.label { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.label-top { border-top: 6px solid var(--c); padding: 22px 24px 20px; display: flex; flex-direction: column; gap: 8px; }
+.eyebrow { display: flex; align-items: center; gap: 8px; color: var(--c); font-family: var(--mono); font-size: 12px;
+  letter-spacing: .1em; text-transform: uppercase; }
+.label h1 { font-size: clamp(32px, 7vw, 52px); line-height: 1; letter-spacing: -.015em; }
+.generic { font-size: 18px; color: var(--muted); }
+.chips:empty { display: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.chip { font-size: 13px; padding: 3px 10px; border-radius: 99px; background: var(--soft); color: var(--ink); }
+.facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); margin: 0; }
+.fact { padding: 14px 24px; border-bottom: 1px solid var(--line); min-width: 0; }
+.fact:nth-child(odd) { border-right: 1px solid var(--line); }
+.fact dt { font-family: var(--mono); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 2px; }
+.fact dd { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+@media (max-width: 560px) { .facts { grid-template-columns: minmax(0, 1fr); } .fact:nth-child(odd) { border-right: 0; } .label-top, .fact { padding-left: 18px; padding-right: 18px; } }
+.about { padding: 20px 24px 24px; display: flex; flex-direction: column; gap: 14px; }
+.about h3 { font-size: 15px; font-family: var(--mono); font-weight: 500; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.about p { margin: 4px 0 0; max-width: 65ch; }
+.note { background: var(--warn-bg); color: var(--ink); padding: 12px 14px; border-radius: 8px; }
+.related { margin-top: 28px; }
+.related h3 { font-size: 18px; margin-bottom: 10px; }
+.rel { display: flex; flex-wrap: wrap; gap: 8px; }
+.rel a { text-decoration: none; padding: 6px 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); font-size: 14px; }
+.rel a:hover { border-color: var(--c); }
+.rel a span { color: var(--muted); }
+.src { margin-top: 28px; font-size: 13px; color: var(--muted); }
+.src a { color: var(--ink); }
+footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); max-width: 70ch; }
+@media (prefers-reduced-motion: no-preference) { .label { animation: rise .25s ease-out; } }
+@keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+</style>
+
+<div class="wrap">
+  <main id="app"></main>
+  <footer>For general reference only, not medical advice. Brand availability and labeling change; always check the current FDA label and talk with a clinician or pharmacist. HIV data from NIH HIVinfo (reviewed Sept 2026). ADHD and diabetes approval years from FDA records; verify before publishing.</footer>
+</div>
+
+<script>
+const DRUGS = __DATA__;
+const COND = {
+  hiv: { name: "HIV", sym: "ribbon", blurb: "Antiretroviral medicines for HIV treatment and prevention (PrEP)." },
+  adhd: { name: "ADHD", sym: "ribbon", blurb: "Stimulant and non-stimulant medicines for attention-deficit/hyperactivity disorder." },
+  diabetes: { name: "Diabetes", sym: "circle", blurb: "Insulins, pills and injectables for type 1 and type 2 diabetes." },
+};
+const SYM = {
+  ribbon: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5c-2.3 0-3.8 1.7-3.8 3.8 0 1.7.8 3.4 2 5.2L4.8 20l2.3 1.5 4.9-7.6 4.9 7.6 2.3-1.5-5.4-8.5c1.2-1.8 2-3.5 2-5.2 0-2.1-1.5-3.8-3.8-3.8zm0 2.1c1 0 1.7.7 1.7 1.8 0 1-.6 2.3-1.7 3.8-1.1-1.5-1.7-2.8-1.7-3.8 0-1.1.7-1.8 1.7-1.8z"/></svg>',
+  circle: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="3.2"/></svg>',
+  all: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" stroke-width="2"/></svg>',
+};
+const BY = Object.fromEntries(DRUGS.map(d => [d.slug, d]));
+const state = { cond: "all", q: "", hideDisc: false };
+let listScroll = 0;
+const app = document.getElementById("app");
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const cvar = c => `--c: var(--${c})`;
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const fmtDate = a => a.length === 10 ? `${MONTHS[+a.slice(5, 7) - 1]} ${+a.slice(8)}, ${a.slice(0, 4)}` : a;
+const isNew = d => d.approved.startsWith("2026");
+
+function shell() {
+  const counts = { all: DRUGS.length };
+  for (const k in COND) counts[k] = DRUGS.filter(d => d.condition === k).length;
+  const tab = (k, name, sym) => `<button class="tab" data-cond="${k}" aria-pressed="${state.cond === k}" style="${k === "all" ? "" : cvar(k)}">
+      <span class="t" style="color:${k === "all" ? "var(--ink)" : `var(--${k})`}">${SYM[sym]}<span style="color:var(--ink)">${name}</span></span>
+      <span class="n">${counts[k]} medicines</span></button>`;
+  app.innerHTML = `
+    <header class="mast">
+      <span class="rx">Rx · FDA-approved · US</span>
+      <h1>Pocket Formulary</h1>
+      <p>Brand and generic names, drug classes, approval dates and dosing basics for medicines used in HIV, ADHD and diabetes. Select any medicine to open its profile.</p>
+    </header>
+    <div class="tabs" role="group" aria-label="Condition">
+      ${tab("all", "All", "all")}${Object.entries(COND).map(([k, c]) => tab(k, c.name, c.sym)).join("")}
+    </div>
+    <div class="tools">
+      <input id="q" class="search" type="search" placeholder="Search brand, generic name, class or maker" aria-label="Search medicines" value="${esc(state.q)}">
+      <label class="check"><input id="hide-disc" type="checkbox" ${state.hideDisc ? "checked" : ""}> Hide discontinued</label>
+    </div>
+    <p class="blurb" id="blurb"></p>
+    <div id="list"></div>`;
+  app.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+    state.cond = b.dataset.cond;
+    app.querySelectorAll(".tab").forEach(x => x.setAttribute("aria-pressed", x === b));
+    renderList();
+  }));
+  const q = document.getElementById("q");
+  q.addEventListener("input", () => { state.q = q.value; renderList(); });
+  document.getElementById("hide-disc").addEventListener("change", e => { state.hideDisc = e.target.checked; renderList(); });
+  renderList();
+}
+
+function renderList() {
+  const q = state.q.trim().toLowerCase();
+  const hit = DRUGS.filter(d =>
+    (state.cond === "all" || d.condition === state.cond) &&
+    (!state.hideDisc || d.status !== "Discontinued") &&
+    (!q || [d.brand, d.generic, d.cls, d.group, d.mfr, ...(d.extra || []).map(e => e[1])].join(" ").toLowerCase().includes(q)));
+  document.getElementById("blurb").textContent = state.cond === "all"
+    ? "Every medicine in the index, grouped by condition and drug class." : COND[state.cond].blurb;
+  let html = "";
+  for (const [k, c] of Object.entries(COND)) {
+    const items = hit.filter(d => d.condition === k);
+    if (!items.length) continue;
+    const groups = [...new Set(items.map(d => d.group))];
+    html += `<section class="cond-block" style="${cvar(k)}">
+      <div class="cond-h">${SYM[c.sym]}<h2>${c.name}</h2><span class="n">${items.length}</span></div>
+      ${groups.map(g => {
+        const gi = items.filter(d => d.group === g).sort((a, b) => a.brand.localeCompare(b.brand));
+        return `<div class="grp-h"><span>${esc(g)}</span><span>· ${gi.length}</span></div><div class="rows">${gi.map(row).join("")}</div>`;
+      }).join("")}
+    </section>`;
+  }
+  document.getElementById("list").innerHTML = html || `<p class="empty">No medicines match “${esc(state.q)}”. Try a generic name or class, like “insulin” or “NRTI”.</p>`;
+}
+
+function row(d) {
+  const pills = (d.status === "Discontinued" ? `<span class="pill disc">Discontinued</span>` : "") + (isNew(d) ? `<span class="pill new">New</span>` : "");
+  return `<a class="row" href="#${d.slug}"><span class="nm"><b>${esc(d.brand)}</b><span class="gen">${esc(d.generic)}</span></span>
+    <span class="cls">${esc(d.cls)}</span><span class="yr">${pills}${d.approved.slice(0, 4)}</span></a>`;
+}
+
+function profile(d) {
+  const c = COND[d.condition];
+  const facts = [
+    ["Drug class", d.cls], ["Category", d.group], ["Form", d.form], ["Route", d.route], ["Dosing", d.dosing],
+    ["Manufacturer", d.mfr], ["FDA approved", fmtDate(d.approved)], ["Brand status", d.status], ...(d.extra || []),
+  ];
+  if (facts.length % 2) facts.push(["Condition", c.name]);
+  const related = DRUGS.filter(x => x.condition === d.condition && x.group === d.group && x.slug !== d.slug);
+  app.innerHTML = `
+    <button class="back" id="back">← All medicines</button>
+    <article class="label" style="${cvar(d.condition)}">
+      <div class="label-top">
+        <span class="eyebrow">${SYM[c.sym]}${c.name} · ${esc(d.group)}</span>
+        <h1>${esc(d.brand)}</h1>
+        <div class="generic">${esc(d.generic)}</div>
+        <div class="chips">
+          ${d.status === "Discontinued" ? `<span class="pill disc">Brand discontinued</span>` : ""}
+          ${isNew(d) ? `<span class="pill new" style="color:var(--c)">New in 2026</span>` : ""}
+        </div>
+      </div>
+      <dl class="facts">${facts.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v || "—")}</dd></div>`).join("")}</dl>
+      <div class="about">
+        <div><h3>About</h3><p>${esc(d.desc)}</p></div>
+        ${d.notes ? `<div class="note"><strong>Note:</strong> ${esc(d.notes)}</div>` : ""}
+      </div>
+    </article>
+    ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>Same category</h3>
+      <div class="rel">${related.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div></section>` : ""}
+    <p class="src">Source: <a href="${d.source}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
+  document.getElementById("back").addEventListener("click", () => { history.replaceState(null, "", location.pathname + location.search); route(); });
+  window.scrollTo(0, 0);
+}
+
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (BY[h]) {
+    if (document.getElementById("list")) listScroll = window.scrollY;
+    profile(BY[h]);
+  } else {
+    if (COND[h] || h === "all") state.cond = h;
+    shell();
+    window.scrollTo(0, listScroll);
+  }
+}
+window.addEventListener("hashchange", route);
+route();
+</script>
