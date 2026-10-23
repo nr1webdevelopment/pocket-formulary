@@ -1,4 +1,5 @@
 <title>Pocket Formulary</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%228%22%20fill%3D%22%230E7C6B%22%2F%3E%3Cg%20transform%3D%22translate%2817%2011%29%20rotate%28-35%29%22%3E%3Crect%20x%3D%22-8.5%22%20y%3D%22-3.6%22%20width%3D%2217%22%20height%3D%227.2%22%20rx%3D%223.6%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M0%20-3.6H-4.9A3.6%203.6%200%200%200%20-4.9%203.6H0Z%22%20fill%3D%22%239FE3D6%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M6.5%2014h19v6.5c0%203.6-2.9%206.5-6.5%206.5h-6c-3.6%200-6.5-2.9-6.5-6.5Z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M9.5%2017h13%22%20stroke%3D%22%230E7C6B%22%20stroke-width%3D%221.2%22%20stroke-dasharray%3D%221.8%201.6%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,10 +35,35 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
 .sym { width: 18px; height: 18px; flex: none; }
 
 /* masthead */
-.mast { display: flex; flex-direction: column; gap: 6px; margin-bottom: 22px; }
-.mast .rx { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
-.mast h1 { font-size: clamp(30px, 6vw, 44px); line-height: 1.05; letter-spacing: -.01em; }
-.mast p { margin: 0; color: var(--muted); max-width: 60ch; }
+.mast { display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px; }
+.mast .rx { font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--prov); font-weight: 500; }
+.mast h1 { font-size: clamp(32px, 6.4vw, 52px); line-height: 1.02; letter-spacing: -.02em; }
+.mast p { margin: 0; color: var(--muted); max-width: 46ch; font-size: 16px; }
+
+/* hero: AI image (assets/hero.*) behind a white gradient, so text stays readable on the left */
+.hero { position: relative; isolation: isolate; overflow: hidden; justify-content: flex-end; min-height: 320px;
+  padding: 40px 40px 36px; border-radius: 20px; border: 1px solid var(--line); background: var(--surface); }
+.hero-img { position: absolute; inset: 0; z-index: -2; background: __HERO__; background-size: cover; background-position: 70% 50%; }
+.hero::before { content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(90deg, var(--surface) 0%, var(--surface) 30%, color-mix(in srgb, var(--surface) 82%, transparent) 50%, color-mix(in srgb, var(--surface) 25%, transparent) 78%, transparent 100%); }
+.hero > :not(.hero-img) { max-width: 520px; }
+@media (max-width: 640px) {
+  .hero { min-height: 0; padding: 150px 20px 24px; border-radius: 16px; }
+  .hero-img { background-position: 70% 0%; background-size: auto 230px; background-repeat: no-repeat; }
+  .hero::before { background: linear-gradient(180deg, transparent 0, color-mix(in srgb, var(--surface) 30%, transparent) 80px, color-mix(in srgb, var(--surface) 92%, transparent) 150px, var(--surface) 180px); }
+}
+
+/* brand */
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 700; font-size: 18px; letter-spacing: -.01em; white-space: nowrap; }
+.brand svg { width: 32px; height: 32px; flex: none; border-radius: 8px; }
+.topbar-end { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
+@media (max-width: 640px) {
+  .topbar-end { display: contents; }
+  .topbar .brand { order: 1; }
+  .topbar .langsel { order: 2; }
+  .topbar .nav { order: 3; flex: 1 1 100%; }
+  .topbar .nav a { flex: 1; text-align: center; }
+}
 
 /* condition tabs */
 .tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
@@ -272,8 +298,11 @@ const COND = {
 };
 const condName = c => t(COND[c].key);
 
+const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="8" fill="#0E7C6B"/><g transform="translate(17 11) rotate(-35)"><rect x="-8.5" y="-3.6" width="17" height="7.2" rx="3.6" fill="#fff"/><path d="M0 -3.6H-4.9A3.6 3.6 0 0 0 -4.9 3.6H0Z" fill="#9FE3D6"/></g><path d="M6.5 14h19v6.5c0 3.6-2.9 6.5-6.5 6.5h-6c-3.6 0-6.5-2.9-6.5-6.5Z" fill="#fff"/><path d="M9.5 17h13" stroke="#0E7C6B" stroke-width="1.2" stroke-dasharray="1.8 1.6" stroke-linecap="round"/></svg>';
 function topbar(active) {
   return `<div class="topbar">
+    <a class="brand" href="#medicines" aria-label="Pocket Formulary">${LOGO}<span>Pocket Formulary</span></a>
+    <div class="topbar-end">
     <nav class="nav" aria-label="Sections">
       <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>
       <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>${t("navProviders")}<span>${PROVIDERS.length}</span></a>
@@ -282,6 +311,7 @@ function topbar(active) {
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
       <select id="lang" aria-label="${t("language")}">${LANGS.map(([c, n]) => `<option value="${c}" ${c === LANG ? "selected" : ""}>${n}</option>`).join("")}</select>
     </label>
+    </div>
   </div>`;
 }
 
@@ -304,7 +334,8 @@ function shell() {
       <span class="n">${t("nMedicines", { n: counts[k] })}</span></button>`;
   app.innerHTML = `
     ${topbar("med")}
-    <header class="mast">
+    <header class="mast hero">
+      <div class="hero-img" aria-hidden="true"></div>
       <span class="rx">${t("medRx")}</span>
       <h1>${t("siteTitle")}</h1>
       <p>${t("medIntro")}</p>
@@ -451,7 +482,8 @@ function providerShell() {
       <span class="n">${t("nProviders", { n: inCity(k).length })}</span></button>`;
   app.innerHTML = `
     ${topbar("prov")}
-    <header class="mast">
+    <header class="mast hero">
+      <div class="hero-img" aria-hidden="true"></div>
       <span class="rx">${t("provRx", { n: CITYDOC.cities.length })}</span>
       <h1>${t("siteTitle")}</h1>
       <p>${t("provIntro")}</p>

@@ -99,6 +99,7 @@ i18n/
   content.<lang>.json     translations of notes, descriptions and other English content
 schema/                   JSON Schemas for medicine, provider and city records
 dist/v1/                  PUBLISHED DATA: generated, don't edit by hand
+assets/                   logo (SVG) and the header image (hero.jpg)
 scripts/
   build_dist.py           data/ -> dist/v1/ (JSON, CSV, manifest)
   validate.py             checks sources + dist/ (CI runs this)
@@ -127,6 +128,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to verify a provider and how to a
 
 - **Medicines** (`index.html#biktarvy`): a profile for each medicine, linking to matching providers in the selected city. ADHD medicine pages flag Thai legal status when Bangkok is selected.
 - **Providers** (`index.html#providers/hkg/hiv`, `#providers/lis/adhd`, `#providers/sfo/diabetes`): a city picker, condition tabs, service filters and search. Each city shows its local notes; Shanghai, Hong Kong, Macau and Taipei also show the four-jurisdictions note. HIV has a PEP shortcut. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call with the right country code, LINE where available, directions, a service checklist, verification status, sources and a "report a problem" link.
+
+**Logo and hero image:** the logo is in `assets/logo.svg` (mark plus name) and `assets/logo-mark.svg` (icon only, also used as the favicon). To change the header image, save it as `assets/hero.jpg` (or `.png` / `.webp`) and run `python3 scripts/build_site.py`. The build resizes it, converts it to WebP and embeds it in `index.html`, so the page stays a single file. Without an image, the header uses a soft gradient.
 
 Generic medicine names, brand names and providers' official names are left untranslated. All other translations were machine-produced and still need review by native speakers. Corrections to `i18n/` are welcome.
 
