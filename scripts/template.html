@@ -9,16 +9,19 @@
 :root {
   --bg: #F3F5F7; --surface: #FFFFFF; --ink: #15202B; --muted: #5A6774; --line: #DAE0E6; --soft: #E9EDF1;
   --hiv: #C8102E; --adhd: #C2600A; --diabetes: #1C64C8; --warn: #8A5A00; --warn-bg: #FFF2D6;
+  --prov: #0E7C6B; --ok: #1F7A35; --ok-bg: #E2F3E6; --alert: #A3122A; --alert-bg: #FDE8EB;
   --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
   --body: "Public Sans", "Helvetica Neue", Arial, system-ui, sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0E141A; --surface: #151D25; --ink: #E5EBF0; --muted: #94A2AF; --line: #27323D; --soft: #1C2630;
-  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10; color-scheme: dark; } }
+  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10;
+  --prov: #3CC8AE; --ok: #7BD88F; --ok-bg: #173322; --alert: #FF8A99; --alert-bg: #3A1520; color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #0E141A; --surface: #151D25; --ink: #E5EBF0; --muted: #94A2AF; --line: #27323D; --soft: #1C2630;
-  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10; color-scheme: dark; }
+  --hiv: #FF6070; --adhd: #F39B47; --diabetes: #6AA6FF; --warn: #F2C46B; --warn-bg: #3A2C10;
+  --prov: #3CC8AE; --ok: #7BD88F; --ok-bg: #173322; --alert: #FF8A99; --alert-bg: #3A1520; color-scheme: dark; }
 
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--ink); font: 15px/1.55 var(--body); margin: 0; }
@@ -110,15 +113,76 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); max-width: 70ch; }
 @media (prefers-reduced-motion: no-preference) { .label { animation: rise .25s ease-out; } }
 @keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
+
+/* section nav (Medicines / Providers) */
+.nav { display: inline-flex; gap: 4px; padding: 4px; background: var(--soft); border-radius: 10px; margin: 4px 0 18px; max-width: 100%; }
+.nav a { text-decoration: none; padding: 7px 14px; border-radius: 7px; font-weight: 600; font-size: 14px; color: var(--muted); white-space: nowrap; }
+.nav a span { font-family: var(--mono); font-weight: 400; font-size: 12px; margin-left: 6px; }
+.nav a[aria-current="page"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgb(0 0 0 / .08); }
+
+/* providers */
+.alert { background: var(--alert-bg); border-left: 4px solid var(--alert); border-radius: 8px; padding: 14px 16px; margin-bottom: 12px; }
+.alert strong { color: var(--alert); }
+.alert p { margin: 4px 0 10px; max-width: 70ch; }
+.btn { font: 600 14px var(--body); padding: 7px 12px; border-radius: 8px; border: 1px solid currentColor; background: var(--surface); color: var(--ink); cursor: pointer; text-decoration: none; display: inline-flex; gap: 6px; align-items: center; }
+.btn:hover { border-color: var(--c, var(--ink)); }
+.notice { background: var(--warn-bg); border-radius: 8px; padding: 10px 14px; font-size: 14px; margin-bottom: 16px; }
+.svc-filter { display: flex; flex-wrap: wrap; gap: 6px; }
+.fchip { font: 500 13.5px var(--body); padding: 6px 12px; border-radius: 99px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.fchip:hover { border-color: var(--muted); }
+.fchip[aria-pressed="true"] { background: var(--prov); border-color: var(--prov); color: #fff; }
+:root[data-theme="dark"] .fchip[aria-pressed="true"] { color: #0E141A; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fchip[aria-pressed="true"] { color: #0E141A; } }
+.select { padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: inherit; max-width: 100%; }
+.legend { font-size: 13px; color: var(--muted); margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
+.prow { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) 300px; gap: 4px 16px; align-items: center;
+  padding: 11px 8px; border-bottom: 1px solid var(--line); text-decoration: none; border-radius: 6px; }
+.prow:hover { background: var(--soft); }
+.prow .nm { min-width: 0; }
+.prow .nm b { font-weight: 600; display: block; }
+.prow .th { color: var(--muted); font-size: 13px; }
+.prow .where { color: var(--muted); font-size: 13.5px; min-width: 0; }
+.prow .badges { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; }
+@media (max-width: 640px) { .prow { grid-template-columns: minmax(0, 1fr); } .prow .badges { justify-content: flex-start; } }
+.sb { font-family: var(--mono); font-size: 10.5px; letter-spacing: .04em; padding: 2px 6px; border-radius: 4px; border: 1px solid var(--prov); color: var(--prov); white-space: nowrap; }
+.sb.solid { background: var(--prov); color: var(--surface); }
+.sb.net { border-style: dashed; }
+.vstat { font-family: var(--mono); font-size: 10.5px; letter-spacing: .06em; text-transform: uppercase; padding: 2px 7px; border-radius: 99px; white-space: nowrap; }
+.vstat.unverified, .vstat.needs_review { color: var(--warn); background: var(--warn-bg); }
+.vstat.verified { color: var(--ok); background: var(--ok-bg); }
+.vstat.closed { color: var(--muted); background: var(--soft); text-decoration: line-through; }
+.svc-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); }
+.svc-list li { display: flex; gap: 10px; align-items: flex-start; padding: 12px 24px; border-bottom: 1px solid var(--line); min-width: 0; }
+.svc-list li:nth-child(odd) { border-right: 1px solid var(--line); }
+.svc-list .ic { font-family: var(--mono); font-weight: 600; width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; flex: none; font-size: 12px; }
+.ic.yes { background: var(--prov); color: var(--surface); }
+.ic.net { border: 1.5px dashed var(--prov); color: var(--prov); }
+.ic.no { background: var(--soft); color: var(--muted); }
+.ic.unk { border: 1.5px solid var(--line); color: var(--muted); }
+.svc-list b { display: block; font-weight: 600; }
+.svc-list small { color: var(--muted); font-size: 13px; }
+@media (max-width: 560px) { .svc-list { grid-template-columns: minmax(0, 1fr); } .svc-list li:nth-child(odd) { border-right: 0; } .svc-list li { padding-left: 18px; padding-right: 18px; } }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 24px 20px; }
+@media (max-width: 560px) { .actions { padding-left: 18px; padding-right: 18px; } }
+.vbox { border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-top: 20px; background: var(--surface); font-size: 14px; }
+.vbox dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 8px 0; }
+.vbox dt { color: var(--muted); }
+.vbox dd { margin: 0; }
+.src ul { margin: 6px 0 0; padding-left: 18px; }
+.src li { margin: 2px 0; }
 </style>
 
 <div class="wrap">
   <main id="app"></main>
-  <footer>For general reference only, not medical advice. Brand availability and labeling change; always check the current FDA label and talk with a clinician or pharmacist. HIV data from NIH HIVinfo (reviewed Sept 2026). ADHD and diabetes approval years from FDA records; verify before publishing.</footer>
+  <footer>For general reference only, not medical advice. Brand availability and labeling change; always check the current FDA label and talk with a clinician or pharmacist. HIV data from NIH HIVinfo (reviewed Sept 2026). ADHD and diabetes approval years from FDA records; verify before publishing. Provider details change often; call before you visit.
+  <br><span id="release"></span></footer>
 </div>
 
 <script>
 const DRUGS = __DATA__;
+const PROVIDERS = __PROVIDERS__;
+const RELEASE = __RELEASE__;
+const REPO = "https://github.com/nr1webdevelopment/pocket-formulary";
 const COND = {
   hiv: { name: "HIV", sym: "ribbon", blurb: "Antiretroviral medicines for HIV treatment and prevention (PrEP)." },
   adhd: { name: "ADHD", sym: "ribbon", blurb: "Stimulant and non-stimulant medicines for attention-deficit/hyperactivity disorder." },
@@ -131,7 +195,7 @@ const SYM = {
 };
 const BY = Object.fromEntries(DRUGS.map(d => [d.slug, d]));
 const state = { cond: "all", q: "", hideDisc: false };
-let listScroll = 0;
+const scrollMem = { med: 0, prov: 0 };
 const app = document.getElementById("app");
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const cvar = c => `--c: var(--${c})`;
@@ -151,6 +215,7 @@ function shell() {
       <h1>Pocket Formulary</h1>
       <p>Brand and generic names, drug classes, approval dates and dosing basics for medicines used in HIV, ADHD and diabetes. Select any medicine to open its profile.</p>
     </header>
+    ${nav("med")}
     <div class="tabs" role="group" aria-label="Condition">
       ${tab("all", "All", "all")}${Object.entries(COND).map(([k, c]) => tab(k, c.name, c.sym)).join("")}
     </div>
@@ -227,6 +292,7 @@ function profile(d) {
         ${d.notes ? `<div class="note"><strong>Note:</strong> ${esc(d.notes)}</div>` : ""}
       </div>
     </article>
+    ${d.condition === "hiv" ? whereToGet(d) : ""}
     ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>Same category</h3>
       <div class="rel">${related.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div></section>` : ""}
     <p class="src">Source: <a href="${d.source}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
@@ -236,15 +302,215 @@ function profile(d) {
 
 function route() {
   const h = decodeURIComponent(location.hash.slice(1));
-  if (BY[h]) {
-    if (document.getElementById("list")) listScroll = window.scrollY;
+  const onList = document.getElementById("list") || document.getElementById("plist");
+  if (onList) scrollMem[document.getElementById("plist") ? "prov" : "med"] = window.scrollY;
+  if (h.startsWith("provider/") && PBY[h.slice(9)]) {
+    providerProfile(PBY[h.slice(9)]);
+  } else if (h === "providers" || h.startsWith("providers/")) {
+    const preset = h.split("/")[1];
+    if (preset && SVC[preset]) { pstate.svc = new Set([preset]); scrollMem.prov = 0; }
+    providerShell();
+    window.scrollTo(0, scrollMem.prov);
+  } else if (BY[h]) {
     profile(BY[h]);
   } else {
     if (COND[h] || h === "all") state.cond = h;
     shell();
-    window.scrollTo(0, listScroll);
+    window.scrollTo(0, scrollMem.med);
   }
 }
+
+/* ---------------- providers ---------------- */
+const PBY = Object.fromEntries(PROVIDERS.map(p => [p.id, p]));
+const SVC = {
+  hivTesting: { label: "HIV testing", short: "Test" },
+  prep: { label: "PrEP", short: "PrEP", hint: "Daily or on-demand pills, or injections, that prevent HIV" },
+  pep: { label: "PEP", short: "PEP", hint: "Emergency medicine after a possible exposure. Must start within 72 hours" },
+  art: { label: "HIV treatment (ART)", short: "ART" },
+  stiTesting: { label: "STI testing", short: "STI" },
+  genderAffirmingHormones: { label: "Gender-affirming hormones", short: "Hormones" },
+};
+const FILTER_SVC = ["hivTesting", "prep", "pep", "art", "genderAffirmingHormones"];
+const ROW_SVC = ["hivTesting", "prep", "pep", "art"];
+const TYPE = { public_hospital: "Public hospital", bma_health_centre: "BMA public health centre", ngo_clinic: "Non-profit clinic",
+  key_population_clinic: "Community clinic", private_hospital: "Private hospital", private_clinic: "Private clinic" };
+const FOCUS = { general: "Everyone", lgbtqia: "LGBTQIA+", msm: "Gay, bi and other men who have sex with men", transgender: "Trans people",
+  sex_workers: "Sex workers", youth: "Young people", migrants: "Migrants", people_who_use_drugs: "People who use drugs" };
+const COST = { free: "Free", low_cost: "Low cost", fee: "Fees apply", mixed: "Free and paid services" };
+const VSTAT = { unverified: "Not yet confirmed", verified: "Verified", needs_review: "Needs review", closed: "Closed" };
+const AREAS = ["Central Bangkok", "North Bangkok", "South Bangkok", "East Bangkok", "North Thonburi", "South Thonburi"];
+const pstate = { svc: new Set(), focus: "any", q: "" };
+
+function nav(active) {
+  return `<nav class="nav" aria-label="Sections">
+    <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>Medicines<span>${DRUGS.length}</span></a>
+    <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>Bangkok providers<span>${PROVIDERS.length}</span></a></nav>`;
+}
+const fmtISO = a => a ? fmtDate(a) : "—";
+function tel(p) {
+  let n = p.split(/\s*ext|,/i)[0].replace(/-\d+$/, "");
+  const d = n.replace(/\D/g, "");
+  return d.length <= 5 ? d : "+66" + d.replace(/^0/, "");
+}
+const where = p => p.location.district || p.location.area || "Bangkok";
+const vpill = p => `<span class="vstat ${p.verification.status}">${VSTAT[p.verification.status]}</span>`;
+
+function providerShell() {
+  const nVer = PROVIDERS.filter(p => p.verification.status === "verified").length;
+  app.innerHTML = `
+    <header class="mast">
+      <span class="rx">HIV services · Bangkok, Thailand</span>
+      <h1>Pocket Formulary</h1>
+      <p>Clinics and hospitals in Bangkok offering HIV testing, PrEP, PEP and treatment. Select a provider for its address, phone, hours and sources.</p>
+    </header>
+    ${nav("prov")}
+    <div class="alert" role="note">
+      <strong>Possible exposure to HIV in the last 72 hours?</strong>
+      <p>PEP has to be started within 72 hours, and the sooner the better. Go to a clinic that lists PEP or to a hospital emergency department.</p>
+      <button class="btn" id="show-pep" style="--c: var(--alert)">Show providers that list PEP</button>
+    </div>
+    <p class="notice">${nVer === 0
+      ? `<strong>None of these listings has been confirmed by phone yet.</strong> They come from each provider's own website or official Bangkok Metropolitan Administration (BMA) announcements. Call before you go.`
+      : `<strong>${nVer} of ${PROVIDERS.length} listings confirmed by phone.</strong> The rest come from provider websites or official BMA announcements. Call before you go.`}</p>
+    <div class="tools">
+      <input id="pq" class="search" type="search" placeholder="Search name, district or area (English or Thai)" aria-label="Search providers" value="${esc(pstate.q)}">
+      <select id="focus" class="select" aria-label="Specialist focus">
+        <option value="any">Any specialist focus</option>
+        ${["lgbtqia", "msm", "transgender", "sex_workers"].map(k => `<option value="${k}" ${pstate.focus === k ? "selected" : ""}>Focus: ${FOCUS[k]}</option>`).join("")}
+      </select>
+    </div>
+    <div class="svc-filter" role="group" aria-label="Services">
+      ${FILTER_SVC.map(k => `<button class="fchip" data-svc="${k}" aria-pressed="${pstate.svc.has(k)}">${SVC[k].label}</button>`).join("")}
+    </div>
+    <p class="legend"><span><span class="sb solid">PrEP</span> listed by the provider</span><span><span class="sb net">PrEP</span> listed for the whole BKK Pride Clinic network, so check with the site</span></p>
+    <div id="plist"></div>`;
+  app.querySelectorAll(".fchip").forEach(b => b.addEventListener("click", () => {
+    const k = b.dataset.svc;
+    pstate.svc.has(k) ? pstate.svc.delete(k) : pstate.svc.add(k);
+    b.setAttribute("aria-pressed", pstate.svc.has(k));
+    renderProviders();
+  }));
+  document.getElementById("show-pep").addEventListener("click", () => {
+    pstate.svc = new Set(["pep"]);
+    app.querySelectorAll(".fchip").forEach(x => x.setAttribute("aria-pressed", x.dataset.svc === "pep"));
+    renderProviders();
+    document.getElementById("plist").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  const q = document.getElementById("pq");
+  q.addEventListener("input", () => { pstate.q = q.value; renderProviders(); });
+  document.getElementById("focus").addEventListener("change", e => { pstate.focus = e.target.value; renderProviders(); });
+  renderProviders();
+}
+
+function renderProviders() {
+  const q = pstate.q.trim().toLowerCase();
+  const hit = PROVIDERS.filter(p =>
+    [...pstate.svc].every(k => p.services[k] === true) &&
+    (pstate.focus === "any" || p.populationFocus.includes(pstate.focus)) &&
+    (!q || [p.name.en, p.name.th, p.organization, p.network, p.location.district, p.location.area, p.location.address.en, p.location.address.th]
+      .filter(Boolean).join(" ").toLowerCase().includes(q)));
+  const clinics = hit.filter(p => !p.network).sort((a, b) => a.name.en.localeCompare(b.name.en));
+  const net = hit.filter(p => p.network);
+  let html = "";
+  if (clinics.length) html += `<section class="cond-block" style="--c: var(--prov)">
+      <div class="cond-h"><h2>Clinics and hospitals</h2><span class="n">${clinics.length}</span></div>
+      <div class="rows" style="margin-top:6px">${clinics.map(prow).join("")}</div></section>`;
+  if (net.length) {
+    html += `<section class="cond-block" style="--c: var(--prov)">
+      <div class="cond-h"><h2>BKK Pride Clinic network</h2><span class="n">${net.length}</span></div>
+      <p class="blurb">Run by the Bangkok Metropolitan Administration in city hospitals and public health centres. PrEP and PEP are listed as free. Opening hours aren't published, so phone first.</p>
+      ${AREAS.map(a => {
+        const items = net.filter(p => p.location.area === a).sort((x, y) => x.name.en.localeCompare(y.name.en));
+        return items.length ? `<div class="grp-h"><span>${a}</span><span>· ${items.length}</span></div><div class="rows">${items.map(prow).join("")}</div>` : "";
+      }).join("")}</section>`;
+  }
+  document.getElementById("plist").innerHTML = html ||
+    `<p class="empty">No providers match these filters. Try removing a service filter or clearing the search.</p>`;
+}
+
+function prow(p) {
+  const nm = p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en;
+  const badges = ROW_SVC.filter(k => p.services[k] === true)
+    .map(k => `<span class="sb ${p.services.basis === "site" ? "solid" : "net"}">${SVC[k].short}</span>`).join("");
+  const sub = p.network ? (p.location.locationNote || TYPE[p.type]) : `${TYPE[p.type]} · ${where(p)}`;
+  return `<a class="prow" href="#provider/${p.id}">
+    <span class="nm"><b>${esc(nm)}</b>${p.name.th ? `<span class="th">${esc(p.name.th.replace(/ \(BKK Pride Clinic\)$/, ""))}</span>` : ""}</span>
+    <span class="where">${esc(sub)}</span>
+    <span class="badges">${badges}${vpill(p)}</span></a>`;
+}
+
+function providerProfile(p) {
+  const s = p.services, L = p.location, C = p.contact;
+  const svcItem = k => {
+    const v = s[k];
+    const [cls, ic, txt] = v === true ? (s.basis === "site" ? ["yes", "✓", "Listed by the provider"] : ["net", "✓", "Listed for the network; check with this site"])
+      : v === false ? ["no", "✕", "Not offered"] : ["unk", "?", "Not confirmed. Ask when you call"];
+    return `<li><span class="ic ${cls}" aria-hidden="true">${ic}</span><span><b>${SVC[k].label}</b><small>${txt}</small></span></li>`;
+  };
+  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent([p.name.en.replace(/ — BKK Pride Clinic$/, ""), L.address.en, "Bangkok"].filter(Boolean).join(", "));
+  const facts = [
+    ["Address", [L.address.en, L.address.th].filter(Boolean).join("\n") || "Not published. Ask when you call"],
+    ["Where in the building", L.locationNote], ["Nearest transit", L.nearestTransit],
+    ["Opening hours", p.hours || "Not published. Call first"],
+    ["Cost", COST[p.access.cost] || "Not confirmed"],
+    ["Who it's for", p.populationFocus.map(f => FOCUS[f]).join(", ")],
+    ["Walk-ins", p.access.walkIn === true ? "Yes" : p.access.walkIn === false ? "Appointment needed" : "Not confirmed"],
+    ["Serves foreigners", p.access.foreignersAccepted === true ? "Yes" : p.access.foreignersAccepted === false ? "No" : "Not confirmed"],
+    ["Languages", p.access.languages.join(", ") || "Not confirmed"],
+    ["Run by", p.network ? `${p.organization}, ${p.network} network` : p.organization],
+  ].filter(([, v]) => v);
+  if (facts.length % 2) facts.push(["Type", TYPE[p.type]]);
+  const prepMeds = s.prep ? DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))) : [];
+  const issue = `${REPO}/issues/new?title=${encodeURIComponent("Correction: " + p.id)}&body=${encodeURIComponent("What's wrong or out of date?\n\n")}`;
+  app.innerHTML = `
+    <a class="back" href="#providers">← All Bangkok providers</a>
+    <article class="label" style="--c: var(--prov)">
+      <div class="label-top">
+        <span class="eyebrow">${esc(TYPE[p.type])} · ${esc(L.area || L.district || "Bangkok")}</span>
+        <h1>${esc(p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en)}</h1>
+        ${p.name.th ? `<div class="generic">${esc(p.name.th.replace(/ \(BKK Pride Clinic\)$/, ""))}</div>` : ""}
+        <div class="chips">${vpill(p)}${p.network ? `<span class="chip">${esc(p.network)}</span>` : ""}${p.access.cost ? `<span class="chip">${COST[p.access.cost]}</span>` : ""}</div>
+      </div>
+      <div class="actions">
+        ${C.phone.map(ph => `<a class="btn" href="tel:${tel(ph)}">Call ${esc(ph)}</a>`).join("")}
+        ${C.line ? `<a class="btn" href="https://line.me/R/ti/p/${encodeURIComponent(C.line)}" target="_blank" rel="noopener">LINE ${esc(C.line)}</a>` : ""}
+        ${C.booking ? `<a class="btn" href="${esc(C.booking)}" target="_blank" rel="noopener">Book online</a>` : ""}
+        ${C.website ? `<a class="btn" href="${esc(C.website)}" target="_blank" rel="noopener">Website</a>` : ""}
+        ${C.email ? `<a class="btn" href="mailto:${esc(C.email)}">Email</a>` : ""}
+        <a class="btn" href="${maps}" target="_blank" rel="noopener">Directions</a>
+      </div>
+      <ul class="svc-list" aria-label="Services">${Object.keys(SVC).map(svcItem).join("")}</ul>
+      <dl class="facts">${facts.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd style="white-space:pre-line">${esc(v)}</dd></div>`).join("")}</dl>
+      ${s.note || p.notes ? `<div class="about">${s.note ? `<div class="note"><strong>About these services:</strong> ${esc(s.note)}</div>` : ""}${p.notes ? `<p>${esc(p.notes)}</p>` : ""}</div>` : ""}
+    </article>
+    ${prepMeds.length ? `<section class="related" style="--c: var(--hiv)"><h3>PrEP medicines</h3>
+      <div class="rel">${prepMeds.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div>
+      <p class="blurb">US-approved PrEP medicines. Ask the clinic which ones it stocks.</p></section>` : ""}
+    <div class="vbox">
+      <strong>Verification</strong> ${vpill(p)}
+      <dl>
+        <dt>Source checked</dt><dd>${fmtISO(p.verification.sourceChecked)}</dd>
+        <dt>Confirmed with provider</dt><dd>${p.verification.lastVerified ? `${fmtISO(p.verification.lastVerified)} by ${esc(p.verification.method)}` : "Not yet"}</dd>
+        ${p.verification.nextReviewDue ? `<dt>Next check due</dt><dd>${fmtISO(p.verification.nextReviewDue)}</dd>` : ""}
+      </dl>
+      <a href="${issue}" target="_blank" rel="noopener">Something wrong or out of date? Report it</a>
+    </div>
+    <div class="src">Sources:<ul>${p.sources.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.publisher ? ` · ${esc(x.publisher)}` : ""}</li>`).join("")}</ul></div>`;
+  window.scrollTo(0, 0);
+}
+
+function whereToGet(d) {
+  const used = ((d.extra || []).find(e => e[0] === "Used for") || [])[1] || "";
+  const links = [];
+  if (/PrEP/.test(used)) links.push(["prep", "PrEP", PROVIDERS.filter(p => p.services.prep === true).length]);
+  if (/Treatment/.test(used)) links.push(["art", "HIV treatment (ART)", PROVIDERS.filter(p => p.services.art === true).length]);
+  if (!links.length) return "";
+  return `<section class="related" style="--c: var(--prov)"><h3>Where to get HIV care in Bangkok</h3>
+    <div class="rel">${links.map(([k, l, n]) => `<a href="#providers/${k}">${l} providers <span>${n}</span></a>`).join("")}</div>
+    <p class="blurb">Ask the provider which brands it stocks. Thailand's public programmes often use generic versions.</p></section>`;
+}
+
+document.getElementById("release").innerHTML = `Data v${esc(RELEASE.version)}, released ${fmtISO(RELEASE.released)}. <a href="${REPO}#download-the-latest-data">Download the data</a>.`;
 window.addEventListener("hashchange", route);
 route();
 </script>

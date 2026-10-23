@@ -85,7 +85,20 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to verify a provider and how to a
 
 ## Website
 
-`index.html` is a self-contained reference site for the medicines (no server needed). Rebuild it with `python3 scripts/site_data.py && python3 scripts/build_site.py`. The medicine CSVs in `data/` can also be imported straight into the Framer CMS.
+`index.html` is a self-contained reference site (no server needed). It has two sections:
+
+- **Medicines** (`index.html#biktarvy`): a profile for each medicine. HIV medicines link to Bangkok providers.
+- **Bangkok providers** (`index.html#providers`): filter by service (HIV testing, PrEP, PEP, ART, hormones), focus or search, with a PEP shortcut. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call, LINE, directions, a service checklist, verification status, sources and a "report a problem" link. `#providers/prep` opens the list pre-filtered.
+
+Rebuild after any data change:
+
+```bash
+python3 scripts/site_data.py     # medicines -> data/drugs.json
+python3 scripts/build_dist.py    # providers + medicines -> dist/v1/
+python3 scripts/build_site.py    # -> index.html
+```
+
+The medicine CSVs in `data/` can also be imported straight into the Framer CMS.
 
 ## Sources
 
