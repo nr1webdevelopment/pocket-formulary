@@ -31,9 +31,9 @@ def hero_css():
             print(f"hero image: {os.path.basename(path)} -> {im.size[0]}x{im.size[1]} WebP, {len(buf.getvalue())//1024} KB")
             return 'url("data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode() + '")'
     print("hero image: none found in assets/, using gradient placeholder")
-    return ("radial-gradient(60% 90% at 85% 30%, #9FE3D6 0%, transparent 70%), "
-            "radial-gradient(45% 70% at 65% 95%, #BFD7FF 0%, transparent 70%), "
-            "radial-gradient(35% 60% at 98% 85%, #FFD9B5 0%, transparent 70%), #EEF6F4")
+    return ("radial-gradient(60% 90% at 85% 30%, #F4C7C9 0%, transparent 70%), "
+            "radial-gradient(45% 70% at 65% 95%, #E3E6EA 0%, transparent 70%), "
+            "radial-gradient(35% 60% at 98% 85%, #FFDCC8 0%, transparent 70%), #F7F1F1")
 
 
 def js(x):
