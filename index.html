@@ -185,9 +185,17 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 .langsel svg { width: 18px; height: 18px; }
 .langsel select { font: 500 14px var(--body); padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.citybar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 12px; }
-.citylabel { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
-.citysel { flex: 1 1 280px; font-weight: 600; }
+.citybar { margin: 0 0 16px; padding: 0; border: 0; }
+.citylabel { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 0; margin-bottom: 8px; }
+.cityregion { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-bottom: 8px; }
+.cityregion .rlabel { flex: 0 0 auto; min-width: 84px; font-size: 13px; color: var(--muted); }
+.citychip { display: inline-flex; align-items: baseline; gap: 6px; padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink); text-decoration: none; font-weight: 600; font-size: 14px; line-height: 1.2; }
+.citychip:hover { border-color: var(--ink); }
+.citychip .n { font: 500 12px var(--mono); color: var(--muted); }
+.citychip[aria-current="page"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }
+.citychip[aria-current="page"] .n { color: var(--surface); opacity: .75; }
+.citychip:focus-visible { outline: 2px solid var(--prov); outline-offset: 2px; }
+@media (max-width: 600px) { .cityregion .rlabel { flex-basis: 100%; min-width: 0; font-size: 12px; } }
 .jnote { border: 1px solid var(--diabetes); border-left-width: 4px; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; background: var(--surface); }
 .jnote strong { color: var(--diabetes); }
 .jnote p { margin: 4px 0 0; max-width: 75ch; }
@@ -454,13 +462,11 @@ function providerShell() {
       <h1>${t("siteTitle")}</h1>
       <p>${t("provIntro")}</p>
     </header>
-    <div class="citybar">
-      <label for="city" class="citylabel">${t("cityLabel")}</label>
-      <select id="city" class="select citysel">
-        ${REGIONS.map(([rk, codes]) => `<optgroup label="${esc(t(rk))}">${codes.filter(x => CITIES[x]).map(x =>
-          `<option value="${x}" ${x === pstate.city ? "selected" : ""}>${esc(cityName(x))} — ${esc(tc(CITIES[x].countryName))} (${PROVIDERS.filter(p => p.city === x).length})</option>`).join("")}</optgroup>`).join("")}
-      </select>
-    </div>
+    <nav class="citybar" aria-label="${esc(t("cityLabel"))}">
+      <div class="citylabel">${t("cityLabel")}</div>
+      ${REGIONS.map(([rk, codes]) => `<div class="cityregion"><span class="rlabel">${esc(t(rk))}</span>${codes.filter(x => CITIES[x]).map(x =>
+        `<a class="citychip" href="#providers/${x}/${pstate.cond}" ${x === pstate.city ? 'aria-current="page"' : ""} title="${esc(tc(CITIES[x].countryName))}">${esc(cityName(x))}<span class="n">${PROVIDERS.filter(p => p.city === x).length}</span></a>`).join("")}</div>`).join("")}
+    </nav>
     <div class="tabs" role="group" style="grid-template-columns: repeat(3, minmax(0, 1fr))">${Object.keys(PCOND).map(ptab).join("")}</div>
     ${jn ? `<div class="jnote" role="note"><strong>${t("jurisdictionTitle")}</strong><p>${esc(tc(jn.text))}</p></div>` : ""}
     ${c === "hiv" ? `<div class="alert" role="note"><strong>${t("pepTitle")}</strong><p>${t("pepBody")}</p>
@@ -483,7 +489,6 @@ function providerShell() {
     <p class="legend"><span><span class="sb solid">${esc(svcShort(PCOND[c].row[0]))}</span> ${t("legendSite")}</span><span><span class="sb net">${esc(svcShort(PCOND[c].row[0]))}</span> ${t("legendOther")}</span></p>
     <div id="plist"></div>`;
   app.querySelectorAll("[data-pcond]").forEach(b => b.addEventListener("click", () => { location.hash = `providers/${pstate.city}/${b.dataset.pcond}`; }));
-  document.getElementById("city").addEventListener("change", e => { location.hash = `providers/${e.target.value}/${pstate.cond}`; });
   app.querySelectorAll(".fchip").forEach(b => b.addEventListener("click", () => {
     const k = b.dataset.svc;
     pstate.svc.has(k) ? pstate.svc.delete(k) : pstate.svc.add(k);
