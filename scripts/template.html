@@ -292,7 +292,7 @@ function profile(d) {
         ${d.notes ? `<div class="note"><strong>Note:</strong> ${esc(d.notes)}</div>` : ""}
       </div>
     </article>
-    ${d.condition === "hiv" ? whereToGet(d) : ""}
+    ${whereToGet(d)}
     ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>Same category</h3>
       <div class="rel">${related.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div></section>` : ""}
     <p class="src">Source: <a href="${d.source}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
@@ -307,8 +307,9 @@ function route() {
   if (h.startsWith("provider/") && PBY[h.slice(9)]) {
     providerProfile(PBY[h.slice(9)]);
   } else if (h === "providers" || h.startsWith("providers/")) {
-    const preset = h.split("/")[1];
-    if (preset && SVC[preset]) { pstate.svc = new Set([preset]); scrollMem.prov = 0; }
+    const seg = h.split("/")[1];
+    if (PCOND[seg]) { if (pstate.cond !== seg) { pstate.cond = seg; pstate.svc = new Set(); scrollMem.prov = 0; } }
+    else if (SVC[seg]) { pstate.cond = SVC[seg].cond; pstate.svc = new Set([seg]); scrollMem.prov = 0; }
     providerShell();
     window.scrollTo(0, scrollMem.prov);
   } else if (BY[h]) {
@@ -323,23 +324,42 @@ function route() {
 /* ---------------- providers ---------------- */
 const PBY = Object.fromEntries(PROVIDERS.map(p => [p.id, p]));
 const SVC = {
-  hivTesting: { label: "HIV testing", short: "Test" },
-  prep: { label: "PrEP", short: "PrEP", hint: "Daily or on-demand pills, or injections, that prevent HIV" },
-  pep: { label: "PEP", short: "PEP", hint: "Emergency medicine after a possible exposure. Must start within 72 hours" },
-  art: { label: "HIV treatment (ART)", short: "ART" },
-  stiTesting: { label: "STI testing", short: "STI" },
-  genderAffirmingHormones: { label: "Gender-affirming hormones", short: "Hormones" },
+  hivTesting: { cond: "hiv", label: "HIV testing", short: "Test" },
+  prep: { cond: "hiv", label: "PrEP", short: "PrEP" },
+  pep: { cond: "hiv", label: "PEP", short: "PEP" },
+  art: { cond: "hiv", label: "HIV treatment (ART)", short: "ART" },
+  stiTesting: { cond: "hiv", label: "STI testing", short: "STI" },
+  genderAffirmingHormones: { cond: "hiv", label: "Gender-affirming hormones", short: "Hormones" },
+  adhdAssessmentChildren: { cond: "adhd", label: "Assessment: children and teens", filter: "Children and teens", short: "Child" },
+  adhdAssessmentAdults: { cond: "adhd", label: "Assessment: adults", filter: "Adults", short: "Adult" },
+  adhdMedication: { cond: "adhd", label: "Prescribes ADHD medication", filter: "Prescribes medication", short: "Meds" },
+  diabetesCare: { cond: "diabetes", label: "Diabetes care: adults", filter: "Adults", short: "Adult" },
+  diabetesCareChildren: { cond: "diabetes", label: "Diabetes care: children", filter: "Children", short: "Child" },
+  endocrinologist: { cond: "diabetes", label: "Endocrinologist", short: "Endo" },
+  insulinPump: { cond: "diabetes", label: "Insulin pump", short: "Pump" },
+  cgm: { cond: "diabetes", label: "Continuous glucose monitoring (CGM)", filter: "CGM", short: "CGM" },
+  diabetesEducation: { cond: "diabetes", label: "Diabetes education", short: "Edu" },
+  diabeticFootCare: { cond: "diabetes", label: "Diabetic foot care", filter: "Foot care", short: "Foot" },
 };
-const FILTER_SVC = ["hivTesting", "prep", "pep", "art", "genderAffirmingHormones"];
-const ROW_SVC = ["hivTesting", "prep", "pep", "art"];
+const PCOND = {
+  hiv: { name: "HIV", sym: "ribbon", filter: ["hivTesting", "prep", "pep", "art", "genderAffirmingHormones"], row: ["hivTesting", "prep", "pep", "art"],
+         blurb: "HIV testing, PrEP, PEP and treatment." },
+  adhd: { name: "ADHD", sym: "ribbon", filter: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"], row: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"],
+          blurb: "ADHD assessment and medication for children and adults." },
+  diabetes: { name: "Diabetes", sym: "circle", filter: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm", "diabetesEducation", "diabeticFootCare"], row: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm"],
+              blurb: "Specialist diabetes and endocrine centres." },
+};
 const TYPE = { public_hospital: "Public hospital", bma_health_centre: "BMA public health centre", ngo_clinic: "Non-profit clinic",
   key_population_clinic: "Community clinic", private_hospital: "Private hospital", private_clinic: "Private clinic" };
-const FOCUS = { general: "Everyone", lgbtqia: "LGBTQIA+", msm: "Gay, bi and other men who have sex with men", transgender: "Trans people",
+const FOCUS = { general: "Everyone", children: "Children and teens", lgbtqia: "LGBTQIA+", msm: "Gay, bi and other men who have sex with men", transgender: "Trans people",
   sex_workers: "Sex workers", youth: "Young people", migrants: "Migrants", people_who_use_drugs: "People who use drugs" };
 const COST = { free: "Free", low_cost: "Low cost", fee: "Fees apply", mixed: "Free and paid services" };
 const VSTAT = { unverified: "Not yet confirmed", verified: "Verified", needs_review: "Needs review", closed: "Closed" };
 const AREAS = ["Central Bangkok", "North Bangkok", "South Bangkok", "East Bangkok", "North Thonburi", "South Thonburi"];
-const pstate = { svc: new Set(), focus: "any", q: "" };
+const THAI_CONSULATE = "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf";
+const pstate = { cond: "hiv", svc: new Set(), focus: "any", q: "" };
+const inCond = c => PROVIDERS.filter(p => p.conditions.includes(c));
+const isPublic = p => ["government_national", "government_bma", "red_cross", "university", "ngo"].includes(p.operator);
 
 function nav(active) {
   return `<nav class="nav" aria-label="Sections">
@@ -354,43 +374,65 @@ function tel(p) {
 }
 const where = p => p.location.district || p.location.area || "Bangkok";
 const vpill = p => `<span class="vstat ${p.verification.status}">${VSTAT[p.verification.status]}</span>`;
+const cleanName = p => p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en;
+const cleanTh = p => (p.name.th || "").replace(/ \(BKK Pride Clinic\)$/, "");
 
-function providerShell() {
-  const nVer = PROVIDERS.filter(p => p.verification.status === "verified").length;
-  app.innerHTML = `
-    <header class="mast">
-      <span class="rx">HIV services · Bangkok, Thailand</span>
-      <h1>Pocket Formulary</h1>
-      <p>Clinics and hospitals in Bangkok offering HIV testing, PrEP, PEP and treatment. Select a provider for its address, phone, hours and sources.</p>
-    </header>
-    ${nav("prov")}
-    <div class="alert" role="note">
+function condBanner(c) {
+  if (c === "hiv") return `<div class="alert" role="note">
       <strong>Possible exposure to HIV in the last 72 hours?</strong>
       <p>PEP has to be started within 72 hours, and the sooner the better. Go to a clinic that lists PEP or to a hospital emergency department.</p>
-      <button class="btn" id="show-pep" style="--c: var(--alert)">Show providers that list PEP</button>
+      <button class="btn" id="show-pep" style="--c: var(--alert)">Show providers that list PEP</button></div>`;
+  if (c === "adhd") return `<div class="notice" style="background:var(--soft)"><strong>ADHD medicines in Thailand.</strong>
+      Amphetamine-based medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand. They aren't available and can't be brought in.
+      Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine and needs a prescription from a doctor in Thailand. The rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel.
+      <a href="${THAI_CONSULATE}" target="_blank" rel="noopener">Source: Royal Thai Consulate-General, Perth (2016)</a></div>`;
+  return `<div class="notice" style="background:var(--soft)"><strong>Specialist centres only, so far.</strong>
+      Routine diabetes care is also available at public hospitals and Bangkok Metropolitan Administration (BMA) public health centres, usually covered by Thai public health insurance. Those aren't listed here yet.</div>`;
+}
+
+function providerShell() {
+  const c = pstate.cond, list = inCond(c);
+  const nVer = list.filter(p => p.verification.status === "verified").length;
+  const ptab = k => `<button class="tab" data-pcond="${k}" aria-pressed="${c === k}" style="${cvar(k)}">
+      <span class="t" style="color:var(--${k})">${SYM[PCOND[k].sym]}<span style="color:var(--ink)">${PCOND[k].name}</span></span>
+      <span class="n">${inCond(k).length} providers</span></button>`;
+  app.innerHTML = `
+    <header class="mast">
+      <span class="rx">Care providers · Bangkok, Thailand</span>
+      <h1>Pocket Formulary</h1>
+      <p>Clinics and hospitals in Bangkok for HIV, ADHD and diabetes care. Select a provider for its address, phone, hours and sources.</p>
+    </header>
+    ${nav("prov")}
+    <div class="tabs" role="group" aria-label="Condition" style="grid-template-columns: repeat(3, minmax(0, 1fr))">
+      ${Object.keys(PCOND).map(ptab).join("")}
     </div>
+    ${condBanner(c)}
     <p class="notice">${nVer === 0
-      ? `<strong>None of these listings has been confirmed by phone yet.</strong> They come from each provider's own website or official Bangkok Metropolitan Administration (BMA) announcements. Call before you go.`
-      : `<strong>${nVer} of ${PROVIDERS.length} listings confirmed by phone.</strong> The rest come from provider websites or official BMA announcements. Call before you go.`}</p>
+      ? `<strong>None of these ${list.length} listings has been confirmed by phone yet.</strong> They come from each provider's own website, official announcements or government lists. Call before you go.`
+      : `<strong>${nVer} of ${list.length} listings confirmed by phone.</strong> The rest come from provider websites or official sources. Call before you go.`}</p>
     <div class="tools">
       <input id="pq" class="search" type="search" placeholder="Search name, district or area (English or Thai)" aria-label="Search providers" value="${esc(pstate.q)}">
-      <select id="focus" class="select" aria-label="Specialist focus">
+      ${c === "hiv" ? `<select id="focus" class="select" aria-label="Specialist focus">
         <option value="any">Any specialist focus</option>
         ${["lgbtqia", "msm", "transgender", "sex_workers"].map(k => `<option value="${k}" ${pstate.focus === k ? "selected" : ""}>Focus: ${FOCUS[k]}</option>`).join("")}
-      </select>
+      </select>` : ""}
     </div>
     <div class="svc-filter" role="group" aria-label="Services">
-      ${FILTER_SVC.map(k => `<button class="fchip" data-svc="${k}" aria-pressed="${pstate.svc.has(k)}">${SVC[k].label}</button>`).join("")}
+      ${PCOND[c].filter.map(k => `<button class="fchip" data-svc="${k}" aria-pressed="${pstate.svc.has(k)}">${SVC[k].filter || SVC[k].label}</button>`).join("")}
     </div>
-    <p class="legend"><span><span class="sb solid">PrEP</span> listed by the provider</span><span><span class="sb net">PrEP</span> listed for the whole BKK Pride Clinic network, so check with the site</span></p>
+    ${c === "hiv"
+      ? `<p class="legend"><span><span class="sb solid">PrEP</span> listed by the provider</span><span><span class="sb net">PrEP</span> listed for the whole BKK Pride Clinic network, so check with the site</span></p>`
+      : `<p class="legend"><span>Badges show services the provider lists:</span>${PCOND[c].row.map(k => `<span><span class="sb solid">${SVC[k].short}</span> ${SVC[k].label}</span>`).join("")}</p>`}
     <div id="plist"></div>`;
+  app.querySelectorAll("[data-pcond]").forEach(b => b.addEventListener("click", () => { location.hash = "providers/" + b.dataset.pcond; }));
   app.querySelectorAll(".fchip").forEach(b => b.addEventListener("click", () => {
     const k = b.dataset.svc;
     pstate.svc.has(k) ? pstate.svc.delete(k) : pstate.svc.add(k);
     b.setAttribute("aria-pressed", pstate.svc.has(k));
     renderProviders();
   }));
-  document.getElementById("show-pep").addEventListener("click", () => {
+  const pep = document.getElementById("show-pep");
+  if (pep) pep.addEventListener("click", () => {
     pstate.svc = new Set(["pep"]);
     app.querySelectorAll(".fchip").forEach(x => x.setAttribute("aria-pressed", x.dataset.svc === "pep"));
     renderProviders();
@@ -398,56 +440,62 @@ function providerShell() {
   });
   const q = document.getElementById("pq");
   q.addEventListener("input", () => { pstate.q = q.value; renderProviders(); });
-  document.getElementById("focus").addEventListener("change", e => { pstate.focus = e.target.value; renderProviders(); });
+  const f = document.getElementById("focus");
+  if (f) f.addEventListener("change", e => { pstate.focus = e.target.value; renderProviders(); });
   renderProviders();
 }
 
 function renderProviders() {
-  const q = pstate.q.trim().toLowerCase();
-  const hit = PROVIDERS.filter(p =>
+  const c = pstate.cond, q = pstate.q.trim().toLowerCase();
+  const hit = inCond(c).filter(p =>
     [...pstate.svc].every(k => p.services[k] === true) &&
-    (pstate.focus === "any" || p.populationFocus.includes(pstate.focus)) &&
+    (c !== "hiv" || pstate.focus === "any" || p.populationFocus.includes(pstate.focus)) &&
     (!q || [p.name.en, p.name.th, p.organization, p.network, p.location.district, p.location.area, p.location.address.en, p.location.address.th]
       .filter(Boolean).join(" ").toLowerCase().includes(q)));
-  const clinics = hit.filter(p => !p.network).sort((a, b) => a.name.en.localeCompare(b.name.en));
-  const net = hit.filter(p => p.network);
+  const byName = (a, b) => a.name.en.localeCompare(b.name.en);
+  const block = (title, items, blurb = "") => items.length ? `<section class="cond-block" style="--c: var(--prov)">
+      <div class="cond-h"><h2>${title}</h2><span class="n">${items.length}</span></div>${blurb}
+      <div class="rows" style="margin-top:6px">${items.sort(byName).map(prow).join("")}</div></section>` : "";
   let html = "";
-  if (clinics.length) html += `<section class="cond-block" style="--c: var(--prov)">
-      <div class="cond-h"><h2>Clinics and hospitals</h2><span class="n">${clinics.length}</span></div>
-      <div class="rows" style="margin-top:6px">${clinics.map(prow).join("")}</div></section>`;
-  if (net.length) {
-    html += `<section class="cond-block" style="--c: var(--prov)">
+  if (c === "hiv") {
+    html += block("Clinics and hospitals", hit.filter(p => !p.network));
+    const net = hit.filter(p => p.network);
+    if (net.length) html += `<section class="cond-block" style="--c: var(--prov)">
       <div class="cond-h"><h2>BKK Pride Clinic network</h2><span class="n">${net.length}</span></div>
       <p class="blurb">Run by the Bangkok Metropolitan Administration in city hospitals and public health centres. PrEP and PEP are listed as free. Opening hours aren't published, so phone first.</p>
       ${AREAS.map(a => {
-        const items = net.filter(p => p.location.area === a).sort((x, y) => x.name.en.localeCompare(y.name.en));
+        const items = net.filter(p => p.location.area === a).sort(byName);
         return items.length ? `<div class="grp-h"><span>${a}</span><span>· ${items.length}</span></div><div class="rows">${items.map(prow).join("")}</div>` : "";
       }).join("")}</section>`;
+  } else {
+    html += block("Public hospitals and institutes", hit.filter(isPublic), `<p class="blurb">Usually lower cost, and may be covered by Thai public health insurance. Expect waiting lists.</p>`);
+    html += block("Private hospitals and clinics", hit.filter(p => !isPublic(p)));
   }
   document.getElementById("plist").innerHTML = html ||
     `<p class="empty">No providers match these filters. Try removing a service filter or clearing the search.</p>`;
 }
 
 function prow(p) {
-  const nm = p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en;
-  const badges = ROW_SVC.filter(k => p.services[k] === true)
-    .map(k => `<span class="sb ${p.services.basis === "site" ? "solid" : "net"}">${SVC[k].short}</span>`).join("");
+  const badges = PCOND[pstate.cond].row.filter(k => p.services[k] === true)
+    .map(k => `<span class="sb ${p.services.basis === "site" ? "solid" : "net"}" title="${esc(SVC[k].label)}">${SVC[k].short}</span>`).join("");
   const sub = p.network ? (p.location.locationNote || TYPE[p.type]) : `${TYPE[p.type]} · ${where(p)}`;
   return `<a class="prow" href="#provider/${p.id}">
-    <span class="nm"><b>${esc(nm)}</b>${p.name.th ? `<span class="th">${esc(p.name.th.replace(/ \(BKK Pride Clinic\)$/, ""))}</span>` : ""}</span>
+    <span class="nm"><b>${esc(cleanName(p))}</b>${p.name.th ? `<span class="th">${esc(cleanTh(p))}</span>` : ""}</span>
     <span class="where">${esc(sub)}</span>
     <span class="badges">${badges}${vpill(p)}</span></a>`;
 }
 
 function providerProfile(p) {
   const s = p.services, L = p.location, C = p.contact;
+  const main = p.conditions.includes(pstate.cond) ? pstate.cond : p.conditions[0];
   const svcItem = k => {
     const v = s[k];
     const [cls, ic, txt] = v === true ? (s.basis === "site" ? ["yes", "✓", "Listed by the provider"] : ["net", "✓", "Listed for the network; check with this site"])
       : v === false ? ["no", "✕", "Not offered"] : ["unk", "?", "Not confirmed. Ask when you call"];
     return `<li><span class="ic ${cls}" aria-hidden="true">${ic}</span><span><b>${SVC[k].label}</b><small>${txt}</small></span></li>`;
   };
-  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent([p.name.en.replace(/ — BKK Pride Clinic$/, ""), L.address.en, "Bangkok"].filter(Boolean).join(", "));
+  const svcKeys = Object.keys(SVC).filter(k => p.conditions.includes(SVC[k].cond) && (k in s));
+  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent([cleanName(p), L.address.en, "Bangkok"].filter(Boolean).join(", "));
   const facts = [
     ["Address", [L.address.en, L.address.th].filter(Boolean).join("\n") || "Not published. Ask when you call"],
     ["Where in the building", L.locationNote], ["Nearest transit", L.nearestTransit],
@@ -460,15 +508,18 @@ function providerProfile(p) {
     ["Run by", p.network ? `${p.organization}, ${p.network} network` : p.organization],
   ].filter(([, v]) => v);
   if (facts.length % 2) facts.push(["Type", TYPE[p.type]]);
-  const prepMeds = s.prep ? DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))) : [];
+  const medLinks = p.conditions.includes("hiv") && s.prep
+    ? { title: "PrEP medicines", items: DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))),
+        note: "US-approved PrEP medicines. Ask the clinic which ones it stocks." }
+    : null;
   const issue = `${REPO}/issues/new?title=${encodeURIComponent("Correction: " + p.id)}&body=${encodeURIComponent("What's wrong or out of date?\n\n")}`;
   app.innerHTML = `
-    <a class="back" href="#providers">← All Bangkok providers</a>
+    <a class="back" href="#providers/${main}">← All Bangkok ${PCOND[main].name} providers</a>
     <article class="label" style="--c: var(--prov)">
       <div class="label-top">
-        <span class="eyebrow">${esc(TYPE[p.type])} · ${esc(L.area || L.district || "Bangkok")}</span>
-        <h1>${esc(p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en)}</h1>
-        ${p.name.th ? `<div class="generic">${esc(p.name.th.replace(/ \(BKK Pride Clinic\)$/, ""))}</div>` : ""}
+        <span class="eyebrow">${p.conditions.map(c => PCOND[c].name).join(" · ")} · ${esc(TYPE[p.type])} · ${esc(L.area || L.district || "Bangkok")}</span>
+        <h1>${esc(cleanName(p))}</h1>
+        ${p.name.th ? `<div class="generic">${esc(cleanTh(p))}</div>` : ""}
         <div class="chips">${vpill(p)}${p.network ? `<span class="chip">${esc(p.network)}</span>` : ""}${p.access.cost ? `<span class="chip">${COST[p.access.cost]}</span>` : ""}</div>
       </div>
       <div class="actions">
@@ -479,13 +530,18 @@ function providerProfile(p) {
         ${C.email ? `<a class="btn" href="mailto:${esc(C.email)}">Email</a>` : ""}
         <a class="btn" href="${maps}" target="_blank" rel="noopener">Directions</a>
       </div>
-      <ul class="svc-list" aria-label="Services">${Object.keys(SVC).map(svcItem).join("")}</ul>
+      <ul class="svc-list" aria-label="Services">${svcKeys.map(svcItem).join("")}</ul>
       <dl class="facts">${facts.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd style="white-space:pre-line">${esc(v)}</dd></div>`).join("")}</dl>
       ${s.note || p.notes ? `<div class="about">${s.note ? `<div class="note"><strong>About these services:</strong> ${esc(s.note)}</div>` : ""}${p.notes ? `<p>${esc(p.notes)}</p>` : ""}</div>` : ""}
     </article>
-    ${prepMeds.length ? `<section class="related" style="--c: var(--hiv)"><h3>PrEP medicines</h3>
-      <div class="rel">${prepMeds.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div>
-      <p class="blurb">US-approved PrEP medicines. Ask the clinic which ones it stocks.</p></section>` : ""}
+    ${medLinks && medLinks.items.length ? `<section class="related" style="--c: var(--hiv)"><h3>${medLinks.title}</h3>
+      <div class="rel">${medLinks.items.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div>
+      <p class="blurb">${medLinks.note}</p></section>` : ""}
+    ${p.conditions.includes("adhd") ? `<section class="related"><h3>ADHD medicines</h3>
+      <div class="rel"><a href="#adhd">See all ADHD medicines in the index</a></div>
+      <p class="blurb">Many are US brands. Amphetamine-based medicines aren't available in Thailand, so ask the provider what they can prescribe.</p></section>` : ""}
+    ${p.conditions.includes("diabetes") ? `<section class="related"><h3>Diabetes medicines</h3>
+      <div class="rel"><a href="#diabetes">See all diabetes medicines in the index</a></div></section>` : ""}
     <div class="vbox">
       <strong>Verification</strong> ${vpill(p)}
       <dl>
@@ -500,14 +556,28 @@ function providerProfile(p) {
 }
 
 function whereToGet(d) {
-  const used = ((d.extra || []).find(e => e[0] === "Used for") || [])[1] || "";
-  const links = [];
-  if (/PrEP/.test(used)) links.push(["prep", "PrEP", PROVIDERS.filter(p => p.services.prep === true).length]);
-  if (/Treatment/.test(used)) links.push(["art", "HIV treatment (ART)", PROVIDERS.filter(p => p.services.art === true).length]);
+  const link = (k, l, n) => `<a href="#providers/${k}">${l} <span>${n}</span></a>`;
+  const count = k => PROVIDERS.filter(p => p.services[k] === true).length;
+  let links = [], note = "";
+  if (d.condition === "hiv") {
+    const used = ((d.extra || []).find(e => e[0] === "Used for") || [])[1] || "";
+    if (/PrEP/.test(used)) links.push(link("prep", "PrEP providers", count("prep")));
+    if (/Treatment/.test(used)) links.push(link("art", "HIV treatment (ART) providers", count("art")));
+    note = "Ask the provider which brands it stocks. Thailand's public programmes often use generic versions.";
+  } else if (d.condition === "adhd") {
+    links.push(link("adhd", "ADHD providers", inCond("adhd").length));
+    const g = d.generic.toLowerCase();
+    note = /lisdexamfetamine/.test(g) ? "<strong>Status in Thailand unclear.</strong> Sources disagree on whether lisdexamfetamine is allowed. Check with the Thai FDA before travelling."
+      : /amphetamine/.test(g) ? "<strong>Not available in Thailand.</strong> Amphetamine-based medicines are Category 1 narcotics there and can't be brought into the country."
+      : /^methylphenidate/.test(g) ? "Methylphenidate is a controlled (Category 2) medicine in Thailand and needs a prescription from a doctor there."
+      : "Ask the provider whether this medicine is available in Thailand.";
+  } else if (d.condition === "diabetes") {
+    links.push(link("diabetes", "Diabetes providers", inCond("diabetes").length));
+    note = "Ask the provider whether this brand is available in Thailand.";
+  }
   if (!links.length) return "";
-  return `<section class="related" style="--c: var(--prov)"><h3>Where to get HIV care in Bangkok</h3>
-    <div class="rel">${links.map(([k, l, n]) => `<a href="#providers/${k}">${l} providers <span>${n}</span></a>`).join("")}</div>
-    <p class="blurb">Ask the provider which brands it stocks. Thailand's public programmes often use generic versions.</p></section>`;
+  return `<section class="related" style="--c: var(--prov)"><h3>Where to get care in Bangkok</h3>
+    <div class="rel">${links.join("")}</div><p class="blurb">${note}</p></section>`;
 }
 
 document.getElementById("release").innerHTML = `Data v${esc(RELEASE.version)}, released ${fmtISO(RELEASE.released)}. <a href="${REPO}#download-the-latest-data">Download the data</a>.`;

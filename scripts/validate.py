@@ -16,6 +16,11 @@ TODAY = dt.date.today()
 errors, warnings = [], []
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 ID = re.compile(r"^[a-z]{2}-[a-z]{3}-[a-z0-9-]+$")
+COND_SERVICES = {
+    "hiv": ("hivTesting", "prep", "pep", "art"),
+    "adhd": ("adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"),
+    "diabetes": ("diabetesCare", "diabetesCareChildren"),
+}
 
 
 def err(where, msg): errors.append(f"{where}: {msg}")
@@ -61,10 +66,19 @@ def check_providers():
             for k in ("website", "booking"):
                 if c.get(k) and not c[k].startswith(("http://", "https://")): err(w, f"contact.{k} must be a URL")
             s = p.get("services", {})
-            for k in ("hivTesting", "prep", "pep", "art"):
-                if s.get(k) not in (True, False, None): err(w, f"services.{k} must be true, false or null")
-            if not any(s.get(k) for k in ("hivTesting", "prep", "pep", "art")):
-                warn(w, "no HIV service is confirmed (all false/null)")
+            conds = p.get("conditions") or []
+            if not conds or any(c not in COND_SERVICES for c in conds):
+                err(w, f"conditions must be a non-empty list of {sorted(COND_SERVICES)}")
+            svc_keys = set(schema["properties"]["services"]["properties"]) - {"basis", "note"}
+            for k, val in s.items():
+                if k in ("basis", "note"): continue
+                if k not in svc_keys: err(w, f"unknown service '{k}'")
+                elif val not in (True, False, None): err(w, f"services.{k} must be true, false or null")
+            for c in conds:
+                for k in COND_SERVICES.get(c, ()):
+                    if k not in s: err(w, f"{c} provider needs services.{k} (use null if unknown)")
+                if not any(s.get(k) for k in COND_SERVICES.get(c, ())):
+                    warn(w, f"no {c} service is confirmed (all false/null)")
             src = p.get("sources") or []
             if not src: err(w, "at least one source is required")
             for x in src:

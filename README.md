@@ -1,11 +1,11 @@
 # Pocket Formulary
 
-An open dataset of **HIV, ADHD and diabetes medicines** and **HIV service providers in Bangkok** (testing, PrEP, PEP and treatment). Free to download and reuse, with a source for every record and a verification status on every provider.
+An open dataset of **HIV, ADHD and diabetes medicines** and **care providers in Bangkok** for the same three conditions. Free to download and reuse, with a source for every record and a verification status on every provider.
 
 | Dataset | Records | What's in it |
 |---|---|---|
 | Medicines | 124 | FDA-approved HIV (58), ADHD (25) and diabetes (41) medicines: brand and generic name, class, form, dosing, manufacturer, approval date |
-| Providers | 38 (Bangkok) | Clinics and hospitals offering HIV testing, PrEP, PEP or ART: Thai and English names, address, phone/LINE, hours, services, cost, sources, verification |
+| Providers | 49 (Bangkok) | HIV (38): testing, PrEP, PEP, ART. ADHD (6): child/adult assessment, medication. Diabetes (5): specialist diabetes and endocrine centres. Each has Thai and English names, address, phone/LINE, hours, services, cost, sources and verification |
 
 > **Provider data is not yet phone-verified.** Every provider record starts as `unverified`, meaning it comes from the provider's own website or an official BMA announcement but nobody has confirmed it directly yet. Check `verification.status` before relying on a record, and call ahead before visiting. This is not medical advice. If you need PEP, go to a clinic or hospital emergency department as soon as possible; PEP has to start within 72 hours.
 
@@ -28,12 +28,21 @@ Always-current files (they track the `main` branch):
 ```js
 const res = await fetch("https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json");
 const { version, data } = await res.json();
-const prep = data.filter(p => p.services.prep === true && p.verification.status !== "closed");
+const prep = data.filter(p => p.conditions.includes("hiv") && p.services.prep === true && p.verification.status !== "closed");
+const adhdAdults = data.filter(p => p.conditions.includes("adhd") && p.services.adhdAssessmentAdults === true);
 ```
 
 ## Data format
 
 Each JSON file looks like `{ dataset, version, released, license, schema, count, data: [...] }`. Records follow the JSON Schemas in [`schema/`](schema/). The CSV files are the same records flattened (`location.district`, `services.prep`, …) for spreadsheets and the Framer CMS.
+
+**Provider conditions:** `conditions` lists what the provider is in the dataset for (`hiv`, `adhd`, `diabetes`), matching the medicines' `condition`. Which `services` keys a record has depends on it:
+
+| Condition | Service keys |
+|---|---|
+| `hiv` | `hivTesting`, `prep`, `pep`, `art`, `stiTesting`, `genderAffirmingHormones` |
+| `adhd` | `adhdAssessmentChildren`, `adhdAssessmentAdults`, `adhdMedication` |
+| `diabetes` | `diabetesCare` (adults), `diabetesCareChildren`, `endocrinologist`, `insulinPump`, `cgm`, `diabetesEducation`, `diabeticFootCare` |
 
 **Provider services** are `true` (offered), `false` (not offered) or `null` (not confirmed). `services.basis` says where that claim comes from:
 
@@ -87,8 +96,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to verify a provider and how to a
 
 `index.html` is a self-contained reference site (no server needed). It has two sections:
 
-- **Medicines** (`index.html#biktarvy`): a profile for each medicine. HIV medicines link to Bangkok providers.
-- **Bangkok providers** (`index.html#providers`): filter by service (HIV testing, PrEP, PEP, ART, hormones), focus or search, with a PEP shortcut. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call, LINE, directions, a service checklist, verification status, sources and a "report a problem" link. `#providers/prep` opens the list pre-filtered.
+- **Medicines** (`index.html#biktarvy`): a profile for each medicine, linking to matching Bangkok providers. ADHD medicine pages say whether the medicine is banned in Thailand (amphetamines) or controlled (methylphenidate).
+- **Bangkok providers** (`index.html#providers/hiv`, `#providers/adhd`, `#providers/diabetes`): condition tabs, service filters and search. HIV has a PEP shortcut, ADHD has a note on Thai medicine rules, and diabetes notes that public hospitals aren't listed yet. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call, LINE, directions, a service checklist, verification status, sources and a "report a problem" link. `#providers/prep` opens the list pre-filtered.
 
 Rebuild after any data change:
 

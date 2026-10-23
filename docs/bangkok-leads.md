@@ -14,4 +14,16 @@ Places that probably offer HIV services but that we haven't found a solid primar
 | AIDS Access Foundation | Counselling and treatment support | Whether it's a clinic or a support service |
 | National Health Security Office (NHSO) PrEP site list | Would cover hospitals under Thai public health insurance | Find an official, downloadable list |
 
+## ADHD and diabetes leads
+
+| Lead | Condition | What's missing |
+|---|---|---|
+| MedPark Hospital (psychiatry) | ADHD | Its adult ADHD page doesn't name a clinic or confirm assessment/prescribing |
+| Manarom Hospital (private psychiatric hospital) | ADHD | Official page for ADHD services |
+| Queen Sirikit National Institute of Child Health | ADHD, diabetes (children) | Official page for child psychiatry / development and paediatric diabetes |
+| King Chulalongkorn Memorial, Ramathibodi, Siriraj (adult) | ADHD, diabetes | Clinic pages for child/adult psychiatry and adult endocrine clinics |
+| Theptarin Hospital (now Vimut-Theptarin) | Diabetes | Diabetes-specialist hospital; official site and current address after the merger |
+| Rajavithi Hospital | Diabetes | Endocrine clinic page |
+| BMA public health centres (NCD clinics) | Diabetes | Routine diabetes care under public insurance at all 69 centres; needs an official list |
+
 Sources consulted for these leads: the Fast-Track Cities Bangkok HIV services directory (https://fast-trackcities.org/hiv-services/bangkok), which appears out of date, and Khaosod English (24 July 2025).

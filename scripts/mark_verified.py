@@ -12,7 +12,10 @@ adds a source entry for the contact, then you rebuild:  python3 scripts/build_di
 import argparse, datetime as dt, glob, json, os
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-SERVICES = {"hivTesting", "prep", "pep", "art", "stiTesting", "genderAffirmingHormones"}
+SERVICES = {"hivTesting", "prep", "pep", "art", "stiTesting", "genderAffirmingHormones",
+            "adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication",
+            "diabetesCare", "diabetesCareChildren", "endocrinologist", "insulinPump", "cgm",
+            "diabetesEducation", "diabeticFootCare"}
 ACCESS = {"walkIn", "foreignersAccepted"}
 
 ap = argparse.ArgumentParser()

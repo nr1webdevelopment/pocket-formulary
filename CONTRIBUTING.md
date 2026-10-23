@@ -9,7 +9,10 @@ A provider is `verified` only when **someone has confirmed it directly with the 
 When you verify a record, confirm:
 
 1. The provider is open and at this address
-2. Each service: HIV testing, PrEP, PEP (and whether PEP is available same day or out of hours), ART
+2. Each service for the provider's condition(s):
+   - HIV: testing, PrEP, PEP (and whether PEP is available same day or out of hours), ART
+   - ADHD: assessment for children and for adults, and whether they prescribe medication (and which: methylphenidate, atomoxetine, …)
+   - Diabetes: adult and child care, endocrinologist, insulin pumps, CGM, education, foot care
 3. Opening hours, and whether walk-ins are OK or an appointment is needed
 4. Whether foreigners and non-Thai speakers are served, and which languages
 5. Cost: free, low cost (e.g. covered by Thai public health insurance), or fee

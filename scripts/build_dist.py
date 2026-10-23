@@ -119,7 +119,12 @@ def main():
     for p in provs:
         s = p["verification"]["status"]
         status[s] = status.get(s, 0) + 1
+    by_cond = {}
+    for p in provs:
+        for c in p["conditions"]:
+            by_cond[c] = by_cond.get(c, 0) + 1
     manifest = {**rel, "counts": {"medicines": len(meds), "providers": len(provs),
+                                  "providersByCondition": dict(sorted(by_cond.items())),
                                   "providersByVerification": dict(sorted(status.items()))},
                 "files": files}
     with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8") as f:

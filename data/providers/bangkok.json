@@ -4,6 +4,9 @@
   "providers": [
     {
       "id": "th-bkk-trc-anonymous-clinic",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Thai Red Cross Anonymous Clinic",
         "th": "คลินิกนิรนาม สภากาชาดไทย"
@@ -85,6 +88,9 @@
     },
     {
       "id": "th-bkk-pribta-clinic",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Pribta Clinic",
         "th": "คลินิกพริบตา"
@@ -159,6 +165,9 @@
     },
     {
       "id": "th-bkk-tangerine-clinic",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Tangerine Clinic",
         "th": "แทนเจอรีนคลินิก"
@@ -233,6 +242,9 @@
     },
     {
       "id": "th-bkk-swing-silom",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "SWING Clinic Bangkok",
         "th": "สวิง คลินิก กรุงเทพฯ"
@@ -307,6 +319,9 @@
     },
     {
       "id": "th-bkk-rsat-ramkhamhaeng",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "RSAT Clinic Ramkhamhaeng",
         "th": "คลินิกฟ้าสีรุ้ง รามคำแหง"
@@ -383,6 +398,9 @@
     },
     {
       "id": "th-bkk-bumrungrad-pride-clinic",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Bumrungrad Pride Clinic",
         "th": "ไพรด์คลินิก โรงพยาบาลบำรุงราษฎร์"
@@ -459,6 +477,9 @@
     },
     {
       "id": "th-bkk-bangkok-hospital-gay-mens-health",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Bangkok Hospital — Gay Men's Health",
         "th": "โรงพยาบาลกรุงเทพ — Gay Men's Health"
@@ -536,6 +557,9 @@
     },
     {
       "id": "th-bkk-pride-klang-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Klang Hospital (BMA General Hospital) — BKK Pride Clinic",
         "th": "โรงพยาบาลกลาง (BKK Pride Clinic)"
@@ -618,6 +642,9 @@
     },
     {
       "id": "th-bkk-pride-vajira-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Vajira Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลวชิรพยาบาล (BKK Pride Clinic)"
@@ -700,6 +727,9 @@
     },
     {
       "id": "th-bkk-pride-phc-04-din-daeng",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 4 Din Daeng — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 4 ดินแดง (BKK Pride Clinic)"
@@ -782,6 +812,9 @@
     },
     {
       "id": "th-bkk-pride-phc-09-prachathipatai",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 9 Prachathipatai — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 9 ประชาธิปไตย (BKK Pride Clinic)"
@@ -864,6 +897,9 @@
     },
     {
       "id": "th-bkk-pride-phc-20-pom-prap",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 20 Pom Prap Sattru Phai — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 20 ป้อมปราบศัตรูพ่าย (BKK Pride Clinic)"
@@ -946,6 +982,9 @@
     },
     {
       "id": "th-bkk-pride-phc-25-huai-khwang",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 25 Huai Khwang — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 25 ห้วยขวาง (BKK Pride Clinic)"
@@ -1028,6 +1067,9 @@
     },
     {
       "id": "th-bkk-pride-phc-38-jid-thongkham",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 38 Jid-Thongkham Bamphen — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 38 จี๊ด-ทองคำ บำเพ็ญ (BKK Pride Clinic)"
@@ -1110,6 +1152,9 @@
     },
     {
       "id": "th-bkk-pride-phc-03-bang-sue",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 3 Bang Sue — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 3 บางซื่อ (BKK Pride Clinic)"
@@ -1192,6 +1237,9 @@
     },
     {
       "id": "th-bkk-pride-phc-61-sangwan",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 61 Sangwan Thasanarom — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 61 สังวาลย์ ทัสนารมย์ (BKK Pride Clinic)"
@@ -1274,6 +1322,9 @@
     },
     {
       "id": "th-bkk-pride-charoenkrung-pracharak-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Charoenkrung Pracharak Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลเจริญกรุงประชารักษ์ (BKK Pride Clinic)"
@@ -1356,6 +1407,9 @@
     },
     {
       "id": "th-bkk-pride-phc-21-wat-that-thong",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 21 Wat That Thong — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 21 วัดธาตุทอง (BKK Pride Clinic)"
@@ -1438,6 +1492,9 @@
     },
     {
       "id": "th-bkk-pride-phc-22-wat-pak-bo",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 22 Wat Pak Bo — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 22 วัดปากบ่อ (BKK Pride Clinic)"
@@ -1520,6 +1577,9 @@
     },
     {
       "id": "th-bkk-pride-phc-23-si-phraya",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 23 Si Phraya — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 23 สี่พระยา (BKK Pride Clinic)"
@@ -1602,6 +1662,9 @@
     },
     {
       "id": "th-bkk-pride-phc-32-marit-tintamusik",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 32 Marit Tintamusik — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 32 มาริษ ตินตมุสิก (BKK Pride Clinic)"
@@ -1684,6 +1747,9 @@
     },
     {
       "id": "th-bkk-pride-phc-41-khlong-toei",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 41 Khlong Toei — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 41 คลองเตย (BKK Pride Clinic)"
@@ -1767,6 +1833,9 @@
     },
     {
       "id": "th-bkk-pride-lat-krabang-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Lat Krabang Bangkok Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลลาดกระบังกรุงเทพมหานคร (BKK Pride Clinic)"
@@ -1849,6 +1918,9 @@
     },
     {
       "id": "th-bkk-pride-sirindhorn-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Sirindhorn Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลสิรินธร (BKK Pride Clinic)"
@@ -1931,6 +2003,9 @@
     },
     {
       "id": "th-bkk-pride-wetchakarunrasm-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Wetchakarunrasm Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลเวชการุณย์รัศมิ์ (BKK Pride Clinic)"
@@ -2013,6 +2088,9 @@
     },
     {
       "id": "th-bkk-pride-khlong-sam-wa-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Khlong Sam Wa Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลคลองสามวา (BKK Pride Clinic)"
@@ -2095,6 +2173,9 @@
     },
     {
       "id": "th-bkk-pride-phc-43-min-buri",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 43 Min Buri — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 43 มีนบุรี (BKK Pride Clinic)"
@@ -2177,6 +2258,9 @@
     },
     {
       "id": "th-bkk-pride-phc-64-khlong-sam-wa",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 64 Khlong Sam Wa — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 64 คลองสามวา (BKK Pride Clinic)"
@@ -2259,6 +2343,9 @@
     },
     {
       "id": "th-bkk-pride-taksin-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Taksin Hospital — Love Care Clinic — BKK Pride Clinic",
         "th": "โรงพยาบาลตากสิน Love Care Clinic (BKK Pride Clinic)"
@@ -2341,6 +2428,9 @@
     },
     {
       "id": "th-bkk-pride-phc-26-chao-khun-phra-prayurawong",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 26 Chao Khun Phra Prayurawong — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 26 เจ้าคุณพระประยุรวงศ์ (BKK Pride Clinic)"
@@ -2423,6 +2513,9 @@
     },
     {
       "id": "th-bkk-pride-phc-28-krung-thon-buri",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 28 Krung Thon Buri — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 28 กรุงธนบุรี (BKK Pride Clinic)"
@@ -2505,6 +2598,9 @@
     },
     {
       "id": "th-bkk-pride-phc-29-chuang-nutchanet",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 29 Chuang Nutchanet — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 29 ช่วง นุชเนตร (BKK Pride Clinic)"
@@ -2587,6 +2683,9 @@
     },
     {
       "id": "th-bkk-pride-phc-36-bukkhalo",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 36 Bukkhalo — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 36 บุคคโล (BKK Pride Clinic)"
@@ -2669,6 +2768,9 @@
     },
     {
       "id": "th-bkk-pride-luang-pho-thawee-sak-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Luang Pho Thawee Sak Hospital (Nong Khaem) — BKK Pride Clinic",
         "th": "โรงพยาบาลหลวงพ่อทวีศักดิ์ ชุตินฺธโร อุทิศ (BKK Pride Clinic)"
@@ -2751,6 +2853,9 @@
     },
     {
       "id": "th-bkk-pride-bang-khun-thian-geriatric-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Bang Khun Thian Geriatric Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลผู้สูงอายุบางขุนเทียน (BKK Pride Clinic)"
@@ -2833,6 +2938,9 @@
     },
     {
       "id": "th-bkk-pride-ratchaphiphat-hospital",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "Ratchaphiphat Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลราชพิพัฒน์ (BKK Pride Clinic)"
@@ -2915,6 +3023,9 @@
     },
     {
       "id": "th-bkk-pride-phc-40-bang-khae",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 40 Bang Khae — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 40 บางแค (BKK Pride Clinic)"
@@ -2997,6 +3108,9 @@
     },
     {
       "id": "th-bkk-pride-phc-48-nak-watcharautit",
+      "conditions": [
+        "hiv"
+      ],
       "name": {
         "en": "BMA Public Health Center 48 Nak Watcharautit — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 48 นาควัชระอุทิศ (BKK Pride Clinic)"
@@ -3075,6 +3189,901 @@
         "nextReviewDue": null
       },
       "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-medconsult-thonglor",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "MedConsult Clinic Thonglor",
+        "th": null
+      },
+      "organization": "MedConsult Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Watthana",
+        "address": {
+          "en": "Floor 3, Building 2, The Racquet Club, Sukhumvit 49/9, Khlong Tan Nuea, Watthana, Bangkok 10110",
+          "th": null
+        },
+        "postcode": "10110",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "061 171 1000"
+        ],
+        "line": "@medconsultclinic",
+        "website": "https://www.medconsultasia.com/adhd-clinic-bangkok/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Site describes ADHD assessment for children, teenagers and adults, and prescribing of stimulants (e.g. methylphenidate) and non-stimulants (e.g. atomoxetine)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.medconsultasia.com/adhd-clinic-bangkok/",
+          "title": "ADHD Clinic Bangkok",
+          "publisher": "MedConsult Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-medconsult-silom",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "MedConsult Clinic Silom",
+        "th": null
+      },
+      "organization": "MedConsult Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Bang Rak",
+        "address": {
+          "en": "3rd Floor, Silom 64 Building, Silom Road, Suriyawong, Bang Rak, Bangkok 10500",
+          "th": null
+        },
+        "postcode": "10500",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "061 172 8594"
+        ],
+        "line": "@medconsultclinic",
+        "website": "https://www.medconsultasia.com/adhd-clinic-bangkok/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "ADHD services are described for MedConsult as a whole; confirm which are offered at the Silom branch."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.medconsultasia.com/adhd-clinic-bangkok/",
+          "title": "ADHD Clinic Bangkok",
+          "publisher": "MedConsult Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-bangkok-hospital-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "Bangkok Hospital — Special Clinic (Psychiatry)",
+        "th": null
+      },
+      "organization": "Bangkok Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Huai Khwang",
+        "address": {
+          "en": "2 Soi Soonvijai 7, New Petchburi Road, Huai Khwang, Bangkok 10310",
+          "th": null
+        },
+        "postcode": "10310",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 310 3013",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/bangkok/center-clinic/brain/special-clinic-psychiatry/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–18:00.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD is listed under the Child and Adolescent Psychiatry Clinic. Adult ADHD is not mentioned; ask."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/bangkok/center-clinic/brain/special-clinic-psychiatry/overview",
+          "title": "Special Clinic (Psychiatry)",
+          "publisher": "Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://bangkokcommunityresources.isb.ac.th/mental-health/psychiatrists",
+          "title": "Bangkok Community Resources — Psychiatrists (Bangkok Hospital street address)",
+          "publisher": "International School Bangkok",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-bangkok-hospital-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "Bangkok Hospital — Child Development Neuropsychiatric Clinic",
+        "th": null
+      },
+      "organization": "Bangkok Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Huai Khwang",
+        "address": {
+          "en": "2 Soi Soonvijai 7, New Petchburi Road, Huai Khwang, Bangkok 10310",
+          "th": null
+        },
+        "postcode": "10310",
+        "locationNote": "4th Floor, Bangkok Hospital Building",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 310 3006",
+          "02 755 1006",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/bangkok/center-clinic/child-wellness/the-chidevelopment-neuropsychiatric-clinic/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–16:00.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Paediatric clinic; scope includes attention and behavioural disorders including ADHD. Medication not mentioned."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/bangkok/center-clinic/child-wellness/the-chidevelopment-neuropsychiatric-clinic/overview",
+          "title": "Child Development Neuropsychiatric Clinic",
+          "publisher": "Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://bangkokcommunityresources.isb.ac.th/mental-health/psychiatrists",
+          "title": "Bangkok Community Resources — Psychiatrists (Bangkok Hospital street address)",
+          "publisher": "International School Bangkok",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-rajanagarindra-child-mental-health",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "Rajanagarindra Institute of Child and Adolescent Mental Health",
+        "th": "สถาบันสุขภาพจิตเด็กและวัยรุ่นราชนครินทร์"
+      },
+      "organization": "Department of Mental Health, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Ratchathewi",
+        "address": {
+          "en": "75/1 Rama 6 Road, Phaya Thai, Ratchathewi, Bangkok 10400",
+          "th": null
+        },
+        "postcode": "10400",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 442 2500"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "National child and adolescent mental health institute. The source list doesn't name ADHD services; confirm assessment and medication."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://rsathai.org/en/contents/25780",
+          "title": "Mental Health Service Facilities under the Department of Mental Health, Ministry of Public Health",
+          "publisher": "Department of Mental Health list, republished by RSATHAI",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The phone number in the source list is the same as Somdet Chaopraya Institute's; confirm.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-somdet-chaopraya-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "name": {
+        "en": "Somdet Chaopraya Institute of Psychiatry",
+        "th": "สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา"
+      },
+      "organization": "Department of Mental Health, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Khlong San",
+        "address": {
+          "en": "112 Somdet Chaopraya Road, Khlong San, Khlong San, Bangkok 10600",
+          "th": null
+        },
+        "postcode": "10600",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 442 2500"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Government psychiatric hospital. Sources don't name ADHD services; confirm adult and child assessment and medication."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://rsathai.org/en/contents/25780",
+          "title": "Mental Health Service Facilities under the Department of Mental Health, Ministry of Public Health",
+          "publisher": "Department of Mental Health list, republished by RSATHAI",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital List (August 2025).pdf",
+          "title": "Hospital List (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "DFAT lists the institute as offering English and Thai.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-bangkok-hospital-diabetes-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "name": {
+        "en": "Bangkok Hospital — Diabetes, Thyroid and Endocrine Center",
+        "th": null
+      },
+      "organization": "Bangkok Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Huai Khwang",
+        "address": {
+          "en": "2 Soi Soonvijai 7, New Petchburi Road, Huai Khwang, Bangkok 10310",
+          "th": null
+        },
+        "postcode": "10310",
+        "locationNote": "Building 2, 2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 755 1129",
+          "02 755 1130",
+          "02 755 1697",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/zh/bangkok/center-clinic/undefined/bangkok-diabetes-center/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 07:00–16:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Multidisciplinary team (doctors, diabetes nurses, dietitians, pharmacists, foot-care specialists); rapid HbA1c and glucose testing; eye screening with referral."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/zh/bangkok/center-clinic/undefined/bangkok-diabetes-center/overview",
+          "title": "Diabetes, Thyroid and Endocrine Center (Chinese-language page)",
+          "publisher": "Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://bangkokcommunityresources.isb.ac.th/mental-health/psychiatrists",
+          "title": "Bangkok Community Resources — Psychiatrists (Bangkok Hospital street address)",
+          "publisher": "International School Bangkok",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-bumrungrad-endocrine-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "name": {
+        "en": "Bumrungrad — Endocrinology, Diabetes & Clinical Nutrition Center",
+        "th": "ศูนย์เบาหวาน ต่อมไร้ท่อ และโภชนบำบัด โรงพยาบาลบำรุงราษฎร์"
+      },
+      "organization": "Bumrungrad International Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Watthana",
+        "address": {
+          "en": "33 Sukhumvit 3, Watthana, Bangkok 10110",
+          "th": null
+        },
+        "postcode": "10110",
+        "locationNote": "Building A, 19th Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 066 8888",
+          "1378"
+        ],
+        "line": null,
+        "website": "https://www.bumrungrad.com/en/diabetes-care-treatment-thailand",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–19:00; Sat–Sun 08:00–18:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Serves children and adults. Insulin pump with glucose sensor has its own treatment page. Foot and Nail Care Clinic is on Building A, 16th Floor (02 011 3322)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bumrungrad.com/en/diabetes-care-treatment-thailand",
+          "title": "Endocrinology, Diabetes & Clinical Nutrition Center",
+          "publisher": "Bumrungrad International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-medpark-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "name": {
+        "en": "MedPark Hospital — Endocrinology and Metabolism Center",
+        "th": null
+      },
+      "organization": "MedPark Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Khlong Toei",
+        "address": {
+          "en": "3333 Rama IV Road, Khlong Toei, Bangkok 10110",
+          "th": null
+        },
+        "postcode": "10110",
+        "locationNote": "5th Floor, Counter C (East lift)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 090 3122",
+          "02 023 3333"
+        ],
+        "line": null,
+        "website": "https://www.medparkhospital.com/en/center/endocrinology-clinic",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–20:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": null,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Type 1 and type 2 diabetes; insulin pumps and CGM with nurse support; diabetic foot treatment including hyperbaric oxygen."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.medparkhospital.com/en/center/endocrinology-clinic",
+          "title": "Endocrinology and Metabolism Center",
+          "publisher": "MedPark Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-samitivej-children-endocrine-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "name": {
+        "en": "Samitivej Children's Hospital — Growth, Endocrine and Diabetes Center",
+        "th": null
+      },
+      "organization": "Samitivej International Children's Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Suan Luang",
+        "address": {
+          "en": "488 Srinakarin Road, Suan Luang, Bangkok 10250",
+          "th": null
+        },
+        "postcode": "10250",
+        "locationNote": "Building B, 3rd Floor (Srinakarin, new building)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 378 9430-31"
+        ],
+        "line": null,
+        "website": "https://www.samitivejchildren.com/en/our-centers/growth-endocrine-and-diabetes-center",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 07:00–20:00.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Diagnosis and management of diabetes in children and adolescents."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.samitivejchildren.com/en/our-centers/growth-endocrine-and-diabetes-center",
+          "title": "Growth, Endocrine and Diabetes Center",
+          "publisher": "Samitivej International Children's Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital List (August 2025).pdf",
+          "title": "Hospital List (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-siriraj-pediatric-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "name": {
+        "en": "Siriraj Hospital — Paediatric Diabetes (DM) Clinic",
+        "th": "คลินิกเบาหวานเด็ก โรงพยาบาลศิริราช"
+      },
+      "organization": "Faculty of Medicine Siriraj Hospital, Mahidol University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Bangkok Noi",
+        "address": {
+          "en": "2 Wanglang Road, Siriraj, Bangkok Noi, Bangkok 10700",
+          "th": null
+        },
+        "postcode": "10700",
+        "locationNote": "Outpatient clinic, 1st Floor, HRH Princess Mahachakri Building (confirm floor)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 419 7000 ext. 5676",
+          "02 419 7000 ext. 5837"
+        ],
+        "line": null,
+        "website": "https://www2.si.mahidol.ac.th/en/pediatrics/division-of-pediatric-endocrinology",
+        "email": "dmcenter@diamond.mahidol.ac.th",
+        "booking": null
+      },
+      "hours": "DM Clinic: Thursday 09:00–12:00.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Children aged 0–15. Diabetes Call Center (ext. 5837) gives education and counselling; the division lists a 24-hour on-call nurse hotline for diabetes emergencies for its patients."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www2.si.mahidol.ac.th/en/pediatrics/division-of-pediatric-endocrinology",
+          "title": "Division of Pediatric Endocrinology",
+          "publisher": "Faculty of Medicine Siriraj Hospital, Mahidol University",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital List (August 2025).pdf",
+          "title": "Hospital List (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Street address is from DFAT's listing for Siriraj Piyamaharajkarun Hospital on the same Wanglang Road campus.",
       "updated": "2026-10-23"
     }
   ]
