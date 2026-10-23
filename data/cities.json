@@ -1,0 +1,90 @@
+{
+  "dataset": "pocket-formulary/cities",
+  "jurisdictionNotes": {
+    "greater-china": {
+      "cities": ["sha", "hkg", "mfm", "tpe"],
+      "text": "Mainland China, Hong Kong, Macau and Taiwan are four separate jurisdictions. Each has its own laws, medicine regulator, lists of approved and controlled medicines, prescription rules and health insurance. A medicine that is approved or prescribed in one may be unavailable or restricted in another, and a prescription from one is generally not accepted in the others. Check the rules where you are."
+    }
+  },
+  "cities": [
+    {"code": "bkk", "file": "bangkok.json", "name": {"en": "Bangkok", "th": "กรุงเทพมหานคร"}, "country": "TH", "countryName": "Thailand", "jurisdiction": "Thailand",
+     "dialCode": "+66", "timezone": "Asia/Bangkok", "currency": "THB", "localLanguages": ["th"], "uiLanguage": "th",
+     "notes": {
+       "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. The city's BKK Pride Clinic network lists PrEP and PEP as free.",
+       "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine and needs a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel.",
+       "diabetes": "Specialist centres only so far. Routine diabetes care is also available at public hospitals and BMA public health centres, usually covered by Thai public health insurance."
+     },
+     "noteSources": {"adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf"}},
+    {"code": "sha", "file": "shanghai.json", "name": {"en": "Shanghai", "zh-Hans": "上海"}, "country": "CN", "countryName": "Mainland China", "jurisdiction": "Mainland China",
+     "dialCode": "+86", "timezone": "Asia/Shanghai", "currency": "CNY", "localLanguages": ["zh-Hans"], "uiLanguage": "zh-Hans",
+     "notes": {
+       "hiv": "Shanghai has more than 200 free HIV voluntary counselling and testing (VCT) sites. Find them through the city's official VCT finder or the 上海疾控 WeChat account. PEP must start within 72 hours.",
+       "adhd": "Only one public child psychiatry service is listed so far. Ask a local doctor which ADHD medicines are approved in Mainland China.",
+       "diabetes": "Large public teaching hospitals run diabetes and endocrine clinics; book through each hospital's official app or WeChat account."
+     },
+     "noteSources": {"hiv": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524"}},
+    {"code": "hkg", "file": "hong-kong.json", "name": {"en": "Hong Kong", "zh-Hant": "香港"}, "country": "HK", "countryName": "Hong Kong SAR", "jurisdiction": "Hong Kong SAR",
+     "dialCode": "+852", "timezone": "Asia/Hong_Kong", "currency": "HKD", "localLanguages": ["zh-Hant", "en"], "uiLanguage": "zh-Hant",
+     "notes": {
+       "hiv": "Reports from 2023 say Hong Kong has no public PrEP programme, so PrEP is mostly through private doctors and NGOs. For PEP within 72 hours, go to a public hospital emergency department (A&E), where doctors decide case by case, or to a private clinic (about HK$10,000–20,000 for the medicine). Department of Health clinics offer free or low-cost testing.",
+       "adhd": "Public child and adolescent psychiatry is through the Hospital Authority, usually by referral. Ask a local doctor which ADHD medicines are registered in Hong Kong.",
+       "diabetes": "Public diabetes care is through Hospital Authority clinics; specialist assessment centres may charge fees."
+     },
+     "noteSources": {"hiv": "https://aidsconcern.org.hk/en/?p=3641"}},
+    {"code": "mfm", "file": "macau.json", "name": {"en": "Macau", "zh-Hant": "澳門", "pt": "Macau"}, "country": "MO", "countryName": "Macau SAR", "jurisdiction": "Macau SAR",
+     "dialCode": "+853", "timezone": "Asia/Macau", "currency": "MOP", "localLanguages": ["zh-Hant", "pt"], "uiLanguage": "zh-Hant",
+     "notes": {
+       "hiv": "We found few public online sources for Macau. The Health Bureau (Serviços de Saúde) funds NGO HIV outreach, a hotline and rapid testing; call the Health Bureau to find a testing site, PrEP or PEP.",
+       "adhd": "Children's developmental assessments are coordinated by a joint government centre. Ask about ADHD assessment and medicines registered in Macau.",
+       "diabetes": "Public health centres and the public hospital provide chronic disease care; confirm diabetes services directly."
+     }},
+    {"code": "tpe", "file": "taipei.json", "name": {"en": "Taipei", "zh-Hant": "臺北"}, "country": "TW", "countryName": "Taiwan", "jurisdiction": "Taiwan",
+     "dialCode": "+886", "timezone": "Asia/Taipei", "currency": "TWD", "localLanguages": ["zh-Hant"], "uiLanguage": "zh-Hant",
+     "notes": {
+       "hiv": "Taiwan CDC subsidises PrEP for eligible people, such as Taiwanese nationals aged 35 or under at high risk and partners of people living with HIV; others can pay for it themselves. Non-occupational PEP is self-paid (about NT$30,000) at hospital infectious-disease clinics. CDC hotline: 1922.",
+       "adhd": "A National Taiwan University Hospital page describes methylphenidate as the only stimulant ADHD medicine available in Taiwan; check with a local doctor for current options.",
+       "diabetes": "Taiwan runs a diabetes shared-care network across hospitals and clinics; ask for a certified diabetes educator."
+     },
+     "noteSources": {"hiv": "https://www.cdc.gov.tw/Category/QAPage/pzjkJa4dgVjdk6emQjM-3g"}},
+    {"code": "sin", "file": "singapore.json", "name": {"en": "Singapore", "zh-Hans": "新加坡"}, "country": "SG", "countryName": "Singapore", "jurisdiction": "Singapore",
+     "dialCode": "+65", "timezone": "Asia/Singapore", "currency": "SGD", "localLanguages": ["en", "zh-Hans"], "uiLanguage": "en",
+     "notes": {
+       "hiv": "PrEP is prescribed at public clinics (DSC, NCID, NUH) and private GPs. Around 2022, guides quoted S$100–200 per visit plus the medicine. PEP must start within 72 hours.",
+       "adhd": "Public child ADHD care is mainly by referral from a polyclinic, CHAS GP or the school-linked REACH teams. Consultations and therapy can be subsidised by up to 70%.",
+       "diabetes": "Public diabetes centres are at the major hospitals; polyclinics manage most routine diabetes care."
+     },
+     "noteSources": {"adhd": "https://www.moh.gov.sg/newsroom/attention-deficit/"}},
+    {"code": "sfo", "file": "san-francisco.json", "name": {"en": "San Francisco"}, "country": "US", "countryName": "United States", "jurisdiction": "California, United States",
+     "dialCode": "+1", "timezone": "America/Los_Angeles", "currency": "USD", "localLanguages": ["en", "es", "zh-Hant"], "uiLanguage": "en",
+     "notes": {
+       "hiv": "San Francisco City Clinic offers free HIV testing, PrEP, PEP and treatment, including for uninsured and undocumented people. PEP must start within 72 hours.",
+       "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
+       "diabetes": "UCSF diabetes clinics need a referral from your doctor."
+     },
+     "noteSources": {"hiv": "https://www.sf.gov/cityclinic-location"}},
+    {"code": "lax", "file": "los-angeles.json", "name": {"en": "Los Angeles", "es": "Los Ángeles"}, "country": "US", "countryName": "United States", "jurisdiction": "California, United States",
+     "dialCode": "+1", "timezone": "America/Los_Angeles", "currency": "USD", "localLanguages": ["en", "es"], "uiLanguage": "en",
+     "notes": {
+       "hiv": "LA County Public Health sexual health clinics are free (no copay) and offer HIV testing, PrEP and PEP. Book on 213-449-7009. PEP must start within 72 hours.",
+       "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
+       "diabetes": "Specialist diabetes centres usually need a referral and insurance; LA County community clinics provide routine care."
+     },
+     "noteSources": {"hiv": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/"}},
+    {"code": "gdl", "file": "guadalajara.json", "name": {"en": "Guadalajara", "es": "Guadalajara"}, "country": "MX", "countryName": "Mexico", "jurisdiction": "Jalisco, Mexico",
+     "dialCode": "+52", "timezone": "America/Mexico_City", "currency": "MXN", "localLanguages": ["es"], "uiLanguage": "es",
+     "notes": {
+       "hiv": "The state's specialised HIV and STI centre (CAE) on Calle Gigantes offers testing, PrEP, PEP and treatment. Jalisco health line: +52 33 3823 3220. IMSS members can ask IMSS about PrEP. PEP must start within 72 hours.",
+       "adhd": "Public child psychiatry is at the Hospital Civil; ask which ADHD medicines are available in Mexico.",
+       "diabetes": "The Hospital Civil endocrinology service runs a diabetes clinic and free screening days."
+     },
+     "noteSources": {"hiv": "https://teladejuicio.mx/jalisco-impulsa-jornada-estatal-para-la-deteccion-temprana-del-vih-pruebas-gratuitas-y-atencion-en-todo-el-estado/"}},
+    {"code": "lis", "file": "lisbon.json", "name": {"en": "Lisbon", "pt": "Lisboa"}, "country": "PT", "countryName": "Portugal", "jurisdiction": "Portugal",
+     "dialCode": "+351", "timezone": "Europe/Lisbon", "currency": "EUR", "localLanguages": ["pt"], "uiLanguage": "pt",
+     "notes": {
+       "hiv": "Community centres such as CheckpointLX offer free, anonymous testing. PrEP is prescribed through the national health service (SNS); in July 2025 Lisbon's hospital PrEP clinics had waits of a year or more. For PEP within 72 hours, go to a hospital emergency department.",
+       "adhd": "Public ADHD care is through SNS child psychiatry and psychiatry services, by referral from your family doctor.",
+       "diabetes": "APDP runs a large diabetes clinic that works alongside the SNS."
+     },
+     "noteSources": {"hiv": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327"}}
+  ]
+}

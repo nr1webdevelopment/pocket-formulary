@@ -135,7 +135,7 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .fchip[aria-pressed="true"] { color: #0E141A; } }
 .select { padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); font: inherit; max-width: 100%; }
 .legend { font-size: 13px; color: var(--muted); margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; }
-.prow { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) 300px; gap: 4px 16px; align-items: center;
+.prow { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr) 320px; gap: 4px 16px; align-items: center;
   padding: 11px 8px; border-bottom: 1px solid var(--line); text-decoration: none; border-radius: 6px; }
 .prow:hover { background: var(--soft); }
 .prow .nm { min-width: 0; }
@@ -170,37 +170,121 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 .vbox dd { margin: 0; }
 .src ul { margin: 6px 0 0; padding-left: 18px; }
 .src li { margin: 2px 0; }
+
+/* i18n + cities */
+:root { --body: "Public Sans", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans Thai", "Leelawadee UI", "Thonburi", system-ui, sans-serif;
+  --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", "PingFang SC", "PingFang TC", "Microsoft YaHei", "Noto Sans Thai", "Thonburi", system-ui, sans-serif; }
+.topbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin-bottom: 18px; }
+.topbar .nav { margin: 0; }
+.langsel { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
+.langsel svg { width: 18px; height: 18px; }
+.langsel select { font: 500 14px var(--body); padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.citybar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin-bottom: 12px; }
+.citylabel { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.citysel { flex: 1 1 280px; font-weight: 600; }
+.jnote { border: 1px solid var(--diabetes); border-left-width: 4px; border-radius: 8px; padding: 12px 16px; margin-bottom: 12px; background: var(--surface); }
+.jnote strong { color: var(--diabetes); }
+.jnote p { margin: 4px 0 0; max-width: 75ch; }
+.notice p { max-width: 75ch; }
+.rel a.ghost { border-style: dashed; color: var(--muted); }
+:lang(zh-Hans) .mast .rx, :lang(zh-Hant) .mast .rx, :lang(th) .mast .rx, :lang(zh-Hans) .fact dt, :lang(zh-Hant) .fact dt, :lang(th) .fact dt { letter-spacing: .04em; }
 </style>
 
 <div class="wrap">
   <main id="app"></main>
-  <footer>For general reference only, not medical advice. Brand availability and labeling change; always check the current FDA label and talk with a clinician or pharmacist. HIV data from NIH HIVinfo (reviewed Sept 2026). ADHD and diabetes approval years from FDA records; verify before publishing. Provider details change often; call before you visit.
-  <br><span id="release"></span></footer>
+  <footer id="footer"></footer>
 </div>
 
 <script>
 const DRUGS = __DATA__;
 const PROVIDERS = __PROVIDERS__;
+const CITYDOC = __CITIES__;
 const RELEASE = __RELEASE__;
+const I18N = __I18N__;
 const REPO = "https://github.com/nr1webdevelopment/pocket-formulary";
-const COND = {
-  hiv: { name: "HIV", sym: "ribbon", blurb: "Antiretroviral medicines for HIV treatment and prevention (PrEP)." },
-  adhd: { name: "ADHD", sym: "ribbon", blurb: "Stimulant and non-stimulant medicines for attention-deficit/hyperactivity disorder." },
-  diabetes: { name: "Diabetes", sym: "circle", blurb: "Insulins, pills and injectables for type 1 and type 2 diabetes." },
+
+/* ---------------- language ---------------- */
+const LANGS = [["en", "English"], ["zh-Hans", "简体中文"], ["zh-Hant", "繁體中文"], ["es", "Español"], ["pt", "Português"], ["th", "ไทย"]];
+const LOCALE = { en: "en-GB", "zh-Hans": "zh-CN", "zh-Hant": "zh-TW", es: "es-ES", pt: "pt-PT", th: "th-TH" };
+const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
+function pickLang() {
+  const ok = l => LANGS.some(x => x[0] === l);
+  const q = new URLSearchParams(location.search).get("lang");
+  if (ok(q)) return q;
+  const s = store.get("pf-lang");
+  if (ok(s)) return s;
+  for (const n of (navigator.languages || [navigator.language || "en"])) {
+    const l = String(n).toLowerCase();
+    if (/^zh-(tw|hk|mo|hant)/.test(l)) return "zh-Hant";
+    if (l.startsWith("zh")) return "zh-Hans";
+    for (const c of ["es", "pt", "th", "en"]) if (l.startsWith(c)) return c;
+  }
+  return "en";
+}
+let LANG = pickLang();
+const t = (k, vars = {}) => {
+  const e = I18N.ui[k] || {};
+  let s = e[LANG] != null && e[LANG] !== "" ? e[LANG] : (e.en != null ? e.en : k);
+  for (const [a, b] of Object.entries(vars)) s = s.split("{" + a + "}").join(b);
+  return s;
 };
+const tc = s => (s == null || LANG === "en") ? s : ((I18N.content[LANG] || {})[s] ?? s);
+function setLang(l) {
+  LANG = l; store.set("pf-lang", l);
+  document.documentElement.lang = l;
+  const u = new URL(location.href); u.searchParams.set("lang", l);
+  history.replaceState(null, "", u.pathname + u.search + u.hash);
+  route();
+}
+document.documentElement.lang = LANG;
+document.addEventListener("change", e => { if (e.target && e.target.id === "lang") setLang(e.target.value); });
+
+/* ---------------- shared helpers ---------------- */
+const app = document.getElementById("app");
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const cvar = c => `--c: var(--${c})`;
+const fmtDate = a => {
+  if (!a) return "—";
+  if (a.length === 4) return a;
+  try { return new Intl.DateTimeFormat(LOCALE[LANG], { year: "numeric", month: "short", day: "numeric", timeZone: "UTC" }).format(new Date(a + "T00:00:00Z")); }
+  catch (e) { return a; }
+};
+const scrollMem = { med: 0, prov: 0 };
 const SYM = {
   ribbon: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5c-2.3 0-3.8 1.7-3.8 3.8 0 1.7.8 3.4 2 5.2L4.8 20l2.3 1.5 4.9-7.6 4.9 7.6 2.3-1.5-5.4-8.5c1.2-1.8 2-3.5 2-5.2 0-2.1-1.5-3.8-3.8-3.8zm0 2.1c1 0 1.7.7 1.7 1.8 0 1-.6 2.3-1.7 3.8-1.1-1.5-1.7-2.8-1.7-3.8 0-1.1.7-1.8 1.7-1.8z"/></svg>',
   circle: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="3.2"/></svg>',
   all: '<svg class="sym" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 9h8M8 12h8M8 15h5" stroke="currentColor" stroke-width="2"/></svg>',
 };
+const COND = {
+  hiv: { key: "condHiv", sym: "ribbon", blurb: "blurbHiv" },
+  adhd: { key: "condAdhd", sym: "ribbon", blurb: "blurbAdhd" },
+  diabetes: { key: "condDiabetes", sym: "circle", blurb: "blurbDiabetes" },
+};
+const condName = c => t(COND[c].key);
+
+function topbar(active) {
+  return `<div class="topbar">
+    <nav class="nav" aria-label="Sections">
+      <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>
+      <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>${t("navProviders")}<span>${PROVIDERS.length}</span></a>
+    </nav>
+    <label class="langsel"><span class="sr">${t("language")}</span>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      <select id="lang" aria-label="${t("language")}">${LANGS.map(([c, n]) => `<option value="${c}" ${c === LANG ? "selected" : ""}>${n}</option>`).join("")}</select>
+    </label>
+  </div>`;
+}
+
+function renderFooter() {
+  const f = document.getElementById("footer");
+  f.innerHTML = `${esc(t("footer"))}${LANG !== "en" ? `<br><em>${esc(t("machineNote"))}</em>` : ""}
+    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a>.`;
+}
+
+/* ---------------- medicines ---------------- */
 const BY = Object.fromEntries(DRUGS.map(d => [d.slug, d]));
 const state = { cond: "all", q: "", hideDisc: false };
-const scrollMem = { med: 0, prov: 0 };
-const app = document.getElementById("app");
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const cvar = c => `--c: var(--${c})`;
-const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-const fmtDate = a => a.length === 10 ? `${MONTHS[+a.slice(5, 7) - 1]} ${+a.slice(8)}, ${a.slice(0, 4)}` : a;
 const isNew = d => d.approved.startsWith("2026");
 
 function shell() {
@@ -208,20 +292,20 @@ function shell() {
   for (const k in COND) counts[k] = DRUGS.filter(d => d.condition === k).length;
   const tab = (k, name, sym) => `<button class="tab" data-cond="${k}" aria-pressed="${state.cond === k}" style="${k === "all" ? "" : cvar(k)}">
       <span class="t" style="color:${k === "all" ? "var(--ink)" : `var(--${k})`}">${SYM[sym]}<span style="color:var(--ink)">${name}</span></span>
-      <span class="n">${counts[k]} medicines</span></button>`;
+      <span class="n">${t("nMedicines", { n: counts[k] })}</span></button>`;
   app.innerHTML = `
+    ${topbar("med")}
     <header class="mast">
-      <span class="rx">Rx · FDA-approved · US</span>
-      <h1>Pocket Formulary</h1>
-      <p>Brand and generic names, drug classes, approval dates and dosing basics for medicines used in HIV, ADHD and diabetes. Select any medicine to open its profile.</p>
+      <span class="rx">${t("medRx")}</span>
+      <h1>${t("siteTitle")}</h1>
+      <p>${t("medIntro")}</p>
     </header>
-    ${nav("med")}
-    <div class="tabs" role="group" aria-label="Condition">
-      ${tab("all", "All", "all")}${Object.entries(COND).map(([k, c]) => tab(k, c.name, c.sym)).join("")}
+    <div class="tabs" role="group">
+      ${tab("all", t("condAll"), "all")}${Object.entries(COND).map(([k, c]) => tab(k, t(c.key), c.sym)).join("")}
     </div>
     <div class="tools">
-      <input id="q" class="search" type="search" placeholder="Search brand, generic name, class or maker" aria-label="Search medicines" value="${esc(state.q)}">
-      <label class="check"><input id="hide-disc" type="checkbox" ${state.hideDisc ? "checked" : ""}> Hide discontinued</label>
+      <input id="q" class="search" type="search" placeholder="${esc(t("searchMeds"))}" aria-label="${esc(t("searchMeds"))}" value="${esc(state.q)}">
+      <label class="check"><input id="hide-disc" type="checkbox" ${state.hideDisc ? "checked" : ""}> ${t("hideDisc")}</label>
     </div>
     <p class="blurb" id="blurb"></p>
     <div id="list"></div>`;
@@ -238,193 +322,161 @@ function shell() {
 
 function renderList() {
   const q = state.q.trim().toLowerCase();
+  const hay = d => [d.brand, d.generic, d.cls, d.group, d.mfr, tc(d.cls), tc(d.group), ...(d.extra || []).map(e => e[1])].join(" ").toLowerCase();
   const hit = DRUGS.filter(d =>
     (state.cond === "all" || d.condition === state.cond) &&
-    (!state.hideDisc || d.status !== "Discontinued") &&
-    (!q || [d.brand, d.generic, d.cls, d.group, d.mfr, ...(d.extra || []).map(e => e[1])].join(" ").toLowerCase().includes(q)));
-  document.getElementById("blurb").textContent = state.cond === "all"
-    ? "Every medicine in the index, grouped by condition and drug class." : COND[state.cond].blurb;
+    (!state.hideDisc || d.status !== "Discontinued") && (!q || hay(d).includes(q)));
+  document.getElementById("blurb").textContent = state.cond === "all" ? t("blurbAll") : t(COND[state.cond].blurb);
   let html = "";
   for (const [k, c] of Object.entries(COND)) {
     const items = hit.filter(d => d.condition === k);
     if (!items.length) continue;
     const groups = [...new Set(items.map(d => d.group))];
     html += `<section class="cond-block" style="${cvar(k)}">
-      <div class="cond-h">${SYM[c.sym]}<h2>${c.name}</h2><span class="n">${items.length}</span></div>
+      <div class="cond-h">${SYM[c.sym]}<h2>${t(c.key)}</h2><span class="n">${items.length}</span></div>
       ${groups.map(g => {
         const gi = items.filter(d => d.group === g).sort((a, b) => a.brand.localeCompare(b.brand));
-        return `<div class="grp-h"><span>${esc(g)}</span><span>· ${gi.length}</span></div><div class="rows">${gi.map(row).join("")}</div>`;
+        return `<div class="grp-h"><span>${esc(tc(g))}</span><span>· ${gi.length}</span></div><div class="rows">${gi.map(row).join("")}</div>`;
       }).join("")}
     </section>`;
   }
-  document.getElementById("list").innerHTML = html || `<p class="empty">No medicines match “${esc(state.q)}”. Try a generic name or class, like “insulin” or “NRTI”.</p>`;
+  document.getElementById("list").innerHTML = html || `<p class="empty">${esc(t("noMedMatch", { q: state.q }))}</p>`;
 }
 
 function row(d) {
-  const pills = (d.status === "Discontinued" ? `<span class="pill disc">Discontinued</span>` : "") + (isNew(d) ? `<span class="pill new">New</span>` : "");
+  const pills = (d.status === "Discontinued" ? `<span class="pill disc">${t("pillDisc")}</span>` : "") + (isNew(d) ? `<span class="pill new">${t("pillNew")}</span>` : "");
   return `<a class="row" href="#${d.slug}"><span class="nm"><b>${esc(d.brand)}</b><span class="gen">${esc(d.generic)}</span></span>
-    <span class="cls">${esc(d.cls)}</span><span class="yr">${pills}${d.approved.slice(0, 4)}</span></a>`;
+    <span class="cls">${esc(tc(d.cls))}</span><span class="yr">${pills}${d.approved.slice(0, 4)}</span></a>`;
 }
 
 function profile(d) {
   const c = COND[d.condition];
   const facts = [
-    ["Drug class", d.cls], ["Category", d.group], ["Form", d.form], ["Route", d.route], ["Dosing", d.dosing],
-    ["Manufacturer", d.mfr], ["FDA approved", fmtDate(d.approved)], ["Brand status", d.status], ...(d.extra || []),
+    [t("factClass"), tc(d.cls)], [t("factCategory"), tc(d.group)], [t("factForm"), tc(d.form)], [t("factRoute"), tc(d.route)],
+    [t("factDosing"), tc(d.dosing)], [t("factMfr"), d.mfr], [t("factApproved"), fmtDate(d.approved)], [t("factStatus"), tc(d.status)],
+    ...(d.extra || []).map(([k, v]) => [tc(k), tc(v)]),
   ];
-  if (facts.length % 2) facts.push(["Condition", c.name]);
+  if (facts.length % 2) facts.push([t("factCondition"), t(c.key)]);
   const related = DRUGS.filter(x => x.condition === d.condition && x.group === d.group && x.slug !== d.slug);
   app.innerHTML = `
-    <button class="back" id="back">← All medicines</button>
+    ${topbar("med")}
+    <button class="back" id="back">${t("backMeds")}</button>
     <article class="label" style="${cvar(d.condition)}">
       <div class="label-top">
-        <span class="eyebrow">${SYM[c.sym]}${c.name} · ${esc(d.group)}</span>
+        <span class="eyebrow">${SYM[c.sym]}${t(c.key)} · ${esc(tc(d.group))}</span>
         <h1>${esc(d.brand)}</h1>
         <div class="generic">${esc(d.generic)}</div>
         <div class="chips">
-          ${d.status === "Discontinued" ? `<span class="pill disc">Brand discontinued</span>` : ""}
-          ${isNew(d) ? `<span class="pill new" style="color:var(--c)">New in 2026</span>` : ""}
+          ${d.status === "Discontinued" ? `<span class="pill disc">${t("brandDisc")}</span>` : ""}
+          ${isNew(d) ? `<span class="pill new" style="color:var(--c)">${t("new2026")}</span>` : ""}
         </div>
       </div>
       <dl class="facts">${facts.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd>${esc(v || "—")}</dd></div>`).join("")}</dl>
       <div class="about">
-        <div><h3>About</h3><p>${esc(d.desc)}</p></div>
-        ${d.notes ? `<div class="note"><strong>Note:</strong> ${esc(d.notes)}</div>` : ""}
+        <div><h3>${t("about")}</h3><p>${esc(tc(d.desc))}</p></div>
+        ${d.notes ? `<div class="note"><strong>${t("noteLabel")}</strong> ${esc(tc(d.notes))}</div>` : ""}
       </div>
     </article>
     ${whereToGet(d)}
-    ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>Same category</h3>
+    ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>${t("sameCategory")}</h3>
       <div class="rel">${related.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div></section>` : ""}
-    <p class="src">Source: <a href="${d.source}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
+    <p class="src">${t("sourceLabel")} <a href="${esc(d.source)}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
   document.getElementById("back").addEventListener("click", () => { history.replaceState(null, "", location.pathname + location.search); route(); });
   window.scrollTo(0, 0);
 }
 
-function route() {
-  const h = decodeURIComponent(location.hash.slice(1));
-  const onList = document.getElementById("list") || document.getElementById("plist");
-  if (onList) scrollMem[document.getElementById("plist") ? "prov" : "med"] = window.scrollY;
-  if (h.startsWith("provider/") && PBY[h.slice(9)]) {
-    providerProfile(PBY[h.slice(9)]);
-  } else if (h === "providers" || h.startsWith("providers/")) {
-    const seg = h.split("/")[1];
-    if (PCOND[seg]) { if (pstate.cond !== seg) { pstate.cond = seg; pstate.svc = new Set(); scrollMem.prov = 0; } }
-    else if (SVC[seg]) { pstate.cond = SVC[seg].cond; pstate.svc = new Set([seg]); scrollMem.prov = 0; }
-    providerShell();
-    window.scrollTo(0, scrollMem.prov);
-  } else if (BY[h]) {
-    profile(BY[h]);
-  } else {
-    if (COND[h] || h === "all") state.cond = h;
-    shell();
-    window.scrollTo(0, scrollMem.med);
-  }
-}
-
 /* ---------------- providers ---------------- */
+const CITIES = Object.fromEntries(CITYDOC.cities.map(c => [c.code, c]));
+const REGIONS = [["regionAsia", ["bkk", "sha", "hkg", "mfm", "tpe", "sin"]], ["regionAmericas", ["sfo", "lax", "gdl"]], ["regionEurope", ["lis"]]];
+const JNOTES = CITYDOC.jurisdictionNotes || {};
 const PBY = Object.fromEntries(PROVIDERS.map(p => [p.id, p]));
 const SVC = {
-  hivTesting: { cond: "hiv", label: "HIV testing", short: "Test" },
-  prep: { cond: "hiv", label: "PrEP", short: "PrEP" },
-  pep: { cond: "hiv", label: "PEP", short: "PEP" },
-  art: { cond: "hiv", label: "HIV treatment (ART)", short: "ART" },
-  stiTesting: { cond: "hiv", label: "STI testing", short: "STI" },
-  genderAffirmingHormones: { cond: "hiv", label: "Gender-affirming hormones", short: "Hormones" },
-  adhdAssessmentChildren: { cond: "adhd", label: "Assessment: children and teens", filter: "Children and teens", short: "Child" },
-  adhdAssessmentAdults: { cond: "adhd", label: "Assessment: adults", filter: "Adults", short: "Adult" },
-  adhdMedication: { cond: "adhd", label: "Prescribes ADHD medication", filter: "Prescribes medication", short: "Meds" },
-  diabetesCare: { cond: "diabetes", label: "Diabetes care: adults", filter: "Adults", short: "Adult" },
-  diabetesCareChildren: { cond: "diabetes", label: "Diabetes care: children", filter: "Children", short: "Child" },
-  endocrinologist: { cond: "diabetes", label: "Endocrinologist", short: "Endo" },
-  insulinPump: { cond: "diabetes", label: "Insulin pump", short: "Pump" },
-  cgm: { cond: "diabetes", label: "Continuous glucose monitoring (CGM)", filter: "CGM", short: "CGM" },
-  diabetesEducation: { cond: "diabetes", label: "Diabetes education", short: "Edu" },
-  diabeticFootCare: { cond: "diabetes", label: "Diabetic foot care", filter: "Foot care", short: "Foot" },
+  hivTesting: "hiv", prep: "hiv", pep: "hiv", art: "hiv", stiTesting: "hiv", genderAffirmingHormones: "hiv",
+  adhdAssessmentChildren: "adhd", adhdAssessmentAdults: "adhd", adhdMedication: "adhd",
+  diabetesCare: "diabetes", diabetesCareChildren: "diabetes", endocrinologist: "diabetes", insulinPump: "diabetes", cgm: "diabetes", diabetesEducation: "diabetes", diabeticFootCare: "diabetes",
 };
+const svcLabel = k => t("svc_" + k);
+const svcFilter = k => (I18N.ui["f_" + k] ? t("f_" + k) : svcLabel(k));
+const svcShort = k => (I18N.ui["s_" + k] ? t("s_" + k) : svcLabel(k));
 const PCOND = {
-  hiv: { name: "HIV", sym: "ribbon", filter: ["hivTesting", "prep", "pep", "art", "genderAffirmingHormones"], row: ["hivTesting", "prep", "pep", "art"],
-         blurb: "HIV testing, PrEP, PEP and treatment." },
-  adhd: { name: "ADHD", sym: "ribbon", filter: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"], row: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"],
-          blurb: "ADHD assessment and medication for children and adults." },
-  diabetes: { name: "Diabetes", sym: "circle", filter: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm", "diabetesEducation", "diabeticFootCare"], row: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm"],
-              blurb: "Specialist diabetes and endocrine centres." },
+  hiv: { filter: ["hivTesting", "prep", "pep", "art", "genderAffirmingHormones"], row: ["hivTesting", "prep", "pep", "art"] },
+  adhd: { filter: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"], row: ["adhdAssessmentChildren", "adhdAssessmentAdults", "adhdMedication"] },
+  diabetes: { filter: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm", "diabetesEducation", "diabeticFootCare"], row: ["diabetesCare", "diabetesCareChildren", "insulinPump", "cgm"] },
 };
-const TYPE = { public_hospital: "Public hospital", bma_health_centre: "BMA public health centre", ngo_clinic: "Non-profit clinic",
-  key_population_clinic: "Community clinic", private_hospital: "Private hospital", private_clinic: "Private clinic" };
-const FOCUS = { general: "Everyone", children: "Children and teens", lgbtqia: "LGBTQIA+", msm: "Gay, bi and other men who have sex with men", transgender: "Trans people",
-  sex_workers: "Sex workers", youth: "Young people", migrants: "Migrants", people_who_use_drugs: "People who use drugs" };
-const COST = { free: "Free", low_cost: "Low cost", fee: "Fees apply", mixed: "Free and paid services" };
-const VSTAT = { unverified: "Not yet confirmed", verified: "Verified", needs_review: "Needs review", closed: "Closed" };
 const AREAS = ["Central Bangkok", "North Bangkok", "South Bangkok", "East Bangkok", "North Thonburi", "South Thonburi"];
-const THAI_CONSULATE = "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf";
-const pstate = { cond: "hiv", svc: new Set(), focus: "any", q: "" };
-const inCond = c => PROVIDERS.filter(p => p.conditions.includes(c));
-const isPublic = p => ["government_national", "government_bma", "red_cross", "university", "ngo"].includes(p.operator);
-
-function nav(active) {
-  return `<nav class="nav" aria-label="Sections">
-    <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>Medicines<span>${DRUGS.length}</span></a>
-    <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>Bangkok providers<span>${PROVIDERS.length}</span></a></nav>`;
+const pstate = { city: CITIES[store.get("pf-city")] ? store.get("pf-city") : "bkk", cond: "hiv", svc: new Set(), focus: "any", q: "" };
+const inCity = (c, city = pstate.city) => PROVIDERS.filter(p => p.city === city && p.conditions.includes(c));
+const isPublic = p => ["government_national", "government_regional", "government_local", "government_bma", "red_cross", "university", "ngo"].includes(p.operator);
+const cityName = code => { const c = CITIES[code]; return c.name[LANG] || tc(c.name.en) || c.name.en; };
+const jurisdictionFor = code => Object.values(JNOTES).find(j => j.cities.includes(code));
+const vpill = p => `<span class="vstat ${p.verification.status}">${t("vstat_" + p.verification.status)}</span>`;
+const cleanEn = p => p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en;
+const cleanLocal = s => (s || "").replace(/ \(BKK Pride Clinic\)$/, "");
+function pname(p) { return cleanLocal(p.name[LANG]) || tc(cleanEn(p)) || cleanEn(p); }
+function pname2(p) {
+  const prim = pname(p), city = CITIES[p.city];
+  for (const l of [...city.localLanguages, "en"]) {
+    const v = l === "en" ? cleanEn(p) : cleanLocal(p.name[l]);
+    if (v && v !== prim) return v;
+  }
+  return "";
 }
-const fmtISO = a => a ? fmtDate(a) : "—";
-function tel(p) {
-  let n = p.split(/\s*ext|,/i)[0].replace(/-\d+$/, "");
+function tel(ph, cityCode) {
+  let n = ph.split(/\s*ext|,/i)[0].trim();
+  if (/^1800/.test(n.replace(/\s/g, ""))) return n.replace(/\D/g, "");
+  n = n.replace(/-\d+$/, "");
   const d = n.replace(/\D/g, "");
-  return d.length <= 5 ? d : "+66" + d.replace(/^0/, "");
+  if (n.startsWith("+")) return "+" + d;
+  if (d.length <= 5) return d;
+  return CITIES[cityCode].dialCode + d.replace(/^0/, "");
 }
-const where = p => p.location.district || p.location.area || "Bangkok";
-const vpill = p => `<span class="vstat ${p.verification.status}">${VSTAT[p.verification.status]}</span>`;
-const cleanName = p => p.network ? p.name.en.replace(/ — BKK Pride Clinic$/, "") : p.name.en;
-const cleanTh = p => (p.name.th || "").replace(/ \(BKK Pride Clinic\)$/, "");
-
-function condBanner(c) {
-  if (c === "hiv") return `<div class="alert" role="note">
-      <strong>Possible exposure to HIV in the last 72 hours?</strong>
-      <p>PEP has to be started within 72 hours, and the sooner the better. Go to a clinic that lists PEP or to a hospital emergency department.</p>
-      <button class="btn" id="show-pep" style="--c: var(--alert)">Show providers that list PEP</button></div>`;
-  if (c === "adhd") return `<div class="notice" style="background:var(--soft)"><strong>ADHD medicines in Thailand.</strong>
-      Amphetamine-based medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand. They aren't available and can't be brought in.
-      Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine and needs a prescription from a doctor in Thailand. The rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel.
-      <a href="${THAI_CONSULATE}" target="_blank" rel="noopener">Source: Royal Thai Consulate-General, Perth (2016)</a></div>`;
-  return `<div class="notice" style="background:var(--soft)"><strong>Specialist centres only, so far.</strong>
-      Routine diabetes care is also available at public hospitals and Bangkok Metropolitan Administration (BMA) public health centres, usually covered by Thai public health insurance. Those aren't listed here yet.</div>`;
-}
+const where = p => p.location.district || tc(p.location.area) || cityName(p.city);
 
 function providerShell() {
-  const c = pstate.cond, list = inCond(c);
+  const c = pstate.cond, city = CITIES[pstate.city], list = inCity(c);
   const nVer = list.filter(p => p.verification.status === "verified").length;
+  const jn = jurisdictionFor(pstate.city);
+  const note = city.notes[c], noteSrc = (city.noteSources || {})[c];
   const ptab = k => `<button class="tab" data-pcond="${k}" aria-pressed="${c === k}" style="${cvar(k)}">
-      <span class="t" style="color:var(--${k})">${SYM[PCOND[k].sym]}<span style="color:var(--ink)">${PCOND[k].name}</span></span>
-      <span class="n">${inCond(k).length} providers</span></button>`;
+      <span class="t" style="color:var(--${k})">${SYM[COND[k].sym]}<span style="color:var(--ink)">${condName(k)}</span></span>
+      <span class="n">${t("nProviders", { n: inCity(k).length })}</span></button>`;
   app.innerHTML = `
+    ${topbar("prov")}
     <header class="mast">
-      <span class="rx">Care providers · Bangkok, Thailand</span>
-      <h1>Pocket Formulary</h1>
-      <p>Clinics and hospitals in Bangkok for HIV, ADHD and diabetes care. Select a provider for its address, phone, hours and sources.</p>
+      <span class="rx">${t("provRx", { n: CITYDOC.cities.length })}</span>
+      <h1>${t("siteTitle")}</h1>
+      <p>${t("provIntro")}</p>
     </header>
-    ${nav("prov")}
-    <div class="tabs" role="group" aria-label="Condition" style="grid-template-columns: repeat(3, minmax(0, 1fr))">
-      ${Object.keys(PCOND).map(ptab).join("")}
+    <div class="citybar">
+      <label for="city" class="citylabel">${t("cityLabel")}</label>
+      <select id="city" class="select citysel">
+        ${REGIONS.map(([rk, codes]) => `<optgroup label="${esc(t(rk))}">${codes.filter(x => CITIES[x]).map(x =>
+          `<option value="${x}" ${x === pstate.city ? "selected" : ""}>${esc(cityName(x))} — ${esc(tc(CITIES[x].countryName))} (${PROVIDERS.filter(p => p.city === x).length})</option>`).join("")}</optgroup>`).join("")}
+      </select>
     </div>
-    ${condBanner(c)}
-    <p class="notice">${nVer === 0
-      ? `<strong>None of these ${list.length} listings has been confirmed by phone yet.</strong> They come from each provider's own website, official announcements or government lists. Call before you go.`
-      : `<strong>${nVer} of ${list.length} listings confirmed by phone.</strong> The rest come from provider websites or official sources. Call before you go.`}</p>
+    <div class="tabs" role="group" style="grid-template-columns: repeat(3, minmax(0, 1fr))">${Object.keys(PCOND).map(ptab).join("")}</div>
+    ${jn ? `<div class="jnote" role="note"><strong>${t("jurisdictionTitle")}</strong><p>${esc(tc(jn.text))}</p></div>` : ""}
+    ${c === "hiv" ? `<div class="alert" role="note"><strong>${t("pepTitle")}</strong><p>${t("pepBody")}</p>
+      <button class="btn" id="show-pep" style="--c: var(--alert)">${t("pepButton")}</button></div>` : ""}
+    ${note ? `<div class="notice" style="background:var(--soft)"><strong>${esc(t("cityNoteTitle", { cond: condName(c), city: cityName(pstate.city) }))}</strong>
+      <p style="margin:4px 0 0">${esc(tc(note))}${noteSrc ? ` <a href="${esc(noteSrc)}" target="_blank" rel="noopener">${t("sourceLabel").replace(/[:：]$/, "")}</a>` : ""}</p></div>` : ""}
+    ${list.length ? `<p class="notice">${nVer === 0
+      ? `<strong>${t("noneVerified", { n: list.length })}</strong> ${t("noneVerifiedBody")}`
+      : `<strong>${t("someVerified", { v: nVer, n: list.length })}</strong> ${t("someVerifiedBody")}`}</p>` : ""}
     <div class="tools">
-      <input id="pq" class="search" type="search" placeholder="Search name, district or area (English or Thai)" aria-label="Search providers" value="${esc(pstate.q)}">
-      ${c === "hiv" ? `<select id="focus" class="select" aria-label="Specialist focus">
-        <option value="any">Any specialist focus</option>
-        ${["lgbtqia", "msm", "transgender", "sex_workers"].map(k => `<option value="${k}" ${pstate.focus === k ? "selected" : ""}>Focus: ${FOCUS[k]}</option>`).join("")}
+      <input id="pq" class="search" type="search" placeholder="${esc(t("searchProv"))}" aria-label="${esc(t("searchProv"))}" value="${esc(pstate.q)}">
+      ${c === "hiv" ? `<select id="focus" class="select" aria-label="${esc(t("anyFocus"))}">
+        <option value="any">${t("anyFocus")}</option>
+        ${["lgbtqia", "msm", "transgender", "sex_workers", "people_who_use_drugs", "migrants", "youth"].map(k => `<option value="${k}" ${pstate.focus === k ? "selected" : ""}>${esc(t("focusPrefix", { x: t("focus_" + k) }))}</option>`).join("")}
       </select>` : ""}
     </div>
-    <div class="svc-filter" role="group" aria-label="Services">
-      ${PCOND[c].filter.map(k => `<button class="fchip" data-svc="${k}" aria-pressed="${pstate.svc.has(k)}">${SVC[k].filter || SVC[k].label}</button>`).join("")}
+    <div class="svc-filter" role="group">
+      ${PCOND[c].filter.map(k => `<button class="fchip" data-svc="${k}" aria-pressed="${pstate.svc.has(k)}">${esc(svcFilter(k))}</button>`).join("")}
     </div>
-    ${c === "hiv"
-      ? `<p class="legend"><span><span class="sb solid">PrEP</span> listed by the provider</span><span><span class="sb net">PrEP</span> listed for the whole BKK Pride Clinic network, so check with the site</span></p>`
-      : `<p class="legend"><span>Badges show services the provider lists:</span>${PCOND[c].row.map(k => `<span><span class="sb solid">${SVC[k].short}</span> ${SVC[k].label}</span>`).join("")}</p>`}
+    <p class="legend"><span><span class="sb solid">${esc(svcShort(PCOND[c].row[0]))}</span> ${t("legendSite")}</span><span><span class="sb net">${esc(svcShort(PCOND[c].row[0]))}</span> ${t("legendOther")}</span></p>
     <div id="plist"></div>`;
-  app.querySelectorAll("[data-pcond]").forEach(b => b.addEventListener("click", () => { location.hash = "providers/" + b.dataset.pcond; }));
+  app.querySelectorAll("[data-pcond]").forEach(b => b.addEventListener("click", () => { location.hash = `providers/${pstate.city}/${b.dataset.pcond}`; }));
+  document.getElementById("city").addEventListener("change", e => { location.hash = `providers/${e.target.value}/${pstate.cond}`; });
   app.querySelectorAll(".fchip").forEach(b => b.addEventListener("click", () => {
     const k = b.dataset.svc;
     pstate.svc.has(k) ? pstate.svc.delete(k) : pstate.svc.add(k);
@@ -447,140 +499,178 @@ function providerShell() {
 
 function renderProviders() {
   const c = pstate.cond, q = pstate.q.trim().toLowerCase();
-  const hit = inCond(c).filter(p =>
-    [...pstate.svc].every(k => p.services[k] === true) &&
-    (c !== "hiv" || pstate.focus === "any" || p.populationFocus.includes(pstate.focus)) &&
-    (!q || [p.name.en, p.name.th, p.organization, p.network, p.location.district, p.location.area, p.location.address.en, p.location.address.th]
-      .filter(Boolean).join(" ").toLowerCase().includes(q)));
-  const byName = (a, b) => a.name.en.localeCompare(b.name.en);
+  const all = inCity(c);
+  const hay = p => [p.name.en, ...Object.values(p.name), pname(p), p.organization, tc(p.organization), p.network, p.location.district, p.location.area, tc(p.location.area),
+    ...Object.values(p.location.address || {})].filter(Boolean).join(" ").toLowerCase();
+  const hit = all.filter(p => [...pstate.svc].every(k => p.services[k] === true) &&
+    (c !== "hiv" || pstate.focus === "any" || p.populationFocus.includes(pstate.focus)) && (!q || hay(p).includes(q)));
+  const byName = (a, b) => pname(a).localeCompare(pname(b), LOCALE[LANG]);
   const block = (title, items, blurb = "") => items.length ? `<section class="cond-block" style="--c: var(--prov)">
-      <div class="cond-h"><h2>${title}</h2><span class="n">${items.length}</span></div>${blurb}
+      <div class="cond-h"><h2>${esc(title)}</h2><span class="n">${items.length}</span></div>${blurb}
       <div class="rows" style="margin-top:6px">${items.sort(byName).map(prow).join("")}</div></section>` : "";
   let html = "";
-  if (c === "hiv") {
-    html += block("Clinics and hospitals", hit.filter(p => !p.network));
-    const net = hit.filter(p => p.network);
-    if (net.length) html += `<section class="cond-block" style="--c: var(--prov)">
-      <div class="cond-h"><h2>BKK Pride Clinic network</h2><span class="n">${net.length}</span></div>
-      <p class="blurb">Run by the Bangkok Metropolitan Administration in city hospitals and public health centres. PrEP and PEP are listed as free. Opening hours aren't published, so phone first.</p>
-      ${AREAS.map(a => {
-        const items = net.filter(p => p.location.area === a).sort(byName);
-        return items.length ? `<div class="grp-h"><span>${a}</span><span>· ${items.length}</span></div><div class="rows">${items.map(prow).join("")}</div>` : "";
-      }).join("")}</section>`;
+  const networks = [...new Set(hit.filter(p => p.network).map(p => p.network))];
+  if (networks.length) {
+    html += block(t("groupClinics"), hit.filter(p => !p.network));
+    for (const nw of networks) {
+      const net = hit.filter(p => p.network === nw);
+      const areas = [...new Set([...AREAS, ...net.map(p => p.location.area)])].filter(a => net.some(p => p.location.area === a));
+      html += `<section class="cond-block" style="--c: var(--prov)">
+        <div class="cond-h"><h2>${esc(t("groupNetwork", { network: nw }))}</h2><span class="n">${net.length}</span></div>
+        ${nw === "BKK Pride Clinic" ? `<p class="blurb">${t("networkBlurbBkk")}</p>` : ""}
+        ${areas.map(a => {
+          const items = net.filter(p => p.location.area === a).sort(byName);
+          return `<div class="grp-h"><span>${esc(tc(a) || "")}</span><span>· ${items.length}</span></div><div class="rows">${items.map(prow).join("")}</div>`;
+        }).join("")}</section>`;
+    }
   } else {
-    html += block("Public hospitals and institutes", hit.filter(isPublic), `<p class="blurb">Usually lower cost, and may be covered by Thai public health insurance. Expect waiting lists.</p>`);
-    html += block("Private hospitals and clinics", hit.filter(p => !isPublic(p)));
+    html += block(t("groupPublic"), hit.filter(isPublic), `<p class="blurb">${t("groupPublicBlurb")}</p>`);
+    html += block(t("groupPrivate"), hit.filter(p => !isPublic(p)));
   }
-  document.getElementById("plist").innerHTML = html ||
-    `<p class="empty">No providers match these filters. Try removing a service filter or clearing the search.</p>`;
+  const empty = all.length ? t("noProvMatch") : t("noProvCity", { cond: condName(c), city: cityName(pstate.city) });
+  document.getElementById("plist").innerHTML = html || `<p class="empty">${esc(empty)}</p>`;
 }
 
 function prow(p) {
   const badges = PCOND[pstate.cond].row.filter(k => p.services[k] === true)
-    .map(k => `<span class="sb ${p.services.basis === "site" ? "solid" : "net"}" title="${esc(SVC[k].label)}">${SVC[k].short}</span>`).join("");
-  const sub = p.network ? (p.location.locationNote || TYPE[p.type]) : `${TYPE[p.type]} · ${where(p)}`;
+    .map(k => `<span class="sb ${p.services.basis === "site" ? "solid" : "net"}" title="${esc(svcLabel(k))}">${esc(svcShort(k))}</span>`).join("");
+  const sub = p.network ? (tc(p.location.locationNote) || t("type_" + p.type)) : `${t("type_" + p.type)} · ${where(p)}`;
+  const n2 = pname2(p);
   return `<a class="prow" href="#provider/${p.id}">
-    <span class="nm"><b>${esc(cleanName(p))}</b>${p.name.th ? `<span class="th">${esc(cleanTh(p))}</span>` : ""}</span>
+    <span class="nm"><b>${esc(pname(p))}</b>${n2 ? `<span class="th">${esc(n2)}</span>` : ""}</span>
     <span class="where">${esc(sub)}</span>
     <span class="badges">${badges}${vpill(p)}</span></a>`;
 }
 
 function providerProfile(p) {
-  const s = p.services, L = p.location, C = p.contact;
+  const s = p.services, L = p.location, C = p.contact, city = CITIES[p.city];
   const main = p.conditions.includes(pstate.cond) ? pstate.cond : p.conditions[0];
   const svcItem = k => {
     const v = s[k];
-    const [cls, ic, txt] = v === true ? (s.basis === "site" ? ["yes", "✓", "Listed by the provider"] : ["net", "✓", "Listed for the network; check with this site"])
-      : v === false ? ["no", "✕", "Not offered"] : ["unk", "?", "Not confirmed. Ask when you call"];
-    return `<li><span class="ic ${cls}" aria-hidden="true">${ic}</span><span><b>${SVC[k].label}</b><small>${txt}</small></span></li>`;
+    const [cls, ic, txt] = v === true ? (s.basis === "site" ? ["yes", "✓", t("svcSite")] : s.basis === "network" ? ["net", "✓", t("svcNetwork")] : ["net", "✓", t("svcThird")])
+      : v === false ? ["no", "✕", t("svcNo")] : ["unk", "?", t("svcUnknown")];
+    return `<li><span class="ic ${cls}" aria-hidden="true">${ic}</span><span><b>${esc(svcLabel(k))}</b><small>${esc(txt)}</small></span></li>`;
   };
-  const svcKeys = Object.keys(SVC).filter(k => p.conditions.includes(SVC[k].cond) && (k in s));
-  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent([cleanName(p), L.address.en, "Bangkok"].filter(Boolean).join(", "));
+  const svcKeys = Object.keys(SVC).filter(k => p.conditions.includes(SVC[k]) && (k in s));
+  const addrs = [...new Set([L.address[LANG], ...city.localLanguages.map(l => L.address[l]), L.address.en].filter(Boolean))];
+  const maps = "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent([cleanEn(p), L.address.en || Object.values(L.address).find(Boolean), city.name.en].filter(Boolean).join(", "));
+  const yn = v => v === true ? t("yes") : v === false ? t("no") : t("notConfirmed");
   const facts = [
-    ["Address", [L.address.en, L.address.th].filter(Boolean).join("\n") || "Not published. Ask when you call"],
-    ["Where in the building", L.locationNote], ["Nearest transit", L.nearestTransit],
-    ["Opening hours", p.hours || "Not published. Call first"],
-    ["Cost", COST[p.access.cost] || "Not confirmed"],
-    ["Who it's for", p.populationFocus.map(f => FOCUS[f]).join(", ")],
-    ["Walk-ins", p.access.walkIn === true ? "Yes" : p.access.walkIn === false ? "Appointment needed" : "Not confirmed"],
-    ["Serves foreigners", p.access.foreignersAccepted === true ? "Yes" : p.access.foreignersAccepted === false ? "No" : "Not confirmed"],
-    ["Languages", p.access.languages.join(", ") || "Not confirmed"],
-    ["Run by", p.network ? `${p.organization}, ${p.network} network` : p.organization],
+    [t("factAddress"), addrs.join("\n") || t("addrUnknown")],
+    [t("factWhere"), tc(L.locationNote)], [t("factTransit"), tc(L.nearestTransit)],
+    [t("factHours"), tc(p.hours) || t("hoursUnknown")],
+    [t("factCost"), p.access.cost ? t("cost_" + p.access.cost) : t("notConfirmed")],
+    [t("factFor"), p.populationFocus.map(f => t("focus_" + f)).join(", ")],
+    [t("factWalkIn"), p.access.walkIn === false ? t("apptNeeded") : yn(p.access.walkIn)],
+    [t("factForeigners"), yn(p.access.foreignersAccepted)],
+    [t("factLanguages"), p.access.languages.join(", ") || t("notConfirmed")],
+    [t("factRunBy"), p.network ? t("runByNetwork", { org: tc(p.organization), network: p.network }) : tc(p.organization)],
   ].filter(([, v]) => v);
-  if (facts.length % 2) facts.push(["Type", TYPE[p.type]]);
-  const medLinks = p.conditions.includes("hiv") && s.prep
-    ? { title: "PrEP medicines", items: DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))),
-        note: "US-approved PrEP medicines. Ask the clinic which ones it stocks." }
-    : null;
+  if (facts.length % 2) facts.push([t("factType"), t("type_" + p.type)]);
+  const prepMeds = p.conditions.includes("hiv") && s.prep ? DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))) : [];
   const issue = `${REPO}/issues/new?title=${encodeURIComponent("Correction: " + p.id)}&body=${encodeURIComponent("What's wrong or out of date?\n\n")}`;
+  const n2 = pname2(p);
   app.innerHTML = `
-    <a class="back" href="#providers/${main}">← All Bangkok ${PCOND[main].name} providers</a>
+    ${topbar("prov")}
+    <a class="back" href="#providers/${p.city}/${main}">${esc(t("backProv", { cond: condName(main), city: cityName(p.city) }))}</a>
     <article class="label" style="--c: var(--prov)">
       <div class="label-top">
-        <span class="eyebrow">${p.conditions.map(c => PCOND[c].name).join(" · ")} · ${esc(TYPE[p.type])} · ${esc(L.area || L.district || "Bangkok")}</span>
-        <h1>${esc(cleanName(p))}</h1>
-        ${p.name.th ? `<div class="generic">${esc(cleanTh(p))}</div>` : ""}
-        <div class="chips">${vpill(p)}${p.network ? `<span class="chip">${esc(p.network)}</span>` : ""}${p.access.cost ? `<span class="chip">${COST[p.access.cost]}</span>` : ""}</div>
+        <span class="eyebrow">${p.conditions.map(condName).join(" · ")} · ${esc(t("type_" + p.type))} · ${esc(cityName(p.city))}</span>
+        <h1>${esc(pname(p))}</h1>
+        ${n2 ? `<div class="generic">${esc(n2)}</div>` : ""}
+        <div class="chips">${vpill(p)}${p.network ? `<span class="chip">${esc(p.network)}</span>` : ""}${p.access.cost ? `<span class="chip">${t("cost_" + p.access.cost)}</span>` : ""}</div>
       </div>
       <div class="actions">
-        ${C.phone.map(ph => `<a class="btn" href="tel:${tel(ph)}">Call ${esc(ph)}</a>`).join("")}
-        ${C.line ? `<a class="btn" href="https://line.me/R/ti/p/${encodeURIComponent(C.line)}" target="_blank" rel="noopener">LINE ${esc(C.line)}</a>` : ""}
-        ${C.booking ? `<a class="btn" href="${esc(C.booking)}" target="_blank" rel="noopener">Book online</a>` : ""}
-        ${C.website ? `<a class="btn" href="${esc(C.website)}" target="_blank" rel="noopener">Website</a>` : ""}
-        ${C.email ? `<a class="btn" href="mailto:${esc(C.email)}">Email</a>` : ""}
-        <a class="btn" href="${maps}" target="_blank" rel="noopener">Directions</a>
+        ${C.phone.map(ph => `<a class="btn" href="tel:${tel(ph, p.city)}">${esc(t("call", { phone: ph }))}</a>`).join("")}
+        ${C.line ? `<a class="btn" href="https://line.me/R/ti/p/${encodeURIComponent(C.line)}" target="_blank" rel="noopener">${esc(t("lineBtn", { id: C.line }))}</a>` : ""}
+        ${C.booking ? `<a class="btn" href="${esc(C.booking)}" target="_blank" rel="noopener">${t("book")}</a>` : ""}
+        ${C.website ? `<a class="btn" href="${esc(C.website)}" target="_blank" rel="noopener">${t("website")}</a>` : ""}
+        ${C.email ? `<a class="btn" href="mailto:${esc(C.email)}">${t("emailBtn")}</a>` : ""}
+        <a class="btn" href="${maps}" target="_blank" rel="noopener">${t("directions")}</a>
       </div>
-      <ul class="svc-list" aria-label="Services">${svcKeys.map(svcItem).join("")}</ul>
+      <ul class="svc-list">${svcKeys.map(svcItem).join("")}</ul>
       <dl class="facts">${facts.map(([k, v]) => `<div class="fact"><dt>${esc(k)}</dt><dd style="white-space:pre-line">${esc(v)}</dd></div>`).join("")}</dl>
-      ${s.note || p.notes ? `<div class="about">${s.note ? `<div class="note"><strong>About these services:</strong> ${esc(s.note)}</div>` : ""}${p.notes ? `<p>${esc(p.notes)}</p>` : ""}</div>` : ""}
+      ${s.note || p.notes ? `<div class="about">${s.note ? `<div class="note"><strong>${t("aboutServices")}</strong> ${esc(tc(s.note))}</div>` : ""}${p.notes ? `<p>${esc(tc(p.notes))}</p>` : ""}</div>` : ""}
     </article>
-    ${medLinks && medLinks.items.length ? `<section class="related" style="--c: var(--hiv)"><h3>${medLinks.title}</h3>
-      <div class="rel">${medLinks.items.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div>
-      <p class="blurb">${medLinks.note}</p></section>` : ""}
-    ${p.conditions.includes("adhd") ? `<section class="related"><h3>ADHD medicines</h3>
-      <div class="rel"><a href="#adhd">See all ADHD medicines in the index</a></div>
-      <p class="blurb">Many are US brands. Amphetamine-based medicines aren't available in Thailand, so ask the provider what they can prescribe.</p></section>` : ""}
-    ${p.conditions.includes("diabetes") ? `<section class="related"><h3>Diabetes medicines</h3>
-      <div class="rel"><a href="#diabetes">See all diabetes medicines in the index</a></div></section>` : ""}
+    ${jurisdictionFor(p.city) ? `<div class="jnote" role="note" style="margin-top:20px"><strong>${t("jurisdictionTitle")}</strong><p>${esc(tc(jurisdictionFor(p.city).text))}</p></div>` : ""}
+    ${prepMeds.length ? `<section class="related" style="--c: var(--hiv)"><h3>${t("prepMeds")}</h3>
+      <div class="rel">${prepMeds.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div>
+      <p class="blurb">${t("prepMedsNote")}</p></section>` : ""}
+    ${p.conditions.includes("adhd") ? `<section class="related"><h3>${t("adhdMeds")}</h3>
+      <div class="rel"><a href="#adhd">${t("seeAllAdhd")}</a></div><p class="blurb">${t("adhdMedsNote")}</p></section>` : ""}
+    ${p.conditions.includes("diabetes") ? `<section class="related"><h3>${t("dmMeds")}</h3>
+      <div class="rel"><a href="#diabetes">${t("seeAllDm")}</a></div></section>` : ""}
     <div class="vbox">
-      <strong>Verification</strong> ${vpill(p)}
+      <strong>${t("verification")}</strong> ${vpill(p)}
       <dl>
-        <dt>Source checked</dt><dd>${fmtISO(p.verification.sourceChecked)}</dd>
-        <dt>Confirmed with provider</dt><dd>${p.verification.lastVerified ? `${fmtISO(p.verification.lastVerified)} by ${esc(p.verification.method)}` : "Not yet"}</dd>
-        ${p.verification.nextReviewDue ? `<dt>Next check due</dt><dd>${fmtISO(p.verification.nextReviewDue)}</dd>` : ""}
+        <dt>${t("sourceChecked")}</dt><dd>${fmtDate(p.verification.sourceChecked)}</dd>
+        <dt>${t("confirmedWith")}</dt><dd>${p.verification.lastVerified ? esc(t("verifiedOn", { date: fmtDate(p.verification.lastVerified), method: t("method_" + p.verification.method) })) : t("notYet")}</dd>
+        ${p.verification.nextReviewDue ? `<dt>${t("nextCheck")}</dt><dd>${fmtDate(p.verification.nextReviewDue)}</dd>` : ""}
       </dl>
-      <a href="${issue}" target="_blank" rel="noopener">Something wrong or out of date? Report it</a>
+      <a href="${issue}" target="_blank" rel="noopener">${t("report")}</a>
     </div>
-    <div class="src">Sources:<ul>${p.sources.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.publisher ? ` · ${esc(x.publisher)}` : ""}</li>`).join("")}</ul></div>`;
+    <div class="src">${t("sourcesLabel")}<ul>${p.sources.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.publisher ? ` · ${esc(x.publisher)}` : ""}</li>`).join("")}</ul></div>`;
   window.scrollTo(0, 0);
 }
 
 function whereToGet(d) {
-  const link = (k, l, n) => `<a href="#providers/${k}">${l} <span>${n}</span></a>`;
-  const count = k => PROVIDERS.filter(p => p.services[k] === true).length;
+  const city = pstate.city, place = tc(CITIES[city].jurisdiction);
+  const count = k => PROVIDERS.filter(p => p.city === city && p.services[k] === true).length;
+  const link = (path, label, n) => `<a href="#providers/${city}/${path}">${esc(label)} <span>${n}</span></a>`;
   let links = [], note = "";
   if (d.condition === "hiv") {
     const used = ((d.extra || []).find(e => e[0] === "Used for") || [])[1] || "";
-    if (/PrEP/.test(used)) links.push(link("prep", "PrEP providers", count("prep")));
-    if (/Treatment/.test(used)) links.push(link("art", "HIV treatment (ART) providers", count("art")));
-    note = "Ask the provider which brands it stocks. Thailand's public programmes often use generic versions.";
+    if (/PrEP/.test(used)) links.push(link("prep", t("prepProviders"), count("prep")));
+    if (/Treatment/.test(used)) links.push(link("art", t("artProviders"), count("art")));
+    note = esc(t("noteHivBrands"));
   } else if (d.condition === "adhd") {
-    links.push(link("adhd", "ADHD providers", inCond("adhd").length));
+    links.push(link("adhd", t("adhdProviders"), inCity("adhd", city).length));
     const g = d.generic.toLowerCase();
-    note = /lisdexamfetamine/.test(g) ? "<strong>Status in Thailand unclear.</strong> Sources disagree on whether lisdexamfetamine is allowed. Check with the Thai FDA before travelling."
-      : /amphetamine/.test(g) ? "<strong>Not available in Thailand.</strong> Amphetamine-based medicines are Category 1 narcotics there and can't be brought into the country."
-      : /^methylphenidate/.test(g) ? "Methylphenidate is a controlled (Category 2) medicine in Thailand and needs a prescription from a doctor there."
-      : "Ask the provider whether this medicine is available in Thailand.";
-  } else if (d.condition === "diabetes") {
-    links.push(link("diabetes", "Diabetes providers", inCond("diabetes").length));
-    note = "Ask the provider whether this brand is available in Thailand.";
+    note = city === "bkk"
+      ? (/lisdexamfetamine/.test(g) ? `<strong>${esc(t("thLisdex"))}</strong>` : /amphetamine/.test(g) ? `<strong>${esc(t("thAmphetamine"))}</strong>` : /^methylphenidate/.test(g) ? esc(t("thMph")) : esc(t("noteAskAvailable", { place })))
+      : esc(t("noteAskAvailable", { place }));
+  } else {
+    links.push(link("diabetes", t("dmProviders"), inCity("diabetes", city).length));
+    note = esc(t("noteAskAvailable", { place }));
   }
   if (!links.length) return "";
-  return `<section class="related" style="--c: var(--prov)"><h3>Where to get care in Bangkok</h3>
-    <div class="rel">${links.join("")}</div><p class="blurb">${note}</p></section>`;
+  return `<section class="related" style="--c: var(--prov)"><h3>${esc(t("whereCare", { city: cityName(city) }))}</h3>
+    <div class="rel">${links.join("")}<a href="#providers" class="ghost">${t("changeCity")}</a></div><p class="blurb">${note}</p></section>`;
 }
 
-document.getElementById("release").innerHTML = `Data v${esc(RELEASE.version)}, released ${fmtISO(RELEASE.released)}. <a href="${REPO}#download-the-latest-data">Download the data</a>.`;
+/* ---------------- routing ---------------- */
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  const onList = document.getElementById("list") || document.getElementById("plist");
+  if (onList) scrollMem[document.getElementById("plist") ? "prov" : "med"] = window.scrollY;
+  document.title = t("siteTitle");
+  if (h.startsWith("provider/") && PBY[h.slice(9)]) {
+    const p = PBY[h.slice(9)];
+    pstate.city = p.city;
+    if (!p.conditions.includes(pstate.cond)) pstate.cond = p.conditions[0];
+    providerProfile(p);
+  } else if (h === "providers" || h.startsWith("providers/")) {
+    const segs = h.split("/").slice(1);
+    let city = pstate.city, cond = pstate.cond, svc = null;
+    for (const s of segs) {
+      if (CITIES[s]) city = s;
+      else if (PCOND[s]) cond = s;
+      else if (SVC[s]) { cond = SVC[s]; svc = s; }
+    }
+    if (city !== pstate.city || cond !== pstate.cond || svc) { pstate.svc = new Set(svc ? [svc] : []); scrollMem.prov = 0; }
+    if (city !== pstate.city) pstate.q = "";
+    pstate.city = city; pstate.cond = cond; store.set("pf-city", city);
+    providerShell();
+    window.scrollTo(0, scrollMem.prov);
+  } else if (BY[h]) {
+    profile(BY[h]);
+  } else {
+    if (COND[h] || h === "all") state.cond = h;
+    shell();
+    window.scrollTo(0, scrollMem.med);
+  }
+  renderFooter();
+}
 window.addEventListener("hashchange", route);
 route();
 </script>

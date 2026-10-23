@@ -57,6 +57,11 @@ def load_medicines():
     return sorted(out, key=lambda r: (r["condition"], r["id"]))
 
 
+def load_cities():
+    with open(os.path.join(DATA, "cities.json"), encoding="utf-8") as f:
+        return json.load(f)
+
+
 def load_providers():
     out = []
     for path in sorted(glob.glob(os.path.join(DATA, "providers", "*.json"))):
@@ -108,25 +113,37 @@ def write(name, text, files):
 def main():
     rel = json.load(open(os.path.join(DATA, "release.json"), encoding="utf-8"))
     os.makedirs(OUT, exist_ok=True)
-    meds, provs = load_medicines(), load_providers()
+    meds, provs, cdoc = load_medicines(), load_providers(), load_cities()
+    cities = cdoc["cities"]
     files = {}
-    for name, rows, schema in (("medicines", meds, "medicine"), ("providers", provs, "provider")):
+    for name, rows, schema in (("medicines", meds, "medicine"), ("providers", provs, "provider"), ("cities", cities, "city")):
         doc = {"dataset": name, "version": rel["version"], "released": rel["released"], "license": rel["license"],
                "schema": f"{RAW}/schema/{schema}.schema.json", "count": len(rows), "data": rows}
+        if name == "cities":
+            doc["jurisdictionNotes"] = cdoc.get("jurisdictionNotes", {})
         write(f"{name}.json", json.dumps(doc, ensure_ascii=False, indent=2) + "\n", files)
         write(f"{name}.csv", to_csv(rows), files)
     status = {}
     for p in provs:
         s = p["verification"]["status"]
         status[s] = status.get(s, 0) + 1
-    by_cond = {}
+    by_cond, by_city = {}, {}
     for p in provs:
+        by_city[p["city"]] = by_city.get(p["city"], 0) + 1
         for c in p["conditions"]:
             by_cond[c] = by_cond.get(c, 0) + 1
     manifest = {**rel, "counts": {"medicines": len(meds), "providers": len(provs),
+                                  "providersByCity": dict(sorted(by_city.items())),
                                   "providersByCondition": dict(sorted(by_cond.items())),
                                   "providersByVerification": dict(sorted(status.items()))},
                 "files": files}
+    # translations: copy i18n/*.json to dist/v1/i18n/ so API users get them too
+    os.makedirs(os.path.join(OUT, "i18n"), exist_ok=True)
+    for src in sorted(glob.glob(os.path.join(ROOT, "i18n", "*.json"))):
+        name = os.path.basename(src)
+        with open(src, encoding="utf-8") as f:
+            write(f"i18n/{name}", json.dumps(json.load(f), ensure_ascii=False, indent=1) + "\n", files)
+    manifest["files"] = files
     with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8") as f:
         f.write(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     print(f"dist/v1: {len(meds)} medicines, {len(provs)} providers (v{rel['version']})")

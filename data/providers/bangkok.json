@@ -1,12 +1,13 @@
 {
   "dataset": "pocket-formulary/providers",
-  "region": "TH-10 (Bangkok)",
+  "city": "bkk",
   "providers": [
     {
       "id": "th-bkk-trc-anonymous-clinic",
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Thai Red Cross Anonymous Clinic",
         "th": "คลินิกนิรนาม สภากาชาดไทย"
@@ -18,6 +19,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Pathum Wan",
         "address": {
@@ -91,6 +93,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Pribta Clinic",
         "th": "คลินิกพริบตา"
@@ -102,6 +105,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Pathum Wan",
         "address": {
@@ -168,6 +172,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Tangerine Clinic",
         "th": "แทนเจอรีนคลินิก"
@@ -179,6 +184,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Pathum Wan",
         "address": {
@@ -245,6 +251,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "SWING Clinic Bangkok",
         "th": "สวิง คลินิก กรุงเทพฯ"
@@ -256,6 +263,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Bang Rak",
         "address": {
@@ -322,6 +330,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "RSAT Clinic Ramkhamhaeng",
         "th": "คลินิกฟ้าสีรุ้ง รามคำแหง"
@@ -333,6 +342,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Bang Kapi",
         "address": {
@@ -401,6 +411,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bumrungrad Pride Clinic",
         "th": "ไพรด์คลินิก โรงพยาบาลบำรุงราษฎร์"
@@ -412,6 +423,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Watthana",
         "address": {
@@ -480,6 +492,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bangkok Hospital — Gay Men's Health",
         "th": "โรงพยาบาลกรุงเทพ — Gay Men's Health"
@@ -491,6 +504,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": null,
         "address": {
@@ -560,6 +574,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Klang Hospital (BMA General Hospital) — BKK Pride Clinic",
         "th": "โรงพยาบาลกลาง (BKK Pride Clinic)"
@@ -571,6 +586,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -645,6 +661,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Vajira Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลวชิรพยาบาล (BKK Pride Clinic)"
@@ -656,6 +673,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -730,6 +748,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 4 Din Daeng — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 4 ดินแดง (BKK Pride Clinic)"
@@ -741,6 +760,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -815,6 +835,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 9 Prachathipatai — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 9 ประชาธิปไตย (BKK Pride Clinic)"
@@ -826,6 +847,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -900,6 +922,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 20 Pom Prap Sattru Phai — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 20 ป้อมปราบศัตรูพ่าย (BKK Pride Clinic)"
@@ -911,6 +934,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -985,6 +1009,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 25 Huai Khwang — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 25 ห้วยขวาง (BKK Pride Clinic)"
@@ -996,6 +1021,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -1070,6 +1096,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 38 Jid-Thongkham Bamphen — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 38 จี๊ด-ทองคำ บำเพ็ญ (BKK Pride Clinic)"
@@ -1081,6 +1108,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "Central Bangkok",
         "district": null,
         "address": {
@@ -1155,6 +1183,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 3 Bang Sue — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 3 บางซื่อ (BKK Pride Clinic)"
@@ -1166,6 +1195,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Bangkok",
         "district": null,
         "address": {
@@ -1240,6 +1270,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 61 Sangwan Thasanarom — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 61 สังวาลย์ ทัสนารมย์ (BKK Pride Clinic)"
@@ -1251,6 +1282,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Bangkok",
         "district": null,
         "address": {
@@ -1325,6 +1357,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Charoenkrung Pracharak Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลเจริญกรุงประชารักษ์ (BKK Pride Clinic)"
@@ -1336,6 +1369,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1410,6 +1444,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 21 Wat That Thong — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 21 วัดธาตุทอง (BKK Pride Clinic)"
@@ -1421,6 +1456,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1495,6 +1531,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 22 Wat Pak Bo — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 22 วัดปากบ่อ (BKK Pride Clinic)"
@@ -1506,6 +1543,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1580,6 +1618,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 23 Si Phraya — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 23 สี่พระยา (BKK Pride Clinic)"
@@ -1591,6 +1630,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1665,6 +1705,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 32 Marit Tintamusik — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 32 มาริษ ตินตมุสิก (BKK Pride Clinic)"
@@ -1676,6 +1717,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1750,6 +1792,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 41 Khlong Toei — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 41 คลองเตย (BKK Pride Clinic)"
@@ -1761,6 +1804,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Bangkok",
         "district": null,
         "address": {
@@ -1836,6 +1880,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Lat Krabang Bangkok Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลลาดกระบังกรุงเทพมหานคร (BKK Pride Clinic)"
@@ -1847,6 +1892,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -1921,6 +1967,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Sirindhorn Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลสิรินธร (BKK Pride Clinic)"
@@ -1932,6 +1979,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -2006,6 +2054,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Wetchakarunrasm Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลเวชการุณย์รัศมิ์ (BKK Pride Clinic)"
@@ -2017,6 +2066,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -2091,6 +2141,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Khlong Sam Wa Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลคลองสามวา (BKK Pride Clinic)"
@@ -2102,6 +2153,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -2176,6 +2228,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 43 Min Buri — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 43 มีนบุรี (BKK Pride Clinic)"
@@ -2187,6 +2240,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -2261,6 +2315,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 64 Khlong Sam Wa — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 64 คลองสามวา (BKK Pride Clinic)"
@@ -2272,6 +2327,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "East Bangkok",
         "district": null,
         "address": {
@@ -2346,6 +2402,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Taksin Hospital — Love Care Clinic — BKK Pride Clinic",
         "th": "โรงพยาบาลตากสิน Love Care Clinic (BKK Pride Clinic)"
@@ -2357,6 +2414,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Thonburi",
         "district": null,
         "address": {
@@ -2431,6 +2489,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 26 Chao Khun Phra Prayurawong — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 26 เจ้าคุณพระประยุรวงศ์ (BKK Pride Clinic)"
@@ -2442,6 +2501,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Thonburi",
         "district": null,
         "address": {
@@ -2516,6 +2576,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 28 Krung Thon Buri — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 28 กรุงธนบุรี (BKK Pride Clinic)"
@@ -2527,6 +2588,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Thonburi",
         "district": null,
         "address": {
@@ -2601,6 +2663,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 29 Chuang Nutchanet — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 29 ช่วง นุชเนตร (BKK Pride Clinic)"
@@ -2612,6 +2675,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Thonburi",
         "district": null,
         "address": {
@@ -2686,6 +2750,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 36 Bukkhalo — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 36 บุคคโล (BKK Pride Clinic)"
@@ -2697,6 +2762,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "North Thonburi",
         "district": null,
         "address": {
@@ -2771,6 +2837,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Luang Pho Thawee Sak Hospital (Nong Khaem) — BKK Pride Clinic",
         "th": "โรงพยาบาลหลวงพ่อทวีศักดิ์ ชุตินฺธโร อุทิศ (BKK Pride Clinic)"
@@ -2782,6 +2849,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Thonburi",
         "district": null,
         "address": {
@@ -2856,6 +2924,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bang Khun Thian Geriatric Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลผู้สูงอายุบางขุนเทียน (BKK Pride Clinic)"
@@ -2867,6 +2936,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Thonburi",
         "district": null,
         "address": {
@@ -2941,6 +3011,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "Ratchaphiphat Hospital — BKK Pride Clinic",
         "th": "โรงพยาบาลราชพิพัฒน์ (BKK Pride Clinic)"
@@ -2952,6 +3023,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Thonburi",
         "district": null,
         "address": {
@@ -3026,6 +3098,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 40 Bang Khae — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 40 บางแค (BKK Pride Clinic)"
@@ -3037,6 +3110,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Thonburi",
         "district": null,
         "address": {
@@ -3111,6 +3185,7 @@
       "conditions": [
         "hiv"
       ],
+      "city": "bkk",
       "name": {
         "en": "BMA Public Health Center 48 Nak Watcharautit — BKK Pride Clinic",
         "th": "ศูนย์บริการสาธารณสุข 48 นาควัชระอุทิศ (BKK Pride Clinic)"
@@ -3122,6 +3197,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": "South Thonburi",
         "district": null,
         "address": {
@@ -3196,6 +3272,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "MedConsult Clinic Thonglor",
         "th": null
@@ -3207,6 +3284,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Watthana",
         "address": {
@@ -3273,6 +3351,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "MedConsult Clinic Silom",
         "th": null
@@ -3284,6 +3363,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Bang Rak",
         "address": {
@@ -3350,6 +3430,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bangkok Hospital — Special Clinic (Psychiatry)",
         "th": null
@@ -3361,6 +3442,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Huai Khwang",
         "address": {
@@ -3433,6 +3515,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bangkok Hospital — Child Development Neuropsychiatric Clinic",
         "th": null
@@ -3444,6 +3527,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Huai Khwang",
         "address": {
@@ -3516,6 +3600,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "Rajanagarindra Institute of Child and Adolescent Mental Health",
         "th": "สถาบันสุขภาพจิตเด็กและวัยรุ่นราชนครินทร์"
@@ -3527,6 +3612,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Ratchathewi",
         "address": {
@@ -3590,6 +3676,7 @@
       "conditions": [
         "adhd"
       ],
+      "city": "bkk",
       "name": {
         "en": "Somdet Chaopraya Institute of Psychiatry",
         "th": "สถาบันจิตเวชศาสตร์สมเด็จเจ้าพระยา"
@@ -3601,6 +3688,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Khlong San",
         "address": {
@@ -3674,6 +3762,7 @@
       "conditions": [
         "diabetes"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bangkok Hospital — Diabetes, Thyroid and Endocrine Center",
         "th": null
@@ -3685,6 +3774,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Huai Khwang",
         "address": {
@@ -3762,6 +3852,7 @@
       "conditions": [
         "diabetes"
       ],
+      "city": "bkk",
       "name": {
         "en": "Bumrungrad — Endocrinology, Diabetes & Clinical Nutrition Center",
         "th": "ศูนย์เบาหวาน ต่อมไร้ท่อ และโภชนบำบัด โรงพยาบาลบำรุงราษฎร์"
@@ -3773,6 +3864,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Watthana",
         "address": {
@@ -3841,6 +3933,7 @@
       "conditions": [
         "diabetes"
       ],
+      "city": "bkk",
       "name": {
         "en": "MedPark Hospital — Endocrinology and Metabolism Center",
         "th": null
@@ -3852,6 +3945,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Khlong Toei",
         "address": {
@@ -3920,6 +4014,7 @@
       "conditions": [
         "diabetes"
       ],
+      "city": "bkk",
       "name": {
         "en": "Samitivej Children's Hospital — Growth, Endocrine and Diabetes Center",
         "th": null
@@ -3931,6 +4026,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Suan Luang",
         "address": {
@@ -4005,6 +4101,7 @@
       "conditions": [
         "diabetes"
       ],
+      "city": "bkk",
       "name": {
         "en": "Siriraj Hospital — Paediatric Diabetes (DM) Clinic",
         "th": "คลินิกเบาหวานเด็ก โรงพยาบาลศิริราช"
@@ -4016,6 +4113,7 @@
       "location": {
         "country": "TH",
         "province": "Bangkok",
+        "city": "Bangkok",
         "area": null,
         "district": "Bangkok Noi",
         "address": {

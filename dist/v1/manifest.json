@@ -1,26 +1,38 @@
 {
   "name": "Pocket Formulary",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "homepage": "https://github.com/nr1webdevelopment/pocket-formulary",
   "counts": {
     "medicines": 124,
-    "providers": 49,
+    "providers": 166,
+    "providersByCity": {
+      "bkk": 49,
+      "gdl": 9,
+      "hkg": 24,
+      "lax": 24,
+      "lis": 12,
+      "mfm": 3,
+      "sfo": 19,
+      "sha": 11,
+      "sin": 9,
+      "tpe": 6
+    },
     "providersByCondition": {
-      "adhd": 6,
-      "diabetes": 5,
-      "hiv": 38
+      "adhd": 19,
+      "diabetes": 19,
+      "hiv": 131
     },
     "providersByVerification": {
-      "unverified": 49
+      "unverified": 166
     }
   },
   "files": {
     "medicines.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.json",
       "bytes": 107617,
-      "sha256": "f5395d176aeed3f3476716924cda84a2287e339a4efd58c8d96d783a6e7c9a66"
+      "sha256": "0b51fd60fe3d09dbb4a836e8bc8a0cafcb63302b1a560dc60f9a3ee502d2ab8e"
     },
     "medicines.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.csv",
@@ -29,13 +41,53 @@
     },
     "providers.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json",
-      "bytes": 135996,
-      "sha256": "7eba19b33fea19675495b4be42a4dfb3cd294f1838cd91c81fde4d423fd005bf"
+      "bytes": 411704,
+      "sha256": "0724b047bd7508033e0d8f5d8d0ace2d5ddc966ca9f3d0593e7e787dba6ddf9f"
     },
     "providers.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv",
-      "bytes": 42118,
-      "sha256": "a6a6e6b7b52851b7fbbad7890f78b2474d0562474cdf5ae877f7a00816dce1ba"
+      "bytes": 125389,
+      "sha256": "c72978849dcb8e9d816ad7b7be3b5c2560e51d51f158dc6d3b402ae6502cb36d"
+    },
+    "cities.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.json",
+      "bytes": 11795,
+      "sha256": "e028750a20eb8cf7fbc7516fe550924a06d5e16e6925de2093305c7f3ebd366f"
+    },
+    "cities.csv": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.csv",
+      "bytes": 6877,
+      "sha256": "31eb6407ecb0d8d3bbc93ab154235041476a30cbbcf2530492847e84cf068923"
+    },
+    "i18n/content.es.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.es.json",
+      "bytes": 121511,
+      "sha256": "0404bf6525d6fd822c5ee778262752e3d5aa502e1928aea82bb7d194995625c0"
+    },
+    "i18n/content.pt.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.pt.json",
+      "bytes": 120772,
+      "sha256": "21b2abebe7a241603fb8276590d89e50543c300bd88d7615ac2879b4a08340b1"
+    },
+    "i18n/content.th.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.th.json",
+      "bytes": 178337,
+      "sha256": "6ef06db4595a93d6d419a50b6aab5b89827ad1cb09d966bcd6673d8f2d4e3b1c"
+    },
+    "i18n/content.zh-Hans.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hans.json",
+      "bytes": 110838,
+      "sha256": "98bb51eaeb291b7147b8fb70c4fe1ad522f5ec453050dfa20a1035cf548355e4"
+    },
+    "i18n/content.zh-Hant.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hant.json",
+      "bytes": 111369,
+      "sha256": "710ca5c50a729e84eed2f27f96cf9e6cbca6483c5f61277a71c5705c3b415c22"
+    },
+    "i18n/ui.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
+      "bytes": 57591,
+      "sha256": "edd47ee4b09e1431d9631cd8f48e3d477038af104afc698f4c42beb0e90a7645"
     }
   }
 }

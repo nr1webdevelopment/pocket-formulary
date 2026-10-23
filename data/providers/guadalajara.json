@@ -1,0 +1,755 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "gdl",
+  "providers": [
+    {
+      "id": "mx-gdl-cae-vih-its",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Specialised HIV and STI Care Centre (CAE Guadalajara)",
+        "es": "Centro de Atención Especializado en VIH e ITS (CAE Guadalajara)"
+      },
+      "organization": "Secretaría de Salud Jalisco",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "San Andrés",
+        "address": {
+          "es": "Calle Gigantes 3298, Col. San Andrés, Guadalajara, Jalisco",
+          "en": "Calle Gigantes 3298, San Andrés, Guadalajara, Jalisco"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+52 33 3801 8612"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Opened December 2022 as the first specialised HIV/STI centre for the Guadalajara metropolitan area: testing, PrEP and PEP, antiretroviral pharmacy, counselling, psychology, dental care. Public service; confirm cost."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.publimetro.com.mx/jalisco/2022/12/01/vih-sida-inauguran-primer-centro-especializado-para-atender-la-enfermedad-en-guadalajara/",
+          "title": "Inauguran primer centro especializado para atender VIH en Guadalajara (1 Dec 2022)",
+          "publisher": "Publimetro Jalisco",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://teladejuicio.mx/jalisco-impulsa-jornada-estatal-para-la-deteccion-temprana-del-vih-pruebas-gratuitas-y-atencion-en-todo-el-estado/",
+          "title": "Jalisco impulsa jornada estatal para la detección temprana del VIH (21 Nov 2025)",
+          "publisher": "Tela de Juicio",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://respuestavih.mx/mapa-servicios/",
+          "title": "Mapa de servicios y acciones",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Built on the former Cruz Verde Valentín Gómez Farías site. State health line: +52 33 3823 3220.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-hcg-fray-antonio-alcalde-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Old Civil Hospital of Guadalajara \"Fray Antonio Alcalde\" — HIV services",
+        "es": "Antiguo Hospital Civil de Guadalajara \"Fray Antonio Alcalde\" — servicios de VIH"
+      },
+      "organization": "Hospital Civil de Guadalajara (OPD)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "El Retiro / Centro",
+        "address": {
+          "es": "Calle Hospital 278, Col. El Retiro, Guadalajara, Jalisco, C.P. 44280",
+          "en": "Calle Hospital 278, El Retiro, Guadalajara, Jalisco 44280"
+        },
+        "postcode": "44280",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+52 33 3942 4400"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Listed on the national HIV services map with detection and treatment. Tertiary public hospital; home of the university's HIV research institute (InIVIH)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://respuestavih.mx/unidad/jcssa002195/",
+          "title": "Antiguo Hospital Civil de Guadalajara Fray Antonio Alcalde — ficha de unidad",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://plan.jalisco.gob.mx/wp-content/uploads/2026/05/Hospital-Civil-de-Guadalajara.pdf",
+          "title": "Hospital Civil de Guadalajara — plan institucional (inmuebles)",
+          "publisher": "Gobierno de Jalisco",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-hcg-juan-i-menchaca-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "New Civil Hospital of Guadalajara \"Dr. Juan I. Menchaca\"",
+        "es": "Nuevo Hospital Civil de Guadalajara \"Dr. Juan I. Menchaca\""
+      },
+      "organization": "Hospital Civil de Guadalajara (OPD)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "Independencia Oriente",
+        "address": {
+          "es": "Salvador Quevedo y Zubieta 750, Col. Independencia Oriente, Guadalajara, Jalisco, C.P. 44340",
+          "en": "Salvador Quevedo y Zubieta 750, Independencia Oriente, Guadalajara, Jalisco 44340"
+        },
+        "postcode": "44340",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed on the national HIV services map; services not detailed. Confirm what HIV care is offered."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://respuestavih.mx/mapa-servicios/",
+          "title": "Mapa de servicios y acciones",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://plan.jalisco.gob.mx/wp-content/uploads/2026/05/Hospital-Civil-de-Guadalajara.pdf",
+          "title": "Hospital Civil de Guadalajara — plan institucional (inmuebles)",
+          "publisher": "Gobierno de Jalisco",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-checcos",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "CHECCOS — Humanitarian Committee Against AIDS",
+        "es": "CHECCOS — Comité Humanitario de Esfuerzo Compartido Contra el Sida, A.C."
+      },
+      "organization": "CHECCOS A.C.",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "Centro / Barranquitas",
+        "address": {
+          "es": "Coronel Calderón 613, Centro Barranquitas, Guadalajara, Jalisco",
+          "en": "Coronel Calderón 613, Centro Barranquitas, Guadalajara, Jalisco"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Civil-society organisation named in 2023 national media as offering PrEP in Jalisco; listed on the national HIV services map."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nmas.com.mx/salud/prep-en-mexico-donde-puedo-conseguir-este-medicamento-para-prevenir-el-vih/",
+          "title": "¿Dónde puedo conseguir PrEP? (20 Jun 2023)",
+          "publisher": "N+",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://respuestavih.mx/mapa-servicios/",
+          "title": "Mapa de servicios y acciones",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-impulso-trans",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Impulso Trans A.C.",
+        "es": "Impulso Trans A.C."
+      },
+      "organization": "Impulso Trans A.C.",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "Belisario Domínguez",
+        "address": {
+          "es": "Calle Sierra Nevada 2239, Col. Belisario Domínguez, Guadalajara, Jalisco",
+          "en": "Calle Sierra Nevada 2239, Belisario Domínguez, Guadalajara, Jalisco"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Trans-led organisation listed on the national HIV services map; ask about testing and referrals."
+      },
+      "populationFocus": [
+        "transgender"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://respuestavih.mx/mapa-servicios/",
+          "title": "Mapa de servicios y acciones",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-hospital-general-occidente",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Western General Hospital (Zapopan)",
+        "es": "Hospital General de Occidente"
+      },
+      "organization": "Secretaría de Salud Jalisco",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "Zapopan",
+        "address": {
+          "es": "Av. Zoquipan 1050, Col. Zoquipan, Zapopan, Jalisco",
+          "en": "Av. Zoquipan 1050, Zoquipan, Zapopan, Jalisco"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed on the national HIV services map; services not detailed."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://respuestavih.mx/mapa-servicios/",
+          "title": "Mapa de servicios y acciones",
+          "publisher": "Respuesta VIH (Proyecto Constelaciones)",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Zapopan is part of the Guadalajara metropolitan area.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-centro-salud-3",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Health Centre No. 3",
+        "es": "Centro de Salud No. 3"
+      },
+      "organization": "Secretaría de Salud Jalisco",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "La Guadalupana",
+        "address": {
+          "es": "Av. Circunvalación División del Norte 1390, Col. La Guadalupana, Guadalajara, Jalisco",
+          "en": "Av. Circunvalación División del Norte 1390, La Guadalupana, Guadalajara, Jalisco"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+52 33 2733 0955"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Offered free rapid HIV testing during the state detection campaign (14 Nov–5 Dec 2025). Ask whether testing is available year-round."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://teladejuicio.mx/jalisco-impulsa-jornada-estatal-para-la-deteccion-temprana-del-vih-pruebas-gratuitas-y-atencion-en-todo-el-estado/",
+          "title": "Jalisco impulsa jornada estatal para la detección temprana del VIH (21 Nov 2025)",
+          "publisher": "Tela de Juicio",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-hcg-paidopsiquiatria",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Old Civil Hospital — Child and Adolescent Psychiatry",
+        "es": "Antiguo Hospital Civil — Servicio de Paidopsiquiatría"
+      },
+      "organization": "Hospital Civil de Guadalajara (OPD)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "El Retiro / Centro",
+        "address": {
+          "es": "Calle Hospital 278, Col. El Retiro, Guadalajara, Jalisco, C.P. 44280",
+          "en": "Calle Hospital 278, El Retiro, Guadalajara, Jalisco 44280"
+        },
+        "postcode": "44280",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+52 33 3942 4400"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child and adolescent psychiatry service, expanded in January 2026 with a Gesell observation room and paediatric beds. The hospital's paediatric neurology and psychiatry specialists speak publicly on ADHD; confirm assessment and prescribing."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://comsoc.udg.mx/printpdf/92963",
+          "title": "Servicio de Paidopsiquiatría, Antiguo Hospital Civil (14 Jul 2025)",
+          "publisher": "Universidad de Guadalajara — Comunicación Social",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.publimetro.com.mx/jalisco/2026/01/14/lemus-inaugura-nuevas-areas-de-cardiologia-psiquiatria-y-paidopsiquiatria-en-el-antiguo-hospital-civil/",
+          "title": "Nuevas áreas de psiquiatría y paidopsiquiatría en el Antiguo Hospital Civil (14 Jan 2026)",
+          "publisher": "Publimetro Jalisco",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://plan.jalisco.gob.mx/wp-content/uploads/2026/05/Hospital-Civil-de-Guadalajara.pdf",
+          "title": "Hospital Civil de Guadalajara — plan institucional (inmuebles)",
+          "publisher": "Gobierno de Jalisco",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mx-gdl-hcg-endocrinologia",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "gdl",
+      "name": {
+        "en": "Old Civil Hospital — Endocrinology (Diabetes, Obesity and Dyslipidaemia Clinic)",
+        "es": "Antiguo Hospital Civil — Endocrinología (Clínica de Diabetes, Obesidad y Dislipidemia)"
+      },
+      "organization": "Hospital Civil de Guadalajara (OPD)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "MX",
+        "province": "Jalisco",
+        "city": "Guadalajara",
+        "area": null,
+        "district": "El Retiro / Centro",
+        "address": {
+          "es": "Calle Hospital 278, Col. El Retiro, Guadalajara, Jalisco, C.P. 44280",
+          "en": "Calle Hospital 278, El Retiro, Guadalajara, Jalisco 44280"
+        },
+        "postcode": "44280",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+52 33 3942 4400"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Endocrinology service runs a diabetes, obesity and dyslipidaemia clinic and free screening days with education for patients and families."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://comsoc.udg.mx/printpdf/59694",
+          "title": "Servicio de Endocrinología, Antiguo Hospital Civil — Clínica 1 de Diabetes, Obesidad y Dislipidemia",
+          "publisher": "Universidad de Guadalajara — Comunicación Social",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.comsoc.udg.mx/printpdf/89224",
+          "title": "Jornada de detección de diabetes en el HCG (Nov 2024)",
+          "publisher": "Universidad de Guadalajara — Comunicación Social",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://plan.jalisco.gob.mx/wp-content/uploads/2026/05/Hospital-Civil-de-Guadalajara.pdf",
+          "title": "Hospital Civil de Guadalajara — plan institucional (inmuebles)",
+          "publisher": "Gobierno de Jalisco",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

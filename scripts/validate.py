@@ -36,7 +36,27 @@ def date_ok(v):
         return False
 
 
-def check_providers():
+LANGS = ("en", "th", "zh-Hans", "zh-Hant", "es", "pt")
+
+
+def load_cities():
+    path = os.path.join(ROOT, "data", "cities.json")
+    doc = json.load(open(path, encoding="utf-8"))
+    cities = {}
+    for c in doc["cities"]:
+        w = f"data/cities.json {c.get('code')}"
+        if c.get("code") in cities: err(w, "duplicate city code")
+        if not os.path.exists(os.path.join(ROOT, "data", "providers", c.get("file", ""))):
+            err(w, f"file data/providers/{c.get('file')} not found")
+        if c.get("uiLanguage") not in LANGS: err(w, f"uiLanguage must be one of {LANGS}")
+        cities[c["code"]] = c
+    for key, jn in doc.get("jurisdictionNotes", {}).items():
+        for code in jn.get("cities", []):
+            if code not in cities: err(f"data/cities.json jurisdictionNotes.{key}", f"unknown city {code}")
+    return cities
+
+
+def check_providers(cities):
     schema = json.load(open(os.path.join(ROOT, "schema", "provider.schema.json"), encoding="utf-8"))
     props = schema["properties"]
     types, operators = props["type"]["enum"], props["operator"]["enum"]
@@ -55,14 +75,24 @@ def check_providers():
                     err(w, f"missing '{k}'")
             pid = p.get("id", "")
             if not ID.match(pid): err(w, "id must look like 'th-bkk-some-name'")
+            city = cities.get(p.get("city"))
+            if not city:
+                err(w, f"city '{p.get('city')}' is not in data/cities.json")
+            else:
+                prefix = f"{city['country'].lower()}-{city['code']}-"
+                if not pid.startswith(prefix): err(w, f"id must start with '{prefix}'")
+                if p.get("location", {}).get("country") != city["country"]: err(w, "location.country doesn't match the city")
+                if os.path.basename(path) != city["file"]: err(w, f"record belongs in data/providers/{city['file']}")
+            for k in list(p.get("name", {})) + list(p.get("location", {}).get("address", {}) or {}):
+                if k not in LANGS: err(w, f"unknown language key '{k}' in name/address (use {LANGS})")
             if pid in seen: err(w, f"duplicate id (also in {seen[pid]})")
             seen[pid] = rel
             if not p.get("name", {}).get("en"): err(w, "name.en is required")
             if p.get("type") not in types: err(w, f"type must be one of {types}")
             if p.get("operator") not in operators: err(w, f"operator must be one of {operators}")
             c = p.get("contact", {})
-            if not (c.get("phone") or c.get("website") or c.get("line")):
-                err(w, "needs at least one way to contact (phone, website or LINE)")
+            if not (c.get("phone") or c.get("website") or c.get("line") or c.get("email")):
+                warn(w, "no phone, website, LINE or email yet; people can only use the source links")
             for k in ("website", "booking"):
                 if c.get(k) and not c[k].startswith(("http://", "https://")): err(w, f"contact.{k} must be a URL")
             s = p.get("services", {})
@@ -127,7 +157,7 @@ def check_dist():
         Validator = jsonschema.Draft202012Validator
     except (ImportError, AttributeError):
         print("(jsonschema >= 4 not installed — skipping schema check of dist/; CI runs it)"); return
-    for name, schema in (("medicines", "medicine"), ("providers", "provider")):
+    for name, schema in (("medicines", "medicine"), ("providers", "provider"), ("cities", "city")):
         sch = json.load(open(os.path.join(ROOT, "schema", f"{schema}.schema.json"), encoding="utf-8"))
         v = Validator(sch)
         doc = json.load(open(os.path.join(ROOT, "dist", "v1", f"{name}.json"), encoding="utf-8"))
@@ -137,7 +167,8 @@ def check_dist():
 
 
 if __name__ == "__main__":
-    n_p, n_m = check_providers(), check_medicines()
+    cities = load_cities()
+    n_p, n_m = check_providers(cities), check_medicines()
     check_dist()
     for x in warnings: print("WARN ", x)
     for x in errors: print("ERROR", x)

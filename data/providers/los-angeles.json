@@ -1,0 +1,1871 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "lax",
+  "providers": [
+    {
+      "id": "us-lax-dph-central",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Central Health Center — Sexual Health Clinic"
+      },
+      "organization": "Los Angeles County Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Downtown",
+        "address": {
+          "en": "241 N. Figueroa Street, Los Angeles, CA 90012"
+        },
+        "postcode": "90012",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 449 7009"
+        ],
+        "line": null,
+        "website": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Registration: Tue & Thu 07:00–11:30, 12:30–17:30; Wed 09:00–13:30, 14:30–19:30; Fri 07:00–11:30. No clinic Mon.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free (no copay; insurance billed if you have it). HIV testing, PrEP (pills or monthly injection), PEP within 72 hours, STI testing and treatment, doxy-PEP. Walk-ins welcome; book on +1 213 449 7009. Hours are registration hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+          "title": "Sexual Health Clinics",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://admin.publichealth.lacounty.gov/chs/SexualHealthClinicSchedule.pdf",
+          "title": "Sexual Health Clinic Schedule (8/5/2026)",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-dph-mlk",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "MLK Jr. Center for Public Health — Sexual Health Clinic"
+      },
+      "organization": "Los Angeles County Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Willowbrook / South LA",
+        "address": {
+          "en": "11833 S. Wilmington Avenue, Los Angeles, CA 90059"
+        },
+        "postcode": "90059",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 449 7009"
+        ],
+        "line": null,
+        "website": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Registration: Tue & Wed 07:00–11:30, 12:30–17:30; Thu 09:00–13:30, 14:30–19:30; Fri 07:00–11:30. No clinic Mon.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free (no copay; insurance billed if you have it). HIV testing, PrEP (pills or monthly injection), PEP within 72 hours, STI testing and treatment, doxy-PEP. Walk-ins welcome; book on +1 213 449 7009. Hours are registration hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+          "title": "Sexual Health Clinics",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://admin.publichealth.lacounty.gov/chs/SexualHealthClinicSchedule.pdf",
+          "title": "Sexual Health Clinic Schedule (8/5/2026)",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-dph-pacoima",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Pacoima Health Center — Sexual Health Clinic"
+      },
+      "organization": "Los Angeles County Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Pacoima (San Fernando Valley)",
+        "address": {
+          "en": "13300 Van Nuys Boulevard, Pacoima, CA 91331"
+        },
+        "postcode": "91331",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 449 7009"
+        ],
+        "line": null,
+        "website": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Registration: Mon 11:00–15:00, 16:00–19:30; Tue–Thu 07:30–11:00, 12:00–16:00; Fri 07:30–11:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Screening only: people with symptoms are referred to a full-service clinic. Free (no copay; insurance billed if you have it). HIV testing, PrEP (pills or monthly injection), PEP within 72 hours, STI testing and treatment, doxy-PEP. Walk-ins welcome; book on +1 213 449 7009. Hours are registration hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+          "title": "Sexual Health Clinics",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://admin.publichealth.lacounty.gov/chs/SexualHealthClinicSchedule.pdf",
+          "title": "Sexual Health Clinic Schedule (8/5/2026)",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-dph-glendale",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Glendale Health Center — Sexual Health Clinic"
+      },
+      "organization": "Los Angeles County Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Glendale",
+        "address": {
+          "en": "501 N. Glendale Avenue, Glendale, CA 91206"
+        },
+        "postcode": "91206",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 449 7009"
+        ],
+        "line": null,
+        "website": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Registration: Tue 09:00–13:30, 14:30–19:30; Wed & Thu 07:30–11:30, 12:30–17:30; Fri 07:00–11:30. No clinic Mon.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free (no copay; insurance billed if you have it). HIV testing, PrEP (pills or monthly injection), PEP within 72 hours, STI testing and treatment, doxy-PEP. Walk-ins welcome; book on +1 213 449 7009. Hours are registration hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+          "title": "Sexual Health Clinics",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://admin.publichealth.lacounty.gov/chs/SexualHealthClinicSchedule.pdf",
+          "title": "Sexual Health Clinic Schedule (8/5/2026)",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Also covers North Hollywood Health Center, which is closed. Glendale is a separate city next to Los Angeles.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-dph-whittier",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Whittier Health Center — Sexual Health Clinic"
+      },
+      "organization": "Los Angeles County Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Whittier",
+        "address": {
+          "en": "7643 S. Painter Avenue, Whittier, CA 90602"
+        },
+        "postcode": "90602",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 449 7009"
+        ],
+        "line": null,
+        "website": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Registration: Mon–Wed 07:30–11:00, 12:00–16:00; Thu 11:00–15:00, 16:00–19:30; Fri 07:30–11:00. Screening only Mon, Wed, Fri mornings; full services Tue & Thu.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free (no copay; insurance billed if you have it). HIV testing, PrEP (pills or monthly injection), PEP within 72 hours, STI testing and treatment, doxy-PEP. Walk-ins welcome; book on +1 213 449 7009. Hours are registration hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/",
+          "title": "Sexual Health Clinics",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://admin.publichealth.lacounty.gov/chs/SexualHealthClinicSchedule.pdf",
+          "title": "Sexual Health Clinic Schedule (8/5/2026)",
+          "publisher": "Los Angeles County Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Whittier is a separate city in LA County.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-lgbt-center-mcdonald-wright",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Los Angeles LGBT Center — McDonald/Wright Building"
+      },
+      "organization": "Los Angeles LGBT Center",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Hollywood",
+        "address": {
+          "en": "1625 N. Schrader Boulevard, Los Angeles, CA 90028"
+        },
+        "postcode": "90028",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 993 7500",
+          "+1 323 993 8990",
+          "+1 323 491 2420"
+        ],
+        "line": null,
+        "website": "https://lalgbtcenter.org/services/sexual-health-services/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Medical services, pharmacy and HIV/STI care. PrEP hotline +1 323 993 8990; PEP hotline +1 323 491 2420. Free or low-cost PrEP care for insured and uninsured patients."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "msm",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://lalgbtcenter.org/services/sexual-health-services/",
+          "title": "Sexual Health Services",
+          "publisher": "Los Angeles LGBT Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-lgbt-center-south",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Los Angeles LGBT Center — Center South"
+      },
+      "organization": "Los Angeles LGBT Center",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Leimert Park / South LA",
+        "address": {
+          "en": "2313 W. Martin Luther King Jr. Boulevard, Los Angeles, CA 90008"
+        },
+        "postcode": "90008",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 860 3799"
+        ],
+        "line": null,
+        "website": "https://lalgbtcenter.org/services/sexual-health-services/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Primary care, HIV testing, STI testing and treatment, transgender services. Ask whether PrEP/PEP are prescribed on site."
+      },
+      "populationFocus": [
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://lalgbtcenter.org/services/sexual-health-services/",
+          "title": "Sexual Health Services",
+          "publisher": "Los Angeles LGBT Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-lgbt-center-trans-wellness",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Los Angeles LGBT Center — Trans Wellness Center"
+      },
+      "organization": "Los Angeles LGBT Center",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Koreatown",
+        "address": {
+          "en": "3055 Wilshire Boulevard, Suite 360, Los Angeles, CA 90010"
+        },
+        "postcode": "90010",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 993 2900"
+        ],
+        "line": null,
+        "website": "https://lalgbtcenter.org/services/sexual-health-services/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "genderAffirmingHormones": true,
+        "basis": "site",
+        "note": "Gender-affirming care and primary care for trans people. Ask about HIV services."
+      },
+      "populationFocus": [
+        "transgender"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://lalgbtcenter.org/services/sexual-health-services/",
+          "title": "Sexual Health Services",
+          "publisher": "Los Angeles LGBT Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-apla-la-brea",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "APLA Health — Gleicher/Chen Health Center"
+      },
+      "organization": "APLA Health",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Baldwin Hills",
+        "address": {
+          "en": "3743 S. La Brea Avenue, Los Angeles, CA 90016"
+        },
+        "postcode": "90016",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 201 5000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The county directory prints this number as (231) 201-5000 for some sites, which looks like a typo for (213).",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-apla-olympic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "APLA Health — Olympic"
+      },
+      "organization": "APLA Health",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Mid-Wilshire",
+        "address": {
+          "en": "5901 W. Olympic Boulevard, Suite 310, Los Angeles, CA 90036"
+        },
+        "postcode": "90036",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 201 5000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-apla-120th",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "APLA Health — Watts / 120th Street"
+      },
+      "organization": "APLA Health",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Watts",
+        "address": {
+          "en": "1679 E. 120th Street, Los Angeles, CA 90059"
+        },
+        "postcode": "90059",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 213 201 5000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The county directory prints this number as (231) 201-5000 for some sites, which looks like a typo for (213).",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-chla-adolescent",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Children's Hospital Los Angeles — Adolescent and Young Adult Medicine"
+      },
+      "organization": "Children's Hospital Los Angeles",
+      "type": "private_hospital",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Koreatown",
+        "address": {
+          "en": "3250 Wilshire Boulevard, Suite 300, Los Angeles, CA 90010"
+        },
+        "postcode": "90010",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 361 7550"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-mens-health-foundation-broadway",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Men's Health Foundation — South Broadway"
+      },
+      "organization": "Men's Health Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "South LA",
+        "address": {
+          "en": "8601 S. Broadway, Los Angeles, CA"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 310 550 1010"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "msm"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The county directory prints the postcode as 90005; confirm the exact address before visiting.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-mens-health-foundation-weho",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Men's Health Foundation — Santa Monica Blvd"
+      },
+      "organization": "Men's Health Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "West Hollywood",
+        "address": {
+          "en": "8280 Santa Monica Boulevard, West Hollywood, CA 90046"
+        },
+        "postcode": "90046",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 310 550 1010"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "msm"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "West Hollywood is a separate city inside Los Angeles. The foundation also lists sites at 9201 W. Sunset Blvd.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-st-johns-58th",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "St. John's Community Health — 58th Street"
+      },
+      "organization": "St. John's Community Health",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "South LA",
+        "address": {
+          "en": "808 W. 58th Street, Los Angeles, CA 90037"
+        },
+        "postcode": "90037",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 217 7647"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-st-johns-23rd",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "St. John's Community Health — 23rd Street"
+      },
+      "organization": "St. John's Community Health",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "University Park",
+        "address": {
+          "en": "326 W. 23rd Street, Los Angeles, CA 90007"
+        },
+        "postcode": "90007",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 217 7647"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-viacare-whittier-blvd",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "ViaCare Community Health Center"
+      },
+      "organization": "ViaCare Community Health Center",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Boyle Heights / East LA",
+        "address": {
+          "en": "5015 Whittier Boulevard, Los Angeles, CA 90022"
+        },
+        "postcode": "90022",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 825 8310"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "ViaCare also lists 501 Woods Ave, 507 and 607 S. Atlantic Blvd and 4755 E. Cesar E. Chavez Ave.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-watts-health-care",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Watts Health Care"
+      },
+      "organization": "Watts Healthcare Corporation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Watts",
+        "address": {
+          "en": "10300 Compton Avenue, Los Angeles, CA 90002"
+        },
+        "postcode": "90002",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 568 3010"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-wesley-vermont",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Wesley Health Centers — Vermont"
+      },
+      "organization": "JWCH Institute",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "East Hollywood",
+        "address": {
+          "en": "954 N. Vermont Avenue, Los Angeles, CA 90029"
+        },
+        "postcode": "90029",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 400 8108"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-nevhc-van-nuys",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Northeast Valley Health Corporation — Van Nuys"
+      },
+      "organization": "Northeast Valley Health Corporation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Van Nuys",
+        "address": {
+          "en": "14624 Sherman Way, Suite 600, Van Nuys, CA 91405"
+        },
+        "postcode": "91405",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 818 923 9160"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-tarzana-reseda",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Tarzana Treatment Centers — Reseda"
+      },
+      "organization": "Tarzana Treatment Centers",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Reseda",
+        "address": {
+          "en": "7101 Baird Avenue, Reseda, CA 91335"
+        },
+        "postcode": "91335",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 818 342 5897 ext. 2161"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "LA County PrEP Center of Excellence: PrEP with help applying for insurance, primary care and referrals."
+      },
+      "populationFocus": [
+        "people_who_use_drugs",
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://getprepla.com/centers-of-excellence/",
+          "title": "PrEP Centers of Excellence",
+          "publisher": "Los Angeles County Department of Public Health (Get PrEP LA)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-ucla-adhd-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "UCLA ADHD Clinic"
+      },
+      "organization": "UCLA Semel Institute / UCLA Behavioral Health Services",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Westwood",
+        "address": {
+          "en": "300 Medical Plaza, Suite 1200, Los Angeles, CA 90095"
+        },
+        "postcode": "90095",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 310 825 9989",
+          "+1 800 825 9989"
+        ],
+        "line": null,
+        "website": "https://teams.semel.ucla.edu/node/2547",
+        "email": null,
+        "booking": null
+      },
+      "hours": "ACCESS Center Mon–Fri 08:00–17:00 (Pacific); clinic runs on Wednesdays.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Comprehensive evaluations for ADHD, learning disabilities and behavioural disorders, medication treatment, parent training and social skills training. Children, adolescents and adults."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://teams.semel.ucla.edu/node/2547",
+          "title": "Attention Deficit Disorder Clinic",
+          "publisher": "UCLA Semel Institute",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-chla-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "Children's Hospital Los Angeles — Diabetes Program"
+      },
+      "organization": "Children's Hospital Los Angeles",
+      "type": "private_hospital",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "East Hollywood / Los Feliz",
+        "address": {
+          "en": "4650 Sunset Boulevard, Los Angeles, CA 90027"
+        },
+        "postcode": "90027",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 323 361 4606",
+          "+1 323 660 2450"
+        ],
+        "line": null,
+        "website": "https://www.chla.org/diabetes-program",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": null,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1, type 2 (dedicated clinic), cystic-fibrosis-related and monogenic diabetes in children. Automated insulin delivery (closed-loop) systems, certified diabetes educators, daily hotline for new families and after-hours support."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chla.org/diabetes-program",
+          "title": "Diabetes Program",
+          "publisher": "Children's Hospital Los Angeles",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.chla.org/center-endocrinology-diabetes-and-metabolism/find-us",
+          "title": "Center for Endocrinology, Diabetes and Metabolism — Find us",
+          "publisher": "Children's Hospital Los Angeles",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-lax-ucla-gonda-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lax",
+      "name": {
+        "en": "UCLA Gonda Diabetes Center"
+      },
+      "organization": "UCLA Health",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "Los Angeles",
+        "area": null,
+        "district": "Westwood",
+        "address": {
+          "en": "200 UCLA Medical Plaza, Suite 530, Los Angeles, CA 90095"
+        },
+        "postcode": "90095",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 310 825 7922",
+          "+1 310 267 1899"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Treats all forms of diabetes, including type 1, type 2 and diabetes in pregnancy; diabetes eye exams."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://uclahealth.org/locations/gonda-diabetes-center",
+          "title": "Gonda Diabetes Center",
+          "publisher": "UCLA Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

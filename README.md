@@ -1,13 +1,31 @@
 # Pocket Formulary
 
-An open dataset of **HIV, ADHD and diabetes medicines** and **care providers in Bangkok** for the same three conditions. Free to download and reuse, with a source for every record and a verification status on every provider.
+An open dataset of **HIV, ADHD and diabetes medicines** and **care providers in 10 cities** for the same three conditions. Free to download and reuse, with a source for every record and a verification status on every provider. The website is available in English, 简体中文, 繁體中文, Español, Português and ไทย.
 
 | Dataset | Records | What's in it |
 |---|---|---|
 | Medicines | 124 | FDA-approved HIV (58), ADHD (25) and diabetes (41) medicines: brand and generic name, class, form, dosing, manufacturer, approval date |
-| Providers | 49 (Bangkok) | HIV (38): testing, PrEP, PEP, ART. ADHD (6): child/adult assessment, medication. Diabetes (5): specialist diabetes and endocrine centres. Each has Thai and English names, address, phone/LINE, hours, services, cost, sources and verification |
+| Providers | 166 | HIV (131), ADHD (19) and diabetes (19) providers. Local and English names, address, phone, hours, services, cost, sources and verification |
+| Cities | 10 | Country, jurisdiction, dialling code, time zone, currency, local languages, and per-condition notes on local rules (e.g. which ADHD medicines are legal) |
 
-> **Provider data is not yet phone-verified.** Every provider record starts as `unverified`, meaning it comes from the provider's own website or an official BMA announcement but nobody has confirmed it directly yet. Check `verification.status` before relying on a record, and call ahead before visiting. This is not medical advice. If you need PEP, go to a clinic or hospital emergency department as soon as possible; PEP has to start within 72 hours.
+| City | Code | HIV | ADHD | Diabetes | Total |
+|---|---|---|---|---|---|
+| Bangkok, Thailand | `bkk` | 38 | 6 | 5 | 49 |
+| Shanghai, Mainland China | `sha` | 8 | 1 | 2 | 11 |
+| Hong Kong SAR | `hkg` | 21 | 2 | 1 | 24 |
+| Macau SAR | `mfm` | 2 | 2 | 2 | 3 |
+| Taipei, Taiwan | `tpe` | 4 | 1 | 1 | 6 |
+| Singapore | `sin` | 5 | 3 | 1 | 9 |
+| San Francisco, USA | `sfo` | 15 | 1 | 3 | 19 |
+| Los Angeles, USA | `lax` | 21 | 1 | 2 | 24 |
+| Guadalajara, Mexico | `gdl` | 7 | 1 | 1 | 9 |
+| Lisbon, Portugal | `lis` | 10 | 1 | 1 | 12 |
+
+Some providers cover more than one condition, so condition counts add up to more than the total.
+
+> **Mainland China, Hong Kong, Macau and Taiwan are four separate jurisdictions.** Each has its own laws, medicine regulator, approved and controlled medicine lists, prescription rules and health insurance. A medicine or service available in one may not be available, or legal, in another. Check the rules for the place you are in. (This note is in `data/cities.json` as `jurisdictionNotes` and shows on the website for those four cities.)
+
+> **Provider data is not yet phone-verified.** Every provider record starts as `unverified`, meaning it comes from the provider's own website or an official government source but nobody has confirmed it directly yet. Check `verification.status` before relying on a record, and call ahead before visiting. This is not medical advice. If you need PEP, go to a clinic or hospital emergency department as soon as possible; PEP has to start within 72 hours.
 
 ## Download the latest data
 
@@ -19,6 +37,9 @@ Always-current files (they track the `main` branch):
 | Providers (CSV) | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv |
 | Medicines (JSON) | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.json |
 | Medicines (CSV) | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.csv |
+| Cities (JSON) | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.json |
+| Cities (CSV) | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.csv |
+| Translations | `https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json` and `content.<lang>.json` |
 | Manifest | https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/manifest.json |
 
 - **Pinned versions:** each tagged release (e.g. `v1.0.0`) has a zip on the [Releases page](https://github.com/nr1webdevelopment/pocket-formulary/releases). Use these if you need data that won't change under you.
@@ -30,11 +51,14 @@ const res = await fetch("https://raw.githubusercontent.com/nr1webdevelopment/poc
 const { version, data } = await res.json();
 const prep = data.filter(p => p.conditions.includes("hiv") && p.services.prep === true && p.verification.status !== "closed");
 const adhdAdults = data.filter(p => p.conditions.includes("adhd") && p.services.adhdAssessmentAdults === true);
+const hongKongHiv = data.filter(p => p.city === "hkg" && p.conditions.includes("hiv"));
 ```
 
 ## Data format
 
 Each JSON file looks like `{ dataset, version, released, license, schema, count, data: [...] }`. Records follow the JSON Schemas in [`schema/`](schema/). The CSV files are the same records flattened (`location.district`, `services.prep`, …) for spreadsheets and the Framer CMS.
+
+**Cities and IDs:** every provider has a `city` code (see the table above and `cities.json`). IDs are `<country>-<city>-<short-name>`, e.g. `th-bkk-pribta-clinic`, `hk-hkg-shc-chai-wan`, `us-sfo-city-clinic`. `name` and `location.address` are objects keyed by language (`en`, `th`, `zh-Hans`, `zh-Hant`, `es`, `pt`), holding the provider's own names only. We don't invent translations of official names.
 
 **Provider conditions:** `conditions` lists what the provider is in the dataset for (`hiv`, `adhd`, `diabetes`), matching the medicines' `condition`. Which `services` keys a record has depends on it:
 
@@ -47,7 +71,7 @@ Each JSON file looks like `{ dataset, version, released, license, schema, count,
 **Provider services** are `true` (offered), `false` (not offered) or `null` (not confirmed). `services.basis` says where that claim comes from:
 
 - `site`: stated for this location
-- `network`: stated for the whole network (e.g. all 31 BKK Pride Clinic sites), not for this site specifically
+- `network`: stated for the whole network (e.g. all 31 BKK Pride Clinic sites, or every Hong Kong Social Hygiene Clinic), not for this site specifically
 - `third_party`: taken from a directory or news report
 
 **Verification status:**
@@ -57,18 +81,23 @@ Each JSON file looks like `{ dataset, version, released, license, schema, count,
 | `unverified` | From an official or provider source, checked on `sourceChecked`, but not confirmed directly |
 | `verified` | Confirmed with the provider by phone, email or visit on `lastVerified`. Due for re-check on `nextReviewDue` (every 90 days) |
 | `needs_review` | Something may have changed; treat with caution |
-| `closed` | No longer offers HIV services. Kept so IDs never get reused |
+| `closed` | No longer offers the listed services. Kept so IDs never get reused |
 
-IDs (`th-bkk-…`, medicine slugs) are stable and never reused.
+IDs (`th-bkk-…`, `us-lax-…`, medicine slugs) are stable and never reused.
 
 ## Repository layout
 
 ```
 data/                     SOURCE DATA: edit these
   hiv-medicines.csv  adhd-medicines.csv  diabetes-medicines.csv
-  providers/bangkok.json
+  providers/<city>.json   one file per city (bangkok, shanghai, hong-kong, macau, taipei,
+                          singapore, san-francisco, los-angeles, guadalajara, lisbon)
+  cities.json             city metadata, local-rule notes, jurisdiction notes
   release.json            version + release date
-schema/                   JSON Schemas for medicine and provider records
+i18n/
+  ui.json                 website interface text, 6 languages
+  content.<lang>.json     translations of notes, descriptions and other English content
+schema/                   JSON Schemas for medicine, provider and city records
 dist/v1/                  PUBLISHED DATA: generated, don't edit by hand
 scripts/
   build_dist.py           data/ -> dist/v1/ (JSON, CSV, manifest)
@@ -94,10 +123,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to verify a provider and how to a
 
 ## Website
 
-`index.html` is a self-contained reference site (no server needed). It has two sections:
+`index.html` is a self-contained reference site (no server needed), in six languages: English, Simplified Chinese, Traditional Chinese, Spanish, Portuguese and Thai. The language follows the browser, can be changed from the menu at the top, and can be set in the link with `?lang=zh-Hant` (also `en`, `zh-Hans`, `es`, `pt`, `th`).
 
-- **Medicines** (`index.html#biktarvy`): a profile for each medicine, linking to matching Bangkok providers. ADHD medicine pages say whether the medicine is banned in Thailand (amphetamines) or controlled (methylphenidate).
-- **Bangkok providers** (`index.html#providers/hiv`, `#providers/adhd`, `#providers/diabetes`): condition tabs, service filters and search. HIV has a PEP shortcut, ADHD has a note on Thai medicine rules, and diabetes notes that public hospitals aren't listed yet. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call, LINE, directions, a service checklist, verification status, sources and a "report a problem" link. `#providers/prep` opens the list pre-filtered.
+- **Medicines** (`index.html#biktarvy`): a profile for each medicine, linking to matching providers in the selected city. ADHD medicine pages flag Thai legal status when Bangkok is selected.
+- **Providers** (`index.html#providers/hkg/hiv`, `#providers/lis/adhd`, `#providers/sfo/diabetes`): a city picker, condition tabs, service filters and search. Each city shows its local notes; Shanghai, Hong Kong, Macau and Taipei also show the four-jurisdictions note. HIV has a PEP shortcut. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call with the right country code, LINE where available, directions, a service checklist, verification status, sources and a "report a problem" link.
+
+Generic medicine names, brand names and providers' official names are left untranslated. All other translations were machine-produced and still need review by native speakers. Corrections to `i18n/` are welcome.
 
 Rebuild after any data change:
 
@@ -113,7 +144,8 @@ The medicine CSVs in `data/` can also be imported straight into the Framer CMS.
 
 - **HIV medicines:** [NIH HIVinfo, FDA-Approved HIV Medicines](https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines)
 - **ADHD and diabetes medicines:** compiled list. Check entries against [Drugs@FDA](https://www.accessdata.fda.gov/scripts/cder/daf/).
-- **Providers:** each record lists its own sources: the provider's website, BMA announcements (BKK Pride Clinic network) and, where noted, news reports.
+- **Providers:** each record lists its own sources: the provider's website, government health department pages (e.g. BMA, Hong Kong Department of Health, SF and LA County public health, Singapore HPB, Portugal SNS, Jalisco and Mexico health services) and, where noted, directories or news reports.
+- **City notes:** each city in `data/cities.json` lists the sources for its notes in `noteSources`.
 
 ## License
 

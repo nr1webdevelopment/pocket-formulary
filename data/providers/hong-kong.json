@@ -1,0 +1,1904 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "hkg",
+  "providers": [
+    {
+      "id": "hk-hkg-shc-chai-wan",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Chai Wan Social Hygiene Clinic",
+        "zh-Hant": "柴灣社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Chai Wan",
+        "address": {
+          "en": "West Wing LG5, Specialist Out-patient Block, Pamela Youde Nethersole Eastern Hospital, 3 Lok Man Road, Chai Wan"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2595 7500"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Tue & Thu 08:45–13:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-shc-wan-chai-male",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Wan Chai Male Social Hygiene Clinic",
+        "zh-Hant": "灣仔男性社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Wan Chai",
+        "address": {
+          "en": "6/F, Tang Chi Ngong Specialist Clinic, 284 Queen's Road East, Wan Chai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 3103 2400"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon 08:30–13:00, 14:00–17:30; Tue, Wed, Fri 08:45–13:00, 14:00–17:30; Thu 08:45–13:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends. Male clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-shc-yau-ma-tei-male",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Yau Ma Tei Male Social Hygiene Clinic",
+        "zh-Hant": "油麻地男性社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei",
+        "address": {
+          "en": "4/F, Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2359 4377"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon 08:30–13:00, 14:00–17:30; Tue 14:00–17:30 (and 17:30–20:30 for follow-up patients only); Wed–Fri 08:45–13:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends. Male clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-shc-yung-fung-shee",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Yung Fung Shee Social Hygiene Clinic",
+        "zh-Hant": "容鳳書社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Kwun Tong",
+        "address": {
+          "en": "4/F, Yung Fung Shee Memorial Centre, 79 Cha Kwo Ling Road, Kwun Tong, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2727 8315"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon 08:30–13:00, 14:00–17:30; Wed & Fri 08:45–13:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-shc-tuen-mun",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Tuen Mun Social Hygiene Clinic",
+        "zh-Hant": "屯門社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Tuen Mun",
+        "address": {
+          "en": "5/F, Tuen Mun Eye Centre, 4 Tuen Lee Street, Tuen Mun, New Territories"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2459 2958"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Tue & Thu 08:45–13:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-shc-fanling",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Fanling Social Hygiene Clinic",
+        "zh-Hant": "粉嶺社會衞生科診所"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Fanling",
+        "address": {
+          "en": "6/F, Fanling Health Centre, 2 Pik Fung Road, Fanling, New Territories"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2639 1437"
+        ],
+        "line": null,
+        "website": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon 08:30–13:00, 14:00–17:30; Tue–Fri 08:45–13:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Department of Health clinic for sexually transmitted infections: free or low-cost STI diagnosis and treatment for Hong Kong residents. Listed as an HIV testing location by AIDS Concern. Closed weekends and public holidays; registration closes an hour before each session ends."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dh.gov.hk/english/tele/tele_chc/tele_chc_shcm.html",
+          "title": "Social Hygiene Clinics — telephone and addresses",
+          "publisher": "Department of Health, HKSAR Government",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-itc-kowloon-bay",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Kowloon Bay Integrated Treatment Centre",
+        "zh-Hant": "九龍灣綜合治療中心"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Kowloon Bay",
+        "address": {
+          "en": "8–9/F, 9 Kai Yan Street, Kowloon Bay, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2116 2888"
+        ],
+        "line": null,
+        "website": "https://www.aids.gov.hk/english/itc/main.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Department of Health's one-stop HIV clinical service for people living with HIV. Public healthcare is for residents and valid-visa holders with a Hong Kong ID card."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://positivedestinations.info/country-database/country/hong-kong",
+          "title": "Hong Kong — country database",
+          "publisher": "Positive Destinations",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-itc-yau-ma-tei",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Yau Ma Tei Integrated Treatment Centre (incl. The Commons)",
+        "zh-Hant": "油麻地綜合治療中心"
+      },
+      "organization": "Department of Health, HKSAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei",
+        "address": {
+          "en": "7/F, Yau Ma Tei Jockey Club Polyclinic, 145 Battery Street, Yau Ma Tei, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2195 6588"
+        ],
+        "line": null,
+        "website": "https://www.aids.gov.hk/english/itc/main.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Opened December 2023. AIDS Counselling and Testing Service, a Therapeutic Prevention Clinic giving preventive treatment after possible exposure to HIV or hepatitis, and The Commons: one-stop HIV, hepatitis and STI screening for higher-risk groups."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.info.gov.hk/gia/general/202312/04/P2023120400361.htm",
+          "title": "DH's Yau Ma Tei Integrated Treatment Centre commences operation (4 Dec 2023)",
+          "publisher": "HKSAR Government press release",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.info.gov.hk/gia/general/202606/23/P2026062300771.htm",
+          "title": "Advisory Council on AIDS meeting (23 Jun 2026)",
+          "publisher": "HKSAR Government press release",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-qeh-aids-clinical-service",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Queen Elizabeth Hospital — AIDS Clinical Service",
+        "zh-Hant": "伊利沙伯醫院 愛滋病臨床服務"
+      },
+      "organization": "Hospital Authority",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei / Jordan",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www3.ha.org.hk/qeh/eng/main/index.htm",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Public hospital HIV clinic. Hospital emergency departments can assess people for PEP within 72 hours of a high-risk exposure (decided case by case)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://positivedestinations.info/country-database/country/hong-kong",
+          "title": "Hong Kong — country database",
+          "publisher": "Positive Destinations",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/?p=3641",
+          "title": "PEP information (2017, updated 2021)",
+          "publisher": "AIDS Concern",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-pmh-idsm-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Princess Margaret Hospital — Infectious Disease Special Medical Clinic",
+        "zh-Hant": "瑪嘉烈醫院 傳染病特別醫療診所"
+      },
+      "organization": "Hospital Authority",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Lai Chi Kok",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "http://haidc.ha.org.hk/HIV/HIV_AID_Service.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Hospital Authority HIV clinic at the territory's infectious disease centre."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://positivedestinations.info/country-database/country/hong-kong",
+          "title": "Hong Kong — country database",
+          "publisher": "Positive Destinations",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-aids-concern",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "AIDS Concern Health Service Centre (MY PLACE)",
+        "zh-Hant": "關懷愛滋 健康服務中心"
+      },
+      "organization": "AIDS Concern",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Mong Kok",
+        "address": {
+          "en": "Flat B, 18/F, Hua Chiao Commercial Centre, 678 Nathan Road, Mong Kok, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": "New address from 15 July 2026.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2394 6677",
+          "+852 5226 8394"
+        ],
+        "line": null,
+        "website": "https://aidsconcern.org.hk",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:30–22:00 (closed 12:30–14:00 and 18:00–19:00); alternate Saturdays; alternate Sundays 14:00–17:00; closed public holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Free HIV testing by appointment. MY PLACE offers PrEP check-ups and medication, and a PEP booking line (+852 5226 8394). PrEP and PEP are not free: AIDS Concern quotes private PEP at roughly HK$10,000–20,000."
+      },
+      "populationFocus": [
+        "msm",
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://aidsconcern.org.hk/en/?p=3641",
+          "title": "PEP information (2017, updated 2021)",
+          "publisher": "AIDS Concern",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-hkaf-yau-ma-tei",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Hong Kong AIDS Foundation — Yau Ma Tei",
+        "zh-Hant": "香港愛滋病基金會（油麻地）"
+      },
+      "organization": "Hong Kong AIDS Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei",
+        "address": {
+          "en": "Tai Shing Commercial (Yaumatei) Building, 498–500 Nathan Road, Yau Ma Tei, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2513 0513"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by AIDS Concern as an HIV testing location; check its website for hours and booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-hkaf-shau-kei-wan",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Hong Kong AIDS Foundation — Shau Kei Wan",
+        "zh-Hant": "香港愛滋病基金會（筲箕灣）"
+      },
+      "organization": "Hong Kong AIDS Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Shau Kei Wan",
+        "address": {
+          "en": "5/F, Shaukeiwan Jockey Club Clinic, 8 Chai Wan Road, Shau Kei Wan"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2513 0513"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by AIDS Concern as an HIV testing location; check its website for hours and booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-choice",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "CHOICE — Community Health Organization for Intervention, Care and Empowerment"
+      },
+      "organization": "CHOICE",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Mong Kok",
+        "address": {
+          "en": "Room 1001A, 10/F, Witty Commercial Building, 1A–1L Tung Choi Street, Mong Kok, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 3188 9024"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by AIDS Concern as an HIV testing location; check its website for hours and booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-teens-key",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Teen's Key",
+        "zh-Hant": "青鳥"
+      },
+      "organization": "Teen's Key",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei",
+        "address": {
+          "en": "Flat B, 12/F, Sun Shine Centre, 61–63 Portland Street, Yau Ma Tei, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2302 0068"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Organisation for female sex workers, listed by AIDS Concern as an HIV testing location."
+      },
+      "populationFocus": [
+        "sex_workers"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-a-backup",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "A-Backup"
+      },
+      "organization": "A-Backup",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Causeway Bay",
+        "address": {
+          "en": "Flat A1, 11/F, East South Building, 475–481 Hennessy Road, Causeway Bay"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 3116 7204"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Rapid HIV testing for gay, bi and other men who have sex with men."
+      },
+      "populationFocus": [
+        "msm"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-bgca-touch-wan-chai",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "BGCA Project Touch — Wan Chai",
+        "zh-Hant": "香港小童群益會 Project Touch（灣仔）"
+      },
+      "organization": "The Boys' and Girls' Clubs Association of Hong Kong",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Wan Chai",
+        "address": {
+          "en": "3 Lockhart Road, Wan Chai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 5633 9699"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Youth service for young men who have sex with men, listed by AIDS Concern as an HIV testing location."
+      },
+      "populationFocus": [
+        "msm",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-bgca-touch-diamond-hill",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "BGCA Project Touch — Diamond Hill",
+        "zh-Hant": "香港小童群益會 Project Touch（鑽石山）"
+      },
+      "organization": "The Boys' and Girls' Clubs Association of Hong Kong",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Diamond Hill",
+        "address": {
+          "en": "Room 203, 1/F, Lung Poon Court Commercial Complex, Diamond Hill, Kowloon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 5633 9699"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Youth service for young men who have sex with men, listed by AIDS Concern as an HIV testing location."
+      },
+      "populationFocus": [
+        "msm",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-bgca-touch-tuen-mun",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "BGCA Project Touch — Tuen Mun",
+        "zh-Hant": "香港小童群益會 Project Touch（屯門）"
+      },
+      "organization": "The Boys' and Girls' Clubs Association of Hong Kong",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Tuen Mun",
+        "address": {
+          "en": "G/F, Phase 2, Tai Hing Gardens Car Park, Tuen Mun"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 5633 9699"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Youth service for young men who have sex with men, listed by AIDS Concern as an HIV testing location."
+      },
+      "populationFocus": [
+        "msm",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-bgca-touch-tai-po",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "BGCA Project Touch — Tai Po",
+        "zh-Hant": "香港小童群益會 Project Touch（大埔）"
+      },
+      "organization": "The Boys' and Girls' Clubs Association of Hong Kong",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Tai Po",
+        "address": {
+          "en": "4/F, Tai Wo Neighbourhood Community Centre, Tai Po"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 5633 9699"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Youth service for young men who have sex with men, listed by AIDS Concern as an HIV testing location."
+      },
+      "populationFocus": [
+        "msm",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-sracp-yau-ma-tei",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Society of Rehabilitation and Crime Prevention — Yau Ma Tei",
+        "zh-Hant": "香港善導會（油麻地）"
+      },
+      "organization": "The Society of Rehabilitation and Crime Prevention, Hong Kong",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Yau Ma Tei",
+        "address": {
+          "en": "2/F, 402–404 Shanghai Street, Yau Ma Tei, Kowloon (MTR Yau Ma Tei exit A1)"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2780 1331"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by AIDS Concern as an HIV testing location; check its website for hours and booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aidsconcern.org.hk/en/testing-service/locations-of-hiv-testing-service-in-hong-kong/",
+          "title": "Locations of HIV testing service in Hong Kong",
+          "publisher": "AIDS Concern",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-kwai-chung-hospital-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Kwai Chung Hospital — Child & Adolescent Psychiatric Service",
+        "zh-Hant": "葵涌醫院 兒童及青少年精神科"
+      },
+      "organization": "Hospital Authority",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Kwai Chung",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2752 3000"
+        ],
+        "line": null,
+        "website": "https://www3.ha.org.hk/kch/en/services/child-mental/index.htm",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Public service for under-18s, mainly residents of Kowloon West and part of Kowloon Central. ADHD is among the conditions treated. New cases are triaged by senior psychiatric nurses at the Integrated Clinic."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www3.ha.org.hk/kch/en/services/child-mental/index.htm",
+          "title": "Child & Adolescent Psychiatric Service",
+          "publisher": "Kwai Chung Hospital, Hospital Authority",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-adventist-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "Adventist Medical Center — Child and Adolescent Development Center",
+        "zh-Hant": "港安醫療中心 兒童及青少年發展中心"
+      },
+      "organization": "Hong Kong Adventist Hospital",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Causeway Bay",
+        "address": {
+          "en": "26/F, Lee Garden II, 28 Yun Ping Road, Causeway Bay"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2837 2080"
+        ],
+        "line": null,
+        "website": "https://www.adventistmedical.hk/en/medical-centres-allied-health-services/child-and-adolescent-development-center",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD and autism assessment packages by a consultant psychiatrist and nurse consultant, for children, adolescents and young adults. A charity programme offers medication and non-medication treatment for eligible children."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.adventistmedical.hk/en/medical-centres-allied-health-services/child-and-adolescent-development-center",
+          "title": "Child and Adolescent Development Center",
+          "publisher": "Adventist Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Phone also works on WhatsApp.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "hk-hkg-cuhk-diabetes-assessment-centre",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "hkg",
+      "name": {
+        "en": "CUHK Yao Chung Kit Diabetes Assessment Centre"
+      },
+      "organization": "The Chinese University of Hong Kong",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "HK",
+        "province": "Hong Kong",
+        "city": "Hong Kong",
+        "area": null,
+        "district": "Sha Tin",
+        "address": {
+          "en": "7/F, Block B, Staff Quarters (South Wing), Prince of Wales Hospital, Sha Tin, New Territories"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+852 2647 8806"
+        ],
+        "line": null,
+        "website": null,
+        "email": "yckdac@cuhk.edu.hk",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Diabetes risk prediction and diagnosis, complication and cardiovascular risk assessment, genetic testing and an education and empowerment programme for people with or at risk of diabetes. Accepts Elderly Health Care Vouchers."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hkido.cuhk.edu.hk/Centres/CUHK-Yao-Chung-Kit-Diabetes-Assessment-Centre/",
+          "title": "CUHK Yao Chung Kit Diabetes Assessment Centre",
+          "publisher": "CUHK Hong Kong Institute of Diabetes and Obesity",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

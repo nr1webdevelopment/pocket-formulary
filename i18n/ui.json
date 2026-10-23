@@ -1,0 +1,1506 @@
+{
+ "siteTitle": {
+  "en": "Pocket Formulary",
+  "zh-Hans": "Pocket Formulary 药物速查",
+  "zh-Hant": "Pocket Formulary 藥物速查",
+  "es": "Pocket Formulary",
+  "pt": "Pocket Formulary",
+  "th": "Pocket Formulary"
+ },
+ "language": {
+  "en": "Language",
+  "zh-Hans": "语言",
+  "zh-Hant": "語言",
+  "es": "Idioma",
+  "pt": "Idioma",
+  "th": "ภาษา"
+ },
+ "navMedicines": {
+  "en": "Medicines",
+  "zh-Hans": "药物",
+  "zh-Hant": "藥物",
+  "es": "Medicamentos",
+  "pt": "Medicamentos",
+  "th": "ยา"
+ },
+ "navProviders": {
+  "en": "Providers",
+  "zh-Hans": "医疗服务",
+  "zh-Hant": "醫療服務",
+  "es": "Dónde atenderse",
+  "pt": "Onde ser atendido",
+  "th": "สถานพยาบาล"
+ },
+ "medRx": {
+  "en": "Rx · FDA-approved · US",
+  "zh-Hans": "处方药 · 美国 FDA 批准",
+  "zh-Hant": "處方藥 · 美國 FDA 核准",
+  "es": "Rx · Aprobados por la FDA · EE. UU.",
+  "pt": "Rx · Aprovados pela FDA · EUA",
+  "th": "ยาตามใบสั่งแพทย์ · ได้รับอนุมัติจาก FDA สหรัฐฯ"
+ },
+ "medIntro": {
+  "en": "Brand and generic names, drug classes, approval dates and dosing basics for medicines used in HIV, ADHD and diabetes. Select any medicine to open its profile.",
+  "zh-Hans": "HIV、ADHD 和糖尿病药物的品牌名与通用名、药物类别、批准日期和基本用法。点击任一药物查看详情。",
+  "zh-Hant": "HIV、ADHD 和糖尿病藥物的品牌名與學名、藥物類別、核准日期和基本用法。點選任一藥物查看詳情。",
+  "es": "Nombres comerciales y genéricos, clases, fechas de aprobación y pautas básicas de los medicamentos para el VIH, el TDAH y la diabetes. Selecciona un medicamento para ver su ficha.",
+  "pt": "Nomes comerciais e genéricos, classes, datas de aprovação e posologia básica dos medicamentos para HIV, PHDA e diabetes. Selecione um medicamento para ver a ficha.",
+  "th": "ชื่อการค้าและชื่อสามัญ กลุ่มยา วันที่อนุมัติ และวิธีใช้เบื้องต้นของยาเอชไอวี สมาธิสั้น และเบาหวาน เลือกยาเพื่อดูรายละเอียด"
+ },
+ "condAll": {
+  "en": "All",
+  "zh-Hans": "全部",
+  "zh-Hant": "全部",
+  "es": "Todos",
+  "pt": "Todos",
+  "th": "ทั้งหมด"
+ },
+ "condHiv": {
+  "en": "HIV",
+  "zh-Hans": "HIV",
+  "zh-Hant": "HIV",
+  "es": "VIH",
+  "pt": "HIV",
+  "th": "เอชไอวี"
+ },
+ "condAdhd": {
+  "en": "ADHD",
+  "zh-Hans": "ADHD",
+  "zh-Hant": "ADHD",
+  "es": "TDAH",
+  "pt": "PHDA",
+  "th": "สมาธิสั้น"
+ },
+ "condDiabetes": {
+  "en": "Diabetes",
+  "zh-Hans": "糖尿病",
+  "zh-Hant": "糖尿病",
+  "es": "Diabetes",
+  "pt": "Diabetes",
+  "th": "เบาหวาน"
+ },
+ "nMedicines": {
+  "en": "{n} medicines",
+  "zh-Hans": "{n} 种药物",
+  "zh-Hant": "{n} 種藥物",
+  "es": "{n} medicamentos",
+  "pt": "{n} medicamentos",
+  "th": "ยา {n} รายการ"
+ },
+ "searchMeds": {
+  "en": "Search brand, generic name, class or maker",
+  "zh-Hans": "搜索品牌名、通用名、类别或厂商",
+  "zh-Hant": "搜尋品牌名、學名、類別或廠商",
+  "es": "Buscar marca, nombre genérico, clase o fabricante",
+  "pt": "Pesquisar marca, nome genérico, classe ou fabricante",
+  "th": "ค้นหาชื่อการค้า ชื่อสามัญ กลุ่มยา หรือผู้ผลิต"
+ },
+ "hideDisc": {
+  "en": "Hide discontinued",
+  "zh-Hans": "隐藏已停产",
+  "zh-Hant": "隱藏已停產",
+  "es": "Ocultar descontinuados",
+  "pt": "Ocultar descontinuados",
+  "th": "ซ่อนยาที่เลิกผลิต"
+ },
+ "blurbAll": {
+  "en": "Every medicine in the index, grouped by condition and drug class.",
+  "zh-Hans": "按疾病和药物类别分组的全部药物。",
+  "zh-Hant": "依疾病和藥物類別分組的全部藥物。",
+  "es": "Todos los medicamentos del índice, agrupados por enfermedad y clase.",
+  "pt": "Todos os medicamentos do índice, agrupados por condição e classe.",
+  "th": "ยาทั้งหมดในดัชนี จัดกลุ่มตามโรคและกลุ่มยา"
+ },
+ "blurbHiv": {
+  "en": "Antiretroviral medicines for HIV treatment and prevention (PrEP).",
+  "zh-Hans": "用于 HIV 治疗和预防（PrEP）的抗逆转录病毒药物。",
+  "zh-Hant": "用於 HIV 治療和預防（PrEP）的抗反轉錄病毒藥物。",
+  "es": "Antirretrovirales para tratar y prevenir el VIH (PrEP).",
+  "pt": "Antirretrovirais para tratar e prevenir o HIV (PrEP).",
+  "th": "ยาต้านไวรัสสำหรับรักษาและป้องกันเอชไอวี (PrEP)"
+ },
+ "blurbAdhd": {
+  "en": "Stimulant and non-stimulant medicines for attention-deficit/hyperactivity disorder.",
+  "zh-Hans": "治疗注意缺陷多动障碍的兴奋剂和非兴奋剂药物。",
+  "zh-Hant": "治療注意力不足過動症的興奮劑和非興奮劑藥物。",
+  "es": "Medicamentos estimulantes y no estimulantes para el trastorno por déficit de atención e hiperactividad.",
+  "pt": "Medicamentos estimulantes e não estimulantes para a perturbação de hiperatividade e défice de atenção.",
+  "th": "ยากลุ่มกระตุ้นและไม่ใช่สารกระตุ้นสำหรับโรคสมาธิสั้น"
+ },
+ "blurbDiabetes": {
+  "en": "Insulins, pills and injectables for type 1 and type 2 diabetes.",
+  "zh-Hans": "用于 1 型和 2 型糖尿病的胰岛素、口服药和注射剂。",
+  "zh-Hant": "用於第 1 型和第 2 型糖尿病的胰島素、口服藥和注射劑。",
+  "es": "Insulinas, pastillas e inyectables para la diabetes tipo 1 y tipo 2.",
+  "pt": "Insulinas, comprimidos e injetáveis para a diabetes tipo 1 e tipo 2.",
+  "th": "อินซูลิน ยาเม็ด และยาฉีดสำหรับเบาหวานชนิดที่ 1 และ 2"
+ },
+ "noMedMatch": {
+  "en": "No medicines match “{q}”. Try a generic name or class, like “insulin” or “NRTI”.",
+  "zh-Hans": "没有与“{q}”匹配的药物。试试通用名或类别，例如“insulin”或“NRTI”。",
+  "zh-Hant": "沒有與「{q}」相符的藥物。試試學名或類別，例如「insulin」或「NRTI」。",
+  "es": "Ningún medicamento coincide con «{q}». Prueba un nombre genérico o una clase, como «insulina» o «NRTI».",
+  "pt": "Nenhum medicamento corresponde a «{q}». Experimente um nome genérico ou uma classe, como «insulina» ou «NRTI».",
+  "th": "ไม่พบยาที่ตรงกับ “{q}” ลองค้นด้วยชื่อสามัญหรือกลุ่มยา เช่น “insulin” หรือ “NRTI”"
+ },
+ "pillDisc": {
+  "en": "Discontinued",
+  "zh-Hans": "已停产",
+  "zh-Hant": "已停產",
+  "es": "Descontinuado",
+  "pt": "Descontinuado",
+  "th": "เลิกผลิต"
+ },
+ "pillNew": {
+  "en": "New",
+  "zh-Hans": "新药",
+  "zh-Hant": "新藥",
+  "es": "Nuevo",
+  "pt": "Novo",
+  "th": "ใหม่"
+ },
+ "backMeds": {
+  "en": "← All medicines",
+  "zh-Hans": "← 全部药物",
+  "zh-Hant": "← 全部藥物",
+  "es": "← Todos los medicamentos",
+  "pt": "← Todos os medicamentos",
+  "th": "← ยาทั้งหมด"
+ },
+ "factClass": {
+  "en": "Drug class",
+  "zh-Hans": "药物类别",
+  "zh-Hant": "藥物類別",
+  "es": "Clase",
+  "pt": "Classe",
+  "th": "กลุ่มยา"
+ },
+ "factCategory": {
+  "en": "Category",
+  "zh-Hans": "分类",
+  "zh-Hant": "分類",
+  "es": "Categoría",
+  "pt": "Categoria",
+  "th": "หมวด"
+ },
+ "factForm": {
+  "en": "Form",
+  "zh-Hans": "剂型",
+  "zh-Hant": "劑型",
+  "es": "Forma",
+  "pt": "Forma",
+  "th": "รูปแบบยา"
+ },
+ "factRoute": {
+  "en": "Route",
+  "zh-Hans": "给药途径",
+  "zh-Hant": "給藥途徑",
+  "es": "Vía",
+  "pt": "Via",
+  "th": "ช่องทางให้ยา"
+ },
+ "factDosing": {
+  "en": "Dosing",
+  "zh-Hans": "用法",
+  "zh-Hant": "用法",
+  "es": "Posología",
+  "pt": "Posologia",
+  "th": "วิธีใช้"
+ },
+ "factMfr": {
+  "en": "Manufacturer",
+  "zh-Hans": "生产商",
+  "zh-Hant": "製造商",
+  "es": "Fabricante",
+  "pt": "Fabricante",
+  "th": "ผู้ผลิต"
+ },
+ "factApproved": {
+  "en": "FDA approved",
+  "zh-Hans": "FDA 批准日期",
+  "zh-Hant": "FDA 核准日期",
+  "es": "Aprobado por la FDA",
+  "pt": "Aprovado pela FDA",
+  "th": "FDA อนุมัติเมื่อ"
+ },
+ "factStatus": {
+  "en": "Brand status",
+  "zh-Hans": "品牌状态",
+  "zh-Hant": "品牌狀態",
+  "es": "Estado de la marca",
+  "pt": "Estado da marca",
+  "th": "สถานะยี่ห้อ"
+ },
+ "factCondition": {
+  "en": "Condition",
+  "zh-Hans": "疾病",
+  "zh-Hant": "疾病",
+  "es": "Enfermedad",
+  "pt": "Condição",
+  "th": "โรค"
+ },
+ "brandDisc": {
+  "en": "Brand discontinued",
+  "zh-Hans": "品牌已停产",
+  "zh-Hant": "品牌已停產",
+  "es": "Marca descontinuada",
+  "pt": "Marca descontinuada",
+  "th": "ยี่ห้อนี้เลิกผลิตแล้ว"
+ },
+ "new2026": {
+  "en": "New in 2026",
+  "zh-Hans": "2026 年新药",
+  "zh-Hant": "2026 年新藥",
+  "es": "Nuevo en 2026",
+  "pt": "Novo em 2026",
+  "th": "ยาใหม่ปี 2026"
+ },
+ "about": {
+  "en": "About",
+  "zh-Hans": "简介",
+  "zh-Hant": "簡介",
+  "es": "Acerca de",
+  "pt": "Sobre",
+  "th": "เกี่ยวกับ"
+ },
+ "noteLabel": {
+  "en": "Note:",
+  "zh-Hans": "注意：",
+  "zh-Hant": "注意：",
+  "es": "Nota:",
+  "pt": "Nota:",
+  "th": "หมายเหตุ:"
+ },
+ "sameCategory": {
+  "en": "Same category",
+  "zh-Hans": "同类药物",
+  "zh-Hant": "同類藥物",
+  "es": "Misma categoría",
+  "pt": "Mesma categoria",
+  "th": "ยาในหมวดเดียวกัน"
+ },
+ "sourceLabel": {
+  "en": "Source:",
+  "zh-Hans": "来源：",
+  "zh-Hant": "來源：",
+  "es": "Fuente:",
+  "pt": "Fonte:",
+  "th": "แหล่งที่มา:"
+ },
+ "whereCare": {
+  "en": "Where to get care in {city}",
+  "zh-Hans": "在{city}哪里可以就医",
+  "zh-Hant": "在{city}哪裡可以就醫",
+  "es": "Dónde atenderse en {city}",
+  "pt": "Onde ser atendido em {city}",
+  "th": "รับการดูแลได้ที่ไหนใน{city}"
+ },
+ "changeCity": {
+  "en": "Change city",
+  "zh-Hans": "更换城市",
+  "zh-Hant": "更換城市",
+  "es": "Cambiar ciudad",
+  "pt": "Mudar de cidade",
+  "th": "เปลี่ยนเมือง"
+ },
+ "prepProviders": {
+  "en": "PrEP providers",
+  "zh-Hans": "PrEP 服务点",
+  "zh-Hant": "PrEP 服務點",
+  "es": "Dónde dan PrEP",
+  "pt": "Onde há PrEP",
+  "th": "ที่ให้บริการ PrEP"
+ },
+ "artProviders": {
+  "en": "HIV treatment (ART) providers",
+  "zh-Hans": "HIV 治疗（ART）服务点",
+  "zh-Hant": "HIV 治療（ART）服務點",
+  "es": "Dónde dan tratamiento del VIH (TAR)",
+  "pt": "Onde há tratamento do HIV (TAR)",
+  "th": "ที่ให้การรักษาเอชไอวี (ART)"
+ },
+ "adhdProviders": {
+  "en": "ADHD providers",
+  "zh-Hans": "ADHD 服务点",
+  "zh-Hant": "ADHD 服務點",
+  "es": "Dónde atienden el TDAH",
+  "pt": "Onde tratam a PHDA",
+  "th": "ที่ให้บริการด้านสมาธิสั้น"
+ },
+ "dmProviders": {
+  "en": "Diabetes providers",
+  "zh-Hans": "糖尿病服务点",
+  "zh-Hant": "糖尿病服務點",
+  "es": "Dónde atienden la diabetes",
+  "pt": "Onde tratam a diabetes",
+  "th": "ที่ให้บริการด้านเบาหวาน"
+ },
+ "noteHivBrands": {
+  "en": "Ask the provider which brands it stocks. Public programmes often use generic versions.",
+  "zh-Hans": "请询问服务点备有哪些品牌。公共项目常使用仿制药。",
+  "zh-Hant": "請詢問服務點備有哪些品牌。公共計畫常使用學名藥。",
+  "es": "Pregunta qué marcas tienen. Los programas públicos suelen usar genéricos.",
+  "pt": "Pergunte que marcas têm. Os programas públicos usam muitas vezes genéricos.",
+  "th": "สอบถามว่ามียี่ห้อใดบ้าง โครงการของรัฐมักใช้ยาสามัญ"
+ },
+ "noteAskAvailable": {
+  "en": "Ask the provider whether this medicine is available in {place}.",
+  "zh-Hans": "请向服务点询问此药在{place}是否有售。",
+  "zh-Hant": "請向服務點詢問此藥在{place}是否有供應。",
+  "es": "Pregunta si este medicamento está disponible en {place}.",
+  "pt": "Pergunte se este medicamento está disponível em {place}.",
+  "th": "สอบถามว่ายานี้มีใน{place}หรือไม่"
+ },
+ "thAmphetamine": {
+  "en": "Not available in Thailand. Amphetamine-based medicines are Category 1 narcotics there and can't be brought into the country.",
+  "zh-Hans": "泰国无法取得。安非他明类药物在泰国属于第一类麻醉品，不能携带入境。",
+  "zh-Hant": "泰國無法取得。安非他命類藥物在泰國屬於第一類麻醉品，不能攜帶入境。",
+  "es": "No disponible en Tailandia. Allí los medicamentos a base de anfetamina son estupefacientes de categoría 1 y no se pueden ingresar.",
+  "pt": "Não disponível na Tailândia. Lá os medicamentos à base de anfetamina são estupefacientes de categoria 1 e não podem entrar no país.",
+  "th": "ไม่มีในประเทศไทย ยากลุ่มแอมเฟตามีนเป็นยาเสพติดให้โทษประเภท 1 และนำเข้าประเทศไม่ได้"
+ },
+ "thLisdex": {
+  "en": "Status in Thailand unclear. Sources disagree on whether lisdexamfetamine is allowed. Check with the Thai FDA before travelling.",
+  "zh-Hans": "在泰国的地位不明。关于赖右苯丙胺是否允许，各方说法不一。出行前请向泰国食品药品监督管理局确认。",
+  "zh-Hant": "在泰國的地位不明。關於 lisdexamfetamine 是否允許，各方說法不一。出行前請向泰國食品藥物管理局確認。",
+  "es": "Situación en Tailandia poco clara. Las fuentes no coinciden en si se permite la lisdexanfetamina. Consulta a la FDA tailandesa antes de viajar.",
+  "pt": "Situação na Tailândia pouco clara. As fontes não concordam se a lisdexanfetamina é permitida. Confirme com a FDA tailandesa antes de viajar.",
+  "th": "สถานะในประเทศไทยยังไม่ชัดเจน แหล่งข้อมูลยังขัดแย้งกันว่าอนุญาตลิสเดกซ์แอมเฟตามีนหรือไม่ ควรสอบถาม อย. ก่อนเดินทาง"
+ },
+ "thMph": {
+  "en": "Methylphenidate is a controlled (Category 2) medicine in Thailand and needs a prescription from a doctor there.",
+  "zh-Hans": "哌甲酯在泰国属于第二类管制药品，需由泰国医生开处方。",
+  "zh-Hant": "派醋甲酯在泰國屬於第二類管制藥品，需由泰國醫生開處方。",
+  "es": "En Tailandia el metilfenidato es un medicamento controlado (categoría 2) y necesita receta de un médico de allí.",
+  "pt": "Na Tailândia o metilfenidato é um medicamento controlado (categoria 2) e precisa de receita de um médico local.",
+  "th": "เมทิลเฟนิเดตเป็นวัตถุออกฤทธิ์ควบคุม (ประเภท 2) ในประเทศไทย ต้องมีใบสั่งยาจากแพทย์ในประเทศไทย"
+ },
+ "provRx": {
+  "en": "Care providers · {n} cities",
+  "zh-Hans": "医疗服务 · {n} 个城市",
+  "zh-Hant": "醫療服務 · {n} 個城市",
+  "es": "Dónde atenderse · {n} ciudades",
+  "pt": "Onde ser atendido · {n} cidades",
+  "th": "สถานพยาบาล · {n} เมือง"
+ },
+ "provIntro": {
+  "en": "Clinics and hospitals for HIV, ADHD and diabetes care. Choose a city and a condition, then select a provider for its address, phone, hours and sources.",
+  "zh-Hans": "提供 HIV、ADHD 和糖尿病服务的诊所和医院。先选择城市和疾病，再点击服务点查看地址、电话、时间和来源。",
+  "zh-Hant": "提供 HIV、ADHD 和糖尿病服務的診所和醫院。先選擇城市和疾病，再點選服務點查看地址、電話、時間和來源。",
+  "es": "Clínicas y hospitales para el VIH, el TDAH y la diabetes. Elige ciudad y enfermedad y luego un centro para ver dirección, teléfono, horario y fuentes.",
+  "pt": "Clínicas e hospitais para HIV, PHDA e diabetes. Escolha a cidade e a condição e depois um local para ver morada, telefone, horário e fontes.",
+  "th": "คลินิกและโรงพยาบาลสำหรับเอชไอวี สมาธิสั้น และเบาหวาน เลือกเมืองและโรค แล้วเลือกสถานพยาบาลเพื่อดูที่อยู่ เบอร์โทร เวลา และแหล่งข้อมูล"
+ },
+ "cityLabel": {
+  "en": "City",
+  "zh-Hans": "城市",
+  "zh-Hant": "城市",
+  "es": "Ciudad",
+  "pt": "Cidade",
+  "th": "เมือง"
+ },
+ "regionAsia": {
+  "en": "Asia",
+  "zh-Hans": "亚洲",
+  "zh-Hant": "亞洲",
+  "es": "Asia",
+  "pt": "Ásia",
+  "th": "เอเชีย"
+ },
+ "regionAmericas": {
+  "en": "Americas",
+  "zh-Hans": "美洲",
+  "zh-Hant": "美洲",
+  "es": "América",
+  "pt": "Américas",
+  "th": "อเมริกา"
+ },
+ "regionEurope": {
+  "en": "Europe",
+  "zh-Hans": "欧洲",
+  "zh-Hant": "歐洲",
+  "es": "Europa",
+  "pt": "Europa",
+  "th": "ยุโรป"
+ },
+ "nProviders": {
+  "en": "{n} providers",
+  "zh-Hans": "{n} 个服务点",
+  "zh-Hant": "{n} 個服務點",
+  "es": "{n} centros",
+  "pt": "{n} locais",
+  "th": "{n} แห่ง"
+ },
+ "pepTitle": {
+  "en": "Possible exposure to HIV in the last 72 hours?",
+  "zh-Hans": "过去 72 小时内可能接触过 HIV？",
+  "zh-Hant": "過去 72 小時內可能接觸過 HIV？",
+  "es": "¿Posible exposición al VIH en las últimas 72 horas?",
+  "pt": "Possível exposição ao HIV nas últimas 72 horas?",
+  "th": "อาจสัมผัสเชื้อเอชไอวีภายใน 72 ชั่วโมงที่ผ่านมา?"
+ },
+ "pepBody": {
+  "en": "PEP has to be started within 72 hours, and the sooner the better. Go to a clinic that lists PEP or to a hospital emergency department.",
+  "zh-Hans": "PEP 必须在 72 小时内开始，越早越好。请前往列有 PEP 服务的诊所或医院急诊部。",
+  "zh-Hant": "PEP 必須在 72 小時內開始，越早越好。請前往列有 PEP 服務的診所或醫院急診部。",
+  "es": "La PEP debe empezar en las primeras 72 horas, y cuanto antes mejor. Acude a una clínica que ofrezca PEP o a urgencias de un hospital.",
+  "pt": "A PEP tem de começar nas primeiras 72 horas, e quanto mais cedo melhor. Vá a uma clínica que ofereça PEP ou às urgências de um hospital.",
+  "th": "ต้องเริ่ม PEP ภายใน 72 ชั่วโมง ยิ่งเร็วยิ่งดี ไปที่คลินิกที่ให้บริการ PEP หรือห้องฉุกเฉินของโรงพยาบาล"
+ },
+ "pepButton": {
+  "en": "Show providers that list PEP",
+  "zh-Hans": "显示提供 PEP 的服务点",
+  "zh-Hant": "顯示提供 PEP 的服務點",
+  "es": "Ver centros con PEP",
+  "pt": "Ver locais com PEP",
+  "th": "แสดงสถานพยาบาลที่ให้ PEP"
+ },
+ "jurisdictionTitle": {
+  "en": "Four separate jurisdictions",
+  "zh-Hans": "四个不同的法域",
+  "zh-Hant": "四個不同的法域",
+  "es": "Cuatro jurisdicciones distintas",
+  "pt": "Quatro jurisdições distintas",
+  "th": "4 เขตอำนาจที่แยกจากกัน"
+ },
+ "cityNoteTitle": {
+  "en": "About {cond} care in {city}",
+  "zh-Hans": "关于{city}的{cond}服务",
+  "zh-Hant": "關於{city}的{cond}服務",
+  "es": "Sobre la atención de {cond} en {city}",
+  "pt": "Sobre os cuidados de {cond} em {city}",
+  "th": "เกี่ยวกับการดูแล{cond}ใน{city}"
+ },
+ "noneVerified": {
+  "en": "None of these {n} listings has been confirmed by phone yet.",
+  "zh-Hans": "这 {n} 条信息均尚未经电话确认。",
+  "zh-Hant": "這 {n} 筆資料均尚未經電話確認。",
+  "es": "Ninguno de estos {n} centros se ha confirmado aún por teléfono.",
+  "pt": "Nenhum destes {n} locais foi ainda confirmado por telefone.",
+  "th": "ข้อมูลทั้ง {n} รายการยังไม่ได้ยืนยันทางโทรศัพท์"
+ },
+ "noneVerifiedBody": {
+  "en": "They come from each provider's own website, official announcements or public directories. Call before you go.",
+  "zh-Hans": "资料来自各服务点官网、官方公告或公开名录。前往前请先致电。",
+  "zh-Hant": "資料來自各服務點官網、官方公告或公開名錄。前往前請先致電。",
+  "es": "Proceden de la web de cada centro, anuncios oficiales o directorios públicos. Llama antes de ir.",
+  "pt": "Vêm do site de cada local, de anúncios oficiais ou de diretórios públicos. Ligue antes de ir.",
+  "th": "ข้อมูลมาจากเว็บไซต์ของสถานพยาบาล ประกาศทางการ หรือไดเรกทอรีสาธารณะ โปรดโทรก่อนไป"
+ },
+ "someVerified": {
+  "en": "{v} of {n} listings confirmed by phone.",
+  "zh-Hans": "{n} 条中有 {v} 条已经电话确认。",
+  "zh-Hant": "{n} 筆中有 {v} 筆已經電話確認。",
+  "es": "{v} de {n} centros confirmados por teléfono.",
+  "pt": "{v} de {n} locais confirmados por telefone.",
+  "th": "ยืนยันทางโทรศัพท์แล้ว {v} จาก {n} รายการ"
+ },
+ "someVerifiedBody": {
+  "en": "The rest come from provider websites, official sources or directories. Call before you go.",
+  "zh-Hans": "其余来自服务点官网、官方来源或名录。前往前请先致电。",
+  "zh-Hant": "其餘來自服務點官網、官方來源或名錄。前往前請先致電。",
+  "es": "El resto procede de webs de los centros, fuentes oficiales o directorios. Llama antes de ir.",
+  "pt": "Os restantes vêm de sites dos locais, fontes oficiais ou diretórios. Ligue antes de ir.",
+  "th": "ที่เหลือมาจากเว็บไซต์ของสถานพยาบาล แหล่งข้อมูลทางการ หรือไดเรกทอรี โปรดโทรก่อนไป"
+ },
+ "searchProv": {
+  "en": "Search name, district or area",
+  "zh-Hans": "搜索名称、地区",
+  "zh-Hant": "搜尋名稱、地區",
+  "es": "Buscar nombre, barrio o zona",
+  "pt": "Pesquisar nome, bairro ou zona",
+  "th": "ค้นหาชื่อ เขต หรือย่าน"
+ },
+ "anyFocus": {
+  "en": "Any specialist focus",
+  "zh-Hans": "任何服务对象",
+  "zh-Hant": "任何服務對象",
+  "es": "Cualquier enfoque",
+  "pt": "Qualquer foco",
+  "th": "ทุกกลุ่มเป้าหมาย"
+ },
+ "focusPrefix": {
+  "en": "Focus: {x}",
+  "zh-Hans": "服务对象：{x}",
+  "zh-Hant": "服務對象：{x}",
+  "es": "Enfoque: {x}",
+  "pt": "Foco: {x}",
+  "th": "กลุ่มเป้าหมาย: {x}"
+ },
+ "legendSite": {
+  "en": "listed by the provider",
+  "zh-Hans": "服务点自己列出",
+  "zh-Hant": "服務點自行列出",
+  "es": "lo indica el propio centro",
+  "pt": "indicado pelo próprio local",
+  "th": "สถานพยาบาลระบุเอง"
+ },
+ "legendOther": {
+  "en": "listed by a network, directory or news report, so check with the site",
+  "zh-Hans": "由网络、名录或新闻报道列出，请向服务点确认",
+  "zh-Hant": "由網絡、名錄或新聞報道列出，請向服務點確認",
+  "es": "lo indica una red, un directorio o una noticia; confírmalo con el centro",
+  "pt": "indicado por uma rede, diretório ou notícia; confirme com o local",
+  "th": "มาจากเครือข่าย ไดเรกทอรี หรือข่าว ควรสอบถามสถานพยาบาล"
+ },
+ "groupClinics": {
+  "en": "Clinics and hospitals",
+  "zh-Hans": "诊所和医院",
+  "zh-Hant": "診所和醫院",
+  "es": "Clínicas y hospitales",
+  "pt": "Clínicas e hospitais",
+  "th": "คลินิกและโรงพยาบาล"
+ },
+ "groupNetwork": {
+  "en": "{network} network",
+  "zh-Hans": "{network} 网络",
+  "zh-Hant": "{network} 網絡",
+  "es": "Red {network}",
+  "pt": "Rede {network}",
+  "th": "เครือข่าย {network}"
+ },
+ "networkBlurbBkk": {
+  "en": "Run by the Bangkok Metropolitan Administration in city hospitals and public health centres. PrEP and PEP are listed as free. Opening hours aren't published, so phone first.",
+  "zh-Hans": "由曼谷市政府在市立医院和公共卫生服务中心运营。PrEP 和 PEP 标明免费。未公布营业时间，请先致电。",
+  "zh-Hant": "由曼谷市政府在市立醫院和公共衛生服務中心營運。PrEP 和 PEP 標明免費。未公布營業時間，請先致電。",
+  "es": "Gestionada por la Administración Metropolitana de Bangkok en hospitales municipales y centros de salud pública. La PrEP y la PEP figuran como gratuitas. No publican horario: llama antes.",
+  "pt": "Gerida pela Administração Metropolitana de Banguecoque em hospitais municipais e centros de saúde pública. A PrEP e a PEP constam como gratuitas. O horário não é publicado: ligue antes.",
+  "th": "ดำเนินการโดยกรุงเทพมหานครในโรงพยาบาลและศูนย์บริการสาธารณสุขของ กทม. ระบุว่า PrEP และ PEP ฟรี ไม่ได้เผยแพร่เวลาทำการ ควรโทรก่อน"
+ },
+ "groupPublic": {
+  "en": "Public and non-profit",
+  "zh-Hans": "公立及非营利",
+  "zh-Hant": "公立及非營利",
+  "es": "Públicos y sin ánimo de lucro",
+  "pt": "Públicos e sem fins lucrativos",
+  "th": "ภาครัฐและองค์กรไม่แสวงหากำไร"
+ },
+ "groupPublicBlurb": {
+  "en": "Usually free or lower cost, and may be covered by public health insurance. Expect waiting lists at hospitals.",
+  "zh-Hans": "通常免费或费用较低，可能由公共医疗保险支付。医院可能需要排队等候。",
+  "zh-Hant": "通常免費或費用較低，可能由公共醫療保險支付。醫院可能需要排隊等候。",
+  "es": "Suelen ser gratuitos o más baratos y pueden estar cubiertos por el seguro público. En los hospitales puede haber listas de espera.",
+  "pt": "Costumam ser gratuitos ou mais baratos e podem ser cobertos pelo seguro público. Nos hospitais pode haver listas de espera.",
+  "th": "มักฟรีหรือราคาต่ำกว่า และอาจใช้สิทธิประกันสุขภาพของรัฐได้ โรงพยาบาลอาจต้องรอคิว"
+ },
+ "groupPrivate": {
+  "en": "Private",
+  "zh-Hans": "私立",
+  "zh-Hant": "私立",
+  "es": "Privados",
+  "pt": "Privados",
+  "th": "เอกชน"
+ },
+ "noProvMatch": {
+  "en": "No providers match these filters. Try removing a service filter or clearing the search.",
+  "zh-Hans": "没有符合筛选条件的服务点。请移除服务筛选或清空搜索。",
+  "zh-Hant": "沒有符合篩選條件的服務點。請移除服務篩選或清空搜尋。",
+  "es": "Ningún centro coincide con estos filtros. Quita algún filtro o borra la búsqueda.",
+  "pt": "Nenhum local corresponde a estes filtros. Remova um filtro ou limpe a pesquisa.",
+  "th": "ไม่พบสถานพยาบาลที่ตรงกับตัวกรอง ลองเอาตัวกรองบริการออกหรือล้างคำค้น"
+ },
+ "noProvCity": {
+  "en": "No {cond} providers listed for {city} yet.",
+  "zh-Hans": "{city}尚未列出{cond}服务点。",
+  "zh-Hant": "{city}尚未列出{cond}服務點。",
+  "es": "Aún no hay centros de {cond} en {city}.",
+  "pt": "Ainda não há locais de {cond} em {city}.",
+  "th": "ยังไม่มีรายชื่อสถานพยาบาลด้าน{cond}ใน{city}"
+ },
+ "backProv": {
+  "en": "← All {cond} providers in {city}",
+  "zh-Hans": "← {city}全部{cond}服务点",
+  "zh-Hant": "← {city}全部{cond}服務點",
+  "es": "← Todos los centros de {cond} en {city}",
+  "pt": "← Todos os locais de {cond} em {city}",
+  "th": "← สถานพยาบาลด้าน{cond}ทั้งหมดใน{city}"
+ },
+ "call": {
+  "en": "Call {phone}",
+  "zh-Hans": "致电 {phone}",
+  "zh-Hant": "致電 {phone}",
+  "es": "Llamar al {phone}",
+  "pt": "Ligar {phone}",
+  "th": "โทร {phone}"
+ },
+ "lineBtn": {
+  "en": "LINE {id}",
+  "zh-Hans": "LINE {id}",
+  "zh-Hant": "LINE {id}",
+  "es": "LINE {id}",
+  "pt": "LINE {id}",
+  "th": "LINE {id}"
+ },
+ "book": {
+  "en": "Book online",
+  "zh-Hans": "在线预约",
+  "zh-Hant": "線上預約",
+  "es": "Reservar en línea",
+  "pt": "Marcar online",
+  "th": "จองออนไลน์"
+ },
+ "website": {
+  "en": "Website",
+  "zh-Hans": "网站",
+  "zh-Hant": "網站",
+  "es": "Sitio web",
+  "pt": "Site",
+  "th": "เว็บไซต์"
+ },
+ "emailBtn": {
+  "en": "Email",
+  "zh-Hans": "电子邮件",
+  "zh-Hant": "電子郵件",
+  "es": "Correo",
+  "pt": "Email",
+  "th": "อีเมล"
+ },
+ "directions": {
+  "en": "Directions",
+  "zh-Hans": "路线",
+  "zh-Hant": "路線",
+  "es": "Cómo llegar",
+  "pt": "Direções",
+  "th": "เส้นทาง"
+ },
+ "svcSite": {
+  "en": "Listed by the provider",
+  "zh-Hans": "服务点自己列出",
+  "zh-Hant": "服務點自行列出",
+  "es": "Lo indica el centro",
+  "pt": "Indicado pelo local",
+  "th": "สถานพยาบาลระบุเอง"
+ },
+ "svcNetwork": {
+  "en": "Listed for the network; check with this site",
+  "zh-Hans": "为整个网络列出；请向此站点确认",
+  "zh-Hant": "為整個網絡列出；請向此站點確認",
+  "es": "Indicado para toda la red; confírmalo con esta sede",
+  "pt": "Indicado para toda a rede; confirme com este local",
+  "th": "ระบุไว้สำหรับทั้งเครือข่าย ควรสอบถามที่นี่"
+ },
+ "svcThird": {
+  "en": "From a directory or news report; check with this site",
+  "zh-Hans": "来自名录或新闻报道；请向服务点确认",
+  "zh-Hant": "來自名錄或新聞報道；請向服務點確認",
+  "es": "Según un directorio o una noticia; confírmalo con el centro",
+  "pt": "Segundo um diretório ou notícia; confirme com o local",
+  "th": "มาจากไดเรกทอรีหรือข่าว ควรสอบถามที่นี่"
+ },
+ "svcNo": {
+  "en": "Not offered",
+  "zh-Hans": "不提供",
+  "zh-Hant": "不提供",
+  "es": "No se ofrece",
+  "pt": "Não disponível",
+  "th": "ไม่มีบริการ"
+ },
+ "svcUnknown": {
+  "en": "Not confirmed. Ask when you call",
+  "zh-Hans": "未确认，致电时请询问",
+  "zh-Hant": "未確認，致電時請詢問",
+  "es": "Sin confirmar. Pregunta al llamar",
+  "pt": "Não confirmado. Pergunte quando ligar",
+  "th": "ยังไม่ยืนยัน สอบถามเมื่อโทร"
+ },
+ "factAddress": {
+  "en": "Address",
+  "zh-Hans": "地址",
+  "zh-Hant": "地址",
+  "es": "Dirección",
+  "pt": "Morada",
+  "th": "ที่อยู่"
+ },
+ "addrUnknown": {
+  "en": "Not published. Ask when you call",
+  "zh-Hans": "未公布，致电时请询问",
+  "zh-Hant": "未公布，致電時請詢問",
+  "es": "No publicada. Pregunta al llamar",
+  "pt": "Não publicada. Pergunte quando ligar",
+  "th": "ไม่ได้เผยแพร่ สอบถามเมื่อโทร"
+ },
+ "factWhere": {
+  "en": "Where in the building",
+  "zh-Hans": "楼内位置",
+  "zh-Hant": "樓內位置",
+  "es": "Dónde en el edificio",
+  "pt": "Onde no edifício",
+  "th": "ตำแหน่งในอาคาร"
+ },
+ "factTransit": {
+  "en": "Nearest transit",
+  "zh-Hans": "最近的公共交通",
+  "zh-Hant": "最近的大眾運輸",
+  "es": "Transporte más cercano",
+  "pt": "Transporte mais próximo",
+  "th": "ขนส่งสาธารณะที่ใกล้ที่สุด"
+ },
+ "factHours": {
+  "en": "Opening hours",
+  "zh-Hans": "开放时间",
+  "zh-Hant": "開放時間",
+  "es": "Horario",
+  "pt": "Horário",
+  "th": "เวลาทำการ"
+ },
+ "hoursUnknown": {
+  "en": "Not published. Call first",
+  "zh-Hans": "未公布，请先致电",
+  "zh-Hant": "未公布，請先致電",
+  "es": "No publicado. Llama antes",
+  "pt": "Não publicado. Ligue antes",
+  "th": "ไม่ได้เผยแพร่ โทรก่อน"
+ },
+ "factCost": {
+  "en": "Cost",
+  "zh-Hans": "费用",
+  "zh-Hant": "費用",
+  "es": "Costo",
+  "pt": "Custo",
+  "th": "ค่าใช้จ่าย"
+ },
+ "notConfirmed": {
+  "en": "Not confirmed",
+  "zh-Hans": "未确认",
+  "zh-Hant": "未確認",
+  "es": "Sin confirmar",
+  "pt": "Não confirmado",
+  "th": "ยังไม่ยืนยัน"
+ },
+ "factFor": {
+  "en": "Who it's for",
+  "zh-Hans": "服务对象",
+  "zh-Hant": "服務對象",
+  "es": "Para quién",
+  "pt": "Para quem",
+  "th": "สำหรับใคร"
+ },
+ "factWalkIn": {
+  "en": "Walk-ins",
+  "zh-Hans": "可否直接前往",
+  "zh-Hant": "可否直接前往",
+  "es": "Sin cita",
+  "pt": "Sem marcação",
+  "th": "เดินเข้าได้"
+ },
+ "yes": {
+  "en": "Yes",
+  "zh-Hans": "是",
+  "zh-Hant": "是",
+  "es": "Sí",
+  "pt": "Sim",
+  "th": "ได้"
+ },
+ "no": {
+  "en": "No",
+  "zh-Hans": "否",
+  "zh-Hant": "否",
+  "es": "No",
+  "pt": "Não",
+  "th": "ไม่ได้"
+ },
+ "apptNeeded": {
+  "en": "Appointment needed",
+  "zh-Hans": "需要预约",
+  "zh-Hant": "需要預約",
+  "es": "Con cita",
+  "pt": "Com marcação",
+  "th": "ต้องนัดหมาย"
+ },
+ "factForeigners": {
+  "en": "Serves foreigners",
+  "zh-Hans": "是否服务外国人",
+  "zh-Hant": "是否服務外國人",
+  "es": "Atiende a extranjeros",
+  "pt": "Atende estrangeiros",
+  "th": "รับชาวต่างชาติ"
+ },
+ "factLanguages": {
+  "en": "Languages",
+  "zh-Hans": "语言",
+  "zh-Hant": "語言",
+  "es": "Idiomas",
+  "pt": "Idiomas",
+  "th": "ภาษา"
+ },
+ "factRunBy": {
+  "en": "Run by",
+  "zh-Hans": "运营机构",
+  "zh-Hant": "營運機構",
+  "es": "Gestionado por",
+  "pt": "Gerido por",
+  "th": "ดำเนินการโดย"
+ },
+ "runByNetwork": {
+  "en": "{org}, {network} network",
+  "zh-Hans": "{org}（{network} 网络）",
+  "zh-Hant": "{org}（{network} 網絡）",
+  "es": "{org}, red {network}",
+  "pt": "{org}, rede {network}",
+  "th": "{org} เครือข่าย {network}"
+ },
+ "factType": {
+  "en": "Type",
+  "zh-Hans": "类型",
+  "zh-Hant": "類型",
+  "es": "Tipo",
+  "pt": "Tipo",
+  "th": "ประเภท"
+ },
+ "aboutServices": {
+  "en": "About these services:",
+  "zh-Hans": "关于这些服务：",
+  "zh-Hant": "關於這些服務：",
+  "es": "Sobre estos servicios:",
+  "pt": "Sobre estes serviços:",
+  "th": "เกี่ยวกับบริการ:"
+ },
+ "prepMeds": {
+  "en": "PrEP medicines",
+  "zh-Hans": "PrEP 药物",
+  "zh-Hant": "PrEP 藥物",
+  "es": "Medicamentos de PrEP",
+  "pt": "Medicamentos de PrEP",
+  "th": "ยา PrEP"
+ },
+ "prepMedsNote": {
+  "en": "US-approved PrEP medicines. Ask the clinic which ones it stocks.",
+  "zh-Hans": "美国批准的 PrEP 药物。请询问诊所备有哪些。",
+  "zh-Hant": "美國核准的 PrEP 藥物。請詢問診所備有哪些。",
+  "es": "Medicamentos de PrEP aprobados en EE. UU. Pregunta cuáles tienen.",
+  "pt": "Medicamentos de PrEP aprovados nos EUA. Pergunte quais têm.",
+  "th": "ยา PrEP ที่ได้รับอนุมัติในสหรัฐฯ สอบถามคลินิกว่ามีตัวใดบ้าง"
+ },
+ "adhdMeds": {
+  "en": "ADHD medicines",
+  "zh-Hans": "ADHD 药物",
+  "zh-Hant": "ADHD 藥物",
+  "es": "Medicamentos para el TDAH",
+  "pt": "Medicamentos para a PHDA",
+  "th": "ยารักษาสมาธิสั้น"
+ },
+ "seeAllAdhd": {
+  "en": "See all ADHD medicines in the index",
+  "zh-Hans": "查看索引中全部 ADHD 药物",
+  "zh-Hant": "查看索引中全部 ADHD 藥物",
+  "es": "Ver todos los medicamentos para el TDAH",
+  "pt": "Ver todos os medicamentos para a PHDA",
+  "th": "ดูยารักษาสมาธิสั้นทั้งหมดในดัชนี"
+ },
+ "adhdMedsNote": {
+  "en": "Many are US brands that may not be approved where you are. Ask the provider what they can prescribe.",
+  "zh-Hans": "许多是美国品牌，在你所在地未必获批。请询问服务点可以开哪些药。",
+  "zh-Hant": "許多是美國品牌，在你所在地未必核准。請詢問服務點可以開哪些藥。",
+  "es": "Muchos son marcas de EE. UU. que quizá no estén aprobadas donde estás. Pregunta qué pueden recetar.",
+  "pt": "Muitos são marcas dos EUA que podem não estar aprovadas onde está. Pergunte o que podem receitar.",
+  "th": "หลายตัวเป็นยี่ห้อของสหรัฐฯ ที่อาจไม่ได้รับอนุมัติในพื้นที่ของคุณ สอบถามว่าสั่งจ่ายยาอะไรได้บ้าง"
+ },
+ "dmMeds": {
+  "en": "Diabetes medicines",
+  "zh-Hans": "糖尿病药物",
+  "zh-Hant": "糖尿病藥物",
+  "es": "Medicamentos para la diabetes",
+  "pt": "Medicamentos para a diabetes",
+  "th": "ยาเบาหวาน"
+ },
+ "seeAllDm": {
+  "en": "See all diabetes medicines in the index",
+  "zh-Hans": "查看索引中全部糖尿病药物",
+  "zh-Hant": "查看索引中全部糖尿病藥物",
+  "es": "Ver todos los medicamentos para la diabetes",
+  "pt": "Ver todos os medicamentos para a diabetes",
+  "th": "ดูยาเบาหวานทั้งหมดในดัชนี"
+ },
+ "verification": {
+  "en": "Verification",
+  "zh-Hans": "核实情况",
+  "zh-Hant": "核實情況",
+  "es": "Verificación",
+  "pt": "Verificação",
+  "th": "การยืนยันข้อมูล"
+ },
+ "sourceChecked": {
+  "en": "Source checked",
+  "zh-Hans": "来源核对日期",
+  "zh-Hant": "來源核對日期",
+  "es": "Fuente revisada",
+  "pt": "Fonte verificada",
+  "th": "ตรวจแหล่งข้อมูลเมื่อ"
+ },
+ "confirmedWith": {
+  "en": "Confirmed with provider",
+  "zh-Hans": "已与服务点确认",
+  "zh-Hant": "已與服務點確認",
+  "es": "Confirmado con el centro",
+  "pt": "Confirmado com o local",
+  "th": "ยืนยันกับสถานพยาบาลแล้ว"
+ },
+ "notYet": {
+  "en": "Not yet",
+  "zh-Hans": "尚未",
+  "zh-Hant": "尚未",
+  "es": "Todavía no",
+  "pt": "Ainda não",
+  "th": "ยังไม่ได้ยืนยัน"
+ },
+ "verifiedOn": {
+  "en": "{date} by {method}",
+  "zh-Hans": "{date}，经{method}",
+  "zh-Hant": "{date}，經{method}",
+  "es": "{date} por {method}",
+  "pt": "{date} por {method}",
+  "th": "{date} ทาง{method}"
+ },
+ "nextCheck": {
+  "en": "Next check due",
+  "zh-Hans": "下次核实",
+  "zh-Hant": "下次核實",
+  "es": "Próxima revisión",
+  "pt": "Próxima verificação",
+  "th": "ตรวจสอบครั้งถัดไป"
+ },
+ "report": {
+  "en": "Something wrong or out of date? Report it",
+  "zh-Hans": "信息有误或过时？请报告",
+  "zh-Hant": "資料有誤或過時？請回報",
+  "es": "¿Algo incorrecto o desactualizado? Avísanos",
+  "pt": "Algo errado ou desatualizado? Avise-nos",
+  "th": "ข้อมูลผิดหรือล้าสมัย? แจ้งเรา"
+ },
+ "sourcesLabel": {
+  "en": "Sources:",
+  "zh-Hans": "来源：",
+  "zh-Hant": "來源：",
+  "es": "Fuentes:",
+  "pt": "Fontes:",
+  "th": "แหล่งข้อมูล:"
+ },
+ "machineNote": {
+  "en": "",
+  "zh-Hans": "本页面的药物和服务点说明由英文机器翻译，以英文原文为准。",
+  "zh-Hant": "本頁面的藥物和服務點說明由英文機器翻譯，以英文原文為準。",
+  "es": "Las descripciones de medicamentos y centros se tradujeron automáticamente del inglés; el texto en inglés es la referencia.",
+  "pt": "As descrições de medicamentos e locais foram traduzidas automaticamente do inglês; o texto em inglês é a referência.",
+  "th": "คำอธิบายยาและสถานพยาบาลแปลด้วยเครื่องจากภาษาอังกฤษ ให้ยึดข้อความภาษาอังกฤษเป็นหลัก"
+ },
+ "footer": {
+  "en": "For general reference only, not medical advice. Brand availability and labeling change; always check the current label and talk with a clinician or pharmacist. HIV data from NIH HIVinfo; ADHD and diabetes approval years from FDA records. Provider details change often; call before you visit.",
+  "zh-Hans": "仅供一般参考，不构成医疗建议。品牌供应和说明书会变更；请查看最新说明书并咨询医生或药剂师。HIV 数据来自 NIH HIVinfo；ADHD 和糖尿病药物的批准年份来自 FDA 记录。服务点信息经常变动，前往前请先致电。",
+  "zh-Hant": "僅供一般參考，不構成醫療建議。品牌供應和仿單會變更；請查看最新仿單並諮詢醫師或藥師。HIV 資料來自 NIH HIVinfo；ADHD 和糖尿病藥物的核准年份來自 FDA 紀錄。服務點資訊經常變動，前往前請先致電。",
+  "es": "Solo como referencia general; no es consejo médico. La disponibilidad y la ficha técnica de las marcas cambian; consulta siempre la ficha vigente y habla con un profesional sanitario o farmacéutico. Datos de VIH de NIH HIVinfo; años de aprobación de TDAH y diabetes según registros de la FDA. Los datos de los centros cambian a menudo; llama antes de ir.",
+  "pt": "Apenas para referência geral; não é aconselhamento médico. A disponibilidade e a bula das marcas mudam; confirme sempre a bula atual e fale com um profissional de saúde ou farmacêutico. Dados de HIV do NIH HIVinfo; anos de aprovação de PHDA e diabetes segundo registos da FDA. Os dados dos locais mudam com frequência; ligue antes de ir.",
+  "th": "ใช้เป็นข้อมูลอ้างอิงทั่วไปเท่านั้น ไม่ใช่คำแนะนำทางการแพทย์ การมีจำหน่ายและฉลากยาเปลี่ยนแปลงได้ ควรตรวจสอบฉลากล่าสุดและปรึกษาแพทย์หรือเภสัชกร ข้อมูลเอชไอวีจาก NIH HIVinfo ปีที่อนุมัติยาสมาธิสั้นและเบาหวานจากบันทึกของ FDA ข้อมูลสถานพยาบาลเปลี่ยนบ่อย ควรโทรก่อนไป"
+ },
+ "releaseLine": {
+  "en": "Data v{v}, released {date}.",
+  "zh-Hans": "数据版本 v{v}，发布于 {date}。",
+  "zh-Hant": "資料版本 v{v}，發布於 {date}。",
+  "es": "Datos v{v}, publicados el {date}.",
+  "pt": "Dados v{v}, publicados a {date}.",
+  "th": "ข้อมูลเวอร์ชัน {v} เผยแพร่เมื่อ {date}"
+ },
+ "downloadData": {
+  "en": "Download the data",
+  "zh-Hans": "下载数据",
+  "zh-Hant": "下載資料",
+  "es": "Descargar los datos",
+  "pt": "Descarregar os dados",
+  "th": "ดาวน์โหลดข้อมูล"
+ },
+ "svc_hivTesting": {
+  "en": "HIV testing",
+  "zh-Hans": "HIV 检测",
+  "zh-Hant": "HIV 檢測",
+  "es": "Prueba del VIH",
+  "pt": "Teste do HIV",
+  "th": "ตรวจเอชไอวี"
+ },
+ "svc_prep": {
+  "en": "PrEP",
+  "zh-Hans": "PrEP（暴露前预防）",
+  "zh-Hant": "PrEP（暴露前預防）",
+  "es": "PrEP",
+  "pt": "PrEP",
+  "th": "PrEP (ยาป้องกันก่อนสัมผัสเชื้อ)"
+ },
+ "svc_pep": {
+  "en": "PEP",
+  "zh-Hans": "PEP（暴露后预防）",
+  "zh-Hant": "PEP（暴露後預防）",
+  "es": "PEP",
+  "pt": "PEP",
+  "th": "PEP (ยาป้องกันหลังสัมผัสเชื้อ)"
+ },
+ "svc_art": {
+  "en": "HIV treatment (ART)",
+  "zh-Hans": "HIV 治疗（ART）",
+  "zh-Hant": "HIV 治療（ART）",
+  "es": "Tratamiento del VIH (TAR)",
+  "pt": "Tratamento do HIV (TAR)",
+  "th": "รักษาเอชไอวี (ยาต้านไวรัส)"
+ },
+ "svc_stiTesting": {
+  "en": "STI testing",
+  "zh-Hans": "性病检测",
+  "zh-Hant": "性病檢測",
+  "es": "Pruebas de ITS",
+  "pt": "Testes de IST",
+  "th": "ตรวจโรคติดต่อทางเพศสัมพันธ์"
+ },
+ "svc_genderAffirmingHormones": {
+  "en": "Gender-affirming hormones",
+  "zh-Hans": "性别肯定激素治疗",
+  "zh-Hant": "性別肯認荷爾蒙治療",
+  "es": "Hormonas de afirmación de género",
+  "pt": "Hormonas de afirmação de género",
+  "th": "ฮอร์โมนเพื่อการยืนยันเพศ"
+ },
+ "svc_adhdAssessmentChildren": {
+  "en": "Assessment: children and teens",
+  "zh-Hans": "评估：儿童及青少年",
+  "zh-Hant": "評估：兒童及青少年",
+  "es": "Evaluación: niños y adolescentes",
+  "pt": "Avaliação: crianças e adolescentes",
+  "th": "ประเมิน: เด็กและวัยรุ่น"
+ },
+ "svc_adhdAssessmentAdults": {
+  "en": "Assessment: adults",
+  "zh-Hans": "评估：成人",
+  "zh-Hant": "評估：成人",
+  "es": "Evaluación: adultos",
+  "pt": "Avaliação: adultos",
+  "th": "ประเมิน: ผู้ใหญ่"
+ },
+ "svc_adhdMedication": {
+  "en": "Prescribes ADHD medication",
+  "zh-Hans": "开具 ADHD 药物",
+  "zh-Hant": "開立 ADHD 藥物",
+  "es": "Receta medicación para el TDAH",
+  "pt": "Receita medicação para a PHDA",
+  "th": "สั่งจ่ายยารักษาสมาธิสั้น"
+ },
+ "svc_diabetesCare": {
+  "en": "Diabetes care: adults",
+  "zh-Hans": "糖尿病护理：成人",
+  "zh-Hant": "糖尿病照護：成人",
+  "es": "Atención de la diabetes: adultos",
+  "pt": "Cuidados de diabetes: adultos",
+  "th": "ดูแลเบาหวาน: ผู้ใหญ่"
+ },
+ "svc_diabetesCareChildren": {
+  "en": "Diabetes care: children",
+  "zh-Hans": "糖尿病护理：儿童",
+  "zh-Hant": "糖尿病照護：兒童",
+  "es": "Atención de la diabetes: niños",
+  "pt": "Cuidados de diabetes: crianças",
+  "th": "ดูแลเบาหวาน: เด็ก"
+ },
+ "svc_endocrinologist": {
+  "en": "Endocrinologist",
+  "zh-Hans": "内分泌科医生",
+  "zh-Hant": "內分泌科醫師",
+  "es": "Endocrinólogo",
+  "pt": "Endocrinologista",
+  "th": "แพทย์ต่อมไร้ท่อ"
+ },
+ "svc_insulinPump": {
+  "en": "Insulin pump",
+  "zh-Hans": "胰岛素泵",
+  "zh-Hant": "胰島素幫浦",
+  "es": "Bomba de insulina",
+  "pt": "Bomba de insulina",
+  "th": "ปั๊มอินซูลิน"
+ },
+ "svc_cgm": {
+  "en": "Continuous glucose monitoring (CGM)",
+  "zh-Hans": "持续葡萄糖监测（CGM）",
+  "zh-Hant": "連續血糖監測（CGM）",
+  "es": "Monitoreo continuo de glucosa (MCG)",
+  "pt": "Monitorização contínua da glicose (MCG)",
+  "th": "การติดตามน้ำตาลต่อเนื่อง (CGM)"
+ },
+ "svc_diabetesEducation": {
+  "en": "Diabetes education",
+  "zh-Hans": "糖尿病教育",
+  "zh-Hant": "糖尿病衛教",
+  "es": "Educación en diabetes",
+  "pt": "Educação em diabetes",
+  "th": "ให้ความรู้โรคเบาหวาน"
+ },
+ "svc_diabeticFootCare": {
+  "en": "Diabetic foot care",
+  "zh-Hans": "糖尿病足护理",
+  "zh-Hant": "糖尿病足照護",
+  "es": "Cuidado del pie diabético",
+  "pt": "Cuidados do pé diabético",
+  "th": "ดูแลเท้าผู้ป่วยเบาหวาน"
+ },
+ "f_adhdAssessmentChildren": {
+  "en": "Children and teens",
+  "zh-Hans": "儿童及青少年",
+  "zh-Hant": "兒童及青少年",
+  "es": "Niños y adolescentes",
+  "pt": "Crianças e adolescentes",
+  "th": "เด็กและวัยรุ่น"
+ },
+ "f_adhdAssessmentAdults": {
+  "en": "Adults",
+  "zh-Hans": "成人",
+  "zh-Hant": "成人",
+  "es": "Adultos",
+  "pt": "Adultos",
+  "th": "ผู้ใหญ่"
+ },
+ "f_adhdMedication": {
+  "en": "Prescribes medication",
+  "zh-Hans": "开药",
+  "zh-Hant": "開藥",
+  "es": "Receta medicación",
+  "pt": "Receita medicação",
+  "th": "สั่งจ่ายยา"
+ },
+ "f_diabetesCare": {
+  "en": "Adults",
+  "zh-Hans": "成人",
+  "zh-Hant": "成人",
+  "es": "Adultos",
+  "pt": "Adultos",
+  "th": "ผู้ใหญ่"
+ },
+ "f_diabetesCareChildren": {
+  "en": "Children",
+  "zh-Hans": "儿童",
+  "zh-Hant": "兒童",
+  "es": "Niños",
+  "pt": "Crianças",
+  "th": "เด็ก"
+ },
+ "f_cgm": {
+  "en": "CGM",
+  "zh-Hans": "CGM",
+  "zh-Hant": "CGM",
+  "es": "MCG",
+  "pt": "MCG",
+  "th": "CGM"
+ },
+ "f_diabeticFootCare": {
+  "en": "Foot care",
+  "zh-Hans": "足部护理",
+  "zh-Hant": "足部照護",
+  "es": "Pie diabético",
+  "pt": "Pé diabético",
+  "th": "ดูแลเท้า"
+ },
+ "s_hivTesting": {
+  "en": "Test",
+  "zh-Hans": "检测",
+  "zh-Hant": "檢測",
+  "es": "Prueba",
+  "pt": "Teste",
+  "th": "ตรวจ"
+ },
+ "s_prep": {
+  "en": "PrEP",
+  "zh-Hans": "PrEP",
+  "zh-Hant": "PrEP",
+  "es": "PrEP",
+  "pt": "PrEP",
+  "th": "PrEP"
+ },
+ "s_pep": {
+  "en": "PEP",
+  "zh-Hans": "PEP",
+  "zh-Hant": "PEP",
+  "es": "PEP",
+  "pt": "PEP",
+  "th": "PEP"
+ },
+ "s_art": {
+  "en": "ART",
+  "zh-Hans": "ART",
+  "zh-Hant": "ART",
+  "es": "TAR",
+  "pt": "TAR",
+  "th": "ART"
+ },
+ "s_adhdAssessmentChildren": {
+  "en": "Child",
+  "zh-Hans": "儿童",
+  "zh-Hant": "兒童",
+  "es": "Niños",
+  "pt": "Crianças",
+  "th": "เด็ก"
+ },
+ "s_adhdAssessmentAdults": {
+  "en": "Adult",
+  "zh-Hans": "成人",
+  "zh-Hant": "成人",
+  "es": "Adultos",
+  "pt": "Adultos",
+  "th": "ผู้ใหญ่"
+ },
+ "s_adhdMedication": {
+  "en": "Meds",
+  "zh-Hans": "开药",
+  "zh-Hant": "開藥",
+  "es": "Receta",
+  "pt": "Receita",
+  "th": "จ่ายยา"
+ },
+ "s_diabetesCare": {
+  "en": "Adult",
+  "zh-Hans": "成人",
+  "zh-Hant": "成人",
+  "es": "Adultos",
+  "pt": "Adultos",
+  "th": "ผู้ใหญ่"
+ },
+ "s_diabetesCareChildren": {
+  "en": "Child",
+  "zh-Hans": "儿童",
+  "zh-Hant": "兒童",
+  "es": "Niños",
+  "pt": "Crianças",
+  "th": "เด็ก"
+ },
+ "s_insulinPump": {
+  "en": "Pump",
+  "zh-Hans": "胰岛素泵",
+  "zh-Hant": "胰島素幫浦",
+  "es": "Bomba",
+  "pt": "Bomba",
+  "th": "ปั๊ม"
+ },
+ "s_cgm": {
+  "en": "CGM",
+  "zh-Hans": "CGM",
+  "zh-Hant": "CGM",
+  "es": "MCG",
+  "pt": "MCG",
+  "th": "CGM"
+ },
+ "type_public_hospital": {
+  "en": "Public hospital",
+  "zh-Hans": "公立医院",
+  "zh-Hant": "公立醫院",
+  "es": "Hospital público",
+  "pt": "Hospital público",
+  "th": "โรงพยาบาลรัฐ"
+ },
+ "type_public_clinic": {
+  "en": "Public clinic",
+  "zh-Hans": "公立诊所",
+  "zh-Hant": "公立診所",
+  "es": "Clínica pública",
+  "pt": "Clínica pública",
+  "th": "คลินิกของรัฐ"
+ },
+ "type_bma_health_centre": {
+  "en": "BMA public health centre",
+  "zh-Hans": "曼谷市政府公共卫生服务中心",
+  "zh-Hant": "曼谷市政府公共衛生服務中心",
+  "es": "Centro de salud pública de la BMA",
+  "pt": "Centro de saúde pública da BMA",
+  "th": "ศูนย์บริการสาธารณสุข กทม."
+ },
+ "type_ngo_clinic": {
+  "en": "Non-profit clinic",
+  "zh-Hans": "非营利诊所",
+  "zh-Hant": "非營利診所",
+  "es": "Clínica sin ánimo de lucro",
+  "pt": "Clínica sem fins lucrativos",
+  "th": "คลินิกไม่แสวงหากำไร"
+ },
+ "type_key_population_clinic": {
+  "en": "Community clinic",
+  "zh-Hans": "社区诊所",
+  "zh-Hant": "社區診所",
+  "es": "Clínica comunitaria",
+  "pt": "Clínica comunitária",
+  "th": "คลินิกชุมชน"
+ },
+ "type_private_hospital": {
+  "en": "Private hospital",
+  "zh-Hans": "私立医院",
+  "zh-Hant": "私立醫院",
+  "es": "Hospital privado",
+  "pt": "Hospital privado",
+  "th": "โรงพยาบาลเอกชน"
+ },
+ "type_private_clinic": {
+  "en": "Private clinic",
+  "zh-Hans": "私人诊所",
+  "zh-Hant": "私人診所",
+  "es": "Clínica privada",
+  "pt": "Clínica privada",
+  "th": "คลินิกเอกชน"
+ },
+ "focus_general": {
+  "en": "Everyone",
+  "zh-Hans": "所有人",
+  "zh-Hant": "所有人",
+  "es": "Todo el mundo",
+  "pt": "Todos",
+  "th": "ทุกคน"
+ },
+ "focus_children": {
+  "en": "Children and teens",
+  "zh-Hans": "儿童及青少年",
+  "zh-Hant": "兒童及青少年",
+  "es": "Niños y adolescentes",
+  "pt": "Crianças e adolescentes",
+  "th": "เด็กและวัยรุ่น"
+ },
+ "focus_lgbtqia": {
+  "en": "LGBTQIA+",
+  "zh-Hans": "LGBTQIA+",
+  "zh-Hant": "LGBTQIA+",
+  "es": "LGBTQIA+",
+  "pt": "LGBTQIA+",
+  "th": "LGBTQIA+"
+ },
+ "focus_msm": {
+  "en": "Gay, bi and other men who have sex with men",
+  "zh-Hans": "男同性恋、双性恋及其他男男性行为者",
+  "zh-Hant": "男同志、雙性戀及其他男男性行為者",
+  "es": "Hombres gais, bisexuales y otros HSH",
+  "pt": "Homens gays, bissexuais e outros HSH",
+  "th": "ชายรักชาย ชายรักสองเพศ และชายที่มีเพศสัมพันธ์กับชาย"
+ },
+ "focus_transgender": {
+  "en": "Trans people",
+  "zh-Hans": "跨性别者",
+  "zh-Hant": "跨性別者",
+  "es": "Personas trans",
+  "pt": "Pessoas trans",
+  "th": "คนข้ามเพศ"
+ },
+ "focus_sex_workers": {
+  "en": "Sex workers",
+  "zh-Hans": "性工作者",
+  "zh-Hant": "性工作者",
+  "es": "Trabajo sexual",
+  "pt": "Trabalhadores do sexo",
+  "th": "พนักงานบริการ"
+ },
+ "focus_youth": {
+  "en": "Young people",
+  "zh-Hans": "年轻人",
+  "zh-Hant": "年輕人",
+  "es": "Jóvenes",
+  "pt": "Jovens",
+  "th": "เยาวชน"
+ },
+ "focus_migrants": {
+  "en": "Migrants",
+  "zh-Hans": "移民",
+  "zh-Hant": "移民",
+  "es": "Migrantes",
+  "pt": "Migrantes",
+  "th": "ผู้ย้ายถิ่น"
+ },
+ "focus_people_who_use_drugs": {
+  "en": "People who use drugs",
+  "zh-Hans": "药物使用者",
+  "zh-Hant": "藥物使用者",
+  "es": "Personas que usan drogas",
+  "pt": "Pessoas que usam drogas",
+  "th": "ผู้ใช้ยาเสพติด"
+ },
+ "cost_free": {
+  "en": "Free",
+  "zh-Hans": "免费",
+  "zh-Hant": "免費",
+  "es": "Gratis",
+  "pt": "Gratuito",
+  "th": "ฟรี"
+ },
+ "cost_low_cost": {
+  "en": "Low cost",
+  "zh-Hans": "低收费",
+  "zh-Hant": "低收費",
+  "es": "Bajo costo",
+  "pt": "Baixo custo",
+  "th": "ราคาต่ำ"
+ },
+ "cost_fee": {
+  "en": "Fees apply",
+  "zh-Hans": "需付费",
+  "zh-Hant": "需付費",
+  "es": "De pago",
+  "pt": "Pago",
+  "th": "มีค่าใช้จ่าย"
+ },
+ "cost_mixed": {
+  "en": "Free and paid services",
+  "zh-Hans": "免费及收费服务",
+  "zh-Hant": "免費及收費服務",
+  "es": "Servicios gratuitos y de pago",
+  "pt": "Serviços gratuitos e pagos",
+  "th": "มีทั้งบริการฟรีและเสียเงิน"
+ },
+ "vstat_unverified": {
+  "en": "Not yet confirmed",
+  "zh-Hans": "尚未确认",
+  "zh-Hant": "尚未確認",
+  "es": "Sin confirmar",
+  "pt": "Não confirmado",
+  "th": "ยังไม่ยืนยัน"
+ },
+ "vstat_verified": {
+  "en": "Verified",
+  "zh-Hans": "已核实",
+  "zh-Hant": "已核實",
+  "es": "Verificado",
+  "pt": "Verificado",
+  "th": "ยืนยันแล้ว"
+ },
+ "vstat_needs_review": {
+  "en": "Needs review",
+  "zh-Hans": "需复核",
+  "zh-Hant": "需複核",
+  "es": "Revisar",
+  "pt": "A rever",
+  "th": "ต้องตรวจสอบ"
+ },
+ "vstat_closed": {
+  "en": "Closed",
+  "zh-Hans": "已关闭",
+  "zh-Hant": "已關閉",
+  "es": "Cerrado",
+  "pt": "Encerrado",
+  "th": "ปิดแล้ว"
+ },
+ "method_phone": {
+  "en": "phone",
+  "zh-Hans": "电话",
+  "zh-Hant": "電話",
+  "es": "teléfono",
+  "pt": "telefone",
+  "th": "โทรศัพท์"
+ },
+ "method_email": {
+  "en": "email",
+  "zh-Hans": "电子邮件",
+  "zh-Hant": "電子郵件",
+  "es": "correo",
+  "pt": "email",
+  "th": "อีเมล"
+ },
+ "method_in_person": {
+  "en": "visit",
+  "zh-Hans": "亲自到访",
+  "zh-Hant": "親自到訪",
+  "es": "visita",
+  "pt": "visita",
+  "th": "ไปด้วยตนเอง"
+ },
+ "method_official_registry": {
+  "en": "official registry",
+  "zh-Hans": "官方名录",
+  "zh-Hant": "官方名錄",
+  "es": "registro oficial",
+  "pt": "registo oficial",
+  "th": "ทะเบียนทางการ"
+ }
+}

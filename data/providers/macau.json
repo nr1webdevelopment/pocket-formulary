@@ -1,0 +1,239 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "mfm",
+  "providers": [
+    {
+      "id": "mo-mfm-chcsj",
+      "conditions": [
+        "hiv",
+        "adhd",
+        "diabetes"
+      ],
+      "city": "mfm",
+      "name": {
+        "en": "Conde S. Januário Hospital",
+        "zh-Hant": "仁伯爵綜合醫院",
+        "pt": "Centro Hospitalar Conde de São Januário"
+      },
+      "organization": "Health Bureau (Serviços de Saúde), Macao SAR",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "MO",
+        "province": "Macau",
+        "city": "Macau",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "Macau's public general hospital, with inpatient, outpatient, emergency and 29 specialties. Its HIV, ADHD and diabetes services aren't described in sources we could reach; call the Health Bureau to ask which clinic to use."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.gcs.gov.mo/news/f/F24IW2dkjH/zh-hant/i",
+          "title": "澳門醫療服務 (Sep 2024)",
+          "publisher": "Government Information Bureau of the Macao SAR",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The Health Bureau has funded NGOs since 2019 for HIV outreach, a hotline, rapid testing and referral; we couldn't find a public list of those sites.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mo-mfm-kiang-wu-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "mfm",
+      "name": {
+        "en": "Kiang Wu Hospital",
+        "zh-Hant": "鏡湖醫院",
+        "pt": "Hospital Kiang Wu"
+      },
+      "organization": "Kiang Wu Hospital Charitable Association",
+      "type": "private_hospital",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "MO",
+        "province": "Macau",
+        "city": "Macau",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "Non-profit teaching hospital. HIV and diabetes services aren't described in the source; confirm."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.gcs.gov.mo/news/f/F24IW2dkjH/zh-hant/i",
+          "title": "澳門醫療服務 (Sep 2024)",
+          "publisher": "Government Information Bureau of the Macao SAR",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "mo-mfm-child-assessment-centre",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "mfm",
+      "name": {
+        "en": "Children's Comprehensive Assessment Centre",
+        "zh-Hant": "兒童綜合評估中心"
+      },
+      "organization": "Social Welfare Bureau, Health Bureau and DSEDJ, Macao SAR",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "MO",
+        "province": "Macau",
+        "city": "Macau",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://portal.dsedj.gov.mo/webdsejspace/site/cacp/index.jsp",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Joint government centre for assessing children with developmental needs, linked to the Children's Rehabilitation Treatment Centre. ADHD isn't named on the landing page; check its service and assessment-process pages."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://portal.dsedj.gov.mo/webdsejspace/site/cacp/index.jsp",
+          "title": "兒童綜合評估中心",
+          "publisher": "Social Welfare Bureau, Health Bureau and Education and Youth Development Bureau, Macao SAR",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

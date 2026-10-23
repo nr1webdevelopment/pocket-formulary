@@ -1,0 +1,832 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "sha",
+  "providers": [
+    {
+      "id": "cn-sha-public-health-clinical-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai Public Health Clinical Center",
+        "zh-Hans": "上海市公共卫生临床中心"
+      },
+      "organization": "Shanghai Municipal Health Commission",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Named in November 2023 as one of Shanghai's PEP/PrEP outpatient services. Check opening times and cost before going; PEP must start within 72 hours. The city's infectious-disease hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524",
+          "title": "上海多区可自助获取尿液自检试剂 (30 Nov 2023)",
+          "publisher": "Sina",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-qingai-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai Qingai Dermatology Clinic",
+        "zh-Hans": "上海青艾皮肤科诊所"
+      },
+      "organization": "Shanghai Qingai",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Named in November 2023 as one of Shanghai's PEP/PrEP outpatient services. Check opening times and cost before going; PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524",
+          "title": "上海多区可自助获取尿液自检试剂 (30 Nov 2023)",
+          "publisher": "Sina",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Linked to the Shanghai Qingai Health Promotion Center (HIV counselling hotline 400 691 0694).",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-qingai-health-promotion",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai Qingai Health Promotion Center",
+        "zh-Hans": "上海青艾健康促进中心"
+      },
+      "organization": "Shanghai Qingai",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 400 691 0694",
+          "+86 21 3772 3071"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Community organisation (founded 2010) offering HIV counselling and testing and support for people living with HIV. WeChat: 上海青艾."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.thepaper.cn/asktopic_detail_10002135",
+          "title": "上海青艾健康促进中心 问答",
+          "publisher": "The Paper (澎湃)",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-minhang-central-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Minhang District Central Hospital",
+        "zh-Hans": "闵行区中心医院"
+      },
+      "organization": "Minhang District",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": "Minhang",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Named in November 2023 as one of Shanghai's PEP/PrEP outpatient services. Check opening times and cost before going; PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524",
+          "title": "上海多区可自助获取尿液自检试剂 (30 Nov 2023)",
+          "publisher": "Sina",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-hongqiao-chc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Hongqiao Community Health Service Center (Minhang)",
+        "zh-Hans": "闵行区虹桥社区卫生服务中心"
+      },
+      "organization": "Minhang District",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": "Minhang",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Named in November 2023 as one of Shanghai's PEP/PrEP outpatient services. Check opening times and cost before going; PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524",
+          "title": "上海多区可自助获取尿液自检试剂 (30 Nov 2023)",
+          "publisher": "Sina",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-huacao-chc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Huacao Community Health Service Center (Minhang)",
+        "zh-Hans": "华漕社区卫生服务中心"
+      },
+      "organization": "Minhang District",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": "Minhang",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Named in November 2023 as one of Shanghai's PEP/PrEP outpatient services. Check opening times and cost before going; PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524",
+          "title": "上海多区可自助获取尿液自检试剂 (30 Nov 2023)",
+          "publisher": "Sina",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-hongkou-vct",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Hongkou District HIV Voluntary Counselling and Testing (VCT) Clinic",
+        "zh-Hans": "虹口区艾滋病自愿咨询检测点（爱心小屋）"
+      },
+      "organization": "Hongkou District CDC",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": "Hongkou",
+        "address": {
+          "zh-Hans": "上海市虹口区长中路26号1楼104室（爱心小屋）",
+          "en": "Room 104, 1F, 26 Changzhong Road, Hongkou District, Shanghai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 21 6541 5027"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon & Fri 14:00–16:00; Wed 09:00–11:00 (no blood draws after 15:30 / 10:30). Closed public holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Free counselling and rapid HIV testing (venous blood), free self-test kits. Bring ID. Shanghai has 200+ VCT sites; search the official VCT finder or the 上海疾控 WeChat account."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.shanghai.gov.cn/nw17239/20250825/a85e8e3245ab4a6a90d7aa208dac5680.html",
+          "title": "虹口区艾滋病自愿咨询检测点（VCT）8月25日恢复服务 (25 Aug 2025)",
+          "publisher": "Shanghai Municipal People's Government",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://zwdt.sh.gov.cn/govPortals/bsfw/item/d17dc7e7-ce99-4ffb-bbcd-2b02d48d9244",
+          "title": "艾滋病自愿咨询检测点查询",
+          "publisher": "Shanghai Government Online-Offline Services (一网通办)",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-united-family-changning",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai United Family Hospital (Changning)",
+        "zh-Hans": "上海和睦家医院（长宁）"
+      },
+      "organization": "United Family Healthcare",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": "Changning",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Emergency department open 24/7 for PEP.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "site",
+        "note": "Private hospital with multilingual staff. For PEP, go straight to the 24-hour emergency department; PEP must start within 72 hours (ideally within 2)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.smartshanghai.com/articles/health-and-wellbeing/take-control-modern-hiv-prevention-with-pep-prep-at-shanghai-united-family-hospital-2025-11-25",
+          "title": "Modern HIV prevention with PEP & PrEP at Shanghai United Family Hospital (1 Dec 2025)",
+          "publisher": "SmartShanghai",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-smhc-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai Mental Health Center — Child and Adolescent Psychiatry",
+        "zh-Hans": "上海市精神卫生中心 儿童青少年精神科"
+      },
+      "organization": "Shanghai Mental Health Center (SJTU School of Medicine)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Outpatient assessment, diagnosis and treatment of ADHD for under-18s, a 25-bed inpatient ward, and ADHD parent education classes (a national ADHD health education base)."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.shsmu.edu.cn/qnxzforum/info/1042/1085.htm",
+          "title": "上海市精神卫生中心 儿童青少年精神科",
+          "publisher": "Shanghai Jiao Tong University School of Medicine",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-sixth-peoples-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Shanghai Sixth People's Hospital — Endocrinology & Metabolism (Shanghai Diabetes Institute)",
+        "zh-Hans": "上海市第六人民医院 内分泌代谢科（上海市糖尿病研究所）"
+      },
+      "organization": "Shanghai Sixth People's Hospital (SJTU)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Home of the Shanghai Diabetes Institute and the Shanghai Clinical Center for Diabetes. Diabetes and complications, obesity, thyroid and other endocrine disorders, with a multidisciplinary team; over 200,000 visits a year."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.shsmu.edu.cn/qnxzforum/info/1039/1102.htm",
+          "title": "上海市第六人民医院 内分泌代谢科",
+          "publisher": "Shanghai Jiao Tong University School of Medicine",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "cn-sha-ruijin-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sha",
+      "name": {
+        "en": "Ruijin Hospital — Shanghai Institute of Endocrine and Metabolic Diseases",
+        "zh-Hans": "瑞金医院 上海市内分泌代谢病研究所"
+      },
+      "organization": "Ruijin Hospital (SJTU)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Shanghai",
+        "city": "Shanghai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Endocrine and metabolic disease centre with diabetes care and a CAP-accredited endocrine laboratory."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.shsmu.edu.cn/qnxzforum/info/1108/1221.htm",
+          "title": "瑞金医院 上海市内分泌代谢病研究所",
+          "publisher": "Shanghai Jiao Tong University School of Medicine",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

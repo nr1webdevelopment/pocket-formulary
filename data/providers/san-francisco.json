@@ -1,0 +1,1481 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "sfo",
+  "providers": [
+    {
+      "id": "us-sfo-city-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "San Francisco City Clinic"
+      },
+      "organization": "San Francisco Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "South of Market",
+        "address": {
+          "en": "356 7th Street, San Francisco, CA 94102"
+        },
+        "postcode": "94102",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 628 217 6600",
+          "+1 628 217 6692"
+        ],
+        "line": null,
+        "website": "https://www.sf.gov/cityclinic",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Wed, Fri 08:00–16:00; Tue 13:00–18:00; Thu 08:00–11:00 and 13:00–16:00. Closed weekends and holidays. PrEP and doxy-PEP walk-ins may stop 30 minutes before closing if the daily limit is reached.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free. HIV testing and treatment, STI testing and treatment, PrEP (pills and long-acting injections), PEP and doxy-PEP. Serves uninsured and undocumented people."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sf.gov/cityclinic-location",
+          "title": "San Francisco City Clinic — location and hours",
+          "publisher": "San Francisco Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.sf.gov/cityclinic-get-pep",
+          "title": "Get PEP at City Clinic",
+          "publisher": "San Francisco Department of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-sfaf-strut",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "San Francisco AIDS Foundation — Strut (Magnet)"
+      },
+      "organization": "San Francisco AIDS Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Castro",
+        "address": {
+          "en": "470 Castro Street, San Francisco, CA 94114"
+        },
+        "postcode": "94114",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 581 1600"
+        ],
+        "line": null,
+        "website": "https://www.sfaf.org/locations/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Tue–Sat 10:00–19:00 (Fridays closed 13:00–15:00).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Magnet sexual health clinic at Strut: HIV and STI testing and treatment, PrEP (including long-acting injections) and PEP. Accepts public and private insurance, uninsured and undocumented people."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sfaf.org/locations/",
+          "title": "Locations & Hours",
+          "publisher": "San Francisco AIDS Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-sfaf-6th-street",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "San Francisco AIDS Foundation — 6th Street Center"
+      },
+      "organization": "San Francisco AIDS Foundation",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "South of Market",
+        "address": {
+          "en": "117 6th Street, San Francisco, CA 94103"
+        },
+        "postcode": "94103",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.sfaf.org/locations/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Centre: Mon, Wed, Fri 11:00–19:00; Tue 11:00–20:00; Thu 11:00–21:00. Medical care Mon–Fri 11:00–17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Free, low-threshold health services for people who use drugs, including HIV and hepatitis C testing and treatment and PrEP."
+      },
+      "populationFocus": [
+        "people_who_use_drugs"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sfaf.org/locations/",
+          "title": "Locations & Hours",
+          "publisher": "San Francisco AIDS Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No phone number listed; SFAF main office is +1 415 487 3000.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ward-86",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Ward 86 HIV Clinic — Zuckerberg San Francisco General"
+      },
+      "organization": "UCSF / San Francisco Department of Public Health",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission / Potrero Hill",
+        "address": {
+          "en": "995 Potrero Avenue, Building 80, San Francisco, CA 94110"
+        },
+        "postcode": "94110",
+        "locationNote": "Ward 86: 6th floor of Building 80. PrEP at The Lobby (HAP clinic), Building 80, 1st floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 628 206 2400",
+          "+1 415 696 4836"
+        ],
+        "line": null,
+        "website": "https://hividgm.ucsf.edu/clinical-care/hiv-clinic-ward-86/ward-86-clinic-location-and-contact-information",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "One of the oldest HIV clinics in the US. Offers HIV care including long-acting injectable treatment; PrEP injections at The Lobby (HAP clinic). Public insurance, uninsured and undocumented patients."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hividgm.ucsf.edu/clinical-care/hiv-clinic-ward-86/ward-86-clinic-location-and-contact-information",
+          "title": "Ward 86 clinic location and contact information",
+          "publisher": "UCSF Division of HIV, ID & Global Medicine",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-sf-community-health-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "San Francisco Community Health Center"
+      },
+      "organization": "San Francisco Community Health Center",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Tenderloin",
+        "address": {
+          "en": "730 Polk Street, 4th Floor, San Francisco, CA 94109"
+        },
+        "postcode": "94109",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 292 3400",
+          "+1 415 355 7400"
+        ],
+        "line": null,
+        "website": "https://www.sfcommunityhealth.org",
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV/STI testing drop-in: Tue 13:00–17:00; Wed 14:00–19:00; Thu 13:00–19:00; Fri 13:00–17:00; Sat 14:00–17:00 (per UCSF trans guide; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Wellness Clinic offers PrEP and HIV treatment, including long-acting injections; Tom Waddell satellite clinic focuses on Asian and Pacific Islander people living with HIV. Serves trans communities, uninsured and undocumented people."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "transgender",
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://prevention.ucsf.edu/transguide/hiv-prevention-testing-prep",
+          "title": "Trans guide: HIV prevention, testing & PrEP",
+          "publisher": "UCSF Prevention Science",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-castro-mission-health-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Castro Mission Health Center"
+      },
+      "organization": "San Francisco Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Castro / Mission",
+        "address": {
+          "en": "3850 17th Street, San Francisco, CA 94114"
+        },
+        "postcode": "94114",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 866 8287",
+          "+1 628 217 5772"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "PrEP and HIV treatment including long-acting injections. For patients assigned to this clinic by their public insurance plan; also serves undocumented people."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-360-positive-care",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF 360 Positive Care Center"
+      },
+      "organization": "UCSF Health",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Inner Sunset",
+        "address": {
+          "en": "350 Parnassus Avenue, Suite 908, San Francisco, CA 94117"
+        },
+        "postcode": "94117",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 353 2119"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV care and PrEP, including long-acting injections. Public and private insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-maria-x-martinez",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Maria X. Martinez Health Resource Center"
+      },
+      "organization": "San Francisco Department of Public Health",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "South of Market",
+        "address": {
+          "en": "555 Stevenson Street, San Francisco, CA 94103"
+        },
+        "postcode": "94103",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "PrEP and HIV treatment for people experiencing or at risk of homelessness. Uninsured, undocumented and public insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No public phone number in the source list.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-kaiser-sf",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Kaiser Permanente San Francisco — HIV Care and PrEP"
+      },
+      "organization": "Kaiser Permanente",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Western Addition",
+        "address": {
+          "en": "2238 Geary Boulevard, San Francisco, CA 94115"
+        },
+        "postcode": "94115",
+        "locationNote": "Also at 1600 Owens Street (Mission Bay).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 833 4638",
+          "+1 415 833 7737"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV care and PrEP (including long-acting injections). Kaiser members only; interpreters available."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-clinica-esperanza",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Mission Neighborhood Health Center — Clínica Esperanza",
+        "es": "Clínica Esperanza"
+      },
+      "organization": "Mission Neighborhood Health Center",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission",
+        "address": {
+          "en": "240 Shotwell Street, San Francisco, CA 94110"
+        },
+        "postcode": "94110",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 552 2293"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV treatment including long-acting injections. Public and private insurance, uninsured and undocumented; bring proof of income and residency."
+      },
+      "populationFocus": [
+        "general",
+        "migrants"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-st-marys-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Health St. Mary's Hospital — HIV and PrEP injections"
+      },
+      "organization": "UCSF Health",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Haight-Ashbury",
+        "address": {
+          "en": "2250 Hayes Street, Suite 111, San Francisco, CA 94117"
+        },
+        "postcode": "94117",
+        "locationNote": "Basement, Cancer Center",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 750 5635",
+          "+1 415 750 5717"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Long-acting injectable PrEP and HIV treatment for adults 18+. Provider referral only, no walk-ins; mostly private insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gettingtozerosf.org/wp-content/uploads/2024/06/SF-Clinics-And-Sites-offering-LAI-for-HIV-Prevention-and-Treatment_31MAY24.pdf",
+          "title": "SF clinics and sites offering long-acting injectable HIV prevention and treatment (31 May 2024)",
+          "publisher": "Getting to Zero SF / UCSF",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-alliance-health-project",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Alliance Health Project"
+      },
+      "organization": "UCSF",
+      "type": "ngo_clinic",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Castro / Market",
+        "address": {
+          "en": "1930 Market Street, San Francisco, CA 94102"
+        },
+        "postcode": "94102",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 476 3902"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Sexual health appointments Tue & Thu 12:30, 14:00, 17:00, 18:00; Sat 09:00, 11:00, 14:00, 15:30 (per UCSF trans guide; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Sexual health services by online appointment."
+      },
+      "populationFocus": [
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prevention.ucsf.edu/transguide/hiv-prevention-testing-prep",
+          "title": "Trans guide: HIV prevention, testing & PrEP",
+          "publisher": "UCSF Prevention Science",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-st-james-infirmary",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "St. James Infirmary"
+      },
+      "organization": "St. James Infirmary",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Tenderloin",
+        "address": {
+          "en": "730 Polk Street, 4th Floor, San Francisco, CA 94109"
+        },
+        "postcode": "94109",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 554 8494"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "HIV/STI testing by appointment for sex workers."
+      },
+      "populationFocus": [
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prevention.ucsf.edu/transguide/hiv-prevention-testing-prep",
+          "title": "Trans guide: HIV prevention, testing & PrEP",
+          "publisher": "UCSF Prevention Science",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-el-la-para-translatinas",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "El/La Para TransLatinas",
+        "es": "El/La Para TransLatinas"
+      },
+      "organization": "El/La Para TransLatinas",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission",
+        "address": {
+          "en": "2940 16th Street #319, San Francisco, CA 94103"
+        },
+        "postcode": "94103",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 864 7278"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "HIV testing, PrEP education groups and an evening drop-in space for trans Latinas."
+      },
+      "populationFocus": [
+        "transgender",
+        "migrants"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prevention.ucsf.edu/transguide/hiv-prevention-testing-prep",
+          "title": "Trans guide: HIV prevention, testing & PrEP",
+          "publisher": "UCSF Prevention Science",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ifr-si-a-la-vida",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "Instituto Familiar de la Raza — Sí a la Vida",
+        "es": "Instituto Familiar de la Raza — Sí a la Vida"
+      },
+      "organization": "Instituto Familiar de la Raza",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission",
+        "address": {
+          "en": "1663 Mission Street, Suite 603, San Francisco, CA 94103"
+        },
+        "postcode": "94103",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 240 4104",
+          "+1 415 229 0503"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon & Wed 10:00–20:00; Tue, Thu & Fri 10:00–18:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "HIV testing and counselling, PrEP navigation (referral to a prescriber), support groups for Latinx communities."
+      },
+      "populationFocus": [
+        "migrants",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prevention.ucsf.edu/transguide/hiv-prevention-testing-prep",
+          "title": "Trans guide: HIV prevention, testing & PrEP",
+          "publisher": "UCSF Prevention Science",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-child-teen-family-center",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Child, Teen and Family Center"
+      },
+      "organization": "UCSF Department of Psychiatry",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission Bay / Dogpatch",
+        "address": {
+          "en": "Nancy Friend Pritzker Psychiatry Building, 675 18th Street, San Francisco, CA 94107"
+        },
+        "postcode": "94107",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 476 7000"
+        ],
+        "line": null,
+        "website": "https://psychiatry.ucsf.edu/ctfc",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Lists ADHD among conditions treated for children, adolescents and young adults; offers medication treatments in general."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://psychiatry.ucsf.edu/ctfc",
+          "title": "UCSF Child, Teen and Family Center",
+          "publisher": "UCSF Department of Psychiatry",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-madison-pediatric-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Madison Clinic for Pediatric Diabetes"
+      },
+      "organization": "UCSF Benioff Children's Hospitals",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Mission Bay",
+        "address": {
+          "en": "500 Owens Street, 3rd Floor, San Francisco, CA 94158"
+        },
+        "postcode": "94158",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 514 6234"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–17:00.",
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Ages 0–26. Team includes endocrinologists, psychologists, nurses, diabetes educators, social workers and dietitians. Referral needed."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://diabetes.ucsf.edu/node/336",
+          "title": "Diabetes Clinics",
+          "publisher": "UCSF Diabetes Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-schreyer-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Justine Kathryn Schreyer Diabetes Care Center"
+      },
+      "organization": "UCSF Health",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Inner Sunset",
+        "address": {
+          "en": "400 Parnassus Avenue, 5th Floor, San Francisco, CA 94143"
+        },
+        "postcode": "94143",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 353 2350"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": false,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Adults 18+. Multidisciplinary team including diabetes educators and dietitians. Referral needed."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://diabetes.ucsf.edu/node/336",
+          "title": "Diabetes Clinics",
+          "publisher": "UCSF Diabetes Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "us-sfo-ucsf-diabetes-mount-zion",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sfo",
+      "name": {
+        "en": "UCSF Diabetes Clinic at Mount Zion"
+      },
+      "organization": "UCSF Health",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "California",
+        "city": "San Francisco",
+        "area": null,
+        "district": "Western Addition",
+        "address": {
+          "en": "2200 Post Street, Suite C-418, San Francisco, CA 94115"
+        },
+        "postcode": "94115",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 415 885 3868"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Referral needed."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://diabetes.ucsf.edu/node/336",
+          "title": "Diabetes Clinics",
+          "publisher": "UCSF Diabetes Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

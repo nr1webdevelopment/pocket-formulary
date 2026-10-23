@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nr1webdevelopment/pocket-formulary/schema/city.schema.json",
+  "title": "City",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "code",
+    "file",
+    "name",
+    "country",
+    "countryName",
+    "jurisdiction",
+    "dialCode",
+    "timezone",
+    "currency",
+    "localLanguages",
+    "uiLanguage",
+    "notes"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "pattern": "^[a-z]{3}$"
+    },
+    "file": {
+      "type": "string"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "th": {
+          "type": "string"
+        },
+        "zh-Hans": {
+          "type": "string"
+        },
+        "zh-Hant": {
+          "type": "string"
+        },
+        "es": {
+          "type": "string"
+        },
+        "pt": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "countryName": {
+      "type": "string"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "dialCode": {
+      "type": "string",
+      "pattern": "^\\+\\d+$"
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "localLanguages": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "en",
+          "th",
+          "zh-Hans",
+          "zh-Hant",
+          "es",
+          "pt"
+        ]
+      }
+    },
+    "uiLanguage": {
+      "enum": [
+        "en",
+        "th",
+        "zh-Hans",
+        "zh-Hant",
+        "es",
+        "pt"
+      ]
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "general": {
+          "type": "string"
+        },
+        "hiv": {
+          "type": "string"
+        },
+        "adhd": {
+          "type": "string"
+        },
+        "diabetes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "noteSources": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^https?://"
+      }
+    }
+  }
+}

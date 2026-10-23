@@ -14,8 +14,8 @@ When you verify a record, confirm:
    - ADHD: assessment for children and for adults, and whether they prescribe medication (and which: methylphenidate, atomoxetine, …)
    - Diabetes: adult and child care, endocrinologist, insulin pumps, CGM, education, foot care
 3. Opening hours, and whether walk-ins are OK or an appointment is needed
-4. Whether foreigners and non-Thai speakers are served, and which languages
-5. Cost: free, low cost (e.g. covered by Thai public health insurance), or fee
+4. Whether foreigners and people who don't speak the local language are served, and which languages
+5. Cost: free, low cost (e.g. covered by public health insurance), or fee
 
 Then record it:
 
@@ -26,7 +26,7 @@ python3 scripts/mark_verified.py <id> --by "<your name>" --method phone \
 python3 scripts/build_dist.py && python3 scripts/validate.py
 ```
 
-If the provider has closed or stopped offering HIV services, use `--closed`. Don't delete the record, so its ID is never reused.
+If the provider has closed or stopped offering the listed services, use `--closed`. Don't delete the record, so its ID is never reused.
 
 ### Phone script (Thai / English)
 
@@ -39,12 +39,34 @@ If the provider has closed or stopped offering HIV services, use `--closed`. Don
 
 ## Adding a provider
 
-1. Add a record to `data/providers/bangkok.json`, or a new file such as `data/providers/chiang-mai.json` with the same structure. Follow `schema/provider.schema.json`.
-2. Use an ID of the form `th-<city code>-<short-name>`, e.g. `th-bkk-…` or `th-cnx-…`.
-3. Cite at least one source. Prefer the provider's own website or an official government page. Directories and news reports are fine as leads, but say so (`"type": "third_party_directory"` or `"news"`).
-4. Set `services.*` to `null` for anything the source doesn't state. Don't guess.
-5. Start at `"status": "unverified"`.
-6. Run `python3 scripts/build_dist.py && python3 scripts/validate.py` and open a pull request.
+1. Add a record to the city's file in `data/providers/` (e.g. `hong-kong.json`). Follow `schema/provider.schema.json`.
+2. Use an ID of the form `<country>-<city code>-<short-name>`, e.g. `th-bkk-…`, `hk-hkg-…`, `us-lax-…`. Set `"city"` to the same city code.
+3. Put the provider's own names in `name` (and `location.address`) under the right language keys: `en`, plus `th`, `zh-Hans`, `zh-Hant`, `es` or `pt` where the provider publishes one. Don't translate official names yourself.
+4. Cite at least one source. Prefer the provider's own website or an official government page. Directories and news reports are fine as leads, but say so (`"type": "third_party_directory"` or `"news"`).
+5. Set `services.*` to `null` for anything the source doesn't state. Don't guess.
+6. Start at `"status": "unverified"`.
+7. Run the build and validator (below) and open a pull request.
+
+## Adding a city
+
+1. Add the city to `data/cities.json`: a three-letter code, country, jurisdiction, dialling code, time zone, currency, local languages, and `notes` for `hiv`, `adhd` and `diabetes` covering local rules people need to know (e.g. which ADHD medicines are banned or controlled). Cite each note's source in `noteSources`.
+2. Create `data/providers/<city-name>.json` and add providers as above.
+3. If the city is in a place with its own legal system (like Hong Kong or Macau), set `jurisdiction` accordingly. Don't group it with a neighbouring jurisdiction.
+
+## Translations
+
+The website is in English, Simplified Chinese (`zh-Hans`), Traditional Chinese (`zh-Hant`), Spanish (`es`), Portuguese (`pt`) and Thai (`th`).
+
+- Interface text is in `i18n/ui.json`: one key per string, one value per language.
+- Everything else written in English (city notes, service descriptions, provider notes) is translated in `i18n/content.<lang>.json`, keyed by the exact English text. If you change an English string in `data/`, update the matching key in each content file, or that string will show in English.
+- Leave generic medicine names, brand names and official provider names untranslated.
+- The current translations were machine-produced. Fixes from native speakers, especially for medical wording, are the most useful contribution you can make.
+
+Rebuild after any change:
+
+```bash
+python3 scripts/build_dist.py && python3 scripts/build_site.py && python3 scripts/validate.py
+```
 
 Store organisation information only. Never add anything about patients or individuals.
 

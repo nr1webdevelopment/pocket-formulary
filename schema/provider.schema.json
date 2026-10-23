@@ -2,11 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/nr1webdevelopment/pocket-formulary/schema/provider.schema.json",
   "title": "Health service provider",
-  "description": "One place where people can get care for a condition in this dataset (HIV, ADHD, diabetes). Booleans in `services` are true (offered), false (not offered) or null (unknown / not confirmed). Which service keys must be present depends on `conditions`.",
+  "description": "One place where people can get care for a condition in this dataset (HIV, ADHD, diabetes) in one of the cities in data/cities.json. Booleans in `services` are true (offered), false (not offered) or null (unknown / not confirmed). Which service keys must be present depends on `conditions`.",
   "type": "object",
   "required": [
     "id",
     "conditions",
+    "city",
     "name",
     "organization",
     "type",
@@ -39,6 +40,94 @@
     "url": {
       "type": "string",
       "pattern": "^https?://"
+    },
+    "localized": {
+      "type": "object",
+      "required": [
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "th": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zh-Hans": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zh-Hant": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "es": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "description": "Official or local-language versions keyed by language tag. Translations for display live in i18n/."
+    },
+    "localizedOptional": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "en": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "th": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zh-Hans": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zh-Hant": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "es": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
     }
   },
   "properties": {
@@ -60,22 +149,14 @@
       },
       "description": "Conditions this provider is listed for. Matches medicine `condition`."
     },
+    "city": {
+      "type": "string",
+      "pattern": "^[a-z]{3}$",
+      "description": "City code from data/cities.json (e.g. bkk, sha, hkg, mfm, tpe, sin, sfo, lax, gdl, lis)."
+    },
     "name": {
-      "type": "object",
-      "required": [
-        "en",
-        "th"
-      ],
-      "additionalProperties": false,
-      "properties": {
-        "en": {
-          "type": "string",
-          "minLength": 2
-        },
-        "th": {
-          "$ref": "#/$defs/nullableString"
-        }
-      }
+      "$ref": "#/$defs/localized",
+      "description": "Official names. `en` required; local-language names (th, zh-Hans, zh-Hant, es, pt) where the provider uses them."
     },
     "organization": {
       "type": "string"
@@ -83,6 +164,7 @@
     "type": {
       "enum": [
         "public_hospital",
+        "public_clinic",
         "bma_health_centre",
         "ngo_clinic",
         "key_population_clinic",
@@ -93,6 +175,8 @@
     "operator": {
       "enum": [
         "government_national",
+        "government_regional",
+        "government_local",
         "government_bma",
         "red_cross",
         "university",
@@ -107,7 +191,8 @@
       "type": "object",
       "required": [
         "country",
-        "province"
+        "province",
+        "city"
       ],
       "additionalProperties": false,
       "properties": {
@@ -118,6 +203,9 @@
         "province": {
           "type": "string"
         },
+        "city": {
+          "type": "string"
+        },
         "area": {
           "$ref": "#/$defs/nullableString"
         },
@@ -125,23 +213,13 @@
           "$ref": "#/$defs/nullableString"
         },
         "address": {
-          "type": "object",
-          "additionalProperties": false,
-          "properties": {
-            "en": {
-              "$ref": "#/$defs/nullableString"
-            },
-            "th": {
-              "$ref": "#/$defs/nullableString"
-            }
-          }
+          "$ref": "#/$defs/localizedOptional"
         },
         "postcode": {
           "type": [
             "string",
             "null"
-          ],
-          "pattern": "^\\d{5}$"
+          ]
         },
         "locationNote": {
           "$ref": "#/$defs/nullableString"

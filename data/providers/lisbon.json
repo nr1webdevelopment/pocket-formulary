@@ -1,0 +1,984 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "lis",
+  "providers": [
+    {
+      "id": "pt-lis-checkpointlx",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "CheckpointLX (GAT)",
+        "pt": "CheckpointLX (GAT)"
+      },
+      "organization": "GAT — Grupo de Ativistas em Tratamentos",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Príncipe Real",
+        "address": {
+          "pt": "Travessa do Monte do Carmo 2, 1200-277 Lisboa",
+          "en": "Travessa do Monte do Carmo 2, 1200-277 Lisbon"
+        },
+        "postcode": "1200-277",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 910 693 158"
+        ],
+        "line": null,
+        "website": "https://www.checkpointlx.com",
+        "email": "geral@checkpointlx.com",
+        "booking": null
+      },
+      "hours": "Mon–Sat 12:00–20:00 (per Fast-Track Cities directory; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Free, anonymous rapid HIV, syphilis and hepatitis C testing for gay, bi and other men who have sex with men, with medical follow-up for people on PrEP and referral into the national health service (SNS)."
+      },
+      "populationFocus": [
+        "msm"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://portugalgay.com/extra/checkpoint_lx/?lang=uk",
+          "title": "CheckpointLX",
+          "publisher": "PortugalGay.pt",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-gat-intendente",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "GAT Espaço Intendente",
+        "pt": "GAT Espaço Intendente"
+      },
+      "organization": "GAT — Grupo de Ativistas em Tratamentos",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Intendente / Arroios",
+        "address": {
+          "pt": "Rua Antero de Quental 8-A, 1150-043 Lisboa",
+          "en": "Rua Antero de Quental 8-A, 1150-043 Lisbon"
+        },
+        "postcode": "1150-043",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 919 613 092"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 15:00–20:00 (per Fast-Track Cities directory; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Peer-led screening for HIV, syphilis and hepatitis B and C, and PrEP counselling by appointment, aimed at migrants and sex workers."
+      },
+      "populationFocus": [
+        "migrants",
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-gat-in-mouraria",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "GAT IN-Mouraria",
+        "pt": "GAT IN-Mouraria"
+      },
+      "organization": "GAT — Grupo de Ativistas em Tratamentos",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Mouraria",
+        "address": {
+          "pt": "Calçada de Santo André 79, 1100-496 Lisboa",
+          "en": "Calçada de Santo André 79, 1100-496 Lisbon"
+        },
+        "postcode": "1100-496",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 211 953 273"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 14:00–20:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Free rapid HIV, hepatitis and STI testing, hepatitis treatment, needle-syringe programme and medical support for people who use drugs, migrants and homeless people."
+      },
+      "populationFocus": [
+        "people_who_use_drugs",
+        "migrants"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.testfinder.info/centers/gat-in-mouraria/",
+          "title": "GAT IN Mouraria",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-prep-ist-sete-rios",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "PrEP/STI Clinic — Sete Rios (ULS Santa Maria)",
+        "pt": "Consulta PrEP/IST — Sete Rios"
+      },
+      "organization": "ULS Santa Maria (SNS)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Sete Rios",
+        "address": {
+          "pt": "Largo Professor Arnaldo Sampaio, Lisboa",
+          "en": "Largo Professor Arnaldo Sampaio, Lisbon"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 217 211 852"
+        ],
+        "line": null,
+        "website": "https://www.ulssm.min-saude.pt",
+        "email": "prepist7rios@ulssm.min-saude.pt",
+        "booking": null
+      },
+      "hours": "Testing 09:00–13:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Public sexual health clinic: HIV, hepatitis and STI testing (free with an SNS number), PrEP, STI treatment and contraception. Walk-in and by appointment. In July 2025 GAT reported waits of a year or more for a first PrEP appointment at Lisbon's three hospital PrEP clinics."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.testfinder.info/centers/consulta-prepist-sete-rios/",
+          "title": "Consulta PrEP/IST — Sete Rios",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327",
+          "title": "Listas de espera em Lisboa para prevenção do VIH superiores a um ano (15 Jul 2025)",
+          "publisher": "RTP",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-medicos-do-mundo-abraco",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "Médicos do Mundo — Abraço",
+        "pt": "Médicos do Mundo — Abraço"
+      },
+      "organization": "Médicos do Mundo / Abraço",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Lumiar",
+        "address": {
+          "pt": "Largo José Luís Champalimaud 4A, 1600-110 Lisboa",
+          "en": "Largo José Luís Champalimaud 4A, 1600-110 Lisbon"
+        },
+        "postcode": "1600-110",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 215 958 293"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon & Fri 10:00–15:00; Tue & Thu 12:30–17:30; Wed 14:30–19:30 (per Fast-Track Cities directory; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Testing for HIV, hepatitis A/B/C, syphilis, chlamydia and gonorrhoea."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-associacao-positivo",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "Associação Positivo",
+        "pt": "Associação Positivo"
+      },
+      "organization": "Associação Positivo",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Cais do Sodré",
+        "address": {
+          "pt": "Rua de São Paulo 216, 1.º A/B, 1200-429 Lisboa",
+          "en": "Rua de São Paulo 216, 1st floor A/B, 1200-429 Lisbon"
+        },
+        "postcode": "1200-429",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 213 422 976"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "By appointment, Mon–Fri 14:00–20:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Testing for HIV, hepatitis B and C and syphilis, plus support for people living with HIV."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-cad-lapa",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "CAD Lapa — Lapa Health Centre",
+        "pt": "CAD Lapa — Centro de Saúde da Lapa"
+      },
+      "organization": "SNS",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Lapa",
+        "address": {
+          "pt": "Rua de São Ciro 36, 1200-831 Lisboa",
+          "en": "Rua de São Ciro 36, 1200-831 Lisbon"
+        },
+        "postcode": "1200-831",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 213 930 151"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–16:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Public anonymous counselling and testing centre (CAD) in a health centre."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-hospital-curry-cabral",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "Curry Cabral Hospital — Infectious Diseases",
+        "pt": "Hospital de Curry Cabral — Doenças Infecciosas"
+      },
+      "organization": "ULS São José (SNS)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Avenidas Novas",
+        "address": {
+          "pt": "Rua da Beneficência 8, 1050-099 Lisboa",
+          "en": "Rua da Beneficência 8, 1050-099 Lisbon"
+        },
+        "postcode": "1050-099",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 217 924 200"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Major public hospital with an infectious diseases department. Hospital PrEP and HIV clinics need a referral. In July 2025 GAT reported waits of a year or more for a first PrEP appointment at Lisbon's three hospital PrEP clinics. Listed in 2018 as a referral unit for positive rapid tests."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.infarmed.pt/documents/15786/2753253/Rede+de+referencia%C3%A7%C3%A3o/67077671-c7f8-4fa0-9ce0-847e175e6f00",
+          "title": "Rede de referenciação — rastreios por testes rápidos (2018)",
+          "publisher": "INFARMED",
+          "type": "government_registry",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327",
+          "title": "Listas de espera em Lisboa para prevenção do VIH superiores a um ano (15 Jul 2025)",
+          "publisher": "RTP",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-hospital-santa-maria",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "Santa Maria Hospital",
+        "pt": "Hospital de Santa Maria"
+      },
+      "organization": "ULS Santa Maria (SNS)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Alvalade",
+        "address": {
+          "pt": "Av. Prof. Egas Moniz, 1649-035 Lisboa",
+          "en": "Av. Prof. Egas Moniz, 1649-035 Lisbon"
+        },
+        "postcode": "1649-035",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 217 805 000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Major public hospital with an infectious diseases department. Hospital PrEP and HIV clinics need a referral. In July 2025 GAT reported waits of a year or more for a first PrEP appointment at Lisbon's three hospital PrEP clinics."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327",
+          "title": "Listas de espera em Lisboa para prevenção do VIH superiores a um ano (15 Jul 2025)",
+          "publisher": "RTP",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-hospital-egas-moniz",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "Egas Moniz Hospital",
+        "pt": "Hospital de Egas Moniz"
+      },
+      "organization": "ULS Lisboa Ocidental (SNS)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Belém / Alcântara",
+        "address": {
+          "pt": "Rua da Junqueira 126, 1349-019 Lisboa",
+          "en": "Rua da Junqueira 126, 1349-019 Lisbon"
+        },
+        "postcode": "1349-019",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 210 431 000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Major public hospital with an infectious diseases department. Hospital PrEP and HIV clinics need a referral. In July 2025 GAT reported waits of a year or more for a first PrEP appointment at Lisbon's three hospital PrEP clinics."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fast-trackcities.org/hiv-services/lisbon",
+          "title": "Lisbon HIV services directory",
+          "publisher": "Fast-Track Cities",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327",
+          "title": "Listas de espera em Lisboa para prevenção do VIH superiores a um ano (15 Jul 2025)",
+          "publisher": "RTP",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-cuf-descobertas-crianca",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "CUF Descobertas Hospital — Child and Adolescent Centre",
+        "pt": "Hospital CUF Descobertas — Centro da Criança e do Adolescente"
+      },
+      "organization": "CUF",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Parque das Nações",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.cuf.pt/hospitais-e-clinicas/hospital-cuf-descobertas-lisboa/centros/centro-da-crianca-e-do-adolescente",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Has child and adolescent psychiatry and a neurodevelopment unit. ADHD isn't listed as a named service; confirm."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.cuf.pt/hospitais-e-clinicas/hospital-cuf-descobertas-lisboa/centros/centro-da-crianca-e-do-adolescente",
+          "title": "Centro da Criança e do Adolescente",
+          "publisher": "Hospital CUF Descobertas",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Address and phone are on the hospital's main page, not the centre page.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "pt-lis-apdp",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lis",
+      "name": {
+        "en": "APDP — Diabetes Portugal Clinic",
+        "pt": "APDP — Associação Protectora dos Diabéticos de Portugal"
+      },
+      "organization": "APDP — Associação Protectora dos Diabéticos de Portugal",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "PT",
+        "province": "Lisboa",
+        "city": "Lisbon",
+        "area": null,
+        "district": "Santo António / Avenida",
+        "address": {
+          "pt": "Rua do Salitre 118-120, 1250-203 Lisboa",
+          "en": "Rua do Salitre 118-120, 1250-203 Lisbon"
+        },
+        "postcode": "1250-203",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+351 213 816 161"
+        ],
+        "line": null,
+        "website": "https://apdp.pt",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Adults and children (paediatrics up to 18, young adults 18–25), insulin pump programme, nurse-led education, diabetic foot department with home visits. Works alongside the SNS; check what is covered."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://apdp.pt/wp-content/uploads/2024/03/Relatorio-de-Atividades-APDP-20231_final.pdf",
+          "title": "Relatório de Atividades 2023",
+          "publisher": "APDP — Associação Protectora dos Diabéticos de Portugal",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "+351 213 816 161 is APDP's daily diabetes support line (nurses and doctors).",
+      "updated": "2026-10-23"
+    }
+  ]
+}

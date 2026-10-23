@@ -1,0 +1,734 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "sin",
+  "providers": [
+    {
+      "id": "sg-sin-dsc-kelantan",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "DSC@Kelantan Clinic (Department of STI Control)"
+      },
+      "organization": "National Skin Centre (NHG Health)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Rochor / Little India",
+        "address": {
+          "en": "31 Kelantan Lane #01-16, Singapore 200031"
+        },
+        "postcode": "200031",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+65 6293 9648",
+          "1800 252 1324"
+        ],
+        "line": null,
+        "website": "https://www.nhghealth.com.sg/find-care/Clinic/nsc-dsc-kelantan-clinic",
+        "email": "nsc.apptdsc@nhghealth.com.sg",
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–16:00. Closed weekends and public holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Singapore's public specialist clinic for sexually transmitted infections, with subsidised care. New patients book first. Listed as a PrEP provider. Around 2022, guides quoted S$100–200 per consultation, with branded PrEP at about S$300–400 per month at pharmacies; generic PrEP can be bought online with a prescription."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nhghealth.com.sg/find-care/Clinic/nsc-dsc-kelantan-clinic",
+          "title": "DSC@Kelantan Clinic",
+          "publisher": "National Skin Centre / NHG Health",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://care.nus.edu.sg/wp-content/uploads/2023/02/List-of-STI-Testing-Centres_220208.pdf",
+          "title": "List of STI testing centres (8 Feb 2023)",
+          "publisher": "NUS University Health Centre",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://dearstraightpeople.com/2022/06/05/prep-guide-singapore/",
+          "title": "PrEP Insider Guide to Singapore (2022)",
+          "publisher": "Dear Straight People",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "1800 252 1324 is a confidential counselling line.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-ncid-hiv-prep",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "National Centre for Infectious Diseases — HIV care and PrEP Clinic (Clinic J)"
+      },
+      "organization": "National Centre for Infectious Diseases (NHG Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Novena",
+        "address": {
+          "en": "Clinic J, Level 1, National Centre for Infectious Diseases, 16 Jalan Tan Tock Seng, Singapore 308442"
+        },
+        "postcode": "308442",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+65 6357 7000"
+        ],
+        "line": null,
+        "website": null,
+        "email": "prepcare@ttsh.com.sg",
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–17:30; Sat 08:00–12:00. Closed Sun and public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Singapore's national HIV treatment centre (holistic HIV care services) and PrEP Care Clinic. Around 2022, guides quoted S$100–200 per consultation, with branded PrEP at about S$300–400 per month at pharmacies; generic PrEP can be bought online with a prescription."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ncid.sg/Patients-and-Visitors/Visit-a-Specialist/Our-Clinics-Services/Pages/Holistic-HIV-Care-Services.aspx",
+          "title": "Holistic HIV Care Services",
+          "publisher": "National Centre for Infectious Diseases",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://care.nus.edu.sg/wp-content/uploads/2023/02/List-of-STI-Testing-Centres_220208.pdf",
+          "title": "List of STI testing centres (8 Feb 2023)",
+          "publisher": "NUS University Health Centre",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://dearstraightpeople.com/2022/06/05/prep-guide-singapore/",
+          "title": "PrEP Insider Guide to Singapore (2022)",
+          "publisher": "Dear Straight People",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-nuh-be-prep",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "National University Hospital — Be PrEPared (BePrep) Clinic"
+      },
+      "organization": "National University Hospital (NUHS)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Kent Ridge",
+        "address": {
+          "en": "5 Lower Kent Ridge Road, Singapore 119074"
+        },
+        "postcode": "119074",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+65 6908 2222"
+        ],
+        "line": null,
+        "website": null,
+        "email": "bpc@nuhs.edu.sg",
+        "booking": null
+      },
+      "hours": "Thursdays 14:00–17:00, by appointment.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Appointment-only PrEP clinic. Around 2022, guides quoted S$100–200 per consultation, with branded PrEP at about S$300–400 per month at pharmacies; generic PrEP can be bought online with a prescription."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://care.nus.edu.sg/wp-content/uploads/2023/02/List-of-STI-Testing-Centres_220208.pdf",
+          "title": "List of STI testing centres (8 Feb 2023)",
+          "publisher": "NUS University Health Centre",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://dearstraightpeople.com/2022/06/05/prep-guide-singapore/",
+          "title": "PrEP Insider Guide to Singapore (2022)",
+          "publisher": "Dear Straight People",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-action-for-aids-ahtc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "Action for AIDS — Anonymous HIV Testing and Counselling"
+      },
+      "organization": "Action for AIDS Singapore",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Named by the Ministry of Health (2008) as an anonymous HIV testing site. Check AfA's website for the current location and hours."
+      },
+      "populationFocus": [
+        "msm",
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://moh.gov.sg/newsroom/expansion-of-anonymous-hiv-testing-programme-in-singapore",
+          "title": "Expansion of anonymous HIV testing programme (30 Oct 2008)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-sata-commhealth",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "SATA CommHealth"
+      },
+      "organization": "SATA CommHealth",
+      "type": "private_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+65 6244 6688"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Community medical centres listed for STI testing (online booking). Ask about HIV testing."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://care.nus.edu.sg/wp-content/uploads/2023/02/List-of-STI-Testing-Centres_220208.pdf",
+          "title": "List of STI testing centres (8 Feb 2023)",
+          "publisher": "NUS University Health Centre",
+          "type": "third_party_directory",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-imh-child-guidance-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "Institute of Mental Health — Child Guidance Clinic"
+      },
+      "organization": "Institute of Mental Health (NHG Health)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Receives ADHD referrals from REACH for school-age children. Public child ADHD care in Singapore is mainly by referral (polyclinic, CHAS GP or the school-linked REACH teams); consultations and therapy get subsidies of up to 70%."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.moh.gov.sg/newsroom/attention-deficit/",
+          "title": "Attention deficit hyperactivity disorder — parliamentary answer (16 Feb 2024)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.moh.gov.sg/newsroom/support-for-children-with-adhd/",
+          "title": "Support for children with ADHD (8 Nov 2017)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-kkh-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "KK Women's and Children's Hospital — Child Development Programme and Child & Adolescent Mental Wellness"
+      },
+      "organization": "KK Women's and Children's Hospital (SingHealth)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Kallang / Bukit Timah Road",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child Development Programme for children 6 and under; Child and Adolescent Mental Wellness Service for older children. Public child ADHD care in Singapore is mainly by referral (polyclinic, CHAS GP or the school-linked REACH teams); consultations and therapy get subsidies of up to 70%."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.moh.gov.sg/newsroom/attention-deficit/",
+          "title": "Attention deficit hyperactivity disorder — parliamentary answer (16 Feb 2024)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.moh.gov.sg/newsroom/support-for-children-with-adhd/",
+          "title": "Support for children with ADHD (8 Nov 2017)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-nuh-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "National University Hospital — Child Development and Psychological Medicine"
+      },
+      "organization": "National University Hospital (NUHS)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Kent Ridge",
+        "address": {
+          "en": "5 Lower Kent Ridge Road, Singapore 119074"
+        },
+        "postcode": "119074",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child Development Programme (6 and under) and Department of Psychological Medicine referrals for school-age children. Public child ADHD care in Singapore is mainly by referral (polyclinic, CHAS GP or the school-linked REACH teams); consultations and therapy get subsidies of up to 70%."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.moh.gov.sg/newsroom/attention-deficit/",
+          "title": "Attention deficit hyperactivity disorder — parliamentary answer (16 Feb 2024)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.moh.gov.sg/newsroom/support-for-children-with-adhd/",
+          "title": "Support for children with ADHD (8 Nov 2017)",
+          "publisher": "Ministry of Health Singapore",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "sg-sin-sgh-diabetes-metabolism-centre",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sin",
+      "name": {
+        "en": "Singapore General Hospital — Diabetes & Metabolism Centre"
+      },
+      "organization": "Singapore General Hospital (SingHealth)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SG",
+        "province": "Singapore",
+        "city": "Singapore",
+        "area": null,
+        "district": "Outram",
+        "address": {
+          "en": "17 Third Hospital Avenue, Singapore 168752 (beside Singapore National Eye Centre)"
+        },
+        "postcode": "168752",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+65 6222 3322",
+          "+65 6321 4377"
+        ],
+        "line": null,
+        "website": null,
+        "email": "appointments@sgh.com.sg",
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–18:00; Sat 08:00–12:30 (podiatry and peritoneal dialysis only). Closed Sun and public holidays.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Diabetes consultations, nurse educators, dietitians, insulin pump clinic, CGM service, podiatry, young adult diabetes clinic and diabetes in pregnancy clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sgh.com.sg/patient-care/specialties-services/Diabetes-and-Metabolism-Centre",
+          "title": "Diabetes & Metabolism Centre",
+          "publisher": "Singapore General Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

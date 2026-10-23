@@ -1,0 +1,506 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "tpe",
+  "providers": [
+    {
+      "id": "tw-tpe-tpech-kunming-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "Taipei City Hospital Kunming Branch — HIV Special Clinic",
+        "zh-Hant": "臺北市立聯合醫院 林森中醫昆明院區 愛滋特別門診"
+      },
+      "organization": "Taipei City Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Wanhua",
+        "address": {
+          "zh-Hant": "108203 臺北市萬華區昆明街100號3樓",
+          "en": "3F, No. 100, Kunming Street, Wanhua District, Taipei 108203"
+        },
+        "postcode": "108203",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+886 2 2370 3739"
+        ],
+        "line": null,
+        "website": "https://tpech.gov.taipei/mp109211/cp.aspx?n=DB77132D2ADA9D60",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Antiretroviral treatment and HIV drug-resistance testing; free anonymous HIV screening by appointment (4F); one of three Taipei hospitals running the city PrEP subsidy programme. Taiwan CDC subsidises PrEP for eligible people (e.g. Taiwanese nationals aged 35 or under at high risk, partners of people living with HIV); others can pay themselves. Places are limited. CDC hotline 1922."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://tpech.gov.taipei/mp109211/cp.aspx?n=DB77132D2ADA9D60",
+          "title": "愛滋特別門診【昆明】",
+          "publisher": "Taipei City Hospital (臺北市立聯合醫院)",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://tpech.gov.taipei/mp109231/News_Content.aspx?n=BBD2E7D57833D31D&sms=87415A8B9CE81B16&s=4B5F940AB6A6F2F0",
+          "title": "我想要接受匿名篩檢(愛滋及梅毒)抽血",
+          "publisher": "Taipei City Hospital Kunming Prevention Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://health.udn.com/health/story/6047/5318990",
+          "title": "北市PrEP補助計畫 (15 Mar 2021)",
+          "publisher": "UDN Health",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.cdc.gov.tw/Category/QAPage/pzjkJa4dgVjdk6emQjM-3g",
+          "title": "PrEP計畫服務",
+          "publisher": "Taiwan Centers for Disease Control",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "tw-tpe-kunming-lgbtq-health-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "\"When We Are Together\" LGBTQ+ Health Center",
+        "zh-Hant": "當我們同在一起同志健康中心"
+      },
+      "organization": "Taipei City Hospital Kunming Prevention Center",
+      "type": "key_population_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Wanhua",
+        "address": {
+          "zh-Hant": "臺北市萬華區昆明街100號5樓（昆明防治中心）",
+          "en": "5F, Kunming Prevention Center, No. 100, Kunming Street, Wanhua District, Taipei"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+886 2 2370 3738"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Bookings Mon–Fri 09:00–12:00, 13:00–17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free HIV and syphilis screening by appointment for LGBTQ+ people."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "msm"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://tpech.gov.taipei/mp109231/News_Content.aspx?n=BBD2E7D57833D31D&sms=87415A8B9CE81B16&s=4B5F940AB6A6F2F0",
+          "title": "我想要接受匿名篩檢(愛滋及梅毒)抽血",
+          "publisher": "Taipei City Hospital Kunming Prevention Center",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "tw-tpe-ntuh-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "National Taiwan University Hospital — HIV services",
+        "zh-Hant": "臺大醫院 愛滋相關服務"
+      },
+      "organization": "National Taiwan University Hospital",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Zhongzheng",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Part of Taiwan CDC's one-stop anonymous rapid HIV screening (2019) and one of three Taipei hospitals named for the city PrEP subsidy (2021). Non-occupational PEP in Taiwan is self-paid (about NT$30,000) at a hospital infectious-disease clinic that offers it; start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mohw.gov.tw/cp-16-47311-1.html",
+          "title": "一站式愛滋匿名快篩服務 12家醫院 (15 Apr 2019)",
+          "publisher": "Ministry of Health and Welfare, Taiwan",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://health.udn.com/health/story/6047/5318990",
+          "title": "北市PrEP補助計畫 (15 Mar 2021)",
+          "publisher": "UDN Health",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.cdc.gov.tw/Category/QAPage/JQc1_rTZWlHX9-hw4U_4yg",
+          "title": "暴露愛滋病毒「後」預防性投藥 PEP",
+          "publisher": "Taiwan Centers for Disease Control",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "tw-tpe-vghtpe-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "Taipei Veterans General Hospital — HIV services",
+        "zh-Hant": "臺北榮民總醫院 愛滋相關服務"
+      },
+      "organization": "Taipei Veterans General Hospital",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Beitou",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Part of Taiwan CDC's one-stop anonymous rapid HIV screening (2019) and one of three Taipei hospitals named for the city PrEP subsidy (2021). Non-occupational PEP in Taiwan is self-paid (about NT$30,000) at a hospital infectious-disease clinic that offers it; start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mohw.gov.tw/cp-16-47311-1.html",
+          "title": "一站式愛滋匿名快篩服務 12家醫院 (15 Apr 2019)",
+          "publisher": "Ministry of Health and Welfare, Taiwan",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://health.udn.com/health/story/6047/5318990",
+          "title": "北市PrEP補助計畫 (15 Mar 2021)",
+          "publisher": "UDN Health",
+          "type": "news",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.cdc.gov.tw/Category/QAPage/JQc1_rTZWlHX9-hw4U_4yg",
+          "title": "暴露愛滋病毒「後」預防性投藥 PEP",
+          "publisher": "Taiwan Centers for Disease Control",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "tw-tpe-ntuh-psychiatry-adhd",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "National Taiwan University Hospital — Department of Psychiatry (child ADHD)",
+        "zh-Hant": "臺大醫院 精神醫學部（兒童注意力不足過動症）"
+      },
+      "organization": "National Taiwan University Hospital",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Zhongzheng",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.ntuh.gov.tw/PSY/Healthy/Attention/default.aspx",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "The department's psychiatrists publish guidance on ADHD clinical evaluation in children (interviews, school reports, questionnaires and attention testing). The same page describes methylphenidate as the first-line and only stimulant available in Taiwan; check current availability."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ntuh.gov.tw/PSY/Healthy/Attention/default.aspx",
+          "title": "注意力不足過動症 (Department of Psychiatry health education)",
+          "publisher": "National Taiwan University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "tw-tpe-vghtpe-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tpe",
+      "name": {
+        "en": "Taipei Veterans General Hospital — Endocrinology & Metabolism",
+        "zh-Hant": "臺北榮民總醫院 新陳代謝科"
+      },
+      "organization": "Taipei Veterans General Hospital",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TW",
+        "province": "Taipei",
+        "city": "Taipei",
+        "area": null,
+        "district": "Beitou",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Outpatient and inpatient diabetes care with a multidisciplinary diabetes care team and diabetes health education."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.vghtpe.gov.tw/meta/ped/images/News.action?gcode=A01",
+          "title": "Division of Endocrinology & Metabolism",
+          "publisher": "Taipei Veterans General Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}
