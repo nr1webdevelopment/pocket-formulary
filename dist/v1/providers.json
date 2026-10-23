@@ -1,0 +1,3085 @@
+{
+  "dataset": "providers",
+  "version": "1.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/provider.schema.json",
+  "count": 38,
+  "data": [
+    {
+      "id": "th-bkk-bangkok-hospital-gay-mens-health",
+      "name": {
+        "en": "Bangkok Hospital — Gay Men's Health",
+        "th": "โรงพยาบาลกรุงเทพ — Gay Men's Health"
+      },
+      "organization": "Bangkok Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "4th Floor, Chiva Transitional Care Hospital (Bangkok Hospital campus)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 310 3530",
+          "02 310 3751",
+          "02 310 3752",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/bangkok/center-clinic/undefined/be-yourself-services/gay-mens-health",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon & Wed 09:00–17:00; Tue, Thu, Fri & Sun 09:00–20:00; Sat 09:00–19:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": null
+      },
+      "populationFocus": [
+        "msm"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/bangkok/center-clinic/undefined/be-yourself-services/gay-mens-health",
+          "title": "Gay Men's Health",
+          "publisher": "Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Street address not given on the clinic page.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-bumrungrad-pride-clinic",
+      "name": {
+        "en": "Bumrungrad Pride Clinic",
+        "th": "ไพรด์คลินิก โรงพยาบาลบำรุงราษฎร์"
+      },
+      "organization": "Bumrungrad International Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Watthana",
+        "address": {
+          "en": "33 Sukhumvit 3, Watthana, Bangkok 10110",
+          "th": null
+        },
+        "postcode": "10110",
+        "locationNote": "Building A, 16th Floor, Counter A",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 011 5611",
+          "02 066 8888"
+        ],
+        "line": null,
+        "website": "https://www.bumrungrad.com/en/centers/pride-clinic",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Open daily; doctor consultations by appointment only. Phone lines 08:00–20:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "HIV testing is not named explicitly on the page (PEP requires a negative HIV test)."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bumrungrad.com/en/centers/pride-clinic",
+          "title": "Pride Clinic",
+          "publisher": "Bumrungrad International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pribta-clinic",
+      "name": {
+        "en": "Pribta Clinic",
+        "th": "คลินิกพริบตา"
+      },
+      "organization": "Institute of HIV Research and Innovation (IHRI)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Pathum Wan",
+        "address": {
+          "en": "Chamchuri Square, Office Zone, 11th Floor, 319 Phayathai Road, Pathum Wan, Bangkok 10330",
+          "th": null
+        },
+        "postcode": "10330",
+        "locationNote": null,
+        "nearestTransit": "MRT Sam Yan, Exit 2",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 160 5372"
+        ],
+        "line": "@PribtaClinic",
+        "website": "https://ihri.org/pribta/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sat 10:00–19:00; registration closes 17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Site lists counselling, testing and treatment for HIV and other STIs; confirm whether ART is started/dispensed on site."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ihri.org/pribta/",
+          "title": "Pribta Clinic",
+          "publisher": "Institute of HIV Research and Innovation (IHRI)",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "IHRI's office (Units 1109–1116, same building) is the source of the street address.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-bang-khun-thian-geriatric-hospital",
+      "name": {
+        "en": "Bang Khun Thian Geriatric Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลผู้สูงอายุบางขุนเทียน (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Specialist clinic 1, Building 1, 2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 452 7999 ext. 12081, 12082"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-charoenkrung-pracharak-hospital",
+      "name": {
+        "en": "Charoenkrung Pracharak Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลเจริญกรุงประชารักษ์ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Psychiatry clinic, 2nd Floor, 72 Phansa Maharachini Building",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 289 7024-25"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-khlong-sam-wa-hospital",
+      "name": {
+        "en": "Khlong Sam Wa Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลคลองสามวา (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Near the blood-draw room, ARI clinic",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "090 894 1113"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-klang-hospital",
+      "name": {
+        "en": "Klang Hospital (BMA General Hospital) — BKK Pride Clinic",
+        "th": "โรงพยาบาลกลาง (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "OB-GYN outpatient, 3rd Floor, Anusorn 100 Years Building",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 220 8000 ext. 10350"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-lat-krabang-hospital",
+      "name": {
+        "en": "Lat Krabang Bangkok Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลลาดกระบังกรุงเทพมหานคร (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Temporary building, 1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 356 9995"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-luang-pho-thawee-sak-hospital",
+      "name": {
+        "en": "Luang Pho Thawee Sak Hospital (Nong Khaem) — BKK Pride Clinic",
+        "th": "โรงพยาบาลหลวงพ่อทวีศักดิ์ ชุตินฺธโร อุทิศ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 429 3575"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-03-bang-sue",
+      "name": {
+        "en": "BMA Public Health Center 3 Bang Sue — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 3 บางซื่อ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Building 4, 3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 587 0618 ext. 303"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-04-din-daeng",
+      "name": {
+        "en": "BMA Public Health Center 4 Din Daeng — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 4 ดินแดง (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 246 1553 ext. 104"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-09-prachathipatai",
+      "name": {
+        "en": "BMA Public Health Center 9 Prachathipatai — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 9 ประชาธิปไตย (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "4th Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 282 0473 ext. 405"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-20-pom-prap",
+      "name": {
+        "en": "BMA Public Health Center 20 Pom Prap Sattru Phai — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 20 ป้อมปราบศัตรูพ่าย (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 223 0004"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-21-wat-that-thong",
+      "name": {
+        "en": "BMA Public Health Center 21 Wat That Thong — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 21 วัดธาตุทอง (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 391 6082 ext. 206"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-22-wat-pak-bo",
+      "name": {
+        "en": "BMA Public Health Center 22 Wat Pak Bo — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 22 วัดปากบ่อ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 349 1816-7"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-23-si-phraya",
+      "name": {
+        "en": "BMA Public Health Center 23 Si Phraya — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 23 สี่พระยา (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 233 6329 ext. 105"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-25-huai-khwang",
+      "name": {
+        "en": "BMA Public Health Center 25 Huai Khwang — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 25 ห้วยขวาง (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "2nd Floor, next to the district office",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 277 2660 ext. 204"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-26-chao-khun-phra-prayurawong",
+      "name": {
+        "en": "BMA Public Health Center 26 Chao Khun Phra Prayurawong — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 26 เจ้าคุณพระประยุรวงศ์ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 465 0014 ext. 203"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-28-krung-thon-buri",
+      "name": {
+        "en": "BMA Public Health Center 28 Krung Thon Buri — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 28 กรุงธนบุรี (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 860 8210 ext. 311"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-29-chuang-nutchanet",
+      "name": {
+        "en": "BMA Public Health Center 29 Chuang Nutchanet — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 29 ช่วง นุชเนตร (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 476 6495-6 ext. 1311, 1312"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-32-marit-tintamusik",
+      "name": {
+        "en": "BMA Public Health Center 32 Marit Tintamusik — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 32 มาริษ ตินตมุสิก (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 331 1773"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-36-bukkhalo",
+      "name": {
+        "en": "BMA Public Health Center 36 Bukkhalo — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 36 บุคคโล (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 468 5297"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-38-jid-thongkham",
+      "name": {
+        "en": "BMA Public Health Center 38 Jid-Thongkham Bamphen — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 38 จี๊ด-ทองคำ บำเพ็ญ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 243 3157"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-40-bang-khae",
+      "name": {
+        "en": "BMA Public Health Center 40 Bang Khae — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 40 บางแค (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 455 3870"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-41-khlong-toei",
+      "name": {
+        "en": "BMA Public Health Center 41 Khlong Toei — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 41 คลองเตย (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 249 1385",
+          "02 249 1376"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-43-min-buri",
+      "name": {
+        "en": "BMA Public Health Center 43 Min Buri — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 43 มีนบุรี (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Building 1, 2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 540 5615 ext. 201"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-48-nak-watcharautit",
+      "name": {
+        "en": "BMA Public Health Center 48 Nak Watcharautit — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 48 นาควัชระอุทิศ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 421 2147-9 ext. 602"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-61-sangwan",
+      "name": {
+        "en": "BMA Public Health Center 61 Sangwan Thasanarom — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 61 สังวาลย์ ทัสนารมย์ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "3rd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 536 0163"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-phc-64-khlong-sam-wa",
+      "name": {
+        "en": "BMA Public Health Center 64 Khlong Sam Wa — BKK Pride Clinic",
+        "th": "ศูนย์บริการสาธารณสุข 64 คลองสามวา (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "bma_health_centre",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "1st Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 548 0495"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-ratchaphiphat-hospital",
+      "name": {
+        "en": "Ratchaphiphat Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลราชพิพัฒน์ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "South Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Social security clinic",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 421 2122 ext. 8913"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-sirindhorn-hospital",
+      "name": {
+        "en": "Sirindhorn Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลสิรินธร (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Special internal medicine clinic, 2nd Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 328 6900 ext. 19"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-taksin-hospital",
+      "name": {
+        "en": "Taksin Hospital — Love Care Clinic — BKK Pride Clinic",
+        "th": "โรงพยาบาลตากสิน Love Care Clinic (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "North Thonburi",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "098 539 9746"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-vajira-hospital",
+      "name": {
+        "en": "Vajira Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลวชิรพยาบาล (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "Central Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 244 3000"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-pride-wetchakarunrasm-hospital",
+      "name": {
+        "en": "Wetchakarunrasm Hospital — BKK Pride Clinic",
+        "th": "โรงพยาบาลเวชการุณย์รัศมิ์ (BKK Pride Clinic)"
+      },
+      "organization": "Bangkok Metropolitan Administration (BMA)",
+      "type": "public_hospital",
+      "operator": "government_bma",
+      "network": "BKK Pride Clinic",
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": "East Bangkok",
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 543 1150"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "network",
+        "note": "Services (HIV/TB/STI testing and treatment, free PrEP and PEP, hormone care) are listed for the BKK Pride Clinic network as a whole, not per site. Confirm what this site offers."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://pr-bangkok.com/?p=503220",
+          "title": "BKK Pride Clinic พื้นที่ปลอดภัย ที่พร้อมเข้าใจความหลากหลาย อย่างเท่าเทียม (published 2025-06-26)",
+          "publisher": "Bangkok Metropolitan Administration (PR Bangkok)",
+          "type": "government_announcement",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://www.amarintv.com/lifestyle/beauty/515561",
+          "title": "เปิดพิกัด Pride Clinic คลินิกสุขภาพสำหรับกลุ่ม LGBTQIA+ โดยเฉพาะ (published 2025-05-29)",
+          "publisher": "Amarin TV",
+          "type": "news",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Location note (floor/room) comes from the Amarin TV article; site list and phones from BMA PR. Opening hours not published — call ahead.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-rsat-ramkhamhaeng",
+      "name": {
+        "en": "RSAT Clinic Ramkhamhaeng",
+        "th": "คลินิกฟ้าสีรุ้ง รามคำแหง"
+      },
+      "organization": "Rainbow Sky Association of Thailand (RSAT)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Bang Kapi",
+        "address": {
+          "en": "1 and 3 Soi Ramkhamhaeng 97/2, Ramkhamhaeng Road, Hua Mak, Bang Kapi, Bangkok 10240",
+          "th": null
+        },
+        "postcode": "10240",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 731 6532"
+        ],
+        "line": null,
+        "website": "https://www.rsat.info/en/",
+        "email": "info@rsat.info",
+        "booking": "https://www.rsat.info/en/booking/9999"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Site lists PrEP and HIV screening; PEP and sexual health mentioned in description. Hours not published on site."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.rsat.info/en/",
+          "title": "RSAT — homepage and clinic list",
+          "publisher": "Rainbow Sky Association of Thailand",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-swing-silom",
+      "name": {
+        "en": "SWING Clinic Bangkok",
+        "th": "สวิง คลินิก กรุงเทพฯ"
+      },
+      "organization": "Service Workers in Group Foundation (SWING)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Bang Rak",
+        "address": {
+          "en": "Silom 64 Building, 6th Floor, Silom Road, Suriyawong, Bang Rak, Bangkok 10500",
+          "th": null
+        },
+        "postcode": "10500",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 632 9501"
+        ],
+        "line": "@swingthailand",
+        "website": "https://www.swingthailand.org/en",
+        "email": null,
+        "booking": "https://zerva.app/swingclinic"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Same-day ART for people who test positive. PEP appears only in page keywords; confirm with clinic."
+      },
+      "populationFocus": [
+        "sex_workers"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.swingthailand.org/",
+          "title": "SWING Thailand — homepage",
+          "publisher": "Service Workers in Group Foundation (SWING)",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Older third-party directories list a Patpong Road address; SWING's own site lists Silom 64.",
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-tangerine-clinic",
+      "name": {
+        "en": "Tangerine Clinic",
+        "th": "แทนเจอรีนคลินิก"
+      },
+      "organization": "Institute of HIV Research and Innovation (IHRI)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Pathum Wan",
+        "address": {
+          "en": "Chamchuri Square, Office Zone, 11th Floor, 319 Phayathai Road, Pathum Wan, Bangkok 10330",
+          "th": null
+        },
+        "postcode": "10330",
+        "locationNote": null,
+        "nearestTransit": "MRT Sam Yan, Exit 2",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 160 5372"
+        ],
+        "line": "@TangerineClinic",
+        "website": "https://ihri.org/tangerine-tg/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sat 10:00–19:00; registration closes 17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "site",
+        "note": "Trans-specific clinic with transgender staff. Site lists HIV/STI counselling, testing and treatment; confirm ART on site."
+      },
+      "populationFocus": [
+        "transgender"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ihri.org/tangerine-tg/",
+          "title": "Tangerine Clinic",
+          "publisher": "Institute of HIV Research and Innovation (IHRI)",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    },
+    {
+      "id": "th-bkk-trc-anonymous-clinic",
+      "name": {
+        "en": "Thai Red Cross Anonymous Clinic",
+        "th": "คลินิกนิรนาม สภากาชาดไทย"
+      },
+      "organization": "Thai Red Cross AIDS and Infectious Diseases Research Centre",
+      "type": "ngo_clinic",
+      "operator": "red_cross",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Bangkok",
+        "area": null,
+        "district": "Pathum Wan",
+        "address": {
+          "en": "104 Ratchadamri Road, Pathum Wan, Pathum Wan, Bangkok 10330",
+          "th": "เลขที่ 104 ถนนราชดำริ แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
+        },
+        "postcode": "10330",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "02 251 6711-5"
+        ],
+        "line": null,
+        "website": "https://th.aidsid.or.th/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV testing (in-hours): Mon–Fri 07:30–16:30, queue closes 15:00. Out-of-hours HIV/STI testing: Mon, Wed, Fri 16:30–20:00 (queue closes 19:00); Sat 08:30–12:00 (queue closes 11:00). Closed Sundays and public holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Same-day ART is listed under the centre's Ratchadamri Clinic; a transgender clinic is also listed. Hours are centre-wide; the site gives no separate Anonymous Clinic hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://th.aidsid.or.th/",
+          "title": "Thai Red Cross AIDS and Infectious Diseases Research Centre — homepage",
+          "publisher": "Thai Red Cross",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        },
+        {
+          "url": "https://th.aidsid.or.th/office-hour/",
+          "title": "Office hours (วันเวลาทำการ)",
+          "publisher": "Thai Red Cross",
+          "type": "official_provider_site",
+          "accessed": "2026-10-23"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-10-23",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-10-23"
+    }
+  ]
+}

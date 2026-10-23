@@ -1,0 +1,38 @@
+name: Release data
+
+# Push a tag like v1.1.0 (matching data/release.json) to publish a GitHub Release
+# with the dataset files and a zip attached.
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "jsonschema>=4.18"
+      - run: python scripts/build_dist.py && python scripts/validate.py
+      - name: Check tag matches data/release.json
+        run: |
+          v=$(python -c "import json;print(json.load(open('data/release.json'))['version'])")
+          test "v$v" = "${GITHUB_REF_NAME}" || { echo "Tag ${GITHUB_REF_NAME} != v$v in data/release.json"; exit 1; }
+      - name: Package
+        run: |
+          mkdir -p release
+          cp -r dist/v1 release/pocket-formulary-data
+          cp -r schema LICENSE.md release/pocket-formulary-data/
+          (cd release && zip -r "pocket-formulary-data-${GITHUB_REF_NAME}.zip" pocket-formulary-data)
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            release/pocket-formulary-data-*.zip
+            dist/v1/*.json
+            dist/v1/*.csv
+          body_path: CHANGELOG.md

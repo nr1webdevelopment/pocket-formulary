@@ -1,0 +1,36 @@
+{
+  "name": "Pocket Formulary",
+  "version": "1.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/nr1webdevelopment/pocket-formulary",
+  "counts": {
+    "medicines": 124,
+    "providers": 38,
+    "providersByVerification": {
+      "unverified": 38
+    }
+  },
+  "files": {
+    "medicines.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.json",
+      "bytes": 107617,
+      "sha256": "248b3de404dea46e1034e3d71d1a4615d5df341f7f3b0ddca9d4c8d6ea08d520"
+    },
+    "medicines.csv": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/medicines.csv",
+      "bytes": 44731,
+      "sha256": "4efb545f5152f1f915e5f8529f2fcee8fded300dcb59921c475990b13b320fec"
+    },
+    "providers.json": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json",
+      "bytes": 106578,
+      "sha256": "b6767fb55e8fbefedb59892d600e93135187d3e9c05128eee5266227df719a49"
+    },
+    "providers.csv": {
+      "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv",
+      "bytes": 32614,
+      "sha256": "52b85417fa20c5d5d0a1667ef82986f13c5cc3044b3fd80cb67416d08999e378"
+    }
+  }
+}
