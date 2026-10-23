@@ -48,7 +48,7 @@ page = (t.replace("__HERO__", hero_css())
          .replace("__I18N__", js(i18n)))
 head = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n')
-html = head + page.replace('<div class="wrap">', '</head>\n<body>\n<div class="wrap">', 1) + "\n</body>\n</html>\n"
+html = head + page.replace('<header id="sitebar">', '</head>\n<body>\n<header id="sitebar">', 1) + "\n</body>\n</html>\n"
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines, {len(providers)} providers, "
       f"{len(cities_doc['data'])} cities, languages: en + {', '.join(sorted(i18n['content']))}")

@@ -1,3 +1,8 @@
 .DS_Store
 __pycache__/
 *.pyc
+
+# Design references (third-party images, not ours to publish)
+assets/stanford medicine website.png
+assets/About-LKSC.jpg
+assets/images.jpg

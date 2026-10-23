@@ -8,7 +8,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Source+Sans+3:wght@400;500;600;700&display=swap">
 <style>
 /* Layout: a pharmacy-label reference. One narrow column; condition colors come from each disease's awareness symbol
    (HIV red ribbon, ADHD orange ribbon, diabetes blue circle). List view <-> profile view via #slug. */
@@ -228,10 +228,95 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 .notice p { max-width: 75ch; }
 .rel a.ghost { border-style: dashed; color: var(--muted); }
 :lang(zh-Hans) .mast .rx, :lang(zh-Hant) .mast .rx, :lang(th) .mast .rx, :lang(zh-Hans) .fact dt, :lang(zh-Hant) .fact dt, :lang(th) .fact dt { letter-spacing: .04em; }
+
+/* ===== Editorial theme: black site bar, square white cards on grey, serif headings, solid icon squares ===== */
+:root { --accent: #0B6B5D; --band: #3F2D4A; --link: #00788A;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans Thai", "Leelawadee UI", "Thonburi", system-ui, sans-serif;
+  --mono: var(--body); }
+:root[data-theme="dark"] { --link: #5CC8D8; --accent: #3CC8AE; --band: #2A2033; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --link: #5CC8D8; --accent: #3CC8AE; --band: #2A2033; } }
+:lang(zh-Hans), :lang(zh-Hant), :lang(th) { --display: var(--body); }
+body { font-size: 16px; }
+h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
+.wrap { max-width: 1040px; padding-top: 22px; }
+
+/* site bar */
+#sitebar { background: #000; color: #fff; }
+#sitebar .topbar { max-width: 1040px; margin: 0 auto; min-height: 64px; align-items: stretch; flex-wrap: nowrap; gap: 0 16px;
+  padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+#sitebar .brand { background: #fff; color: #15202B; padding: 10px 22px; font-size: 21px; gap: 12px; }
+#sitebar .brand svg { width: 34px; height: 34px; border-radius: 0; }
+#sitebar .topbar-end { flex-wrap: nowrap; gap: 0 22px; }
+#sitebar .nav { background: none; padding: 0; gap: 0; border-radius: 0; }
+#sitebar .nav a { color: #fff; font-weight: 400; font-size: 17px; padding: 4px 18px; border-radius: 0; box-shadow: none; background: none; }
+#sitebar .nav a + a { border-left: 1px solid rgb(255 255 255 / .55); }
+#sitebar .nav a span { color: rgb(255 255 255 / .6); font-size: 13px; display: inline-block; }
+#sitebar .nav a:hover, #sitebar .nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 8px; }
+#sitebar .langsel { color: rgb(255 255 255 / .75); }
+#sitebar .langsel select { background: #000; color: #fff; border: 1px solid rgb(255 255 255 / .4); border-radius: 0; }
+#sitebar :focus-visible { outline-color: #fff; }
+@media (max-width: 640px) {
+  #sitebar .topbar { flex-wrap: wrap; padding-bottom: 8px; }
+  #sitebar .brand { font-size: 16px; padding: 10px 12px; gap: 8px; }
+  #sitebar .brand svg { width: 28px; height: 28px; }
+  #sitebar .langsel { margin-left: auto; align-self: center; }
+  #sitebar .langsel svg { display: none; }
+  #sitebar .langsel select { font-size: 13px; padding: 5px 4px; }
+  #sitebar .nav a { font-size: 16px; padding: 6px 0; }
+  #sitebar .nav a + a { padding-left: 16px; margin-left: 16px; }
+  #sitebar .nav a { flex: 0 0 auto; }
+}
+
+/* square corners everywhere */
+.hero, .label, .tab, .search, .select, .notice, .alert, .jnote, .rel a, .btn, .row, .prow, .note { border-radius: 0; }
+.fchip, .citychip, .chip, .pill, .vstat, .sb { border-radius: 2px; }
+
+/* hero: label tag + serif heading with a rule */
+.hero { border: 0; padding-top: 76px; min-height: 340px; }
+.mast .rx.tag { position: absolute; top: 0; left: 0; max-width: none; background: var(--accent); color: var(--surface);
+  padding: 9px 18px; font-size: 13px; font-weight: 600; letter-spacing: .1em; }
+.mast h1 { font-size: clamp(34px, 6vw, 54px); font-weight: 600; letter-spacing: -.005em; padding-bottom: 12px;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 60%, transparent); }
+.mast p { color: var(--ink); font-size: 17px; }
+@media (max-width: 640px) { .hero { padding-top: 160px; } }
+
+/* condition tabs as cards with a solid icon square */
+.tabs { gap: 10px; }
+.tab { flex-direction: row; align-items: center; gap: 14px; padding: 14px; border: 0; box-shadow: none; }
+.tab .ico { flex: none; width: 52px; height: 52px; display: grid; place-items: center; background: var(--c, var(--accent)); color: var(--surface); }
+.tab .ico .sym { width: 26px; height: 26px; }
+.tab .tx { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.tab .t { font-size: 21px; font-weight: 600; }
+.tab .n { font-size: 13.5px; }
+.tab:hover { box-shadow: inset 0 0 0 1px var(--line); }
+.tab[aria-pressed="true"] { box-shadow: inset 0 -4px 0 var(--c, var(--accent)); }
+@media (max-width: 560px) { .tab { gap: 10px; padding: 10px; } .tab .ico { width: 40px; height: 40px; } .tab .ico .sym { width: 22px; height: 22px; } .tab .t { font-size: 18px; } }
+
+/* lists and cards */
+.cond-h h2 { font-size: 28px; }
+.grp-h { font-size: 12.5px; font-weight: 600; }
+.rows, .plist-wrap { background: var(--surface); }
+.row, .prow { padding-left: 14px; padding-right: 14px; }
+.label { border: 0; }
+.label h1 { font-weight: 600; }
+.fact dt, .eyebrow, .about h3 { font-weight: 600; }
+.src a, .about a, .vbox a, .notice a, .jnote a, .legend a { color: var(--link); }
+.citychip { font-weight: 500; }
+.citychip[aria-current="page"], .citychip[aria-current="page"] .n, .fchip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); }
+.jnote { border-color: var(--band); }
+.jnote strong { color: var(--band); font-family: var(--display); font-size: 18px; }
+:root[data-theme="dark"] .jnote, :root[data-theme="dark"] .jnote strong { border-color: #B79BC7; color: #D9C6E3; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .jnote { border-color: #B79BC7; } :root:not([data-theme="light"]) .jnote strong { color: #D9C6E3; } }
+
+/* footer band */
+footer { max-width: none; border: 0; background: var(--band); color: rgb(255 255 255 / .85); padding: 22px 26px; font-size: 14px; }
+footer a { color: #fff; font-weight: 600; }
 </style>
 
 </head>
 <body>
+<header id="sitebar"></header>
 <div class="wrap">
   <main id="app"></main>
   <footer id="footer"></footer>
@@ -307,7 +392,7 @@ const condName = c => t(COND[c].key);
 
 const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="8" fill="#0E7C6B"/><g transform="translate(17 11) rotate(-35)"><rect x="-8.5" y="-3.6" width="17" height="7.2" rx="3.6" fill="#fff"/><path d="M0 -3.6H-4.9A3.6 3.6 0 0 0 -4.9 3.6H0Z" fill="#9FE3D6"/></g><path d="M6.5 14h19v6.5c0 3.6-2.9 6.5-6.5 6.5h-6c-3.6 0-6.5-2.9-6.5-6.5Z" fill="#fff"/><path d="M9.5 17h13" stroke="#0E7C6B" stroke-width="1.2" stroke-dasharray="1.8 1.6" stroke-linecap="round"/></svg>';
 function topbar(active) {
-  return `<div class="topbar">
+  document.getElementById("sitebar").innerHTML = `<div class="topbar">
     <a class="brand" href="#medicines" aria-label="Pocket Formulary">${LOGO}<span>Pocket Formulary</span></a>
     <div class="topbar-end">
     <nav class="nav" aria-label="Sections">
@@ -320,6 +405,7 @@ function topbar(active) {
     </label>
     </div>
   </div>`;
+  return "";
 }
 
 function renderFooter() {
@@ -337,13 +423,13 @@ function shell() {
   const counts = { all: DRUGS.length };
   for (const k in COND) counts[k] = DRUGS.filter(d => d.condition === k).length;
   const tab = (k, name, sym) => `<button class="tab" data-cond="${k}" aria-pressed="${state.cond === k}" style="${k === "all" ? "" : cvar(k)}">
-      <span class="t" style="color:${k === "all" ? "var(--ink)" : `var(--${k})`}">${SYM[sym]}<span style="color:var(--ink)">${name}</span></span>
-      <span class="n">${t("nMedicines", { n: counts[k] })}</span></button>`;
+      <span class="ico" aria-hidden="true">${SYM[sym]}</span>
+      <span class="tx"><span class="t">${name}</span><span class="n">${t("nMedicines", { n: counts[k] })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("med")}
     <header class="mast hero">
       <div class="hero-img" aria-hidden="true"></div>
-      <span class="rx">${t("medRx")}</span>
+      <span class="rx tag">${t("medRx")}</span>
       <h1>${t("siteTitle")}</h1>
       <p>${t("medIntro")}</p>
     </header>
@@ -485,13 +571,13 @@ function providerShell() {
   const jn = jurisdictionFor(pstate.city);
   const note = city.notes[c], noteSrc = (city.noteSources || {})[c];
   const ptab = k => `<button class="tab" data-pcond="${k}" aria-pressed="${c === k}" style="${cvar(k)}">
-      <span class="t" style="color:var(--${k})">${SYM[COND[k].sym]}<span style="color:var(--ink)">${condName(k)}</span></span>
-      <span class="n">${t("nProviders", { n: inCity(k).length })}</span></button>`;
+      <span class="ico" aria-hidden="true">${SYM[COND[k].sym]}</span>
+      <span class="tx"><span class="t">${condName(k)}</span><span class="n">${t("nProviders", { n: inCity(k).length })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("prov")}
     <header class="mast hero">
       <div class="hero-img" aria-hidden="true"></div>
-      <span class="rx">${t("provRx", { n: CITYDOC.cities.length })}</span>
+      <span class="rx tag">${t("provRx", { n: CITYDOC.cities.length })}</span>
       <h1>${t("siteTitle")}</h1>
       <p>${t("provIntro")}</p>
     </header>
