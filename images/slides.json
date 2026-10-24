@@ -1,0 +1,20 @@
+{
+  "_comment": "Header slideshow, in order. 'position' is the CSS background-position (focal point). Run python3 scripts/build_site.py after changes.",
+  "slides": [
+    {
+      "file": "pexels-ketut-subiyanto-4881009.webp",
+      "position": "50% 30%",
+      "credit": "Ketut Subiyanto"
+    },
+    {
+      "file": "pexels-polina-tankilevitch-3873149.webp",
+      "position": "50% 50%",
+      "credit": "Polina Tankilevitch"
+    },
+    {
+      "file": "pexels-clement-proust-363898785-26600253.webp",
+      "position": "50% 45%",
+      "credit": "Clement Proust"
+    }
+  ]
+}

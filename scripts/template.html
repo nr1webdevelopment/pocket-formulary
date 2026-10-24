@@ -40,17 +40,28 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
 .mast h1 { font-size: clamp(32px, 6.4vw, 52px); line-height: 1.02; letter-spacing: -.02em; }
 .mast p { margin: 0; color: var(--muted); max-width: 46ch; font-size: 16px; }
 
-/* hero: solid text panel, image (assets/hero.*) in its own panel on the right. No gradients. */
+/* hero: solid text panel + photo slideshow panel (images/). Crossfade only, no gradients. */
 .hero { position: relative; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); padding: 0; background: var(--surface); }
-.hero-txt { display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 76px 40px 36px; min-height: 340px; }
-.hero-img { background: __HERO__ center / cover no-repeat; min-height: 340px; }
+.hero-txt { display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 76px 40px 36px; min-height: 360px; }
 .hero.noimg { grid-template-columns: minmax(0, 1fr); }
-.hero.noimg .hero-img { display: none; }
 .hero.noimg .hero-txt > * { max-width: 620px; }
 .hero.noimg .hero-txt { min-height: 0; padding-top: 84px; }
+.hero-media { position: relative; overflow: hidden; min-height: 360px; background: var(--soft); }
+.slide { position: absolute; inset: 0; background-size: cover; background-repeat: no-repeat; opacity: 0; transition: opacity .9s ease; }
+.slide.on { opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .slide { transition: none; } }
+.slide-ctl { position: absolute; right: 0; bottom: 0; display: flex; align-items: center; gap: 2px; padding: 4px 6px; background: rgb(0 0 0 / .62); }
+.slide-ctl button { width: 28px; height: 28px; padding: 0; border: 0; background: none; color: #fff; cursor: pointer; display: grid; place-items: center; }
+.slide-ctl .dot::before { content: ""; width: 10px; height: 10px; border: 1.5px solid #fff; box-sizing: border-box; }
+.slide-ctl .dot[aria-current="true"]::before { background: #fff; }
+.slide-ctl .pp svg { width: 14px; height: 14px; }
+.slide-ctl button:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
+/*__SLIDES_CSS__*/
 @media (max-width: 640px) {
   .hero { grid-template-columns: minmax(0, 1fr); }
-  .hero-img { order: -1; min-height: 190px; }
+  .hero-media { order: -1; min-height: 210px; }
+  .hero:not(.noimg) .rx.tag { position: static; justify-self: start; }
+  .hero:not(.noimg) .hero-txt { padding-top: 18px; }
   .hero-txt { min-height: 0; padding: 24px 20px 24px; }
   .hero.noimg .hero-txt { padding-top: 64px; }
 }
@@ -383,7 +394,34 @@ const COND = {
 };
 const condName = c => t(COND[c].key);
 
-const HERO_CLASS = "__HERO_CLASS__";
+const SLIDES = __SLIDES__;
+const HERO_CLASS = SLIDES.length ? "" : " noimg";
+const slide = { i: 0, paused: matchMedia("(prefers-reduced-motion: reduce)").matches, hover: false };
+const ICON_PAUSE = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 3h3v10H4zM9 3h3v10H9z" fill="currentColor"/></svg>';
+const ICON_PLAY = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4.5 2.5v11l9-5.5z" fill="currentColor"/></svg>';
+function heroMedia() {
+  if (!SLIDES.length) return "";
+  const n = SLIDES.length;
+  return `<div class="hero-media" role="group" aria-roledescription="carousel" aria-label="${esc(t("slidesLabel"))}">
+    ${SLIDES.map((s, i) => `<div class="slide slide-${i}${i === slide.i ? " on" : ""}" aria-hidden="true" style="background-position:${s.position}"></div>`).join("")}
+    ${n > 1 ? `<div class="slide-ctl">${SLIDES.map((s, i) => `<button type="button" class="dot" data-slide="${i}" aria-label="${esc(t("slideN", { n: i + 1, total: n }))}" aria-current="${i === slide.i}"></button>`).join("")}
+      <button type="button" class="pp" data-slide-pp aria-label="${esc(t(slide.paused ? "slidePlay" : "slidePause"))}">${slide.paused ? ICON_PLAY : ICON_PAUSE}</button></div>` : ""}
+  </div>`;
+}
+function showSlide(i) {
+  slide.i = (i + SLIDES.length) % SLIDES.length;
+  document.querySelectorAll(".hero-media .slide").forEach((el, k) => el.classList.toggle("on", k === slide.i));
+  document.querySelectorAll(".hero-media .dot").forEach((el, k) => el.setAttribute("aria-current", String(k === slide.i)));
+}
+if (SLIDES.length > 1) {
+  setInterval(() => { if (!slide.paused && !slide.hover && !document.hidden && document.querySelector(".hero-media")) showSlide(slide.i + 1); }, 6000);
+  document.addEventListener("click", e => {
+    const d = e.target.closest("[data-slide]"), pp = e.target.closest("[data-slide-pp]");
+    if (d) showSlide(+d.dataset.slide);
+    if (pp) { slide.paused = !slide.paused; pp.innerHTML = slide.paused ? ICON_PLAY : ICON_PAUSE; pp.setAttribute("aria-label", t(slide.paused ? "slidePlay" : "slidePause")); }
+  });
+  document.addEventListener("mouseover", e => { slide.hover = !!e.target.closest(".hero-media"); });
+}
 const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="#A3191F"/><path d="M16 5.5c-4.4 0-8 3.4-8 7.8 0 5.6 8 13.2 8 13.2s8-7.6 8-13.2c0-4.4-3.6-7.8-8-7.8z" fill="#fff"/><g transform="translate(16 13.2) rotate(-40)"><rect x="-5.2" y="-2.3" width="10.4" height="4.6" rx="2.3" fill="#A3191F"/><path d="M0 -2.3H-2.9A2.3 2.3 0 0 0 -2.9 2.3H0Z" fill="#F7C6C8"/></g></svg>';
 function topbar(active) {
   document.getElementById("sitebar").innerHTML = `<div class="topbar">
@@ -405,7 +443,7 @@ function topbar(active) {
 function renderFooter() {
   const f = document.getElementById("footer");
   f.innerHTML = `${esc(t("footer"))}${LANG !== "en" ? `<br><em>${esc(t("machineNote"))}</em>` : ""}
-    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a>.`;
+    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a>.${SLIDES.some(s => s.credit) ? `<br>${esc(t("photoCredit", { names: SLIDES.map(s => s.credit).filter(Boolean).join(", ") }))}` : ""}`;
 }
 
 /* ---------------- medicines ---------------- */
@@ -427,7 +465,7 @@ function shell() {
       <h1>${t("siteTitle")}</h1>
       <p>${t("medIntro")}</p>
       </div>
-      <div class="hero-img" aria-hidden="true"></div>
+      ${heroMedia()}
     </header>
     <div class="tabs" role="group">
       ${tab("all", t("condAll"), "all")}${Object.entries(COND).map(([k, c]) => tab(k, t(c.key), c.sym)).join("")}
@@ -577,7 +615,7 @@ function providerShell() {
       <h1>${t("siteTitle")}</h1>
       <p>${t("provIntro")}</p>
       </div>
-      <div class="hero-img" aria-hidden="true"></div>
+      ${heroMedia()}
     </header>
     <nav class="citybar" aria-label="${esc(t("cityLabel"))}">
       <div class="citylabel">${t("cityLabel")}</div>

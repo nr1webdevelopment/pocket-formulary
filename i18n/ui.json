@@ -1502,5 +1502,45 @@
   "es": "registro oficial",
   "pt": "registo oficial",
   "th": "ทะเบียนทางการ"
+ },
+ "slidesLabel": {
+  "en": "Photos",
+  "zh-Hans": "照片",
+  "zh-Hant": "照片",
+  "es": "Fotos",
+  "pt": "Fotos",
+  "th": "ภาพถ่าย"
+ },
+ "slideN": {
+  "en": "Show photo {n} of {total}",
+  "zh-Hans": "显示第 {n} 张照片（共 {total} 张）",
+  "zh-Hant": "顯示第 {n} 張照片（共 {total} 張）",
+  "es": "Mostrar foto {n} de {total}",
+  "pt": "Mostrar foto {n} de {total}",
+  "th": "แสดงภาพที่ {n} จาก {total}"
+ },
+ "slidePause": {
+  "en": "Pause slideshow",
+  "zh-Hans": "暂停幻灯片",
+  "zh-Hant": "暫停幻燈片",
+  "es": "Pausar presentación",
+  "pt": "Pausar apresentação",
+  "th": "หยุดสไลด์โชว์ชั่วคราว"
+ },
+ "slidePlay": {
+  "en": "Play slideshow",
+  "zh-Hans": "播放幻灯片",
+  "zh-Hant": "播放幻燈片",
+  "es": "Reproducir presentación",
+  "pt": "Reproduzir apresentação",
+  "th": "เล่นสไลด์โชว์"
+ },
+ "photoCredit": {
+  "en": "Photos: {names} on Pexels.",
+  "zh-Hans": "照片：{names}（Pexels）。",
+  "zh-Hant": "照片：{names}（Pexels）。",
+  "es": "Fotos: {names} en Pexels.",
+  "pt": "Fotos: {names} no Pexels.",
+  "th": "ภาพ: {names} จาก Pexels"
  }
 }

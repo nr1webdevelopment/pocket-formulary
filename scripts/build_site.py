@@ -18,28 +18,41 @@ for path in sorted(glob.glob(os.path.join(ROOT, "i18n", "content.*.json"))):
     i18n["content"][lang] = json.load(open(path, encoding="utf-8"))
 
 
-def hero_css():
-    """assets/hero.(webp|jpg|jpeg|png) -> resized WebP data URI. Returns "none" when there is no image."""
-    for ext in ("webp", "jpg", "jpeg", "png"):
-        path = os.path.join(ROOT, "assets", "hero." + ext)
-        if os.path.exists(path):
-            from PIL import Image
-            im = Image.open(path).convert("RGB")
-            im.thumbnail((1800, 1800))
-            buf = io.BytesIO()
-            im.save(buf, "WEBP", quality=72, method=6)
-            print(f"hero image: {os.path.basename(path)} -> {im.size[0]}x{im.size[1]} WebP, {len(buf.getvalue())//1024} KB")
-            return 'url("data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode() + '")'
-    print("hero image: none found in assets/, header shows text only")
-    return "none"
+def encode_image(path, max_w=1400):
+    from PIL import Image, ImageOps
+    im = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
+    im.thumbnail((max_w, max_w))
+    buf = io.BytesIO()
+    im.save(buf, "WEBP", quality=70, method=6)
+    print(f"  {os.path.basename(path)} -> {im.size[0]}x{im.size[1]} WebP, {len(buf.getvalue())//1024} KB")
+    return 'url("data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode() + '")'
+
+
+def hero_slides():
+    """Header slideshow. Order and focal points come from images/slides.json; without it, every image in
+    images/ is used alphabetically, then assets/hero.* as a single image. Returns (css, metadata)."""
+    exts = (".jpg", ".jpeg", ".png", ".webp")
+    cfg_path = os.path.join(ROOT, "images", "slides.json")
+    if os.path.exists(cfg_path):
+        items = json.load(open(cfg_path, encoding="utf-8"))["slides"]
+        items = [dict(s, path=os.path.join(ROOT, "images", s["file"])) for s in items]
+    else:
+        items = [{"path": p} for p in sorted(glob.glob(os.path.join(ROOT, "images", "*"))) if p.lower().endswith(exts)]
+        if not items:
+            items = [{"path": os.path.join(ROOT, "assets", "hero" + e)} for e in exts if os.path.exists(os.path.join(ROOT, "assets", "hero" + e))][:1]
+    items = [s for s in items if os.path.exists(s["path"])]
+    print(f"header slideshow: {len(items)} image(s)")
+    css = "\n".join(f".slide-{i} {{ background-image: {encode_image(s['path'])}; }}" for i, s in enumerate(items))
+    meta = [{"position": s.get("position", "50% 50%"), "credit": s.get("credit", "")} for s in items]
+    return css, meta
 
 
 def js(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
-hero = hero_css()
-page = (t.replace("__HERO__", hero).replace("__HERO_CLASS__", "" if hero != "none" else " noimg")
+slides_css, slides = hero_slides()
+page = (t.replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
          .replace("__DATA__", js(drugs))
          .replace("__PROVIDERS__", js(providers))
          .replace("__CITIES__", js({"cities": cities_doc["data"], "jurisdictionNotes": cities_doc.get("jurisdictionNotes", {})}))
