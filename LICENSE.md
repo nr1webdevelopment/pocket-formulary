@@ -7,7 +7,7 @@ Creative Commons Attribution 4.0 International License
 (https://creativecommons.org/licenses/by/4.0/).
 
 You may share and adapt it for any purpose, including commercially, as long as
-you credit "Pocket Formulary (github.com/nr1webdevelopment/pocket-formulary)"
+you credit "NomadCeuticals (github.com/nr1webdevelopment/pocket-formulary)"
 and indicate if changes were made.
 
 Facts about providers come from the sources cited in each record; those sources

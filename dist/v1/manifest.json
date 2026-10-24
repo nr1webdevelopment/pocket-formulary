@@ -1,5 +1,5 @@
 {
-  "name": "Pocket Formulary",
+  "name": "NomadCeuticals",
   "version": "2.0.0",
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
@@ -86,8 +86,8 @@
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
-      "bytes": 57591,
-      "sha256": "edd47ee4b09e1431d9631cd8f48e3d477038af104afc698f4c42beb0e90a7645"
+      "bytes": 57579,
+      "sha256": "75d24f8d7b7dfb6337616daca7563a341b287846eb75a93a8917f0bce92077bd"
     }
   }
 }

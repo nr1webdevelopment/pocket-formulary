@@ -19,7 +19,7 @@ for path in sorted(glob.glob(os.path.join(ROOT, "i18n", "content.*.json"))):
 
 
 def hero_css():
-    """assets/hero.(webp|jpg|jpeg|png) -> resized WebP data URI. Falls back to a soft gradient."""
+    """assets/hero.(webp|jpg|jpeg|png) -> resized WebP data URI. Returns "none" when there is no image."""
     for ext in ("webp", "jpg", "jpeg", "png"):
         path = os.path.join(ROOT, "assets", "hero." + ext)
         if os.path.exists(path):
@@ -30,17 +30,16 @@ def hero_css():
             im.save(buf, "WEBP", quality=72, method=6)
             print(f"hero image: {os.path.basename(path)} -> {im.size[0]}x{im.size[1]} WebP, {len(buf.getvalue())//1024} KB")
             return 'url("data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode() + '")'
-    print("hero image: none found in assets/, using gradient placeholder")
-    return ("radial-gradient(60% 90% at 85% 30%, #F4C7C9 0%, transparent 70%), "
-            "radial-gradient(45% 70% at 65% 95%, #E3E6EA 0%, transparent 70%), "
-            "radial-gradient(35% 60% at 98% 85%, #FFDCC8 0%, transparent 70%), #F7F1F1")
+    print("hero image: none found in assets/, header shows text only")
+    return "none"
 
 
 def js(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
-page = (t.replace("__HERO__", hero_css())
+hero = hero_css()
+page = (t.replace("__HERO__", hero).replace("__HERO_CLASS__", "" if hero != "none" else " noimg")
          .replace("__DATA__", js(drugs))
          .replace("__PROVIDERS__", js(providers))
          .replace("__CITIES__", js({"cities": cities_doc["data"], "jurisdictionNotes": cities_doc.get("jurisdictionNotes", {})}))

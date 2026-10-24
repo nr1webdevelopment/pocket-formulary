@@ -1,5 +1,5 @@
-<title>Pocket Formulary</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%228%22%20fill%3D%22%23A3191F%22%2F%3E%3Cg%20transform%3D%22translate%2817%2011%29%20rotate%28-35%29%22%3E%3Crect%20x%3D%22-8.5%22%20y%3D%22-3.6%22%20width%3D%2217%22%20height%3D%227.2%22%20rx%3D%223.6%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M0%20-3.6H-4.9A3.6%203.6%200%200%200%20-4.9%203.6H0Z%22%20fill%3D%22%23F7C6C8%22%2F%3E%3C%2Fg%3E%3Cpath%20d%3D%22M6.5%2014h19v6.5c0%203.6-2.9%206.5-6.5%206.5h-6c-3.6%200-6.5-2.9-6.5-6.5Z%22%20fill%3D%22%23fff%22%2F%3E%3Cpath%20d%3D%22M9.5%2017h13%22%20stroke%3D%22%23A3191F%22%20stroke-width%3D%221.2%22%20stroke-dasharray%3D%221.8%201.6%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+<title>NomadCeuticals</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%227%22%20fill%3D%22%23A3191F%22%2F%3E%3Cpath%20d%3D%22M16%205.5c-4.4%200-8%203.4-8%207.8%200%205.6%208%2013.2%208%2013.2s8-7.6%208-13.2c0-4.4-3.6-7.8-8-7.8z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20transform%3D%22translate%2816%2013.2%29%20rotate%28-40%29%22%3E%3Crect%20x%3D%22-5.2%22%20y%3D%22-2.3%22%20width%3D%2210.4%22%20height%3D%224.6%22%20rx%3D%222.3%22%20fill%3D%22%23A3191F%22%2F%3E%3Cpath%20d%3D%22M0%20-2.3H-2.9A2.3%202.3%200%200%200%20-2.9%202.3H0Z%22%20fill%3D%22%23F7C6C8%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,17 +40,19 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
 .mast h1 { font-size: clamp(32px, 6.4vw, 52px); line-height: 1.02; letter-spacing: -.02em; }
 .mast p { margin: 0; color: var(--muted); max-width: 46ch; font-size: 16px; }
 
-/* hero: AI image (assets/hero.*) behind a white gradient, so text stays readable on the left */
-.hero { position: relative; isolation: isolate; overflow: hidden; justify-content: flex-end; min-height: 320px;
-  padding: 40px 40px 36px; border-radius: 20px; border: 1px solid var(--line); background: var(--surface); }
-.hero-img { position: absolute; inset: 0; z-index: -2; background: __HERO__; background-size: cover; background-position: 70% 50%; }
-.hero::before { content: ""; position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(90deg, var(--surface) 0%, var(--surface) 30%, color-mix(in srgb, var(--surface) 82%, transparent) 50%, color-mix(in srgb, var(--surface) 25%, transparent) 78%, transparent 100%); }
-.hero > :not(.hero-img) { max-width: 520px; }
+/* hero: solid text panel, image (assets/hero.*) in its own panel on the right. No gradients. */
+.hero { position: relative; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); padding: 0; background: var(--surface); }
+.hero-txt { display: flex; flex-direction: column; justify-content: flex-end; gap: 8px; padding: 76px 40px 36px; min-height: 340px; }
+.hero-img { background: __HERO__ center / cover no-repeat; min-height: 340px; }
+.hero.noimg { grid-template-columns: minmax(0, 1fr); }
+.hero.noimg .hero-img { display: none; }
+.hero.noimg .hero-txt > * { max-width: 620px; }
+.hero.noimg .hero-txt { min-height: 0; padding-top: 84px; }
 @media (max-width: 640px) {
-  .hero { min-height: 0; padding: 150px 20px 24px; border-radius: 16px; }
-  .hero-img { background-position: 70% 0%; background-size: auto 230px; background-repeat: no-repeat; }
-  .hero::before { background: linear-gradient(180deg, transparent 0, color-mix(in srgb, var(--surface) 30%, transparent) 80px, color-mix(in srgb, var(--surface) 92%, transparent) 150px, var(--surface) 180px); }
+  .hero { grid-template-columns: minmax(0, 1fr); }
+  .hero-img { order: -1; min-height: 190px; }
+  .hero-txt { min-height: 0; padding: 24px 20px 24px; }
+  .hero.noimg .hero-txt { padding-top: 64px; }
 }
 
 /* brand */
@@ -268,13 +270,11 @@ h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
 .fchip, .citychip, .chip, .pill, .vstat, .sb { border-radius: 2px; }
 
 /* hero: label tag + serif heading with a rule */
-.hero { border: 0; padding-top: 76px; min-height: 340px; }
 .mast .rx.tag { position: absolute; top: 0; left: 0; max-width: none; background: var(--accent); color: var(--surface);
   padding: 9px 18px; font-size: 13px; font-weight: 600; letter-spacing: .1em; }
 .mast h1 { font-size: clamp(34px, 6vw, 54px); font-weight: 600; letter-spacing: -.005em; padding-bottom: 12px;
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 60%, transparent); }
 .mast p { color: var(--ink); font-size: 17px; }
-@media (max-width: 640px) { .hero { padding-top: 160px; } }
 
 /* condition tabs as cards with a solid icon square */
 .tabs { gap: 10px; }
@@ -383,10 +383,11 @@ const COND = {
 };
 const condName = c => t(COND[c].key);
 
-const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="8" fill="#A3191F"/><g transform="translate(17 11) rotate(-35)"><rect x="-8.5" y="-3.6" width="17" height="7.2" rx="3.6" fill="#fff"/><path d="M0 -3.6H-4.9A3.6 3.6 0 0 0 -4.9 3.6H0Z" fill="#F7C6C8"/></g><path d="M6.5 14h19v6.5c0 3.6-2.9 6.5-6.5 6.5h-6c-3.6 0-6.5-2.9-6.5-6.5Z" fill="#fff"/><path d="M9.5 17h13" stroke="#A3191F" stroke-width="1.2" stroke-dasharray="1.8 1.6" stroke-linecap="round"/></svg>';
+const HERO_CLASS = "__HERO_CLASS__";
+const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="#A3191F"/><path d="M16 5.5c-4.4 0-8 3.4-8 7.8 0 5.6 8 13.2 8 13.2s8-7.6 8-13.2c0-4.4-3.6-7.8-8-7.8z" fill="#fff"/><g transform="translate(16 13.2) rotate(-40)"><rect x="-5.2" y="-2.3" width="10.4" height="4.6" rx="2.3" fill="#A3191F"/><path d="M0 -2.3H-2.9A2.3 2.3 0 0 0 -2.9 2.3H0Z" fill="#F7C6C8"/></g></svg>';
 function topbar(active) {
   document.getElementById("sitebar").innerHTML = `<div class="topbar">
-    <a class="brand" href="#medicines" aria-label="Pocket Formulary">${LOGO}<span>Pocket Formulary</span></a>
+    <a class="brand" href="#medicines" aria-label="NomadCeuticals">${LOGO}<span>NomadCeuticals</span></a>
     <div class="topbar-end">
     <nav class="nav" aria-label="Sections">
       <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>
@@ -420,11 +421,13 @@ function shell() {
       <span class="tx"><span class="t">${name}</span><span class="n">${t("nMedicines", { n: counts[k] })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("med")}
-    <header class="mast hero">
-      <div class="hero-img" aria-hidden="true"></div>
+    <header class="mast hero${HERO_CLASS}">
       <span class="rx tag">${t("medRx")}</span>
+      <div class="hero-txt">
       <h1>${t("siteTitle")}</h1>
       <p>${t("medIntro")}</p>
+      </div>
+      <div class="hero-img" aria-hidden="true"></div>
     </header>
     <div class="tabs" role="group">
       ${tab("all", t("condAll"), "all")}${Object.entries(COND).map(([k, c]) => tab(k, t(c.key), c.sym)).join("")}
@@ -568,11 +571,13 @@ function providerShell() {
       <span class="tx"><span class="t">${condName(k)}</span><span class="n">${t("nProviders", { n: inCity(k).length })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("prov")}
-    <header class="mast hero">
-      <div class="hero-img" aria-hidden="true"></div>
+    <header class="mast hero${HERO_CLASS}">
       <span class="rx tag">${t("provRx", { n: CITYDOC.cities.length })}</span>
+      <div class="hero-txt">
       <h1>${t("siteTitle")}</h1>
       <p>${t("provIntro")}</p>
+      </div>
+      <div class="hero-img" aria-hidden="true"></div>
     </header>
     <nav class="citybar" aria-label="${esc(t("cityLabel"))}">
       <div class="citylabel">${t("cityLabel")}</div>
