@@ -1622,5 +1622,37 @@
   "es": "Descargar los datos",
   "pt": "Descarregar os dados",
   "th": "ดาวน์โหลดข้อมูล"
+ },
+ "textSize": {
+  "en": "Text size",
+  "zh-Hans": "字号",
+  "zh-Hant": "字級",
+  "es": "Tamaño del texto",
+  "pt": "Tamanho do texto",
+  "th": "ขนาดตัวอักษร"
+ },
+ "tsDefault": {
+  "en": "Default",
+  "zh-Hans": "默认",
+  "zh-Hant": "預設",
+  "es": "Normal",
+  "pt": "Normal",
+  "th": "ปกติ"
+ },
+ "tsLarge": {
+  "en": "Large",
+  "zh-Hans": "大",
+  "zh-Hant": "大",
+  "es": "Grande",
+  "pt": "Grande",
+  "th": "ใหญ่"
+ },
+ "tsLarger": {
+  "en": "Extra large",
+  "zh-Hans": "特大",
+  "zh-Hant": "特大",
+  "es": "Muy grande",
+  "pt": "Muito grande",
+  "th": "ใหญ่มาก"
  }
 }

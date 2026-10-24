@@ -86,8 +86,8 @@
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
-      "bytes": 64145,
-      "sha256": "1c4318af2e7d69a2b3303864aed3d2f2ce7164af6916043ea0a9264500c17778"
+      "bytes": 64779,
+      "sha256": "589bb5c598afa85d6d8f01c39eb5ea9bcb2bb85683441251861f39bcae9eeea0"
     }
   }
 }
