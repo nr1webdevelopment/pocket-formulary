@@ -1,20 +1,26 @@
 {
-  "_comment": "Header slideshow, in order. 'position' is the CSS background-position (focal point). Run python3 scripts/build_site.py after changes.",
+  "_comment": "Header slideshow, in order. 'position' = focal point (CSS background-position). 'text' picks the hero_<text>_* strings in i18n/ui.json; 'link' = '#providers', '#medicines' or 'repo'. Run python3 scripts/build_site.py after changes.",
   "slides": [
     {
       "file": "pexels-ketut-subiyanto-4881009.webp",
       "position": "50% 30%",
-      "credit": "Ketut Subiyanto"
+      "credit": "Ketut Subiyanto",
+      "text": "travel",
+      "link": "#providers"
     },
     {
       "file": "pexels-polina-tankilevitch-3873149.webp",
       "position": "50% 50%",
-      "credit": "Polina Tankilevitch"
+      "credit": "Polina Tankilevitch",
+      "text": "medicines",
+      "link": "#medicines"
     },
     {
       "file": "pexels-clement-proust-363898785-26600253.webp",
       "position": "50% 45%",
-      "credit": "Clement Proust"
+      "credit": "Clement Proust",
+      "text": "data",
+      "link": "repo"
     }
   ]
 }

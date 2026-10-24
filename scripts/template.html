@@ -57,10 +57,21 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
 .slide-ctl .pp svg { width: 14px; height: 14px; }
 .slide-ctl button:focus-visible { outline: 2px solid #fff; outline-offset: -2px; }
 /*__SLIDES_CSS__*/
+.hero-stack { display: grid; }
+.hslide { grid-area: 1 / 1; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px;
+  opacity: 0; visibility: hidden; transition: opacity .9s ease, visibility .9s; }
+.hslide.on { opacity: 1; visibility: visible; }
+@media (prefers-reduced-motion: reduce) { .hslide { transition: none; } }
+.mast .hslide h2 { font-size: clamp(30px, 4.4vw, 46px); line-height: 1.08; font-weight: 600; padding-bottom: 12px;
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 60%, transparent); }
+.hcta { align-self: flex-start; margin-top: 4px; font-weight: 600; font-size: 16px; color: var(--accent);
+  text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.hcta:hover { text-decoration-thickness: 2px; }
+:lang(zh-Hans) .hslide h2, :lang(zh-Hant) .hslide h2 { word-break: keep-all; }
 @media (max-width: 640px) {
   .hero { grid-template-columns: minmax(0, 1fr); }
   .hero-media { order: -1; min-height: 210px; }
-  .hero:not(.noimg) .rx.tag { position: static; justify-self: start; }
+  .hero:not(.noimg) .rx.tag { position: static; justify-self: start; align-self: flex-start; }
   .hero:not(.noimg) .hero-txt { padding-top: 18px; }
   .hero-txt { min-height: 0; padding: 24px 20px 24px; }
   .hero.noimg .hero-txt { padding-top: 64px; }
@@ -408,10 +419,41 @@ function heroMedia() {
       <button type="button" class="pp" data-slide-pp aria-label="${esc(t(slide.paused ? "slidePlay" : "slidePause"))}">${slide.paused ? ICON_PLAY : ICON_PAUSE}</button></div>` : ""}
   </div>`;
 }
+function hero(page) {
+  const intro = page === "med" ? t("medIntro") : t("provIntro");
+  const rx = page === "med" ? t("medRx") : t("provRx", { n: CITYDOC.cities.length });
+  if (!SLIDES.length || !SLIDES.every(s => s.text)) {
+    return `<header class="mast hero${HERO_CLASS}"><span class="rx tag">${rx}</span>
+      <div class="hero-txt"><h1>${t("siteTitle")}</h1><p>${intro}</p></div>${heroMedia()}</header>`;
+  }
+  const vars = { n: CITYDOC.cities.length, m: DRUGS.length };
+  const tags = { travel: t("provRx", vars), medicines: t("medRx") };
+  const slideText = (s, i) => {
+    const k = "hero_" + s.text + "_", on = i === slide.i;
+    const here = (page === "med" && s.link === "#medicines") || (page === "prov" && s.link === "#providers");
+    const href = s.link === "repo" ? `${REPO}#download-the-latest-data` : s.link;
+    return `<div class="hslide${on ? " on" : ""}"${on ? "" : ' aria-hidden="true" inert'}>
+      <span class="rx tag">${esc(tags[s.text] || t(k + "tag", vars))}</span>
+      <h2>${esc(t(k + "title", vars))}</h2>
+      <p>${esc(t(k + "text", vars))}</p>
+      ${s.link && !here ? `<a class="hcta" href="${esc(href)}">${esc(t(k + "cta", vars))}<span aria-hidden="true"> →</span></a>` : ""}
+    </div>`;
+  };
+  return `<header class="mast hero">
+    <h1 class="sr">${esc(t("siteTitle"))}: ${esc(t(page === "med" ? "navMedicines" : "navProviders"))}</h1>
+    <div class="hero-txt hero-stack">${SLIDES.map(slideText).join("")}</div>
+    ${heroMedia()}
+  </header>`;
+}
 function showSlide(i) {
   slide.i = (i + SLIDES.length) % SLIDES.length;
   document.querySelectorAll(".hero-media .slide").forEach((el, k) => el.classList.toggle("on", k === slide.i));
   document.querySelectorAll(".hero-media .dot").forEach((el, k) => el.setAttribute("aria-current", String(k === slide.i)));
+  document.querySelectorAll(".hero-stack .hslide").forEach((el, k) => {
+    const on = k === slide.i;
+    el.classList.toggle("on", on); el.toggleAttribute("inert", !on);
+    if (on) el.removeAttribute("aria-hidden"); else el.setAttribute("aria-hidden", "true");
+  });
 }
 if (SLIDES.length > 1) {
   setInterval(() => { if (!slide.paused && !slide.hover && !document.hidden && document.querySelector(".hero-media")) showSlide(slide.i + 1); }, 6000);
@@ -459,14 +501,7 @@ function shell() {
       <span class="tx"><span class="t">${name}</span><span class="n">${t("nMedicines", { n: counts[k] })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("med")}
-    <header class="mast hero${HERO_CLASS}">
-      <span class="rx tag">${t("medRx")}</span>
-      <div class="hero-txt">
-      <h1>${t("siteTitle")}</h1>
-      <p>${t("medIntro")}</p>
-      </div>
-      ${heroMedia()}
-    </header>
+    ${hero("med")}
     <div class="tabs" role="group">
       ${tab("all", t("condAll"), "all")}${Object.entries(COND).map(([k, c]) => tab(k, t(c.key), c.sym)).join("")}
     </div>
@@ -609,14 +644,7 @@ function providerShell() {
       <span class="tx"><span class="t">${condName(k)}</span><span class="n">${t("nProviders", { n: inCity(k).length })}</span></span></button>`;
   app.innerHTML = `
     ${topbar("prov")}
-    <header class="mast hero${HERO_CLASS}">
-      <span class="rx tag">${t("provRx", { n: CITYDOC.cities.length })}</span>
-      <div class="hero-txt">
-      <h1>${t("siteTitle")}</h1>
-      <p>${t("provIntro")}</p>
-      </div>
-      ${heroMedia()}
-    </header>
+    ${hero("prov")}
     <nav class="citybar" aria-label="${esc(t("cityLabel"))}">
       <div class="citylabel">${t("cityLabel")}</div>
       ${REGIONS.map(([rk, codes]) => `<div class="cityregion"><span class="rlabel">${esc(t(rk))}</span>${codes.filter(x => CITIES[x]).map(x =>

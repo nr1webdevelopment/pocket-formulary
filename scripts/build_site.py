@@ -43,7 +43,7 @@ def hero_slides():
     items = [s for s in items if os.path.exists(s["path"])]
     print(f"header slideshow: {len(items)} image(s)")
     css = "\n".join(f".slide-{i} {{ background-image: {encode_image(s['path'])}; }}" for i, s in enumerate(items))
-    meta = [{"position": s.get("position", "50% 50%"), "credit": s.get("credit", "")} for s in items]
+    meta = [{"position": s.get("position", "50% 50%"), "credit": s.get("credit", ""), "text": s.get("text"), "link": s.get("link")} for s in items]
     return css, meta
 
 

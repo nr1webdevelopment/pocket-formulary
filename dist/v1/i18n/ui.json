@@ -1542,5 +1542,85 @@
   "es": "Fotos: {names} en Pexels.",
   "pt": "Fotos: {names} no Pexels.",
   "th": "ภาพ: {names} จาก Pexels"
+ },
+ "hero_travel_title": {
+  "en": "Care, wherever you land",
+  "zh-Hans": "无论身在何处，都能找到医疗服务",
+  "zh-Hant": "無論身在何處，都能找到醫療服務",
+  "es": "Atención médica, llegues donde llegues",
+  "pt": "Cuidados de saúde, onde quer que esteja",
+  "th": "การดูแลสุขภาพ ไม่ว่าคุณจะไปที่ไหน"
+ },
+ "hero_travel_text": {
+  "en": "Clinics and hospitals for HIV, ADHD and diabetes care in {n} cities across Asia, the Americas and Europe, with addresses, phone numbers, hours and sources.",
+  "zh-Hans": "亚洲、美洲和欧洲 {n} 个城市的 HIV、ADHD 和糖尿病诊所与医院，附地址、电话、开放时间和信息来源。",
+  "zh-Hant": "亞洲、美洲和歐洲 {n} 個城市的 HIV、ADHD 和糖尿病診所與醫院，附地址、電話、開放時間和資料來源。",
+  "es": "Clínicas y hospitales para el VIH, el TDAH y la diabetes en {n} ciudades de Asia, América y Europa, con dirección, teléfono, horario y fuentes.",
+  "pt": "Clínicas e hospitais para HIV, PHDA e diabetes em {n} cidades da Ásia, das Américas e da Europa, com morada, telefone, horário e fontes.",
+  "th": "คลินิกและโรงพยาบาลด้านเอชไอวี สมาธิสั้น และเบาหวาน ใน {n} เมืองทั่วเอเชีย อเมริกา และยุโรป พร้อมที่อยู่ เบอร์โทร เวลาทำการ และแหล่งข้อมูล"
+ },
+ "hero_travel_cta": {
+  "en": "Find a provider",
+  "zh-Hans": "查找服务点",
+  "zh-Hant": "查找服務點",
+  "es": "Buscar dónde atenderse",
+  "pt": "Encontrar onde ser atendido",
+  "th": "ค้นหาสถานพยาบาล"
+ },
+ "hero_medicines_title": {
+  "en": "Know your medicines",
+  "zh-Hans": "了解你的药物",
+  "zh-Hant": "了解你的藥物",
+  "es": "Conoce tus medicamentos",
+  "pt": "Conheça os seus medicamentos",
+  "th": "รู้จักยาของคุณ"
+ },
+ "hero_medicines_text": {
+  "en": "Brand and generic names, drug classes, approval dates and dosing basics for {m} FDA-approved HIV, ADHD and diabetes medicines.",
+  "zh-Hans": "{m} 种经美国 FDA 批准的 HIV、ADHD 和糖尿病药物：品牌名与通用名、药物类别、批准日期和基本用法。",
+  "zh-Hant": "{m} 種經美國 FDA 核准的 HIV、ADHD 和糖尿病藥物：品牌名與通用名、藥物類別、核准日期和基本用法。",
+  "es": "Nombres comerciales y genéricos, clases, fechas de aprobación y pautas básicas de {m} medicamentos para el VIH, el TDAH y la diabetes aprobados por la FDA.",
+  "pt": "Nomes comerciais e genéricos, classes, datas de aprovação e posologia básica de {m} medicamentos para HIV, PHDA e diabetes aprovados pela FDA.",
+  "th": "ชื่อการค้า ชื่อสามัญ กลุ่มยา วันที่อนุมัติ และวิธีใช้เบื้องต้นของยาเอชไอวี สมาธิสั้น และเบาหวาน {m} รายการที่ FDA สหรัฐฯ อนุมัติ"
+ },
+ "hero_medicines_cta": {
+  "en": "Browse medicines",
+  "zh-Hans": "浏览药物",
+  "zh-Hant": "瀏覽藥物",
+  "es": "Ver medicamentos",
+  "pt": "Ver medicamentos",
+  "th": "ดูรายการยา"
+ },
+ "hero_data_tag": {
+  "en": "Open data · CC BY 4.0",
+  "zh-Hans": "开放数据 · CC BY 4.0",
+  "zh-Hant": "開放資料 · CC BY 4.0",
+  "es": "Datos abiertos · CC BY 4.0",
+  "pt": "Dados abertos · CC BY 4.0",
+  "th": "ข้อมูลเปิด · CC BY 4.0"
+ },
+ "hero_data_title": {
+  "en": "Open data, every source cited",
+  "zh-Hans": "开放数据，每条都注明来源",
+  "zh-Hant": "開放資料，每筆都註明來源",
+  "es": "Datos abiertos, con cada fuente citada",
+  "pt": "Dados abertos, com todas as fontes citadas",
+  "th": "ข้อมูลเปิด อ้างอิงแหล่งที่มาทุกรายการ"
+ },
+ "hero_data_text": {
+  "en": "Every provider lists its sources and whether it has been confirmed. Download the full dataset free as JSON or CSV.",
+  "zh-Hans": "每个服务点都列出信息来源及是否已核实。可免费下载完整数据集（JSON 或 CSV）。",
+  "zh-Hant": "每個服務點都列出資料來源及是否已核實。可免費下載完整資料集（JSON 或 CSV）。",
+  "es": "Cada centro indica sus fuentes y si se ha confirmado. Descarga gratis el conjunto de datos completo en JSON o CSV.",
+  "pt": "Cada local indica as suas fontes e se já foi confirmado. Descarregue gratuitamente o conjunto de dados completo em JSON ou CSV.",
+  "th": "สถานพยาบาลทุกแห่งระบุแหล่งที่มาและสถานะการยืนยัน ดาวน์โหลดชุดข้อมูลทั้งหมดได้ฟรีในรูปแบบ JSON หรือ CSV"
+ },
+ "hero_data_cta": {
+  "en": "Download the data",
+  "zh-Hans": "下载数据",
+  "zh-Hant": "下載資料",
+  "es": "Descargar los datos",
+  "pt": "Descarregar os dados",
+  "th": "ดาวน์โหลดข้อมูล"
  }
 }
