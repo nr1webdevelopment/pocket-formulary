@@ -1,5 +1,5 @@
 <title>NomadCeuticals</title>
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20x%3D%221%22%20y%3D%221%22%20width%3D%2230%22%20height%3D%2230%22%20rx%3D%227%22%20fill%3D%22%23A3191F%22%2F%3E%3Cpath%20d%3D%22M16%205.5c-4.4%200-8%203.4-8%207.8%200%205.6%208%2013.2%208%2013.2s8-7.6%208-13.2c0-4.4-3.6-7.8-8-7.8z%22%20fill%3D%22%23fff%22%2F%3E%3Cg%20transform%3D%22translate%2816%2013.2%29%20rotate%28-40%29%22%3E%3Crect%20x%3D%22-5.2%22%20y%3D%22-2.3%22%20width%3D%2210.4%22%20height%3D%224.6%22%20rx%3D%222.3%22%20fill%3D%22%23A3191F%22%2F%3E%3Cpath%20d%3D%22M0%20-2.3H-2.9A2.3%202.3%200%200%200%20-2.9%202.3H0Z%22%20fill%3D%22%23F7C6C8%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<link rel="icon" type="image/svg+xml" href="__FAVICON__">
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -238,7 +238,7 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 :lang(zh-Hans) .mast .rx, :lang(zh-Hant) .mast .rx, :lang(th) .mast .rx, :lang(zh-Hans) .fact dt, :lang(zh-Hant) .fact dt, :lang(th) .fact dt { letter-spacing: .04em; }
 
 /* ===== Editorial theme: black site bar, square white cards on grey, serif headings, solid icon squares ===== */
-:root { --accent: #A3191F; --band: #3F2D4A; --link: #00788A;
+:root { --accent: #92171A; --band: #3F2D4A; --link: #00788A;
   --display: "Source Serif 4", Georgia, "Times New Roman", serif;
   --body: "Source Sans 3", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans Thai", "Leelawadee UI", "Thonburi", system-ui, sans-serif;
   --mono: var(--body); }
@@ -253,8 +253,8 @@ h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
 #sitebar { background: #000; color: #fff; }
 #sitebar .topbar { max-width: 1040px; margin: 0 auto; min-height: 64px; align-items: stretch; flex-wrap: nowrap; gap: 0 16px;
   padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
-#sitebar .brand { background: #fff; color: #15202B; padding: 10px 22px; font-size: 21px; gap: 12px; }
-#sitebar .brand svg { width: 34px; height: 34px; border-radius: 0; }
+#sitebar .brand { background: #fff; color: #15202B; padding: 8px 22px; font-size: 21px; gap: 12px; }
+#sitebar .brand svg { width: auto; height: 44px; border-radius: 0; }
 #sitebar .topbar-end { flex-wrap: nowrap; gap: 0 22px; }
 #sitebar .nav { background: none; padding: 0; gap: 0; border-radius: 0; }
 #sitebar .nav a { color: #fff; font-weight: 400; font-size: 17px; padding: 4px 18px; border-radius: 0; box-shadow: none; background: none; }
@@ -267,7 +267,7 @@ h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
 @media (max-width: 640px) {
   #sitebar .topbar { flex-wrap: wrap; padding-bottom: 8px; }
   #sitebar .brand { font-size: 16px; padding: 10px 12px; gap: 8px; }
-  #sitebar .brand svg { width: 28px; height: 28px; }
+  #sitebar .brand svg { width: auto; height: 30px; }
   #sitebar .langsel { margin-left: auto; align-self: center; }
   #sitebar .langsel svg { display: none; }
   #sitebar .langsel select { font-size: 13px; padding: 5px 4px; }
@@ -422,10 +422,10 @@ if (SLIDES.length > 1) {
   });
   document.addEventListener("mouseover", e => { slide.hover = !!e.target.closest(".hero-media"); });
 }
-const LOGO = '<svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="7" fill="#A3191F"/><path d="M16 5.5c-4.4 0-8 3.4-8 7.8 0 5.6 8 13.2 8 13.2s8-7.6 8-13.2c0-4.4-3.6-7.8-8-7.8z" fill="#fff"/><g transform="translate(16 13.2) rotate(-40)"><rect x="-5.2" y="-2.3" width="10.4" height="4.6" rx="2.3" fill="#A3191F"/><path d="M0 -2.3H-2.9A2.3 2.3 0 0 0 -2.9 2.3H0Z" fill="#F7C6C8"/></g></svg>';
+const LOGO = __LOGO_BAR__;
 function topbar(active) {
   document.getElementById("sitebar").innerHTML = `<div class="topbar">
-    <a class="brand" href="#medicines" aria-label="NomadCeuticals">${LOGO}<span>NomadCeuticals</span></a>
+    <a class="brand" href="#medicines" aria-label="NomadCeuticals">${LOGO}</a>
     <div class="topbar-end">
     <nav class="nav" aria-label="Sections">
       <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>

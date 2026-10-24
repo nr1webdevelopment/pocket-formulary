@@ -3,7 +3,7 @@ release info and translations (i18n/) into scripts/template.html.
 
 Run scripts/site_data.py and scripts/build_dist.py first if the data changed.
 """
-import base64, glob, io, json, os
+import base64, glob, io, json, os, re, urllib.parse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load = lambda *p: json.load(open(os.path.join(ROOT, *p), encoding="utf-8"))
 
@@ -51,8 +51,15 @@ def js(x):
     return json.dumps(x, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+def svg_asset(name):
+    svg = open(os.path.join(ROOT, "assets", name), encoding="utf-8").read().strip()
+    return re.sub(r"<title>.*?</title>", "", svg)
+
+
+logo_bar = svg_asset("logo-bar.svg").replace('role="img"', 'aria-hidden="true" focusable="false"')
+favicon = "data:image/svg+xml," + urllib.parse.quote(svg_asset("logo-icon.svg"), safe="")
 slides_css, slides = hero_slides()
-page = (t.replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
+page = (t.replace("__LOGO_BAR__", js(logo_bar)).replace("__FAVICON__", favicon).replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
          .replace("__DATA__", js(drugs))
          .replace("__PROVIDERS__", js(providers))
          .replace("__CITIES__", js({"cities": cities_doc["data"], "jurisdictionNotes": cities_doc.get("jurisdictionNotes", {})}))

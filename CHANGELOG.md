@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- **Renamed to NomadCeuticals** (formerly Pocket Formulary). New logo: a map pin holding a capsule. Repository URLs and dataset IDs are unchanged.
+- **Renamed to NomadCeuticals** (formerly Pocket Formulary). New logo: compass with a medical cross (vector files in `assets/`). Repository URLs and dataset IDs are unchanged.
 - Website redesign: black top bar, square cards, serif headings, red accent, icon squares on condition tabs. No gradients.
 - Header slideshow of three Pexels photos (`images/`, configured in `images/slides.json`), beside the title or above it on phones.
 - Release zip renamed to `nomadceuticals-data-<version>.zip`.
