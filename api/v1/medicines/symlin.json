@@ -1,0 +1,44 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symlin.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "symlin",
+    "condition": "diabetes",
+    "brandName": "Symlin",
+    "genericName": "pramlintide",
+    "drugClass": "Amylin analog",
+    "formulation": "Injection (pen)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Before major meals",
+    "manufacturer": "AstraZeneca",
+    "approvalYear": 2005,
+    "status": "Available",
+    "description": "Amylin analog used with mealtime insulin to smooth blood sugar after meals.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Other",
+      "diabetesType": "Type 1 and type 2"
+    },
+    "classId": "diabetes-amylin-analog",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symlin.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-amylin-analog.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#symlin",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

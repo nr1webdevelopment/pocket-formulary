@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- **Medicines API:** free, read-only JSON API at `/api/v1/` (124 medicines, by condition and by drug class), with an OpenAPI 3.1 spec and a docs page with a live "Try it" box at `/api/`. Published to GitHub Pages with the website.
+
 - **Renamed to NomadCeuticals** (formerly Pocket Formulary). New logo: compass with a medical cross (vector files in `assets/`). Repository URLs and dataset IDs are unchanged.
 - Website redesign: black top bar, square cards, serif headings, red accent, icon squares on condition tabs. No gradients.
 - Header slideshow of three Pexels photos (`images/`, configured in `images/slides.json`), beside the title or above it on phones.

@@ -1,0 +1,312 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trizivir.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "atripla",
+      "brandName": "Atripla",
+      "genericName": "efavirenz, emtricitabine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/atripla.json"
+    },
+    {
+      "id": "biktarvy",
+      "brandName": "Biktarvy",
+      "genericName": "bictegravir, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/biktarvy.json"
+    },
+    {
+      "id": "bixlenvo",
+      "brandName": "Bixlenvo",
+      "genericName": "bictegravir and lenacapavir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/bixlenvo.json"
+    },
+    {
+      "id": "cabenuva",
+      "brandName": "Cabenuva",
+      "genericName": "cabotegravir and rilpivirine (extended-release injections)",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cabenuva.json"
+    },
+    {
+      "id": "cimduo",
+      "brandName": "Cimduo",
+      "genericName": "lamivudine and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cimduo.json"
+    },
+    {
+      "id": "combivir",
+      "brandName": "Combivir",
+      "genericName": "lamivudine and zidovudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/combivir.json"
+    },
+    {
+      "id": "complera",
+      "brandName": "Complera",
+      "genericName": "emtricitabine, rilpivirine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/complera.json"
+    },
+    {
+      "id": "delstrigo",
+      "brandName": "Delstrigo",
+      "genericName": "doravirine, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/delstrigo.json"
+    },
+    {
+      "id": "descovy",
+      "brandName": "Descovy",
+      "genericName": "emtricitabine and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/descovy.json"
+    },
+    {
+      "id": "dovato",
+      "brandName": "Dovato",
+      "genericName": "dolutegravir and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dovato.json"
+    },
+    {
+      "id": "epzicom",
+      "brandName": "Epzicom",
+      "genericName": "abacavir and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epzicom.json"
+    },
+    {
+      "id": "evotaz",
+      "brandName": "Evotaz",
+      "genericName": "atazanavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evotaz.json"
+    },
+    {
+      "id": "genvoya",
+      "brandName": "Genvoya",
+      "genericName": "elvitegravir, cobicistat, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/genvoya.json"
+    },
+    {
+      "id": "idvynso",
+      "brandName": "Idvynso",
+      "genericName": "doravirine and islatravir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/idvynso.json"
+    },
+    {
+      "id": "juluca",
+      "brandName": "Juluca",
+      "genericName": "dolutegravir and rilpivirine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/juluca.json"
+    },
+    {
+      "id": "kaletra",
+      "brandName": "Kaletra",
+      "genericName": "lopinavir and ritonavir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/kaletra.json"
+    },
+    {
+      "id": "odefsey",
+      "brandName": "Odefsey",
+      "genericName": "emtricitabine, rilpivirine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/odefsey.json"
+    },
+    {
+      "id": "prezcobix",
+      "brandName": "Prezcobix",
+      "genericName": "darunavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix.json"
+    },
+    {
+      "id": "prezcobix-ped",
+      "brandName": "Prezcobix PED",
+      "genericName": "darunavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix-ped.json"
+    },
+    {
+      "id": "stribild",
+      "brandName": "Stribild",
+      "genericName": "elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/stribild.json"
+    },
+    {
+      "id": "symfi",
+      "brandName": "Symfi",
+      "genericName": "efavirenz, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi.json"
+    },
+    {
+      "id": "symfi-lo",
+      "brandName": "Symfi Lo",
+      "genericName": "efavirenz, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi-lo.json"
+    },
+    {
+      "id": "symtuza",
+      "brandName": "Symtuza",
+      "genericName": "darunavir, cobicistat, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symtuza.json"
+    },
+    {
+      "id": "triumeq",
+      "brandName": "Triumeq",
+      "genericName": "abacavir, dolutegravir, and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq.json"
+    },
+    {
+      "id": "triumeq-pd",
+      "brandName": "Triumeq PD",
+      "genericName": "abacavir, dolutegravir, and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq-pd.json"
+    },
+    {
+      "id": "truvada",
+      "brandName": "Truvada",
+      "genericName": "emtricitabine and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/truvada.json"
+    }
+  ],
+  "data": {
+    "id": "trizivir",
+    "condition": "hiv",
+    "brandName": "Trizivir",
+    "genericName": "abacavir, lamivudine, and zidovudine",
+    "drugClass": "Combination",
+    "route": "Oral",
+    "formulation": "Tablet",
+    "dosingFrequency": "Twice daily",
+    "manufacturer": "ViiV Healthcare",
+    "approvalDate": "2000-11-14",
+    "approvalYear": 2000,
+    "status": "Discontinued",
+    "description": "Triple-NRTI pill.",
+    "notes": "Brand discontinued; triple-NRTI regimens are no longer recommended.",
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "ABC/3TC/ZDV",
+      "componentClasses": "NRTI",
+      "isCombination": true,
+      "componentCount": 3,
+      "completeRegimen": true,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-combination",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trizivir.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-combination.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#trizivir",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

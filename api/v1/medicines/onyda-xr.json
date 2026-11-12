@@ -1,0 +1,45 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onyda-xr.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "onyda-xr",
+    "condition": "adhd",
+    "brandName": "Onyda XR",
+    "genericName": "clonidine (extended-release)",
+    "drugClass": "Alpha-2 adrenergic agonist",
+    "formulation": "Extended-release oral suspension",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (at bedtime)",
+    "manufacturer": "Tris Pharma",
+    "approvalYear": 2024,
+    "status": "Available",
+    "description": "Long-acting liquid clonidine for ADHD.",
+    "notes": "Approved for ages 6 and older.",
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Non-stimulant",
+      "type": "Non-stimulant",
+      "controlledSubstance": "Not controlled"
+    },
+    "classId": "adhd-alpha-2-adrenergic-agonist",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onyda-xr.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#onyda-xr",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

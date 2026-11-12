@@ -1,0 +1,44 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucophage.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "glucophage",
+    "condition": "diabetes",
+    "brandName": "Glucophage",
+    "genericName": "metformin",
+    "drugClass": "Biguanide",
+    "formulation": "Tablet; extended-release tablet (Glucophage XR)",
+    "route": "Oral",
+    "dosingFrequency": "Once or twice daily with meals",
+    "manufacturer": "Bristol Myers Squibb",
+    "approvalYear": 1994,
+    "status": "Available",
+    "description": "First-line medicine for type 2 diabetes; lowers glucose made by the liver.",
+    "notes": "Most people take generic metformin.",
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Oral: biguanide",
+      "diabetesType": "Type 2"
+    },
+    "classId": "diabetes-biguanide",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucophage.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-biguanide.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#glucophage",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

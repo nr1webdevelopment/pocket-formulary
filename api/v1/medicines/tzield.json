@@ -1,0 +1,44 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tzield.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "tzield",
+    "condition": "diabetes",
+    "brandName": "Tzield",
+    "genericName": "teplizumab-mzwv",
+    "drugClass": "Anti-CD3 monoclonal antibody",
+    "formulation": "IV infusion",
+    "route": "Intravenous",
+    "dosingFrequency": "Once daily for 14 days (one course)",
+    "manufacturer": "Sanofi",
+    "approvalYear": 2022,
+    "status": "Available",
+    "description": "The first medicine that delays the onset of stage 3 type 1 diabetes.",
+    "notes": "For people 8 and older with stage 2 type 1 diabetes.",
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Other",
+      "diabetesType": "Type 1"
+    },
+    "classId": "diabetes-anti-cd3-monoclonal-antibody",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tzield.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tzield",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

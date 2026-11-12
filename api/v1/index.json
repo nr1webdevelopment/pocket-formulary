@@ -1,0 +1,39 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "data": {
+    "description": "Free, read-only JSON API of FDA-approved medicines for HIV, ADHD and diabetes. Every endpoint is a static file: use GET, no API key needed.",
+    "counts": {
+      "medicines": 124,
+      "conditions": 3,
+      "classes": 39,
+      "byCondition": {
+        "hiv": 58,
+        "adhd": 25,
+        "diabetes": 41
+      }
+    },
+    "endpoints": {
+      "medicines": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines.json",
+      "medicine": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/{id}.json",
+      "conditions": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/{condition}.json",
+      "classes": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/{classId}.json",
+      "openapi": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/openapi.json",
+      "bulkJson": "https://nr1webdevelopment.github.io/pocket-formulary/dist/v1/medicines.json",
+      "bulkCsv": "https://nr1webdevelopment.github.io/pocket-formulary/dist/v1/medicines.csv"
+    },
+    "schema": "https://nr1webdevelopment.github.io/pocket-formulary/schema/medicine.schema.json"
+  }
+}

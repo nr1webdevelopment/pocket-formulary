@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Medicines API · NomadCeuticals</title>
+<meta name="description" content="Free JSON API of FDA-approved medicines for HIV, ADHD and diabetes.">
+<link rel="icon" type="image/svg+xml" href="__FAVICON__">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root { --bg: #F3F5F7; --surface: #fff; --ink: #15202B; --muted: #5A6774; --line: #DAE0E6; --soft: #E9EDF1; --accent: #92171A; --link: #00788A;
+  --code-bg: #0F1720; --code-ink: #E5EBF0; --display: "Source Serif 4", Georgia, serif; --body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0E141A; --surface: #151D25; --ink: #E5EBF0; --muted: #94A2AF; --line: #27323D; --soft: #1C2630; --accent: #FF8086; --link: #5CC8D8; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--body); }
+a { color: var(--link); }
+.bar { background: #000; }
+.bar-in { max-width: 1040px; margin: 0 auto; padding: 0 16px; display: flex; align-items: stretch; justify-content: space-between; min-height: 64px; gap: 16px; }
+.brand { background: #fff; display: flex; align-items: center; padding: 8px 22px; }
+.brand svg { height: 44px; width: auto; display: block; }
+.bar nav { display: flex; align-items: center; gap: 18px; }
+.bar nav a { color: #fff; text-decoration: none; font-size: 17px; }
+.bar nav a:hover { text-decoration: underline; text-underline-offset: 6px; }
+main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 64px; }
+.hero { background: var(--surface); padding: 72px 40px 36px; position: relative; margin-bottom: 24px; }
+.tag { position: absolute; top: 0; left: 0; background: var(--accent); color: var(--surface); padding: 9px 18px; font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+h1, h2, h3 { font-family: var(--display); font-weight: 600; margin: 0; }
+h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.08; padding-bottom: 12px; border-bottom: 1px solid var(--ink); max-width: 720px; }
+.hero p { max-width: 640px; margin: 14px 0 0; font-size: 18px; }
+.stats { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+.stat { background: var(--soft); padding: 8px 14px; font-weight: 600; }
+.stat span { color: var(--muted); font-weight: 400; }
+section { background: var(--surface); padding: 28px 32px; margin-bottom: 16px; }
+section h2 { font-size: 28px; margin-bottom: 12px; }
+section h3 { font-size: 20px; margin: 22px 0 8px; }
+section p { max-width: 75ch; margin: 8px 0; }
+code, pre { font-family: var(--mono); font-size: 14.5px; }
+:not(pre) > code { background: var(--soft); padding: 1px 6px; overflow-wrap: anywhere; }
+pre { background: var(--code-bg); color: var(--code-ink); padding: 16px 18px; overflow-x: auto; margin: 10px 0; line-height: 1.5; }
+.base { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: var(--soft); padding: 12px 14px; font-family: var(--mono); font-size: 15px; overflow-wrap: anywhere; }
+table { width: 100%; border-collapse: collapse; font-size: 16px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td code { white-space: nowrap; }
+.get { display: inline-block; background: var(--accent); color: var(--surface); font: 700 12px var(--body); padding: 2px 7px; margin-right: 6px; letter-spacing: .06em; }
+.try { display: flex; flex-wrap: wrap; gap: 8px; }
+.try select, .try input, .try button { font: inherit; font-size: 16px; padding: 10px 12px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.try input { flex: 1 1 240px; font-family: var(--mono); font-size: 15px; min-width: 0; }
+.try button { background: var(--accent); color: var(--surface); border-color: var(--accent); font-weight: 700; cursor: pointer; }
+#out { max-height: 460px; }
+.note { background: #FFF2D6; color: #15202B; padding: 12px 16px; margin: 12px 0; }
+footer { color: var(--muted); font-size: 15px; max-width: 1040px; margin: 0 auto; padding: 0 16px 48px; }
+@media (max-width: 640px) {
+  .bar-in { flex-wrap: wrap; padding-bottom: 8px; } .brand { padding: 8px 12px; } .brand svg { height: 28px; }
+  .hero { padding: 64px 20px 24px; } section { padding: 22px 18px; } td code { white-space: normal; }
+  table, thead, tbody, tr, td { display: block; } thead { display: none; } tr { border-bottom: 1px solid var(--line); padding: 8px 0; } td { border: 0; padding: 4px 0; }
+}
+</style>
+</head>
+<body>
+<header class="bar"><div class="bar-in">
+  <a class="brand" href="../" aria-label="NomadCeuticals home">__LOGO__</a>
+  <nav aria-label="Sections"><a href="../">Website</a><a href="v1/openapi.json">OpenAPI</a><a href="__REPO__">GitHub</a></nav>
+</div></header>
+<main>
+  <div class="hero">
+    <span class="tag">Free API · No key needed</span>
+    <h1>Medicines API</h1>
+    <p>Read-only JSON data on FDA-approved medicines for HIV, ADHD and diabetes: brand and generic names, drug classes, form, dosing, manufacturer, approval dates and sources. Use it from any website, app or script.</p>
+    <div class="stats">
+      <span class="stat">__N_MEDS__ <span>medicines</span></span>
+      <span class="stat">__N_CLASSES__ <span>drug classes</span></span>
+      <span class="stat">3 <span>conditions</span></span>
+      <span class="stat">v__DATA_VERSION__ <span>data, __RELEASED__</span></span>
+    </div>
+  </div>
+
+  <section>
+    <h2>Quick start</h2>
+    <p>Every endpoint is a static JSON file. Send a plain <code>GET</code> request: no sign-up, no API key and no special headers. Requests from browsers are allowed from any website (CORS).</p>
+    <div class="base"><strong>Base URL</strong> __BASE__</div>
+    <h3>JavaScript</h3>
+<pre>const res = await fetch("__BASE__/medicines/biktarvy.json");
+const { data } = await res.json();
+console.log(data.brandName, "-", data.genericName);
+// Biktarvy - bictegravir, emtricitabine, and tenofovir alafenamide</pre>
+    <h3>Command line</h3>
+<pre>curl __BASE__/conditions/adhd.json</pre>
+    <h3>Python</h3>
+<pre>import requests
+meds = requests.get("__BASE__/medicines.json").json()["data"]
+insulins = [m for m in meds if "insulin" in m["drugClass"].lower()]</pre>
+  </section>
+
+  <section>
+    <h2>Endpoints</h2>
+    <table>
+      <thead><tr><th>Path</th><th>Returns</th></tr></thead>
+      <tbody>
+        <tr><td><span class="get">GET</span><code>/index.json</code></td><td>API root: data version, counts and every endpoint URL.</td></tr>
+        <tr><td><span class="get">GET</span><code>/medicines.json</code></td><td>Every medicine with summary fields (<code>id</code>, names, condition, class, status, <code>url</code>). Use it for lists and search.</td></tr>
+        <tr><td><span class="get">GET</span><code>/medicines/{id}.json</code></td><td>One medicine, full record, plus <code>related</code>: other medicines in the same class. Example: <code>/medicines/ozempic.json</code></td></tr>
+        <tr><td><span class="get">GET</span><code>/conditions.json</code></td><td>The three conditions (<code>hiv</code>, <code>adhd</code>, <code>diabetes</code>) with counts.</td></tr>
+        <tr><td><span class="get">GET</span><code>/conditions/{condition}.json</code></td><td>Every medicine for one condition, full records, plus its drug classes.</td></tr>
+        <tr><td><span class="get">GET</span><code>/classes.json</code></td><td>Every drug class with its <code>id</code> and medicine count.</td></tr>
+        <tr><td><span class="get">GET</span><code>/classes/{classId}.json</code></td><td>Every medicine in one class. Example: <code>/classes/diabetes-sglt2-inhibitor.json</code></td></tr>
+        <tr><td><span class="get">GET</span><code>/openapi.json</code></td><td>OpenAPI 3.1 description, for Postman, Swagger or code generators.</td></tr>
+      </tbody>
+    </table>
+    <p>Medicine IDs are lowercase slugs of the brand name (<code>biktarvy</code>, <code>vyvanse</code>, <code>mounjaro</code>) and never change. A path that doesn't exist returns HTTP 404.</p>
+    <p>Need everything at once? Download the full dataset: <a href="../dist/v1/medicines.json">medicines.json</a> or <a href="../dist/v1/medicines.csv">medicines.csv</a>.</p>
+  </section>
+
+  <section>
+    <h2>Try it</h2>
+    <div class="try">
+      <select id="ep" aria-label="Example endpoint">
+        <option value="medicines/biktarvy.json">One medicine</option>
+        <option value="medicines.json">All medicines (summary)</option>
+        <option value="conditions/diabetes.json">Diabetes medicines</option>
+        <option value="classes.json">Drug classes</option>
+        <option value="index.json">API root</option>
+      </select>
+      <input id="path" value="medicines/biktarvy.json" aria-label="Path after the base URL" spellcheck="false">
+      <button id="go" type="button">Send GET</button>
+    </div>
+<pre id="out" aria-live="polite">Choose an example or type a path, then press Send GET.</pre>
+  </section>
+
+  <section>
+    <h2>Response format</h2>
+    <p>Every response has the same wrapper. Lists include <code>count</code>; the records are always in <code>data</code>.</p>
+<pre>{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "__DATA_VERSION__",
+  "released": "__RELEASED__",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (__REPO__), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. …",
+  "links": { "self": "…", "index": "…", "docs": "…" },
+  "data": { … }
+}</pre>
+    <h3>Medicine fields</h3>
+    <table>
+      <thead><tr><th>Field</th><th>Meaning</th></tr></thead>
+      <tbody>
+        <tr><td><code>id</code></td><td>Stable ID, also used on the website (<code>#biktarvy</code>)</td></tr>
+        <tr><td><code>condition</code></td><td><code>hiv</code>, <code>adhd</code> or <code>diabetes</code></td></tr>
+        <tr><td><code>brandName</code>, <code>genericName</code></td><td>US brand name and active ingredient(s)</td></tr>
+        <tr><td><code>drugClass</code>, <code>classId</code></td><td>Drug class name and its ID for <code>/classes/{classId}.json</code></td></tr>
+        <tr><td><code>formulation</code>, <code>route</code>, <code>dosingFrequency</code></td><td>Form (tablet, pen …), how it's taken, how often</td></tr>
+        <tr><td><code>manufacturer</code></td><td>Company that markets the brand in the US</td></tr>
+        <tr><td><code>approvalDate</code>, <code>approvalYear</code></td><td>FDA approval (date where known)</td></tr>
+        <tr><td><code>status</code></td><td><code>Available</code> or <code>Discontinued</code> (US brand)</td></tr>
+        <tr><td><code>description</code>, <code>notes</code></td><td>Short plain-English summary and extra notes</td></tr>
+        <tr><td><code>attributes</code></td><td>Condition-specific details, e.g. <code>controlledSubstance</code> (ADHD), <code>diabetesType</code>, <code>abbreviation</code> and <code>completeRegimen</code> (HIV)</td></tr>
+        <tr><td><code>sourceUrl</code>, <code>links</code></td><td>Where the record comes from, and links to this record, its condition, class and website page</td></tr>
+      </tbody>
+    </table>
+    <p>Full field definitions: <a href="../schema/medicine.schema.json">medicine JSON Schema</a>.</p>
+  </section>
+
+  <section>
+    <h2>Terms</h2>
+    <p><strong>Free to use, including commercially,</strong> under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Credit "NomadCeuticals" with a link to this page or the GitHub repository.</p>
+    <div class="note"><strong>Not medical advice.</strong> The data describes US (FDA) brands for general reference. Names, approvals and availability differ by country. Don't use it to make treatment decisions.</div>
+    <h3>Versions and updates</h3>
+    <p>The <code>/v1/</code> paths stay compatible: fields may be added but won't be removed or renamed. Breaking changes would get a new <code>/v2/</code>. Check <code>dataVersion</code> in any response to see when the data last changed, and cache responses for at least an hour.</p>
+    <h3>Mirror</h3>
+    <p>The same files are mirrored on the jsDelivr CDN, for example <code>__CDN__/medicines/biktarvy.json</code>. Add <code>@v2.0.0</code> instead of <code>@main</code> to pin a release that never changes.</p>
+  </section>
+</main>
+<footer>NomadCeuticals · Data v__DATA_VERSION__, released __RELEASED__ · <a href="__REPO__/issues">Report a problem</a></footer>
+<script>
+const BASE = "__BASE__";
+const ep = document.getElementById("ep"), path = document.getElementById("path"), out = document.getElementById("out");
+ep.addEventListener("change", () => { path.value = ep.value; send(); });
+document.getElementById("go").addEventListener("click", send);
+path.addEventListener("keydown", e => { if (e.key === "Enter") send(); });
+async function send() {
+  const p = path.value.trim().replace(/^\/+/, "");
+  const urls = [new URL("v1/" + p, location.href).href, BASE + "/" + p];
+  out.textContent = "GET " + urls[0] + " …";
+  for (const u of location.protocol === "file:" ? urls.slice(1) : urls) {
+    try {
+      const r = await fetch(u);
+      if (!r.ok) { out.textContent = `GET ${u}\nHTTP ${r.status}`; return; }
+      const text = JSON.stringify(await r.json(), null, 2);
+      out.textContent = `GET ${u}\nHTTP ${r.status}\n\n` + (text.length > 20000 ? text.slice(0, 20000) + "\n… (truncated)" : text);
+      return;
+    } catch (e) { out.textContent = `GET ${u}\nCouldn't reach the API (${e.message}).`; }
+  }
+}
+</script>
+</body>
+</html>

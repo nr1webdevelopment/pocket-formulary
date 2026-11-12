@@ -1,0 +1,53 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "drugClass": {
+    "id": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
+    "name": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
+    "condition": "adhd",
+    "medicineCount": 1
+  },
+  "count": 1,
+  "data": [
+    {
+      "id": "simtriyo",
+      "condition": "adhd",
+      "brandName": "Simtriyo",
+      "genericName": "centanafadine (extended-release)",
+      "drugClass": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
+      "formulation": "Extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Otsuka",
+      "approvalYear": 2026,
+      "status": "Available",
+      "description": "First-in-class triple reuptake inhibitor for ADHD, approved in July 2026.",
+      "notes": "Approved for patients 6 and older weighing at least 20 kg. New in 2026.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Non-stimulant",
+        "type": "Non-stimulant",
+        "controlledSubstance": "See label"
+      },
+      "classId": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/simtriyo.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#simtriyo",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

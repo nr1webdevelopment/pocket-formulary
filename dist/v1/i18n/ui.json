@@ -1654,5 +1654,13 @@
   "es": "Muy grande",
   "pt": "Muito grande",
   "th": "ใหญ่มาก"
+ },
+ "apiLink": {
+  "en": "Free medicines API",
+  "zh-Hans": "免费药物 API",
+  "zh-Hant": "免費藥物 API",
+  "es": "API gratuita de medicamentos",
+  "pt": "API gratuita de medicamentos",
+  "th": "API ข้อมูลยาฟรี"
  }
 }

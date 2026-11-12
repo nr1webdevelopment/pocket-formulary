@@ -545,7 +545,7 @@ function topbar(active) {
 function renderFooter() {
   const f = document.getElementById("footer");
   f.innerHTML = `${esc(t("footer"))}${LANG !== "en" ? `<br><em>${esc(t("machineNote"))}</em>` : ""}
-    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a>.${SLIDES.some(s => s.credit) ? `<br>${esc(t("photoCredit", { names: SLIDES.map(s => s.credit).filter(Boolean).join(", ") }))}` : ""}`;
+    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a> · <a href="api/index.html">${esc(t("apiLink"))}</a>.${SLIDES.some(s => s.credit) ? `<br>${esc(t("photoCredit", { names: SLIDES.map(s => s.credit).filter(Boolean).join(", ") }))}` : ""}`;
 }
 
 /* ---------------- medicines ---------------- */

@@ -147,6 +147,9 @@ def main():
     with open(os.path.join(OUT, "manifest.json"), "w", encoding="utf-8") as f:
         f.write(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n")
     print(f"dist/v1: {len(meds)} medicines, {len(provs)} providers (v{rel['version']})")
+    # static JSON API (api/v1/) is generated from dist/v1/medicines.json
+    import build_api
+    build_api.main()
 
 
 if __name__ == "__main__":

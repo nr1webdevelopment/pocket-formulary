@@ -1,0 +1,168 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-rapid-acting-insulin-analog",
+    "name": "Rapid-acting insulin analog",
+    "condition": "diabetes",
+    "medicineCount": 5
+  },
+  "count": 5,
+  "data": [
+    {
+      "id": "apidra",
+      "condition": "diabetes",
+      "brandName": "Apidra",
+      "genericName": "insulin glulisine",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2004,
+      "status": "Available",
+      "description": "Rapid-acting mealtime insulin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apidra.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#apidra",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "fiasp",
+      "condition": "diabetes",
+      "brandName": "Fiasp",
+      "genericName": "insulin aspart (faster-acting)",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "At the start of a meal or within 20 minutes after",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2017,
+      "status": "Available",
+      "description": "Faster-acting formulation of insulin aspart.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fiasp.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#fiasp",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "humalog",
+      "condition": "diabetes",
+      "brandName": "Humalog",
+      "genericName": "insulin lispro",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 1996,
+      "status": "Available",
+      "description": "The first rapid-acting insulin analog, taken at mealtimes.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humalog.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#humalog",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "lyumjev",
+      "condition": "diabetes",
+      "brandName": "Lyumjev",
+      "genericName": "insulin lispro-aabc",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "At the start of a meal or within 20 minutes after",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2020,
+      "status": "Available",
+      "description": "Faster-acting formulation of insulin lispro.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lyumjev.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#lyumjev",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "novolog",
+      "condition": "diabetes",
+      "brandName": "NovoLog",
+      "genericName": "insulin aspart",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2000,
+      "status": "Available",
+      "description": "Rapid-acting mealtime insulin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/novolog.json",
+        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#novolog",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

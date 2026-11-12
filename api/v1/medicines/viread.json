@@ -1,0 +1,102 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viread.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "emtriva",
+      "brandName": "Emtriva",
+      "genericName": "emtricitabine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/emtriva.json"
+    },
+    {
+      "id": "epivir",
+      "brandName": "Epivir",
+      "genericName": "lamivudine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epivir.json"
+    },
+    {
+      "id": "retrovir",
+      "brandName": "Retrovir",
+      "genericName": "zidovudine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/retrovir.json"
+    },
+    {
+      "id": "vemlidy",
+      "brandName": "Vemlidy",
+      "genericName": "tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vemlidy.json"
+    },
+    {
+      "id": "ziagen",
+      "brandName": "Ziagen",
+      "genericName": "abacavir",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ziagen.json"
+    }
+  ],
+  "data": {
+    "id": "viread",
+    "condition": "hiv",
+    "brandName": "Viread",
+    "genericName": "tenofovir disoproxil fumarate",
+    "drugClass": "NRTI",
+    "route": "Oral",
+    "formulation": "Tablet; oral powder",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Gilead Sciences",
+    "approvalDate": "2001-10-26",
+    "approvalYear": 2001,
+    "status": "Available",
+    "description": "Nucleotide reverse transcriptase inhibitor; also approved for chronic hepatitis B.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "TDF",
+      "componentClasses": "NRTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-nrti",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viread.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nrti.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#viread",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

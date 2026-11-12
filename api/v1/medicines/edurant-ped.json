@@ -1,0 +1,112 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant-ped.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "edurant",
+      "brandName": "Edurant",
+      "genericName": "rilpivirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant.json"
+    },
+    {
+      "id": "intelence",
+      "brandName": "Intelence",
+      "genericName": "etravirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intelence.json"
+    },
+    {
+      "id": "pifeltro",
+      "brandName": "Pifeltro",
+      "genericName": "doravirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/pifeltro.json"
+    },
+    {
+      "id": "sustiva",
+      "brandName": "Sustiva",
+      "genericName": "efavirenz",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/sustiva.json"
+    },
+    {
+      "id": "viramune",
+      "brandName": "Viramune",
+      "genericName": "nevirapine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune.json"
+    },
+    {
+      "id": "viramune-xr",
+      "brandName": "Viramune XR",
+      "genericName": "nevirapine (extended-release)",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune-xr.json"
+    }
+  ],
+  "data": {
+    "id": "edurant-ped",
+    "condition": "hiv",
+    "brandName": "Edurant PED",
+    "genericName": "rilpivirine",
+    "drugClass": "NNRTI",
+    "route": "Oral",
+    "formulation": "Tablet for oral suspension",
+    "dosingFrequency": "Once daily (with a meal)",
+    "manufacturer": "Johnson & Johnson (Janssen)",
+    "approvalDate": "2024-03-15",
+    "approvalYear": 2024,
+    "status": "Available",
+    "description": "Pediatric dispersible formulation of rilpivirine.",
+    "notes": "Listed as available by NIH HIVinfo (Sep 2026) but as discontinued by NYSDOH hivguidelines.org — verify before publishing.",
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "RPV",
+      "componentClasses": "NNRTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": true,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-nnrti",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant-ped.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#edurant-ped",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "apretude",
+      "brandName": "Apretude",
+      "genericName": "cabotegravir (extended-release injection)",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apretude.json"
+    },
+    {
+      "id": "isentress-hd",
+      "brandName": "Isentress HD",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress-hd.json"
+    },
+    {
+      "id": "tivicay",
+      "brandName": "Tivicay",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay.json"
+    },
+    {
+      "id": "tivicay-pd",
+      "brandName": "Tivicay PD",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay-pd.json"
+    },
+    {
+      "id": "vocabria",
+      "brandName": "Vocabria",
+      "genericName": "cabotegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vocabria.json"
+    }
+  ],
+  "data": {
+    "id": "isentress",
+    "condition": "hiv",
+    "brandName": "Isentress",
+    "genericName": "raltegravir",
+    "drugClass": "INSTI",
+    "route": "Oral",
+    "formulation": "Tablet; chewable tablet; oral suspension",
+    "dosingFrequency": "Twice daily",
+    "manufacturer": "Merck",
+    "approvalDate": "2007-10-12",
+    "approvalYear": 2007,
+    "status": "Available",
+    "description": "The first FDA-approved integrase inhibitor.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "RAL",
+      "componentClasses": "INSTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-insti",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#isentress",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

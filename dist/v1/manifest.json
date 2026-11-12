@@ -4,6 +4,8 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "homepage": "https://github.com/nr1webdevelopment/pocket-formulary",
+  "siteUrl": "https://nr1webdevelopment.github.io/pocket-formulary/",
+  "apiBaseUrl": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1",
   "counts": {
     "medicines": 124,
     "providers": 166,
@@ -86,8 +88,8 @@
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
-      "bytes": 64779,
-      "sha256": "589bb5c598afa85d6d8f01c39eb5ea9bcb2bb85683441251861f39bcae9eeea0"
+      "bytes": 65021,
+      "sha256": "a4b2751c22ecc7af4a019634c6eb282eaf6c701508607a4a04bcab6a6d0f6a1f"
     }
   }
 }

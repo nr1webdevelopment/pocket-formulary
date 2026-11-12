@@ -6,3 +6,7 @@ __pycache__/
 assets/stanford medicine website.png
 assets/About-LKSC.jpg
 assets/images.jpg
+
+# Research copies of third-party pages (not ours to publish)
+research/
+stanford-dl-test.txt

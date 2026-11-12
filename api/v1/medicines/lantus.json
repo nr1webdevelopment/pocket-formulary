@@ -1,0 +1,75 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lantus.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "basaglar",
+      "brandName": "Basaglar",
+      "genericName": "insulin glargine",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/basaglar.json"
+    },
+    {
+      "id": "levemir",
+      "brandName": "Levemir",
+      "genericName": "insulin detemir",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Discontinued",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/levemir.json"
+    },
+    {
+      "id": "toujeo",
+      "brandName": "Toujeo",
+      "genericName": "insulin glargine U-300",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/toujeo.json"
+    }
+  ],
+  "data": {
+    "id": "lantus",
+    "condition": "diabetes",
+    "brandName": "Lantus",
+    "genericName": "insulin glargine",
+    "drugClass": "Long-acting insulin analog",
+    "formulation": "Injection (pen, vial)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Sanofi",
+    "approvalYear": 2000,
+    "status": "Available",
+    "description": "The first long-acting basal insulin analog.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Insulin: long-acting",
+      "diabetesType": "Type 1 and type 2"
+    },
+    "classId": "diabetes-long-acting-insulin-analog",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lantus.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#lantus",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezista.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "aptivus",
+      "brandName": "Aptivus",
+      "genericName": "tipranavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptivus.json"
+    },
+    {
+      "id": "lexiva",
+      "brandName": "Lexiva",
+      "genericName": "fosamprenavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Discontinued",
+      "classId": "hiv-pi",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lexiva.json"
+    },
+    {
+      "id": "norvir",
+      "brandName": "Norvir",
+      "genericName": "ritonavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/norvir.json"
+    },
+    {
+      "id": "reyataz",
+      "brandName": "Reyataz",
+      "genericName": "atazanavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/reyataz.json"
+    }
+  ],
+  "data": {
+    "id": "prezista",
+    "condition": "hiv",
+    "brandName": "Prezista",
+    "genericName": "darunavir",
+    "drugClass": "PI",
+    "route": "Oral",
+    "formulation": "Tablet; oral suspension",
+    "dosingFrequency": "Once or twice daily (with food and a booster)",
+    "manufacturer": "Johnson & Johnson (Janssen)",
+    "approvalDate": "2006-06-23",
+    "approvalYear": 2006,
+    "status": "Available",
+    "description": "Protease inhibitor with a high barrier to resistance; must be boosted.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "DRV",
+      "componentClasses": "PI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-pi",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezista.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-pi.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#prezista",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

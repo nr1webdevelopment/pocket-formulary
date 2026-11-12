@@ -1,0 +1,51 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fuzeon.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "fuzeon",
+    "condition": "hiv",
+    "brandName": "Fuzeon",
+    "genericName": "enfuvirtide",
+    "drugClass": "Fusion Inhibitor",
+    "route": "Injection",
+    "formulation": "Subcutaneous injection",
+    "dosingFrequency": "Twice daily",
+    "manufacturer": "Genentech (Roche)",
+    "approvalDate": "2003-03-13",
+    "approvalYear": 2003,
+    "status": "Discontinued",
+    "description": "The first fusion inhibitor; blocks HIV from fusing with the CD4 cell membrane.",
+    "notes": "Brand discontinued.",
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "T-20",
+      "componentClasses": "Fusion Inhibitor",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-fusion-inhibitor",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fuzeon.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-fusion-inhibitor.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#fuzeon",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

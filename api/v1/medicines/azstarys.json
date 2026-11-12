@@ -1,0 +1,156 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/azstarys.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "aptensio-xr",
+      "brandName": "Aptensio XR",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptensio-xr.json"
+    },
+    {
+      "id": "concerta",
+      "brandName": "Concerta",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/concerta.json"
+    },
+    {
+      "id": "cotempla-xr-odt",
+      "brandName": "Cotempla XR-ODT",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cotempla-xr-odt.json"
+    },
+    {
+      "id": "daytrana",
+      "brandName": "Daytrana",
+      "genericName": "methylphenidate (transdermal)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/daytrana.json"
+    },
+    {
+      "id": "focalin",
+      "brandName": "Focalin",
+      "genericName": "dexmethylphenidate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin.json"
+    },
+    {
+      "id": "focalin-xr",
+      "brandName": "Focalin XR",
+      "genericName": "dexmethylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin-xr.json"
+    },
+    {
+      "id": "jornay-pm",
+      "brandName": "Jornay PM",
+      "genericName": "methylphenidate (delayed- and extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jornay-pm.json"
+    },
+    {
+      "id": "quillichew-er",
+      "brandName": "QuilliChew ER",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillichew-er.json"
+    },
+    {
+      "id": "quillivant-xr",
+      "brandName": "Quillivant XR",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillivant-xr.json"
+    },
+    {
+      "id": "ritalin",
+      "brandName": "Ritalin",
+      "genericName": "methylphenidate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin.json"
+    },
+    {
+      "id": "ritalin-la",
+      "brandName": "Ritalin LA",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin-la.json"
+    }
+  ],
+  "data": {
+    "id": "azstarys",
+    "condition": "adhd",
+    "brandName": "Azstarys",
+    "genericName": "serdexmethylphenidate and dexmethylphenidate",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "formulation": "Capsule",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (morning)",
+    "manufacturer": "Corium",
+    "approvalYear": 2021,
+    "status": "Available",
+    "description": "Combines fast-acting dexmethylphenidate with a prodrug that releases more through the day.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Dexmethylphenidate",
+      "type": "Stimulant",
+      "controlledSubstance": "Schedule II"
+    },
+    "classId": "adhd-cns-stimulant-methylphenidate",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/azstarys.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#azstarys",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

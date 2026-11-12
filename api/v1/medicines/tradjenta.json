@@ -1,0 +1,75 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tradjenta.json",
+    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
+    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+  },
+  "related": [
+    {
+      "id": "januvia",
+      "brandName": "Januvia",
+      "genericName": "sitagliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/januvia.json"
+    },
+    {
+      "id": "nesina",
+      "brandName": "Nesina",
+      "genericName": "alogliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/nesina.json"
+    },
+    {
+      "id": "onglyza",
+      "brandName": "Onglyza",
+      "genericName": "saxagliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onglyza.json"
+    }
+  ],
+  "data": {
+    "id": "tradjenta",
+    "condition": "diabetes",
+    "brandName": "Tradjenta",
+    "genericName": "linagliptin",
+    "drugClass": "DPP-4 inhibitor",
+    "formulation": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Boehringer Ingelheim",
+    "approvalYear": 2011,
+    "status": "Available",
+    "description": "DPP-4 inhibitor that needs no dose change for kidney function.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Oral: DPP-4 inhibitor",
+      "diabetesType": "Type 2"
+    },
+    "classId": "diabetes-dpp-4-inhibitor",
+    "links": {
+      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tradjenta.json",
+      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
+      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tradjenta",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}
