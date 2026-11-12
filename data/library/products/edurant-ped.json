@@ -1,0 +1,47 @@
+{
+  "id": "edurant-ped",
+  "brandName": "Edurant PED",
+  "ingredients": [
+    "rilpivirine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet for oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with a meal)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2024-03-15",
+    "year": 2024,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Pediatric dispersible formulation of rilpivirine.",
+  "notes": "Listed as available by NIH HIVinfo (Sep 2026) but as discontinued by NYSDOH hivguidelines.org — verify before publishing.",
+  "attributes": {
+    "abbreviation": "RPV",
+    "componentClasses": "NNRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": true,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NNRTI",
+    "genericName": "rilpivirine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

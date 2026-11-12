@@ -1,0 +1,127 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/descovy.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "descovy",
+    "brandName": "Descovy",
+    "ingredients": [
+      "emtricitabine",
+      "tenofovir-alafenamide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Gilead Sciences",
+    "approval": {
+      "date": "2016-04-04",
+      "year": 2016,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Two-NRTI backbone for treatment; also approved as daily oral PrEP.",
+    "notes": "PrEP indication excludes people at risk through receptive vaginal sex.",
+    "attributes": {
+      "abbreviation": "FTC/TAF",
+      "componentClasses": "NRTI",
+      "isCombination": true,
+      "componentCount": 2,
+      "completeRegimen": false,
+      "use": "Treatment & PrEP",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "emtricitabine",
+        "name": "emtricitabine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Biktarvy",
+          "Complera",
+          "Descovy",
+          "Emtriva",
+          "Genvoya",
+          "Odefsey",
+          "Stribild",
+          "Symtuza",
+          "Truvada"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
+      },
+      {
+        "id": "tenofovir-alafenamide",
+        "name": "tenofovir alafenamide",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hepatitis-b",
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Biktarvy",
+          "Descovy",
+          "Genvoya",
+          "Odefsey",
+          "Symtuza",
+          "Vemlidy"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/descovy.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/descovy.json"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/sunlenca.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "sunlenca",
+    "brandName": "Sunlenca",
+    "ingredients": [
+      "lenacapavir"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; subcutaneous injection",
+    "route": "Oral + Injection",
+    "dosingFrequency": "Every 6 months (after oral/injection initiation)",
+    "manufacturer": "Gilead Sciences",
+    "approval": {
+      "date": "2022-12-22",
+      "year": 2022,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "First-in-class capsid inhibitor for heavily treatment-experienced adults with multidrug-resistant HIV.",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "LEN",
+      "componentClasses": "Capsid Inhibitor",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": true,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "lenacapavir",
+        "name": "lenacapavir",
+        "kind": "drug",
+        "classes": [
+          "Capsid Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Bixlenvo",
+          "Sunlenca",
+          "Yeztugo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lenacapavir.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/sunlenca.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/sunlenca.json"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "daytrana",
+  "brandName": "Daytrana",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Transdermal patch",
+  "route": "Skin patch",
+  "dosingFrequency": "Once daily (worn up to 9 hours)",
+  "manufacturer": "Noven Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": 2006,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "The first methylphenidate skin patch.",
+  "notes": "Approved for children and adolescents 6–17.",
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate (transdermal)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

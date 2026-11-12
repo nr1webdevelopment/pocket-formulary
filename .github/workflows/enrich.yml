@@ -1,0 +1,43 @@
+name: Look up official IDs
+
+# Run by hand (Actions -> "Look up official IDs" -> Run workflow) after adding ingredients.
+# Looks up RxNorm IDs and FDA evidence (scripts/enrich_library.py), rebuilds, and opens a pull
+# request for review. One-time setup: Settings -> Actions -> General -> Workflow permissions ->
+# tick "Allow GitHub Actions to create and approve pull requests".
+on:
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Re-check every ingredient (not only new ones)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "jsonschema>=4.18"
+      - name: Look up RxNorm and openFDA
+        run: python scripts/enrich_library.py ${{ inputs.all && '--all' || '' }} | tee enrich.log
+      - name: Rebuild and validate
+        run: |
+          python scripts/build_dist.py
+          python scripts/validate.py
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: enrich/official-ids
+          commit-message: "Look up official IDs (RxNorm, openFDA)"
+          title: "Look up official IDs (RxNorm, openFDA)"
+          body-path: enrich.log
+          add-paths: |
+            data/library
+            dist
+            api

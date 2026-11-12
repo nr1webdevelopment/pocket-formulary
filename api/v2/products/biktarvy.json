@@ -1,0 +1,152 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/biktarvy.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "biktarvy",
+    "brandName": "Biktarvy",
+    "ingredients": [
+      "bictegravir",
+      "emtricitabine",
+      "tenofovir-alafenamide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Gilead Sciences",
+    "approval": {
+      "date": "2018-02-07",
+      "year": 2018,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Complete once-daily single-tablet regimen; among the most prescribed HIV medicines in the US.",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "BIC/FTC/TAF",
+      "componentClasses": "INSTI, NRTI",
+      "isCombination": true,
+      "componentCount": 3,
+      "completeRegimen": true,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "bictegravir",
+        "name": "bictegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Biktarvy",
+          "Bixlenvo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bictegravir.json"
+      },
+      {
+        "id": "emtricitabine",
+        "name": "emtricitabine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Biktarvy",
+          "Complera",
+          "Descovy",
+          "Emtriva",
+          "Genvoya",
+          "Odefsey",
+          "Stribild",
+          "Symtuza",
+          "Truvada"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
+      },
+      {
+        "id": "tenofovir-alafenamide",
+        "name": "tenofovir alafenamide",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hepatitis-b",
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Biktarvy",
+          "Descovy",
+          "Genvoya",
+          "Odefsey",
+          "Symtuza",
+          "Vemlidy"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/biktarvy.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/biktarvy.json"
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/edurant-ped.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "edurant-ped",
+    "brandName": "Edurant PED",
+    "ingredients": [
+      "rilpivirine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet for oral suspension",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (with a meal)",
+    "manufacturer": "Johnson & Johnson (Janssen)",
+    "approval": {
+      "date": "2024-03-15",
+      "year": 2024,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Pediatric dispersible formulation of rilpivirine.",
+    "notes": "Listed as available by NIH HIVinfo (Sep 2026) but as discontinued by NYSDOH hivguidelines.org — verify before publishing.",
+    "attributes": {
+      "abbreviation": "RPV",
+      "componentClasses": "NNRTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": true,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "rilpivirine",
+        "name": "rilpivirine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cabenuva",
+          "Complera",
+          "Edurant",
+          "Edurant PED",
+          "Juluca",
+          "Odefsey"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/rilpivirine.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/edurant-ped.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/edurant-ped.json"
+    }
+  }
+}

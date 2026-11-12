@@ -1,0 +1,40 @@
+{
+  "id": "novolog",
+  "brandName": "NovoLog",
+  "ingredients": [
+    "insulin-aspart"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, vial, cartridge)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "With meals",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2000,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Rapid-acting mealtime insulin.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: rapid-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Rapid-acting insulin analog",
+    "genericName": "insulin aspart"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

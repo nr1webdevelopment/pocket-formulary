@@ -58,8 +58,31 @@ def svg_asset(name):
 
 logo_bar = svg_asset("logo-bar.svg").replace('role="img"', 'aria-hidden="true" focusable="false"')
 favicon = "data:image/svg+xml," + urllib.parse.quote(svg_asset("logo-icon.svg"), safe="")
+def library_compact():
+    """Compact copy of the v2 medicine library (data/library/) for site search and ingredient pages."""
+    import build_library
+    conditions, ingredients, products = build_library.load_library()
+    prods_of = {}
+    for p in products:
+        for iid in p["ingredients"]:
+            prods_of.setdefault(iid, []).append(p["id"])
+    return {
+        "areas": {c["id"]: c["area"] for c in conditions},
+        "prod": {p["id"]: [p["brandName"], p["status"], p.get("form"), p["ingredients"]] for p in products},
+        "ing": [{
+            "id": i["id"], "n": i["name"], "s": i.get("synonyms", []), "c": [c["name"] for c in i["classes"]],
+            "f": build_library.fda_label(i)["status"], "ae": build_library.fda_label(i)["approvedElsewhere"],
+            "u": [[u["condition"], u["type"], u.get("note"), u.get("via", [])] for u in i["uses"]],
+            "ctl": next((c["schedule"] for c in i.get("controlled", []) if c["jurisdiction"] == "US"), None),
+            "p": prods_of.get(i["id"], []), "rev": i["review"]["status"],
+            "src": [[s["url"], s.get("title", "")] for s in i["sources"]][:4],
+        } for i in ingredients],
+    }
+
+
 slides_css, slides = hero_slides()
 page = (t.replace("__LOGO_BAR__", js(logo_bar)).replace("__FAVICON__", favicon).replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
+         .replace("__LIBRARY__", js(library_compact()))
          .replace("__DATA__", js(drugs))
          .replace("__PROVIDERS__", js(providers))
          .replace("__CITIES__", js({"cities": cities_doc["data"], "jurisdictionNotes": cities_doc.get("jurisdictionNotes", {})}))

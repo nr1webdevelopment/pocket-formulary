@@ -1,0 +1,40 @@
+{
+  "id": "victoza",
+  "brandName": "Victoza",
+  "ingredients": [
+    "liraglutide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2010,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Daily GLP-1 injection that lowers blood sugar and reduces cardiovascular risk.",
+  "notes": "Approved for children 10 and older.",
+  "attributes": {
+    "category": "GLP-1 and GIP/GLP-1 agonists",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "GLP-1 receptor agonist",
+    "genericName": "liraglutide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

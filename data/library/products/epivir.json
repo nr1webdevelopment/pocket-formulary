@@ -1,0 +1,47 @@
+{
+  "id": "epivir",
+  "brandName": "Epivir",
+  "ingredients": [
+    "lamivudine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "1995-11-17",
+    "year": 1995,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Nucleoside reverse transcriptase inhibitor widely used in combination regimens.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "3TC",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "lamivudine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

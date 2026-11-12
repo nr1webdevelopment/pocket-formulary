@@ -1,0 +1,40 @@
+{
+  "id": "humalog",
+  "brandName": "Humalog",
+  "ingredients": [
+    "insulin-lispro"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, vial, cartridge)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "With meals",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 1996,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first rapid-acting insulin analog, taken at mealtimes.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: rapid-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Rapid-acting insulin analog",
+    "genericName": "insulin lispro"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

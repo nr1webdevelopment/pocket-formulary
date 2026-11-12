@@ -1,0 +1,40 @@
+{
+  "id": "aptensio-xr",
+  "brandName": "Aptensio XR",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Rhodes Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting methylphenidate capsule with immediate and extended-release beads.",
+  "notes": null,
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

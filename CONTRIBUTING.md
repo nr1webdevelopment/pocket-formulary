@@ -53,6 +53,19 @@ If the provider has closed or stopped offering the listed services, use `--close
 2. Create `data/providers/<city-name>.json` and add providers as above.
 3. If the city is in a place with its own legal system (like Hong Kong or Macau), set `jurisdiction` accordingly. Don't group it with a neighbouring jurisdiction.
 
+## Adding a medicine to the library
+
+1. **Ingredient:** create `data/library/ingredients/<id>.json` (copy a similar one). `id` is the lowercase generic name with hyphens and must match the file name. Fill in:
+   - `approvals`: at least the US entry. Use `not_approved` (plus the countries where it *is* approved) for medicines the FDA hasn't approved, `otc_monograph` for over-the-counter monograph drugs, `investigational` for medicines only in trials.
+   - `uses`: each condition id from `data/library/conditions.json` with `type` `approved` or `off-label`. Add a new condition to `conditions.json` if needed (and its name in `i18n/ui.json` as `lc_<id>`).
+   - `sources`: the official label (DailyMed, EMA, the country's regulator) first.
+   - `review.status`: `unverified` until someone has checked it against the official label.
+2. **Products:** one file per brand in `data/library/products/<id>.json`, listing its ingredient ids (several for combinations), country, status and form.
+3. Run `python3 scripts/build_dist.py && python3 scripts/validate.py` (details: `python3 scripts/validate_library.py`).
+4. After pushing, run **Actions → Look up official IDs** on GitHub. It fills in RxNorm and FDA IDs and opens a pull request; anything that doesn't match is marked `needs_review` with the reason.
+
+Never copy text from commercial drug references (Drugs.com, Medscape, Lexicomp). Use official labels and regulators, and write descriptions in your own words.
+
 ## Translations
 
 The website is in English, Simplified Chinese (`zh-Hans`), Traditional Chinese (`zh-Hant`), Spanish (`es`), Portuguese (`pt`) and Thai (`th`).

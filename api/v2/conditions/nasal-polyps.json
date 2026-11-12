@@ -1,0 +1,102 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/nasal-polyps.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "nasal-polyps",
+    "name": "Nasal polyps (chronic rhinosinusitis with nasal polyps)",
+    "area": "ent",
+    "aliases": [
+      "CRSwNP"
+    ],
+    "parent": null,
+    "approvedCount": 3,
+    "offLabelCount": 0
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "dupilumab",
+        "name": "dupilumab",
+        "kind": "biologic",
+        "classes": [
+          "Monoclonal antibody (IL-4/IL-13 blocker)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "nasal-polyps"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Dupixent"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dupilumab.json"
+      },
+      {
+        "id": "fluticasone",
+        "name": "fluticasone",
+        "kind": "drug",
+        "classes": [
+          "Corticosteroid (nasal)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "allergic-rhinitis",
+          "nasal-polyps"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Flonase",
+          "Xhance"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/fluticasone.json"
+      },
+      {
+        "id": "mometasone",
+        "name": "mometasone",
+        "kind": "drug",
+        "classes": [
+          "Corticosteroid (nasal)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "allergic-rhinitis",
+          "nasal-polyps"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Nasonex"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/mometasone.json"
+      }
+    ],
+    "offLabel": []
+  }
+}

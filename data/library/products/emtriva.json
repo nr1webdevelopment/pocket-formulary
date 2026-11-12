@@ -1,0 +1,47 @@
+{
+  "id": "emtriva",
+  "brandName": "Emtriva",
+  "ingredients": [
+    "emtricitabine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2003-07-02",
+    "year": 2003,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Nucleoside reverse transcriptase inhibitor; also a component of many combination pills.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "FTC",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "emtricitabine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

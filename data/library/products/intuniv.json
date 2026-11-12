@@ -1,0 +1,40 @@
+{
+  "id": "intuniv",
+  "brandName": "Intuniv",
+  "ingredients": [
+    "guanfacine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Takeda",
+  "approval": {
+    "date": null,
+    "year": 2009,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": null,
+  "description": "Non-stimulant that can be used alone or added to a stimulant.",
+  "notes": "Should be tapered, not stopped suddenly.",
+  "attributes": {
+    "category": "Non-stimulant",
+    "type": "Non-stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "Alpha-2A adrenergic agonist",
+    "genericName": "guanfacine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

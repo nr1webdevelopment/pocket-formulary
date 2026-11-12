@@ -1,0 +1,40 @@
+{
+  "id": "onglyza",
+  "brandName": "Onglyza",
+  "ingredients": [
+    "saxagliptin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "AstraZeneca",
+  "approval": {
+    "date": null,
+    "year": 2009,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "DPP-4 inhibitor taken once daily.",
+  "notes": null,
+  "attributes": {
+    "category": "Oral: DPP-4 inhibitor",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "DPP-4 inhibitor",
+    "genericName": "saxagliptin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ibalizumab",
+  "name": "ibalizumab",
+  "synonyms": [],
+  "kind": "biologic",
+  "classes": [
+    {
+      "name": "Post-Attachment Inhibitor",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-12",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "uses": [
+    {
+      "condition": "hiv",
+      "type": "approved",
+      "jurisdiction": "US",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  ],
+  "controlled": [],
+  "summary": null,
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-12",
+    "by": null,
+    "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ibalizumab",
+      "title": "DailyMed labels for ibalizumab",
+      "type": "label"
+    }
+  ]
+}

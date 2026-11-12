@@ -1,0 +1,40 @@
+{
+  "id": "strattera",
+  "brandName": "Strattera",
+  "ingredients": [
+    "atomoxetine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 2002,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": null,
+  "description": "The first non-stimulant approved for ADHD.",
+  "notes": "Full effect can take several weeks.",
+  "attributes": {
+    "category": "Non-stimulant",
+    "type": "Non-stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "Selective norepinephrine reuptake inhibitor",
+    "genericName": "atomoxetine"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

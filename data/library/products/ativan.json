@@ -1,0 +1,32 @@
+{
+  "id": "ativan",
+  "brandName": "Ativan",
+  "ingredients": [
+    "lorazepam"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "anxiety"
+  ],
+  "controlled": "CIV",
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Ativan",
+      "title": "DailyMed: Ativan",
+      "type": "label"
+    }
+  ]
+}

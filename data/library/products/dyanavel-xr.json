@@ -1,0 +1,40 @@
+{
+  "id": "dyanavel-xr",
+  "brandName": "Dyanavel XR",
+  "ingredients": [
+    "amphetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release oral suspension; tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Tris Pharma",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting amphetamine available as a liquid or tablet.",
+  "notes": null,
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "amphetamine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

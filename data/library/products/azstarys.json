@@ -1,0 +1,41 @@
+{
+  "id": "azstarys",
+  "brandName": "Azstarys",
+  "ingredients": [
+    "serdexmethylphenidate",
+    "dexmethylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Corium",
+  "approval": {
+    "date": null,
+    "year": 2021,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Combines fast-acting dexmethylphenidate with a prodrug that releases more through the day.",
+  "notes": null,
+  "attributes": {
+    "category": "Dexmethylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "serdexmethylphenidate and dexmethylphenidate"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

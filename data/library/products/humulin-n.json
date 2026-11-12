@@ -1,0 +1,40 @@
+{
+  "id": "humulin-n",
+  "brandName": "Humulin N",
+  "ingredients": [
+    "insulin-isophane-human"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (vial, pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 1982,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Intermediate-acting NPH insulin, often used as a lower-cost basal option.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: short- and intermediate-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Intermediate-acting human insulin",
+    "genericName": "insulin isophane (NPH)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

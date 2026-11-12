@@ -1,0 +1,40 @@
+{
+  "id": "jardiance",
+  "brandName": "Jardiance",
+  "ingredients": [
+    "empagliflozin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": null,
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "SGLT2 inhibitor shown to lower the risk of cardiovascular death in type 2 diabetes.",
+  "notes": "Also approved for heart failure and chronic kidney disease.",
+  "attributes": {
+    "category": "Oral: SGLT2 inhibitor",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor",
+    "genericName": "empagliflozin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

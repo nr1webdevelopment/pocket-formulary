@@ -1,0 +1,40 @@
+{
+  "id": "onyda-xr",
+  "brandName": "Onyda XR",
+  "ingredients": [
+    "clonidine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (at bedtime)",
+  "manufacturer": "Tris Pharma",
+  "approval": {
+    "date": null,
+    "year": 2024,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": null,
+  "description": "Long-acting liquid clonidine for ADHD.",
+  "notes": "Approved for ages 6 and older.",
+  "attributes": {
+    "category": "Non-stimulant",
+    "type": "Non-stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "Alpha-2 adrenergic agonist",
+    "genericName": "clonidine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

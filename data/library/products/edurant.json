@@ -1,0 +1,47 @@
+{
+  "id": "edurant",
+  "brandName": "Edurant",
+  "ingredients": [
+    "rilpivirine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with a meal)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2011-05-20",
+    "year": 2011,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Non-nucleoside reverse transcriptase inhibitor; also used as oral lead-in for Cabenuva.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "RPV",
+    "componentClasses": "NNRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NNRTI",
+    "genericName": "rilpivirine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

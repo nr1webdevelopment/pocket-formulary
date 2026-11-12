@@ -1,0 +1,32 @@
+{
+  "id": "emsam",
+  "brandName": "Emsam",
+  "ingredients": [
+    "selegiline"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Transdermal patch",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "depression"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Emsam",
+      "title": "DailyMed: Emsam",
+      "type": "label"
+    }
+  ]
+}

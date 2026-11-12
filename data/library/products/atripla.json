@@ -1,0 +1,49 @@
+{
+  "id": "atripla",
+  "brandName": "Atripla",
+  "ingredients": [
+    "efavirenz",
+    "emtricitabine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (empty stomach, at bedtime)",
+  "manufacturer": "Gilead Sciences & Bristol Myers Squibb",
+  "approval": {
+    "date": "2006-07-12",
+    "year": 2006,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "The first complete once-daily single-tablet HIV regimen (2006).",
+  "notes": "Brand discontinued; generics may still be available.",
+  "attributes": {
+    "abbreviation": "EFV/FTC/TDF",
+    "componentClasses": "NNRTI, NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "efavirenz, emtricitabine, and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

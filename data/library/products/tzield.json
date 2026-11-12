@@ -1,0 +1,40 @@
+{
+  "id": "tzield",
+  "brandName": "Tzield",
+  "ingredients": [
+    "teplizumab"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "IV infusion",
+  "route": "Intravenous",
+  "dosingFrequency": "Once daily for 14 days (one course)",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": 2022,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first medicine that delays the onset of stage 3 type 1 diabetes.",
+  "notes": "For people 8 and older with stage 2 type 1 diabetes.",
+  "attributes": {
+    "category": "Other",
+    "diabetesType": "Type 1"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Anti-CD3 monoclonal antibody",
+    "genericName": "teplizumab-mzwv"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "kaletra",
+  "brandName": "Kaletra",
+  "ingredients": [
+    "lopinavir",
+    "ritonavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "AbbVie",
+  "approval": {
+    "date": "2000-09-15",
+    "year": 2000,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Co-formulated, pre-boosted protease inhibitor; taken with other HIV medicines.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "LPV/r",
+    "componentClasses": "PI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "lopinavir and ritonavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

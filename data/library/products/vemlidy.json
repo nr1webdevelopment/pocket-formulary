@@ -1,0 +1,47 @@
+{
+  "id": "vemlidy",
+  "brandName": "Vemlidy",
+  "ingredients": [
+    "tenofovir-alafenamide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2016-11-10",
+    "year": 2016,
+    "application": null
+  },
+  "indications": [
+    "hepatitis-b"
+  ],
+  "controlled": null,
+  "description": "Tenofovir alafenamide as a standalone tablet.",
+  "notes": "Vemlidy is FDA-approved for chronic hepatitis B, not HIV. Its ingredient, tenofovir alafenamide, is part of several HIV combination medicines. (Corrected in the v2 library; API v1 still lists it under HIV.)",
+  "attributes": {
+    "abbreviation": "TAF",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Hepatitis B",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "tenofovir alafenamide"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

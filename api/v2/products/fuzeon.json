@@ -1,0 +1,88 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/fuzeon.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "fuzeon",
+    "brandName": "Fuzeon",
+    "ingredients": [
+      "enfuvirtide"
+    ],
+    "jurisdiction": "US",
+    "status": "discontinued",
+    "form": "Subcutaneous injection",
+    "route": "Injection",
+    "dosingFrequency": "Twice daily",
+    "manufacturer": "Genentech (Roche)",
+    "approval": {
+      "date": "2003-03-13",
+      "year": 2003,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "The first fusion inhibitor; blocks HIV from fusing with the CD4 cell membrane.",
+    "notes": "Brand discontinued.",
+    "attributes": {
+      "abbreviation": "T-20",
+      "componentClasses": "Fusion Inhibitor",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "enfuvirtide",
+        "name": "enfuvirtide",
+        "kind": "drug",
+        "classes": [
+          "Fusion Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Fuzeon"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/enfuvirtide.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/fuzeon.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/fuzeon.json"
+    }
+  }
+}

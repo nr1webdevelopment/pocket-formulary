@@ -1,0 +1,83 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/vyvanse.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "vyvanse",
+    "brandName": "Vyvanse",
+    "ingredients": [
+      "lisdexamfetamine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Capsule; chewable tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (morning)",
+    "manufacturer": "Takeda",
+    "approval": {
+      "date": null,
+      "year": 2007,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": "CII",
+    "description": "Prodrug the body converts into dextroamphetamine, giving a smooth, long effect.",
+    "notes": "Also approved for moderate to severe binge eating disorder in adults.",
+    "attributes": {
+      "category": "Amphetamine",
+      "type": "Stimulant"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "lisdexamfetamine",
+        "name": "lisdexamfetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Vyvanse"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lisdexamfetamine.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/vyvanse.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json"
+    }
+  }
+}

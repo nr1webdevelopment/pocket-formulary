@@ -1,0 +1,40 @@
+{
+  "id": "simtriyo",
+  "brandName": "Simtriyo",
+  "ingredients": [
+    "centanafadine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Otsuka",
+  "approval": {
+    "date": null,
+    "year": 2026,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": null,
+  "description": "First-in-class triple reuptake inhibitor for ADHD, approved in July 2026.",
+  "notes": "Approved for patients 6 and older weighing at least 20 kg. New in 2026.",
+  "attributes": {
+    "category": "Non-stimulant",
+    "type": "Non-stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
+    "genericName": "centanafadine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

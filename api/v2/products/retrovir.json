@@ -1,0 +1,90 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/retrovir.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "retrovir",
+    "brandName": "Retrovir",
+    "ingredients": [
+      "zidovudine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; capsule; syrup; IV infusion",
+    "route": "Oral / IV",
+    "dosingFrequency": "Twice daily (oral)",
+    "manufacturer": "ViiV Healthcare",
+    "approval": {
+      "date": "1987-03-19",
+      "year": 1987,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "The first FDA-approved HIV medicine (1987).",
+    "notes": "Also used to reduce perinatal (mother-to-child) transmission.",
+    "attributes": {
+      "abbreviation": "ZDV (AZT)",
+      "componentClasses": "NRTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "zidovudine",
+        "name": "zidovudine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Combivir",
+          "Retrovir",
+          "Trizivir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/zidovudine.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/retrovir.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/retrovir.json"
+    }
+  }
+}

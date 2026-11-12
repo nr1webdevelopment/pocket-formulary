@@ -1,0 +1,40 @@
+{
+  "id": "actos",
+  "brandName": "Actos",
+  "ingredients": [
+    "pioglitazone"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Takeda",
+  "approval": {
+    "date": null,
+    "year": 1999,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Improves the body's sensitivity to insulin.",
+  "notes": "Not recommended for people with heart failure.",
+  "attributes": {
+    "category": "Oral: thiazolidinedione",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Thiazolidinedione (TZD)",
+    "genericName": "pioglitazone"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

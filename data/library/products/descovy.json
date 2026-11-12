@@ -1,0 +1,48 @@
+{
+  "id": "descovy",
+  "brandName": "Descovy",
+  "ingredients": [
+    "emtricitabine",
+    "tenofovir-alafenamide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2016-04-04",
+    "year": 2016,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Two-NRTI backbone for treatment; also approved as daily oral PrEP.",
+  "notes": "PrEP indication excludes people at risk through receptive vaginal sex.",
+  "attributes": {
+    "abbreviation": "FTC/TAF",
+    "componentClasses": "NRTI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment & PrEP",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "emtricitabine and tenofovir alafenamide"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

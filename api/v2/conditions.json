@@ -1,0 +1,208 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "count": 15,
+  "data": [
+    {
+      "id": "hiv",
+      "name": "HIV (treatment and prevention)",
+      "area": "infectious-disease",
+      "aliases": [
+        "HIV-1",
+        "PrEP"
+      ],
+      "parent": null,
+      "approvedCount": 29,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/hiv.json"
+    },
+    {
+      "id": "hepatitis-b",
+      "name": "Chronic hepatitis B",
+      "area": "infectious-disease",
+      "aliases": [
+        "HBV"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/hepatitis-b.json"
+    },
+    {
+      "id": "adhd",
+      "name": "ADHD",
+      "area": "mental-health",
+      "aliases": [
+        "attention-deficit/hyperactivity disorder"
+      ],
+      "parent": null,
+      "approvedCount": 12,
+      "offLabelCount": 1,
+      "url": "https://nomadceuticals.com/api/v2/conditions/adhd.json"
+    },
+    {
+      "id": "depression",
+      "name": "Depression",
+      "area": "mental-health",
+      "aliases": [
+        "major depressive disorder",
+        "MDD"
+      ],
+      "parent": null,
+      "approvedCount": 25,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/depression.json"
+    },
+    {
+      "id": "postpartum-depression",
+      "name": "Postpartum depression",
+      "area": "mental-health",
+      "aliases": [
+        "PPD",
+        "perinatal depression"
+      ],
+      "parent": "depression",
+      "approvedCount": 2,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/postpartum-depression.json"
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety disorders",
+      "area": "mental-health",
+      "aliases": [
+        "generalized anxiety disorder",
+        "GAD",
+        "panic disorder",
+        "social anxiety"
+      ],
+      "parent": null,
+      "approvedCount": 12,
+      "offLabelCount": 4,
+      "url": "https://nomadceuticals.com/api/v2/conditions/anxiety.json"
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "area": "endocrine",
+      "aliases": [
+        "type 1 diabetes",
+        "type 2 diabetes"
+      ],
+      "parent": null,
+      "approvedCount": 30,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/diabetes.json"
+    },
+    {
+      "id": "allergic-rhinitis",
+      "name": "Allergic rhinitis (hay fever)",
+      "area": "ent",
+      "aliases": [
+        "hay fever",
+        "nasal allergies"
+      ],
+      "parent": null,
+      "approvedCount": 4,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/allergic-rhinitis.json"
+    },
+    {
+      "id": "nasal-polyps",
+      "name": "Nasal polyps (chronic rhinosinusitis with nasal polyps)",
+      "area": "ent",
+      "aliases": [
+        "CRSwNP"
+      ],
+      "parent": null,
+      "approvedCount": 3,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/nasal-polyps.json"
+    },
+    {
+      "id": "nasal-congestion",
+      "name": "Nasal congestion",
+      "area": "ent",
+      "aliases": [
+        "stuffy nose"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/nasal-congestion.json"
+    },
+    {
+      "id": "otitis-media",
+      "name": "Middle-ear infection (otitis media)",
+      "area": "ent",
+      "aliases": [
+        "ear infection",
+        "AOM"
+      ],
+      "parent": null,
+      "approvedCount": 4,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/otitis-media.json"
+    },
+    {
+      "id": "otitis-externa",
+      "name": "Swimmer's ear (otitis externa)",
+      "area": "ent",
+      "aliases": [
+        "outer-ear infection"
+      ],
+      "parent": null,
+      "approvedCount": 3,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/otitis-externa.json"
+    },
+    {
+      "id": "pharyngitis",
+      "name": "Sore throat and tonsillitis (bacterial pharyngitis)",
+      "area": "ent",
+      "aliases": [
+        "strep throat",
+        "tonsillitis"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/pharyngitis.json"
+    },
+    {
+      "id": "vertigo",
+      "name": "Vertigo",
+      "area": "ent",
+      "aliases": [
+        "dizziness",
+        "motion sickness"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/vertigo.json"
+    },
+    {
+      "id": "urticaria",
+      "name": "Chronic hives (urticaria)",
+      "area": "dermatology",
+      "aliases": [
+        "hives"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/urticaria.json"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "concerta",
+  "brandName": "Concerta",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release tablet (OROS)",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": null,
+    "year": 2000,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting methylphenidate using an osmotic pump that releases medicine over about 12 hours.",
+  "notes": "Swallow whole; do not crush or chew.",
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

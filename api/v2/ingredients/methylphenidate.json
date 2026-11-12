@@ -1,0 +1,180 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "methylphenidate",
+    "name": "methylphenidate",
+    "synonyms": [],
+    "kind": "drug",
+    "classes": [
+      {
+        "name": "CNS stimulant (methylphenidate)",
+        "system": "nomad"
+      }
+    ],
+    "ids": {
+      "rxcui": null,
+      "unii": []
+    },
+    "approvals": [
+      {
+        "jurisdiction": "US",
+        "regulator": "FDA",
+        "status": "approved",
+        "checked": "2026-11-12",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    ],
+    "uses": [
+      {
+        "condition": "adhd",
+        "type": "approved",
+        "jurisdiction": "US",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "conditionName": "ADHD"
+      }
+    ],
+    "controlled": [
+      {
+        "jurisdiction": "US",
+        "schedule": "CII",
+        "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+      }
+    ],
+    "summary": null,
+    "tier": "curated",
+    "review": {
+      "status": "unverified",
+      "checked": "2026-11-12",
+      "by": null,
+      "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+    },
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methylphenidate",
+        "title": "DailyMed labels for methylphenidate",
+        "type": "label"
+      }
+    ],
+    "fda": {
+      "status": "approved",
+      "label": "FDA approved",
+      "approvedElsewhere": []
+    },
+    "products": [
+      {
+        "id": "aptensio-xr",
+        "brandName": "Aptensio XR",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release capsule",
+        "url": "https://nomadceuticals.com/api/v2/products/aptensio-xr.json"
+      },
+      {
+        "id": "concerta",
+        "brandName": "Concerta",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release tablet (OROS)",
+        "url": "https://nomadceuticals.com/api/v2/products/concerta.json"
+      },
+      {
+        "id": "cotempla-xr-odt",
+        "brandName": "Cotempla XR-ODT",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release orally disintegrating tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/cotempla-xr-odt.json"
+      },
+      {
+        "id": "daytrana",
+        "brandName": "Daytrana",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Transdermal patch",
+        "url": "https://nomadceuticals.com/api/v2/products/daytrana.json"
+      },
+      {
+        "id": "jornay-pm",
+        "brandName": "Jornay PM",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Delayed-release/extended-release capsule",
+        "url": "https://nomadceuticals.com/api/v2/products/jornay-pm.json"
+      },
+      {
+        "id": "quillichew-er",
+        "brandName": "QuilliChew ER",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release chewable tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/quillichew-er.json"
+      },
+      {
+        "id": "quillivant-xr",
+        "brandName": "Quillivant XR",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release oral suspension",
+        "url": "https://nomadceuticals.com/api/v2/products/quillivant-xr.json"
+      },
+      {
+        "id": "ritalin-la",
+        "brandName": "Ritalin LA",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release capsule",
+        "url": "https://nomadceuticals.com/api/v2/products/ritalin-la.json"
+      },
+      {
+        "id": "ritalin",
+        "brandName": "Ritalin",
+        "ingredients": [
+          "methylphenidate"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/ritalin.json"
+      }
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json",
+      "website": "https://nomadceuticals.com/#ingredient/methylphenidate"
+    }
+  }
+}

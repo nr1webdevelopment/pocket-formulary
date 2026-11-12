@@ -1,0 +1,40 @@
+{
+  "id": "adderall",
+  "brandName": "Adderall",
+  "ingredients": [
+    "mixed-amphetamine-salts"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "1–3 times daily",
+  "manufacturer": "Teva",
+  "approval": {
+    "date": null,
+    "year": 1996,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Short-acting mix of four amphetamine salts.",
+  "notes": "Effect lasts about 4–6 hours per dose.",
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "mixed amphetamine salts"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

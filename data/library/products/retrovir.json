@@ -1,0 +1,47 @@
+{
+  "id": "retrovir",
+  "brandName": "Retrovir",
+  "ingredients": [
+    "zidovudine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; capsule; syrup; IV infusion",
+  "route": "Oral / IV",
+  "dosingFrequency": "Twice daily (oral)",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "1987-03-19",
+    "year": 1987,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "The first FDA-approved HIV medicine (1987).",
+  "notes": "Also used to reduce perinatal (mother-to-child) transmission.",
+  "attributes": {
+    "abbreviation": "ZDV (AZT)",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "zidovudine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

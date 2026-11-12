@@ -1,0 +1,96 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/viread.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "viread",
+    "brandName": "Viread",
+    "ingredients": [
+      "tenofovir-disoproxil"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; oral powder",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Gilead Sciences",
+    "approval": {
+      "date": "2001-10-26",
+      "year": 2001,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Nucleotide reverse transcriptase inhibitor; also approved for chronic hepatitis B.",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "TDF",
+      "componentClasses": "NRTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "tenofovir-disoproxil",
+        "name": "tenofovir disoproxil",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Cimduo",
+          "Complera",
+          "Delstrigo",
+          "Stribild",
+          "Symfi",
+          "Symfi Lo",
+          "Truvada",
+          "Viread"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-disoproxil.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/viread.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/viread.json"
+    }
+  }
+}

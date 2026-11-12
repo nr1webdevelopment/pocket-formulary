@@ -1,0 +1,40 @@
+{
+  "id": "mydayis",
+  "brandName": "Mydayis",
+  "ingredients": [
+    "mixed-amphetamine-salts"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Takeda",
+  "approval": {
+    "date": null,
+    "year": 2017,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Extra-long-acting amphetamine designed to last up to 16 hours.",
+  "notes": "Approved for ages 13 and older.",
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "mixed amphetamine salts (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

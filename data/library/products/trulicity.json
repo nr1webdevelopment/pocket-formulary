@@ -1,0 +1,40 @@
+{
+  "id": "trulicity",
+  "brandName": "Trulicity",
+  "ingredients": [
+    "dulaglutide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (single-dose pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once weekly",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Once-weekly GLP-1 injection.",
+  "notes": null,
+  "attributes": {
+    "category": "GLP-1 and GIP/GLP-1 agonists",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "GLP-1 receptor agonist",
+    "genericName": "dulaglutide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

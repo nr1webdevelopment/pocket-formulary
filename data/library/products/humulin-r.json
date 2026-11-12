@@ -1,0 +1,40 @@
+{
+  "id": "humulin-r",
+  "brandName": "Humulin R",
+  "ingredients": [
+    "insulin-human"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (vial, pen)",
+  "route": "Subcutaneous / IV",
+  "dosingFrequency": "About 30 minutes before meals",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 1982,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first medicine made with recombinant DNA technology.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: short- and intermediate-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Short-acting human insulin",
+    "genericName": "insulin human regular"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

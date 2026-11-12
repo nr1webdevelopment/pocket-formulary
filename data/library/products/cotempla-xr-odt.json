@@ -1,0 +1,40 @@
+{
+  "id": "cotempla-xr-odt",
+  "brandName": "Cotempla XR-ODT",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release orally disintegrating tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Aytu BioPharma",
+  "approval": {
+    "date": null,
+    "year": 2017,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting methylphenidate that dissolves in the mouth.",
+  "notes": "Approved for children 6–17.",
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

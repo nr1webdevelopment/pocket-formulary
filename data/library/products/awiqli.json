@@ -1,0 +1,40 @@
+{
+  "id": "awiqli",
+  "brandName": "Awiqli",
+  "ingredients": [
+    "insulin-icodec"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, 700 units/mL)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once weekly",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2026,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first once-weekly basal insulin, approved March 2026.",
+  "notes": "Adults with type 2 diabetes only. New in 2026.",
+  "attributes": {
+    "category": "Insulin: long-acting",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Once-weekly basal insulin",
+    "genericName": "insulin icodec-abae"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

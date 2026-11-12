@@ -1,0 +1,40 @@
+{
+  "id": "ritalin",
+  "brandName": "Ritalin",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "2–3 times daily",
+  "manufacturer": "Novartis",
+  "approval": {
+    "date": null,
+    "year": 1955,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Short-acting methylphenidate; one of the oldest ADHD medicines still in use.",
+  "notes": "Effect lasts about 3–4 hours per dose.",
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

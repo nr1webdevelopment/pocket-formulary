@@ -1,0 +1,40 @@
+{
+  "id": "rybelsus",
+  "brandName": "Rybelsus (Ozempic pill)",
+  "ingredients": [
+    "semaglutide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily, 30 minutes before first food",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2019,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first GLP-1 medicine in pill form.",
+  "notes": "Being renamed Ozempic pill in the US during 2026.",
+  "attributes": {
+    "category": "GLP-1 and GIP/GLP-1 agonists",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "GLP-1 receptor agonist",
+    "genericName": "semaglutide (oral)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

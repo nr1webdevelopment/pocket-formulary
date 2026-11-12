@@ -1,0 +1,49 @@
+{
+  "id": "delstrigo",
+  "brandName": "Delstrigo",
+  "ingredients": [
+    "doravirine",
+    "lamivudine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Merck",
+  "approval": {
+    "date": "2018-08-30",
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Complete doravirine-based single-tablet regimen.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "DOR/3TC/TDF",
+    "componentClasses": "NNRTI, NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "doravirine, lamivudine, and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

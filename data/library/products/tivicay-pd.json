@@ -1,0 +1,47 @@
+{
+  "id": "tivicay-pd",
+  "brandName": "Tivicay PD",
+  "ingredients": [
+    "dolutegravir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet for oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2020-06-12",
+    "year": 2020,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Pediatric dispersible formulation of dolutegravir.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "DTG",
+    "componentClasses": "INSTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": true,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "INSTI",
+    "genericName": "dolutegravir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

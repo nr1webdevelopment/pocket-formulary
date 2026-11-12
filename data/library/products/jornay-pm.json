@@ -1,0 +1,40 @@
+{
+  "id": "jornay-pm",
+  "brandName": "Jornay PM",
+  "ingredients": [
+    "methylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Delayed-release/extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (evening)",
+  "manufacturer": "Collegium Pharmaceutical",
+  "approval": {
+    "date": null,
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Taken in the evening so it starts working on waking the next morning.",
+  "notes": null,
+  "attributes": {
+    "category": "Methylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "methylphenidate (delayed- and extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

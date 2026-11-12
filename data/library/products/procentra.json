@@ -1,0 +1,32 @@
+{
+  "id": "procentra",
+  "brandName": "ProCentra",
+  "ingredients": [
+    "dextroamphetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Oral solution",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ProCentra",
+      "title": "DailyMed: ProCentra",
+      "type": "label"
+    }
+  ]
+}

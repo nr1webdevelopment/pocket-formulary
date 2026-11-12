@@ -1,0 +1,47 @@
+{
+  "id": "viramune",
+  "brandName": "Viramune",
+  "ingredients": [
+    "nevirapine"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet; oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily (after 14-day lead-in)",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": "1996-06-21",
+    "year": 1996,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "First-generation non-nucleoside reverse transcriptase inhibitor.",
+  "notes": "Brand discontinued; generic nevirapine may still be available.",
+  "attributes": {
+    "abbreviation": "NVP",
+    "componentClasses": "NNRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NNRTI",
+    "genericName": "nevirapine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

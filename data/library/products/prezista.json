@@ -1,0 +1,47 @@
+{
+  "id": "prezista",
+  "brandName": "Prezista",
+  "ingredients": [
+    "darunavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily (with food and a booster)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2006-06-23",
+    "year": 2006,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Protease inhibitor with a high barrier to resistance; must be boosted.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "DRV",
+    "componentClasses": "PI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "PI",
+    "genericName": "darunavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

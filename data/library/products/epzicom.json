@@ -1,0 +1,48 @@
+{
+  "id": "epzicom",
+  "brandName": "Epzicom",
+  "ingredients": [
+    "abacavir",
+    "lamivudine"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2004-08-02",
+    "year": 2004,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Two-NRTI backbone pill, taken with a third drug.",
+  "notes": "Brand discontinued; generics may still be available.",
+  "attributes": {
+    "abbreviation": "ABC/3TC",
+    "componentClasses": "NRTI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "abacavir and lamivudine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "qelbree",
+  "brandName": "Qelbree",
+  "ingredients": [
+    "viloxazine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Supernus Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": 2021,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": null,
+  "description": "Non-stimulant option for children 6 and older and adults.",
+  "notes": null,
+  "attributes": {
+    "category": "Non-stimulant",
+    "type": "Non-stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "Selective norepinephrine reuptake inhibitor",
+    "genericName": "viloxazine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

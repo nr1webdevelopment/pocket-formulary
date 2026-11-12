@@ -1,0 +1,41 @@
+{
+  "id": "synjardy",
+  "brandName": "Synjardy",
+  "ingredients": [
+    "empagliflozin",
+    "metformin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; extended-release tablet (Synjardy XR)",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily with meals (XR once daily)",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Combines Jardiance with metformin.",
+  "notes": null,
+  "attributes": {
+    "category": "Combination pills",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor + biguanide",
+    "genericName": "empagliflozin and metformin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/tradjenta.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "tradjenta",
+    "brandName": "Tradjenta",
+    "ingredients": [
+      "linagliptin"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Boehringer Ingelheim",
+    "approval": {
+      "date": null,
+      "year": 2011,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "DPP-4 inhibitor that needs no dose change for kidney function.",
+    "notes": null,
+    "attributes": {
+      "category": "Oral: DPP-4 inhibitor",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "linagliptin",
+        "name": "linagliptin",
+        "kind": "drug",
+        "classes": [
+          "DPP-4 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glyxambi",
+          "Tradjenta"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/linagliptin.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/tradjenta.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json"
+    }
+  }
+}

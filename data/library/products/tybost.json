@@ -1,0 +1,47 @@
+{
+  "id": "tybost",
+  "brandName": "Tybost",
+  "ingredients": [
+    "cobicistat"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2014-09-24",
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Booster that raises blood levels of atazanavir or darunavir.",
+  "notes": "Brand discontinued; cobicistat remains inside combination products.",
+  "attributes": {
+    "abbreviation": "COBI",
+    "componentClasses": "Pharmacokinetic Enhancer",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Booster",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Pharmacokinetic Enhancer",
+    "genericName": "cobicistat"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

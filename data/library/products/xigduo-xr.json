@@ -1,0 +1,41 @@
+{
+  "id": "xigduo-xr",
+  "brandName": "Xigduo XR",
+  "ingredients": [
+    "dapagliflozin",
+    "metformin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning, with food)",
+  "manufacturer": "AstraZeneca",
+  "approval": {
+    "date": null,
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Combines Farxiga with extended-release metformin.",
+  "notes": null,
+  "attributes": {
+    "category": "Combination pills",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor + biguanide",
+    "genericName": "dapagliflozin and metformin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

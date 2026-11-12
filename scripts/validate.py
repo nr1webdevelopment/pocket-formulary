@@ -170,7 +170,12 @@ if __name__ == "__main__":
     cities = load_cities()
     n_p, n_m = check_providers(cities), check_medicines()
     check_dist()
+    # v2 medicine library (details: python3 scripts/validate_library.py)
+    import validate_library
+    lib_errors, lib_warnings, lib_summary = validate_library.check()
+    errors += [f"library: {e}" for e in lib_errors]
     for x in warnings: print("WARN ", x)
     for x in errors: print("ERROR", x)
     print(f"checked {n_m} medicines, {n_p} providers: {len(errors)} errors, {len(warnings)} warnings")
+    print(f"{lib_summary}: {len(lib_errors)} errors, {len(lib_warnings)} warnings (run scripts/validate_library.py for details)")
     sys.exit(1 if errors or ("--strict" in sys.argv and warnings) else 0)

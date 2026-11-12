@@ -1,0 +1,48 @@
+{
+  "id": "evotaz",
+  "brandName": "Evotaz",
+  "ingredients": [
+    "atazanavir",
+    "cobicistat"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with food)",
+  "manufacturer": "Bristol Myers Squibb",
+  "approval": {
+    "date": "2015-01-29",
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Atazanavir pre-boosted with cobicistat; taken with other HIV medicines.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "ATV/COBI",
+    "componentClasses": "PI, Pharmacokinetic Enhancer",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "atazanavir and cobicistat"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

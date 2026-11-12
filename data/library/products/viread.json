@@ -1,0 +1,47 @@
+{
+  "id": "viread",
+  "brandName": "Viread",
+  "ingredients": [
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral powder",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2001-10-26",
+    "year": 2001,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Nucleotide reverse transcriptase inhibitor; also approved for chronic hepatitis B.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "TDF",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

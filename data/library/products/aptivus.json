@@ -1,0 +1,47 @@
+{
+  "id": "aptivus",
+  "brandName": "Aptivus",
+  "ingredients": [
+    "tipranavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily (with ritonavir)",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": "2005-06-22",
+    "year": 2005,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Protease inhibitor for treatment-experienced patients with PI resistance.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "TPV",
+    "componentClasses": "PI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "PI",
+    "genericName": "tipranavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

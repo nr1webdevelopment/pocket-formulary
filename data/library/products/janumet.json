@@ -1,0 +1,41 @@
+{
+  "id": "janumet",
+  "brandName": "Janumet",
+  "ingredients": [
+    "sitagliptin",
+    "metformin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; extended-release tablet (Janumet XR)",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily with meals (XR once daily)",
+  "manufacturer": "Merck",
+  "approval": {
+    "date": null,
+    "year": 2007,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Combines Januvia with metformin in one tablet.",
+  "notes": null,
+  "attributes": {
+    "category": "Combination pills",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "DPP-4 inhibitor + biguanide",
+    "genericName": "sitagliptin and metformin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

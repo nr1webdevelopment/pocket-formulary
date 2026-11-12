@@ -1,0 +1,40 @@
+{
+  "id": "focalin-xr",
+  "brandName": "Focalin XR",
+  "ingredients": [
+    "dexmethylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release capsule",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Novartis",
+  "approval": {
+    "date": null,
+    "year": 2005,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting dexmethylphenidate.",
+  "notes": null,
+  "attributes": {
+    "category": "Dexmethylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "dexmethylphenidate (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

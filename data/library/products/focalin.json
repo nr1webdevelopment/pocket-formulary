@@ -1,0 +1,40 @@
+{
+  "id": "focalin",
+  "brandName": "Focalin",
+  "ingredients": [
+    "dexmethylphenidate"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily",
+  "manufacturer": "Novartis",
+  "approval": {
+    "date": null,
+    "year": 2001,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Short-acting dexmethylphenidate, the more active half of the methylphenidate molecule.",
+  "notes": null,
+  "attributes": {
+    "category": "Dexmethylphenidate",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (methylphenidate)",
+    "genericName": "dexmethylphenidate"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

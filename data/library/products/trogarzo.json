@@ -1,0 +1,47 @@
+{
+  "id": "trogarzo",
+  "brandName": "Trogarzo",
+  "ingredients": [
+    "ibalizumab"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Intravenous infusion or IV push",
+  "route": "Injection",
+  "dosingFrequency": "Every 2 weeks (after loading dose)",
+  "manufacturer": "Theratechnologies (TaiMed Biologics)",
+  "approval": {
+    "date": "2018-03-06",
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Monoclonal antibody for heavily treatment-experienced adults with multidrug-resistant HIV.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "IBA",
+    "componentClasses": "Post-Attachment Inhibitor",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Post-Attachment Inhibitor",
+    "genericName": "ibalizumab-uiyk"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1662,5 +1662,309 @@
   "es": "API gratuita de medicamentos",
   "pt": "API gratuita de medicamentos",
   "th": "API ข้อมูลยาฟรี"
+ },
+ "libTitle": {
+  "en": "In the medicine library",
+  "zh-Hans": "药物库中的结果",
+  "zh-Hant": "藥物庫中的結果",
+  "es": "En la biblioteca de medicamentos",
+  "pt": "Na biblioteca de medicamentos",
+  "th": "ในคลังข้อมูลยา"
+ },
+ "libIntro": {
+  "en": "Active ingredients from the wider NomadCeuticals library, with approved and off-label uses.",
+  "zh-Hans": "来自 NomadCeuticals 药物库的有效成分，包括获批用途和超说明书用途。",
+  "zh-Hant": "來自 NomadCeuticals 藥物庫的有效成分，包括核准用途和仿單外用途。",
+  "es": "Principios activos de la biblioteca de NomadCeuticals, con usos aprobados y fuera de indicación.",
+  "pt": "Substâncias ativas da biblioteca NomadCeuticals, com utilizações aprovadas e off-label.",
+  "th": "ตัวยาสำคัญจากคลังข้อมูลยาของ NomadCeuticals พร้อมข้อบ่งใช้ที่ได้รับอนุมัติและการใช้นอกข้อบ่งใช้"
+ },
+ "libApprovedFor": {
+  "en": "Approved for",
+  "zh-Hans": "获批用于",
+  "zh-Hant": "核准用於",
+  "es": "Aprobado para",
+  "pt": "Aprovado para",
+  "th": "ได้รับอนุมัติสำหรับ"
+ },
+ "libOffLabelFor": {
+  "en": "Used off-label for",
+  "zh-Hans": "超说明书用于",
+  "zh-Hant": "仿單外用於",
+  "es": "Uso fuera de indicación para",
+  "pt": "Uso off-label para",
+  "th": "ใช้นอกข้อบ่งใช้สำหรับ"
+ },
+ "libOffLabelExplain": {
+  "en": "Off-label means doctors sometimes prescribe it for this, but it isn't an approved use on the official label.",
+  "zh-Hans": "超说明书用药是指医生有时会这样开药，但这一用途不在官方说明书的获批适应症中。",
+  "zh-Hant": "仿單外使用是指醫師有時會這樣開藥，但這項用途不在官方仿單的核准適應症中。",
+  "es": "Fuera de indicación significa que a veces se receta para esto, pero no es un uso aprobado en la ficha técnica oficial.",
+  "pt": "Off-label significa que por vezes é receitado para isto, mas não é uma utilização aprovada no folheto oficial.",
+  "th": "การใช้นอกข้อบ่งใช้หมายถึงแพทย์อาจสั่งจ่ายยานี้สำหรับอาการนี้ แต่ไม่ได้เป็นข้อบ่งใช้ที่ได้รับอนุมัติในเอกสารกำกับยาอย่างเป็นทางการ"
+ },
+ "libBrands": {
+  "en": "Brands",
+  "zh-Hans": "品牌",
+  "zh-Hant": "品牌",
+  "es": "Marcas",
+  "pt": "Marcas",
+  "th": "ชื่อการค้า"
+ },
+ "libControlled": {
+  "en": "US controlled substance ({s})",
+  "zh-Hans": "美国管制药物（{s}）",
+  "zh-Hant": "美國管制藥品（{s}）",
+  "es": "Sustancia controlada en EE. UU. ({s})",
+  "pt": "Substância controlada nos EUA ({s})",
+  "th": "สารควบคุมในสหรัฐฯ ({s})"
+ },
+ "libUnverified": {
+  "en": "This library entry hasn't been checked against the official label yet. Confirm with a pharmacist.",
+  "zh-Hans": "此条目尚未与官方说明书核对，请向药剂师确认。",
+  "zh-Hant": "此條目尚未與官方仿單核對，請向藥師確認。",
+  "es": "Esta ficha aún no se ha comprobado con la ficha técnica oficial. Confírmalo con un farmacéutico.",
+  "pt": "Esta entrada ainda não foi confirmada com o folheto oficial. Confirme com um farmacêutico.",
+  "th": "ข้อมูลนี้ยังไม่ได้ตรวจสอบกับเอกสารกำกับยาอย่างเป็นทางการ โปรดยืนยันกับเภสัชกร"
+ },
+ "libNeedsReview": {
+  "en": "Flagged for review: some details may be wrong or out of date.",
+  "zh-Hans": "已标记待复核：部分信息可能有误或已过时。",
+  "zh-Hant": "已標記待複核：部分資訊可能有誤或已過時。",
+  "es": "Marcado para revisión: algunos datos pueden ser incorrectos o estar desactualizados.",
+  "pt": "Assinalado para revisão: alguns dados podem estar errados ou desatualizados.",
+  "th": "ถูกทำเครื่องหมายให้ตรวจสอบ: ข้อมูลบางส่วนอาจไม่ถูกต้องหรือล้าสมัย"
+ },
+ "libVia": {
+  "en": "as part of {list}",
+  "zh-Hans": "作为 {list} 的成分",
+  "zh-Hant": "作為 {list} 的成分",
+  "es": "como parte de {list}",
+  "pt": "como parte de {list}",
+  "th": "เป็นส่วนหนึ่งของ {list}"
+ },
+ "libJson": {
+  "en": "This entry as JSON (API)",
+  "zh-Hans": "此条目的 JSON（API）",
+  "zh-Hant": "此條目的 JSON（API）",
+  "es": "Esta ficha en JSON (API)",
+  "pt": "Esta entrada em JSON (API)",
+  "th": "ข้อมูลนี้ในรูปแบบ JSON (API)"
+ },
+ "libIngredientsTitle": {
+  "en": "Ingredients in the medicine library",
+  "zh-Hans": "药物库中的成分",
+  "zh-Hant": "藥物庫中的成分",
+  "es": "Principios activos en la biblioteca",
+  "pt": "Substâncias ativas na biblioteca",
+  "th": "ตัวยาในคลังข้อมูลยา"
+ },
+ "libNoUses": {
+  "en": "No uses recorded yet.",
+  "zh-Hans": "暂无用途记录。",
+  "zh-Hant": "暫無用途記錄。",
+  "es": "Aún no hay usos registrados.",
+  "pt": "Ainda não há utilizações registadas.",
+  "th": "ยังไม่มีข้อมูลการใช้"
+ },
+ "libStatus_available": {
+  "en": "Available",
+  "zh-Hans": "有售",
+  "zh-Hant": "有售",
+  "es": "Disponible",
+  "pt": "Disponível",
+  "th": "มีจำหน่าย"
+ },
+ "libStatus_discontinued": {
+  "en": "Discontinued",
+  "zh-Hans": "已停产",
+  "zh-Hant": "已停產",
+  "es": "Descontinuado",
+  "pt": "Descontinuado",
+  "th": "เลิกผลิตแล้ว"
+ },
+ "libStatus_unknown": {
+  "en": "Status unknown",
+  "zh-Hans": "状态未知",
+  "zh-Hant": "狀態未知",
+  "es": "Estado desconocido",
+  "pt": "Estado desconhecido",
+  "th": "ไม่ทราบสถานะ"
+ },
+ "fda_approved": {
+  "en": "FDA approved",
+  "zh-Hans": "FDA 批准",
+  "zh-Hant": "FDA 核准",
+  "es": "Aprobado por la FDA",
+  "pt": "Aprovado pela FDA",
+  "th": "FDA อนุมัติ"
+ },
+ "fda_otc_monograph": {
+  "en": "FDA over-the-counter monograph",
+  "zh-Hans": "FDA 非处方药专论",
+  "zh-Hant": "FDA 非處方藥專論",
+  "es": "Monografía de venta libre de la FDA",
+  "pt": "Monografia de venda livre da FDA",
+  "th": "ยาจำหน่ายทั่วไปตามมอโนกราฟของ FDA"
+ },
+ "fda_not_approved": {
+  "en": "Not FDA approved",
+  "zh-Hans": "未获 FDA 批准",
+  "zh-Hant": "未獲 FDA 核准",
+  "es": "No aprobado por la FDA",
+  "pt": "Não aprovado pela FDA",
+  "th": "ไม่ได้รับอนุมัติจาก FDA"
+ },
+ "fda_withdrawn": {
+  "en": "Withdrawn in the US",
+  "zh-Hans": "已在美国撤市",
+  "zh-Hant": "已在美國下市",
+  "es": "Retirado en EE. UU.",
+  "pt": "Retirado nos EUA",
+  "th": "ถูกถอนออกจากตลาดในสหรัฐฯ"
+ },
+ "fda_investigational": {
+  "en": "Investigational (not approved)",
+  "zh-Hans": "研究阶段（未获批）",
+  "zh-Hant": "研究階段（未獲核准）",
+  "es": "En investigación (no aprobado)",
+  "pt": "Em investigação (não aprovado)",
+  "th": "อยู่ระหว่างการวิจัย (ยังไม่ได้รับอนุมัติ)"
+ },
+ "fda_unknown": {
+  "en": "FDA status not confirmed",
+  "zh-Hans": "FDA 状态未确认",
+  "zh-Hant": "FDA 狀態未確認",
+  "es": "Estado ante la FDA sin confirmar",
+  "pt": "Estado na FDA por confirmar",
+  "th": "ยังไม่ยืนยันสถานะ FDA"
+ },
+ "fdaApprovedIn": {
+  "en": "Approved in {list}",
+  "zh-Hans": "已在 {list} 获批",
+  "zh-Hant": "已在 {list} 核准",
+  "es": "Aprobado en {list}",
+  "pt": "Aprovado em {list}",
+  "th": "ได้รับอนุมัติใน {list}"
+ },
+ "lc_hiv": {
+  "en": "HIV (treatment and prevention)",
+  "zh-Hans": "HIV（治疗和预防）",
+  "zh-Hant": "HIV（治療和預防）",
+  "es": "VIH (tratamiento y prevención)",
+  "pt": "HIV (tratamento e prevenção)",
+  "th": "เอชไอวี (การรักษาและการป้องกัน)"
+ },
+ "lc_hepatitis-b": {
+  "en": "Chronic hepatitis B",
+  "zh-Hans": "慢性乙型肝炎",
+  "zh-Hant": "慢性B型肝炎",
+  "es": "Hepatitis B crónica",
+  "pt": "Hepatite B crónica",
+  "th": "ไวรัสตับอักเสบบีเรื้อรัง"
+ },
+ "lc_adhd": {
+  "en": "ADHD",
+  "zh-Hans": "ADHD",
+  "zh-Hant": "ADHD",
+  "es": "TDAH",
+  "pt": "PHDA",
+  "th": "สมาธิสั้น"
+ },
+ "lc_depression": {
+  "en": "Depression",
+  "zh-Hans": "抑郁症",
+  "zh-Hant": "憂鬱症",
+  "es": "Depresión",
+  "pt": "Depressão",
+  "th": "โรคซึมเศร้า"
+ },
+ "lc_postpartum-depression": {
+  "en": "Postpartum depression",
+  "zh-Hans": "产后抑郁症",
+  "zh-Hant": "產後憂鬱症",
+  "es": "Depresión posparto",
+  "pt": "Depressão pós-parto",
+  "th": "ภาวะซึมเศร้าหลังคลอด"
+ },
+ "lc_anxiety": {
+  "en": "Anxiety disorders",
+  "zh-Hans": "焦虑症",
+  "zh-Hant": "焦慮症",
+  "es": "Trastornos de ansiedad",
+  "pt": "Perturbações de ansiedade",
+  "th": "โรควิตกกังวล"
+ },
+ "lc_diabetes": {
+  "en": "Diabetes",
+  "zh-Hans": "糖尿病",
+  "zh-Hant": "糖尿病",
+  "es": "Diabetes",
+  "pt": "Diabetes",
+  "th": "เบาหวาน"
+ },
+ "lc_allergic-rhinitis": {
+  "en": "Allergic rhinitis (hay fever)",
+  "zh-Hans": "过敏性鼻炎",
+  "zh-Hant": "過敏性鼻炎",
+  "es": "Rinitis alérgica",
+  "pt": "Rinite alérgica",
+  "th": "โรคจมูกอักเสบจากภูมิแพ้"
+ },
+ "lc_nasal-polyps": {
+  "en": "Nasal polyps",
+  "zh-Hans": "鼻息肉",
+  "zh-Hant": "鼻息肉",
+  "es": "Pólipos nasales",
+  "pt": "Pólipos nasais",
+  "th": "ริดสีดวงจมูก"
+ },
+ "lc_nasal-congestion": {
+  "en": "Nasal congestion",
+  "zh-Hans": "鼻塞",
+  "zh-Hant": "鼻塞",
+  "es": "Congestión nasal",
+  "pt": "Congestão nasal",
+  "th": "คัดจมูก"
+ },
+ "lc_otitis-media": {
+  "en": "Middle-ear infection",
+  "zh-Hans": "中耳炎",
+  "zh-Hant": "中耳炎",
+  "es": "Otitis media (infección del oído medio)",
+  "pt": "Otite média",
+  "th": "หูชั้นกลางอักเสบ"
+ },
+ "lc_otitis-externa": {
+  "en": "Swimmer's ear (outer-ear infection)",
+  "zh-Hans": "外耳炎（游泳耳）",
+  "zh-Hant": "外耳炎（游泳耳）",
+  "es": "Otitis externa (oído de nadador)",
+  "pt": "Otite externa",
+  "th": "หูชั้นนอกอักเสบ"
+ },
+ "lc_pharyngitis": {
+  "en": "Bacterial sore throat and tonsillitis",
+  "zh-Hans": "细菌性咽炎和扁桃体炎",
+  "zh-Hant": "細菌性咽炎和扁桃腺炎",
+  "es": "Faringitis y amigdalitis bacterianas",
+  "pt": "Faringite e amigdalite bacterianas",
+  "th": "คอหอยและต่อมทอนซิลอักเสบจากแบคทีเรีย"
+ },
+ "lc_vertigo": {
+  "en": "Vertigo",
+  "zh-Hans": "眩晕",
+  "zh-Hant": "眩暈",
+  "es": "Vértigo",
+  "pt": "Vertigem",
+  "th": "อาการบ้านหมุน"
+ },
+ "lc_urticaria": {
+  "en": "Chronic hives (urticaria)",
+  "zh-Hans": "慢性荨麻疹",
+  "zh-Hant": "慢性蕁麻疹",
+  "es": "Urticaria crónica",
+  "pt": "Urticária crónica",
+  "th": "ลมพิษเรื้อรัง"
  }
 }

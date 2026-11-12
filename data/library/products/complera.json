@@ -1,0 +1,49 @@
+{
+  "id": "complera",
+  "brandName": "Complera",
+  "ingredients": [
+    "emtricitabine",
+    "rilpivirine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with a meal)",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2011-08-10",
+    "year": 2011,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Complete rilpivirine-based single-tablet regimen (TDF version).",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "FTC/RPV/TDF",
+    "componentClasses": "NNRTI, NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "emtricitabine, rilpivirine, and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

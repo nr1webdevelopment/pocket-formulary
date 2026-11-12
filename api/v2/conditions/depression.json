@@ -1,0 +1,629 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/depression.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "depression",
+    "name": "Depression",
+    "area": "mental-health",
+    "aliases": [
+      "major depressive disorder",
+      "MDD"
+    ],
+    "parent": null,
+    "approvedCount": 25,
+    "offLabelCount": 0
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "amitriptyline",
+        "name": "amitriptyline",
+        "kind": "drug",
+        "classes": [
+          "Tricyclic antidepressant (TCA)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Elavil"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/amitriptyline.json"
+      },
+      {
+        "id": "aripiprazole",
+        "name": "aripiprazole",
+        "kind": "drug",
+        "classes": [
+          "Atypical antipsychotic (add-on for depression)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Abilify"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/aripiprazole.json"
+      },
+      {
+        "id": "brexpiprazole",
+        "name": "brexpiprazole",
+        "kind": "drug",
+        "classes": [
+          "Atypical antipsychotic (add-on for depression)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Rexulti"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/brexpiprazole.json"
+      },
+      {
+        "id": "bupropion",
+        "name": "bupropion",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant (NDRI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [
+          "adhd"
+        ],
+        "controlled": {},
+        "brands": [
+          "Aplenzin",
+          "Auvelity",
+          "Wellbutrin SR",
+          "Wellbutrin XL",
+          "Zyban"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
+      },
+      {
+        "id": "cariprazine",
+        "name": "cariprazine",
+        "kind": "drug",
+        "classes": [
+          "Atypical antipsychotic (add-on for depression)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Vraylar"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/cariprazine.json"
+      },
+      {
+        "id": "citalopram",
+        "name": "citalopram",
+        "kind": "drug",
+        "classes": [
+          "SSRI (selective serotonin reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [
+          "anxiety"
+        ],
+        "controlled": {},
+        "brands": [
+          "Celexa"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/citalopram.json"
+      },
+      {
+        "id": "desvenlafaxine",
+        "name": "desvenlafaxine",
+        "kind": "drug",
+        "classes": [
+          "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Pristiq"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/desvenlafaxine.json"
+      },
+      {
+        "id": "dextromethorphan",
+        "name": "dextromethorphan",
+        "kind": "drug",
+        "classes": [
+          "NMDA receptor antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Auvelity"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dextromethorphan.json"
+      },
+      {
+        "id": "duloxetine",
+        "name": "duloxetine",
+        "kind": "drug",
+        "classes": [
+          "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cymbalta",
+          "Drizalma Sprinkle"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/duloxetine.json"
+      },
+      {
+        "id": "escitalopram",
+        "name": "escitalopram",
+        "kind": "drug",
+        "classes": [
+          "SSRI (selective serotonin reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Lexapro"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/escitalopram.json"
+      },
+      {
+        "id": "esketamine",
+        "name": "esketamine",
+        "kind": "drug",
+        "classes": [
+          "NMDA receptor antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CIII"
+        },
+        "brands": [
+          "Spravato"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/esketamine.json"
+      },
+      {
+        "id": "fluoxetine",
+        "name": "fluoxetine",
+        "kind": "drug",
+        "classes": [
+          "SSRI (selective serotonin reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Prozac"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/fluoxetine.json"
+      },
+      {
+        "id": "gepirone",
+        "name": "gepirone",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Exxua"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/gepirone.json"
+      },
+      {
+        "id": "levomilnacipran",
+        "name": "levomilnacipran",
+        "kind": "drug",
+        "classes": [
+          "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Fetzima"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/levomilnacipran.json"
+      },
+      {
+        "id": "mirtazapine",
+        "name": "mirtazapine",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [
+          "anxiety"
+        ],
+        "controlled": {},
+        "brands": [
+          "Remeron",
+          "Remeron SolTab"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/mirtazapine.json"
+      },
+      {
+        "id": "nortriptyline",
+        "name": "nortriptyline",
+        "kind": "drug",
+        "classes": [
+          "Tricyclic antidepressant (TCA)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Pamelor"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/nortriptyline.json"
+      },
+      {
+        "id": "paroxetine",
+        "name": "paroxetine",
+        "kind": "drug",
+        "classes": [
+          "SSRI (selective serotonin reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Paxil",
+          "Pexeva"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/paroxetine.json"
+      },
+      {
+        "id": "phenelzine",
+        "name": "phenelzine",
+        "kind": "drug",
+        "classes": [
+          "MAO inhibitor (MAOI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [
+          "anxiety"
+        ],
+        "controlled": {},
+        "brands": [
+          "Nardil"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/phenelzine.json"
+      },
+      {
+        "id": "quetiapine",
+        "name": "quetiapine",
+        "kind": "drug",
+        "classes": [
+          "Atypical antipsychotic (add-on for depression)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Seroquel XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/quetiapine.json"
+      },
+      {
+        "id": "selegiline",
+        "name": "selegiline",
+        "kind": "drug",
+        "classes": [
+          "MAO inhibitor (MAOI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Emsam"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/selegiline.json"
+      },
+      {
+        "id": "sertraline",
+        "name": "sertraline",
+        "kind": "drug",
+        "classes": [
+          "SSRI (selective serotonin reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Zoloft"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/sertraline.json"
+      },
+      {
+        "id": "trazodone",
+        "name": "trazodone",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Desyrel"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/trazodone.json"
+      },
+      {
+        "id": "venlafaxine",
+        "name": "venlafaxine",
+        "kind": "drug",
+        "classes": [
+          "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "anxiety",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Effexor XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/venlafaxine.json"
+      },
+      {
+        "id": "vilazodone",
+        "name": "vilazodone",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Viibryd"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/vilazodone.json"
+      },
+      {
+        "id": "vortioxetine",
+        "name": "vortioxetine",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Trintellix"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/vortioxetine.json"
+      }
+    ],
+    "offLabel": []
+  }
+}

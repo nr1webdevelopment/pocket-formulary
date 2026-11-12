@@ -1,0 +1,40 @@
+{
+  "id": "levemir",
+  "brandName": "Levemir",
+  "ingredients": [
+    "insulin-detemir"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Injection (pen, vial)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2005,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Long-acting basal insulin.",
+  "notes": "Discontinued in the US at the end of 2024.",
+  "attributes": {
+    "category": "Insulin: long-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Long-acting insulin analog",
+    "genericName": "insulin detemir"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

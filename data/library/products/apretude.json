@@ -1,0 +1,47 @@
+{
+  "id": "apretude",
+  "brandName": "Apretude",
+  "ingredients": [
+    "cabotegravir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Intramuscular injection",
+  "route": "Injection",
+  "dosingFrequency": "Every 2 months (after 2 monthly starter injections)",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2021-12-20",
+    "year": 2021,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "First long-acting injectable for HIV prevention (PrEP).",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "CAB-LA",
+    "componentClasses": "INSTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "PrEP",
+    "longActing": true,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "INSTI",
+    "genericName": "cabotegravir (extended-release injection)"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

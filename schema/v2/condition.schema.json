@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nomadceuticals.com/schema/v2/condition.schema.json",
+  "title": "Condition",
+  "description": "A condition or use that medicines are approved or used for, grouped into therapeutic areas.",
+  "type": "object",
+  "required": ["id", "name", "area"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "name": {"type": "string"},
+    "area": {"enum": ["infectious-disease", "mental-health", "endocrine", "ent", "oncology", "cardiovascular", "respiratory", "neurology", "dermatology", "gastroenterology", "other"]},
+    "aliases": {"type": "array", "items": {"type": "string"}},
+    "parent": {"type": ["string", "null"], "description": "Broader condition id, e.g. postpartum-depression -> depression."}
+  }
+}

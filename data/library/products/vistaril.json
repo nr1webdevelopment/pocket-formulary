@@ -1,0 +1,32 @@
+{
+  "id": "vistaril",
+  "brandName": "Vistaril",
+  "ingredients": [
+    "hydroxyzine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "anxiety"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Vistaril",
+      "title": "DailyMed: Vistaril",
+      "type": "label"
+    }
+  ]
+}

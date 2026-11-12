@@ -1,0 +1,61 @@
+{
+  "id": "dexamethasone",
+  "name": "dexamethasone",
+  "synonyms": [],
+  "kind": "drug",
+  "classes": [
+    {
+      "name": "Corticosteroid",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-12",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "uses": [
+    {
+      "condition": "otitis-externa",
+      "type": "approved",
+      "jurisdiction": "US",
+      "note": "Ear drops with ciprofloxacin (Ciprodex)",
+      "via": [
+        "ciprodex"
+      ]
+    },
+    {
+      "condition": "otitis-media",
+      "type": "approved",
+      "jurisdiction": "US",
+      "note": "Ear drops with ciprofloxacin (Ciprodex)",
+      "via": [
+        "ciprodex"
+      ]
+    }
+  ],
+  "controlled": [],
+  "summary": null,
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-12",
+    "by": null,
+    "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dexamethasone",
+      "title": "DailyMed labels for dexamethasone",
+      "type": "label"
+    }
+  ]
+}

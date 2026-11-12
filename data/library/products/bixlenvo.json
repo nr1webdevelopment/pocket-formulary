@@ -1,0 +1,48 @@
+{
+  "id": "bixlenvo",
+  "brandName": "Bixlenvo",
+  "ingredients": [
+    "bictegravir",
+    "lenacapavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2026-08-27",
+    "year": 2026,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Two-drug single-tablet regimen for virologically suppressed adults, including those switching from complex regimens.",
+  "notes": "New in 2026. Starts with a 2-day initiation that adds Sunlenca tablets.",
+  "attributes": {
+    "abbreviation": "BIC/LEN",
+    "componentClasses": "INSTI, Capsid Inhibitor",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "bictegravir and lenacapavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

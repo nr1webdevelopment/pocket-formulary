@@ -1,0 +1,40 @@
+{
+  "id": "tradjenta",
+  "brandName": "Tradjenta",
+  "ingredients": [
+    "linagliptin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": null,
+    "year": 2011,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "DPP-4 inhibitor that needs no dose change for kidney function.",
+  "notes": null,
+  "attributes": {
+    "category": "Oral: DPP-4 inhibitor",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "DPP-4 inhibitor",
+    "genericName": "linagliptin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

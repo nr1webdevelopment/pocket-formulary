@@ -1,0 +1,41 @@
+{
+  "id": "glyxambi",
+  "brandName": "Glyxambi",
+  "ingredients": [
+    "empagliflozin",
+    "linagliptin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Combines Jardiance with Tradjenta.",
+  "notes": null,
+  "attributes": {
+    "category": "Combination pills",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor + DPP-4 inhibitor",
+    "genericName": "empagliflozin and linagliptin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

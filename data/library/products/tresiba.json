@@ -1,0 +1,40 @@
+{
+  "id": "tresiba",
+  "brandName": "Tresiba",
+  "ingredients": [
+    "insulin-degludec"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, vial)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once daily (flexible timing)",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Ultra-long-acting basal insulin lasting over 42 hours.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: long-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Ultra-long-acting insulin analog",
+    "genericName": "insulin degludec"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

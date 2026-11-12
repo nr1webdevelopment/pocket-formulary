@@ -1,0 +1,30 @@
+{
+  "id": "inderal",
+  "brandName": "Inderal",
+  "ingredients": [
+    "propranolol"
+  ],
+  "jurisdiction": "US",
+  "status": "unknown",
+  "form": "Tablet",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Inderal",
+      "title": "DailyMed: Inderal",
+      "type": "label"
+    }
+  ]
+}

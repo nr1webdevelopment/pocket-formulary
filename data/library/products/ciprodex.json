@@ -1,0 +1,34 @@
+{
+  "id": "ciprodex",
+  "brandName": "Ciprodex",
+  "ingredients": [
+    "ciprofloxacin",
+    "dexamethasone"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Ear drops (suspension)",
+  "route": "Otic",
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "otitis-media",
+    "otitis-externa"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Ciprodex",
+      "title": "DailyMed: Ciprodex",
+      "type": "label"
+    }
+  ]
+}

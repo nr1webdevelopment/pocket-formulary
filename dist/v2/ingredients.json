@@ -1,0 +1,5910 @@
+{
+  "dataset": "nomadceuticals-library",
+  "version": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "schemas": {
+    "ingredient": "https://nomadceuticals.com/schema/v2/ingredient.schema.json",
+    "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
+    "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
+  },
+  "count": 116,
+  "data": [
+    {
+      "id": "abacavir",
+      "name": "abacavir",
+      "synonyms": [
+        "ABC"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=abacavir",
+          "title": "DailyMed labels for abacavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "alogliptin",
+      "name": "alogliptin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "DPP-4 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=alogliptin",
+          "title": "DailyMed labels for alogliptin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "alprazolam",
+      "name": "alprazolam",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Benzodiazepine",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=alprazolam",
+          "title": "DailyMed labels for alprazolam",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "amitriptyline",
+      "name": "amitriptyline",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Tricyclic antidepressant (TCA)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amitriptyline",
+          "title": "DailyMed labels for amitriptyline",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "amoxicillin",
+      "name": "amoxicillin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Penicillin antibiotic",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "otitis-media",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "pharyngitis",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Infections of the ear, nose and throat"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amoxicillin",
+          "title": "DailyMed labels for amoxicillin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "amphetamine",
+      "name": "amphetamine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (amphetamine)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=amphetamine",
+          "title": "DailyMed labels for amphetamine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "aripiprazole",
+      "name": "aripiprazole",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antipsychotic (add-on for depression)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=aripiprazole",
+          "title": "DailyMed labels for aripiprazole",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "atazanavir",
+      "name": "atazanavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atazanavir",
+          "title": "DailyMed labels for atazanavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "atomoxetine",
+      "name": "atomoxetine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Selective norepinephrine reuptake inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=atomoxetine",
+          "title": "DailyMed labels for atomoxetine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "azelastine",
+      "name": "azelastine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Antihistamine (nasal)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "allergic-rhinitis",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Nasal spray"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=azelastine",
+          "title": "DailyMed labels for azelastine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "bexagliflozin",
+      "name": "bexagliflozin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SGLT2 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=bexagliflozin",
+          "title": "DailyMed labels for bexagliflozin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "bictegravir",
+      "name": "bictegravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "INSTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "biktarvy",
+            "bixlenvo"
+          ],
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=bictegravir",
+          "title": "DailyMed labels for bictegravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "brexanolone",
+      "name": "brexanolone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Neuroactive steroid (GABA-A modulator)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "postpartum-depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=brexanolone",
+          "title": "DailyMed labels for brexanolone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "brexpiprazole",
+      "name": "brexpiprazole",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antipsychotic (add-on for depression)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=brexpiprazole",
+          "title": "DailyMed labels for brexpiprazole",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "bupropion",
+      "name": "bupropion",
+      "synonyms": [
+        "bupropion hydrochloride",
+        "amfebutamone"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant (NDRI)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "adhd",
+          "type": "off-label",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=bupropion",
+          "title": "DailyMed labels for bupropion",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "buspirone",
+      "name": "buspirone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Azapirone anxiolytic",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=buspirone",
+          "title": "DailyMed labels for buspirone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "cabotegravir",
+      "name": "cabotegravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "INSTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cabotegravir",
+          "title": "DailyMed labels for cabotegravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "canagliflozin",
+      "name": "canagliflozin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SGLT2 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=canagliflozin",
+          "title": "DailyMed labels for canagliflozin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "cariprazine",
+      "name": "cariprazine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antipsychotic (add-on for depression)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cariprazine",
+          "title": "DailyMed labels for cariprazine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "centanafadine",
+      "name": "centanafadine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=centanafadine",
+          "title": "DailyMed labels for centanafadine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "cetirizine",
+      "name": "cetirizine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Antihistamine (second-generation)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "allergic-rhinitis",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "urticaria",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cetirizine",
+          "title": "DailyMed labels for cetirizine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "ciprofloxacin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Fluoroquinolone antibiotic",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "otitis-externa",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops"
+        },
+        {
+          "condition": "otitis-media",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops with dexamethasone, for infections with ear tubes"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ciprofloxacin",
+          "title": "DailyMed labels for ciprofloxacin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "citalopram",
+      "name": "citalopram",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SSRI (selective serotonin reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "anxiety",
+          "type": "off-label",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=citalopram",
+          "title": "DailyMed labels for citalopram",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "clonazepam",
+      "name": "clonazepam",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Benzodiazepine",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clonazepam",
+          "title": "DailyMed labels for clonazepam",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "clonidine",
+      "name": "clonidine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Alpha-2 adrenergic agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=clonidine",
+          "title": "DailyMed labels for clonidine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "cobicistat",
+      "name": "cobicistat",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Pharmacokinetic Enhancer",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=cobicistat",
+          "title": "DailyMed labels for cobicistat",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dapagliflozin",
+      "name": "dapagliflozin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SGLT2 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dapagliflozin",
+          "title": "DailyMed labels for dapagliflozin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "darunavir",
+      "name": "darunavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=darunavir",
+          "title": "DailyMed labels for darunavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "desvenlafaxine",
+      "name": "desvenlafaxine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SNRI (serotonin-norepinephrine reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=desvenlafaxine",
+          "title": "DailyMed labels for desvenlafaxine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dexamethasone",
+      "name": "dexamethasone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Corticosteroid",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "otitis-externa",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops with ciprofloxacin (Ciprodex)",
+          "via": [
+            "ciprodex"
+          ]
+        },
+        {
+          "condition": "otitis-media",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops with ciprofloxacin (Ciprodex)",
+          "via": [
+            "ciprodex"
+          ]
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dexamethasone",
+          "title": "DailyMed labels for dexamethasone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dexmethylphenidate",
+      "name": "dexmethylphenidate",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (methylphenidate)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dexmethylphenidate",
+          "title": "DailyMed labels for dexmethylphenidate",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dextroamphetamine",
+      "name": "dextroamphetamine",
+      "synonyms": [
+        "dexamfetamine"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (amphetamine)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dextroamphetamine",
+          "title": "DailyMed labels for dextroamphetamine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dextromethorphan",
+      "name": "dextromethorphan",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NMDA receptor antagonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "auvelity"
+          ]
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dextromethorphan",
+          "title": "DailyMed labels for dextromethorphan",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "diazepam",
+      "name": "diazepam",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Benzodiazepine",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=diazepam",
+          "title": "DailyMed labels for diazepam",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dolutegravir",
+      "name": "dolutegravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "INSTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dolutegravir",
+          "title": "DailyMed labels for dolutegravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "doravirine",
+      "name": "doravirine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NNRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=doravirine",
+          "title": "DailyMed labels for doravirine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dulaglutide",
+      "name": "dulaglutide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "GLP-1 receptor agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dulaglutide",
+          "title": "DailyMed labels for dulaglutide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "duloxetine",
+      "name": "duloxetine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SNRI (serotonin-norepinephrine reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=duloxetine",
+          "title": "DailyMed labels for duloxetine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dupilumab",
+      "name": "dupilumab",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Monoclonal antibody (IL-4/IL-13 blocker)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "nasal-polyps",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Also approved for other conditions, including atopic dermatitis and asthma"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dupilumab",
+          "title": "DailyMed labels for dupilumab",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "efavirenz",
+      "name": "efavirenz",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NNRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=efavirenz",
+          "title": "DailyMed labels for efavirenz",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "elvitegravir",
+      "name": "elvitegravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "INSTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "genvoya",
+            "stribild"
+          ],
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=elvitegravir",
+          "title": "DailyMed labels for elvitegravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "empagliflozin",
+      "name": "empagliflozin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SGLT2 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=empagliflozin",
+          "title": "DailyMed labels for empagliflozin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "emtricitabine",
+      "name": "emtricitabine",
+      "synonyms": [
+        "FTC"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=emtricitabine",
+          "title": "DailyMed labels for emtricitabine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "enfuvirtide",
+      "name": "enfuvirtide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Fusion Inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=enfuvirtide",
+          "title": "DailyMed labels for enfuvirtide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ertugliflozin",
+      "name": "ertugliflozin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SGLT2 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ertugliflozin",
+          "title": "DailyMed labels for ertugliflozin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "escitalopram",
+      "name": "escitalopram",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SSRI (selective serotonin reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=escitalopram",
+          "title": "DailyMed labels for escitalopram",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "esketamine",
+      "name": "esketamine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NMDA receptor antagonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=esketamine",
+          "title": "DailyMed labels for esketamine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "etravirine",
+      "name": "etravirine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NNRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=etravirine",
+          "title": "DailyMed labels for etravirine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "fluoxetine",
+      "name": "fluoxetine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SSRI (selective serotonin reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fluoxetine",
+          "title": "DailyMed labels for fluoxetine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "fluticasone",
+      "name": "fluticasone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Corticosteroid (nasal)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "allergic-rhinitis",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Nasal spray (fluticasone propionate or furoate)"
+        },
+        {
+          "condition": "nasal-polyps",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Nasal spray (fluticasone propionate, Xhance)"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fluticasone",
+          "title": "DailyMed labels for fluticasone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "fosamprenavir",
+      "name": "fosamprenavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fosamprenavir",
+          "title": "DailyMed labels for fosamprenavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "fostemsavir",
+      "name": "fostemsavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Attachment Inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=fostemsavir",
+          "title": "DailyMed labels for fostemsavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "gepirone",
+      "name": "gepirone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=gepirone",
+          "title": "DailyMed labels for gepirone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "glimepiride",
+      "name": "glimepiride",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Sulfonylurea",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=glimepiride",
+          "title": "DailyMed labels for glimepiride",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "glipizide",
+      "name": "glipizide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Sulfonylurea",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=glipizide",
+          "title": "DailyMed labels for glipizide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "glucagon",
+      "name": "glucagon",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Glucagon (hypoglycemia rescue)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=glucagon",
+          "title": "DailyMed labels for glucagon",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "guanfacine",
+      "name": "guanfacine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Alpha-2A adrenergic agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=guanfacine",
+          "title": "DailyMed labels for guanfacine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "hydroxyzine",
+      "name": "hydroxyzine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Antihistamine (anxiolytic)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=hydroxyzine",
+          "title": "DailyMed labels for hydroxyzine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ibalizumab",
+      "name": "ibalizumab",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Post-Attachment Inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ibalizumab",
+          "title": "DailyMed labels for ibalizumab",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-aspart",
+      "name": "insulin aspart",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Rapid-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+aspart",
+          "title": "DailyMed labels for insulin aspart",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-degludec",
+      "name": "insulin degludec",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Ultra-long-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+degludec",
+          "title": "DailyMed labels for insulin degludec",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-detemir",
+      "name": "insulin detemir",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Long-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+detemir",
+          "title": "DailyMed labels for insulin detemir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-glargine",
+      "name": "insulin glargine",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Long-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+glargine",
+          "title": "DailyMed labels for insulin glargine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-glulisine",
+      "name": "insulin glulisine",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Rapid-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+glulisine",
+          "title": "DailyMed labels for insulin glulisine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-human",
+      "name": "insulin human",
+      "synonyms": [
+        "regular insulin",
+        "human insulin"
+      ],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Inhaled rapid-acting insulin",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+human",
+          "title": "DailyMed labels for insulin human",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-icodec",
+      "name": "insulin icodec",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Once-weekly basal insulin",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+icodec",
+          "title": "DailyMed labels for insulin icodec",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-isophane-human",
+      "name": "insulin isophane human",
+      "synonyms": [
+        "NPH insulin",
+        "isophane insulin"
+      ],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Intermediate-acting human insulin",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+isophane+human",
+          "title": "DailyMed labels for insulin isophane human",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "insulin-lispro",
+      "name": "insulin lispro",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Rapid-acting insulin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+lispro",
+          "title": "DailyMed labels for insulin lispro",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "islatravir",
+      "name": "islatravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "idvynso"
+          ],
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=islatravir",
+          "title": "DailyMed labels for islatravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lamivudine",
+      "name": "lamivudine",
+      "synonyms": [
+        "3TC"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lamivudine",
+          "title": "DailyMed labels for lamivudine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lenacapavir",
+      "name": "lenacapavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Capsid Inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lenacapavir",
+          "title": "DailyMed labels for lenacapavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "levomilnacipran",
+      "name": "levomilnacipran",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SNRI (serotonin-norepinephrine reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=levomilnacipran",
+          "title": "DailyMed labels for levomilnacipran",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "linagliptin",
+      "name": "linagliptin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "DPP-4 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=linagliptin",
+          "title": "DailyMed labels for linagliptin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "liraglutide",
+      "name": "liraglutide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "GLP-1 receptor agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=liraglutide",
+          "title": "DailyMed labels for liraglutide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lisdexamfetamine",
+      "name": "lisdexamfetamine",
+      "synonyms": [
+        "lisdexamfetamine dimesylate"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (amphetamine)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lisdexamfetamine",
+          "title": "DailyMed labels for lisdexamfetamine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lixisenatide",
+      "name": "lixisenatide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "GLP-1 receptor agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "soliqua-100-33"
+          ],
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lixisenatide",
+          "title": "DailyMed labels for lixisenatide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lopinavir",
+      "name": "lopinavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "kaletra"
+          ],
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lopinavir",
+          "title": "DailyMed labels for lopinavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "lorazepam",
+      "name": "lorazepam",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Benzodiazepine",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=lorazepam",
+          "title": "DailyMed labels for lorazepam",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "maraviroc",
+      "name": "maraviroc",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CCR5 Antagonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=maraviroc",
+          "title": "DailyMed labels for maraviroc",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "meclizine",
+      "name": "meclizine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Antihistamine (antivertigo)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "vertigo",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Vertigo from inner-ear (vestibular) problems"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=meclizine",
+          "title": "DailyMed labels for meclizine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "metformin",
+      "name": "metformin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Biguanide",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=metformin",
+          "title": "DailyMed labels for metformin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "methylphenidate",
+      "name": "methylphenidate",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (methylphenidate)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=methylphenidate",
+          "title": "DailyMed labels for methylphenidate",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "mirtazapine",
+      "name": "mirtazapine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "anxiety",
+          "type": "off-label",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mirtazapine",
+          "title": "DailyMed labels for mirtazapine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "mixed-amphetamine-salts",
+      "name": "mixed amphetamine salts",
+      "synonyms": [
+        "dextroamphetamine and amphetamine",
+        "amphetamine aspartate, amphetamine sulfate, dextroamphetamine saccharate, dextroamphetamine sulfate"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (amphetamine)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mixed+amphetamine+salts",
+          "title": "DailyMed labels for mixed amphetamine salts",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "mometasone",
+      "name": "mometasone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Corticosteroid (nasal)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "allergic-rhinitis",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Nasal spray"
+        },
+        {
+          "condition": "nasal-polyps",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Nasal spray"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mometasone",
+          "title": "DailyMed labels for mometasone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "nevirapine",
+      "name": "nevirapine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NNRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=nevirapine",
+          "title": "DailyMed labels for nevirapine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "nortriptyline",
+      "name": "nortriptyline",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Tricyclic antidepressant (TCA)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=nortriptyline",
+          "title": "DailyMed labels for nortriptyline",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ofloxacin",
+      "name": "ofloxacin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Fluoroquinolone antibiotic",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "otitis-externa",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops"
+        },
+        {
+          "condition": "otitis-media",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Ear drops: chronic draining ear with a perforated eardrum, or infection with ear tubes"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ofloxacin",
+          "title": "DailyMed labels for ofloxacin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "oxymetazoline",
+      "name": "oxymetazoline",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Decongestant (nasal)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "otc_monograph",
+          "checked": "2026-11-12",
+          "source": "https://www.fda.gov/drugs/over-counter-otc-nonprescription-drugs/over-counter-otc-monograph-drug-products",
+          "note": "Sold over the counter under an FDA monograph, without individual approval."
+        }
+      ],
+      "uses": [
+        {
+          "condition": "nasal-congestion",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Short-term use only (up to 3 days) to avoid rebound congestion"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=oxymetazoline",
+          "title": "DailyMed labels for oxymetazoline",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "paroxetine",
+      "name": "paroxetine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SSRI (selective serotonin reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=paroxetine",
+          "title": "DailyMed labels for paroxetine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "phenelzine",
+      "name": "phenelzine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "MAO inhibitor (MAOI)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "anxiety",
+          "type": "off-label",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=phenelzine",
+          "title": "DailyMed labels for phenelzine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "pioglitazone",
+      "name": "pioglitazone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Thiazolidinedione (TZD)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pioglitazone",
+          "title": "DailyMed labels for pioglitazone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "pramlintide",
+      "name": "pramlintide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Amylin analog",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=pramlintide",
+          "title": "DailyMed labels for pramlintide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "propranolol",
+      "name": "propranolol",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Beta blocker",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "off-label",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=propranolol",
+          "title": "DailyMed labels for propranolol",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "quetiapine",
+      "name": "quetiapine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antipsychotic (add-on for depression)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=quetiapine",
+          "title": "DailyMed labels for quetiapine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "raltegravir",
+      "name": "raltegravir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "INSTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=raltegravir",
+          "title": "DailyMed labels for raltegravir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "rilpivirine",
+      "name": "rilpivirine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NNRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=rilpivirine",
+          "title": "DailyMed labels for rilpivirine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ritonavir",
+      "name": "ritonavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ritonavir",
+          "title": "DailyMed labels for ritonavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "saxagliptin",
+      "name": "saxagliptin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "DPP-4 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=saxagliptin",
+          "title": "DailyMed labels for saxagliptin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "selegiline",
+      "name": "selegiline",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "MAO inhibitor (MAOI)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=selegiline",
+          "title": "DailyMed labels for selegiline",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "semaglutide",
+      "name": "semaglutide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "GLP-1 receptor agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=semaglutide",
+          "title": "DailyMed labels for semaglutide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "serdexmethylphenidate",
+      "name": "serdexmethylphenidate",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "CNS stimulant (methylphenidate prodrug)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "azstarys"
+          ],
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CII",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=serdexmethylphenidate",
+          "title": "DailyMed labels for serdexmethylphenidate",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "sertraline",
+      "name": "sertraline",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SSRI (selective serotonin reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sertraline",
+          "title": "DailyMed labels for sertraline",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "sitagliptin",
+      "name": "sitagliptin",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "DPP-4 inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=sitagliptin",
+          "title": "DailyMed labels for sitagliptin",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "tenofovir-alafenamide",
+      "name": "tenofovir alafenamide",
+      "synonyms": [
+        "TAF"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hepatitis-b",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        },
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "via": [
+            "biktarvy",
+            "descovy",
+            "genvoya",
+            "odefsey",
+            "symtuza"
+          ],
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tenofovir+alafenamide",
+          "title": "DailyMed labels for tenofovir alafenamide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "tenofovir-disoproxil",
+      "name": "tenofovir disoproxil",
+      "synonyms": [
+        "tenofovir disoproxil fumarate",
+        "TDF"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tenofovir+disoproxil",
+          "title": "DailyMed labels for tenofovir disoproxil",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "teplizumab",
+      "name": "teplizumab",
+      "synonyms": [],
+      "kind": "biologic",
+      "classes": [
+        {
+          "name": "Anti-CD3 monoclonal antibody",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=teplizumab",
+          "title": "DailyMed labels for teplizumab",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "tipranavir",
+      "name": "tipranavir",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "PI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tipranavir",
+          "title": "DailyMed labels for tipranavir",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "tirzepatide",
+      "name": "tirzepatide",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Dual GIP and GLP-1 receptor agonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "diabetes",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=tirzepatide",
+          "title": "DailyMed labels for tirzepatide",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "trazodone",
+      "name": "trazodone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=trazodone",
+          "title": "DailyMed labels for trazodone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "venlafaxine",
+      "name": "venlafaxine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "SNRI (serotonin-norepinephrine reuptake inhibitor)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "anxiety",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=venlafaxine",
+          "title": "DailyMed labels for venlafaxine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "vilazodone",
+      "name": "vilazodone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=vilazodone",
+          "title": "DailyMed labels for vilazodone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "viloxazine",
+      "name": "viloxazine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Selective norepinephrine reuptake inhibitor",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "adhd",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=viloxazine",
+          "title": "DailyMed labels for viloxazine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "vortioxetine",
+      "name": "vortioxetine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Atypical antidepressant",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=vortioxetine",
+          "title": "DailyMed labels for vortioxetine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "zidovudine",
+      "name": "zidovudine",
+      "synonyms": [
+        "AZT",
+        "ZDV"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NRTI",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "hiv",
+          "type": "approved",
+          "jurisdiction": "US",
+          "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+        }
+      ],
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=zidovudine",
+          "title": "DailyMed labels for zidovudine",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "zuranolone",
+      "name": "zuranolone",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Neuroactive steroid (GABA-A modulator)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "postpartum-depression",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [
+        {
+          "jurisdiction": "US",
+          "schedule": "CIV",
+          "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+        }
+      ],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-12",
+        "by": null,
+        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=zuranolone",
+          "title": "DailyMed labels for zuranolone",
+          "type": "label"
+        }
+      ]
+    }
+  ]
+}

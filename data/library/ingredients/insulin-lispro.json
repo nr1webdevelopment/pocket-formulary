@@ -1,0 +1,49 @@
+{
+  "id": "insulin-lispro",
+  "name": "insulin lispro",
+  "synonyms": [],
+  "kind": "biologic",
+  "classes": [
+    {
+      "name": "Rapid-acting insulin analog",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-12",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "uses": [
+    {
+      "condition": "diabetes",
+      "type": "approved",
+      "jurisdiction": "US",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "controlled": [],
+  "summary": null,
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-12",
+    "by": null,
+    "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+lispro",
+      "title": "DailyMed labels for insulin lispro",
+      "type": "label"
+    }
+  ]
+}

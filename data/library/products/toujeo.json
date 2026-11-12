@@ -1,0 +1,40 @@
+{
+  "id": "toujeo",
+  "brandName": "Toujeo",
+  "ingredients": [
+    "insulin-glargine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": 2015,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Concentrated (300 units/mL) insulin glargine with a flatter, longer profile.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: long-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Long-acting insulin analog",
+    "genericName": "insulin glargine U-300"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ofloxacin-otic",
+  "brandName": "Ofloxacin Otic",
+  "ingredients": [
+    "ofloxacin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Ear drops",
+  "route": "Otic",
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "otitis-externa",
+    "otitis-media"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Ofloxacin+Otic",
+      "title": "DailyMed: Ofloxacin Otic",
+      "type": "label"
+    }
+  ]
+}

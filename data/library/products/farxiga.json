@@ -1,0 +1,40 @@
+{
+  "id": "farxiga",
+  "brandName": "Farxiga",
+  "ingredients": [
+    "dapagliflozin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "AstraZeneca",
+  "approval": {
+    "date": null,
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "SGLT2 inhibitor also approved for heart failure and chronic kidney disease.",
+  "notes": null,
+  "attributes": {
+    "category": "Oral: SGLT2 inhibitor",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor",
+    "genericName": "dapagliflozin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

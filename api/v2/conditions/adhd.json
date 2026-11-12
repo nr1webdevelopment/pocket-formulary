@@ -1,0 +1,368 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/adhd.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "adhd",
+    "name": "ADHD",
+    "area": "mental-health",
+    "aliases": [
+      "attention-deficit/hyperactivity disorder"
+    ],
+    "parent": null,
+    "approvedCount": 12,
+    "offLabelCount": 1
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "amphetamine",
+        "name": "amphetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Adzenys XR-ODT",
+          "Dyanavel XR",
+          "Evekeo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/amphetamine.json"
+      },
+      {
+        "id": "atomoxetine",
+        "name": "atomoxetine",
+        "kind": "drug",
+        "classes": [
+          "Selective norepinephrine reuptake inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Strattera"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/atomoxetine.json"
+      },
+      {
+        "id": "centanafadine",
+        "name": "centanafadine",
+        "kind": "drug",
+        "classes": [
+          "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Simtriyo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/centanafadine.json"
+      },
+      {
+        "id": "clonidine",
+        "name": "clonidine",
+        "kind": "drug",
+        "classes": [
+          "Alpha-2 adrenergic agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Kapvay",
+          "Onyda XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/clonidine.json"
+      },
+      {
+        "id": "dexmethylphenidate",
+        "name": "dexmethylphenidate",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (methylphenidate)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Azstarys",
+          "Focalin",
+          "Focalin XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dexmethylphenidate.json"
+      },
+      {
+        "id": "dextroamphetamine",
+        "name": "dextroamphetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Dexedrine Spansule",
+          "ProCentra",
+          "Xelstrym",
+          "Zenzedi"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
+      },
+      {
+        "id": "guanfacine",
+        "name": "guanfacine",
+        "kind": "drug",
+        "classes": [
+          "Alpha-2A adrenergic agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Intuniv"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/guanfacine.json"
+      },
+      {
+        "id": "lisdexamfetamine",
+        "name": "lisdexamfetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Vyvanse"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lisdexamfetamine.json"
+      },
+      {
+        "id": "methylphenidate",
+        "name": "methylphenidate",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (methylphenidate)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Aptensio XR",
+          "Concerta",
+          "Cotempla XR-ODT",
+          "Daytrana",
+          "Jornay PM",
+          "QuilliChew ER",
+          "Quillivant XR",
+          "Ritalin",
+          "Ritalin LA"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json"
+      },
+      {
+        "id": "mixed-amphetamine-salts",
+        "name": "mixed amphetamine salts",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Adderall",
+          "Adderall XR",
+          "Mydayis"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/mixed-amphetamine-salts.json"
+      },
+      {
+        "id": "serdexmethylphenidate",
+        "name": "serdexmethylphenidate",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (methylphenidate prodrug)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Azstarys"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/serdexmethylphenidate.json"
+      },
+      {
+        "id": "viloxazine",
+        "name": "viloxazine",
+        "kind": "drug",
+        "classes": [
+          "Selective norepinephrine reuptake inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Qelbree"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/viloxazine.json"
+      }
+    ],
+    "offLabel": [
+      {
+        "id": "bupropion",
+        "name": "bupropion",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant (NDRI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [
+          "adhd"
+        ],
+        "controlled": {},
+        "brands": [
+          "Aplenzin",
+          "Auvelity",
+          "Wellbutrin SR",
+          "Wellbutrin XL",
+          "Zyban"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
+      }
+    ]
+  }
+}

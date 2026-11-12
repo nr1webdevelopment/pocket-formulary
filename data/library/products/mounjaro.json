@@ -1,0 +1,40 @@
+{
+  "id": "mounjaro",
+  "brandName": "Mounjaro",
+  "ingredients": [
+    "tirzepatide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (single-dose pen, vial)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once weekly",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 2022,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "First dual GIP/GLP-1 agonist; strong effects on blood sugar and weight.",
+  "notes": "In August 2026 the FDA added a use to lower heart attack and stroke risk in high-risk adults with type 2 diabetes.",
+  "attributes": {
+    "category": "GLP-1 and GIP/GLP-1 agonists",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Dual GIP and GLP-1 receptor agonist",
+    "genericName": "tirzepatide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

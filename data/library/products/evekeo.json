@@ -1,0 +1,40 @@
+{
+  "id": "evekeo",
+  "brandName": "Evekeo",
+  "ingredients": [
+    "amphetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; orally disintegrating tablet (Evekeo ODT)",
+  "route": "Oral",
+  "dosingFrequency": "1–3 times daily",
+  "manufacturer": "Azurity Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": 2012,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Short-acting racemic amphetamine.",
+  "notes": null,
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "amphetamine sulfate"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

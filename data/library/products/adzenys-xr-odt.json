@@ -1,0 +1,40 @@
+{
+  "id": "adzenys-xr-odt",
+  "brandName": "Adzenys XR-ODT",
+  "ingredients": [
+    "amphetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Extended-release orally disintegrating tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Aytu BioPharma",
+  "approval": {
+    "date": null,
+    "year": 2016,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Long-acting amphetamine that dissolves in the mouth.",
+  "notes": null,
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "amphetamine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "cymbalta",
+  "brandName": "Cymbalta",
+  "ingredients": [
+    "duloxetine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Delayed-release capsule",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "depression",
+    "anxiety"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Cymbalta",
+      "title": "DailyMed: Cymbalta",
+      "type": "label"
+    }
+  ]
+}

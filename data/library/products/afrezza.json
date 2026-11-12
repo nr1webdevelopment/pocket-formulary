@@ -1,0 +1,40 @@
+{
+  "id": "afrezza",
+  "brandName": "Afrezza",
+  "ingredients": [
+    "insulin-human"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Inhalation powder (cartridge)",
+  "route": "Inhaled",
+  "dosingFrequency": "At the start of meals",
+  "manufacturer": "MannKind",
+  "approval": {
+    "date": null,
+    "year": 2014,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The only inhaled mealtime insulin in the US.",
+  "notes": "Adults only; not for people who smoke or have chronic lung disease.",
+  "attributes": {
+    "category": "Insulin: rapid-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Inhaled rapid-acting insulin",
+    "genericName": "insulin human (inhaled)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

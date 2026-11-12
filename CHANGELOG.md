@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- **Medicine library (v2):** NomadCeuticals becomes an ingredient-centred library and the single source of truth for medicines. 116 ingredients and 182 products migrated from the 124 v1 medicines, the PSY96 CBT Study Hub (depression, anxiety, ADHD, postpartum depression; e.g. bupropion, approved for depression and off-label for ADHD) and the ENT Study Hub. Approval status per country (incl. "Not FDA approved" and OTC monograph), approved vs off-label uses, controlled schedules, review status. New schemas (`schema/v2/`), API v2 (`/api/v2/`), bulk downloads (`dist/v2/`), validator, and a GitHub workflow that looks up RxNorm and FDA IDs.
+- Website search includes the library, with an ingredient page for each (`#ingredient/<id>`); medicine pages link to their ingredients.
+- Data fixes found during migration: Vemlidy is approved for chronic hepatitis B, not HIV (corrected in v2); added Dexedrine Spansule, Zenzedi, ProCentra and Kapvay.
+
 - **Hosting on nomadceuticals.com (Hostinger):** `scripts/build_public.py` builds `public/` with only the public files plus `.htaccess` (CORS for the API, www/http → https://nomadceuticals.com redirects, caching, source folders blocked) and a 404 page. `deploy.yml` publishes it to the `public` branch for Hostinger Git auto-deploy, replacing the GitHub Pages workflow.
 
 - **Medicines API:** free, read-only JSON API at `/api/v1/` (124 medicines, by condition and by drug class), with an OpenAPI 3.1 spec and a docs page with a live "Try it" box at `/api/`. Live at https://nomadceuticals.com/api/v1, with CORS so any website can use it.

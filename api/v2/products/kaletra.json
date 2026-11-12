@@ -1,0 +1,113 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/kaletra.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "kaletra",
+    "brandName": "Kaletra",
+    "ingredients": [
+      "lopinavir",
+      "ritonavir"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; oral solution",
+    "route": "Oral",
+    "dosingFrequency": "Once or twice daily",
+    "manufacturer": "AbbVie",
+    "approval": {
+      "date": "2000-09-15",
+      "year": 2000,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Co-formulated, pre-boosted protease inhibitor; taken with other HIV medicines.",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "LPV/r",
+      "componentClasses": "PI",
+      "isCombination": true,
+      "componentCount": 2,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "lopinavir",
+        "name": "lopinavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Kaletra"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lopinavir.json"
+      },
+      {
+        "id": "ritonavir",
+        "name": "ritonavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Kaletra",
+          "Norvir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ritonavir.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/kaletra.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/kaletra.json"
+    }
+  }
+}

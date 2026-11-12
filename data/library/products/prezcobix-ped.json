@@ -1,0 +1,48 @@
+{
+  "id": "prezcobix-ped",
+  "brandName": "Prezcobix PED",
+  "ingredients": [
+    "darunavir",
+    "cobicistat"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with food)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2026-02-27",
+    "year": 2026,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Pediatric-dose version of Prezcobix.",
+  "notes": "New in 2026.",
+  "attributes": {
+    "abbreviation": "DRV/COBI",
+    "componentClasses": "PI, Pharmacokinetic Enhancer",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": true,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "darunavir and cobicistat"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

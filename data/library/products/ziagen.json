@@ -1,0 +1,47 @@
+{
+  "id": "ziagen",
+  "brandName": "Ziagen",
+  "ingredients": [
+    "abacavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "1998-12-17",
+    "year": 1998,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Nucleoside reverse transcriptase inhibitor used as part of a combination regimen.",
+  "notes": "HLA-B*5701 screening required before starting (hypersensitivity risk).",
+  "attributes": {
+    "abbreviation": "ABC",
+    "componentClasses": "NRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NRTI",
+    "genericName": "abacavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

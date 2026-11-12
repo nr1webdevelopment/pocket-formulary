@@ -1,0 +1,50 @@
+{
+  "id": "stribild",
+  "brandName": "Stribild",
+  "ingredients": [
+    "elvitegravir",
+    "cobicistat",
+    "emtricitabine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with food)",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2012-08-27",
+    "year": 2012,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "First integrase-inhibitor-based complete single-tablet regimen.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "EVG/COBI/FTC/TDF",
+    "componentClasses": "INSTI, Pharmacokinetic Enhancer, NRTI",
+    "isCombination": true,
+    "componentCount": 4,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

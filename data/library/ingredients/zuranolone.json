@@ -1,0 +1,54 @@
+{
+  "id": "zuranolone",
+  "name": "zuranolone",
+  "synonyms": [],
+  "kind": "drug",
+  "classes": [
+    {
+      "name": "Neuroactive steroid (GABA-A modulator)",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-12",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "uses": [
+    {
+      "condition": "postpartum-depression",
+      "type": "approved",
+      "jurisdiction": "US"
+    }
+  ],
+  "controlled": [
+    {
+      "jurisdiction": "US",
+      "schedule": "CIV",
+      "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+    }
+  ],
+  "summary": null,
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-12",
+    "by": null,
+    "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=zuranolone",
+      "title": "DailyMed labels for zuranolone",
+      "type": "label"
+    }
+  ]
+}

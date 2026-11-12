@@ -1,0 +1,86 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/xelstrym.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "xelstrym",
+    "brandName": "Xelstrym",
+    "ingredients": [
+      "dextroamphetamine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Transdermal patch",
+    "route": "Skin patch",
+    "dosingFrequency": "Once daily (worn up to 9 hours)",
+    "manufacturer": "Noven Pharmaceuticals",
+    "approval": {
+      "date": null,
+      "year": 2022,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": "CII",
+    "description": "The first dextroamphetamine skin patch.",
+    "notes": null,
+    "attributes": {
+      "category": "Amphetamine",
+      "type": "Stimulant"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "dextroamphetamine",
+        "name": "dextroamphetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Dexedrine Spansule",
+          "ProCentra",
+          "Xelstrym",
+          "Zenzedi"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/xelstrym.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "baqsimi",
+  "brandName": "Baqsimi",
+  "ingredients": [
+    "glucagon"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Nasal powder",
+  "route": "Nasal",
+  "dosingFrequency": "One dose as needed for severe low blood sugar",
+  "manufacturer": "Amphastar",
+  "approval": {
+    "date": null,
+    "year": 2019,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first needle-free emergency treatment for severe low blood sugar.",
+  "notes": null,
+  "attributes": {
+    "category": "Other",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Glucagon (hypoglycemia rescue)",
+    "genericName": "glucagon (nasal)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

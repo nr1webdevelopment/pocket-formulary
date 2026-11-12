@@ -1,0 +1,48 @@
+{
+  "id": "cimduo",
+  "brandName": "Cimduo",
+  "ingredients": [
+    "lamivudine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Viatris (Mylan)",
+  "approval": {
+    "date": "2018-02-28",
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Two-NRTI backbone pill, taken with a third drug.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "3TC/TDF",
+    "componentClasses": "NRTI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "lamivudine and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

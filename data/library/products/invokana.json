@@ -1,0 +1,40 @@
+{
+  "id": "invokana",
+  "brandName": "Invokana",
+  "ingredients": [
+    "canagliflozin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (before first meal)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": null,
+    "year": 2013,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "The first SGLT2 inhibitor; removes extra glucose through the urine.",
+  "notes": null,
+  "attributes": {
+    "category": "Oral: SGLT2 inhibitor",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "SGLT2 inhibitor",
+    "genericName": "canagliflozin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

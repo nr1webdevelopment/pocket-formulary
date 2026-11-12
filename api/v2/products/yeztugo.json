@@ -1,0 +1,90 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/yeztugo.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "yeztugo",
+    "brandName": "Yeztugo",
+    "ingredients": [
+      "lenacapavir"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Subcutaneous injection (with oral initiation)",
+    "route": "Injection",
+    "dosingFrequency": "Every 6 months",
+    "manufacturer": "Gilead Sciences",
+    "approval": {
+      "date": "2025-06-18",
+      "year": 2025,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Twice-yearly injectable for HIV prevention (PrEP).",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "LEN",
+      "componentClasses": "Capsid Inhibitor",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "PrEP",
+      "longActing": true,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "lenacapavir",
+        "name": "lenacapavir",
+        "kind": "drug",
+        "classes": [
+          "Capsid Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Bixlenvo",
+          "Sunlenca",
+          "Yeztugo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lenacapavir.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/yeztugo.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/yeztugo.json"
+    }
+  }
+}

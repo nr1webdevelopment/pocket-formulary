@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/rybelsus.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "rybelsus",
+    "brandName": "Rybelsus (Ozempic pill)",
+    "ingredients": [
+      "semaglutide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily, 30 minutes before first food",
+    "manufacturer": "Novo Nordisk",
+    "approval": {
+      "date": null,
+      "year": 2019,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "The first GLP-1 medicine in pill form.",
+    "notes": "Being renamed Ozempic pill in the US during 2026.",
+    "attributes": {
+      "category": "GLP-1 and GIP/GLP-1 agonists",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "semaglutide",
+        "name": "semaglutide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Ozempic",
+          "Rybelsus (Ozempic pill)"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/semaglutide.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/rybelsus.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json"
+    }
+  }
+}

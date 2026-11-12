@@ -1,0 +1,40 @@
+{
+  "id": "symlin",
+  "brandName": "Symlin",
+  "ingredients": [
+    "pramlintide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Before major meals",
+  "manufacturer": "AstraZeneca",
+  "approval": {
+    "date": null,
+    "year": 2005,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Amylin analog used with mealtime insulin to smooth blood sugar after meals.",
+  "notes": null,
+  "attributes": {
+    "category": "Other",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Amylin analog",
+    "genericName": "pramlintide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

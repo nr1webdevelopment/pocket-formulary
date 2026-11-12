@@ -1,0 +1,47 @@
+{
+  "id": "intelence",
+  "brandName": "Intelence",
+  "ingredients": [
+    "etravirine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily (after a meal)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2008-01-18",
+    "year": 2008,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Second-generation NNRTI, mainly for treatment-experienced patients.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "ETR",
+    "componentClasses": "NNRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NNRTI",
+    "genericName": "etravirine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "xelstrym",
+  "brandName": "Xelstrym",
+  "ingredients": [
+    "dextroamphetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Transdermal patch",
+  "route": "Skin patch",
+  "dosingFrequency": "Once daily (worn up to 9 hours)",
+  "manufacturer": "Noven Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": 2022,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "The first dextroamphetamine skin patch.",
+  "notes": null,
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "dextroamphetamine (transdermal)"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

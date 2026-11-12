@@ -1,0 +1,85 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/focalin.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "focalin",
+    "brandName": "Focalin",
+    "ingredients": [
+      "dexmethylphenidate"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Twice daily",
+    "manufacturer": "Novartis",
+    "approval": {
+      "date": null,
+      "year": 2001,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": "CII",
+    "description": "Short-acting dexmethylphenidate, the more active half of the methylphenidate molecule.",
+    "notes": null,
+    "attributes": {
+      "category": "Dexmethylphenidate",
+      "type": "Stimulant"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "dexmethylphenidate",
+        "name": "dexmethylphenidate",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (methylphenidate)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Azstarys",
+          "Focalin",
+          "Focalin XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dexmethylphenidate.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/focalin.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/focalin.json"
+    }
+  }
+}

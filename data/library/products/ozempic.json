@@ -1,0 +1,40 @@
+{
+  "id": "ozempic",
+  "brandName": "Ozempic",
+  "ingredients": [
+    "semaglutide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once weekly",
+  "manufacturer": "Novo Nordisk",
+  "approval": {
+    "date": null,
+    "year": 2017,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Once-weekly GLP-1 injection that lowers blood sugar and supports weight loss.",
+  "notes": "Also approved to reduce cardiovascular and kidney risk in certain adults.",
+  "attributes": {
+    "category": "GLP-1 and GIP/GLP-1 agonists",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "GLP-1 receptor agonist",
+    "genericName": "semaglutide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

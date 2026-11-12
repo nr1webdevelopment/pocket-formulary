@@ -1,0 +1,49 @@
+{
+  "id": "trizivir",
+  "brandName": "Trizivir",
+  "ingredients": [
+    "abacavir",
+    "lamivudine",
+    "zidovudine"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Twice daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2000-11-14",
+    "year": 2000,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Triple-NRTI pill.",
+  "notes": "Brand discontinued; triple-NRTI regimens are no longer recommended.",
+  "attributes": {
+    "abbreviation": "ABC/3TC/ZDV",
+    "componentClasses": "NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "abacavir, lamivudine, and zidovudine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

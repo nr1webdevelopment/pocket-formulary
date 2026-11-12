@@ -1,0 +1,33 @@
+{
+  "id": "pexeva",
+  "brandName": "Pexeva",
+  "ingredients": [
+    "paroxetine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "depression",
+    "anxiety"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Pexeva",
+      "title": "DailyMed: Pexeva",
+      "type": "label"
+    }
+  ]
+}

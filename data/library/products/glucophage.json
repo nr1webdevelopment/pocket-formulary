@@ -1,0 +1,40 @@
+{
+  "id": "glucophage",
+  "brandName": "Glucophage",
+  "ingredients": [
+    "metformin"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; extended-release tablet (Glucophage XR)",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily with meals",
+  "manufacturer": "Bristol Myers Squibb",
+  "approval": {
+    "date": null,
+    "year": 1994,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "First-line medicine for type 2 diabetes; lowers glucose made by the liver.",
+  "notes": "Most people take generic metformin.",
+  "attributes": {
+    "category": "Oral: biguanide",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Biguanide",
+    "genericName": "metformin"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

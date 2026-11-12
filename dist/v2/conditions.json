@@ -1,0 +1,160 @@
+{
+  "dataset": "nomadceuticals-library",
+  "version": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "schemas": {
+    "ingredient": "https://nomadceuticals.com/schema/v2/ingredient.schema.json",
+    "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
+    "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
+  },
+  "count": 15,
+  "data": [
+    {
+      "id": "hiv",
+      "name": "HIV (treatment and prevention)",
+      "area": "infectious-disease",
+      "aliases": [
+        "HIV-1",
+        "PrEP"
+      ],
+      "parent": null
+    },
+    {
+      "id": "hepatitis-b",
+      "name": "Chronic hepatitis B",
+      "area": "infectious-disease",
+      "aliases": [
+        "HBV"
+      ],
+      "parent": null
+    },
+    {
+      "id": "adhd",
+      "name": "ADHD",
+      "area": "mental-health",
+      "aliases": [
+        "attention-deficit/hyperactivity disorder"
+      ],
+      "parent": null
+    },
+    {
+      "id": "depression",
+      "name": "Depression",
+      "area": "mental-health",
+      "aliases": [
+        "major depressive disorder",
+        "MDD"
+      ],
+      "parent": null
+    },
+    {
+      "id": "postpartum-depression",
+      "name": "Postpartum depression",
+      "area": "mental-health",
+      "aliases": [
+        "PPD",
+        "perinatal depression"
+      ],
+      "parent": "depression"
+    },
+    {
+      "id": "anxiety",
+      "name": "Anxiety disorders",
+      "area": "mental-health",
+      "aliases": [
+        "generalized anxiety disorder",
+        "GAD",
+        "panic disorder",
+        "social anxiety"
+      ],
+      "parent": null
+    },
+    {
+      "id": "diabetes",
+      "name": "Diabetes",
+      "area": "endocrine",
+      "aliases": [
+        "type 1 diabetes",
+        "type 2 diabetes"
+      ],
+      "parent": null
+    },
+    {
+      "id": "allergic-rhinitis",
+      "name": "Allergic rhinitis (hay fever)",
+      "area": "ent",
+      "aliases": [
+        "hay fever",
+        "nasal allergies"
+      ],
+      "parent": null
+    },
+    {
+      "id": "nasal-polyps",
+      "name": "Nasal polyps (chronic rhinosinusitis with nasal polyps)",
+      "area": "ent",
+      "aliases": [
+        "CRSwNP"
+      ],
+      "parent": null
+    },
+    {
+      "id": "nasal-congestion",
+      "name": "Nasal congestion",
+      "area": "ent",
+      "aliases": [
+        "stuffy nose"
+      ],
+      "parent": null
+    },
+    {
+      "id": "otitis-media",
+      "name": "Middle-ear infection (otitis media)",
+      "area": "ent",
+      "aliases": [
+        "ear infection",
+        "AOM"
+      ],
+      "parent": null
+    },
+    {
+      "id": "otitis-externa",
+      "name": "Swimmer's ear (otitis externa)",
+      "area": "ent",
+      "aliases": [
+        "outer-ear infection"
+      ],
+      "parent": null
+    },
+    {
+      "id": "pharyngitis",
+      "name": "Sore throat and tonsillitis (bacterial pharyngitis)",
+      "area": "ent",
+      "aliases": [
+        "strep throat",
+        "tonsillitis"
+      ],
+      "parent": null
+    },
+    {
+      "id": "vertigo",
+      "name": "Vertigo",
+      "area": "ent",
+      "aliases": [
+        "dizziness",
+        "motion sickness"
+      ],
+      "parent": null
+    },
+    {
+      "id": "urticaria",
+      "name": "Chronic hives (urticaria)",
+      "area": "dermatology",
+      "aliases": [
+        "hives"
+      ],
+      "parent": null
+    }
+  ]
+}

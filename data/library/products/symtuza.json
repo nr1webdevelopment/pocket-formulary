@@ -1,0 +1,50 @@
+{
+  "id": "symtuza",
+  "brandName": "Symtuza",
+  "ingredients": [
+    "darunavir",
+    "cobicistat",
+    "emtricitabine",
+    "tenofovir-alafenamide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (with food)",
+  "manufacturer": "Johnson & Johnson (Janssen)",
+  "approval": {
+    "date": "2018-07-17",
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "First darunavir-based complete single-tablet regimen.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "DRV/COBI/FTC/TAF",
+    "componentClasses": "PI, Pharmacokinetic Enhancer, NRTI",
+    "isCombination": true,
+    "componentCount": 4,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "darunavir, cobicistat, emtricitabine, and tenofovir alafenamide"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

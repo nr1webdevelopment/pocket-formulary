@@ -302,6 +302,23 @@ h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
 .vstat, .pill, .sb { font-size: calc(13px * var(--ts)); }
 footer { font-size: calc(16px * var(--ts)); line-height: 1.6; }
 
+/* medicine library (v2) */
+.fda { display: inline-block; font-size: calc(12.5px * var(--ts)); font-weight: 600; letter-spacing: .03em; padding: 2px 8px; border-radius: 2px; white-space: nowrap; }
+.fda-approved { background: var(--ok-bg); color: var(--ok); }
+.fda-otc_monograph { background: var(--soft); color: var(--ink); }
+.fda-not_approved, .fda-withdrawn, .fda-investigational, .fda-unknown { background: var(--warn-bg); color: var(--warn); }
+.pill.ctl { color: var(--alert); border-color: currentColor; }
+.libblock .cond-h { border-bottom-color: var(--accent); color: var(--accent); }
+.librow .cls { display: flex; flex-direction: column; gap: 2px; }
+.librow .offl { color: var(--warn); }
+.librow .yr { white-space: normal; }
+ul.uses { margin: 6px 0 0; padding-left: 20px; }
+ul.uses li { margin: 6px 0; }
+.muted { color: var(--muted); }
+.rel .relx > span:not(.pill), .rel a > span:not(.pill) { color: var(--muted); }
+.rel .pill { margin-left: 4px; }
+.rel .relx { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); background: var(--surface); font-size: calc(16px * var(--ts)); }
+
 /* text-size control */
 .tsel { position: relative; display: flex; align-items: center; }
 .tsbtn { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 1px solid rgb(255 255 255 / .4); background: #000; color: #fff; cursor: pointer; }
@@ -373,6 +390,8 @@ footer a { color: #fff; font-weight: 600; }
 
 <script>
 const DRUGS = __DATA__;
+const LIB = __LIBRARY__;  // v2 medicine library (data/library/), compact
+const LIBBY = Object.fromEntries(LIB.ing.map(r => [r.id, r]));
 const PROVIDERS = __PROVIDERS__;
 const CITYDOC = __CITIES__;
 const RELEASE = __RELEASE__;
@@ -602,6 +621,12 @@ function renderList() {
       }).join("")}
     </section>`;
   }
+  const lib = libSearch(q, state.cond);
+  if (lib.length) {
+    html += `<section class="cond-block libblock">
+      <div class="cond-h"><h2>${t("libTitle")}</h2><span class="n">${lib.length}</span></div>
+      <p class="blurb">${t("libIntro")}</p><div class="rows">${lib.map(libRow).join("")}</div></section>`;
+  }
   document.getElementById("list").innerHTML = html || `<p class="empty">${esc(t("noMedMatch", { q: state.q }))}</p>`;
 }
 
@@ -640,10 +665,70 @@ function profile(d) {
       </div>
     </article>
     ${whereToGet(d)}
+    ${LIB.prod[d.slug] ? `<section class="related"><h3>${t("libIngredientsTitle")}</h3>
+      <div class="rel">${LIB.prod[d.slug][3].filter(i => LIBBY[i]).map(i => `<a href="#ingredient/${i}">${esc(cap(LIBBY[i].n))} <span>${esc(t("fda_" + LIBBY[i].f))}</span></a>`).join("")}</div></section>` : ""}
     ${related.length ? `<section class="related" style="${cvar(d.condition)}"><h3>${t("sameCategory")}</h3>
       <div class="rel">${related.map(r => `<a href="#${r.slug}">${esc(r.brand)} <span>${esc(r.generic)}</span></a>`).join("")}</div></section>` : ""}
     <p class="src">${t("sourceLabel")} <a href="${esc(d.source)}" target="_blank" rel="noopener">${esc(d.sourceName)}</a></p>`;
   document.getElementById("back").addEventListener("click", () => { history.replaceState(null, "", location.pathname + location.search); route(); });
+  window.scrollTo(0, 0);
+}
+
+/* ---------------- medicine library (v2) ---------------- */
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+const lc = id => (I18N.ui["lc_" + id] ? t("lc_" + id) : id);
+const brandOf = pid => (LIB.prod[pid] || [pid])[0];
+const libBrands = r => [...new Set(r.p.map(brandOf))].sort((a, b) => a.localeCompare(b));
+function fdaBadge(r) {
+  const label = t("fda_" + r.f) + (r.ae.length && r.f !== "approved" && r.f !== "otc_monograph" ? " · " + t("fdaApprovedIn", { list: r.ae.join(", ") }) : "");
+  return `<span class="fda fda-${r.f}">${esc(label)}</span>`;
+}
+function libSearch(q, cond) {
+  if (!q) return [];
+  return LIB.ing.filter(r => {
+    if (cond !== "all" && !r.u.some(u => u[0] === cond)) return false;
+    return [r.n, ...r.s, ...libBrands(r), ...r.c, ...r.c.map(tc)].join(" ").toLowerCase().includes(q);
+  }).slice(0, 24);
+}
+function libRow(r) {
+  const appr = [...new Set(r.u.filter(u => u[1] === "approved").map(u => lc(u[0])))];
+  const off = [...new Set(r.u.filter(u => u[1] === "off-label").map(u => lc(u[0])))];
+  return `<a class="row librow" href="#ingredient/${r.id}"><span class="nm"><b>${esc(cap(r.n))}</b><span class="gen">${esc(libBrands(r).join(", "))}</span></span>
+    <span class="cls">${appr.length ? `<span>${t("libApprovedFor")}: ${esc(appr.join(", "))}</span>` : ""}${off.length ? `<span class="offl">${t("libOffLabelFor")}: ${esc(off.join(", "))}</span>` : ""}</span>
+    <span class="yr">${fdaBadge(r)}</span></a>`;
+}
+function ingredientPage(r) {
+  const appr = r.u.filter(u => u[1] === "approved"), off = r.u.filter(u => u[1] === "off-label");
+  const useLi = u => `<li><b>${esc(lc(u[0]))}</b>${u[3] && u[3].length ? ` <span class="muted">(${esc(t("libVia", { list: u[3].map(brandOf).join(", ") }))})</span>` : ""}${u[2] ? `<br><span class="muted">${esc(tc(u[2]))}</span>` : ""}</li>`;
+  const brandLink = pid => {
+    const [b, st, form, ings] = LIB.prod[pid] || [pid, "unknown", null, []];
+    const others = (ings || []).filter(i => i !== r.id && LIBBY[i]).map(i => LIBBY[i].n);
+    const inner = `${esc(b)}${others.length ? ` <span>+ ${esc(others.join(" + "))}</span>` : ""}${form ? ` <span>${esc(tc(form))}</span>` : ""}${st !== "available" ? ` <span class="pill ${st === "discontinued" ? "disc" : ""}">${t("libStatus_" + st)}</span>` : ""}`;
+    return BY[pid] ? `<a href="#${pid}">${inner}</a>` : `<span class="relx">${inner}</span>`;
+  };
+  const api = (RELEASE.site || "https://nomadceuticals.com/") + "api/v2/ingredients/" + r.id + ".json";
+  app.innerHTML = `
+    ${topbar("med")}
+    <button class="back" id="back">${t("backMeds")}</button>
+    <article class="label" style="--c: var(--accent)">
+      <div class="label-top">
+        <span class="eyebrow">${esc(r.c.map(tc).join(" · "))}</span>
+        <h1>${esc(cap(r.n))}</h1>
+        ${r.s.length ? `<div class="generic">${esc(r.s.join(" · "))}</div>` : ""}
+        <div class="chips">${fdaBadge(r)}${r.ctl ? `<span class="pill ctl">${esc(t("libControlled", { s: r.ctl }))}</span>` : ""}</div>
+      </div>
+      <div class="about">
+        ${appr.length ? `<div><h3>${t("libApprovedFor")}</h3><ul class="uses">${appr.map(useLi).join("")}</ul></div>` : ""}
+        ${off.length ? `<div><h3>${t("libOffLabelFor")}</h3><ul class="uses">${off.map(useLi).join("")}</ul><p class="muted">${t("libOffLabelExplain")}</p></div>` : ""}
+        ${!appr.length && !off.length ? `<p>${t("libNoUses")}</p>` : ""}
+        ${r.rev !== "verified" ? `<div class="note">${t(r.rev === "needs_review" ? "libNeedsReview" : "libUnverified")}</div>` : ""}
+      </div>
+    </article>
+    ${r.p.length ? `<section class="related"><h3>${t("libBrands")}</h3><div class="rel">${r.p.map(brandLink).join("")}</div></section>` : ""}
+    <div class="src">${t("sourceLabel")}<ul>${r.src.map(([u, tt]) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(tt || u)}</a></li>`).join("")}
+      <li><a href="${esc(api)}" target="_blank" rel="noopener">${t("libJson")}</a></li></ul></div>`;
+  document.getElementById("back").addEventListener("click", () => { history.replaceState(null, "", location.pathname + location.search); route(); });
+  document.title = cap(r.n) + " · " + t("siteTitle");
   window.scrollTo(0, 0);
 }
 
@@ -917,6 +1002,8 @@ function route() {
     pstate.city = city; pstate.cond = cond; store.set("pf-city", city);
     providerShell();
     window.scrollTo(0, scrollMem.prov);
+  } else if (h.startsWith("ingredient/") && LIBBY[h.slice(11)]) {
+    ingredientPage(LIBBY[h.slice(11)]);
   } else if (BY[h]) {
     profile(BY[h]);
   } else {

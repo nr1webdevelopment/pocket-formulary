@@ -150,6 +150,9 @@ def main():
     # static JSON API (api/v1/) is generated from dist/v1/medicines.json
     import build_api
     build_api.main()
+    # v2 medicine library (data/library/ -> dist/v2/, api/v2/)
+    import build_library
+    build_library.main()
 
 
 if __name__ == "__main__":

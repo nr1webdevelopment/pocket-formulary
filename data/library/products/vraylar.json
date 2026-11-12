@@ -1,0 +1,32 @@
+{
+  "id": "vraylar",
+  "brandName": "Vraylar",
+  "ingredients": [
+    "cariprazine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "depression"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Vraylar",
+      "title": "DailyMed: Vraylar",
+      "type": "label"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "lyumjev",
+  "brandName": "Lyumjev",
+  "ingredients": [
+    "insulin-lispro"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, vial)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "At the start of a meal or within 20 minutes after",
+  "manufacturer": "Eli Lilly",
+  "approval": {
+    "date": null,
+    "year": 2020,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Faster-acting formulation of insulin lispro.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: rapid-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Rapid-acting insulin analog",
+    "genericName": "insulin lispro-aabc"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

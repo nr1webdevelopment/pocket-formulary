@@ -1,0 +1,40 @@
+{
+  "id": "apidra",
+  "brandName": "Apidra",
+  "ingredients": [
+    "insulin-glulisine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen, vial)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "With meals",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": 2004,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Rapid-acting mealtime insulin.",
+  "notes": null,
+  "attributes": {
+    "category": "Insulin: rapid-acting",
+    "diabetesType": "Type 1 and type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Rapid-acting insulin analog",
+    "genericName": "insulin glulisine"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

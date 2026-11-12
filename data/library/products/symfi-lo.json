@@ -1,0 +1,49 @@
+{
+  "id": "symfi-lo",
+  "brandName": "Symfi Lo",
+  "ingredients": [
+    "efavirenz",
+    "lamivudine",
+    "tenofovir-disoproxil"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (empty stomach, at bedtime)",
+  "manufacturer": "Viatris (Mylan)",
+  "approval": {
+    "date": "2018-02-05",
+    "year": 2018,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Lower-dose (efavirenz 400 mg) version of Symfi.",
+  "notes": "Brand discontinued.",
+  "attributes": {
+    "abbreviation": "EFV/3TC/TDF",
+    "componentClasses": "NNRTI, NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "efavirenz, lamivudine, and tenofovir disoproxil fumarate"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "viramune-xr",
+  "brandName": "Viramune XR",
+  "ingredients": [
+    "nevirapine"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Extended-release tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Boehringer Ingelheim",
+  "approval": {
+    "date": "2011-03-25",
+    "year": 2011,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Extended-release, once-daily version of nevirapine.",
+  "notes": "Brand discontinued; generics may still be available.",
+  "attributes": {
+    "abbreviation": "NVP",
+    "componentClasses": "NNRTI",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "NNRTI",
+    "genericName": "nevirapine (extended-release)"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

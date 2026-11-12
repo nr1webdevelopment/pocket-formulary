@@ -1,0 +1,2852 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/ingredients.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "count": 116,
+  "data": [
+    {
+      "id": "abacavir",
+      "name": "abacavir",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Epzicom",
+        "Triumeq",
+        "Triumeq PD",
+        "Trizivir",
+        "Ziagen"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/abacavir.json"
+    },
+    {
+      "id": "alogliptin",
+      "name": "alogliptin",
+      "kind": "drug",
+      "classes": [
+        "DPP-4 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Nesina"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/alogliptin.json"
+    },
+    {
+      "id": "alprazolam",
+      "name": "alprazolam",
+      "kind": "drug",
+      "classes": [
+        "Benzodiazepine"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Xanax",
+        "Xanax XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/alprazolam.json"
+    },
+    {
+      "id": "amitriptyline",
+      "name": "amitriptyline",
+      "kind": "drug",
+      "classes": [
+        "Tricyclic antidepressant (TCA)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Elavil"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/amitriptyline.json"
+    },
+    {
+      "id": "amoxicillin",
+      "name": "amoxicillin",
+      "kind": "drug",
+      "classes": [
+        "Penicillin antibiotic"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "otitis-media",
+        "pharyngitis"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Amoxil"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/amoxicillin.json"
+    },
+    {
+      "id": "amphetamine",
+      "name": "amphetamine",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (amphetamine)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Adzenys XR-ODT",
+        "Dyanavel XR",
+        "Evekeo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/amphetamine.json"
+    },
+    {
+      "id": "aripiprazole",
+      "name": "aripiprazole",
+      "kind": "drug",
+      "classes": [
+        "Atypical antipsychotic (add-on for depression)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Abilify"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/aripiprazole.json"
+    },
+    {
+      "id": "atazanavir",
+      "name": "atazanavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Evotaz",
+        "Reyataz"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/atazanavir.json"
+    },
+    {
+      "id": "atomoxetine",
+      "name": "atomoxetine",
+      "kind": "drug",
+      "classes": [
+        "Selective norepinephrine reuptake inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Strattera"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/atomoxetine.json"
+    },
+    {
+      "id": "azelastine",
+      "name": "azelastine",
+      "kind": "drug",
+      "classes": [
+        "Antihistamine (nasal)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "allergic-rhinitis"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Astepro"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/azelastine.json"
+    },
+    {
+      "id": "bexagliflozin",
+      "name": "bexagliflozin",
+      "kind": "drug",
+      "classes": [
+        "SGLT2 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Brenzavvy"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/bexagliflozin.json"
+    },
+    {
+      "id": "bictegravir",
+      "name": "bictegravir",
+      "kind": "drug",
+      "classes": [
+        "INSTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Biktarvy",
+        "Bixlenvo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/bictegravir.json"
+    },
+    {
+      "id": "brexanolone",
+      "name": "brexanolone",
+      "kind": "drug",
+      "classes": [
+        "Neuroactive steroid (GABA-A modulator)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "postpartum-depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Zulresso"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/brexanolone.json"
+    },
+    {
+      "id": "brexpiprazole",
+      "name": "brexpiprazole",
+      "kind": "drug",
+      "classes": [
+        "Atypical antipsychotic (add-on for depression)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Rexulti"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/brexpiprazole.json"
+    },
+    {
+      "id": "bupropion",
+      "name": "bupropion",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant (NDRI)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [
+        "adhd"
+      ],
+      "controlled": {},
+      "brands": [
+        "Aplenzin",
+        "Auvelity",
+        "Wellbutrin SR",
+        "Wellbutrin XL",
+        "Zyban"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
+    },
+    {
+      "id": "buspirone",
+      "name": "buspirone",
+      "kind": "drug",
+      "classes": [
+        "Azapirone anxiolytic"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Buspar"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/buspirone.json"
+    },
+    {
+      "id": "cabotegravir",
+      "name": "cabotegravir",
+      "kind": "drug",
+      "classes": [
+        "INSTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Apretude",
+        "Cabenuva",
+        "Vocabria"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/cabotegravir.json"
+    },
+    {
+      "id": "canagliflozin",
+      "name": "canagliflozin",
+      "kind": "drug",
+      "classes": [
+        "SGLT2 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Invokana"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/canagliflozin.json"
+    },
+    {
+      "id": "cariprazine",
+      "name": "cariprazine",
+      "kind": "drug",
+      "classes": [
+        "Atypical antipsychotic (add-on for depression)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Vraylar"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/cariprazine.json"
+    },
+    {
+      "id": "centanafadine",
+      "name": "centanafadine",
+      "kind": "drug",
+      "classes": [
+        "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Simtriyo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/centanafadine.json"
+    },
+    {
+      "id": "cetirizine",
+      "name": "cetirizine",
+      "kind": "drug",
+      "classes": [
+        "Antihistamine (second-generation)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "allergic-rhinitis",
+        "urticaria"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Zyrtec"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/cetirizine.json"
+    },
+    {
+      "id": "ciprofloxacin",
+      "name": "ciprofloxacin",
+      "kind": "drug",
+      "classes": [
+        "Fluoroquinolone antibiotic"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Cetraxal",
+        "Ciprodex"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/ciprofloxacin.json"
+    },
+    {
+      "id": "citalopram",
+      "name": "citalopram",
+      "kind": "drug",
+      "classes": [
+        "SSRI (selective serotonin reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [
+        "anxiety"
+      ],
+      "controlled": {},
+      "brands": [
+        "Celexa"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/citalopram.json"
+    },
+    {
+      "id": "clonazepam",
+      "name": "clonazepam",
+      "kind": "drug",
+      "classes": [
+        "Benzodiazepine"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Klonopin"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/clonazepam.json"
+    },
+    {
+      "id": "clonidine",
+      "name": "clonidine",
+      "kind": "drug",
+      "classes": [
+        "Alpha-2 adrenergic agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Kapvay",
+        "Onyda XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/clonidine.json"
+    },
+    {
+      "id": "cobicistat",
+      "name": "cobicistat",
+      "kind": "drug",
+      "classes": [
+        "Pharmacokinetic Enhancer"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Evotaz",
+        "Genvoya",
+        "Prezcobix",
+        "Prezcobix PED",
+        "Stribild",
+        "Symtuza",
+        "Tybost"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/cobicistat.json"
+    },
+    {
+      "id": "dapagliflozin",
+      "name": "dapagliflozin",
+      "kind": "drug",
+      "classes": [
+        "SGLT2 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Farxiga",
+        "Xigduo XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dapagliflozin.json"
+    },
+    {
+      "id": "darunavir",
+      "name": "darunavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Prezcobix",
+        "Prezcobix PED",
+        "Prezista",
+        "Symtuza"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/darunavir.json"
+    },
+    {
+      "id": "desvenlafaxine",
+      "name": "desvenlafaxine",
+      "kind": "drug",
+      "classes": [
+        "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Pristiq"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/desvenlafaxine.json"
+    },
+    {
+      "id": "dexamethasone",
+      "name": "dexamethasone",
+      "kind": "drug",
+      "classes": [
+        "Corticosteroid"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Ciprodex"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dexamethasone.json"
+    },
+    {
+      "id": "dexmethylphenidate",
+      "name": "dexmethylphenidate",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (methylphenidate)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Azstarys",
+        "Focalin",
+        "Focalin XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dexmethylphenidate.json"
+    },
+    {
+      "id": "dextroamphetamine",
+      "name": "dextroamphetamine",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (amphetamine)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Dexedrine Spansule",
+        "ProCentra",
+        "Xelstrym",
+        "Zenzedi"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
+    },
+    {
+      "id": "dextromethorphan",
+      "name": "dextromethorphan",
+      "kind": "drug",
+      "classes": [
+        "NMDA receptor antagonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Auvelity"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dextromethorphan.json"
+    },
+    {
+      "id": "diazepam",
+      "name": "diazepam",
+      "kind": "drug",
+      "classes": [
+        "Benzodiazepine"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Valium"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/diazepam.json"
+    },
+    {
+      "id": "dolutegravir",
+      "name": "dolutegravir",
+      "kind": "drug",
+      "classes": [
+        "INSTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Dovato",
+        "Juluca",
+        "Tivicay",
+        "Tivicay PD",
+        "Triumeq",
+        "Triumeq PD"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dolutegravir.json"
+    },
+    {
+      "id": "doravirine",
+      "name": "doravirine",
+      "kind": "drug",
+      "classes": [
+        "NNRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Delstrigo",
+        "Idvynso",
+        "Pifeltro"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/doravirine.json"
+    },
+    {
+      "id": "dulaglutide",
+      "name": "dulaglutide",
+      "kind": "drug",
+      "classes": [
+        "GLP-1 receptor agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Trulicity"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dulaglutide.json"
+    },
+    {
+      "id": "duloxetine",
+      "name": "duloxetine",
+      "kind": "drug",
+      "classes": [
+        "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Cymbalta",
+        "Drizalma Sprinkle"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/duloxetine.json"
+    },
+    {
+      "id": "dupilumab",
+      "name": "dupilumab",
+      "kind": "biologic",
+      "classes": [
+        "Monoclonal antibody (IL-4/IL-13 blocker)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "nasal-polyps"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Dupixent"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/dupilumab.json"
+    },
+    {
+      "id": "efavirenz",
+      "name": "efavirenz",
+      "kind": "drug",
+      "classes": [
+        "NNRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Atripla",
+        "Sustiva",
+        "Symfi",
+        "Symfi Lo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/efavirenz.json"
+    },
+    {
+      "id": "elvitegravir",
+      "name": "elvitegravir",
+      "kind": "drug",
+      "classes": [
+        "INSTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Genvoya",
+        "Stribild"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/elvitegravir.json"
+    },
+    {
+      "id": "empagliflozin",
+      "name": "empagliflozin",
+      "kind": "drug",
+      "classes": [
+        "SGLT2 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Glyxambi",
+        "Jardiance",
+        "Synjardy"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/empagliflozin.json"
+    },
+    {
+      "id": "emtricitabine",
+      "name": "emtricitabine",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Atripla",
+        "Biktarvy",
+        "Complera",
+        "Descovy",
+        "Emtriva",
+        "Genvoya",
+        "Odefsey",
+        "Stribild",
+        "Symtuza",
+        "Truvada"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
+    },
+    {
+      "id": "enfuvirtide",
+      "name": "enfuvirtide",
+      "kind": "drug",
+      "classes": [
+        "Fusion Inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Fuzeon"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/enfuvirtide.json"
+    },
+    {
+      "id": "ertugliflozin",
+      "name": "ertugliflozin",
+      "kind": "drug",
+      "classes": [
+        "SGLT2 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Steglatro"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/ertugliflozin.json"
+    },
+    {
+      "id": "escitalopram",
+      "name": "escitalopram",
+      "kind": "drug",
+      "classes": [
+        "SSRI (selective serotonin reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Lexapro"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/escitalopram.json"
+    },
+    {
+      "id": "esketamine",
+      "name": "esketamine",
+      "kind": "drug",
+      "classes": [
+        "NMDA receptor antagonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIII"
+      },
+      "brands": [
+        "Spravato"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/esketamine.json"
+    },
+    {
+      "id": "etravirine",
+      "name": "etravirine",
+      "kind": "drug",
+      "classes": [
+        "NNRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Intelence"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/etravirine.json"
+    },
+    {
+      "id": "fluoxetine",
+      "name": "fluoxetine",
+      "kind": "drug",
+      "classes": [
+        "SSRI (selective serotonin reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Prozac"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/fluoxetine.json"
+    },
+    {
+      "id": "fluticasone",
+      "name": "fluticasone",
+      "kind": "drug",
+      "classes": [
+        "Corticosteroid (nasal)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "allergic-rhinitis",
+        "nasal-polyps"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Flonase",
+        "Xhance"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/fluticasone.json"
+    },
+    {
+      "id": "fosamprenavir",
+      "name": "fosamprenavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Lexiva"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/fosamprenavir.json"
+    },
+    {
+      "id": "fostemsavir",
+      "name": "fostemsavir",
+      "kind": "drug",
+      "classes": [
+        "Attachment Inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Rukobia"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/fostemsavir.json"
+    },
+    {
+      "id": "gepirone",
+      "name": "gepirone",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Exxua"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/gepirone.json"
+    },
+    {
+      "id": "glimepiride",
+      "name": "glimepiride",
+      "kind": "drug",
+      "classes": [
+        "Sulfonylurea"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Amaryl"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/glimepiride.json"
+    },
+    {
+      "id": "glipizide",
+      "name": "glipizide",
+      "kind": "drug",
+      "classes": [
+        "Sulfonylurea"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Glucotrol"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/glipizide.json"
+    },
+    {
+      "id": "glucagon",
+      "name": "glucagon",
+      "kind": "drug",
+      "classes": [
+        "Glucagon (hypoglycemia rescue)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Baqsimi"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/glucagon.json"
+    },
+    {
+      "id": "guanfacine",
+      "name": "guanfacine",
+      "kind": "drug",
+      "classes": [
+        "Alpha-2A adrenergic agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Intuniv"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/guanfacine.json"
+    },
+    {
+      "id": "hydroxyzine",
+      "name": "hydroxyzine",
+      "kind": "drug",
+      "classes": [
+        "Antihistamine (anxiolytic)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Atarax",
+        "Vistaril"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/hydroxyzine.json"
+    },
+    {
+      "id": "ibalizumab",
+      "name": "ibalizumab",
+      "kind": "biologic",
+      "classes": [
+        "Post-Attachment Inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Trogarzo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/ibalizumab.json"
+    },
+    {
+      "id": "insulin-aspart",
+      "name": "insulin aspart",
+      "kind": "biologic",
+      "classes": [
+        "Rapid-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Fiasp",
+        "NovoLog"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-aspart.json"
+    },
+    {
+      "id": "insulin-degludec",
+      "name": "insulin degludec",
+      "kind": "biologic",
+      "classes": [
+        "Ultra-long-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Tresiba"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-degludec.json"
+    },
+    {
+      "id": "insulin-detemir",
+      "name": "insulin detemir",
+      "kind": "biologic",
+      "classes": [
+        "Long-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Levemir"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-detemir.json"
+    },
+    {
+      "id": "insulin-glargine",
+      "name": "insulin glargine",
+      "kind": "biologic",
+      "classes": [
+        "Long-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Basaglar",
+        "Lantus",
+        "Semglee",
+        "Soliqua 100/33",
+        "Toujeo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glargine.json"
+    },
+    {
+      "id": "insulin-glulisine",
+      "name": "insulin glulisine",
+      "kind": "biologic",
+      "classes": [
+        "Rapid-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Apidra"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glulisine.json"
+    },
+    {
+      "id": "insulin-human",
+      "name": "insulin human",
+      "kind": "biologic",
+      "classes": [
+        "Inhaled rapid-acting insulin"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Afrezza",
+        "Humulin R"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-human.json"
+    },
+    {
+      "id": "insulin-icodec",
+      "name": "insulin icodec",
+      "kind": "biologic",
+      "classes": [
+        "Once-weekly basal insulin"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Awiqli"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-icodec.json"
+    },
+    {
+      "id": "insulin-isophane-human",
+      "name": "insulin isophane human",
+      "kind": "biologic",
+      "classes": [
+        "Intermediate-acting human insulin"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Humulin N"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-isophane-human.json"
+    },
+    {
+      "id": "insulin-lispro",
+      "name": "insulin lispro",
+      "kind": "biologic",
+      "classes": [
+        "Rapid-acting insulin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Humalog",
+        "Lyumjev"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-lispro.json"
+    },
+    {
+      "id": "islatravir",
+      "name": "islatravir",
+      "kind": "drug",
+      "classes": [
+        "NRTTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Idvynso"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/islatravir.json"
+    },
+    {
+      "id": "lamivudine",
+      "name": "lamivudine",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Cimduo",
+        "Combivir",
+        "Delstrigo",
+        "Dovato",
+        "Epivir",
+        "Epzicom",
+        "Symfi",
+        "Symfi Lo",
+        "Triumeq",
+        "Triumeq PD",
+        "Trizivir"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lamivudine.json"
+    },
+    {
+      "id": "lenacapavir",
+      "name": "lenacapavir",
+      "kind": "drug",
+      "classes": [
+        "Capsid Inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Bixlenvo",
+        "Sunlenca",
+        "Yeztugo"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lenacapavir.json"
+    },
+    {
+      "id": "levomilnacipran",
+      "name": "levomilnacipran",
+      "kind": "drug",
+      "classes": [
+        "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Fetzima"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/levomilnacipran.json"
+    },
+    {
+      "id": "linagliptin",
+      "name": "linagliptin",
+      "kind": "drug",
+      "classes": [
+        "DPP-4 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Glyxambi",
+        "Tradjenta"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/linagliptin.json"
+    },
+    {
+      "id": "liraglutide",
+      "name": "liraglutide",
+      "kind": "drug",
+      "classes": [
+        "GLP-1 receptor agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Victoza"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/liraglutide.json"
+    },
+    {
+      "id": "lisdexamfetamine",
+      "name": "lisdexamfetamine",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (amphetamine)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Vyvanse"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lisdexamfetamine.json"
+    },
+    {
+      "id": "lixisenatide",
+      "name": "lixisenatide",
+      "kind": "drug",
+      "classes": [
+        "GLP-1 receptor agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Soliqua 100/33"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lixisenatide.json"
+    },
+    {
+      "id": "lopinavir",
+      "name": "lopinavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Kaletra"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lopinavir.json"
+    },
+    {
+      "id": "lorazepam",
+      "name": "lorazepam",
+      "kind": "drug",
+      "classes": [
+        "Benzodiazepine"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Ativan"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/lorazepam.json"
+    },
+    {
+      "id": "maraviroc",
+      "name": "maraviroc",
+      "kind": "drug",
+      "classes": [
+        "CCR5 Antagonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Selzentry"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/maraviroc.json"
+    },
+    {
+      "id": "meclizine",
+      "name": "meclizine",
+      "kind": "drug",
+      "classes": [
+        "Antihistamine (antivertigo)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "vertigo"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Antivert"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/meclizine.json"
+    },
+    {
+      "id": "metformin",
+      "name": "metformin",
+      "kind": "drug",
+      "classes": [
+        "Biguanide"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Glucophage",
+        "Janumet",
+        "Synjardy",
+        "Xigduo XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/metformin.json"
+    },
+    {
+      "id": "methylphenidate",
+      "name": "methylphenidate",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (methylphenidate)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Aptensio XR",
+        "Concerta",
+        "Cotempla XR-ODT",
+        "Daytrana",
+        "Jornay PM",
+        "QuilliChew ER",
+        "Quillivant XR",
+        "Ritalin",
+        "Ritalin LA"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json"
+    },
+    {
+      "id": "mirtazapine",
+      "name": "mirtazapine",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [
+        "anxiety"
+      ],
+      "controlled": {},
+      "brands": [
+        "Remeron",
+        "Remeron SolTab"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/mirtazapine.json"
+    },
+    {
+      "id": "mixed-amphetamine-salts",
+      "name": "mixed amphetamine salts",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (amphetamine)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Adderall",
+        "Adderall XR",
+        "Mydayis"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/mixed-amphetamine-salts.json"
+    },
+    {
+      "id": "mometasone",
+      "name": "mometasone",
+      "kind": "drug",
+      "classes": [
+        "Corticosteroid (nasal)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "allergic-rhinitis",
+        "nasal-polyps"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Nasonex"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/mometasone.json"
+    },
+    {
+      "id": "nevirapine",
+      "name": "nevirapine",
+      "kind": "drug",
+      "classes": [
+        "NNRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Viramune",
+        "Viramune XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/nevirapine.json"
+    },
+    {
+      "id": "nortriptyline",
+      "name": "nortriptyline",
+      "kind": "drug",
+      "classes": [
+        "Tricyclic antidepressant (TCA)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Pamelor"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/nortriptyline.json"
+    },
+    {
+      "id": "ofloxacin",
+      "name": "ofloxacin",
+      "kind": "drug",
+      "classes": [
+        "Fluoroquinolone antibiotic"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Ofloxacin Otic"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/ofloxacin.json"
+    },
+    {
+      "id": "oxymetazoline",
+      "name": "oxymetazoline",
+      "kind": "drug",
+      "classes": [
+        "Decongestant (nasal)"
+      ],
+      "fda": {
+        "status": "otc_monograph",
+        "label": "FDA over-the-counter monograph"
+      },
+      "approvedFor": [
+        "nasal-congestion"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Afrin"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/oxymetazoline.json"
+    },
+    {
+      "id": "paroxetine",
+      "name": "paroxetine",
+      "kind": "drug",
+      "classes": [
+        "SSRI (selective serotonin reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Paxil",
+        "Pexeva"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/paroxetine.json"
+    },
+    {
+      "id": "phenelzine",
+      "name": "phenelzine",
+      "kind": "drug",
+      "classes": [
+        "MAO inhibitor (MAOI)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [
+        "anxiety"
+      ],
+      "controlled": {},
+      "brands": [
+        "Nardil"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/phenelzine.json"
+    },
+    {
+      "id": "pioglitazone",
+      "name": "pioglitazone",
+      "kind": "drug",
+      "classes": [
+        "Thiazolidinedione (TZD)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Actos"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/pioglitazone.json"
+    },
+    {
+      "id": "pramlintide",
+      "name": "pramlintide",
+      "kind": "drug",
+      "classes": [
+        "Amylin analog"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Symlin"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/pramlintide.json"
+    },
+    {
+      "id": "propranolol",
+      "name": "propranolol",
+      "kind": "drug",
+      "classes": [
+        "Beta blocker"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [],
+      "offLabelFor": [
+        "anxiety"
+      ],
+      "controlled": {},
+      "brands": [
+        "Inderal"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/propranolol.json"
+    },
+    {
+      "id": "quetiapine",
+      "name": "quetiapine",
+      "kind": "drug",
+      "classes": [
+        "Atypical antipsychotic (add-on for depression)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Seroquel XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/quetiapine.json"
+    },
+    {
+      "id": "raltegravir",
+      "name": "raltegravir",
+      "kind": "drug",
+      "classes": [
+        "INSTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Isentress",
+        "Isentress HD"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/raltegravir.json"
+    },
+    {
+      "id": "rilpivirine",
+      "name": "rilpivirine",
+      "kind": "drug",
+      "classes": [
+        "NNRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Cabenuva",
+        "Complera",
+        "Edurant",
+        "Edurant PED",
+        "Juluca",
+        "Odefsey"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/rilpivirine.json"
+    },
+    {
+      "id": "ritonavir",
+      "name": "ritonavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Kaletra",
+        "Norvir"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/ritonavir.json"
+    },
+    {
+      "id": "saxagliptin",
+      "name": "saxagliptin",
+      "kind": "drug",
+      "classes": [
+        "DPP-4 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Onglyza"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/saxagliptin.json"
+    },
+    {
+      "id": "selegiline",
+      "name": "selegiline",
+      "kind": "drug",
+      "classes": [
+        "MAO inhibitor (MAOI)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Emsam"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/selegiline.json"
+    },
+    {
+      "id": "semaglutide",
+      "name": "semaglutide",
+      "kind": "drug",
+      "classes": [
+        "GLP-1 receptor agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Ozempic",
+        "Rybelsus (Ozempic pill)"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/semaglutide.json"
+    },
+    {
+      "id": "serdexmethylphenidate",
+      "name": "serdexmethylphenidate",
+      "kind": "drug",
+      "classes": [
+        "CNS stimulant (methylphenidate prodrug)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CII"
+      },
+      "brands": [
+        "Azstarys"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/serdexmethylphenidate.json"
+    },
+    {
+      "id": "sertraline",
+      "name": "sertraline",
+      "kind": "drug",
+      "classes": [
+        "SSRI (selective serotonin reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Zoloft"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/sertraline.json"
+    },
+    {
+      "id": "sitagliptin",
+      "name": "sitagliptin",
+      "kind": "drug",
+      "classes": [
+        "DPP-4 inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Janumet",
+        "Januvia"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/sitagliptin.json"
+    },
+    {
+      "id": "tenofovir-alafenamide",
+      "name": "tenofovir alafenamide",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hepatitis-b",
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Biktarvy",
+        "Descovy",
+        "Genvoya",
+        "Odefsey",
+        "Symtuza",
+        "Vemlidy"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
+    },
+    {
+      "id": "tenofovir-disoproxil",
+      "name": "tenofovir disoproxil",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Atripla",
+        "Cimduo",
+        "Complera",
+        "Delstrigo",
+        "Stribild",
+        "Symfi",
+        "Symfi Lo",
+        "Truvada",
+        "Viread"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-disoproxil.json"
+    },
+    {
+      "id": "teplizumab",
+      "name": "teplizumab",
+      "kind": "biologic",
+      "classes": [
+        "Anti-CD3 monoclonal antibody"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Tzield"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/teplizumab.json"
+    },
+    {
+      "id": "tipranavir",
+      "name": "tipranavir",
+      "kind": "drug",
+      "classes": [
+        "PI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Aptivus"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/tipranavir.json"
+    },
+    {
+      "id": "tirzepatide",
+      "name": "tirzepatide",
+      "kind": "drug",
+      "classes": [
+        "Dual GIP and GLP-1 receptor agonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "diabetes"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Mounjaro"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/tirzepatide.json"
+    },
+    {
+      "id": "trazodone",
+      "name": "trazodone",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Desyrel"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/trazodone.json"
+    },
+    {
+      "id": "venlafaxine",
+      "name": "venlafaxine",
+      "kind": "drug",
+      "classes": [
+        "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "anxiety",
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Effexor XR"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/venlafaxine.json"
+    },
+    {
+      "id": "vilazodone",
+      "name": "vilazodone",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Viibryd"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/vilazodone.json"
+    },
+    {
+      "id": "viloxazine",
+      "name": "viloxazine",
+      "kind": "drug",
+      "classes": [
+        "Selective norepinephrine reuptake inhibitor"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "adhd"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Qelbree"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/viloxazine.json"
+    },
+    {
+      "id": "vortioxetine",
+      "name": "vortioxetine",
+      "kind": "drug",
+      "classes": [
+        "Atypical antidepressant"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Trintellix"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/vortioxetine.json"
+    },
+    {
+      "id": "zidovudine",
+      "name": "zidovudine",
+      "kind": "drug",
+      "classes": [
+        "NRTI"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "hiv"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Combivir",
+        "Retrovir",
+        "Trizivir"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/zidovudine.json"
+    },
+    {
+      "id": "zuranolone",
+      "name": "zuranolone",
+      "kind": "drug",
+      "classes": [
+        "Neuroactive steroid (GABA-A modulator)"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "postpartum-depression"
+      ],
+      "offLabelFor": [],
+      "controlled": {
+        "US": "CIV"
+      },
+      "brands": [
+        "Zurzuvae"
+      ],
+      "tier": "curated",
+      "review": "unverified",
+      "url": "https://nomadceuticals.com/api/v2/ingredients/zuranolone.json"
+    }
+  ]
+}

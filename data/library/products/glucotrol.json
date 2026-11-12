@@ -1,0 +1,40 @@
+{
+  "id": "glucotrol",
+  "brandName": "Glucotrol",
+  "ingredients": [
+    "glipizide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; extended-release tablet (Glucotrol XL)",
+  "route": "Oral",
+  "dosingFrequency": "Once or twice daily before meals",
+  "manufacturer": "Pfizer",
+  "approval": {
+    "date": null,
+    "year": 1984,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Helps the pancreas release more insulin.",
+  "notes": "Can cause low blood sugar.",
+  "attributes": {
+    "category": "Oral: sulfonylurea",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Sulfonylurea",
+    "genericName": "glipizide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "soliqua-100-33",
+  "brandName": "Soliqua 100/33",
+  "ingredients": [
+    "insulin-glargine",
+    "lixisenatide"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Injection (pen)",
+  "route": "Subcutaneous",
+  "dosingFrequency": "Once daily, within an hour before the first meal",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": 2016,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Basal insulin and a GLP-1 agonist in one daily injection.",
+  "notes": null,
+  "attributes": {
+    "category": "Combination pills",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Basal insulin + GLP-1 receptor agonist",
+    "genericName": "insulin glargine and lixisenatide"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

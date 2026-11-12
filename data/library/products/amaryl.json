@@ -1,0 +1,40 @@
+{
+  "id": "amaryl",
+  "brandName": "Amaryl",
+  "ingredients": [
+    "glimepiride"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily with breakfast",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": 1995,
+    "application": null
+  },
+  "indications": [
+    "diabetes"
+  ],
+  "controlled": null,
+  "description": "Once-daily sulfonylurea that boosts insulin release.",
+  "notes": "Can cause low blood sugar.",
+  "attributes": {
+    "category": "Oral: sulfonylurea",
+    "diabetesType": "Type 2"
+  },
+  "v1": {
+    "condition": "diabetes",
+    "drugClass": "Sulfonylurea",
+    "genericName": "glimepiride"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

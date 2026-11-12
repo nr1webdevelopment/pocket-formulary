@@ -1,0 +1,32 @@
+{
+  "id": "buspar",
+  "brandName": "Buspar",
+  "ingredients": [
+    "buspirone"
+  ],
+  "jurisdiction": "US",
+  "status": "discontinued",
+  "form": "Tablet",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "anxiety"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Buspar",
+      "title": "DailyMed: Buspar",
+      "type": "label"
+    }
+  ]
+}

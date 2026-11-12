@@ -1,0 +1,81 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/strattera.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "strattera",
+    "brandName": "Strattera",
+    "ingredients": [
+      "atomoxetine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Capsule",
+    "route": "Oral",
+    "dosingFrequency": "Once or twice daily",
+    "manufacturer": "Eli Lilly",
+    "approval": {
+      "date": null,
+      "year": 2002,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": null,
+    "description": "The first non-stimulant approved for ADHD.",
+    "notes": "Full effect can take several weeks.",
+    "attributes": {
+      "category": "Non-stimulant",
+      "type": "Non-stimulant"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "atomoxetine",
+        "name": "atomoxetine",
+        "kind": "drug",
+        "classes": [
+          "Selective norepinephrine reuptake inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Strattera"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/atomoxetine.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/strattera.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/strattera.json"
+    }
+  }
+}

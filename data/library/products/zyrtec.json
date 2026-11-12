@@ -1,0 +1,33 @@
+{
+  "id": "zyrtec",
+  "brandName": "Zyrtec",
+  "ingredients": [
+    "cetirizine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; oral solution",
+  "route": "Oral",
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "allergic-rhinitis",
+    "urticaria"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": "Over the counter (no prescription needed) in the US.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Zyrtec",
+      "title": "DailyMed: Zyrtec",
+      "type": "label"
+    }
+  ]
+}

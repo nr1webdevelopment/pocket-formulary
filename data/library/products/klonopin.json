@@ -1,0 +1,32 @@
+{
+  "id": "klonopin",
+  "brandName": "Klonopin",
+  "ingredients": [
+    "clonazepam"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": null,
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "anxiety"
+  ],
+  "controlled": "CIV",
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Klonopin",
+      "title": "DailyMed: Klonopin",
+      "type": "label"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "idvynso",
+  "brandName": "Idvynso",
+  "ingredients": [
+    "doravirine",
+    "islatravir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Merck",
+  "approval": {
+    "date": "2026-04-20",
+    "year": 2026,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Two-drug single-tablet regimen for virologically suppressed adults switching therapy.",
+  "notes": "New in 2026. Islatravir is a next-generation nucleoside reverse transcriptase translocation inhibitor (NRTTI).",
+  "attributes": {
+    "abbreviation": "DOR/ISL",
+    "componentClasses": "NNRTI, NRTI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "doravirine and islatravir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

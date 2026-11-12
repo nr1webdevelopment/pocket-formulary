@@ -1,0 +1,49 @@
+{
+  "id": "triumeq-pd",
+  "brandName": "Triumeq PD",
+  "ingredients": [
+    "abacavir",
+    "dolutegravir",
+    "lamivudine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet for oral suspension",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2022-03-30",
+    "year": 2022,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Pediatric dispersible version of Triumeq.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "ABC/DTG/3TC",
+    "componentClasses": "INSTI, NRTI",
+    "isCombination": true,
+    "componentCount": 3,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": false,
+    "pediatricVersion": true,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "abacavir, dolutegravir, and lamivudine"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

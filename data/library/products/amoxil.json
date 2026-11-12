@@ -1,0 +1,33 @@
+{
+  "id": "amoxil",
+  "brandName": "Amoxil",
+  "ingredients": [
+    "amoxicillin"
+  ],
+  "jurisdiction": "US",
+  "status": "unknown",
+  "form": "Capsule; tablet; oral suspension",
+  "route": "Oral",
+  "dosingFrequency": null,
+  "manufacturer": null,
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "otitis-media",
+    "pharyngitis"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Amoxil",
+      "title": "DailyMed: Amoxil",
+      "type": "label"
+    }
+  ]
+}

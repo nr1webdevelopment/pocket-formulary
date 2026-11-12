@@ -1,0 +1,81 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/victoza.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "victoza",
+    "brandName": "Victoza",
+    "ingredients": [
+      "liraglutide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Injection (pen)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Novo Nordisk",
+    "approval": {
+      "date": null,
+      "year": 2010,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "Daily GLP-1 injection that lowers blood sugar and reduces cardiovascular risk.",
+    "notes": "Approved for children 10 and older.",
+    "attributes": {
+      "category": "GLP-1 and GIP/GLP-1 agonists",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "liraglutide",
+        "name": "liraglutide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Victoza"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/liraglutide.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/victoza.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/victoza.json"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "cabenuva",
+  "brandName": "Cabenuva",
+  "ingredients": [
+    "cabotegravir",
+    "rilpivirine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Intramuscular injections",
+  "route": "Injection",
+  "dosingFrequency": "Monthly or every 2 months",
+  "manufacturer": "ViiV Healthcare",
+  "approval": {
+    "date": "2021-01-22",
+    "year": 2021,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "First complete long-acting injectable HIV treatment regimen.",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "CAB/RPV",
+    "componentClasses": "INSTI, NNRTI",
+    "isCombination": true,
+    "componentCount": 2,
+    "completeRegimen": true,
+    "use": "Treatment",
+    "longActing": true,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Combination",
+    "genericName": "cabotegravir and rilpivirine (extended-release injections)"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

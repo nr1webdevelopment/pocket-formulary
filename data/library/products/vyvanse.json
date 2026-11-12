@@ -1,0 +1,40 @@
+{
+  "id": "vyvanse",
+  "brandName": "Vyvanse",
+  "ingredients": [
+    "lisdexamfetamine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Capsule; chewable tablet",
+  "route": "Oral",
+  "dosingFrequency": "Once daily (morning)",
+  "manufacturer": "Takeda",
+  "approval": {
+    "date": null,
+    "year": 2007,
+    "application": null
+  },
+  "indications": [
+    "adhd"
+  ],
+  "controlled": "CII",
+  "description": "Prodrug the body converts into dextroamphetamine, giving a smooth, long effect.",
+  "notes": "Also approved for moderate to severe binge eating disorder in adults.",
+  "attributes": {
+    "category": "Amphetamine",
+    "type": "Stimulant"
+  },
+  "v1": {
+    "condition": "adhd",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "genericName": "lisdexamfetamine"
+  },
+  "sources": [
+    {
+      "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/pristiq.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "pristiq",
+    "brandName": "Pristiq",
+    "ingredients": [
+      "desvenlafaxine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Extended-release tablet",
+    "route": null,
+    "dosingFrequency": null,
+    "manufacturer": null,
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "depression"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": null,
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Pristiq",
+        "title": "DailyMed: Pristiq",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "desvenlafaxine",
+        "name": "desvenlafaxine",
+        "kind": "drug",
+        "classes": [
+          "SNRI (serotonin-norepinephrine reuptake inhibitor)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Pristiq"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "url": "https://nomadceuticals.com/api/v2/ingredients/desvenlafaxine.json"
+      }
+    ],
+    "indicationNames": [
+      "Depression"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/pristiq.json"
+    }
+  }
+}

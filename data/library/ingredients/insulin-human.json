@@ -1,0 +1,52 @@
+{
+  "id": "insulin-human",
+  "name": "insulin human",
+  "synonyms": [
+    "regular insulin",
+    "human insulin"
+  ],
+  "kind": "biologic",
+  "classes": [
+    {
+      "name": "Inhaled rapid-acting insulin",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-12",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "uses": [
+    {
+      "condition": "diabetes",
+      "type": "approved",
+      "jurisdiction": "US",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  ],
+  "controlled": [],
+  "summary": null,
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-12",
+    "by": null,
+    "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=insulin+human",
+      "title": "DailyMed labels for insulin human",
+      "type": "label"
+    }
+  ]
+}

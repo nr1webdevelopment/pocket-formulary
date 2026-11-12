@@ -1,0 +1,47 @@
+{
+  "id": "yeztugo",
+  "brandName": "Yeztugo",
+  "ingredients": [
+    "lenacapavir"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Subcutaneous injection (with oral initiation)",
+  "route": "Injection",
+  "dosingFrequency": "Every 6 months",
+  "manufacturer": "Gilead Sciences",
+  "approval": {
+    "date": "2025-06-18",
+    "year": 2025,
+    "application": null
+  },
+  "indications": [
+    "hiv"
+  ],
+  "controlled": null,
+  "description": "Twice-yearly injectable for HIV prevention (PrEP).",
+  "notes": null,
+  "attributes": {
+    "abbreviation": "LEN",
+    "componentClasses": "Capsid Inhibitor",
+    "isCombination": false,
+    "componentCount": 1,
+    "completeRegimen": false,
+    "use": "PrEP",
+    "longActing": true,
+    "pediatricVersion": false,
+    "lastVerified": "2026-10-20"
+  },
+  "v1": {
+    "condition": "hiv",
+    "drugClass": "Capsid Inhibitor",
+    "genericName": "lenacapavir"
+  },
+  "sources": [
+    {
+      "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+      "title": "Original source (API v1)",
+      "type": "reference"
+    }
+  ]
+}
