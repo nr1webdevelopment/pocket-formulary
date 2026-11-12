@@ -10,3 +10,6 @@ assets/images.jpg
 # Research copies of third-party pages (not ours to publish)
 research/
 stanford-dl-test.txt
+
+# Built website for upload (scripts/build_public.py)
+public/

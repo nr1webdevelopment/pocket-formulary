@@ -58,10 +58,10 @@ const hongKongHiv = data.filter(p => p.city === "hkg" && p.conditions.includes("
 
 ## Medicines API
 
-A free, read-only JSON API for the medicines data, with no key or sign-up. Every endpoint is a static file published to GitHub Pages, so browsers can call it from any website.
+A free, read-only JSON API for the medicines data, with no key or sign-up. Every endpoint is a static file on nomadceuticals.com, served with CORS so browsers can call it from any website.
 
-**Docs and live demo:** https://nr1webdevelopment.github.io/pocket-formulary/api/
-**Base URL:** `https://nr1webdevelopment.github.io/pocket-formulary/api/v1`
+**Docs and live demo:** https://nomadceuticals.com/api/
+**Base URL:** `https://nomadceuticals.com/api/v1`
 
 | Endpoint | Returns |
 |---|---|
@@ -75,12 +75,25 @@ A free, read-only JSON API for the medicines data, with no key or sign-up. Every
 | `GET /openapi.json` | OpenAPI 3.1 spec |
 
 ```js
-const { data } = await (await fetch("https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/biktarvy.json")).json();
+const { data } = await (await fetch("https://nomadceuticals.com/api/v1/medicines/biktarvy.json")).json();
 ```
 
 Responses share one wrapper: `apiVersion`, `dataVersion`, `released`, `license`, `attribution`, `disclaimer`, `links`, `count` (lists) and `data`. `/v1/` stays backwards compatible: fields can be added, never removed or renamed.
 
-How it's built: `scripts/build_api.py` turns `dist/v1/medicines.json` into the files in `api/v1/` (plus the docs page `api/index.html`). `build_dist.py` runs it automatically, and CI fails if `api/` is out of date. `.github/workflows/pages.yml` publishes the site, `api/`, `dist/` and `schema/` on every push to `main`. To move the API to your own domain later, change `apiBaseUrl` and `siteUrl` in `data/release.json` and rebuild.
+How it's built: `scripts/build_api.py` turns `dist/v1/medicines.json` into the files in `api/v1/` (plus the docs page `api/index.html`). `build_dist.py` runs it automatically, and CI fails if `api/` is out of date. The base URL comes from `apiBaseUrl` and `siteUrl` in `data/release.json`.
+
+### Publishing the website (Hostinger)
+
+nomadceuticals.com is hosted on Hostinger. Only the files in `public/` go online. Never upload the whole repository folder: it contains source data, scripts and private notes.
+
+```bash
+python3 scripts/build_dist.py && python3 scripts/build_site.py && python3 scripts/build_public.py
+```
+
+`public/` then holds the site, `api/`, `dist/`, `schema/`, the logos, a `404.html` and an `.htaccess` that turns on CORS for the API, redirects `www` and `http` to `https://nomadceuticals.com`, sets caching and blocks source folders as a safety net.
+
+- **Automatic (recommended):** on every push to `main`, `.github/workflows/deploy.yml` checks the data and publishes `public/` to the `public` branch. In Hostinger hPanel → Websites → Advanced → Git, connect this repository with branch `public` and an empty install path, turn on auto-deployment, and add the webhook URL it shows under GitHub → Settings → Webhooks.
+- **By hand:** upload the *contents* of `public/` to `public_html` in Hostinger's File Manager, including the hidden `.htaccess`.
 
 ## Data format
 

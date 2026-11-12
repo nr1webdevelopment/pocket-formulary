@@ -14,7 +14,7 @@
   },
   "servers": [
     {
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1"
+      "url": "https://nomadceuticals.com/api/v1"
     }
   ],
   "paths": {
@@ -564,7 +564,7 @@
         }
       },
       "Medicine": {
-        "description": "Full record. Fields follow https://nr1webdevelopment.github.io/pocket-formulary/schema/medicine.schema.json, plus classId and links.",
+        "description": "Full record. Fields follow https://nomadceuticals.com/schema/medicine.schema.json, plus classId and links.",
         "type": "object",
         "properties": {
           "id": {

@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "condition": {
     "id": "adhd",
@@ -22,32 +22,32 @@
     {
       "id": "adhd-alpha-2-adrenergic-agonist",
       "name": "Alpha-2 adrenergic agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json"
     },
     {
       "id": "adhd-alpha-2a-adrenergic-agonist",
       "name": "Alpha-2A adrenergic agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json"
     },
     {
       "id": "adhd-cns-stimulant-amphetamine",
       "name": "CNS stimulant (amphetamine)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json"
     },
     {
       "id": "adhd-cns-stimulant-methylphenidate",
       "name": "CNS stimulant (methylphenidate)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json"
     },
     {
       "id": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
       "name": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json"
     },
     {
       "id": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "name": "Selective norepinephrine reuptake inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json"
     }
   ],
   "count": 25,
@@ -75,10 +75,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adderall",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adderall.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adderall",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -105,10 +105,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adderall-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adderall-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -135,10 +135,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adzenys-xr-odt.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adzenys-xr-odt",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adzenys-xr-odt",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -165,10 +165,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptensio-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#aptensio-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/aptensio-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#aptensio-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -195,10 +195,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/azstarys.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#azstarys",
+        "self": "https://nomadceuticals.com/api/v1/medicines/azstarys.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#azstarys",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -225,10 +225,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/concerta.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#concerta",
+        "self": "https://nomadceuticals.com/api/v1/medicines/concerta.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#concerta",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -255,10 +255,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cotempla-xr-odt.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#cotempla-xr-odt",
+        "self": "https://nomadceuticals.com/api/v1/medicines/cotempla-xr-odt.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#cotempla-xr-odt",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -285,10 +285,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/daytrana.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#daytrana",
+        "self": "https://nomadceuticals.com/api/v1/medicines/daytrana.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#daytrana",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -315,10 +315,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dyanavel-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#dyanavel-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#dyanavel-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -345,10 +345,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evekeo.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#evekeo",
+        "self": "https://nomadceuticals.com/api/v1/medicines/evekeo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#evekeo",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -375,10 +375,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#focalin",
+        "self": "https://nomadceuticals.com/api/v1/medicines/focalin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#focalin",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -405,10 +405,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#focalin-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/focalin-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#focalin-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -435,10 +435,10 @@
       },
       "classId": "adhd-alpha-2a-adrenergic-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intuniv.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#intuniv",
+        "self": "https://nomadceuticals.com/api/v1/medicines/intuniv.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
+        "website": "https://nomadceuticals.com/#intuniv",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -465,10 +465,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jornay-pm.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#jornay-pm",
+        "self": "https://nomadceuticals.com/api/v1/medicines/jornay-pm.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#jornay-pm",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -495,10 +495,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mydayis.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#mydayis",
+        "self": "https://nomadceuticals.com/api/v1/medicines/mydayis.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#mydayis",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -525,10 +525,10 @@
       },
       "classId": "adhd-alpha-2-adrenergic-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onyda-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#onyda-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/onyda-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json",
+        "website": "https://nomadceuticals.com/#onyda-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -555,10 +555,10 @@
       },
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/qelbree.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#qelbree",
+        "self": "https://nomadceuticals.com/api/v1/medicines/qelbree.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+        "website": "https://nomadceuticals.com/#qelbree",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -585,10 +585,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillichew-er.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#quillichew-er",
+        "self": "https://nomadceuticals.com/api/v1/medicines/quillichew-er.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#quillichew-er",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -615,10 +615,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillivant-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#quillivant-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/quillivant-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#quillivant-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -645,10 +645,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#ritalin",
+        "self": "https://nomadceuticals.com/api/v1/medicines/ritalin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#ritalin",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -675,10 +675,10 @@
       },
       "classId": "adhd-cns-stimulant-methylphenidate",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin-la.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#ritalin-la",
+        "self": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#ritalin-la",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -705,10 +705,10 @@
       },
       "classId": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/simtriyo.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#simtriyo",
+        "self": "https://nomadceuticals.com/api/v1/medicines/simtriyo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
+        "website": "https://nomadceuticals.com/#simtriyo",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -735,10 +735,10 @@
       },
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/strattera.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#strattera",
+        "self": "https://nomadceuticals.com/api/v1/medicines/strattera.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+        "website": "https://nomadceuticals.com/#strattera",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -765,10 +765,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vyvanse.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#vyvanse",
+        "self": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#vyvanse",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -795,10 +795,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xelstrym.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#xelstrym",
+        "self": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#xelstrym",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

@@ -1,0 +1,44 @@
+name: Build public site
+
+# On every push to main: check the data, then publish ONLY the public website files
+# (scripts/build_public.py -> public/) to the `public` branch.
+# Hostinger: hPanel -> Websites -> Advanced -> Git -> repository https://github.com/nr1webdevelopment/pocket-formulary,
+# branch "public", install path empty (public_html). Turn on auto-deployment and add its webhook URL to
+# GitHub -> Settings -> Webhooks so every push goes live automatically.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "jsonschema>=4.18"
+      - name: Check data and API are up to date
+        run: |
+          python scripts/build_dist.py
+          python scripts/validate.py
+          git diff --exit-code -- dist/ api/
+      - name: Assemble public site
+        run: python scripts/build_public.py
+      - name: Publish to the public branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: public
+          publish_dir: ./public
+          force_orphan: true
+          enable_jekyll: true
+          commit_message: "Deploy ${{ github.sha }}"

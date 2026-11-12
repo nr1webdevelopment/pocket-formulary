@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/synjardy.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/synjardy.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "SGLT2 inhibitor + biguanide",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor-biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xigduo-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/xigduo-xr.json"
     }
   ],
   "data": {
@@ -45,10 +45,10 @@
     },
     "classId": "diabetes-sglt2-inhibitor-biguanide",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/synjardy.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#synjardy",
+      "self": "https://nomadceuticals.com/api/v1/medicines/synjardy.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
+      "website": "https://nomadceuticals.com/#synjardy",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
     }
   }

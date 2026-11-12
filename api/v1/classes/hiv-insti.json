@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "hiv-insti",
@@ -48,10 +48,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apretude.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#apretude",
+        "self": "https://nomadceuticals.com/api/v1/medicines/apretude.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#apretude",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -84,10 +84,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#isentress",
+        "self": "https://nomadceuticals.com/api/v1/medicines/isentress.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#isentress",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -120,10 +120,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress-hd.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#isentress-hd",
+        "self": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#isentress-hd",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -156,10 +156,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tivicay",
+        "self": "https://nomadceuticals.com/api/v1/medicines/tivicay.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#tivicay",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -192,10 +192,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay-pd.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tivicay-pd",
+        "self": "https://nomadceuticals.com/api/v1/medicines/tivicay-pd.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#tivicay-pd",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -228,10 +228,10 @@
       },
       "classId": "hiv-insti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vocabria.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#vocabria",
+        "self": "https://nomadceuticals.com/api/v1/medicines/vocabria.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+        "website": "https://nomadceuticals.com/#vocabria",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     }

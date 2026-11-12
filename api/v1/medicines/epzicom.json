@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epzicom.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/epzicom.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/atripla.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/atripla.json"
     },
     {
       "id": "biktarvy",
@@ -30,7 +30,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/biktarvy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/biktarvy.json"
     },
     {
       "id": "bixlenvo",
@@ -40,7 +40,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/bixlenvo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/bixlenvo.json"
     },
     {
       "id": "cabenuva",
@@ -50,7 +50,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cabenuva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cabenuva.json"
     },
     {
       "id": "cimduo",
@@ -60,7 +60,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cimduo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cimduo.json"
     },
     {
       "id": "combivir",
@@ -70,7 +70,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/combivir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/combivir.json"
     },
     {
       "id": "complera",
@@ -80,7 +80,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/complera.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/complera.json"
     },
     {
       "id": "delstrigo",
@@ -90,7 +90,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/delstrigo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/delstrigo.json"
     },
     {
       "id": "descovy",
@@ -100,7 +100,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/descovy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/descovy.json"
     },
     {
       "id": "dovato",
@@ -110,7 +110,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dovato.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/dovato.json"
     },
     {
       "id": "evotaz",
@@ -120,7 +120,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evotaz.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/evotaz.json"
     },
     {
       "id": "genvoya",
@@ -130,7 +130,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/genvoya.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/genvoya.json"
     },
     {
       "id": "idvynso",
@@ -140,7 +140,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/idvynso.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/idvynso.json"
     },
     {
       "id": "juluca",
@@ -150,7 +150,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/juluca.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/juluca.json"
     },
     {
       "id": "kaletra",
@@ -160,7 +160,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/kaletra.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/kaletra.json"
     },
     {
       "id": "odefsey",
@@ -170,7 +170,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/odefsey.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/odefsey.json"
     },
     {
       "id": "prezcobix",
@@ -180,7 +180,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix.json"
     },
     {
       "id": "prezcobix-ped",
@@ -190,7 +190,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix-ped.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix-ped.json"
     },
     {
       "id": "stribild",
@@ -200,7 +200,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/stribild.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/stribild.json"
     },
     {
       "id": "symfi",
@@ -210,7 +210,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi.json"
     },
     {
       "id": "symfi-lo",
@@ -220,7 +220,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi-lo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi-lo.json"
     },
     {
       "id": "symtuza",
@@ -230,7 +230,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symtuza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symtuza.json"
     },
     {
       "id": "triumeq",
@@ -240,7 +240,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq.json"
     },
     {
       "id": "triumeq-pd",
@@ -250,7 +250,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq-pd.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq-pd.json"
     },
     {
       "id": "trizivir",
@@ -260,7 +260,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trizivir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/trizivir.json"
     },
     {
       "id": "truvada",
@@ -270,7 +270,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/truvada.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/truvada.json"
     }
   ],
   "data": {
@@ -302,10 +302,10 @@
     },
     "classId": "hiv-combination",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epzicom.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-combination.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#epzicom",
+      "self": "https://nomadceuticals.com/api/v1/medicines/epzicom.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-combination.json",
+      "website": "https://nomadceuticals.com/#epzicom",
       "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
     }
   }

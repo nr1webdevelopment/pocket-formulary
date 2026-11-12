@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "adhd-selective-norepinephrine-reuptake-inhibitor",
@@ -42,10 +42,10 @@
       },
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/qelbree.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#qelbree",
+        "self": "https://nomadceuticals.com/api/v1/medicines/qelbree.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+        "website": "https://nomadceuticals.com/#qelbree",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -72,10 +72,10 @@
       },
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/strattera.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#strattera",
+        "self": "https://nomadceuticals.com/api/v1/medicines/strattera.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+        "website": "https://nomadceuticals.com/#strattera",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

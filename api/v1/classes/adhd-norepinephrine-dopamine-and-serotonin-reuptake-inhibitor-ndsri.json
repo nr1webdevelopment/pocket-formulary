@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
@@ -42,10 +42,10 @@
       },
       "classId": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/simtriyo.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#simtriyo",
+        "self": "https://nomadceuticals.com/api/v1/medicines/simtriyo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json",
+        "website": "https://nomadceuticals.com/#simtriyo",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

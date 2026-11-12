@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/index.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "data": {
     "description": "Free, read-only JSON API of FDA-approved medicines for HIV, ADHD and diabetes. Every endpoint is a static file: use GET, no API key needed.",
@@ -24,16 +24,16 @@
       }
     },
     "endpoints": {
-      "medicines": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines.json",
-      "medicine": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/{id}.json",
-      "conditions": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/{condition}.json",
-      "classes": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/{classId}.json",
-      "openapi": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/openapi.json",
-      "bulkJson": "https://nr1webdevelopment.github.io/pocket-formulary/dist/v1/medicines.json",
-      "bulkCsv": "https://nr1webdevelopment.github.io/pocket-formulary/dist/v1/medicines.csv"
+      "medicines": "https://nomadceuticals.com/api/v1/medicines.json",
+      "medicine": "https://nomadceuticals.com/api/v1/medicines/{id}.json",
+      "conditions": "https://nomadceuticals.com/api/v1/conditions.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/{condition}.json",
+      "classes": "https://nomadceuticals.com/api/v1/classes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/{classId}.json",
+      "openapi": "https://nomadceuticals.com/api/v1/openapi.json",
+      "bulkJson": "https://nomadceuticals.com/dist/v1/medicines.json",
+      "bulkCsv": "https://nomadceuticals.com/dist/v1/medicines.csv"
     },
-    "schema": "https://nr1webdevelopment.github.io/pocket-formulary/schema/medicine.schema.json"
+    "schema": "https://nomadceuticals.com/schema/medicine.schema.json"
   }
 }

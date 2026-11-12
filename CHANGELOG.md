@@ -2,7 +2,9 @@
 
 ## Unreleased
 
-- **Medicines API:** free, read-only JSON API at `/api/v1/` (124 medicines, by condition and by drug class), with an OpenAPI 3.1 spec and a docs page with a live "Try it" box at `/api/`. Published to GitHub Pages with the website.
+- **Hosting on nomadceuticals.com (Hostinger):** `scripts/build_public.py` builds `public/` with only the public files plus `.htaccess` (CORS for the API, www/http → https://nomadceuticals.com redirects, caching, source folders blocked) and a 404 page. `deploy.yml` publishes it to the `public` branch for Hostinger Git auto-deploy, replacing the GitHub Pages workflow.
+
+- **Medicines API:** free, read-only JSON API at `/api/v1/` (124 medicines, by condition and by drug class), with an OpenAPI 3.1 spec and a docs page with a live "Try it" box at `/api/`. Live at https://nomadceuticals.com/api/v1, with CORS so any website can use it.
 
 - **Renamed to NomadCeuticals** (formerly Pocket Formulary). New logo: compass with a medical cross (vector files in `assets/`). Repository URLs and dataset IDs are unchanged.
 - Website redesign: black top bar, square cards, serif headings, red accent, icon squares on condition tabs. No gradients.

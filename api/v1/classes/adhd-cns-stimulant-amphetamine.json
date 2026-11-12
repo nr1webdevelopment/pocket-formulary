@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "adhd-cns-stimulant-amphetamine",
@@ -42,10 +42,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adderall",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adderall.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adderall",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -72,10 +72,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adderall-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adderall-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -102,10 +102,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adzenys-xr-odt.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adzenys-xr-odt",
+        "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#adzenys-xr-odt",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -132,10 +132,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dyanavel-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#dyanavel-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#dyanavel-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -162,10 +162,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evekeo.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#evekeo",
+        "self": "https://nomadceuticals.com/api/v1/medicines/evekeo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#evekeo",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -192,10 +192,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mydayis.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#mydayis",
+        "self": "https://nomadceuticals.com/api/v1/medicines/mydayis.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#mydayis",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -222,10 +222,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vyvanse.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#vyvanse",
+        "self": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#vyvanse",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -252,10 +252,10 @@
       },
       "classId": "adhd-cns-stimulant-amphetamine",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xelstrym.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#xelstrym",
+        "self": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+        "website": "https://nomadceuticals.com/#xelstrym",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

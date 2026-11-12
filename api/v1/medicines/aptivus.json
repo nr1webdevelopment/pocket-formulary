@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptivus.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/aptivus.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "PI",
       "status": "Discontinued",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lexiva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/lexiva.json"
     },
     {
       "id": "norvir",
@@ -30,7 +30,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/norvir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/norvir.json"
     },
     {
       "id": "prezista",
@@ -40,7 +40,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezista.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezista.json"
     },
     {
       "id": "reyataz",
@@ -50,7 +50,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/reyataz.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/reyataz.json"
     }
   ],
   "data": {
@@ -82,10 +82,10 @@
     },
     "classId": "hiv-pi",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptivus.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-pi.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#aptivus",
+      "self": "https://nomadceuticals.com/api/v1/medicines/aptivus.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-pi.json",
+      "website": "https://nomadceuticals.com/#aptivus",
       "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
     }
   }

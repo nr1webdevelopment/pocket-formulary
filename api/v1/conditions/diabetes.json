@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "condition": {
     "id": "diabetes",
@@ -22,112 +22,112 @@
     {
       "id": "diabetes-amylin-analog",
       "name": "Amylin analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-amylin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-amylin-analog.json"
     },
     {
       "id": "diabetes-anti-cd3-monoclonal-antibody",
       "name": "Anti-CD3 monoclonal antibody",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json"
     },
     {
       "id": "diabetes-basal-insulin-glp-1-receptor-agonist",
       "name": "Basal insulin + GLP-1 receptor agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-biguanide",
       "name": "Biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-biguanide.json"
     },
     {
       "id": "diabetes-dpp-4-inhibitor",
       "name": "DPP-4 inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json"
     },
     {
       "id": "diabetes-dpp-4-inhibitor-biguanide",
       "name": "DPP-4 inhibitor + biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json"
     },
     {
       "id": "diabetes-dual-gip-and-glp-1-receptor-agonist",
       "name": "Dual GIP and GLP-1 receptor agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-glp-1-receptor-agonist",
       "name": "GLP-1 receptor agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-glucagon-hypoglycemia-rescue",
       "name": "Glucagon (hypoglycemia rescue)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json"
     },
     {
       "id": "diabetes-inhaled-rapid-acting-insulin",
       "name": "Inhaled rapid-acting insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json"
     },
     {
       "id": "diabetes-intermediate-acting-human-insulin",
       "name": "Intermediate-acting human insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-intermediate-acting-human-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-intermediate-acting-human-insulin.json"
     },
     {
       "id": "diabetes-long-acting-insulin-analog",
       "name": "Long-acting insulin analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json"
     },
     {
       "id": "diabetes-long-acting-insulin-analog-biosimilar",
       "name": "Long-acting insulin analog (biosimilar)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json"
     },
     {
       "id": "diabetes-once-weekly-basal-insulin",
       "name": "Once-weekly basal insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-once-weekly-basal-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json"
     },
     {
       "id": "diabetes-rapid-acting-insulin-analog",
       "name": "Rapid-acting insulin analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor",
       "name": "SGLT2 inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor-biguanide",
       "name": "SGLT2 inhibitor + biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
       "name": "SGLT2 inhibitor + DPP-4 inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json"
     },
     {
       "id": "diabetes-short-acting-human-insulin",
       "name": "Short-acting human insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-short-acting-human-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-short-acting-human-insulin.json"
     },
     {
       "id": "diabetes-sulfonylurea",
       "name": "Sulfonylurea",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sulfonylurea.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json"
     },
     {
       "id": "diabetes-thiazolidinedione-tzd",
       "name": "Thiazolidinedione (TZD)",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-thiazolidinedione-tzd.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json"
     },
     {
       "id": "diabetes-ultra-long-acting-insulin-analog",
       "name": "Ultra-long-acting insulin analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json"
     }
   ],
   "count": 41,
@@ -154,10 +154,10 @@
       },
       "classId": "diabetes-thiazolidinedione-tzd",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/actos.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-thiazolidinedione-tzd.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#actos",
+        "self": "https://nomadceuticals.com/api/v1/medicines/actos.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json",
+        "website": "https://nomadceuticals.com/#actos",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -183,10 +183,10 @@
       },
       "classId": "diabetes-inhaled-rapid-acting-insulin",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/afrezza.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#afrezza",
+        "self": "https://nomadceuticals.com/api/v1/medicines/afrezza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json",
+        "website": "https://nomadceuticals.com/#afrezza",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -212,10 +212,10 @@
       },
       "classId": "diabetes-sulfonylurea",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/amaryl.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sulfonylurea.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#amaryl",
+        "self": "https://nomadceuticals.com/api/v1/medicines/amaryl.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json",
+        "website": "https://nomadceuticals.com/#amaryl",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -241,10 +241,10 @@
       },
       "classId": "diabetes-rapid-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apidra.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#apidra",
+        "self": "https://nomadceuticals.com/api/v1/medicines/apidra.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#apidra",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -270,10 +270,10 @@
       },
       "classId": "diabetes-once-weekly-basal-insulin",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/awiqli.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-once-weekly-basal-insulin.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#awiqli",
+        "self": "https://nomadceuticals.com/api/v1/medicines/awiqli.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json",
+        "website": "https://nomadceuticals.com/#awiqli",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -299,10 +299,10 @@
       },
       "classId": "diabetes-glucagon-hypoglycemia-rescue",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/baqsimi.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#baqsimi",
+        "self": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json",
+        "website": "https://nomadceuticals.com/#baqsimi",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -328,10 +328,10 @@
       },
       "classId": "diabetes-long-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/basaglar.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#basaglar",
+        "self": "https://nomadceuticals.com/api/v1/medicines/basaglar.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#basaglar",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -357,10 +357,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/brenzavvy.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#brenzavvy",
+        "self": "https://nomadceuticals.com/api/v1/medicines/brenzavvy.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#brenzavvy",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -386,10 +386,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/farxiga.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#farxiga",
+        "self": "https://nomadceuticals.com/api/v1/medicines/farxiga.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#farxiga",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -415,10 +415,10 @@
       },
       "classId": "diabetes-rapid-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fiasp.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#fiasp",
+        "self": "https://nomadceuticals.com/api/v1/medicines/fiasp.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#fiasp",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -444,10 +444,10 @@
       },
       "classId": "diabetes-biguanide",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucophage.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-biguanide.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#glucophage",
+        "self": "https://nomadceuticals.com/api/v1/medicines/glucophage.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-biguanide.json",
+        "website": "https://nomadceuticals.com/#glucophage",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -473,10 +473,10 @@
       },
       "classId": "diabetes-sulfonylurea",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucotrol.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sulfonylurea.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#glucotrol",
+        "self": "https://nomadceuticals.com/api/v1/medicines/glucotrol.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json",
+        "website": "https://nomadceuticals.com/#glucotrol",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -502,10 +502,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glyxambi.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#glyxambi",
+        "self": "https://nomadceuticals.com/api/v1/medicines/glyxambi.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#glyxambi",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -531,10 +531,10 @@
       },
       "classId": "diabetes-rapid-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humalog.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#humalog",
+        "self": "https://nomadceuticals.com/api/v1/medicines/humalog.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#humalog",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -560,10 +560,10 @@
       },
       "classId": "diabetes-intermediate-acting-human-insulin",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humulin-n.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-intermediate-acting-human-insulin.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#humulin-n",
+        "self": "https://nomadceuticals.com/api/v1/medicines/humulin-n.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-intermediate-acting-human-insulin.json",
+        "website": "https://nomadceuticals.com/#humulin-n",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -589,10 +589,10 @@
       },
       "classId": "diabetes-short-acting-human-insulin",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humulin-r.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-short-acting-human-insulin.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#humulin-r",
+        "self": "https://nomadceuticals.com/api/v1/medicines/humulin-r.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-short-acting-human-insulin.json",
+        "website": "https://nomadceuticals.com/#humulin-r",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -618,10 +618,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/invokana.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#invokana",
+        "self": "https://nomadceuticals.com/api/v1/medicines/invokana.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#invokana",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -647,10 +647,10 @@
       },
       "classId": "diabetes-dpp-4-inhibitor-biguanide",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/janumet.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#janumet",
+        "self": "https://nomadceuticals.com/api/v1/medicines/janumet.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#janumet",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -676,10 +676,10 @@
       },
       "classId": "diabetes-dpp-4-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/januvia.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#januvia",
+        "self": "https://nomadceuticals.com/api/v1/medicines/januvia.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#januvia",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -705,10 +705,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jardiance.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#jardiance",
+        "self": "https://nomadceuticals.com/api/v1/medicines/jardiance.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#jardiance",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -734,10 +734,10 @@
       },
       "classId": "diabetes-long-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lantus.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#lantus",
+        "self": "https://nomadceuticals.com/api/v1/medicines/lantus.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#lantus",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -763,10 +763,10 @@
       },
       "classId": "diabetes-long-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/levemir.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#levemir",
+        "self": "https://nomadceuticals.com/api/v1/medicines/levemir.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#levemir",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -792,10 +792,10 @@
       },
       "classId": "diabetes-rapid-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lyumjev.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#lyumjev",
+        "self": "https://nomadceuticals.com/api/v1/medicines/lyumjev.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#lyumjev",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -821,10 +821,10 @@
       },
       "classId": "diabetes-dual-gip-and-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mounjaro.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#mounjaro",
+        "self": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#mounjaro",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -850,10 +850,10 @@
       },
       "classId": "diabetes-dpp-4-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/nesina.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#nesina",
+        "self": "https://nomadceuticals.com/api/v1/medicines/nesina.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#nesina",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -879,10 +879,10 @@
       },
       "classId": "diabetes-rapid-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/novolog.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#novolog",
+        "self": "https://nomadceuticals.com/api/v1/medicines/novolog.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#novolog",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -908,10 +908,10 @@
       },
       "classId": "diabetes-dpp-4-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onglyza.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#onglyza",
+        "self": "https://nomadceuticals.com/api/v1/medicines/onglyza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#onglyza",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -937,10 +937,10 @@
       },
       "classId": "diabetes-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ozempic.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#ozempic",
+        "self": "https://nomadceuticals.com/api/v1/medicines/ozempic.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#ozempic",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -966,10 +966,10 @@
       },
       "classId": "diabetes-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/rybelsus.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#rybelsus",
+        "self": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#rybelsus",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -995,10 +995,10 @@
       },
       "classId": "diabetes-long-acting-insulin-analog-biosimilar",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/semglee.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#semglee",
+        "self": "https://nomadceuticals.com/api/v1/medicines/semglee.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json",
+        "website": "https://nomadceuticals.com/#semglee",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1024,10 +1024,10 @@
       },
       "classId": "diabetes-basal-insulin-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/soliqua-100-33.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#soliqua-100-33",
+        "self": "https://nomadceuticals.com/api/v1/medicines/soliqua-100-33.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#soliqua-100-33",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1053,10 +1053,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/steglatro.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#steglatro",
+        "self": "https://nomadceuticals.com/api/v1/medicines/steglatro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#steglatro",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1082,10 +1082,10 @@
       },
       "classId": "diabetes-amylin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symlin.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-amylin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#symlin",
+        "self": "https://nomadceuticals.com/api/v1/medicines/symlin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-amylin-analog.json",
+        "website": "https://nomadceuticals.com/#symlin",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1111,10 +1111,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor-biguanide",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/synjardy.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#synjardy",
+        "self": "https://nomadceuticals.com/api/v1/medicines/synjardy.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#synjardy",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1140,10 +1140,10 @@
       },
       "classId": "diabetes-long-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/toujeo.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#toujeo",
+        "self": "https://nomadceuticals.com/api/v1/medicines/toujeo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#toujeo",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1169,10 +1169,10 @@
       },
       "classId": "diabetes-dpp-4-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tradjenta.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tradjenta",
+        "self": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#tradjenta",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1198,10 +1198,10 @@
       },
       "classId": "diabetes-ultra-long-acting-insulin-analog",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tresiba.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tresiba",
+        "self": "https://nomadceuticals.com/api/v1/medicines/tresiba.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#tresiba",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1227,10 +1227,10 @@
       },
       "classId": "diabetes-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trulicity.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#trulicity",
+        "self": "https://nomadceuticals.com/api/v1/medicines/trulicity.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#trulicity",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1256,10 +1256,10 @@
       },
       "classId": "diabetes-anti-cd3-monoclonal-antibody",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tzield.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#tzield",
+        "self": "https://nomadceuticals.com/api/v1/medicines/tzield.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json",
+        "website": "https://nomadceuticals.com/#tzield",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1285,10 +1285,10 @@
       },
       "classId": "diabetes-glp-1-receptor-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/victoza.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#victoza",
+        "self": "https://nomadceuticals.com/api/v1/medicines/victoza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#victoza",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -1314,10 +1314,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor-biguanide",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xigduo-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#xigduo-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/xigduo-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#xigduo-xr",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

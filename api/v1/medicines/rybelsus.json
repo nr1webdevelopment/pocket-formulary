@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/rybelsus.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ozempic.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ozempic.json"
     },
     {
       "id": "trulicity",
@@ -30,7 +30,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trulicity.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/trulicity.json"
     },
     {
       "id": "victoza",
@@ -40,7 +40,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/victoza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/victoza.json"
     }
   ],
   "data": {
@@ -65,10 +65,10 @@
     },
     "classId": "diabetes-glp-1-receptor-agonist",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/rybelsus.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#rybelsus",
+      "self": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+      "website": "https://nomadceuticals.com/#rybelsus",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
     }
   }

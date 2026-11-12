@@ -23,8 +23,8 @@ import shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "api", "v1")
 REPO = "https://github.com/nr1webdevelopment/pocket-formulary"
-DEFAULT_BASE = "https://nr1webdevelopment.github.io/pocket-formulary/api/v1"
-DEFAULT_SITE = "https://nr1webdevelopment.github.io/pocket-formulary/"
+DEFAULT_BASE = "https://nomadceuticals.com/api/v1"
+DEFAULT_SITE = "https://nomadceuticals.com/"
 
 CONDITIONS = {
     "hiv": {"name": "HIV", "description": "Antiretroviral medicines for HIV treatment and prevention (PrEP)."},

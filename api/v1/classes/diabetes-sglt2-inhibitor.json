@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "diabetes-sglt2-inhibitor",
@@ -41,10 +41,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/brenzavvy.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#brenzavvy",
+        "self": "https://nomadceuticals.com/api/v1/medicines/brenzavvy.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#brenzavvy",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -70,10 +70,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/farxiga.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#farxiga",
+        "self": "https://nomadceuticals.com/api/v1/medicines/farxiga.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#farxiga",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -99,10 +99,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/invokana.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#invokana",
+        "self": "https://nomadceuticals.com/api/v1/medicines/invokana.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#invokana",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -128,10 +128,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jardiance.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#jardiance",
+        "self": "https://nomadceuticals.com/api/v1/medicines/jardiance.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#jardiance",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     },
@@ -157,10 +157,10 @@
       },
       "classId": "diabetes-sglt2-inhibitor",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/steglatro.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#steglatro",
+        "self": "https://nomadceuticals.com/api/v1/medicines/steglatro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#steglatro",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

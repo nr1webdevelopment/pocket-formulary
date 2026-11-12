@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "adhd-alpha-2a-adrenergic-agonist",
@@ -42,10 +42,10 @@
       },
       "classId": "adhd-alpha-2a-adrenergic-agonist",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intuniv.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#intuniv",
+        "self": "https://nomadceuticals.com/api/v1/medicines/intuniv.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json",
+        "website": "https://nomadceuticals.com/#intuniv",
         "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
       }
     }

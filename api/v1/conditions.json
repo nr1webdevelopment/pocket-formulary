@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/conditions.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "count": 3,
   "data": [
@@ -19,7 +19,7 @@
       "description": "Antiretroviral medicines for HIV treatment and prevention (PrEP).",
       "medicineCount": 58,
       "classCount": 11,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json"
+      "url": "https://nomadceuticals.com/api/v1/conditions/hiv.json"
     },
     {
       "id": "adhd",
@@ -27,7 +27,7 @@
       "description": "Stimulant and non-stimulant medicines for attention-deficit/hyperactivity disorder.",
       "medicineCount": 25,
       "classCount": 6,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json"
+      "url": "https://nomadceuticals.com/api/v1/conditions/adhd.json"
     },
     {
       "id": "diabetes",
@@ -35,7 +35,7 @@
       "description": "Insulins and other glucose-lowering medicines for type 1 and type 2 diabetes.",
       "medicineCount": 41,
       "classCount": 22,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json"
+      "url": "https://nomadceuticals.com/api/v1/conditions/diabetes.json"
     }
   ]
 }

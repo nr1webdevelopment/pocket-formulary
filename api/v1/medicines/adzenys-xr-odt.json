@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adzenys-xr-odt.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall.json"
     },
     {
       "id": "adderall-xr",
@@ -30,7 +30,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json"
     },
     {
       "id": "dyanavel-xr",
@@ -40,7 +40,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dyanavel-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json"
     },
     {
       "id": "evekeo",
@@ -50,7 +50,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evekeo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/evekeo.json"
     },
     {
       "id": "mydayis",
@@ -60,7 +60,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mydayis.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/mydayis.json"
     },
     {
       "id": "vyvanse",
@@ -70,7 +70,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vyvanse.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json"
     },
     {
       "id": "xelstrym",
@@ -80,7 +80,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xelstrym.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json"
     }
   ],
   "data": {
@@ -106,10 +106,10 @@
     },
     "classId": "adhd-cns-stimulant-amphetamine",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adzenys-xr-odt.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#adzenys-xr-odt",
+      "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+      "website": "https://nomadceuticals.com/#adzenys-xr-odt",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
     }
   }

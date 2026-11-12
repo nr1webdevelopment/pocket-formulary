@@ -81,17 +81,17 @@ footer { color: var(--muted); font-size: 15px; max-width: 1040px; margin: 0 auto
   <section>
     <h2>Quick start</h2>
     <p>Every endpoint is a static JSON file. Send a plain <code>GET</code> request: no sign-up, no API key and no special headers. Requests from browsers are allowed from any website (CORS).</p>
-    <div class="base"><strong>Base URL</strong> https://nr1webdevelopment.github.io/pocket-formulary/api/v1</div>
+    <div class="base"><strong>Base URL</strong> https://nomadceuticals.com/api/v1</div>
     <h3>JavaScript</h3>
-<pre>const res = await fetch("https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/biktarvy.json");
+<pre>const res = await fetch("https://nomadceuticals.com/api/v1/medicines/biktarvy.json");
 const { data } = await res.json();
 console.log(data.brandName, "-", data.genericName);
 // Biktarvy - bictegravir, emtricitabine, and tenofovir alafenamide</pre>
     <h3>Command line</h3>
-<pre>curl https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json</pre>
+<pre>curl https://nomadceuticals.com/api/v1/conditions/adhd.json</pre>
     <h3>Python</h3>
 <pre>import requests
-meds = requests.get("https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines.json").json()["data"]
+meds = requests.get("https://nomadceuticals.com/api/v1/medicines.json").json()["data"]
 insulins = [m for m in meds if "insulin" in m["drugClass"].lower()]</pre>
   </section>
 
@@ -176,7 +176,7 @@ insulins = [m for m in meds if "insulin" in m["drugClass"].lower()]</pre>
 </main>
 <footer>NomadCeuticals · Data v2.0.0, released 2026-10-23 · <a href="https://github.com/nr1webdevelopment/pocket-formulary/issues">Report a problem</a></footer>
 <script>
-const BASE = "https://nr1webdevelopment.github.io/pocket-formulary/api/v1";
+const BASE = "https://nomadceuticals.com/api/v1";
 const ep = document.getElementById("ep"), path = document.getElementById("path"), out = document.getElementById("out");
 ep.addEventListener("change", () => { path.value = ep.value; send(); });
 document.getElementById("go").addEventListener("click", send);

@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "count": 124,
   "data": [
@@ -21,7 +21,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall.json"
     },
     {
       "id": "adderall-xr",
@@ -31,7 +31,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adderall-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json"
     },
     {
       "id": "adzenys-xr-odt",
@@ -41,7 +41,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/adzenys-xr-odt.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json"
     },
     {
       "id": "aptensio-xr",
@@ -51,7 +51,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptensio-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/aptensio-xr.json"
     },
     {
       "id": "azstarys",
@@ -61,7 +61,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/azstarys.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/azstarys.json"
     },
     {
       "id": "concerta",
@@ -71,7 +71,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/concerta.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/concerta.json"
     },
     {
       "id": "cotempla-xr-odt",
@@ -81,7 +81,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cotempla-xr-odt.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cotempla-xr-odt.json"
     },
     {
       "id": "daytrana",
@@ -91,7 +91,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/daytrana.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/daytrana.json"
     },
     {
       "id": "dyanavel-xr",
@@ -101,7 +101,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dyanavel-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json"
     },
     {
       "id": "evekeo",
@@ -111,7 +111,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evekeo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/evekeo.json"
     },
     {
       "id": "focalin",
@@ -121,7 +121,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin.json"
     },
     {
       "id": "focalin-xr",
@@ -131,7 +131,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin-xr.json"
     },
     {
       "id": "intuniv",
@@ -141,7 +141,7 @@
       "drugClass": "Alpha-2A adrenergic agonist",
       "status": "Available",
       "classId": "adhd-alpha-2a-adrenergic-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intuniv.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/intuniv.json"
     },
     {
       "id": "jornay-pm",
@@ -151,7 +151,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jornay-pm.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/jornay-pm.json"
     },
     {
       "id": "mydayis",
@@ -161,7 +161,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mydayis.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/mydayis.json"
     },
     {
       "id": "onyda-xr",
@@ -171,7 +171,7 @@
       "drugClass": "Alpha-2 adrenergic agonist",
       "status": "Available",
       "classId": "adhd-alpha-2-adrenergic-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onyda-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/onyda-xr.json"
     },
     {
       "id": "qelbree",
@@ -181,7 +181,7 @@
       "drugClass": "Selective norepinephrine reuptake inhibitor",
       "status": "Available",
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/qelbree.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/qelbree.json"
     },
     {
       "id": "quillichew-er",
@@ -191,7 +191,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillichew-er.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillichew-er.json"
     },
     {
       "id": "quillivant-xr",
@@ -201,7 +201,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillivant-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillivant-xr.json"
     },
     {
       "id": "ritalin",
@@ -211,7 +211,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ritalin.json"
     },
     {
       "id": "ritalin-la",
@@ -221,7 +221,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin-la.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json"
     },
     {
       "id": "simtriyo",
@@ -231,7 +231,7 @@
       "drugClass": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
       "status": "Available",
       "classId": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/simtriyo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/simtriyo.json"
     },
     {
       "id": "strattera",
@@ -241,7 +241,7 @@
       "drugClass": "Selective norepinephrine reuptake inhibitor",
       "status": "Available",
       "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/strattera.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/strattera.json"
     },
     {
       "id": "vyvanse",
@@ -251,7 +251,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vyvanse.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json"
     },
     {
       "id": "xelstrym",
@@ -261,7 +261,7 @@
       "drugClass": "CNS stimulant (amphetamine)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-amphetamine",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xelstrym.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json"
     },
     {
       "id": "actos",
@@ -271,7 +271,7 @@
       "drugClass": "Thiazolidinedione (TZD)",
       "status": "Available",
       "classId": "diabetes-thiazolidinedione-tzd",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/actos.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/actos.json"
     },
     {
       "id": "afrezza",
@@ -281,7 +281,7 @@
       "drugClass": "Inhaled rapid-acting insulin",
       "status": "Available",
       "classId": "diabetes-inhaled-rapid-acting-insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/afrezza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/afrezza.json"
     },
     {
       "id": "amaryl",
@@ -291,7 +291,7 @@
       "drugClass": "Sulfonylurea",
       "status": "Available",
       "classId": "diabetes-sulfonylurea",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/amaryl.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/amaryl.json"
     },
     {
       "id": "apidra",
@@ -301,7 +301,7 @@
       "drugClass": "Rapid-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-rapid-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apidra.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/apidra.json"
     },
     {
       "id": "awiqli",
@@ -311,7 +311,7 @@
       "drugClass": "Once-weekly basal insulin",
       "status": "Available",
       "classId": "diabetes-once-weekly-basal-insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/awiqli.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/awiqli.json"
     },
     {
       "id": "baqsimi",
@@ -321,7 +321,7 @@
       "drugClass": "Glucagon (hypoglycemia rescue)",
       "status": "Available",
       "classId": "diabetes-glucagon-hypoglycemia-rescue",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/baqsimi.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json"
     },
     {
       "id": "basaglar",
@@ -331,7 +331,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/basaglar.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/basaglar.json"
     },
     {
       "id": "brenzavvy",
@@ -341,7 +341,7 @@
       "drugClass": "SGLT2 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/brenzavvy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/brenzavvy.json"
     },
     {
       "id": "farxiga",
@@ -351,7 +351,7 @@
       "drugClass": "SGLT2 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/farxiga.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/farxiga.json"
     },
     {
       "id": "fiasp",
@@ -361,7 +361,7 @@
       "drugClass": "Rapid-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-rapid-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fiasp.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/fiasp.json"
     },
     {
       "id": "glucophage",
@@ -371,7 +371,7 @@
       "drugClass": "Biguanide",
       "status": "Available",
       "classId": "diabetes-biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucophage.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/glucophage.json"
     },
     {
       "id": "glucotrol",
@@ -381,7 +381,7 @@
       "drugClass": "Sulfonylurea",
       "status": "Available",
       "classId": "diabetes-sulfonylurea",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glucotrol.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/glucotrol.json"
     },
     {
       "id": "glyxambi",
@@ -391,7 +391,7 @@
       "drugClass": "SGLT2 inhibitor + DPP-4 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/glyxambi.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/glyxambi.json"
     },
     {
       "id": "humalog",
@@ -401,7 +401,7 @@
       "drugClass": "Rapid-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-rapid-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humalog.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/humalog.json"
     },
     {
       "id": "humulin-n",
@@ -411,7 +411,7 @@
       "drugClass": "Intermediate-acting human insulin",
       "status": "Available",
       "classId": "diabetes-intermediate-acting-human-insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humulin-n.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/humulin-n.json"
     },
     {
       "id": "humulin-r",
@@ -421,7 +421,7 @@
       "drugClass": "Short-acting human insulin",
       "status": "Available",
       "classId": "diabetes-short-acting-human-insulin",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/humulin-r.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/humulin-r.json"
     },
     {
       "id": "invokana",
@@ -431,7 +431,7 @@
       "drugClass": "SGLT2 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/invokana.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/invokana.json"
     },
     {
       "id": "janumet",
@@ -441,7 +441,7 @@
       "drugClass": "DPP-4 inhibitor + biguanide",
       "status": "Available",
       "classId": "diabetes-dpp-4-inhibitor-biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/janumet.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/janumet.json"
     },
     {
       "id": "januvia",
@@ -451,7 +451,7 @@
       "drugClass": "DPP-4 inhibitor",
       "status": "Available",
       "classId": "diabetes-dpp-4-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/januvia.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/januvia.json"
     },
     {
       "id": "jardiance",
@@ -461,7 +461,7 @@
       "drugClass": "SGLT2 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jardiance.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/jardiance.json"
     },
     {
       "id": "lantus",
@@ -471,7 +471,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lantus.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/lantus.json"
     },
     {
       "id": "levemir",
@@ -481,7 +481,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Discontinued",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/levemir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/levemir.json"
     },
     {
       "id": "lyumjev",
@@ -491,7 +491,7 @@
       "drugClass": "Rapid-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-rapid-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lyumjev.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/lyumjev.json"
     },
     {
       "id": "mounjaro",
@@ -501,7 +501,7 @@
       "drugClass": "Dual GIP and GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-dual-gip-and-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/mounjaro.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json"
     },
     {
       "id": "nesina",
@@ -511,7 +511,7 @@
       "drugClass": "DPP-4 inhibitor",
       "status": "Available",
       "classId": "diabetes-dpp-4-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/nesina.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/nesina.json"
     },
     {
       "id": "novolog",
@@ -521,7 +521,7 @@
       "drugClass": "Rapid-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-rapid-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/novolog.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/novolog.json"
     },
     {
       "id": "onglyza",
@@ -531,7 +531,7 @@
       "drugClass": "DPP-4 inhibitor",
       "status": "Available",
       "classId": "diabetes-dpp-4-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/onglyza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/onglyza.json"
     },
     {
       "id": "ozempic",
@@ -541,7 +541,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ozempic.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ozempic.json"
     },
     {
       "id": "rybelsus",
@@ -551,7 +551,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/rybelsus.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json"
     },
     {
       "id": "semglee",
@@ -561,7 +561,7 @@
       "drugClass": "Long-acting insulin analog (biosimilar)",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog-biosimilar",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/semglee.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/semglee.json"
     },
     {
       "id": "soliqua-100-33",
@@ -571,7 +571,7 @@
       "drugClass": "Basal insulin + GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-basal-insulin-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/soliqua-100-33.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/soliqua-100-33.json"
     },
     {
       "id": "steglatro",
@@ -581,7 +581,7 @@
       "drugClass": "SGLT2 inhibitor",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/steglatro.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/steglatro.json"
     },
     {
       "id": "symlin",
@@ -591,7 +591,7 @@
       "drugClass": "Amylin analog",
       "status": "Available",
       "classId": "diabetes-amylin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symlin.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symlin.json"
     },
     {
       "id": "synjardy",
@@ -601,7 +601,7 @@
       "drugClass": "SGLT2 inhibitor + biguanide",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor-biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/synjardy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/synjardy.json"
     },
     {
       "id": "toujeo",
@@ -611,7 +611,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/toujeo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/toujeo.json"
     },
     {
       "id": "tradjenta",
@@ -621,7 +621,7 @@
       "drugClass": "DPP-4 inhibitor",
       "status": "Available",
       "classId": "diabetes-dpp-4-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tradjenta.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json"
     },
     {
       "id": "tresiba",
@@ -631,7 +631,7 @@
       "drugClass": "Ultra-long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-ultra-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tresiba.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tresiba.json"
     },
     {
       "id": "trulicity",
@@ -641,7 +641,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trulicity.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/trulicity.json"
     },
     {
       "id": "tzield",
@@ -651,7 +651,7 @@
       "drugClass": "Anti-CD3 monoclonal antibody",
       "status": "Available",
       "classId": "diabetes-anti-cd3-monoclonal-antibody",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tzield.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tzield.json"
     },
     {
       "id": "victoza",
@@ -661,7 +661,7 @@
       "drugClass": "GLP-1 receptor agonist",
       "status": "Available",
       "classId": "diabetes-glp-1-receptor-agonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/victoza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/victoza.json"
     },
     {
       "id": "xigduo-xr",
@@ -671,7 +671,7 @@
       "drugClass": "SGLT2 inhibitor + biguanide",
       "status": "Available",
       "classId": "diabetes-sglt2-inhibitor-biguanide",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/xigduo-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/xigduo-xr.json"
     },
     {
       "id": "apretude",
@@ -681,7 +681,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/apretude.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/apretude.json"
     },
     {
       "id": "aptivus",
@@ -691,7 +691,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptivus.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/aptivus.json"
     },
     {
       "id": "atripla",
@@ -701,7 +701,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/atripla.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/atripla.json"
     },
     {
       "id": "biktarvy",
@@ -711,7 +711,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/biktarvy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/biktarvy.json"
     },
     {
       "id": "bixlenvo",
@@ -721,7 +721,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/bixlenvo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/bixlenvo.json"
     },
     {
       "id": "cabenuva",
@@ -731,7 +731,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cabenuva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cabenuva.json"
     },
     {
       "id": "cimduo",
@@ -741,7 +741,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cimduo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cimduo.json"
     },
     {
       "id": "combivir",
@@ -751,7 +751,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/combivir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/combivir.json"
     },
     {
       "id": "complera",
@@ -761,7 +761,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/complera.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/complera.json"
     },
     {
       "id": "delstrigo",
@@ -771,7 +771,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/delstrigo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/delstrigo.json"
     },
     {
       "id": "descovy",
@@ -781,7 +781,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/descovy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/descovy.json"
     },
     {
       "id": "dovato",
@@ -791,7 +791,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/dovato.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/dovato.json"
     },
     {
       "id": "edurant",
@@ -801,7 +801,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant.json"
     },
     {
       "id": "edurant-ped",
@@ -811,7 +811,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant-ped.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant-ped.json"
     },
     {
       "id": "emtriva",
@@ -821,7 +821,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/emtriva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/emtriva.json"
     },
     {
       "id": "epivir",
@@ -831,7 +831,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epivir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/epivir.json"
     },
     {
       "id": "epzicom",
@@ -841,7 +841,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/epzicom.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/epzicom.json"
     },
     {
       "id": "evotaz",
@@ -851,7 +851,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/evotaz.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/evotaz.json"
     },
     {
       "id": "fuzeon",
@@ -861,7 +861,7 @@
       "drugClass": "Fusion Inhibitor",
       "status": "Discontinued",
       "classId": "hiv-fusion-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/fuzeon.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/fuzeon.json"
     },
     {
       "id": "genvoya",
@@ -871,7 +871,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/genvoya.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/genvoya.json"
     },
     {
       "id": "idvynso",
@@ -881,7 +881,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/idvynso.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/idvynso.json"
     },
     {
       "id": "intelence",
@@ -891,7 +891,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intelence.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/intelence.json"
     },
     {
       "id": "isentress",
@@ -901,7 +901,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress.json"
     },
     {
       "id": "isentress-hd",
@@ -911,7 +911,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/isentress-hd.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json"
     },
     {
       "id": "juluca",
@@ -921,7 +921,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/juluca.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/juluca.json"
     },
     {
       "id": "kaletra",
@@ -931,7 +931,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/kaletra.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/kaletra.json"
     },
     {
       "id": "lexiva",
@@ -941,7 +941,7 @@
       "drugClass": "PI",
       "status": "Discontinued",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lexiva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/lexiva.json"
     },
     {
       "id": "norvir",
@@ -951,7 +951,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/norvir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/norvir.json"
     },
     {
       "id": "odefsey",
@@ -961,7 +961,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/odefsey.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/odefsey.json"
     },
     {
       "id": "pifeltro",
@@ -971,7 +971,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/pifeltro.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/pifeltro.json"
     },
     {
       "id": "prezcobix",
@@ -981,7 +981,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix.json"
     },
     {
       "id": "prezcobix-ped",
@@ -991,7 +991,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezcobix-ped.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix-ped.json"
     },
     {
       "id": "prezista",
@@ -1001,7 +1001,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/prezista.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezista.json"
     },
     {
       "id": "retrovir",
@@ -1011,7 +1011,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/retrovir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/retrovir.json"
     },
     {
       "id": "reyataz",
@@ -1021,7 +1021,7 @@
       "drugClass": "PI",
       "status": "Available",
       "classId": "hiv-pi",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/reyataz.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/reyataz.json"
     },
     {
       "id": "rukobia",
@@ -1031,7 +1031,7 @@
       "drugClass": "Attachment Inhibitor",
       "status": "Available",
       "classId": "hiv-attachment-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/rukobia.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/rukobia.json"
     },
     {
       "id": "selzentry",
@@ -1041,7 +1041,7 @@
       "drugClass": "CCR5 Antagonist",
       "status": "Available",
       "classId": "hiv-ccr5-antagonist",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/selzentry.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/selzentry.json"
     },
     {
       "id": "stribild",
@@ -1051,7 +1051,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/stribild.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/stribild.json"
     },
     {
       "id": "sunlenca",
@@ -1061,7 +1061,7 @@
       "drugClass": "Capsid Inhibitor",
       "status": "Available",
       "classId": "hiv-capsid-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/sunlenca.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/sunlenca.json"
     },
     {
       "id": "sustiva",
@@ -1071,7 +1071,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/sustiva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/sustiva.json"
     },
     {
       "id": "symfi",
@@ -1081,7 +1081,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi.json"
     },
     {
       "id": "symfi-lo",
@@ -1091,7 +1091,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symfi-lo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi-lo.json"
     },
     {
       "id": "symtuza",
@@ -1101,7 +1101,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/symtuza.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/symtuza.json"
     },
     {
       "id": "tivicay",
@@ -1111,7 +1111,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay.json"
     },
     {
       "id": "tivicay-pd",
@@ -1121,7 +1121,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tivicay-pd.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay-pd.json"
     },
     {
       "id": "triumeq",
@@ -1131,7 +1131,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq.json"
     },
     {
       "id": "triumeq-pd",
@@ -1141,7 +1141,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/triumeq-pd.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq-pd.json"
     },
     {
       "id": "trizivir",
@@ -1151,7 +1151,7 @@
       "drugClass": "Combination",
       "status": "Discontinued",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trizivir.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/trizivir.json"
     },
     {
       "id": "trogarzo",
@@ -1161,7 +1161,7 @@
       "drugClass": "Post-Attachment Inhibitor",
       "status": "Available",
       "classId": "hiv-post-attachment-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/trogarzo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/trogarzo.json"
     },
     {
       "id": "truvada",
@@ -1171,7 +1171,7 @@
       "drugClass": "Combination",
       "status": "Available",
       "classId": "hiv-combination",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/truvada.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/truvada.json"
     },
     {
       "id": "tybost",
@@ -1181,7 +1181,7 @@
       "drugClass": "Pharmacokinetic Enhancer",
       "status": "Discontinued",
       "classId": "hiv-pharmacokinetic-enhancer",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/tybost.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/tybost.json"
     },
     {
       "id": "vemlidy",
@@ -1191,7 +1191,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vemlidy.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/vemlidy.json"
     },
     {
       "id": "viramune",
@@ -1201,7 +1201,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune.json"
     },
     {
       "id": "viramune-xr",
@@ -1211,7 +1211,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune-xr.json"
     },
     {
       "id": "viread",
@@ -1221,7 +1221,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viread.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/viread.json"
     },
     {
       "id": "vocabria",
@@ -1231,7 +1231,7 @@
       "drugClass": "INSTI",
       "status": "Available",
       "classId": "hiv-insti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/vocabria.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/vocabria.json"
     },
     {
       "id": "yeztugo",
@@ -1241,7 +1241,7 @@
       "drugClass": "Capsid Inhibitor",
       "status": "Available",
       "classId": "hiv-capsid-inhibitor",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/yeztugo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/yeztugo.json"
     },
     {
       "id": "ziagen",
@@ -1251,7 +1251,7 @@
       "drugClass": "NRTI",
       "status": "Available",
       "classId": "hiv-nrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ziagen.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ziagen.json"
     }
   ]
 }

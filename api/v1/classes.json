@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "count": 39,
   "data": [
@@ -18,273 +18,273 @@
       "name": "Alpha-2 adrenergic agonist",
       "condition": "adhd",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2-adrenergic-agonist.json"
     },
     {
       "id": "adhd-alpha-2a-adrenergic-agonist",
       "name": "Alpha-2A adrenergic agonist",
       "condition": "adhd",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-alpha-2a-adrenergic-agonist.json"
     },
     {
       "id": "adhd-cns-stimulant-amphetamine",
       "name": "CNS stimulant (amphetamine)",
       "condition": "adhd",
       "medicineCount": 8,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-amphetamine.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json"
     },
     {
       "id": "adhd-cns-stimulant-methylphenidate",
       "name": "CNS stimulant (methylphenidate)",
       "condition": "adhd",
       "medicineCount": 12,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json"
     },
     {
       "id": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
       "name": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
       "condition": "adhd",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri.json"
     },
     {
       "id": "adhd-selective-norepinephrine-reuptake-inhibitor",
       "name": "Selective norepinephrine reuptake inhibitor",
       "condition": "adhd",
       "medicineCount": 2,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json"
     },
     {
       "id": "diabetes-amylin-analog",
       "name": "Amylin analog",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-amylin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-amylin-analog.json"
     },
     {
       "id": "diabetes-anti-cd3-monoclonal-antibody",
       "name": "Anti-CD3 monoclonal antibody",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json"
     },
     {
       "id": "diabetes-basal-insulin-glp-1-receptor-agonist",
       "name": "Basal insulin + GLP-1 receptor agonist",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-biguanide",
       "name": "Biguanide",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-biguanide.json"
     },
     {
       "id": "diabetes-dpp-4-inhibitor",
       "name": "DPP-4 inhibitor",
       "condition": "diabetes",
       "medicineCount": 4,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json"
     },
     {
       "id": "diabetes-dpp-4-inhibitor-biguanide",
       "name": "DPP-4 inhibitor + biguanide",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json"
     },
     {
       "id": "diabetes-dual-gip-and-glp-1-receptor-agonist",
       "name": "Dual GIP and GLP-1 receptor agonist",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-glp-1-receptor-agonist",
       "name": "GLP-1 receptor agonist",
       "condition": "diabetes",
       "medicineCount": 4,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glp-1-receptor-agonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json"
     },
     {
       "id": "diabetes-glucagon-hypoglycemia-rescue",
       "name": "Glucagon (hypoglycemia rescue)",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json"
     },
     {
       "id": "diabetes-inhaled-rapid-acting-insulin",
       "name": "Inhaled rapid-acting insulin",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json"
     },
     {
       "id": "diabetes-intermediate-acting-human-insulin",
       "name": "Intermediate-acting human insulin",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-intermediate-acting-human-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-intermediate-acting-human-insulin.json"
     },
     {
       "id": "diabetes-long-acting-insulin-analog",
       "name": "Long-acting insulin analog",
       "condition": "diabetes",
       "medicineCount": 4,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json"
     },
     {
       "id": "diabetes-long-acting-insulin-analog-biosimilar",
       "name": "Long-acting insulin analog (biosimilar)",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json"
     },
     {
       "id": "diabetes-once-weekly-basal-insulin",
       "name": "Once-weekly basal insulin",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-once-weekly-basal-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json"
     },
     {
       "id": "diabetes-rapid-acting-insulin-analog",
       "name": "Rapid-acting insulin analog",
       "condition": "diabetes",
       "medicineCount": 5,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-rapid-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor",
       "name": "SGLT2 inhibitor",
       "condition": "diabetes",
       "medicineCount": 5,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor-biguanide",
       "name": "SGLT2 inhibitor + biguanide",
       "condition": "diabetes",
       "medicineCount": 2,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json"
     },
     {
       "id": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
       "name": "SGLT2 inhibitor + DPP-4 inhibitor",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json"
     },
     {
       "id": "diabetes-short-acting-human-insulin",
       "name": "Short-acting human insulin",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-short-acting-human-insulin.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-short-acting-human-insulin.json"
     },
     {
       "id": "diabetes-sulfonylurea",
       "name": "Sulfonylurea",
       "condition": "diabetes",
       "medicineCount": 2,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-sulfonylurea.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json"
     },
     {
       "id": "diabetes-thiazolidinedione-tzd",
       "name": "Thiazolidinedione (TZD)",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-thiazolidinedione-tzd.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json"
     },
     {
       "id": "diabetes-ultra-long-acting-insulin-analog",
       "name": "Ultra-long-acting insulin analog",
       "condition": "diabetes",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json"
     },
     {
       "id": "hiv-attachment-inhibitor",
       "name": "Attachment Inhibitor",
       "condition": "hiv",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-attachment-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-attachment-inhibitor.json"
     },
     {
       "id": "hiv-capsid-inhibitor",
       "name": "Capsid Inhibitor",
       "condition": "hiv",
       "medicineCount": 2,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-capsid-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-capsid-inhibitor.json"
     },
     {
       "id": "hiv-ccr5-antagonist",
       "name": "CCR5 Antagonist",
       "condition": "hiv",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-ccr5-antagonist.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-ccr5-antagonist.json"
     },
     {
       "id": "hiv-combination",
       "name": "Combination",
       "condition": "hiv",
       "medicineCount": 27,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-combination.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-combination.json"
     },
     {
       "id": "hiv-fusion-inhibitor",
       "name": "Fusion Inhibitor",
       "condition": "hiv",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-fusion-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-fusion-inhibitor.json"
     },
     {
       "id": "hiv-insti",
       "name": "INSTI",
       "condition": "hiv",
       "medicineCount": 6,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-insti.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json"
     },
     {
       "id": "hiv-nnrti",
       "name": "NNRTI",
       "condition": "hiv",
       "medicineCount": 7,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json"
     },
     {
       "id": "hiv-nrti",
       "name": "NRTI",
       "condition": "hiv",
       "medicineCount": 6,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nrti.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-nrti.json"
     },
     {
       "id": "hiv-pharmacokinetic-enhancer",
       "name": "Pharmacokinetic Enhancer",
       "condition": "hiv",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-pharmacokinetic-enhancer.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-pharmacokinetic-enhancer.json"
     },
     {
       "id": "hiv-pi",
       "name": "PI",
       "condition": "hiv",
       "medicineCount": 5,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-pi.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-pi.json"
     },
     {
       "id": "hiv-post-attachment-inhibitor",
       "name": "Post-Attachment Inhibitor",
       "condition": "hiv",
       "medicineCount": 1,
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-post-attachment-inhibitor.json"
+      "url": "https://nomadceuticals.com/api/v1/classes/hiv-post-attachment-inhibitor.json"
     }
   ]
 }

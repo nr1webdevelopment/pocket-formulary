@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/levemir.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/levemir.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/basaglar.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/basaglar.json"
     },
     {
       "id": "lantus",
@@ -30,7 +30,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/lantus.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/lantus.json"
     },
     {
       "id": "toujeo",
@@ -40,7 +40,7 @@
       "drugClass": "Long-acting insulin analog",
       "status": "Available",
       "classId": "diabetes-long-acting-insulin-analog",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/toujeo.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/toujeo.json"
     }
   ],
   "data": {
@@ -65,10 +65,10 @@
     },
     "classId": "diabetes-long-acting-insulin-analog",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/levemir.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/diabetes.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/diabetes-long-acting-insulin-analog.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#levemir",
+      "self": "https://nomadceuticals.com/api/v1/medicines/levemir.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+      "website": "https://nomadceuticals.com/#levemir",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
     }
   }

@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin-la.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/aptensio-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/aptensio-xr.json"
     },
     {
       "id": "azstarys",
@@ -30,7 +30,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/azstarys.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/azstarys.json"
     },
     {
       "id": "concerta",
@@ -40,7 +40,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/concerta.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/concerta.json"
     },
     {
       "id": "cotempla-xr-odt",
@@ -50,7 +50,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/cotempla-xr-odt.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/cotempla-xr-odt.json"
     },
     {
       "id": "daytrana",
@@ -60,7 +60,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/daytrana.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/daytrana.json"
     },
     {
       "id": "focalin",
@@ -70,7 +70,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin.json"
     },
     {
       "id": "focalin-xr",
@@ -80,7 +80,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/focalin-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin-xr.json"
     },
     {
       "id": "jornay-pm",
@@ -90,7 +90,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/jornay-pm.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/jornay-pm.json"
     },
     {
       "id": "quillichew-er",
@@ -100,7 +100,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillichew-er.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillichew-er.json"
     },
     {
       "id": "quillivant-xr",
@@ -110,7 +110,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/quillivant-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillivant-xr.json"
     },
     {
       "id": "ritalin",
@@ -120,7 +120,7 @@
       "drugClass": "CNS stimulant (methylphenidate)",
       "status": "Available",
       "classId": "adhd-cns-stimulant-methylphenidate",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/ritalin.json"
     }
   ],
   "data": {
@@ -146,10 +146,10 @@
     },
     "classId": "adhd-cns-stimulant-methylphenidate",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/ritalin-la.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/adhd.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#ritalin-la",
+      "self": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+      "website": "https://nomadceuticals.com/#ritalin-la",
       "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
     }
   }

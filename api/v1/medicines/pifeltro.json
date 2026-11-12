@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/pifeltro.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/medicines/pifeltro.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "related": [
     {
@@ -20,7 +20,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant.json"
     },
     {
       "id": "edurant-ped",
@@ -30,7 +30,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant-ped.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant-ped.json"
     },
     {
       "id": "intelence",
@@ -40,7 +40,7 @@
       "drugClass": "NNRTI",
       "status": "Available",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intelence.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/intelence.json"
     },
     {
       "id": "sustiva",
@@ -50,7 +50,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/sustiva.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/sustiva.json"
     },
     {
       "id": "viramune",
@@ -60,7 +60,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune.json"
     },
     {
       "id": "viramune-xr",
@@ -70,7 +70,7 @@
       "drugClass": "NNRTI",
       "status": "Discontinued",
       "classId": "hiv-nnrti",
-      "url": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune-xr.json"
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune-xr.json"
     }
   ],
   "data": {
@@ -102,10 +102,10 @@
     },
     "classId": "hiv-nnrti",
     "links": {
-      "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/pifeltro.json",
-      "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-      "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-      "website": "https://nr1webdevelopment.github.io/pocket-formulary/#pifeltro",
+      "self": "https://nomadceuticals.com/api/v1/medicines/pifeltro.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+      "website": "https://nomadceuticals.com/#pifeltro",
       "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
     }
   }

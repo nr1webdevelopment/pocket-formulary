@@ -7,9 +7,9 @@
   "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
   "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
   "links": {
-    "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-    "index": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/index.json",
-    "docs": "https://nr1webdevelopment.github.io/pocket-formulary/api/"
+    "self": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
   },
   "drugClass": {
     "id": "hiv-nnrti",
@@ -48,10 +48,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#edurant",
+        "self": "https://nomadceuticals.com/api/v1/medicines/edurant.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#edurant",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -84,10 +84,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/edurant-ped.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#edurant-ped",
+        "self": "https://nomadceuticals.com/api/v1/medicines/edurant-ped.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#edurant-ped",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -120,10 +120,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/intelence.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#intelence",
+        "self": "https://nomadceuticals.com/api/v1/medicines/intelence.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#intelence",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -156,10 +156,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/pifeltro.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#pifeltro",
+        "self": "https://nomadceuticals.com/api/v1/medicines/pifeltro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#pifeltro",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -192,10 +192,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/sustiva.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#sustiva",
+        "self": "https://nomadceuticals.com/api/v1/medicines/sustiva.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#sustiva",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -228,10 +228,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#viramune",
+        "self": "https://nomadceuticals.com/api/v1/medicines/viramune.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#viramune",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     },
@@ -264,10 +264,10 @@
       },
       "classId": "hiv-nnrti",
       "links": {
-        "self": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/medicines/viramune-xr.json",
-        "condition": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/conditions/hiv.json",
-        "class": "https://nr1webdevelopment.github.io/pocket-formulary/api/v1/classes/hiv-nnrti.json",
-        "website": "https://nr1webdevelopment.github.io/pocket-formulary/#viramune-xr",
+        "self": "https://nomadceuticals.com/api/v1/medicines/viramune-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/hiv-nnrti.json",
+        "website": "https://nomadceuticals.com/#viramune-xr",
         "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
       }
     }
