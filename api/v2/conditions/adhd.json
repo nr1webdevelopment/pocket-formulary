@@ -49,6 +49,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/amphetamine.json"
       },
       {
@@ -72,6 +73,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/atomoxetine.json"
       },
       {
@@ -95,6 +97,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/centanafadine.json"
       },
       {
@@ -119,6 +122,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/clonidine.json"
       },
       {
@@ -146,6 +150,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/dexmethylphenidate.json"
       },
       {
@@ -174,6 +179,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
       },
       {
@@ -197,6 +203,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/guanfacine.json"
       },
       {
@@ -222,6 +229,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/lisdexamfetamine.json"
       },
       {
@@ -255,6 +263,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json"
       },
       {
@@ -282,6 +291,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/mixed-amphetamine-salts.json"
       },
       {
@@ -307,6 +317,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/serdexmethylphenidate.json"
       },
       {
@@ -330,6 +341,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/viloxazine.json"
       }
     ],
@@ -346,7 +358,11 @@
           "label": "FDA approved"
         },
         "approvedFor": [
-          "depression"
+          "alzheimers-agitation",
+          "depression",
+          "seasonal-affective-disorder",
+          "smoking-cessation",
+          "weight-management"
         ],
         "offLabelFor": [
           "adhd"
@@ -355,12 +371,15 @@
         "brands": [
           "Aplenzin",
           "Auvelity",
+          "Contrave",
+          "Forfivo XL",
           "Wellbutrin SR",
           "Wellbutrin XL",
           "Zyban"
         ],
         "tier": "curated",
-        "review": "unverified",
+        "review": "verified",
+        "usesComplete": true,
         "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
       }
     ]

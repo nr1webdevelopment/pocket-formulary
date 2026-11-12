@@ -721,6 +721,7 @@ function ingredientPage(r) {
         ${appr.length ? `<div><h3>${t("libApprovedFor")}</h3><ul class="uses">${appr.map(useLi).join("")}</ul></div>` : ""}
         ${off.length ? `<div><h3>${t("libOffLabelFor")}</h3><ul class="uses">${off.map(useLi).join("")}</ul><p class="muted">${t("libOffLabelExplain")}</p></div>` : ""}
         ${!appr.length && !off.length ? `<p>${t("libNoUses")}</p>` : ""}
+        ${!r.uc ? `<p class="muted">${t("libUsesPartial")}</p>` : ""}
         ${r.rev !== "verified" ? `<div class="note">${t(r.rev === "needs_review" ? "libNeedsReview" : "libUnverified")}</div>` : ""}
       </div>
     </article>

@@ -84,6 +84,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
       },
       {
@@ -113,6 +114,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
       }
     ],

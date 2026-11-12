@@ -371,7 +371,13 @@
                 "otitis-externa",
                 "pharyngitis",
                 "vertigo",
-                "urticaria"
+                "urticaria",
+                "seasonal-affective-disorder",
+                "smoking-cessation",
+                "weight-management",
+                "alcohol-use-disorder",
+                "opioid-use-disorder",
+                "alzheimers-agitation"
               ]
             }
           }

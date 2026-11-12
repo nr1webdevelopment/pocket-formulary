@@ -21,16 +21,17 @@
     "jurisdiction": "US",
     "status": "available",
     "form": "Extended-release tablet",
-    "route": null,
+    "route": "Oral",
     "dosingFrequency": null,
-    "manufacturer": null,
+    "manufacturer": "Axsome Therapeutics",
     "approval": {
       "date": null,
       "year": null,
       "application": null
     },
     "indications": [
-      "depression"
+      "depression",
+      "alzheimers-agitation"
     ],
     "controlled": null,
     "description": null,
@@ -38,8 +39,8 @@
     "attributes": {},
     "sources": [
       {
-        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Auvelity",
-        "title": "DailyMed: Auvelity",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+        "title": "Auvelity label (DailyMed)",
         "type": "label"
       }
     ],
@@ -56,6 +57,7 @@
           "label": "FDA approved"
         },
         "approvedFor": [
+          "alzheimers-agitation",
           "depression"
         ],
         "offLabelFor": [],
@@ -65,6 +67,7 @@
         ],
         "tier": "curated",
         "review": "unverified",
+        "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/dextromethorphan.json"
       },
       {
@@ -79,7 +82,11 @@
           "label": "FDA approved"
         },
         "approvedFor": [
-          "depression"
+          "alzheimers-agitation",
+          "depression",
+          "seasonal-affective-disorder",
+          "smoking-cessation",
+          "weight-management"
         ],
         "offLabelFor": [
           "adhd"
@@ -88,17 +95,21 @@
         "brands": [
           "Aplenzin",
           "Auvelity",
+          "Contrave",
+          "Forfivo XL",
           "Wellbutrin SR",
           "Wellbutrin XL",
           "Zyban"
         ],
         "tier": "curated",
-        "review": "unverified",
+        "review": "verified",
+        "usesComplete": true,
         "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
       }
     ],
     "indicationNames": [
-      "Depression"
+      "Depression",
+      "Agitation in Alzheimer's dementia"
     ],
     "links": {
       "self": "https://nomadceuticals.com/api/v2/products/auvelity.json"

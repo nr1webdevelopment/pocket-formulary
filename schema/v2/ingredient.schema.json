@@ -4,77 +4,337 @@
   "title": "Ingredient",
   "description": "An active ingredient (substance). The core record of the NomadCeuticals library: brands and products link to it, and approval status and uses are recorded per jurisdiction.",
   "type": "object",
-  "required": ["id", "name", "kind", "approvals", "uses", "tier", "review", "sources"],
+  "required": [
+    "id",
+    "name",
+    "kind",
+    "approvals",
+    "uses",
+    "tier",
+    "review",
+    "sources"
+  ],
   "additionalProperties": false,
   "properties": {
-    "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable slug of the name. Never reused."},
-    "name": {"type": "string", "minLength": 1, "description": "Generic (international non-proprietary) name, lowercase."},
-    "synonyms": {"type": "array", "items": {"type": "string"}, "description": "Other names: salt forms, older names, common abbreviations (e.g. TDF)."},
-    "kind": {"enum": ["drug", "biologic", "vaccine", "supplement", "herbal"], "description": "supplement and herbal are not regulated as medicines in the US."},
-    "classes": {"type": "array", "items": {"$ref": "#/$defs/drugClass"}},
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$",
+      "description": "Stable slug of the name. Never reused."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Generic (international non-proprietary) name, lowercase."
+    },
+    "synonyms": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Other names: salt forms, older names, common abbreviations (e.g. TDF)."
+    },
+    "kind": {
+      "enum": [
+        "drug",
+        "biologic",
+        "vaccine",
+        "supplement",
+        "herbal"
+      ],
+      "description": "supplement and herbal are not regulated as medicines in the US."
+    },
+    "classes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/drugClass"
+      }
+    },
     "ids": {
-      "type": "object", "additionalProperties": false,
+      "type": "object",
+      "additionalProperties": false,
       "properties": {
-        "rxcui": {"type": ["string", "null"], "pattern": "^[0-9]+$", "description": "RxNorm concept ID (ingredient, TTY=IN or MIN)."},
-        "unii": {"type": "array", "items": {"type": "string"}, "description": "FDA Unique Ingredient Identifiers (may include salt forms)."}
-      }
-    },
-    "approvals": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/approval"}},
-    "uses": {"type": "array", "items": {"$ref": "#/$defs/use"}},
-    "controlled": {"type": "array", "items": {"$ref": "#/$defs/controlled"}},
-    "summary": {"type": ["string", "null"], "description": "Plain-language description (curated records)."},
-    "tier": {"enum": ["curated", "basic"], "description": "curated: written and reviewed by a person. basic: imported automatically, minimal fields."},
-    "review": {"$ref": "#/$defs/review"},
-    "sources": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/source"}}
-  },
-  "$defs": {
-    "jurisdiction": {"type": "string", "pattern": "^[A-Z]{2}$|^EU$", "description": "ISO 3166-1 alpha-2 country code, or EU."},
-    "drugClass": {
-      "type": "object", "required": ["name"], "additionalProperties": false,
-      "properties": {"name": {"type": "string"}, "system": {"enum": ["nomad", "atc", "fda-epc"], "default": "nomad"}, "code": {"type": ["string", "null"]}}
-    },
-    "approval": {
-      "type": "object", "required": ["jurisdiction", "status"], "additionalProperties": false,
-      "properties": {
-        "jurisdiction": {"$ref": "#/$defs/jurisdiction"},
-        "regulator": {"type": "string", "description": "e.g. FDA, EMA, Thai FDA, COFEPRIS"},
-        "status": {
-          "enum": ["approved", "otc_monograph", "not_approved", "withdrawn", "investigational", "unknown"],
-          "description": "approved: approved by the regulator (NDA/ANDA/BLA in the US). otc_monograph: US over-the-counter drug legally marketed under an FDA monograph, without individual approval. not_approved: not approved in this jurisdiction (may be approved elsewhere). withdrawn: approval withdrawn or removed for safety. investigational: in clinical trials only."
+        "rxcui": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]+$",
+          "description": "RxNorm concept ID (ingredient, TTY=IN or MIN)."
         },
-        "since": {"type": ["string", "null"], "pattern": "^\\d{4}(-\\d{2}-\\d{2})?$"},
-        "note": {"type": ["string", "null"]},
-        "source": {"type": ["string", "null"], "pattern": "^https?://"},
-        "checked": {"type": ["string", "null"], "format": "date"}
+        "unii": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "FDA Unique Ingredient Identifiers (may include salt forms)."
+        }
       }
     },
-    "use": {
-      "type": "object", "required": ["condition", "type", "jurisdiction"], "additionalProperties": false,
-      "properties": {
-        "condition": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "A condition id from conditions.json."},
-        "type": {"enum": ["approved", "off-label"], "description": "approved: an indication on the official label in this jurisdiction. off-label: used by clinicians but not on the label."},
-        "jurisdiction": {"$ref": "#/$defs/jurisdiction"},
-        "note": {"type": ["string", "null"]},
-        "via": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "Product ids this use comes from, when it is only approved as part of specific products (e.g. combinations)."},
-        "source": {"type": ["string", "null"], "pattern": "^https?://"}
+    "approvals": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/approval"
+      }
+    },
+    "uses": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/use"
       }
     },
     "controlled": {
-      "type": "object", "required": ["jurisdiction", "schedule"], "additionalProperties": false,
-      "properties": {"jurisdiction": {"$ref": "#/$defs/jurisdiction"}, "schedule": {"type": "string", "description": "e.g. CII (US DEA Schedule II)"}, "source": {"type": ["string", "null"]}}
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/controlled"
+      }
+    },
+    "summary": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Plain-language description (curated records)."
+    },
+    "tier": {
+      "enum": [
+        "curated",
+        "basic"
+      ],
+      "description": "curated: written and reviewed by a person. basic: imported automatically, minimal fields."
     },
     "review": {
-      "type": "object", "required": ["status"], "additionalProperties": false,
+      "$ref": "#/$defs/review"
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "usesComplete": {
+      "type": "boolean",
+      "default": false,
+      "description": "true once every approved use on the official label(s) in the listed jurisdictions is recorded. false: uses cover only conditions the library tracks so far."
+    }
+  },
+  "$defs": {
+    "jurisdiction": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$|^EU$",
+      "description": "ISO 3166-1 alpha-2 country code, or EU."
+    },
+    "drugClass": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "additionalProperties": false,
       "properties": {
-        "status": {"enum": ["unverified", "verified", "needs_review"]},
-        "checked": {"type": ["string", "null"], "format": "date"},
-        "by": {"type": ["string", "null"]},
-        "note": {"type": ["string", "null"]}
+        "name": {
+          "type": "string"
+        },
+        "system": {
+          "enum": [
+            "nomad",
+            "atc",
+            "fda-epc"
+          ],
+          "default": "nomad"
+        },
+        "code": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "approval": {
+      "type": "object",
+      "required": [
+        "jurisdiction",
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "jurisdiction": {
+          "$ref": "#/$defs/jurisdiction"
+        },
+        "regulator": {
+          "type": "string",
+          "description": "e.g. FDA, EMA, Thai FDA, COFEPRIS"
+        },
+        "status": {
+          "enum": [
+            "approved",
+            "otc_monograph",
+            "not_approved",
+            "withdrawn",
+            "investigational",
+            "unknown"
+          ],
+          "description": "approved: approved by the regulator (NDA/ANDA/BLA in the US). otc_monograph: US over-the-counter drug legally marketed under an FDA monograph, without individual approval. not_approved: not approved in this jurisdiction (may be approved elsewhere). withdrawn: approval withdrawn or removed for safety. investigational: in clinical trials only."
+        },
+        "since": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^\\d{4}(-\\d{2}-\\d{2})?$"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https?://"
+        },
+        "checked": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        }
+      }
+    },
+    "use": {
+      "type": "object",
+      "required": [
+        "condition",
+        "type",
+        "jurisdiction"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "condition": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "A condition id from conditions.json."
+        },
+        "type": {
+          "enum": [
+            "approved",
+            "off-label"
+          ],
+          "description": "approved: an indication on the official label in this jurisdiction. off-label: used by clinicians but not on the label."
+        },
+        "jurisdiction": {
+          "$ref": "#/$defs/jurisdiction"
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "via": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "description": "Product ids this use comes from, when it is only approved as part of specific products (e.g. combinations)."
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https?://"
+        }
+      }
+    },
+    "controlled": {
+      "type": "object",
+      "required": [
+        "jurisdiction",
+        "schedule"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "jurisdiction": {
+          "$ref": "#/$defs/jurisdiction"
+        },
+        "schedule": {
+          "type": "string",
+          "description": "e.g. CII (US DEA Schedule II)"
+        },
+        "source": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "required": [
+        "status"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "unverified",
+            "verified",
+            "needs_review"
+          ]
+        },
+        "checked": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
       }
     },
     "source": {
-      "type": "object", "required": ["url"], "additionalProperties": false,
-      "properties": {"url": {"type": "string", "pattern": "^https?://"}, "title": {"type": "string"}, "type": {"enum": ["regulator", "label", "database", "reference", "internal"]}}
+      "type": "object",
+      "required": [
+        "url"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "url": {
+          "type": "string",
+          "pattern": "^https?://"
+        },
+        "title": {
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "regulator",
+            "label",
+            "database",
+            "reference",
+            "internal"
+          ]
+        }
+      }
     }
   }
 }

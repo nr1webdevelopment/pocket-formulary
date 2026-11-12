@@ -8,7 +8,7 @@
     "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
     "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
   },
-  "count": 15,
+  "count": 21,
   "data": [
     {
       "id": "hiv",
@@ -153,6 +153,65 @@
       "area": "dermatology",
       "aliases": [
         "hives"
+      ],
+      "parent": null
+    },
+    {
+      "id": "seasonal-affective-disorder",
+      "name": "Seasonal affective disorder (prevention of seasonal depression)",
+      "area": "mental-health",
+      "aliases": [
+        "SAD",
+        "winter depression"
+      ],
+      "parent": "depression"
+    },
+    {
+      "id": "smoking-cessation",
+      "name": "Quitting smoking",
+      "area": "mental-health",
+      "aliases": [
+        "smoking cessation",
+        "nicotine dependence"
+      ],
+      "parent": null
+    },
+    {
+      "id": "weight-management",
+      "name": "Chronic weight management",
+      "area": "endocrine",
+      "aliases": [
+        "obesity",
+        "overweight"
+      ],
+      "parent": null
+    },
+    {
+      "id": "alcohol-use-disorder",
+      "name": "Alcohol dependence",
+      "area": "mental-health",
+      "aliases": [
+        "alcohol use disorder",
+        "AUD"
+      ],
+      "parent": null
+    },
+    {
+      "id": "opioid-use-disorder",
+      "name": "Opioid dependence",
+      "area": "mental-health",
+      "aliases": [
+        "opioid use disorder",
+        "OUD"
+      ],
+      "parent": null
+    },
+    {
+      "id": "alzheimers-agitation",
+      "name": "Agitation in Alzheimer's dementia",
+      "area": "neurology",
+      "aliases": [
+        "Alzheimer's disease agitation"
       ],
       "parent": null
     }

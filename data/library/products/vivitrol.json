@@ -1,0 +1,33 @@
+{
+  "id": "vivitrol",
+  "jurisdiction": "US",
+  "route": "Intramuscular",
+  "dosingFrequency": null,
+  "manufacturer": "Alkermes",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "brandName": "Vivitrol",
+  "ingredients": [
+    "naltrexone"
+  ],
+  "status": "available",
+  "form": "Extended-release injectable suspension (monthly)",
+  "indications": [
+    "alcohol-use-disorder",
+    "opioid-use-disorder"
+  ],
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f",
+      "title": "Vivitrol label (DailyMed)",
+      "type": "label"
+    }
+  ]
+}

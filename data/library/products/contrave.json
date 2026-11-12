@@ -1,0 +1,33 @@
+{
+  "id": "contrave",
+  "jurisdiction": "US",
+  "route": "Oral",
+  "dosingFrequency": null,
+  "manufacturer": "Nalpropion Pharmaceuticals",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "controlled": null,
+  "description": "Combination of naltrexone and bupropion for long-term weight management in adults with obesity, or overweight with a weight-related condition, alongside diet and exercise.",
+  "notes": null,
+  "attributes": {},
+  "brandName": "Contrave",
+  "ingredients": [
+    "naltrexone",
+    "bupropion"
+  ],
+  "status": "available",
+  "form": "Extended-release tablet",
+  "indications": [
+    "weight-management"
+  ],
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+      "title": "Contrave label (DailyMed)",
+      "type": "label"
+    }
+  ]
+}

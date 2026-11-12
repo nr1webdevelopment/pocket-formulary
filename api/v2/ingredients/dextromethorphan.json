@@ -44,6 +44,17 @@
           "auvelity"
         ],
         "conditionName": "Depression"
+      },
+      {
+        "condition": "alzheimers-agitation",
+        "type": "approved",
+        "jurisdiction": "US",
+        "note": "With bupropion (Auvelity)",
+        "via": [
+          "auvelity"
+        ],
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+        "conditionName": "Agitation in Alzheimer's dementia"
       }
     ],
     "controlled": [],
@@ -59,6 +70,11 @@
       {
         "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dextromethorphan",
         "title": "DailyMed labels for dextromethorphan",
+        "type": "label"
+      },
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+        "title": "Auvelity label (DailyMed, rev. 8/2026)",
         "type": "label"
       }
     ],

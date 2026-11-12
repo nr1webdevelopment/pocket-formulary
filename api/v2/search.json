@@ -23,7 +23,7 @@
     "j": "jurisdiction",
     "st": "product status"
   },
-  "count": 298,
+  "count": 302,
   "data": [
     {
       "t": "i",
@@ -239,11 +239,16 @@
       "n": "bupropion",
       "s": [
         "bupropion hydrochloride",
+        "bupropion hydrobromide (Aplenzin)",
         "amfebutamone"
       ],
       "f": "approved",
       "a": [
-        "depression"
+        "alzheimers-agitation",
+        "depression",
+        "seasonal-affective-disorder",
+        "smoking-cessation",
+        "weight-management"
       ],
       "o": [
         "adhd"
@@ -251,6 +256,8 @@
       "b": [
         "Aplenzin",
         "Auvelity",
+        "Contrave",
+        "Forfivo XL",
         "Wellbutrin SR",
         "Wellbutrin XL",
         "Zyban"
@@ -527,6 +534,7 @@
       "s": [],
       "f": "approved",
       "a": [
+        "alzheimers-agitation",
         "depression"
       ],
       "o": [],
@@ -1341,6 +1349,25 @@
       "o": [],
       "b": [
         "Nasonex"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "naltrexone",
+      "n": "naltrexone",
+      "s": [
+        "naltrexone hydrochloride"
+      ],
+      "f": "approved",
+      "a": [
+        "alcohol-use-disorder",
+        "opioid-use-disorder",
+        "weight-management"
+      ],
+      "o": [],
+      "b": [
+        "Contrave",
+        "Vivitrol"
       ]
     },
     {
@@ -2193,6 +2220,17 @@
     },
     {
       "t": "p",
+      "id": "contrave",
+      "n": "Contrave",
+      "i": [
+        "naltrexone",
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
       "id": "cotempla-xr-odt",
       "n": "Cotempla XR-ODT",
       "i": [
@@ -2473,6 +2511,16 @@
       "n": "Focalin",
       "i": [
         "dexmethylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "forfivo-xl",
+      "n": "Forfivo XL",
+      "i": [
+        "bupropion"
       ],
       "j": "US",
       "st": "available"
@@ -3504,6 +3552,16 @@
       "n": "Vistaril",
       "i": [
         "hydroxyzine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vivitrol",
+      "n": "Vivitrol",
+      "i": [
+        "naltrexone"
       ],
       "j": "US",
       "st": "available"

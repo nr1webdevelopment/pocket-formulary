@@ -8,7 +8,7 @@
     "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
     "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
   },
-  "count": 116,
+  "count": 117,
   "data": [
     {
       "id": "abacavir",
@@ -725,6 +725,7 @@
       "name": "bupropion",
       "synonyms": [
         "bupropion hydrochloride",
+        "bupropion hydrobromide (Aplenzin)",
         "amfebutamone"
       ],
       "kind": "drug",
@@ -751,30 +752,92 @@
         {
           "condition": "depression",
           "type": "approved",
-          "jurisdiction": "US"
+          "jurisdiction": "US",
+          "note": "Major depressive disorder (all bupropion brands)",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21"
+        },
+        {
+          "condition": "seasonal-affective-disorder",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Wellbutrin XL and Aplenzin only",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6494d2d9-0ce4-4126-b1c7-49684395942b"
+        },
+        {
+          "condition": "smoking-cessation",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Approved as Zyban. No current Zyban label on DailyMed (checked 2026-11-12), so it may no longer be sold in the US; Wellbutrin SR, Wellbutrin XL and Forfivo XL are not approved for this."
+        },
+        {
+          "condition": "weight-management",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "With naltrexone (Contrave), alongside diet and exercise",
+          "via": [
+            "contrave"
+          ],
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b"
+        },
+        {
+          "condition": "alzheimers-agitation",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "With dextromethorphan (Auvelity), added to its label in 2026",
+          "via": [
+            "auvelity"
+          ],
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79"
         },
         {
           "condition": "adhd",
           "type": "off-label",
-          "jurisdiction": "US"
+          "jurisdiction": "US",
+          "note": "Sometimes used when stimulants aren't suitable"
         }
       ],
       "controlled": [],
       "summary": null,
       "tier": "curated",
       "review": {
-        "status": "unverified",
+        "status": "verified",
         "checked": "2026-11-12",
-        "by": null,
-        "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+        "by": "DailyMed label check (Claude)",
+        "note": "Indications checked against current DailyMed labels for Wellbutrin XL, Wellbutrin SR, Aplenzin, Forfivo XL, Contrave and Auvelity."
       },
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=bupropion",
-          "title": "DailyMed labels for bupropion",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21",
+          "title": "Wellbutrin XL label (DailyMed, rev. 11/2025)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbc8c074-f080-4489-a5ae-207b5fadeba3",
+          "title": "Wellbutrin SR label (DailyMed, rev. 11/2025)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6494d2d9-0ce4-4126-b1c7-49684395942b",
+          "title": "Aplenzin label (DailyMed, rev. 11/2025)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80b01182-dc94-4990-8ebb-55c306d7e536",
+          "title": "Forfivo XL label (DailyMed, rev. 11/2025)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+          "title": "Contrave label (DailyMed, rev. 11/2025)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+          "title": "Auvelity label (DailyMed, rev. 8/2026)",
           "type": "label"
         }
-      ]
+      ],
+      "usesComplete": true
     },
     {
       "id": "buspirone",
@@ -1683,6 +1746,16 @@
           "via": [
             "auvelity"
           ]
+        },
+        {
+          "condition": "alzheimers-agitation",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "With bupropion (Auvelity)",
+          "via": [
+            "auvelity"
+          ],
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79"
         }
       ],
       "controlled": [],
@@ -1698,6 +1771,11 @@
         {
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dextromethorphan",
           "title": "DailyMed labels for dextromethorphan",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+          "title": "Auvelity label (DailyMed, rev. 8/2026)",
           "type": "label"
         }
       ]
@@ -4332,6 +4410,86 @@
         {
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=mometasone",
           "title": "DailyMed labels for mometasone",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "naltrexone",
+      "name": "naltrexone",
+      "synonyms": [
+        "naltrexone hydrochloride"
+      ],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Opioid antagonist",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-12",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f"
+        }
+      ],
+      "uses": [
+        {
+          "condition": "alcohol-use-disorder",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Tablets and monthly injection (Vivitrol)",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f"
+        },
+        {
+          "condition": "opioid-use-disorder",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Blocks the effects of opioids (tablets); prevents relapse after detox (Vivitrol)",
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49aa3d6d-2270-4615-aafa-b440859ab870"
+        },
+        {
+          "condition": "weight-management",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "With bupropion (Contrave)",
+          "via": [
+            "contrave"
+          ],
+          "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b"
+        }
+      ],
+      "usesComplete": true,
+      "controlled": [],
+      "summary": null,
+      "tier": "curated",
+      "review": {
+        "status": "verified",
+        "checked": "2026-11-12",
+        "by": "DailyMed label check (Claude)",
+        "note": "Indications checked against the Vivitrol, Contrave and a generic naltrexone tablet label on DailyMed."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f",
+          "title": "Vivitrol label (DailyMed, rev. 5/2026)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49aa3d6d-2270-4615-aafa-b440859ab870",
+          "title": "Naltrexone tablets, Accord (DailyMed)",
+          "type": "label"
+        },
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+          "title": "Contrave label (DailyMed, rev. 11/2025)",
           "type": "label"
         }
       ]

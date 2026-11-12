@@ -1,0 +1,32 @@
+{
+  "id": "forfivo-xl",
+  "jurisdiction": "US",
+  "route": "Oral",
+  "dosingFrequency": null,
+  "manufacturer": "Upsher-Smith",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "controlled": null,
+  "description": null,
+  "notes": null,
+  "attributes": {},
+  "brandName": "Forfivo XL",
+  "ingredients": [
+    "bupropion"
+  ],
+  "status": "available",
+  "form": "Extended-release tablet (450 mg)",
+  "indications": [
+    "depression"
+  ],
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80b01182-dc94-4990-8ebb-55c306d7e536",
+      "title": "Forfivo XL label (DailyMed)",
+      "type": "label"
+    }
+  ]
+}

@@ -1966,5 +1966,61 @@
   "es": "Urticaria crónica",
   "pt": "Urticária crónica",
   "th": "ลมพิษเรื้อรัง"
+ },
+ "libUsesPartial": {
+  "en": "This list only covers conditions in the library so far. The official label may include other approved uses.",
+  "zh-Hans": "此列表目前只涵盖药物库已收录的疾病，官方说明书可能还有其他获批用途。",
+  "zh-Hant": "此列表目前只涵蓋藥物庫已收錄的疾病，官方仿單可能還有其他核准用途。",
+  "es": "Esta lista solo incluye las afecciones que la biblioteca cubre por ahora. La ficha técnica oficial puede incluir otros usos aprobados.",
+  "pt": "Esta lista só inclui as condições que a biblioteca abrange por agora. O folheto oficial pode incluir outras utilizações aprovadas.",
+  "th": "รายการนี้ครอบคลุมเฉพาะโรคที่มีในคลังข้อมูลขณะนี้ เอกสารกำกับยาอย่างเป็นทางการอาจมีข้อบ่งใช้อื่นที่ได้รับอนุมัติ"
+ },
+ "lc_seasonal-affective-disorder": {
+  "en": "Seasonal affective disorder",
+  "zh-Hans": "季节性情感障碍",
+  "zh-Hant": "季節性情緒失調",
+  "es": "Trastorno afectivo estacional",
+  "pt": "Perturbação afetiva sazonal",
+  "th": "โรคซึมเศร้าตามฤดูกาล"
+ },
+ "lc_smoking-cessation": {
+  "en": "Quitting smoking",
+  "zh-Hans": "戒烟",
+  "zh-Hant": "戒菸",
+  "es": "Dejar de fumar",
+  "pt": "Deixar de fumar",
+  "th": "การเลิกบุหรี่"
+ },
+ "lc_weight-management": {
+  "en": "Chronic weight management",
+  "zh-Hans": "长期体重管理",
+  "zh-Hant": "長期體重管理",
+  "es": "Control del peso a largo plazo",
+  "pt": "Controlo do peso a longo prazo",
+  "th": "การควบคุมน้ำหนักระยะยาว"
+ },
+ "lc_alcohol-use-disorder": {
+  "en": "Alcohol dependence",
+  "zh-Hans": "酒精依赖",
+  "zh-Hant": "酒精依賴",
+  "es": "Dependencia del alcohol",
+  "pt": "Dependência de álcool",
+  "th": "ภาวะติดสุรา"
+ },
+ "lc_opioid-use-disorder": {
+  "en": "Opioid dependence",
+  "zh-Hans": "阿片类药物依赖",
+  "zh-Hant": "鴉片類藥物依賴",
+  "es": "Dependencia de opioides",
+  "pt": "Dependência de opioides",
+  "th": "ภาวะติดสารโอปิออยด์"
+ },
+ "lc_alzheimers-agitation": {
+  "en": "Agitation in Alzheimer's dementia",
+  "zh-Hans": "阿尔茨海默病痴呆相关的激越",
+  "zh-Hant": "阿茲海默症失智相關的激躁",
+  "es": "Agitación en la demencia por alzhéimer",
+  "pt": "Agitação na demência de Alzheimer",
+  "th": "อาการกระวนกระวายในภาวะสมองเสื่อมจากโรคอัลไซเมอร์"
  }
 }

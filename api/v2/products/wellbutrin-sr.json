@@ -19,10 +19,10 @@
     ],
     "jurisdiction": "US",
     "status": "available",
-    "form": "Extended-release tablet",
-    "route": null,
+    "form": "Sustained-release tablet",
+    "route": "Oral",
     "dosingFrequency": null,
-    "manufacturer": null,
+    "manufacturer": "GlaxoSmithKline",
     "approval": {
       "date": null,
       "year": null,
@@ -37,8 +37,8 @@
     "attributes": {},
     "sources": [
       {
-        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Wellbutrin+SR",
-        "title": "DailyMed: Wellbutrin SR",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbc8c074-f080-4489-a5ae-207b5fadeba3",
+        "title": "Wellbutrin SR label (DailyMed)",
         "type": "label"
       }
     ],
@@ -55,7 +55,11 @@
           "label": "FDA approved"
         },
         "approvedFor": [
-          "depression"
+          "alzheimers-agitation",
+          "depression",
+          "seasonal-affective-disorder",
+          "smoking-cessation",
+          "weight-management"
         ],
         "offLabelFor": [
           "adhd"
@@ -64,12 +68,15 @@
         "brands": [
           "Aplenzin",
           "Auvelity",
+          "Contrave",
+          "Forfivo XL",
           "Wellbutrin SR",
           "Wellbutrin XL",
           "Zyban"
         ],
         "tier": "curated",
-        "review": "unverified",
+        "review": "verified",
+        "usesComplete": true,
         "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
       }
     ],

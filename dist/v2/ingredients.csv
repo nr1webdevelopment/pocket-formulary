@@ -13,7 +13,7 @@ bexagliflozin,bexagliflozin,drug,SGLT2 inhibitor,approved,FDA approved,diabetes,
 bictegravir,bictegravir,drug,INSTI,approved,FDA approved,hiv,,,Biktarvy; Bixlenvo,,,curated,unverified
 brexanolone,brexanolone,drug,Neuroactive steroid (GABA-A modulator),approved,FDA approved,postpartum-depression,,CIV,Zulresso,,,curated,unverified
 brexpiprazole,brexpiprazole,drug,Atypical antipsychotic (add-on for depression),approved,FDA approved,depression,,,Rexulti,,,curated,unverified
-bupropion,bupropion,drug,Atypical antidepressant (NDRI),approved,FDA approved,depression,adhd,,Aplenzin; Auvelity; Wellbutrin SR; Wellbutrin XL; Zyban,,,curated,unverified
+bupropion,bupropion,drug,Atypical antidepressant (NDRI),approved,FDA approved,alzheimers-agitation; depression; seasonal-affective-disorder; smoking-cessation; weight-management,adhd,,Aplenzin; Auvelity; Contrave; Forfivo XL; Wellbutrin SR; Wellbutrin XL; Zyban,,,curated,verified
 buspirone,buspirone,drug,Azapirone anxiolytic,approved,FDA approved,anxiety,,,Buspar,,,curated,unverified
 cabotegravir,cabotegravir,drug,INSTI,approved,FDA approved,hiv,,,Apretude; Cabenuva; Vocabria,,,curated,unverified
 canagliflozin,canagliflozin,drug,SGLT2 inhibitor,approved,FDA approved,diabetes,,,Invokana,,,curated,unverified
@@ -31,7 +31,7 @@ desvenlafaxine,desvenlafaxine,drug,SNRI (serotonin-norepinephrine reuptake inhib
 dexamethasone,dexamethasone,drug,Corticosteroid,approved,FDA approved,otitis-externa; otitis-media,,,Ciprodex,,,curated,unverified
 dexmethylphenidate,dexmethylphenidate,drug,CNS stimulant (methylphenidate),approved,FDA approved,adhd,,CII,Azstarys; Focalin; Focalin XR,,,curated,unverified
 dextroamphetamine,dextroamphetamine,drug,CNS stimulant (amphetamine),approved,FDA approved,adhd,,CII,Dexedrine Spansule; ProCentra; Xelstrym; Zenzedi,,,curated,unverified
-dextromethorphan,dextromethorphan,drug,NMDA receptor antagonist,approved,FDA approved,depression,,,Auvelity,,,curated,unverified
+dextromethorphan,dextromethorphan,drug,NMDA receptor antagonist,approved,FDA approved,alzheimers-agitation; depression,,,Auvelity,,,curated,unverified
 diazepam,diazepam,drug,Benzodiazepine,approved,FDA approved,anxiety,,CIV,Valium,,,curated,unverified
 dolutegravir,dolutegravir,drug,INSTI,approved,FDA approved,hiv,,,Dovato; Juluca; Tivicay; Tivicay PD; Triumeq; Triumeq PD,,,curated,unverified
 doravirine,doravirine,drug,NNRTI,approved,FDA approved,hiv,,,Delstrigo; Idvynso; Pifeltro,,,curated,unverified
@@ -84,6 +84,7 @@ methylphenidate,methylphenidate,drug,CNS stimulant (methylphenidate),approved,FD
 mirtazapine,mirtazapine,drug,Atypical antidepressant,approved,FDA approved,depression,anxiety,,Remeron; Remeron SolTab,,,curated,unverified
 mixed-amphetamine-salts,mixed amphetamine salts,drug,CNS stimulant (amphetamine),approved,FDA approved,adhd,,CII,Adderall; Adderall XR; Mydayis,,,curated,unverified
 mometasone,mometasone,drug,Corticosteroid (nasal),approved,FDA approved,allergic-rhinitis; nasal-polyps,,,Nasonex,,,curated,unverified
+naltrexone,naltrexone,drug,Opioid antagonist,approved,FDA approved,alcohol-use-disorder; opioid-use-disorder; weight-management,,,Contrave; Vivitrol,,,curated,verified
 nevirapine,nevirapine,drug,NNRTI,approved,FDA approved,hiv,,,Viramune; Viramune XR,,,curated,unverified
 nortriptyline,nortriptyline,drug,Tricyclic antidepressant (TCA),approved,FDA approved,depression,,,Pamelor,,,curated,unverified
 ofloxacin,ofloxacin,drug,Fluoroquinolone antibiotic,approved,FDA approved,otitis-externa; otitis-media,,,Ofloxacin Otic,,,curated,unverified

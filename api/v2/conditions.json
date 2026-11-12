@@ -11,7 +11,7 @@
     "index": "https://nomadceuticals.com/api/v2/index.json",
     "docs": "https://nomadceuticals.com/api/"
   },
-  "count": 15,
+  "count": 21,
   "data": [
     {
       "id": "hiv",
@@ -203,6 +203,83 @@
       "approvedCount": 1,
       "offLabelCount": 0,
       "url": "https://nomadceuticals.com/api/v2/conditions/urticaria.json"
+    },
+    {
+      "id": "seasonal-affective-disorder",
+      "name": "Seasonal affective disorder (prevention of seasonal depression)",
+      "area": "mental-health",
+      "aliases": [
+        "SAD",
+        "winter depression"
+      ],
+      "parent": "depression",
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/seasonal-affective-disorder.json"
+    },
+    {
+      "id": "smoking-cessation",
+      "name": "Quitting smoking",
+      "area": "mental-health",
+      "aliases": [
+        "smoking cessation",
+        "nicotine dependence"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/smoking-cessation.json"
+    },
+    {
+      "id": "weight-management",
+      "name": "Chronic weight management",
+      "area": "endocrine",
+      "aliases": [
+        "obesity",
+        "overweight"
+      ],
+      "parent": null,
+      "approvedCount": 2,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/weight-management.json"
+    },
+    {
+      "id": "alcohol-use-disorder",
+      "name": "Alcohol dependence",
+      "area": "mental-health",
+      "aliases": [
+        "alcohol use disorder",
+        "AUD"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/alcohol-use-disorder.json"
+    },
+    {
+      "id": "opioid-use-disorder",
+      "name": "Opioid dependence",
+      "area": "mental-health",
+      "aliases": [
+        "opioid use disorder",
+        "OUD"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/opioid-use-disorder.json"
+    },
+    {
+      "id": "alzheimers-agitation",
+      "name": "Agitation in Alzheimer's dementia",
+      "area": "neurology",
+      "aliases": [
+        "Alzheimer's disease agitation"
+      ],
+      "parent": null,
+      "approvedCount": 2,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/alzheimers-agitation.json"
     }
   ]
 }

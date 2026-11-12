@@ -74,8 +74,8 @@ def library_compact():
             "f": build_library.fda_label(i)["status"], "ae": build_library.fda_label(i)["approvedElsewhere"],
             "u": [[u["condition"], u["type"], u.get("note"), u.get("via", [])] for u in i["uses"]],
             "ctl": next((c["schedule"] for c in i.get("controlled", []) if c["jurisdiction"] == "US"), None),
-            "p": prods_of.get(i["id"], []), "rev": i["review"]["status"],
-            "src": [[s["url"], s.get("title", "")] for s in i["sources"]][:4],
+            "p": prods_of.get(i["id"], []), "rev": i["review"]["status"], "uc": bool(i.get("usesComplete")),
+            "src": [[s["url"], s.get("title", "")] for s in i["sources"]][:8],
         } for i in ingredients],
     }
 

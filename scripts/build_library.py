@@ -89,6 +89,7 @@ def main():
                 "offLabelFor": sorted({u["condition"] for u in i["uses"] if u["type"] == "off-label"}),
                 "controlled": {c["jurisdiction"]: c["schedule"] for c in i.get("controlled", [])},
                 "brands": sorted({p["brandName"] for p in prods_of[i["id"]]}), "tier": i["tier"], "review": i["review"]["status"],
+                "usesComplete": bool(i.get("usesComplete")),
                 "url": url(f"ingredients/{i['id']}.json")}
 
     def prod_summary(p):

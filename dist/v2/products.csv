@@ -10,7 +10,7 @@ amaryl,Amaryl,glimepiride,US,available,Tablet,Oral,Sanofi,,1995,diabetes,
 amoxil,Amoxil,amoxicillin,US,unknown,Capsule; tablet; oral suspension,Oral,,,,otitis-media; pharyngitis,
 antivert,Antivert,meclizine,US,available,Tablet,Oral,,,,vertigo,
 apidra,Apidra,insulin-glulisine,US,available,"Injection (pen, vial)",Subcutaneous,Sanofi,,2004,diabetes,
-aplenzin,Aplenzin,bupropion,US,available,Extended-release tablet,,,,,depression,
+aplenzin,Aplenzin,bupropion,US,available,Extended-release tablet,Oral,Bausch Health,,,depression; seasonal-affective-disorder,
 apretude,Apretude,cabotegravir,US,available,Intramuscular injection,Injection,ViiV Healthcare,2021-12-20,2021,hiv,
 aptensio-xr,Aptensio XR,methylphenidate,US,available,Extended-release capsule,Oral,Rhodes Pharmaceuticals,,2015,adhd,CII
 aptivus,Aptivus,tipranavir,US,available,Capsule; oral solution,Oral,Boehringer Ingelheim,2005-06-22,2005,hiv,
@@ -18,7 +18,7 @@ astepro,Astepro,azelastine,US,available,Nasal spray,Nasal,,,,allergic-rhinitis,
 atarax,Atarax,hydroxyzine,US,unknown,Tablet,,,,,anxiety,
 ativan,Ativan,lorazepam,US,available,Tablet,,,,,anxiety,CIV
 atripla,Atripla,efavirenz; emtricitabine; tenofovir-disoproxil,US,discontinued,Tablet,Oral,Gilead Sciences & Bristol Myers Squibb,2006-07-12,2006,hiv,
-auvelity,Auvelity,dextromethorphan; bupropion,US,available,Extended-release tablet,,,,,depression,
+auvelity,Auvelity,dextromethorphan; bupropion,US,available,Extended-release tablet,Oral,Axsome Therapeutics,,,depression; alzheimers-agitation,
 awiqli,Awiqli,insulin-icodec,US,available,"Injection (pen, 700 units/mL)",Subcutaneous,Novo Nordisk,,2026,diabetes,
 azstarys,Azstarys,serdexmethylphenidate; dexmethylphenidate,US,available,Capsule,Oral,Corium,,2021,adhd,CII
 baqsimi,Baqsimi,glucagon,US,available,Nasal powder,Nasal,Amphastar,,2019,diabetes,
@@ -35,6 +35,7 @@ ciprodex,Ciprodex,ciprofloxacin; dexamethasone,US,available,Ear drops (suspensio
 combivir,Combivir,lamivudine; zidovudine,US,discontinued,Tablet,Oral,ViiV Healthcare,1997-09-27,1997,hiv,
 complera,Complera,emtricitabine; rilpivirine; tenofovir-disoproxil,US,available,Tablet,Oral,Gilead Sciences,2011-08-10,2011,hiv,
 concerta,Concerta,methylphenidate,US,available,Extended-release tablet (OROS),Oral,Johnson & Johnson (Janssen),,2000,adhd,CII
+contrave,Contrave,naltrexone; bupropion,US,available,Extended-release tablet,Oral,Nalpropion Pharmaceuticals,,,weight-management,
 cotempla-xr-odt,Cotempla XR-ODT,methylphenidate,US,available,Extended-release orally disintegrating tablet,Oral,Aytu BioPharma,,2017,adhd,CII
 cymbalta,Cymbalta,duloxetine,US,available,Delayed-release capsule,,,,,depression; anxiety,
 daytrana,Daytrana,methylphenidate,US,available,Transdermal patch,Skin patch,Noven Pharmaceuticals,,2006,adhd,CII
@@ -63,6 +64,7 @@ fiasp,Fiasp,insulin-aspart,US,available,"Injection (pen, vial, cartridge)",Subcu
 flonase,Flonase,fluticasone,US,available,Nasal spray,Nasal,,,,allergic-rhinitis,
 focalin-xr,Focalin XR,dexmethylphenidate,US,available,Extended-release capsule,Oral,Novartis,,2005,adhd,CII
 focalin,Focalin,dexmethylphenidate,US,available,Tablet,Oral,Novartis,,2001,adhd,CII
+forfivo-xl,Forfivo XL,bupropion,US,available,Extended-release tablet (450 mg),Oral,Upsher-Smith,,,depression,
 fuzeon,Fuzeon,enfuvirtide,US,discontinued,Subcutaneous injection,Injection,Genentech (Roche),2003-03-13,2003,hiv,
 genvoya,Genvoya,elvitegravir; cobicistat; emtricitabine; tenofovir-alafenamide,US,available,Tablet,Oral,Gilead Sciences,2015-11-05,2015,hiv,
 glucophage,Glucophage,metformin,US,available,Tablet; extended-release tablet (Glucophage XR),Oral,Bristol Myers Squibb,,1994,diabetes,
@@ -163,11 +165,12 @@ viramune-xr,Viramune XR,nevirapine,US,discontinued,Extended-release tablet,Oral,
 viramune,Viramune,nevirapine,US,discontinued,Tablet; oral suspension,Oral,Boehringer Ingelheim,1996-06-21,1996,hiv,
 viread,Viread,tenofovir-disoproxil,US,available,Tablet; oral powder,Oral,Gilead Sciences,2001-10-26,2001,hiv,
 vistaril,Vistaril,hydroxyzine,US,available,Capsule,,,,,anxiety,
+vivitrol,Vivitrol,naltrexone,US,available,Extended-release injectable suspension (monthly),Intramuscular,Alkermes,,,alcohol-use-disorder; opioid-use-disorder,
 vocabria,Vocabria,cabotegravir,US,available,Tablet,Oral,ViiV Healthcare,2021-01-22,2021,hiv,
 vraylar,Vraylar,cariprazine,US,available,Capsule,,,,,depression,
 vyvanse,Vyvanse,lisdexamfetamine,US,available,Capsule; chewable tablet,Oral,Takeda,,2007,adhd,CII
-wellbutrin-sr,Wellbutrin SR,bupropion,US,available,Extended-release tablet,,,,,depression,
-wellbutrin-xl,Wellbutrin XL,bupropion,US,available,Extended-release tablet,,,,,depression,
+wellbutrin-sr,Wellbutrin SR,bupropion,US,available,Sustained-release tablet,Oral,GlaxoSmithKline,,,depression,
+wellbutrin-xl,Wellbutrin XL,bupropion,US,available,Extended-release tablet (24-hour),Oral,Bausch Health,,,depression; seasonal-affective-disorder,
 xanax-xr,Xanax XR,alprazolam,US,available,Extended-release tablet,,,,,anxiety,CIV
 xanax,Xanax,alprazolam,US,available,Tablet,,,,,anxiety,CIV
 xelstrym,Xelstrym,dextroamphetamine,US,available,Transdermal patch,Skin patch,Noven Pharmaceuticals,,2022,adhd,CII
@@ -179,5 +182,5 @@ ziagen,Ziagen,abacavir,US,available,Tablet; oral solution,Oral,ViiV Healthcare,1
 zoloft,Zoloft,sertraline,US,available,Tablet; oral solution,,,,,depression; anxiety,
 zulresso,Zulresso,brexanolone,US,discontinued,IV infusion,,,,,postpartum-depression,CIV
 zurzuvae,Zurzuvae,zuranolone,US,available,Capsule,,,,,postpartum-depression,CIV
-zyban,Zyban,bupropion,US,unknown,Extended-release tablet,,,,,depression,
+zyban,Zyban,bupropion,US,unknown,Sustained-release tablet,Oral,,,,smoking-cessation,
 zyrtec,Zyrtec,cetirizine,US,available,Tablet; oral solution,Oral,,,,allergic-rhinitis; urticaria,

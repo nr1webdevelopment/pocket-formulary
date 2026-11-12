@@ -11,7 +11,7 @@
     "index": "https://nomadceuticals.com/api/v2/index.json",
     "docs": "https://nomadceuticals.com/api/"
   },
-  "count": 116,
+  "count": 117,
   "data": [
     {
       "id": "abacavir",
@@ -38,6 +38,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/abacavir.json"
     },
     {
@@ -61,6 +62,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/alogliptin.json"
     },
     {
@@ -87,6 +89,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/alprazolam.json"
     },
     {
@@ -110,6 +113,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/amitriptyline.json"
     },
     {
@@ -134,6 +138,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/amoxicillin.json"
     },
     {
@@ -161,6 +166,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/amphetamine.json"
     },
     {
@@ -184,6 +190,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/aripiprazole.json"
     },
     {
@@ -208,6 +215,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/atazanavir.json"
     },
     {
@@ -231,6 +239,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/atomoxetine.json"
     },
     {
@@ -254,6 +263,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/azelastine.json"
     },
     {
@@ -277,6 +287,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/bexagliflozin.json"
     },
     {
@@ -301,6 +312,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/bictegravir.json"
     },
     {
@@ -326,6 +338,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/brexanolone.json"
     },
     {
@@ -349,6 +362,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/brexpiprazole.json"
     },
     {
@@ -363,7 +377,11 @@
         "label": "FDA approved"
       },
       "approvedFor": [
-        "depression"
+        "alzheimers-agitation",
+        "depression",
+        "seasonal-affective-disorder",
+        "smoking-cessation",
+        "weight-management"
       ],
       "offLabelFor": [
         "adhd"
@@ -372,12 +390,15 @@
       "brands": [
         "Aplenzin",
         "Auvelity",
+        "Contrave",
+        "Forfivo XL",
         "Wellbutrin SR",
         "Wellbutrin XL",
         "Zyban"
       ],
       "tier": "curated",
-      "review": "unverified",
+      "review": "verified",
+      "usesComplete": true,
       "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
     },
     {
@@ -401,6 +422,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/buspirone.json"
     },
     {
@@ -426,6 +448,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/cabotegravir.json"
     },
     {
@@ -449,6 +472,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/canagliflozin.json"
     },
     {
@@ -472,6 +496,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/cariprazine.json"
     },
     {
@@ -495,6 +520,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/centanafadine.json"
     },
     {
@@ -519,6 +545,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/cetirizine.json"
     },
     {
@@ -544,6 +571,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/ciprofloxacin.json"
     },
     {
@@ -569,6 +597,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/citalopram.json"
     },
     {
@@ -594,6 +623,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/clonazepam.json"
     },
     {
@@ -618,6 +648,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/clonidine.json"
     },
     {
@@ -647,6 +678,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/cobicistat.json"
     },
     {
@@ -671,6 +703,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dapagliflozin.json"
     },
     {
@@ -697,6 +730,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/darunavir.json"
     },
     {
@@ -720,6 +754,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/desvenlafaxine.json"
     },
     {
@@ -744,6 +779,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dexamethasone.json"
     },
     {
@@ -771,6 +807,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dexmethylphenidate.json"
     },
     {
@@ -799,6 +836,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
     },
     {
@@ -813,6 +851,7 @@
         "label": "FDA approved"
       },
       "approvedFor": [
+        "alzheimers-agitation",
         "depression"
       ],
       "offLabelFor": [],
@@ -822,6 +861,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dextromethorphan.json"
     },
     {
@@ -847,6 +887,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/diazepam.json"
     },
     {
@@ -875,6 +916,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dolutegravir.json"
     },
     {
@@ -900,6 +942,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/doravirine.json"
     },
     {
@@ -923,6 +966,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dulaglutide.json"
     },
     {
@@ -948,6 +992,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/duloxetine.json"
     },
     {
@@ -971,6 +1016,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/dupilumab.json"
     },
     {
@@ -997,6 +1043,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/efavirenz.json"
     },
     {
@@ -1021,6 +1068,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/elvitegravir.json"
     },
     {
@@ -1046,6 +1094,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/empagliflozin.json"
     },
     {
@@ -1078,6 +1127,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
     },
     {
@@ -1101,6 +1151,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/enfuvirtide.json"
     },
     {
@@ -1124,6 +1175,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/ertugliflozin.json"
     },
     {
@@ -1148,6 +1200,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/escitalopram.json"
     },
     {
@@ -1173,6 +1226,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/esketamine.json"
     },
     {
@@ -1196,6 +1250,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/etravirine.json"
     },
     {
@@ -1220,6 +1275,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/fluoxetine.json"
     },
     {
@@ -1245,6 +1301,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/fluticasone.json"
     },
     {
@@ -1268,6 +1325,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/fosamprenavir.json"
     },
     {
@@ -1291,6 +1349,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/fostemsavir.json"
     },
     {
@@ -1314,6 +1373,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/gepirone.json"
     },
     {
@@ -1337,6 +1397,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/glimepiride.json"
     },
     {
@@ -1360,6 +1421,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/glipizide.json"
     },
     {
@@ -1383,6 +1445,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/glucagon.json"
     },
     {
@@ -1406,6 +1469,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/guanfacine.json"
     },
     {
@@ -1430,6 +1494,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/hydroxyzine.json"
     },
     {
@@ -1453,6 +1518,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/ibalizumab.json"
     },
     {
@@ -1477,6 +1543,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-aspart.json"
     },
     {
@@ -1500,6 +1567,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-degludec.json"
     },
     {
@@ -1523,6 +1591,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-detemir.json"
     },
     {
@@ -1550,6 +1619,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glargine.json"
     },
     {
@@ -1573,6 +1643,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glulisine.json"
     },
     {
@@ -1597,6 +1668,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-human.json"
     },
     {
@@ -1620,6 +1692,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-icodec.json"
     },
     {
@@ -1643,6 +1716,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-isophane-human.json"
     },
     {
@@ -1667,6 +1741,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-lispro.json"
     },
     {
@@ -1690,6 +1765,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/islatravir.json"
     },
     {
@@ -1723,6 +1799,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lamivudine.json"
     },
     {
@@ -1748,6 +1825,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lenacapavir.json"
     },
     {
@@ -1771,6 +1849,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/levomilnacipran.json"
     },
     {
@@ -1795,6 +1874,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/linagliptin.json"
     },
     {
@@ -1818,6 +1898,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/liraglutide.json"
     },
     {
@@ -1843,6 +1924,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lisdexamfetamine.json"
     },
     {
@@ -1866,6 +1948,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lixisenatide.json"
     },
     {
@@ -1889,6 +1972,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lopinavir.json"
     },
     {
@@ -1914,6 +1998,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/lorazepam.json"
     },
     {
@@ -1937,6 +2022,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/maraviroc.json"
     },
     {
@@ -1960,6 +2046,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/meclizine.json"
     },
     {
@@ -1986,6 +2073,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/metformin.json"
     },
     {
@@ -2019,6 +2107,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json"
     },
     {
@@ -2045,6 +2134,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/mirtazapine.json"
     },
     {
@@ -2072,6 +2162,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/mixed-amphetamine-salts.json"
     },
     {
@@ -2096,7 +2187,35 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/mometasone.json"
+    },
+    {
+      "id": "naltrexone",
+      "name": "naltrexone",
+      "kind": "drug",
+      "classes": [
+        "Opioid antagonist"
+      ],
+      "fda": {
+        "status": "approved",
+        "label": "FDA approved"
+      },
+      "approvedFor": [
+        "alcohol-use-disorder",
+        "opioid-use-disorder",
+        "weight-management"
+      ],
+      "offLabelFor": [],
+      "controlled": {},
+      "brands": [
+        "Contrave",
+        "Vivitrol"
+      ],
+      "tier": "curated",
+      "review": "verified",
+      "usesComplete": true,
+      "url": "https://nomadceuticals.com/api/v2/ingredients/naltrexone.json"
     },
     {
       "id": "nevirapine",
@@ -2120,6 +2239,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/nevirapine.json"
     },
     {
@@ -2143,6 +2263,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/nortriptyline.json"
     },
     {
@@ -2167,6 +2288,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/ofloxacin.json"
     },
     {
@@ -2190,6 +2312,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/oxymetazoline.json"
     },
     {
@@ -2215,6 +2338,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/paroxetine.json"
     },
     {
@@ -2240,6 +2364,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/phenelzine.json"
     },
     {
@@ -2263,6 +2388,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/pioglitazone.json"
     },
     {
@@ -2286,6 +2412,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/pramlintide.json"
     },
     {
@@ -2309,6 +2436,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/propranolol.json"
     },
     {
@@ -2332,6 +2460,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/quetiapine.json"
     },
     {
@@ -2356,6 +2485,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/raltegravir.json"
     },
     {
@@ -2384,6 +2514,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/rilpivirine.json"
     },
     {
@@ -2408,6 +2539,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/ritonavir.json"
     },
     {
@@ -2431,6 +2563,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/saxagliptin.json"
     },
     {
@@ -2454,6 +2587,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/selegiline.json"
     },
     {
@@ -2478,6 +2612,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/semaglutide.json"
     },
     {
@@ -2503,6 +2638,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/serdexmethylphenidate.json"
     },
     {
@@ -2527,6 +2663,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/sertraline.json"
     },
     {
@@ -2551,6 +2688,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/sitagliptin.json"
     },
     {
@@ -2580,6 +2718,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
     },
     {
@@ -2611,6 +2750,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-disoproxil.json"
     },
     {
@@ -2634,6 +2774,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/teplizumab.json"
     },
     {
@@ -2657,6 +2798,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/tipranavir.json"
     },
     {
@@ -2680,6 +2822,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/tirzepatide.json"
     },
     {
@@ -2703,6 +2846,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/trazodone.json"
     },
     {
@@ -2727,6 +2871,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/venlafaxine.json"
     },
     {
@@ -2750,6 +2895,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/vilazodone.json"
     },
     {
@@ -2773,6 +2919,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/viloxazine.json"
     },
     {
@@ -2796,6 +2943,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/vortioxetine.json"
     },
     {
@@ -2821,6 +2969,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/zidovudine.json"
     },
     {
@@ -2846,6 +2995,7 @@
       ],
       "tier": "curated",
       "review": "unverified",
+      "usesComplete": false,
       "url": "https://nomadceuticals.com/api/v2/ingredients/zuranolone.json"
     }
   ]

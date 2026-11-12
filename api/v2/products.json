@@ -11,7 +11,7 @@
     "index": "https://nomadceuticals.com/api/v2/index.json",
     "docs": "https://nomadceuticals.com/api/"
   },
-  "count": 182,
+  "count": 185,
   "data": [
     {
       "id": "abilify",
@@ -423,6 +423,18 @@
       "url": "https://nomadceuticals.com/api/v2/products/concerta.json"
     },
     {
+      "id": "contrave",
+      "brandName": "Contrave",
+      "ingredients": [
+        "naltrexone",
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/contrave.json"
+    },
+    {
       "id": "cotempla-xr-odt",
       "brandName": "Cotempla XR-ODT",
       "ingredients": [
@@ -735,6 +747,17 @@
       "status": "available",
       "form": "Tablet",
       "url": "https://nomadceuticals.com/api/v2/products/focalin.json"
+    },
+    {
+      "id": "forfivo-xl",
+      "brandName": "Forfivo XL",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet (450 mg)",
+      "url": "https://nomadceuticals.com/api/v2/products/forfivo-xl.json"
     },
     {
       "id": "fuzeon",
@@ -1868,6 +1891,17 @@
       "url": "https://nomadceuticals.com/api/v2/products/vistaril.json"
     },
     {
+      "id": "vivitrol",
+      "brandName": "Vivitrol",
+      "ingredients": [
+        "naltrexone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release injectable suspension (monthly)",
+      "url": "https://nomadceuticals.com/api/v2/products/vivitrol.json"
+    },
+    {
       "id": "vocabria",
       "brandName": "Vocabria",
       "ingredients": [
@@ -1908,7 +1942,7 @@
       ],
       "jurisdiction": "US",
       "status": "available",
-      "form": "Extended-release tablet",
+      "form": "Sustained-release tablet",
       "url": "https://nomadceuticals.com/api/v2/products/wellbutrin-sr.json"
     },
     {
@@ -1919,7 +1953,7 @@
       ],
       "jurisdiction": "US",
       "status": "available",
-      "form": "Extended-release tablet",
+      "form": "Extended-release tablet (24-hour)",
       "url": "https://nomadceuticals.com/api/v2/products/wellbutrin-xl.json"
     },
     {
@@ -2052,7 +2086,7 @@
       ],
       "jurisdiction": "US",
       "status": "unknown",
-      "form": "Extended-release tablet",
+      "form": "Sustained-release tablet",
       "url": "https://nomadceuticals.com/api/v2/products/zyban.json"
     },
     {

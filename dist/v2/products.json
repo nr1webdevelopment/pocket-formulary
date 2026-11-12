@@ -8,7 +8,7 @@
     "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
     "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
   },
-  "count": 182,
+  "count": 185,
   "data": [
     {
       "id": "abilify",
@@ -428,25 +428,26 @@
       "jurisdiction": "US",
       "status": "available",
       "form": "Extended-release tablet",
-      "route": null,
+      "route": "Oral",
       "dosingFrequency": null,
-      "manufacturer": null,
+      "manufacturer": "Bausch Health",
       "approval": {
         "date": null,
         "year": null,
         "application": null
       },
       "indications": [
-        "depression"
+        "depression",
+        "seasonal-affective-disorder"
       ],
       "controlled": null,
       "description": null,
-      "notes": null,
+      "notes": "Contains bupropion hydrobromide (other brands use the hydrochloride), so doses are not interchangeable mg for mg.",
       "attributes": {},
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Aplenzin",
-          "title": "DailyMed: Aplenzin",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6494d2d9-0ce4-4126-b1c7-49684395942b",
+          "title": "Aplenzin label (DailyMed)",
           "type": "label"
         }
       ]
@@ -740,16 +741,17 @@
       "jurisdiction": "US",
       "status": "available",
       "form": "Extended-release tablet",
-      "route": null,
+      "route": "Oral",
       "dosingFrequency": null,
-      "manufacturer": null,
+      "manufacturer": "Axsome Therapeutics",
       "approval": {
         "date": null,
         "year": null,
         "application": null
       },
       "indications": [
-        "depression"
+        "depression",
+        "alzheimers-agitation"
       ],
       "controlled": null,
       "description": null,
@@ -757,8 +759,8 @@
       "attributes": {},
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Auvelity",
-          "title": "DailyMed: Auvelity",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+          "title": "Auvelity label (DailyMed)",
           "type": "label"
         }
       ]
@@ -1421,6 +1423,39 @@
           "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
           "title": "Original source (API v1)",
           "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "contrave",
+      "jurisdiction": "US",
+      "route": "Oral",
+      "dosingFrequency": null,
+      "manufacturer": "Nalpropion Pharmaceuticals",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "controlled": null,
+      "description": "Combination of naltrexone and bupropion for long-term weight management in adults with obesity, or overweight with a weight-related condition, alongside diet and exercise.",
+      "notes": null,
+      "attributes": {},
+      "brandName": "Contrave",
+      "ingredients": [
+        "naltrexone",
+        "bupropion"
+      ],
+      "status": "available",
+      "form": "Extended-release tablet",
+      "indications": [
+        "weight-management"
+      ],
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+          "title": "Contrave label (DailyMed)",
+          "type": "label"
         }
       ]
     },
@@ -2525,6 +2560,38 @@
           "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
           "title": "Original source (API v1)",
           "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "forfivo-xl",
+      "jurisdiction": "US",
+      "route": "Oral",
+      "dosingFrequency": null,
+      "manufacturer": "Upsher-Smith",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "controlled": null,
+      "description": null,
+      "notes": null,
+      "attributes": {},
+      "brandName": "Forfivo XL",
+      "ingredients": [
+        "bupropion"
+      ],
+      "status": "available",
+      "form": "Extended-release tablet (450 mg)",
+      "indications": [
+        "depression"
+      ],
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80b01182-dc94-4990-8ebb-55c306d7e536",
+          "title": "Forfivo XL label (DailyMed)",
+          "type": "label"
         }
       ]
     },
@@ -6647,6 +6714,39 @@
       ]
     },
     {
+      "id": "vivitrol",
+      "jurisdiction": "US",
+      "route": "Intramuscular",
+      "dosingFrequency": null,
+      "manufacturer": "Alkermes",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "controlled": null,
+      "description": null,
+      "notes": null,
+      "attributes": {},
+      "brandName": "Vivitrol",
+      "ingredients": [
+        "naltrexone"
+      ],
+      "status": "available",
+      "form": "Extended-release injectable suspension (monthly)",
+      "indications": [
+        "alcohol-use-disorder",
+        "opioid-use-disorder"
+      ],
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f",
+          "title": "Vivitrol label (DailyMed)",
+          "type": "label"
+        }
+      ]
+    },
+    {
       "id": "vocabria",
       "brandName": "Vocabria",
       "ingredients": [
@@ -6773,10 +6873,10 @@
       ],
       "jurisdiction": "US",
       "status": "available",
-      "form": "Extended-release tablet",
-      "route": null,
+      "form": "Sustained-release tablet",
+      "route": "Oral",
       "dosingFrequency": null,
-      "manufacturer": null,
+      "manufacturer": "GlaxoSmithKline",
       "approval": {
         "date": null,
         "year": null,
@@ -6791,8 +6891,8 @@
       "attributes": {},
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Wellbutrin+SR",
-          "title": "DailyMed: Wellbutrin SR",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cbc8c074-f080-4489-a5ae-207b5fadeba3",
+          "title": "Wellbutrin SR label (DailyMed)",
           "type": "label"
         }
       ]
@@ -6805,17 +6905,18 @@
       ],
       "jurisdiction": "US",
       "status": "available",
-      "form": "Extended-release tablet",
-      "route": null,
+      "form": "Extended-release tablet (24-hour)",
+      "route": "Oral",
       "dosingFrequency": null,
-      "manufacturer": null,
+      "manufacturer": "Bausch Health",
       "approval": {
         "date": null,
         "year": null,
         "application": null
       },
       "indications": [
-        "depression"
+        "depression",
+        "seasonal-affective-disorder"
       ],
       "controlled": null,
       "description": null,
@@ -6823,8 +6924,8 @@
       "attributes": {},
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Wellbutrin+XL",
-          "title": "DailyMed: Wellbutrin XL",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a435da9d-f6e8-4ddc-897d-8cd2bf777b21",
+          "title": "Wellbutrin XL label (DailyMed)",
           "type": "label"
         }
       ]
@@ -7237,8 +7338,8 @@
       ],
       "jurisdiction": "US",
       "status": "unknown",
-      "form": "Extended-release tablet",
-      "route": null,
+      "form": "Sustained-release tablet",
+      "route": "Oral",
       "dosingFrequency": null,
       "manufacturer": null,
       "approval": {
@@ -7247,16 +7348,16 @@
         "application": null
       },
       "indications": [
-        "depression"
+        "smoking-cessation"
       ],
       "controlled": null,
       "description": null,
-      "notes": null,
+      "notes": "No current label on DailyMed (checked 2026-11-12); may no longer be sold in the US.",
       "attributes": {},
       "sources": [
         {
-          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Zyban",
-          "title": "DailyMed: Zyban",
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ZYBAN",
+          "title": "DailyMed search: Zyban (no results)",
           "type": "label"
         }
       ]

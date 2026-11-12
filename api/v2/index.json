@@ -14,15 +14,16 @@
   "data": {
     "description": "Ingredient-centred medicine library: approval status per country, approved and off-label uses, controlled status, and brands. Static JSON, GET only, no key.",
     "counts": {
-      "ingredients": 116,
-      "products": 182,
-      "conditions": 15,
+      "ingredients": 117,
+      "products": 185,
+      "conditions": 21,
       "fdaStatus": {
-        "approved": 115,
+        "approved": 116,
         "otc_monograph": 1
       },
       "review": {
-        "unverified": 116
+        "unverified": 115,
+        "verified": 2
       }
     },
     "endpoints": {
