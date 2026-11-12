@@ -53,7 +53,7 @@ ErrorDocument 404 /404.html
 # Safety net: never serve source, tooling or research files even if they get uploaded by mistake
 RedirectMatch 404 ^/(scripts|data|docs|research|i18n|images|\.github|\.git)(/|$)
 RedirectMatch 404 ^/(README|CONTRIBUTING|CHANGELOG)\.md$
-RedirectMatch 404 \.(py|yml|yaml|txt|patch|zip|DS_Store)$
+RedirectMatch 404 ^/(?!robots\.txt$).*\.(py|yml|yaml|txt|patch|zip|DS_Store)$
 """
 
 NOT_FOUND = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
