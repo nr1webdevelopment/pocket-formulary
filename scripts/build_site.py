@@ -98,7 +98,15 @@ print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines
 
 # OTC finder subpage (nomadceuticals.com/otc-finder.html): scripts/otc_finder.html -> otc-finder.html
 otc = open(os.path.join(ROOT, "scripts", "otc_finder.html"), encoding="utf-8").read()
+# translations: i18n/otc/<lang>.json (English text -> translation), same languages as the main site
+otc_i18n = {}
+for lang in sorted(i18n["content"]):
+    path = os.path.join(ROOT, "i18n", "otc", lang + ".json")
+    assert os.path.exists(path), f"missing OTC finder translation: i18n/otc/{lang}.json"
+    otc_i18n[lang] = json.load(open(path, encoding="utf-8"))
+otc = otc.replace("__OTC_I18N__", js(otc_i18n))
 otc = site_header.inject(otc.replace("__FAVICON__", favicon), base="./", active="otc")
 assert not re.findall(r"__[A-Z_]+__", otc), "unfilled placeholder in otc_finder.html"
 open(os.path.join(ROOT, "otc-finder.html"), "w", encoding="utf-8").write(otc)
-print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB)")
+print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB): languages en + {', '.join(sorted(otc_i18n))} "
+      f"({min(len(d) for d in otc_i18n.values())} strings each)")

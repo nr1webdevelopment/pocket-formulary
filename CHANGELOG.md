@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- **OTC finder in six languages:** English, Simplified Chinese, Traditional Chinese, Spanish, Portuguese and Thai, following the top-bar language picker (`?lang=` works too). Translations in `i18n/otc/`, machine-produced and flagged as such on the page; brand names and "Ask for" names are left as sold in each country.
+
 - **Shared site header:** every page (home, OTC finder, API docs, 404) now uses the same top bar from one source (`scripts/site_header.*`), with the same menu, text-size control and language picker. The API docs' OpenAPI and GitHub links moved into the page.
 - HTML is now served with `Cache-Control: no-cache`, so visitors see a new deploy straight away instead of a copy cached for up to 5 minutes.
 

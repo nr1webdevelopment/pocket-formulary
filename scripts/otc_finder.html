@@ -135,61 +135,61 @@ footer p{margin:0 0 8px}
   .ask .k{display:inline;margin-right:6px}
   .redflags{padding:20px}
 }
+/* CJK and Thai read better in the sans face */
+:lang(zh-Hans),:lang(zh-Hant),:lang(th){--display:var(--body)}
 </style>
 </head>
 <body>
 <!--__SITE_HEADER__-->
 <div class="wrap">
   <header class="hero">
-    <span class="tagline">Pharmacy cheat sheet</span>
-    <h1>Over-the-counter finder</h1>
-    <p class="lede">Pick what's bothering you to see everyday medicines you can usually buy without a prescription, with the US name and what to look for in Thailand, China, Hong Kong &amp; Macau, Mexico and Peru.</p>
-    <div class="tip"><b>Good to know:</b> Outside the US, acetaminophen is called <b>paracetamol</b>. Ask for the <em>active ingredient</em>, not the US brand. Pharmacists everywhere recognise it, even when the box looks different.</div>
+    <span class="tagline" data-t>Pharmacy cheat sheet</span>
+    <h1 data-t>Over-the-counter finder</h1>
+    <p class="lede" data-t>Pick what's bothering you to see everyday medicines you can usually buy without a prescription, with the US name and what to look for in Thailand, China, Hong Kong &amp; Macau, Mexico and Peru.</p>
+    <div class="tip" data-t><b>Good to know:</b> Outside the US, acetaminophen is called <b>paracetamol</b>. Ask for the <em>active ingredient</em>, not the US brand. Pharmacists everywhere recognise it, even when the box looks different.</div>
   </header>
 
-  <section class="panel" aria-label="Choose symptoms">
+  <section class="panel" data-t-aria-label="Choose symptoms" aria-label="Choose symptoms">
     <div class="label-row">
-      <label id="ms-label" for="ms-trigger">I have a…</label>
-      <button class="link-btn" id="clear" type="button" hidden>Clear all</button>
+      <label id="ms-label" for="ms-trigger" data-t>I have a…</label>
+      <button class="link-btn" id="clear" type="button" hidden data-t>Clear all</button>
     </div>
     <div class="ms" id="ms">
-      <button class="ms-trigger" id="ms-trigger" type="button" aria-haspopup="listbox" aria-expanded="false">
-        <span class="placeholder">Select one or more symptoms</span>
-        <span class="caret" aria-hidden="true"></span>
-      </button>
+      <button class="ms-trigger" id="ms-trigger" type="button" aria-haspopup="listbox" aria-expanded="false"></button>
       <div class="ms-pop" role="dialog" aria-labelledby="ms-label">
-        <div class="ms-search"><input id="ms-search" type="search" placeholder="Search symptoms…" autocomplete="off"></div>
+        <div class="ms-search"><input id="ms-search" type="search" placeholder="Search symptoms…" data-t-placeholder="Search symptoms…" autocomplete="off"></div>
         <div class="ms-list" id="ms-list"></div>
       </div>
     </div>
-    <div class="quick" id="quick" aria-label="Common picks"></div>
+    <div class="quick" id="quick" aria-label="Common picks" data-t-aria-label="Common picks"></div>
 
     <div class="filters">
-      <span class="fl">Show brands for</span>
-      <div class="seg" id="country-seg" role="group" aria-label="Country"></div>
+      <span class="fl" data-t>Show brands for</span>
+      <div class="seg" id="country-seg" role="group" aria-label="Country" data-t-aria-label="Country"></div>
     </div>
   </section>
 
   <div class="results-head">
-    <h2 id="results-title">Medicines</h2>
+    <h2 id="results-title"></h2>
     <span class="count" id="count"></span>
   </div>
   <div class="grid" id="results" aria-live="polite"></div>
 
   <section class="redflags">
-    <h3>See a doctor or go to a clinic instead if…</h3>
+    <h3 data-t>See a doctor or go to a clinic instead if…</h3>
     <ul>
-      <li>Fever above 39.4 °C / 103 °F, or any fever lasting more than 3 days</li>
-      <li>Chest pain, trouble breathing, a stiff neck, confusion, or the worst headache of your life</li>
-      <li>Blood in stool or vomit, or diarrhoea with high fever (especially after street food or travel)</li>
-      <li>Swelling of the face, lips or tongue after a bite, food or medicine</li>
-      <li>You're pregnant or breastfeeding, buying for a child, take regular prescription medicine, or symptoms last more than a week</li>
+      <li data-t>Fever above 39.4 °C / 103 °F, or any fever lasting more than 3 days</li>
+      <li data-t>Chest pain, trouble breathing, a stiff neck, confusion, or the worst headache of your life</li>
+      <li data-t>Blood in stool or vomit, or diarrhoea with high fever (especially after street food or travel)</li>
+      <li data-t>Swelling of the face, lips or tongue after a bite, food or medicine</li>
+      <li data-t>You're pregnant or breastfeeding, buying for a child, take regular prescription medicine, or symptoms last more than a week</li>
     </ul>
   </section>
 
   <footer>
-    <p><strong>General information only, not medical advice.</strong> Always read the label and ask the pharmacist, especially about dose, other medicines you take, and any health conditions. Brands, strengths and what's sold over the counter change between countries and over time; the brands listed are common examples, not a complete list. When in doubt, show the pharmacist the "Ask for" name.</p>
-    <p>NomadCeuticals · Last reviewed November 2026 · <a href="https://github.com/nr1webdevelopment/pocket-formulary/issues">Report a problem</a></p>
+    <p data-t><strong>General information only, not medical advice.</strong> Always read the label and ask the pharmacist, especially about dose, other medicines you take, and any health conditions. Brands, strengths and what's sold over the counter change between countries and over time; the brands listed are common examples, not a complete list. When in doubt, show the pharmacist the "Ask for" name.</p>
+    <p id="mt-note" hidden><em data-t>This translation was machine-produced and still needs review by native speakers. Brand names and the "Ask for" names are left as they appear in each country.</em></p>
+    <p>NomadCeuticals · <span data-t>Last reviewed November 2026</span> · <a href="https://github.com/nr1webdevelopment/pocket-formulary/issues" data-t>Report a problem</a></p>
   </footer>
 </div>
 
@@ -528,10 +528,40 @@ const DRUGS = [
 ];
 
 /* ---------- state ---------- */
+
+/* ---------- language ----------
+   Same six languages as the main site. Translations live in i18n/otc/<lang>.json (English text -> translation)
+   and are inlined by scripts/build_site.py. Anything missing falls back to English.
+   Brand names and the "Ask for" names stay as they appear in each country. */
+const OTC_I18N = __OTC_I18N__;
+let LANG = NCHeader.pickLang();
+const tr = s => (s == null || LANG === "en") ? s : ((OTC_I18N[LANG] || {})[s] ?? s);
+const fmt = (s, vars) => Object.entries(vars).reduce((a, [k, v]) => a.split("{" + k + "}").join(v), tr(s));
+
 const state = { selected: new Set(), country: "all", query: "" };
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 const condById = Object.fromEntries(CONDITIONS.map(c => [c.id, c]));
+const label = c => tr(c.label);
+
+function applyStatic(){
+  document.documentElement.lang = LANG;
+  document.title = `${tr("Over-the-counter finder")} · NomadCeuticals`;
+  document.querySelectorAll("[data-t]").forEach(el => {
+    if (el.dataset.en == null) el.dataset.en = el.innerHTML.trim();
+    el.innerHTML = tr(el.dataset.en);
+  });
+  document.querySelectorAll("[data-t-placeholder]").forEach(el => el.placeholder = tr(el.dataset.tPlaceholder));
+  document.querySelectorAll("[data-t-aria-label]").forEach(el => el.setAttribute("aria-label", tr(el.dataset.tAriaLabel)));
+  $("#mt-note").hidden = LANG === "en";
+}
+function setLang(l){
+  LANG = l;
+  NCHeader.store.set("pf-lang", l);
+  const u = new URL(location.href); u.searchParams.set("lang", l);
+  history.replaceState(null, "", u.pathname + u.search + u.hash);
+  renderAll();
+}
 
 /* ---------- multi-select ---------- */
 const ms = $("#ms"), trigger = $("#ms-trigger"), list = $("#ms-list"), search = $("#ms-search");
@@ -539,18 +569,19 @@ const ms = $("#ms"), trigger = $("#ms-trigger"), list = $("#ms-list"), search = 
 function renderOptions(){
   const q = state.query.trim().toLowerCase();
   const groups = {};
-  CONDITIONS.filter(c => !q || c.label.toLowerCase().includes(q)).forEach(c => (groups[c.group] ||= []).push(c));
+  CONDITIONS.filter(c => !q || label(c).toLowerCase().includes(q) || c.label.toLowerCase().includes(q))
+    .forEach(c => (groups[c.group] ||= []).push(c));
   const keys = Object.keys(groups);
   list.innerHTML = keys.length ? keys.map(g => `
-    <div class="ms-group"><h4>${esc(g)}</h4>
-      ${groups[g].map(c => `<label class="opt"><input type="checkbox" value="${c.id}" ${state.selected.has(c.id)?"checked":""}> ${esc(c.label)}</label>`).join("")}
-    </div>`).join("") : `<div class="ms-empty">No symptoms match "${esc(state.query)}"</div>`;
+    <div class="ms-group"><h4>${esc(tr(g))}</h4>
+      ${groups[g].map(c => `<label class="opt"><input type="checkbox" value="${c.id}" ${state.selected.has(c.id)?"checked":""}> ${esc(label(c))}</label>`).join("")}
+    </div>`).join("") : `<div class="ms-empty">${esc(fmt('No symptoms match "{q}"', {q: state.query}))}</div>`;
 }
 function renderTrigger(){
   const sel = [...state.selected];
   trigger.innerHTML = (sel.length
-    ? sel.map(id => `<span class="tag">${esc(condById[id].label)}<span class="x" data-remove="${id}" role="button" aria-label="Remove ${esc(condById[id].label)}">×</span></span>`).join("")
-    : `<span class="placeholder">Select one or more symptoms</span>`) + `<span class="caret" aria-hidden="true"></span>`;
+    ? sel.map(id => `<span class="tag">${esc(label(condById[id]))}<span class="x" data-remove="${id}" role="button" aria-label="${esc(fmt("Remove {x}", {x: label(condById[id])}))}">×</span></span>`).join("")
+    : `<span class="placeholder">${esc(tr("Select one or more symptoms"))}</span>`) + `<span class="caret" aria-hidden="true"></span>`;
   $("#clear").hidden = !sel.length;
   document.querySelectorAll("#quick button").forEach(b => b.setAttribute("aria-pressed", state.selected.has(b.dataset.id)));
 }
@@ -577,12 +608,16 @@ $("#clear").addEventListener("click", () => { state.selected.clear(); update(); 
 function toggle(id, on){ on ? state.selected.add(id) : state.selected.delete(id); update(); }
 
 /* quick picks */
-$("#quick").innerHTML = QUICK.map(id => `<button type="button" data-id="${id}" aria-pressed="false">${esc(condById[id].label)}</button>`).join("");
+function renderQuick(){
+  $("#quick").innerHTML = QUICK.map(id => `<button type="button" data-id="${id}" aria-pressed="${state.selected.has(id)}">${esc(label(condById[id]))}</button>`).join("");
+}
 $("#quick").addEventListener("click", e => { const b = e.target.closest("button"); if(b) toggle(b.dataset.id, !state.selected.has(b.dataset.id)); });
 
 /* country filter */
 const seg = $("#country-seg");
-seg.innerHTML = [{id:"all", name:"All countries"}, ...COUNTRIES].map(c => `<button type="button" data-c="${c.id}" aria-pressed="${c.id==="all"}">${esc(c.name)}</button>`).join("");
+function renderSeg(){
+  seg.innerHTML = [{id:"all", name:"All countries"}, ...COUNTRIES].map(c => `<button type="button" data-c="${c.id}" aria-pressed="${c.id===state.country}">${esc(tr(c.name))}</button>`).join("");
+}
 seg.addEventListener("click", e => {
   const b = e.target.closest("button"); if(!b) return;
   state.country = b.dataset.c;
@@ -591,23 +626,24 @@ seg.addEventListener("click", e => {
 });
 
 /* ---------- results ---------- */
+const na = s => `<span class="na">${esc(tr(s) || "—")}</span>`;
 function brandCell(d, c){
   if(c === "cn"){
-    const main = d.b ? esc(d.b) : `<span class="na">${esc(d.na||"—")}</span>`;
-    const hk = d.hk ? `<span class="sub"><b>HK · Macau</b>${esc(d.hk)}</span>` : "";
-    return `<span class="sub" style="margin:0"><b>Mainland</b></span>${main}${hk}`;
+    const main = d.b ? esc(tr(d.b)) : na(d.na);
+    const hk = d.hk ? `<span class="sub"><b>${esc(tr("HK · Macau"))}</b>${esc(tr(d.hk))}</span>` : "";
+    return `<span class="sub" style="margin:0"><b>${esc(tr("Mainland"))}</b></span>${main}${hk}`;
   }
-  return d.b ? esc(d.b) : `<span class="na">${esc(d.na||"—")}</span>`;
+  return d.b ? esc(tr(d.b)) : na(d.na);
 }
 function notes(d){
-  return (d.alt ? `<span class="note alt">${esc(d.alt)}</span>` : "") + (d.bad ? `<span class="note bad">${esc(d.bad)}</span>` : "");
+  return (d.alt ? `<span class="note alt">${esc(tr(d.alt))}</span>` : "") + (d.bad ? `<span class="note bad">${esc(tr(d.bad))}</span>` : "");
 }
 function row(drug, c){
   const d = drug[c.id];
   return `<div class="row">
-    <div class="cname"><span class="code">${c.code}</span>${esc(c.name)}</div>
+    <div class="cname"><span class="code">${c.code}</span>${esc(tr(c.name))}</div>
     <div class="brands">${brandCell(d, c.id)}${notes(d)}</div>
-    <div class="ask"><span class="k">Ask for</span><span class="v">${esc(d.ask||"—")}</span></div>
+    <div class="ask"><span class="k">${esc(tr("Ask for"))}</span><span class="v">${esc(tr(d.ask) || "—")}</span></div>
   </div>`;
 }
 function card(drug, hits){
@@ -617,17 +653,17 @@ function card(drug, hits){
     <div class="card-top">
       <div class="title">
         <h3>${esc(drug.name)}</h3>
-        <div class="generic">Active ingredient: <b>${esc(drug.generic)}</b></div>
-        <p class="what">${esc(drug.what)}</p>
+        <div class="generic">${esc(tr("Active ingredient:"))} <b>${esc(tr(drug.generic))}</b></div>
+        <p class="what">${esc(tr(drug.what))}</p>
       </div>
-      <div class="matches">${drug.cond.filter(id => condById[id]).sort((a,b)=>hits.includes(b)-hits.includes(a)).map(id => `<span class="${hits.includes(id)?"hit":""}">${esc(condById[id].label)}</span>`).join("")}</div>
+      <div class="matches">${drug.cond.filter(id => condById[id]).sort((a,b)=>hits.includes(b)-hits.includes(a)).map(id => `<span class="${hits.includes(id)?"hit":""}">${esc(label(condById[id]))}</span>`).join("")}</div>
     </div>
-    <div class="warn">${esc(drug.warn)}</div>
+    <div class="warn">${esc(tr(drug.warn))}</div>
     <div class="countries">
       <div class="row us">
-        <div class="cname"><span class="code">US</span>United States</div>
-        <div class="brands">${us.b ? esc(us.b) : `<span class="na">${esc(us.na)}</span>`}</div>
-        <div class="ask"><span class="k">Generic</span><span class="v">${esc(drug.generic.split(" (")[0])}</span></div>
+        <div class="cname"><span class="code">US</span>${esc(tr("United States"))}</div>
+        <div class="brands">${us.b ? esc(tr(us.b)) : na(us.na)}</div>
+        <div class="ask"><span class="k">${esc(tr("Generic"))}</span><span class="v">${esc(drug.generic.split(" (")[0])}</span></div>
       </div>
       ${countries.map(c => row(drug, c)).join("")}
     </div>
@@ -637,20 +673,28 @@ function renderResults(){
   const sel = [...state.selected];
   const out = $("#results");
   if(!sel.length){
-    $("#results-title").textContent = "Medicines";
+    $("#results-title").textContent = tr("Medicines");
     $("#count").textContent = "";
-    out.innerHTML = `<div class="empty"><strong>Pick a symptom to get started</strong>Choose one or more from the dropdown above, or tap a common pick.</div>`;
+    out.innerHTML = `<div class="empty"><strong>${esc(tr("Pick a symptom to get started"))}</strong>${esc(tr("Choose one or more from the dropdown above, or tap a common pick."))}</div>`;
     return;
   }
   const matched = DRUGS.map((d, i) => ({d, i, hits: d.cond.filter(c => state.selected.has(c))}))
     .filter(x => x.hits.length)
     .sort((a, b) => b.hits.length - a.hits.length || a.i - b.i);
-  $("#results-title").textContent = sel.length === 1 ? `For ${condById[sel[0]].label.toLowerCase()}` : `For ${sel.length} symptoms`;
-  $("#count").textContent = `${matched.length} option${matched.length===1?"":"s"}${sel.length>1?" · best matches first":""}`;
+  const one = label(condById[sel[0]]);
+  $("#results-title").textContent = sel.length === 1
+    ? fmt("For {x}", {x: LANG === "en" ? one.toLowerCase() : one})
+    : fmt("For {n} symptoms", {n: sel.length});
+  $("#count").textContent = (matched.length === 1 ? tr("1 option") : fmt("{n} options", {n: matched.length}))
+    + (sel.length > 1 ? " · " + tr("best matches first") : "");
   out.innerHTML = matched.map(x => card(x.d, x.hits)).join("");
 }
 function update(){ renderTrigger(); if(ms.classList.contains("open")) renderOptions(); renderResults(); }
-update();
+function renderAll(){
+  NCHeader.render({ lang: LANG, onLang: setLang });
+  applyStatic(); renderQuick(); renderSeg(); update();
+}
+renderAll();
 </script>
 </body>
 </html>
