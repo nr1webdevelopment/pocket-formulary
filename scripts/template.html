@@ -78,17 +78,6 @@ h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; }
   .hero.noimg .hero-txt { padding-top: 64px; }
 }
 
-/* brand */
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-family: var(--display); font-weight: 700; font-size: calc(18px * var(--ts)); letter-spacing: -.01em; white-space: nowrap; }
-.brand svg { width: 32px; height: 32px; flex: none; border-radius: 8px; }
-.topbar-end { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; }
-@media (max-width: 640px) {
-  .topbar-end { display: contents; }
-  .topbar .brand { order: 1; }
-  .topbar .langsel { order: 2; }
-  .topbar .nav { order: 3; flex: 1 1 100%; }
-  .topbar .nav a { flex: 1; text-align: center; }
-}
 
 /* condition tabs */
 .tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; margin-bottom: 14px; }
@@ -166,10 +155,6 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 @keyframes rise { from { transform: translateY(6px); } to { transform: none; } }
 
 /* section nav (Medicines / Providers) */
-.nav { display: inline-flex; gap: 4px; padding: 4px; background: var(--soft); border-radius: 10px; margin: 4px 0 18px; max-width: 100%; }
-.nav a { text-decoration: none; padding: 7px 14px; border-radius: 7px; font-weight: 600; font-size: calc(15.5px * var(--ts)); color: var(--muted); white-space: nowrap; }
-.nav a span { font-family: var(--mono); font-weight: 400; font-size: calc(13px * var(--ts)); margin-left: 6px; }
-.nav a[aria-current="page"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgb(0 0 0 / .08); }
 
 /* providers */
 .alert { background: var(--alert-bg); border-left: 4px solid var(--alert); border-radius: 8px; padding: 14px 16px; margin-bottom: 12px; }
@@ -225,11 +210,6 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
 /* i18n + cities */
 :root { --body: "Public Sans", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans Thai", "Leelawadee UI", "Thonburi", system-ui, sans-serif;
   --display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", "PingFang SC", "PingFang TC", "Microsoft YaHei", "Noto Sans Thai", "Thonburi", system-ui, sans-serif; }
-.topbar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; justify-content: space-between; margin-bottom: 18px; }
-.topbar .nav { margin: 0; }
-.langsel { display: inline-flex; align-items: center; gap: 6px; color: var(--muted); }
-.langsel svg { width: 18px; height: 18px; }
-.langsel select { font: 500 calc(15.5px * var(--ts)) var(--body); padding: 6px 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); }
 .sr, .mast h1.sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; border: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
 .citybar { margin: 0 0 16px; padding: 0; border: 0; }
 .citylabel { font-family: var(--mono); font-size: calc(13px * var(--ts)); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); padding: 0; margin-bottom: 8px; }
@@ -261,32 +241,7 @@ body { font-size: calc(16px * var(--ts)); }
 h1, h2, h3 { font-weight: 600; letter-spacing: 0; }
 .wrap { max-width: 1040px; padding-top: 22px; }
 
-/* site bar */
-#sitebar { background: #000; color: #fff; }
-#sitebar .topbar { max-width: 1040px; margin: 0 auto; min-height: 64px; align-items: stretch; flex-wrap: nowrap; gap: 0 16px;
-  padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
-#sitebar .brand { background: #fff; color: #15202B; padding: 8px 22px; font-size: calc(21px * var(--ts)); gap: 12px; }
-#sitebar .brand svg { width: auto; height: 44px; border-radius: 0; }
-#sitebar .topbar-end { flex-wrap: nowrap; gap: 0 22px; }
-#sitebar .nav { background: none; padding: 0; gap: 0; border-radius: 0; }
-#sitebar .nav a { color: #fff; font-weight: 400; font-size: calc(17px * var(--ts)); padding: 4px 18px; border-radius: 0; box-shadow: none; background: none; }
-#sitebar .nav a + a { border-left: 1px solid rgb(255 255 255 / .55); }
-#sitebar .nav a span { color: rgb(255 255 255 / .6); font-size: calc(14.5px * var(--ts)); display: inline-block; }
-#sitebar .nav a:hover, #sitebar .nav a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 8px; }
-#sitebar .langsel { color: rgb(255 255 255 / .75); }
-#sitebar .langsel select { background: #000; color: #fff; border: 1px solid rgb(255 255 255 / .4); border-radius: 0; }
-#sitebar :focus-visible { outline-color: #fff; }
-@media (max-width: 640px) {
-  #sitebar .topbar { flex-wrap: wrap; padding-bottom: 8px; }
-  #sitebar .brand { font-size: calc(16px * var(--ts)); padding: 10px 12px; gap: 8px; }
-  #sitebar .brand svg { width: auto; height: 30px; }
-  #sitebar .langsel { margin-left: auto; align-self: center; }
-  #sitebar .langsel svg { display: none; }
-  #sitebar .langsel select { font-size: calc(14.5px * var(--ts)); padding: 5px 4px; }
-  #sitebar .nav a { font-size: calc(16px * var(--ts)); padding: 6px 0; }
-  #sitebar .nav a + a { padding-left: 16px; margin-left: 16px; }
-  #sitebar .nav a { flex: 0 0 auto; }
-}
+/*__SITE_HEADER_CSS__*/
 
 /* larger reading sizes on profile pages */
 .src { font-size: calc(16px * var(--ts)); }
@@ -319,22 +274,6 @@ ul.uses li { margin: 6px 0; }
 .rel .pill { margin-left: 4px; }
 .rel .relx { display: inline-block; padding: 8px 14px; border: 1px solid var(--line); background: var(--surface); font-size: calc(16px * var(--ts)); }
 
-/* text-size control */
-.tsel { position: relative; display: flex; align-items: center; }
-.tsbtn { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 1px solid rgb(255 255 255 / .4); background: #000; color: #fff; cursor: pointer; }
-.tsbtn:hover, .tsbtn[aria-expanded="true"] { background: #fff; color: #000; }
-.tsbtn svg { width: 22px; height: 22px; }
-.tsmenu { position: absolute; top: calc(100% + 6px); right: 0; z-index: 20; min-width: 190px; background: var(--surface); color: var(--ink);
-  border: 1px solid var(--line); box-shadow: 0 6px 20px rgb(0 0 0 / .18); padding: 6px; display: flex; flex-direction: column; }
-.tsmenu[hidden] { display: none; }
-.tsmenu button { display: flex; align-items: baseline; gap: 12px; padding: 10px 12px; border: 0; background: none; color: inherit; font: 500 16px var(--body); text-align: left; cursor: pointer; }
-.tsmenu button:hover { background: var(--soft); }
-.tsmenu button[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
-.tsA { font-family: var(--display); font-weight: 700; width: 22px; line-height: 1; }
-@media (max-width: 640px) { #sitebar .tsel { order: 2; margin-left: auto; align-self: center; } #sitebar .langsel { margin-left: 8px; } #sitebar .langsel select { font-size: 13px; max-width: 96px; } .tsbtn { width: 34px; height: 34px; }
-  #sitebar .brand { padding: 8px 10px; } #sitebar .brand svg { height: 26px; }
-  #sitebar .nav { flex-wrap: wrap; row-gap: 4px; } #sitebar .nav a { font-size: 16px; } }
-@media (max-width: 420px) { #sitebar .nav a span { display: none; } }
 @media (max-width: 560px) { .tabs3 .tab { flex-direction: column; align-items: flex-start; } .tabs3 .tab .tx { max-width: 100%; } .tabs3 .tab .n { overflow-wrap: anywhere; }
   .tab .t { font-size: min(calc(18px * var(--ts)), 5.2vw); } .tab .n { font-size: min(calc(13.5px * var(--ts)), 3.8vw); } .tab .ico { width: 36px; height: 36px; } .tab { gap: 8px; } }
 
@@ -389,6 +328,7 @@ footer a { color: #fff; font-weight: 600; }
 </div>
 
 <script>
+/*__SITE_HEADER_JS__*/
 const DRUGS = __DATA__;
 const LIB = __LIBRARY__;  // v2 medicine library (data/library/), compact
 const LIBBY = Object.fromEntries(LIB.ing.map(r => [r.id, r]));
@@ -399,23 +339,10 @@ const I18N = __I18N__;
 const REPO = "https://github.com/nr1webdevelopment/pocket-formulary";
 
 /* ---------------- language ---------------- */
-const LANGS = [["en", "English"], ["zh-Hans", "简体中文"], ["zh-Hant", "繁體中文"], ["es", "Español"], ["pt", "Português"], ["th", "ไทย"]];
+const LANGS = NCHeader.langs;
 const LOCALE = { en: "en-GB", "zh-Hans": "zh-CN", "zh-Hant": "zh-TW", es: "es-ES", pt: "pt-PT", th: "th-TH" };
 const store = { get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} } };
-function pickLang() {
-  const ok = l => LANGS.some(x => x[0] === l);
-  const q = new URLSearchParams(location.search).get("lang");
-  if (ok(q)) return q;
-  const s = store.get("pf-lang");
-  if (ok(s)) return s;
-  for (const n of (navigator.languages || [navigator.language || "en"])) {
-    const l = String(n).toLowerCase();
-    if (/^zh-(tw|hk|mo|hant)/.test(l)) return "zh-Hant";
-    if (l.startsWith("zh")) return "zh-Hans";
-    for (const c of ["es", "pt", "th", "en"]) if (l.startsWith(c)) return c;
-  }
-  return "en";
-}
+const pickLang = () => NCHeader.pickLang();  // same rules on every page (scripts/site_header.js)
 let LANG = pickLang();
 const t = (k, vars = {}) => {
   const e = I18N.ui[k] || {};
@@ -432,7 +359,6 @@ function setLang(l) {
   route();
 }
 document.documentElement.lang = LANG;
-document.addEventListener("change", e => { if (e.target && e.target.id === "lang") setLang(e.target.value); });
 
 /* ---------------- shared helpers ---------------- */
 const app = document.getElementById("app");
@@ -517,49 +443,9 @@ if (SLIDES.length > 1) {
   });
   document.addEventListener("mouseover", e => { slide.hover = !!e.target.closest(".hero-media"); });
 }
-const LOGO = __LOGO_BAR__;
-const TS = [["tsDefault", 1], ["tsLarge", 1.15], ["tsLarger", 1.3]];
-const applyTs = v => document.documentElement.style.setProperty("--ts", v);
-applyTs(TS.some(x => String(x[1]) === store.get("nc-ts")) ? store.get("nc-ts") : 1);
-const ICON_TS = '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M15.5 15.5 21 21" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M7.6 12.6 10.5 7.4l2.9 5.2M8.5 11h4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-function tsControl() {
-  const cur = getComputedStyle(document.documentElement).getPropertyValue("--ts").trim() || "1";
-  return `<div class="tsel"><button type="button" class="tsbtn" id="tsbtn" aria-haspopup="true" aria-expanded="false" aria-controls="tsmenu" aria-label="${esc(t("textSize"))}" title="${esc(t("textSize"))}">${ICON_TS}</button>
-    <div class="tsmenu" id="tsmenu" role="group" aria-label="${esc(t("textSize"))}" hidden>
-      ${TS.map(([k, v], i) => `<button type="button" data-ts="${v}" aria-pressed="${String(v) === cur}"><span class="tsA" style="font-size:${16 + i * 4}px" aria-hidden="true">A</span>${esc(t(k))}</button>`).join("")}
-    </div></div>`;
-}
-document.addEventListener("click", e => {
-  const btn = e.target.closest("#tsbtn"), menu = document.getElementById("tsmenu"), pick = e.target.closest("[data-ts]");
-  if (pick) {
-    applyTs(pick.dataset.ts); store.set("nc-ts", pick.dataset.ts);
-    menu.querySelectorAll("[data-ts]").forEach(b => b.setAttribute("aria-pressed", String(b === pick)));
-    return;
-  }
-  if (btn) { const open = menu.hidden; menu.hidden = !open; btn.setAttribute("aria-expanded", String(open)); if (open) menu.querySelector('[aria-pressed="true"]')?.focus(); return; }
-  if (menu && !menu.hidden && !e.target.closest(".tsel")) { menu.hidden = true; document.getElementById("tsbtn").setAttribute("aria-expanded", "false"); }
-});
-document.addEventListener("keydown", e => {
-  const menu = document.getElementById("tsmenu");
-  if (e.key === "Escape" && menu && !menu.hidden) { menu.hidden = true; const b = document.getElementById("tsbtn"); b.setAttribute("aria-expanded", "false"); b.focus(); }
-});
 function topbar(active) {
-  document.getElementById("sitebar").innerHTML = `<div class="topbar">
-    <a class="brand" href="#medicines" aria-label="NomadCeuticals">${LOGO}</a>
-    <div class="topbar-end">
-    <nav class="nav" aria-label="Sections">
-      <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>
-      <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>${t("navProviders")}<span>${PROVIDERS.length}</span></a>
-      <a href="otc-finder.html">${t("navOtc")}</a>
-    </nav>
-    ${tsControl()}
-    <label class="langsel"><span class="sr">${t("language")}</span>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3z" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
-      <select id="lang" aria-label="${t("language")}">${LANGS.map(([c, n]) => `<option value="${c}" ${c === LANG ? "selected" : ""}>${n}</option>`).join("")}</select>
-    </label>
-    </div>
-  </div>`;
-  return "";
+  // The bar itself lives in scripts/site_header.js so every page shares it.
+  return NCHeader.render({ base: "", active, lang: LANG, t, onLang: setLang });
 }
 
 function renderFooter() {

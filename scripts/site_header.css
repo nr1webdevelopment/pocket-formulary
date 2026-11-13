@@ -1,0 +1,63 @@
+/* NomadCeuticals site header: the one top bar on every page (home, OTC finder, API docs, 404).
+   Source of truth: scripts/site_header.css + scripts/site_header.js, inlined into each page by scripts/site_header.py.
+   Self-contained: everything is scoped to #sitebar and uses its own variables, so it looks the same on every page. */
+#sitebar {
+  --hb-ts: var(--ts, 1);
+  --hb-font: "Source Sans 3", "Helvetica Neue", Arial, "PingFang SC", "PingFang TC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "Noto Sans CJK SC", "Noto Sans Thai", "Leelawadee UI", "Thonburi", system-ui, sans-serif;
+  --hb-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --hb-menu-bg: #FFFFFF; --hb-menu-ink: #15202B; --hb-menu-line: #DAE0E6; --hb-menu-soft: #E9EDF1; --hb-accent: #92171A;
+  background: #000; color: #fff; font-family: var(--hb-font); font-size: calc(16px * var(--hb-ts)); line-height: 1.55;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) #sitebar {
+  --hb-menu-bg: #151D25; --hb-menu-ink: #E5EBF0; --hb-menu-line: #27323D; --hb-menu-soft: #1C2630; --hb-accent: #FF8086; } }
+:root[data-theme="dark"] #sitebar { --hb-menu-bg: #151D25; --hb-menu-ink: #E5EBF0; --hb-menu-line: #27323D; --hb-menu-soft: #1C2630; --hb-accent: #FF8086; }
+#sitebar *, #sitebar *::before, #sitebar *::after { box-sizing: border-box; }
+#sitebar .topbar { display: flex; justify-content: space-between; align-items: stretch; flex-wrap: nowrap; gap: 0 16px;
+  max-width: 1040px; min-height: 64px; margin: 0 auto;
+  padding: 0 max(16px, env(safe-area-inset-right, 0px)) 0 max(16px, env(safe-area-inset-left, 0px)); }
+#sitebar .brand { display: inline-flex; align-items: center; gap: 12px; flex: none; background: #fff; color: #15202B; padding: 8px 22px; text-decoration: none; white-space: nowrap; }
+#sitebar .brand svg { display: block; width: auto; height: 44px; flex: none; border-radius: 0; }
+#sitebar .topbar-end { display: flex; flex-wrap: nowrap; align-items: center; gap: 0 22px; }
+#sitebar .nav { display: inline-flex; max-width: 100%; margin: 0; padding: 0; gap: 0; background: none; border-radius: 0; }
+#sitebar .nav a { color: #fff; text-decoration: none; white-space: nowrap; font-weight: 400; font-size: calc(17px * var(--hb-ts));
+  padding: 4px 18px; border-radius: 0; box-shadow: none; background: none; }
+#sitebar .nav a + a { border-left: 1px solid rgb(255 255 255 / .55); }
+#sitebar .nav a span { display: inline-block; margin-left: 6px; color: rgb(255 255 255 / .6); font-weight: 400; font-size: calc(14.5px * var(--hb-ts)); }
+#sitebar .nav a:hover, #sitebar .nav a[aria-current="page"] { background: none; box-shadow: none; color: #fff;
+  text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 8px; }
+#sitebar :focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+#sitebar .sr { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; border: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+
+/* text-size control */
+#sitebar .tsel { position: relative; display: flex; align-items: center; }
+#sitebar .tsbtn { width: 40px; height: 40px; display: grid; place-items: center; padding: 0; border: 1px solid rgb(255 255 255 / .4); background: #000; color: #fff; cursor: pointer; }
+#sitebar .tsbtn:hover, #sitebar .tsbtn[aria-expanded="true"] { background: #fff; color: #000; }
+#sitebar .tsbtn svg { width: 22px; height: 22px; }
+#sitebar .tsmenu { position: absolute; top: calc(100% + 6px); right: 0; z-index: 20; min-width: 190px; background: var(--hb-menu-bg); color: var(--hb-menu-ink);
+  border: 1px solid var(--hb-menu-line); box-shadow: 0 6px 20px rgb(0 0 0 / .18); padding: 6px; display: flex; flex-direction: column; }
+#sitebar .tsmenu[hidden] { display: none; }
+#sitebar .tsmenu button { display: flex; align-items: baseline; gap: 12px; padding: 10px 12px; border: 0; background: none; color: inherit; font: 500 16px var(--hb-font); text-align: left; cursor: pointer; }
+#sitebar .tsmenu button:hover { background: var(--hb-menu-soft); }
+#sitebar .tsmenu button[aria-pressed="true"] { background: var(--hb-accent); color: var(--hb-menu-bg); }
+#sitebar .tsA { font-family: var(--hb-serif); font-weight: 700; width: 22px; line-height: 1; }
+
+/* language */
+#sitebar .langsel { display: inline-flex; align-items: center; gap: 6px; color: rgb(255 255 255 / .75); }
+#sitebar .langsel svg { width: 18px; height: 18px; }
+#sitebar .langsel select { font: 500 calc(15.5px * var(--hb-ts)) var(--hb-font); padding: 6px 8px; border: 1px solid rgb(255 255 255 / .4); border-radius: 0; background: #000; color: #fff; }
+
+@media (max-width: 640px) {
+  #sitebar .topbar { flex-wrap: wrap; padding-bottom: 8px; }
+  #sitebar .topbar-end { display: contents; }
+  #sitebar .brand { order: 1; padding: 8px 10px; gap: 8px; }
+  #sitebar .brand svg { height: 26px; }
+  #sitebar .tsel { order: 2; margin-left: auto; align-self: center; }
+  #sitebar .tsbtn { width: 34px; height: 34px; }
+  #sitebar .langsel { order: 2; margin-left: 8px; align-self: center; }
+  #sitebar .langsel svg { display: none; }
+  #sitebar .langsel select { font-size: 13px; padding: 5px 4px; max-width: 96px; }
+  #sitebar .nav { order: 3; flex: 1 1 100%; flex-wrap: wrap; row-gap: 4px; }
+  #sitebar .nav a { flex: 0 0 auto; font-size: 16px; padding: 6px 0; }
+  #sitebar .nav a + a { padding-left: 16px; margin-left: 16px; }
+}
+@media (max-width: 420px) { #sitebar .nav a span { display: none; } }

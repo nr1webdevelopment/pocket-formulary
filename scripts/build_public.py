@@ -46,7 +46,8 @@ ErrorDocument 404 /404.html
     Header set Cache-Control "public, max-age=604800"
   </FilesMatch>
   <FilesMatch "\.html$">
-    Header set Cache-Control "public, max-age=300"
+    # no-cache = check with the server every time, so a new deploy shows up straight away
+    Header set Cache-Control "no-cache"
   </FilesMatch>
 </IfModule>
 
@@ -57,9 +58,10 @@ RedirectMatch 404 ^/(?!robots\.txt$).*\.(py|yml|yaml|txt|patch|zip|DS_Store)$
 """
 
 NOT_FOUND = """<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Not found · NomadCeuticals</title><style>body{margin:0;font:18px/1.6 system-ui,sans-serif;background:#F3F5F7;color:#15202B}
+<title>Not found · NomadCeuticals</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Source+Sans+3:wght@400;500&display=swap"><style>body{margin:0;font:18px/1.6 system-ui,sans-serif;background:#F3F5F7;color:#15202B}
 main{max-width:640px;margin:15vh auto;padding:0 20px}h1{font-family:Georgia,serif;font-weight:600}a{color:#92171A}</style></head>
-<body><main><h1>Page not found</h1><p>That address doesn't exist. Go to the <a href="/">NomadCeuticals home page</a> or the <a href="/api/">Medicines API docs</a>.</p></main></body></html>
+<body><!--__SITE_HEADER__--><main><h1>Page not found</h1><p>That address doesn't exist. Go to the <a href="/">NomadCeuticals home page</a> or the <a href="/api/">Medicines API docs</a>.</p></main></body></html>
 """
 
 
@@ -76,7 +78,8 @@ def main():
         if f.startswith("logo") and f.endswith(".svg"):
             shutil.copy2(os.path.join(ROOT, "assets", f), os.path.join(OUT, "assets"))
     open(os.path.join(OUT, ".htaccess"), "w").write(HTACCESS)
-    open(os.path.join(OUT, "404.html"), "w").write(NOT_FOUND)
+    import site_header  # the shared top bar (scripts/site_header.*)
+    open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(site_header.inject(NOT_FOUND, base="/"))
     open(os.path.join(OUT, "robots.txt"), "w").write("User-agent: *\nAllow: /\n")
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"public/: {n} files ready to upload")

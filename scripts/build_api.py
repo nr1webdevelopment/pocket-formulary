@@ -159,10 +159,11 @@ def write_docs(base, site, release, n_meds, n_classes):
         "__BASE__": base, "__REPO__": REPO, "__DATA_VERSION__": release["version"], "__RELEASED__": release["released"],
         "__N_MEDS__": str(n_meds), "__N_CLASSES__": str(n_classes),
         "__CDN__": "https://cdn.jsdelivr.net/gh/nr1webdevelopment/pocket-formulary@main/api/v1",
-        "__LOGO__": svg("logo-bar.svg").replace('role="img"', 'aria-hidden="true" focusable="false"'),
         "__FAVICON__": "data:image/svg+xml," + urllib.parse.quote(svg("logo-icon.svg"), safe=""),
     }.items():
         html = html.replace(k, v)
+    import site_header  # the shared top bar (scripts/site_header.*)
+    html = site_header.inject(html, base="../")
     left = re.findall(r"__[A-Z_]+__", html)
     assert not left, f"unfilled placeholders in api docs: {left}"
     with open(os.path.join(ROOT, "api", "index.html"), "w", encoding="utf-8") as f:

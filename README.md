@@ -90,7 +90,7 @@ nomadceuticals.com is hosted on Hostinger. Only the files in `public/` go online
 python3 scripts/build_dist.py && python3 scripts/build_site.py && python3 scripts/build_public.py
 ```
 
-`public/` then holds the site, `otc-finder.html`, `api/`, `dist/`, `schema/`, the logos, a `404.html` and an `.htaccess` that turns on CORS for the API, redirects `www` and `http` to `https://nomadceuticals.com`, sets caching and blocks source folders as a safety net.
+`public/` then holds the site, `otc-finder.html`, `api/`, `dist/`, `schema/`, the logos, a `404.html` and an `.htaccess` that turns on CORS for the API, redirects `www` and `http` to `https://nomadceuticals.com`, sets caching (HTML is revalidated on every visit, so a new deploy shows up straight away) and blocks source folders as a safety net.
 
 - **Automatic (recommended):** on every push to `main`, `.github/workflows/deploy.yml` checks the data and publishes `public/` to the `public` branch. In Hostinger hPanel → Websites → Advanced → Git, connect this repository with branch `public` and an empty install path, turn on auto-deployment, and add the webhook URL it shows under GitHub → Settings → Webhooks.
 - **By hand:** upload the *contents* of `public/` to `public_html` in Hostinger's File Manager, including the hidden `.htaccess`.
@@ -178,6 +178,7 @@ scripts/
   mark_verified.py        record a phone/email verification
   build_hiv_db.py  site_data.py  build_site.py  template.html   website build
   otc_finder.html         OTC finder page source -> otc-finder.html (built by build_site.py)
+  site_header.css/.js/.py the shared top bar, inlined into every page by the builds
 docs/                     verification protocol notes, leads
 index.html                the reference website (open in a browser)
 otc-finder.html           OTC finder subpage (generated)
@@ -204,6 +205,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to verify a provider and how to a
 - **Providers** (`index.html#providers/hkg/hiv`, `#providers/lis/adhd`, `#providers/sfo/diabetes`): a city picker, condition tabs, service filters and search. Each city shows its local notes; Shanghai, Hong Kong, Macau and Taipei also show the four-jurisdictions note. HIV has a PEP shortcut. Each provider page (`index.html#provider/th-bkk-pribta-clinic`) has tap-to-call with the right country code, LINE where available, directions, a service checklist, verification status, sources and a "report a problem" link.
 
 - **OTC finder** (`otc-finder.html`, live at https://nomadceuticals.com/otc-finder.html): pick one or more symptoms and see everyday over-the-counter medicines, each with its US brand, the active ingredient, a safety note, and common brands plus a local "ask for" name in Thailand, mainland China, Hong Kong/Macau, Mexico and Peru. English only. Source: `scripts/otc_finder.html` (the data is inline in the page); `build_site.py` fills in the logo and writes `otc-finder.html`. Linked from the top bar.
+
+**One header on every page:** the black top bar (logo, Medicines, Providers, OTC finder, text size, language) is defined once in `scripts/site_header.css` + `scripts/site_header.js`; `scripts/site_header.py` inlines it into the home page, `otc-finder.html`, `api/index.html` and `404.html` at build time. To add or rename a menu item, edit `NAV` in `site_header.js` (label in `i18n/ui.json`) and rebuild. Text size and language choices carry across pages; on the English-only pages the language choice relabels the bar.
 
 **Logo and header slideshow:** the logo is in `assets/`: `logo.svg` (full lockup with tagline), `logo-mark.svg` (compass mark with N/E/S/W), `logo-icon.svg` (mark without letters, used as the favicon) and `logo-bar.svg` (icon + wordmark, used in the top bar). All are vector, with text converted to outlines, redrawn from `logo_nomadceuticals.jpg`. The header photos are in `images/`. `images/slides.json` sets their order, focal point, photographer credit (shown in the footer), and which text goes with each photo: `text` picks the `hero_<text>_title`, `_text` and `_cta` strings in `i18n/ui.json`, and `link` is where the button goes (`#providers`, `#medicines` or `repo`). Add or swap photos, update `slides.json`, then run `python3 scripts/build_site.py`. The build resizes each photo to a small WebP and embeds it in `index.html`, so the page stays a single file. The slideshow crossfades every 6 seconds, has indicator and pause buttons, and doesn't auto-play for people who have "reduce motion" turned on. Current photos are from Pexels (free to use, credit given).
 

@@ -4,6 +4,7 @@ release info and translations (i18n/) into scripts/template.html.
 Run scripts/site_data.py and scripts/build_dist.py first if the data changed.
 """
 import base64, glob, io, json, os, re, urllib.parse
+import site_header  # the shared top bar (scripts/site_header.*)
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load = lambda *p: json.load(open(os.path.join(ROOT, *p), encoding="utf-8"))
 
@@ -56,7 +57,6 @@ def svg_asset(name):
     return re.sub(r"<title>.*?</title>", "", svg)
 
 
-logo_bar = svg_asset("logo-bar.svg").replace('role="img"', 'aria-hidden="true" focusable="false"')
 favicon = "data:image/svg+xml," + urllib.parse.quote(svg_asset("logo-icon.svg"), safe="")
 def library_compact():
     """Compact copy of the v2 medicine library (data/library/) for site search and ingredient pages."""
@@ -81,7 +81,8 @@ def library_compact():
 
 
 slides_css, slides = hero_slides()
-page = (t.replace("__LOGO_BAR__", js(logo_bar)).replace("__FAVICON__", favicon).replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
+page = (t.replace("/*__SITE_HEADER_CSS__*/", site_header.css()).replace("/*__SITE_HEADER_JS__*/", site_header.js())
+         .replace("__FAVICON__", favicon).replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
          .replace("__LIBRARY__", js(library_compact()))
          .replace("__DATA__", js(drugs))
          .replace("__PROVIDERS__", js(providers))
@@ -97,7 +98,7 @@ print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines
 
 # OTC finder subpage (nomadceuticals.com/otc-finder.html): scripts/otc_finder.html -> otc-finder.html
 otc = open(os.path.join(ROOT, "scripts", "otc_finder.html"), encoding="utf-8").read()
-otc = otc.replace("__LOGO__", logo_bar).replace("__FAVICON__", favicon)
+otc = site_header.inject(otc.replace("__FAVICON__", favicon), base="./", active="otc")
 assert not re.findall(r"__[A-Z_]+__", otc), "unfilled placeholder in otc_finder.html"
 open(os.path.join(ROOT, "otc-finder.html"), "w", encoding="utf-8").write(otc)
 print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB)")
