@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- **OTC finder** (`/otc-finder.html`): new subpage. Pick symptoms (multi-select) to see everyday over-the-counter medicines with the US brand and equivalents in Thailand, China/Hong Kong/Macau, Mexico and Peru, plus what to ask the pharmacist for and travel warnings (e.g. pseudoephedrine). Added to the top bar in all six languages.
+
 - **Medicine library (v2):** NomadCeuticals becomes an ingredient-centred library and the single source of truth for medicines. 116 ingredients and 182 products migrated from the 124 v1 medicines, the PSY96 CBT Study Hub (depression, anxiety, ADHD, postpartum depression; e.g. bupropion, approved for depression and off-label for ADHD) and the ENT Study Hub. Approval status per country (incl. "Not FDA approved" and OTC monograph), approved vs off-label uses, controlled schedules, review status. New schemas (`schema/v2/`), API v2 (`/api/v2/`), bulk downloads (`dist/v2/`), validator, and a GitHub workflow that looks up RxNorm and FDA IDs.
 - Website search includes the library, with an ingredient page for each (`#ingredient/<id>`); medicine pages link to their ingredients.
 - Data fixes found during migration: Vemlidy is approved for chronic hepatitis B, not HIV (corrected in v2); added Dexedrine Spansule, Zenzedi, ProCentra and Kapvay.

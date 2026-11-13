@@ -94,3 +94,10 @@ html = head + page.replace('<header id="sitebar">', '</head>\n<body>\n<header id
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines, {len(providers)} providers, "
       f"{len(cities_doc['data'])} cities, languages: en + {', '.join(sorted(i18n['content']))}")
+
+# OTC finder subpage (nomadceuticals.com/otc-finder.html): scripts/otc_finder.html -> otc-finder.html
+otc = open(os.path.join(ROOT, "scripts", "otc_finder.html"), encoding="utf-8").read()
+otc = otc.replace("__LOGO__", logo_bar).replace("__FAVICON__", favicon)
+assert not re.findall(r"__[A-Z_]+__", otc), "unfilled placeholder in otc_finder.html"
+open(os.path.join(ROOT, "otc-finder.html"), "w", encoding="utf-8").write(otc)
+print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB)")

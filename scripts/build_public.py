@@ -68,6 +68,7 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(os.path.join(OUT, "assets"))
     shutil.copy2(os.path.join(ROOT, "index.html"), OUT)
+    shutil.copy2(os.path.join(ROOT, "otc-finder.html"), OUT)
     shutil.copy2(os.path.join(ROOT, "LICENSE.md"), OUT)
     for d in ("api", "dist", "schema"):
         shutil.copytree(os.path.join(ROOT, d), os.path.join(OUT, d), ignore=shutil.ignore_patterns(".DS_Store"))

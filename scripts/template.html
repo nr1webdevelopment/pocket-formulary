@@ -550,6 +550,7 @@ function topbar(active) {
     <nav class="nav" aria-label="Sections">
       <a href="#medicines" ${active === "med" ? 'aria-current="page"' : ""}>${t("navMedicines")}<span>${DRUGS.length}</span></a>
       <a href="#providers" ${active === "prov" ? 'aria-current="page"' : ""}>${t("navProviders")}<span>${PROVIDERS.length}</span></a>
+      <a href="otc-finder.html">${t("navOtc")}</a>
     </nav>
     ${tsControl()}
     <label class="langsel"><span class="sr">${t("language")}</span>

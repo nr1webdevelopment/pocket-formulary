@@ -31,6 +31,14 @@
   "pt": "Onde ser atendido",
   "th": "สถานพยาบาล"
  },
+ "navOtc": {
+  "en": "OTC finder",
+  "zh-Hans": "非处方药",
+  "zh-Hant": "非處方藥",
+  "es": "Sin receta",
+  "pt": "Sem receita",
+  "th": "ยาไม่ต้องใช้ใบสั่ง"
+ },
  "medRx": {
   "en": "Rx · FDA-approved · US",
   "zh-Hans": "处方药 · 美国 FDA 批准",
