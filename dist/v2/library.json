@@ -213,6 +213,43 @@
         "Alzheimer's disease agitation"
       ],
       "parent": null
+    },
+    {
+      "id": "pain",
+      "name": "Pain (mild to moderate)",
+      "area": "other",
+      "aliases": [
+        "aches"
+      ],
+      "parent": null
+    },
+    {
+      "id": "osteoarthritis",
+      "name": "Osteoarthritis",
+      "area": "other",
+      "aliases": [
+        "arthrosis"
+      ],
+      "parent": null
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid arthritis",
+      "area": "other",
+      "aliases": [
+        "RA"
+      ],
+      "parent": null
+    },
+    {
+      "id": "dysmenorrhea",
+      "name": "Period pain (dysmenorrhoea)",
+      "area": "other",
+      "aliases": [
+        "menstrual cramps",
+        "dysmenorrhoea"
+      ],
+      "parent": null
     }
   ],
   "ingredients": [
@@ -1696,6 +1733,83 @@
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=darunavir",
           "title": "DailyMed labels for darunavir",
           "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "desloratadine",
+      "name": "desloratadine",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "Antihistamine (second-generation)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-14",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+          "note": "Prescription only in the US (Clarinex). Its parent drug loratadine (Claritin) is over the counter."
+        },
+        {
+          "jurisdiction": "PE",
+          "regulator": "DIGEMID",
+          "status": "approved",
+          "checked": "2026-11-14",
+          "source": "https://www.vademecum.es/peru/equivalencias/1543160/deslomark-5-mg-tab-recubierta",
+          "note": "Registered in Peru as 5 mg tablets (e.g. Deslomark, Dventil, Ryna-del). Official sale condition (with or without prescription) not yet confirmed with DIGEMID."
+        }
+      ],
+      "uses": [
+        {
+          "condition": "allergic-rhinitis",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "urticaria",
+          "type": "approved",
+          "jurisdiction": "US"
+        }
+      ],
+      "controlled": [],
+      "summary": "Once-daily, non-drowsy antihistamine for hay fever and hives. It is the active form of loratadine.",
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-14",
+        "by": null,
+        "note": "Added 2026-11-14. Check the US uses against the FDA label and the Peru sale condition with DIGEMID."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=desloratadine",
+          "title": "DailyMed labels for desloratadine",
+          "type": "label"
+        },
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1543160/deslomark-5-mg-tab-recubierta",
+          "title": "Vademecum Peru: Deslomark 5 mg",
+          "type": "database"
+        },
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1524597/dventil-5-mg-tab-recubierta",
+          "title": "Vademecum Peru: Dventil 5 mg",
+          "type": "database"
+        },
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1431058/ryna-del-5-mg-tab-recub-",
+          "title": "Vademecum Peru: Ryna-del 5 mg",
+          "type": "database"
         }
       ]
     },
@@ -3788,6 +3902,90 @@
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=islatravir",
           "title": "DailyMed labels for islatravir",
           "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "ketoprofen",
+      "name": "ketoprofen",
+      "synonyms": [],
+      "kind": "drug",
+      "classes": [
+        {
+          "name": "NSAID (nonsteroidal anti-inflammatory drug)",
+          "system": "nomad"
+        }
+      ],
+      "ids": {
+        "rxcui": null,
+        "unii": []
+      },
+      "approvals": [
+        {
+          "jurisdiction": "US",
+          "regulator": "FDA",
+          "status": "approved",
+          "checked": "2026-11-14",
+          "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+          "note": "Prescription only in the US (generic capsules and extended-release capsules). The low-dose over-the-counter versions were discontinued."
+        },
+        {
+          "jurisdiction": "PE",
+          "regulator": "DIGEMID",
+          "status": "approved",
+          "checked": "2026-11-14",
+          "source": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+          "note": "150 mg prolonged-release tablets (e.g. Talflex BI, registration EE-06850) are sold with a prescription in Peru. Some pharmacies hand them out without one."
+        }
+      ],
+      "uses": [
+        {
+          "condition": "rheumatoid-arthritis",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "osteoarthritis",
+          "type": "approved",
+          "jurisdiction": "US"
+        },
+        {
+          "condition": "pain",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Immediate-release capsules only."
+        },
+        {
+          "condition": "dysmenorrhea",
+          "type": "approved",
+          "jurisdiction": "US",
+          "note": "Immediate-release capsules only."
+        }
+      ],
+      "controlled": [],
+      "summary": "Anti-inflammatory painkiller (NSAID) related to ibuprofen. Prescription only in the US; the 150 mg slow-release tablets are prescription only in Peru too.",
+      "tier": "curated",
+      "review": {
+        "status": "unverified",
+        "checked": "2026-11-14",
+        "by": null,
+        "note": "Added 2026-11-14. Check the US uses against the FDA label and the Peru sale condition with DIGEMID."
+      },
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ketoprofen",
+          "title": "DailyMed labels for ketoprofen",
+          "type": "label"
+        },
+        {
+          "url": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+          "title": "Inkafarma: Talflex BI 150 mg (asks for a prescription)",
+          "type": "database"
+        },
+        {
+          "url": "https://www.vademecum.es/peru/medicamento/1482772/talflex-bi-150-mg-comp-lp",
+          "title": "Vademecum Peru: Talflex Bi 150 mg (con receta)",
+          "type": "database"
         }
       ]
     },
@@ -7189,6 +7387,41 @@
       ]
     },
     {
+      "id": "bi-profenid-mx",
+      "brandName": "Bi-Profenid",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "MX",
+      "status": "available",
+      "form": "Prolonged-release tablet 150 mg",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Sanofi",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [],
+      "controlled": null,
+      "description": null,
+      "notes": "Sold as Bi-Profenid in Mexico and as Biprofenid in other Latin American countries. Not yet found in Peru's registry. Swallow whole; do not crush or chew.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://prixz.com/salud/bi-profenid-que-es-y-para-que-sirve/",
+          "title": "Prixz (Mexico): Bi-Profenid",
+          "type": "database"
+        },
+        {
+          "url": "https://www.farmatodo.com.co/producto/1024265-biprofenid-150mg",
+          "title": "Farmatodo (Colombia): Biprofenid 150 mg",
+          "type": "database"
+        }
+      ]
+    },
+    {
       "id": "biktarvy",
       "brandName": "Biktarvy",
       "ingredients": [
@@ -7547,6 +7780,39 @@
         {
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Ciprodex",
           "title": "DailyMed: Ciprodex",
+          "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "clarinex",
+      "brandName": "Clarinex",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; orally disintegrating tablet; oral solution",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Organon",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [
+        "allergic-rhinitis",
+        "urticaria"
+      ],
+      "controlled": null,
+      "description": null,
+      "notes": "Prescription only in the US.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Clarinex",
+          "title": "DailyMed: Clarinex",
           "type": "label"
         }
       ]
@@ -7932,6 +8198,36 @@
       ]
     },
     {
+      "id": "deslomark",
+      "brandName": "Deslomark",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Laboratorios Farmacéuticos Markos",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [],
+      "controlled": null,
+      "description": null,
+      "notes": "Sale condition in Peru not yet confirmed.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1543160/deslomark-5-mg-tab-recubierta",
+          "title": "Vademecum Peru: Deslomark 5 mg",
+          "type": "database"
+        }
+      ]
+    },
+    {
       "id": "desyrel",
       "brandName": "Desyrel",
       "ingredients": [
@@ -8105,6 +8401,36 @@
           "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Dupixent",
           "title": "DailyMed: Dupixent",
           "type": "label"
+        }
+      ]
+    },
+    {
+      "id": "dventil",
+      "brandName": "Dventil",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Laboratorios Unidos",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [],
+      "controlled": null,
+      "description": null,
+      "notes": "Sale condition in Peru not yet confirmed.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1524597/dventil-5-mg-tab-recubierta",
+          "title": "Vademecum Peru: Dventil 5 mg",
+          "type": "database"
         }
       ]
     },
@@ -9784,6 +10110,41 @@
       ]
     },
     {
+      "id": "ketoprofen-us",
+      "brandName": "Ketoprofen (generic)",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": null,
+      "manufacturer": null,
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [
+        "rheumatoid-arthritis",
+        "osteoarthritis",
+        "pain",
+        "dysmenorrhea"
+      ],
+      "controlled": null,
+      "description": null,
+      "notes": "Prescription only in the US. Sold as generics; the original brands (Orudis, Oruvail) are no longer marketed.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ketoprofen",
+          "title": "DailyMed: ketoprofen",
+          "type": "label"
+        }
+      ]
+    },
+    {
       "id": "klonopin",
       "brandName": "Klonopin",
       "ingredients": [
@@ -11352,6 +11713,36 @@
       ]
     },
     {
+      "id": "ryna-del",
+      "brandName": "Ryna-del",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Laboratorios Delfarma",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [],
+      "controlled": null,
+      "description": null,
+      "notes": "Sale condition in Peru not yet confirmed.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://www.vademecum.es/peru/equivalencias/1431058/ryna-del-5-mg-tab-recub-",
+          "title": "Vademecum Peru: Ryna-del 5 mg",
+          "type": "database"
+        }
+      ]
+    },
+    {
       "id": "selzentry",
       "brandName": "Selzentry",
       "ingredients": [
@@ -12033,6 +12424,41 @@
           "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
           "title": "Original source (API v1)",
           "type": "reference"
+        }
+      ]
+    },
+    {
+      "id": "talflex-bi",
+      "brandName": "Talflex BI",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Prolonged-release tablet 150 mg",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Laboratorios Bagó del Perú",
+      "approval": {
+        "date": null,
+        "year": null,
+        "application": null
+      },
+      "indications": [],
+      "controlled": null,
+      "description": null,
+      "notes": "Prescription only in Peru (registration EE-06850). Swallow whole; do not crush or chew.",
+      "attributes": {},
+      "sources": [
+        {
+          "url": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+          "title": "Inkafarma: Talflex BI 150 mg",
+          "type": "database"
+        },
+        {
+          "url": "https://www.vademecum.es/peru/medicamento/1482772/talflex-bi-150-mg-comp-lp",
+          "title": "Vademecum Peru: Talflex Bi 150 mg",
+          "type": "database"
         }
       ]
     },

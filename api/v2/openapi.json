@@ -377,7 +377,11 @@
                 "weight-management",
                 "alcohol-use-disorder",
                 "opioid-use-disorder",
-                "alzheimers-agitation"
+                "alzheimers-agitation",
+                "pain",
+                "osteoarthritis",
+                "rheumatoid-arthritis",
+                "dysmenorrhea"
               ]
             }
           }

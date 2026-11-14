@@ -27,6 +27,7 @@ clonidine,clonidine,drug,Alpha-2 adrenergic agonist,approved,FDA approved,adhd,,
 cobicistat,cobicistat,drug,Pharmacokinetic Enhancer,approved,FDA approved,hiv,,,Evotaz; Genvoya; Prezcobix; Prezcobix PED; Stribild; Symtuza; Tybost,,,curated,unverified
 dapagliflozin,dapagliflozin,drug,SGLT2 inhibitor,approved,FDA approved,diabetes,,,Farxiga; Xigduo XR,,,curated,unverified
 darunavir,darunavir,drug,PI,approved,FDA approved,hiv,,,Prezcobix; Prezcobix PED; Prezista; Symtuza,,,curated,unverified
+desloratadine,desloratadine,drug,Antihistamine (second-generation),approved,FDA approved,allergic-rhinitis; urticaria,,,Clarinex; Deslomark; Dventil; Ryna-del,,,curated,unverified
 desvenlafaxine,desvenlafaxine,drug,SNRI (serotonin-norepinephrine reuptake inhibitor),approved,FDA approved,depression,,,Pristiq,,,curated,unverified
 dexamethasone,dexamethasone,drug,Corticosteroid,approved,FDA approved,otitis-externa; otitis-media,,,Ciprodex,,,curated,unverified
 dexmethylphenidate,dexmethylphenidate,drug,CNS stimulant (methylphenidate),approved,FDA approved,adhd,,CII,Azstarys; Focalin; Focalin XR,,,curated,unverified
@@ -68,6 +69,7 @@ insulin-icodec,insulin icodec,biologic,Once-weekly basal insulin,approved,FDA ap
 insulin-isophane-human,insulin isophane human,biologic,Intermediate-acting human insulin,approved,FDA approved,diabetes,,,Humulin N,,,curated,unverified
 insulin-lispro,insulin lispro,biologic,Rapid-acting insulin analog,approved,FDA approved,diabetes,,,Humalog; Lyumjev,,,curated,unverified
 islatravir,islatravir,drug,NRTTI,approved,FDA approved,hiv,,,Idvynso,,,curated,unverified
+ketoprofen,ketoprofen,drug,NSAID (nonsteroidal anti-inflammatory drug),approved,FDA approved,dysmenorrhea; osteoarthritis; pain; rheumatoid-arthritis,,,Bi-Profenid; Ketoprofen (generic); Talflex BI,,,curated,unverified
 lamivudine,lamivudine,drug,NRTI,approved,FDA approved,hiv,,,Cimduo; Combivir; Delstrigo; Dovato; Epivir; Epzicom; Symfi; Symfi Lo; Triumeq; Triumeq PD; Trizivir,,,curated,unverified
 lenacapavir,lenacapavir,drug,Capsid Inhibitor,approved,FDA approved,hiv,,,Bixlenvo; Sunlenca; Yeztugo,,,curated,unverified
 levomilnacipran,levomilnacipran,drug,SNRI (serotonin-norepinephrine reuptake inhibitor),approved,FDA approved,depression,,,Fetzima,,,curated,unverified

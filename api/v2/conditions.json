@@ -11,7 +11,7 @@
     "index": "https://nomadceuticals.com/api/v2/index.json",
     "docs": "https://nomadceuticals.com/api/"
   },
-  "count": 21,
+  "count": 25,
   "data": [
     {
       "id": "hiv",
@@ -113,7 +113,7 @@
         "nasal allergies"
       ],
       "parent": null,
-      "approvedCount": 4,
+      "approvedCount": 5,
       "offLabelCount": 0,
       "url": "https://nomadceuticals.com/api/v2/conditions/allergic-rhinitis.json"
     },
@@ -200,7 +200,7 @@
         "hives"
       ],
       "parent": null,
-      "approvedCount": 1,
+      "approvedCount": 2,
       "offLabelCount": 0,
       "url": "https://nomadceuticals.com/api/v2/conditions/urticaria.json"
     },
@@ -280,6 +280,55 @@
       "approvedCount": 2,
       "offLabelCount": 0,
       "url": "https://nomadceuticals.com/api/v2/conditions/alzheimers-agitation.json"
+    },
+    {
+      "id": "pain",
+      "name": "Pain (mild to moderate)",
+      "area": "other",
+      "aliases": [
+        "aches"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/pain.json"
+    },
+    {
+      "id": "osteoarthritis",
+      "name": "Osteoarthritis",
+      "area": "other",
+      "aliases": [
+        "arthrosis"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/osteoarthritis.json"
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid arthritis",
+      "area": "other",
+      "aliases": [
+        "RA"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/rheumatoid-arthritis.json"
+    },
+    {
+      "id": "dysmenorrhea",
+      "name": "Period pain (dysmenorrhoea)",
+      "area": "other",
+      "aliases": [
+        "menstrual cramps",
+        "dysmenorrhoea"
+      ],
+      "parent": null,
+      "approvedCount": 1,
+      "offLabelCount": 0,
+      "url": "https://nomadceuticals.com/api/v2/conditions/dysmenorrhea.json"
     }
   ]
 }

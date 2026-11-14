@@ -28,7 +28,8 @@ API = os.path.join(ROOT, "api", "v2")
 REPO = "https://github.com/nr1webdevelopment/pocket-formulary"
 
 JURIS_NAMES = {"US": "US", "EU": "EU", "TH": "Thailand", "MX": "Mexico", "PT": "Portugal", "CN": "Mainland China", "HK": "Hong Kong",
-               "MO": "Macau", "TW": "Taiwan", "SG": "Singapore", "GB": "UK", "CA": "Canada", "JP": "Japan", "AU": "Australia"}
+               "MO": "Macau", "TW": "Taiwan", "SG": "Singapore", "GB": "UK", "CA": "Canada", "JP": "Japan", "AU": "Australia",
+               "PE": "Peru", "CO": "Colombia", "BR": "Brazil"}
 
 
 def load_library():

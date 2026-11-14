@@ -1,0 +1,35 @@
+{
+  "id": "bi-profenid-mx",
+  "brandName": "Bi-Profenid",
+  "ingredients": [
+    "ketoprofen"
+  ],
+  "jurisdiction": "MX",
+  "status": "available",
+  "form": "Prolonged-release tablet 150 mg",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Sanofi",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [],
+  "controlled": null,
+  "description": null,
+  "notes": "Sold as Bi-Profenid in Mexico and as Biprofenid in other Latin American countries. Not yet found in Peru's registry. Swallow whole; do not crush or chew.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://prixz.com/salud/bi-profenid-que-es-y-para-que-sirve/",
+      "title": "Prixz (Mexico): Bi-Profenid",
+      "type": "database"
+    },
+    {
+      "url": "https://www.farmatodo.com.co/producto/1024265-biprofenid-150mg",
+      "title": "Farmatodo (Colombia): Biprofenid 150 mg",
+      "type": "database"
+    }
+  ]
+}

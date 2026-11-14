@@ -64,33 +64,33 @@
     },
     "i18n/content.es.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.es.json",
-      "bytes": 121511,
-      "sha256": "0404bf6525d6fd822c5ee778262752e3d5aa502e1928aea82bb7d194995625c0"
+      "bytes": 122070,
+      "sha256": "706e02f98ef4301bcfc08e1669aa43302a164312c4ef6b017f4734e69a0d222d"
     },
     "i18n/content.pt.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.pt.json",
-      "bytes": 120772,
-      "sha256": "21b2abebe7a241603fb8276590d89e50543c300bd88d7615ac2879b4a08340b1"
+      "bytes": 121346,
+      "sha256": "a853b4ae94f91c89bc407400411c36ab4349ad733786a53478a28473ff387d2c"
     },
     "i18n/content.th.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.th.json",
-      "bytes": 178337,
-      "sha256": "6ef06db4595a93d6d419a50b6aab5b89827ad1cb09d966bcd6673d8f2d4e3b1c"
+      "bytes": 179156,
+      "sha256": "309f493ad30c4aa9f38842b550ce6704e5b5350ba27850bcf9e67fb5197b8a6c"
     },
     "i18n/content.zh-Hans.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hans.json",
-      "bytes": 110838,
-      "sha256": "98bb51eaeb291b7147b8fb70c4fe1ad522f5ec453050dfa20a1035cf548355e4"
+      "bytes": 111301,
+      "sha256": "d814f7d5d4fd95932f4828ac0f4b1aa2340fcbf59818894deeabea3098b637b7"
     },
     "i18n/content.zh-Hant.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hant.json",
-      "bytes": 111369,
-      "sha256": "710ca5c50a729e84eed2f27f96cf9e6cbca6483c5f61277a71c5705c3b415c22"
+      "bytes": 111841,
+      "sha256": "4738e2d55ad6f6c4c2fd96a6d31ec1dde2592add49fc06fcd08fc3dc817e64d1"
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
-      "bytes": 80080,
-      "sha256": "1d018ac978566342d484416f5e52508d13e007362980674d168a4a417cb0c22c"
+      "bytes": 81392,
+      "sha256": "777c10ed05287fc9660ddcfc5e1b4d232e357df77ff0b95a30bec08fd2dcfa54"
     }
   }
 }

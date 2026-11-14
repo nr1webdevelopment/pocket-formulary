@@ -68,7 +68,7 @@ def library_compact():
             prods_of.setdefault(iid, []).append(p["id"])
     return {
         "areas": {c["id"]: c["area"] for c in conditions},
-        "prod": {p["id"]: [p["brandName"], p["status"], p.get("form"), p["ingredients"]] for p in products},
+        "prod": {p["id"]: [p["brandName"], p["status"], p.get("form"), p["ingredients"], p["jurisdiction"]] for p in products},
         "ing": [{
             "id": i["id"], "n": i["name"], "s": i.get("synonyms", []), "c": [c["name"] for c in i["classes"]],
             "f": build_library.fda_label(i)["status"], "ae": build_library.fda_label(i)["approvedElsewhere"],

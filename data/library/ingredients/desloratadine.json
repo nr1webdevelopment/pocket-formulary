@@ -1,0 +1,77 @@
+{
+  "id": "desloratadine",
+  "name": "desloratadine",
+  "synonyms": [],
+  "kind": "drug",
+  "classes": [
+    {
+      "name": "Antihistamine (second-generation)",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-14",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "note": "Prescription only in the US (Clarinex). Its parent drug loratadine (Claritin) is over the counter."
+    },
+    {
+      "jurisdiction": "PE",
+      "regulator": "DIGEMID",
+      "status": "approved",
+      "checked": "2026-11-14",
+      "source": "https://www.vademecum.es/peru/equivalencias/1543160/deslomark-5-mg-tab-recubierta",
+      "note": "Registered in Peru as 5 mg tablets (e.g. Deslomark, Dventil, Ryna-del). Official sale condition (with or without prescription) not yet confirmed with DIGEMID."
+    }
+  ],
+  "uses": [
+    {
+      "condition": "allergic-rhinitis",
+      "type": "approved",
+      "jurisdiction": "US"
+    },
+    {
+      "condition": "urticaria",
+      "type": "approved",
+      "jurisdiction": "US"
+    }
+  ],
+  "controlled": [],
+  "summary": "Once-daily, non-drowsy antihistamine for hay fever and hives. It is the active form of loratadine.",
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-14",
+    "by": null,
+    "note": "Added 2026-11-14. Check the US uses against the FDA label and the Peru sale condition with DIGEMID."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=desloratadine",
+      "title": "DailyMed labels for desloratadine",
+      "type": "label"
+    },
+    {
+      "url": "https://www.vademecum.es/peru/equivalencias/1543160/deslomark-5-mg-tab-recubierta",
+      "title": "Vademecum Peru: Deslomark 5 mg",
+      "type": "database"
+    },
+    {
+      "url": "https://www.vademecum.es/peru/equivalencias/1524597/dventil-5-mg-tab-recubierta",
+      "title": "Vademecum Peru: Dventil 5 mg",
+      "type": "database"
+    },
+    {
+      "url": "https://www.vademecum.es/peru/equivalencias/1431058/ryna-del-5-mg-tab-recub-",
+      "title": "Vademecum Peru: Ryna-del 5 mg",
+      "type": "database"
+    }
+  ]
+}

@@ -42,6 +42,7 @@ h1{font-size:calc(clamp(32px,5vw,48px) * var(--ts));line-height:1.08;margin:0;pa
 .lede{color:var(--ink);max-width:660px;margin:14px 0 0;font-size:calc(18px * var(--ts))}
 .tip{margin:22px 0 0;padding:12px 16px;background:var(--warn-soft);color:var(--ink);font-size:calc(15px * var(--ts));max-width:820px}
 .tip b{font-weight:700}
+.tip + .tip{margin-top:12px}
 
 /* picker */
 .panel{margin-top:16px;background:var(--surface);padding:24px 40px 26px}
@@ -147,6 +148,7 @@ footer p{margin:0 0 8px}
     <h1 data-t>Over-the-counter finder</h1>
     <p class="lede" data-t>Pick what's bothering you to see everyday medicines you can usually buy without a prescription, with the US name and what to look for in Thailand, China, Hong Kong &amp; Macau, Mexico and Peru.</p>
     <div class="tip" data-t><b>Good to know:</b> Outside the US, acetaminophen is called <b>paracetamol</b>. Ask for the <em>active ingredient</em>, not the US brand. Pharmacists everywhere recognise it, even when the box looks different.</div>
+    <div class="tip" data-t><b>Heads-up:</b> In many countries, including Peru, Mexico and Thailand, pharmacies may sell you medicines that normally need a prescription, sometimes at higher strengths than you'd buy at home. If you're handed something that isn't on this page, ask whether it usually needs a prescription and check the strength before you take it.</div>
   </header>
 
   <section class="panel" data-t-aria-label="Choose symptoms" aria-label="Choose symptoms">
@@ -354,6 +356,15 @@ const DRUGS = [
    cn:{b:"开瑞坦 Clarityne", hk:"Clarityne", ask:"氯雷他定 (loratadine)"},
    mx:{b:"Clarityne", ask:"Loratadina"},
    pe:{b:"Clarityne", ask:"Loratadina"}},
+
+  {id:"desloratadine", name:"Clarinex", generic:"Desloratadine (non-drowsy antihistamine)", cond:["allergy","itch"],
+   what:"Once-a-day allergy pill, a close relative of loratadine. Often handed out abroad for a runny nose or a cough from post-nasal drip.",
+   warn:"Rarely causes drowsiness. Check with a pharmacist if you have kidney or liver problems.",
+   us:{b:"", na:"Prescription only in the US (Clarinex). Claritin is the over-the-counter option"},
+   th:{b:"Aerius", ask:"Desloratadine · เดสลอราทาดีน"},
+   cn:{b:"地氯雷他定 (generic)", hk:"Aerius", ask:"地氯雷他定 (desloratadine)"},
+   mx:{b:"Generic desloratadina", ask:"Desloratadina"},
+   pe:{b:"Deslomark, Dventil, Ryna-del", ask:"Desloratadina", bad:"Often sold without a prescription; official status not confirmed."}},
 
   {id:"cetirizine", name:"Zyrtec", generic:"Cetirizine (low-drowsy antihistamine)", cond:["allergy","itch","bites"],
    what:"Fast, strong relief for allergies, hives and itchy bites.",

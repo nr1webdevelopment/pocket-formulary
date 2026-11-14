@@ -1,0 +1,35 @@
+{
+  "id": "talflex-bi",
+  "brandName": "Talflex BI",
+  "ingredients": [
+    "ketoprofen"
+  ],
+  "jurisdiction": "PE",
+  "status": "available",
+  "form": "Prolonged-release tablet 150 mg",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Laboratorios Bagó del Perú",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [],
+  "controlled": null,
+  "description": null,
+  "notes": "Prescription only in Peru (registration EE-06850). Swallow whole; do not crush or chew.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+      "title": "Inkafarma: Talflex BI 150 mg",
+      "type": "database"
+    },
+    {
+      "url": "https://www.vademecum.es/peru/medicamento/1482772/talflex-bi-150-mg-comp-lp",
+      "title": "Vademecum Peru: Talflex Bi 150 mg",
+      "type": "database"
+    }
+  ]
+}

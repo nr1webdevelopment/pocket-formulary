@@ -1,0 +1,30 @@
+{
+  "id": "dventil",
+  "brandName": "Dventil",
+  "ingredients": [
+    "desloratadine"
+  ],
+  "jurisdiction": "PE",
+  "status": "available",
+  "form": "Tablet 5 mg",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Laboratorios Unidos",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [],
+  "controlled": null,
+  "description": null,
+  "notes": "Sale condition in Peru not yet confirmed.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://www.vademecum.es/peru/equivalencias/1524597/dventil-5-mg-tab-recubierta",
+      "title": "Vademecum Peru: Dventil 5 mg",
+      "type": "database"
+    }
+  ]
+}

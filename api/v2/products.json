@@ -11,7 +11,7 @@
     "index": "https://nomadceuticals.com/api/v2/index.json",
     "docs": "https://nomadceuticals.com/api/"
   },
-  "count": 185,
+  "count": 192,
   "data": [
     {
       "id": "abilify",
@@ -282,6 +282,17 @@
       "url": "https://nomadceuticals.com/api/v2/products/basaglar.json"
     },
     {
+      "id": "bi-profenid-mx",
+      "brandName": "Bi-Profenid",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "MX",
+      "status": "available",
+      "form": "Prolonged-release tablet 150 mg",
+      "url": "https://nomadceuticals.com/api/v2/products/bi-profenid-mx.json"
+    },
+    {
       "id": "biktarvy",
       "brandName": "Biktarvy",
       "ingredients": [
@@ -385,6 +396,17 @@
       "status": "available",
       "form": "Ear drops (suspension)",
       "url": "https://nomadceuticals.com/api/v2/products/ciprodex.json"
+    },
+    {
+      "id": "clarinex",
+      "brandName": "Clarinex",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; orally disintegrating tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/clarinex.json"
     },
     {
       "id": "combivir",
@@ -493,6 +515,17 @@
       "url": "https://nomadceuticals.com/api/v2/products/descovy.json"
     },
     {
+      "id": "deslomark",
+      "brandName": "Deslomark",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "url": "https://nomadceuticals.com/api/v2/products/deslomark.json"
+    },
+    {
       "id": "desyrel",
       "brandName": "Desyrel",
       "ingredients": [
@@ -547,6 +580,17 @@
       "status": "available",
       "form": "Injection (pen, prefilled syringe)",
       "url": "https://nomadceuticals.com/api/v2/products/dupixent.json"
+    },
+    {
+      "id": "dventil",
+      "brandName": "Dventil",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "url": "https://nomadceuticals.com/api/v2/products/dventil.json"
     },
     {
       "id": "dyanavel-xr",
@@ -1010,6 +1054,17 @@
       "url": "https://nomadceuticals.com/api/v2/products/kapvay.json"
     },
     {
+      "id": "ketoprofen-us",
+      "brandName": "Ketoprofen (generic)",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/ketoprofen-us.json"
+    },
+    {
       "id": "klonopin",
       "brandName": "Klonopin",
       "ingredients": [
@@ -1454,6 +1509,17 @@
       "url": "https://nomadceuticals.com/api/v2/products/rybelsus.json"
     },
     {
+      "id": "ryna-del",
+      "brandName": "Ryna-del",
+      "ingredients": [
+        "desloratadine"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Tablet 5 mg",
+      "url": "https://nomadceuticals.com/api/v2/products/ryna-del.json"
+    },
+    {
       "id": "selzentry",
       "brandName": "Selzentry",
       "ingredients": [
@@ -1640,6 +1706,17 @@
       "status": "available",
       "form": "Tablet; extended-release tablet (Synjardy XR)",
       "url": "https://nomadceuticals.com/api/v2/products/synjardy.json"
+    },
+    {
+      "id": "talflex-bi",
+      "brandName": "Talflex BI",
+      "ingredients": [
+        "ketoprofen"
+      ],
+      "jurisdiction": "PE",
+      "status": "available",
+      "form": "Prolonged-release tablet 150 mg",
+      "url": "https://nomadceuticals.com/api/v2/products/talflex-bi.json"
     },
     {
       "id": "tivicay-pd",

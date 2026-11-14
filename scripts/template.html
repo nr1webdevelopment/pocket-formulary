@@ -601,9 +601,9 @@ function ingredientPage(r) {
   const appr = r.u.filter(u => u[1] === "approved"), off = r.u.filter(u => u[1] === "off-label");
   const useLi = u => `<li><b>${esc(lc(u[0]))}</b>${u[3] && u[3].length ? ` <span class="muted">(${esc(t("libVia", { list: u[3].map(brandOf).join(", ") }))})</span>` : ""}${u[2] ? `<br><span class="muted">${esc(tc(u[2]))}</span>` : ""}</li>`;
   const brandLink = pid => {
-    const [b, st, form, ings] = LIB.prod[pid] || [pid, "unknown", null, []];
+    const [b, st, form, ings, jur] = LIB.prod[pid] || [pid, "unknown", null, [], "US"];
     const others = (ings || []).filter(i => i !== r.id && LIBBY[i]).map(i => LIBBY[i].n);
-    const inner = `${esc(b)}${others.length ? ` <span>+ ${esc(others.join(" + "))}</span>` : ""}${form ? ` <span>${esc(tc(form))}</span>` : ""}${st !== "available" ? ` <span class="pill ${st === "discontinued" ? "disc" : ""}">${t("libStatus_" + st)}</span>` : ""}`;
+    const inner = `${esc(b)}${others.length ? ` <span>+ ${esc(others.join(" + "))}</span>` : ""}${form ? ` <span>${esc(tc(form))}</span>` : ""}${jur && jur !== "US" ? ` <span class="pill">${esc(I18N.ui["jur_" + jur] ? t("jur_" + jur) : jur)}</span>` : ""}${st !== "available" ? ` <span class="pill ${st === "discontinued" ? "disc" : ""}">${t("libStatus_" + st)}</span>` : ""}`;
     return BY[pid] ? `<a href="#${pid}">${inner}</a>` : `<span class="relx">${inner}</span>`;
   };
   const api = (RELEASE.site || "https://nomadceuticals.com/") + "api/v2/ingredients/" + r.id + ".json";

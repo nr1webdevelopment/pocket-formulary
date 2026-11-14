@@ -8,7 +8,7 @@
     "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
     "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
   },
-  "count": 21,
+  "count": 25,
   "data": [
     {
       "id": "hiv",
@@ -212,6 +212,43 @@
       "area": "neurology",
       "aliases": [
         "Alzheimer's disease agitation"
+      ],
+      "parent": null
+    },
+    {
+      "id": "pain",
+      "name": "Pain (mild to moderate)",
+      "area": "other",
+      "aliases": [
+        "aches"
+      ],
+      "parent": null
+    },
+    {
+      "id": "osteoarthritis",
+      "name": "Osteoarthritis",
+      "area": "other",
+      "aliases": [
+        "arthrosis"
+      ],
+      "parent": null
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "name": "Rheumatoid arthritis",
+      "area": "other",
+      "aliases": [
+        "RA"
+      ],
+      "parent": null
+    },
+    {
+      "id": "dysmenorrhea",
+      "name": "Period pain (dysmenorrhoea)",
+      "area": "other",
+      "aliases": [
+        "menstrual cramps",
+        "dysmenorrhoea"
       ],
       "parent": null
     }

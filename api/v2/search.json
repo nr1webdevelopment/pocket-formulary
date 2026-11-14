@@ -23,7 +23,7 @@
     "j": "jurisdiction",
     "st": "product status"
   },
-  "count": 302,
+  "count": 311,
   "data": [
     {
       "t": "i",
@@ -461,6 +461,24 @@
         "Prezcobix PED",
         "Prezista",
         "Symtuza"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "desloratadine",
+      "n": "desloratadine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "allergic-rhinitis",
+        "urticaria"
+      ],
+      "o": [],
+      "b": [
+        "Clarinex",
+        "Deslomark",
+        "Dventil",
+        "Ryna-del"
       ]
     },
     {
@@ -1088,6 +1106,25 @@
       "o": [],
       "b": [
         "Idvynso"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ketoprofen",
+      "n": "ketoprofen",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "dysmenorrhea",
+        "osteoarthritis",
+        "pain",
+        "rheumatoid-arthritis"
+      ],
+      "o": [],
+      "b": [
+        "Bi-Profenid",
+        "Ketoprofen (generic)",
+        "Talflex BI"
       ]
     },
     {
@@ -2091,6 +2128,16 @@
     },
     {
       "t": "p",
+      "id": "bi-profenid-mx",
+      "n": "Bi-Profenid",
+      "i": [
+        "ketoprofen"
+      ],
+      "j": "MX",
+      "st": "available"
+    },
+    {
+      "t": "p",
       "id": "biktarvy",
       "n": "Biktarvy",
       "i": [
@@ -2181,6 +2228,16 @@
       "i": [
         "ciprofloxacin",
         "dexamethasone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "clarinex",
+      "n": "Clarinex",
+      "i": [
+        "desloratadine"
       ],
       "j": "US",
       "st": "available"
@@ -2284,6 +2341,16 @@
     },
     {
       "t": "p",
+      "id": "deslomark",
+      "n": "Deslomark",
+      "i": [
+        "desloratadine"
+      ],
+      "j": "PE",
+      "st": "available"
+    },
+    {
+      "t": "p",
       "id": "desyrel",
       "n": "Desyrel",
       "i": [
@@ -2331,6 +2398,16 @@
         "dupilumab"
       ],
       "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "dventil",
+      "n": "Dventil",
+      "i": [
+        "desloratadine"
+      ],
+      "j": "PE",
       "st": "available"
     },
     {
@@ -2755,6 +2832,16 @@
     },
     {
       "t": "p",
+      "id": "ketoprofen-us",
+      "n": "Ketoprofen (generic)",
+      "i": [
+        "ketoprofen"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
       "id": "klonopin",
       "n": "Klonopin",
       "i": [
@@ -3159,6 +3246,16 @@
     },
     {
       "t": "p",
+      "id": "ryna-del",
+      "n": "Ryna-del",
+      "i": [
+        "desloratadine"
+      ],
+      "j": "PE",
+      "st": "available"
+    },
+    {
+      "t": "p",
       "id": "selzentry",
       "n": "Selzentry",
       "i": [
@@ -3327,6 +3424,16 @@
         "metformin"
       ],
       "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "talflex-bi",
+      "n": "Talflex BI",
+      "i": [
+        "ketoprofen"
+      ],
+      "j": "PE",
       "st": "available"
     },
     {

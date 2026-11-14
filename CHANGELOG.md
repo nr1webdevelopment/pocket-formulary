@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- **Library: desloratadine and ketoprofen.** Desloratadine (Clarinex in the US, prescription only; Deslomark, Dventil and Ryna-del in Peru) and ketoprofen (prescription-only generics in the US; Talflex BI in Peru, prescription only; Bi-Profenid in Mexico). Both record a Peru (DIGEMID) entry; desloratadine's Peru sale condition is not yet confirmed. New conditions: pain, osteoarthritis, rheumatoid arthritis, period pain (dysmenorrhoea). Ingredient pages now show the country for products sold outside the US.
+- **OTC finder:** desloratadine added to the allergy options, and a new "Heads-up" note that pharmacies in Peru, Mexico, Thailand and elsewhere may sell prescription medicines, sometimes at higher strengths, so check before taking them. Both translated into all six languages.
+
 - **OTC finder in six languages:** English, Simplified Chinese, Traditional Chinese, Spanish, Portuguese and Thai, following the top-bar language picker (`?lang=` works too). Translations in `i18n/otc/`, machine-produced and flagged as such on the page; brand names and "Ask for" names are left as sold in each country.
 
 - **Shared site header:** every page (home, OTC finder, API docs, 404) now uses the same top bar from one source (`scripts/site_header.*`), with the same menu, text-size control and language picker. The API docs' OpenAPI and GitHub links moved into the page.

@@ -23,6 +23,7 @@ awiqli,Awiqli,insulin-icodec,US,available,"Injection (pen, 700 units/mL)",Subcut
 azstarys,Azstarys,serdexmethylphenidate; dexmethylphenidate,US,available,Capsule,Oral,Corium,,2021,adhd,CII
 baqsimi,Baqsimi,glucagon,US,available,Nasal powder,Nasal,Amphastar,,2019,diabetes,
 basaglar,Basaglar,insulin-glargine,US,available,Injection (pen),Subcutaneous,Eli Lilly,,2015,diabetes,
+bi-profenid-mx,Bi-Profenid,ketoprofen,MX,available,Prolonged-release tablet 150 mg,Oral,Sanofi,,,,
 biktarvy,Biktarvy,bictegravir; emtricitabine; tenofovir-alafenamide,US,available,Tablet,Oral,Gilead Sciences,2018-02-07,2018,hiv,
 bixlenvo,Bixlenvo,bictegravir; lenacapavir,US,available,Tablet,Oral,Gilead Sciences,2026-08-27,2026,hiv,
 brenzavvy,Brenzavvy,bexagliflozin,US,available,Tablet,Oral,TheracosBio,,2023,diabetes,
@@ -32,6 +33,7 @@ celexa,Celexa,citalopram,US,available,Tablet,,,,,depression,
 cetraxal,Cetraxal,ciprofloxacin,US,unknown,Ear drops,Otic,,,,otitis-externa,
 cimduo,Cimduo,lamivudine; tenofovir-disoproxil,US,available,Tablet,Oral,Viatris (Mylan),2018-02-28,2018,hiv,
 ciprodex,Ciprodex,ciprofloxacin; dexamethasone,US,available,Ear drops (suspension),Otic,,,,otitis-media; otitis-externa,
+clarinex,Clarinex,desloratadine,US,available,Tablet; orally disintegrating tablet; oral solution,Oral,Organon,,,allergic-rhinitis; urticaria,
 combivir,Combivir,lamivudine; zidovudine,US,discontinued,Tablet,Oral,ViiV Healthcare,1997-09-27,1997,hiv,
 complera,Complera,emtricitabine; rilpivirine; tenofovir-disoproxil,US,available,Tablet,Oral,Gilead Sciences,2011-08-10,2011,hiv,
 concerta,Concerta,methylphenidate,US,available,Extended-release tablet (OROS),Oral,Johnson & Johnson (Janssen),,2000,adhd,CII
@@ -41,11 +43,13 @@ cymbalta,Cymbalta,duloxetine,US,available,Delayed-release capsule,,,,,depression
 daytrana,Daytrana,methylphenidate,US,available,Transdermal patch,Skin patch,Noven Pharmaceuticals,,2006,adhd,CII
 delstrigo,Delstrigo,doravirine; lamivudine; tenofovir-disoproxil,US,available,Tablet,Oral,Merck,2018-08-30,2018,hiv,
 descovy,Descovy,emtricitabine; tenofovir-alafenamide,US,available,Tablet,Oral,Gilead Sciences,2016-04-04,2016,hiv,
+deslomark,Deslomark,desloratadine,PE,available,Tablet 5 mg,Oral,Laboratorios Farmacéuticos Markos,,,,
 desyrel,Desyrel,trazodone,US,discontinued,Tablet,,,,,depression,
 dexedrine-spansule,Dexedrine Spansule,dextroamphetamine,US,available,Extended-release capsule,,,,,adhd,CII
 dovato,Dovato,dolutegravir; lamivudine,US,available,Tablet,Oral,ViiV Healthcare,2019-04-08,2019,hiv,
 drizalma-sprinkle,Drizalma Sprinkle,duloxetine,US,available,Delayed-release capsule,,,,,depression; anxiety,
 dupixent,Dupixent,dupilumab,US,available,"Injection (pen, prefilled syringe)",Subcutaneous,,,,nasal-polyps,
+dventil,Dventil,desloratadine,PE,available,Tablet 5 mg,Oral,Laboratorios Unidos,,,,
 dyanavel-xr,Dyanavel XR,amphetamine,US,available,Extended-release oral suspension; tablet,Oral,Tris Pharma,,2015,adhd,CII
 edurant-ped,Edurant PED,rilpivirine,US,available,Tablet for oral suspension,Oral,Johnson & Johnson (Janssen),2024-03-15,2024,hiv,
 edurant,Edurant,rilpivirine,US,available,Tablet,Oral,Johnson & Johnson (Janssen),2011-05-20,2011,hiv,
@@ -87,6 +91,7 @@ jornay-pm,Jornay PM,methylphenidate,US,available,Delayed-release/extended-releas
 juluca,Juluca,dolutegravir; rilpivirine,US,available,Tablet,Oral,ViiV Healthcare,2017-11-21,2017,hiv,
 kaletra,Kaletra,lopinavir; ritonavir,US,available,Tablet; oral solution,Oral,AbbVie,2000-09-15,2000,hiv,
 kapvay,Kapvay,clonidine,US,unknown,Extended-release tablet,,,,,adhd,
+ketoprofen-us,Ketoprofen (generic),ketoprofen,US,available,Capsule; extended-release capsule,Oral,,,,rheumatoid-arthritis; osteoarthritis; pain; dysmenorrhea,
 klonopin,Klonopin,clonazepam,US,available,Tablet,,,,,anxiety,CIV
 lantus,Lantus,insulin-glargine,US,available,"Injection (pen, vial)",Subcutaneous,Sanofi,,2000,diabetes,
 levemir,Levemir,insulin-detemir,US,discontinued,"Injection (pen, vial)",Subcutaneous,Novo Nordisk,,2005,diabetes,
@@ -127,6 +132,7 @@ ritalin-la,Ritalin LA,methylphenidate,US,available,Extended-release capsule,Oral
 ritalin,Ritalin,methylphenidate,US,available,Tablet,Oral,Novartis,,1955,adhd,CII
 rukobia,Rukobia,fostemsavir,US,available,Extended-release tablet,Oral,ViiV Healthcare,2020-07-02,2020,hiv,
 rybelsus,Rybelsus (Ozempic pill),semaglutide,US,available,Tablet,Oral,Novo Nordisk,,2019,diabetes,
+ryna-del,Ryna-del,desloratadine,PE,available,Tablet 5 mg,Oral,Laboratorios Delfarma,,,,
 selzentry,Selzentry,maraviroc,US,available,Tablet; oral solution,Oral,ViiV Healthcare,2007-08-06,2007,hiv,
 semglee,Semglee,insulin-glargine,US,available,"Injection (pen, vial)",Subcutaneous,Biocon Biologics,,2020,diabetes,
 seroquel-xr,Seroquel XR,quetiapine,US,available,Extended-release tablet,,,,,depression,
@@ -143,6 +149,7 @@ symfi,Symfi,efavirenz; lamivudine; tenofovir-disoproxil,US,available,Tablet,Oral
 symlin,Symlin,pramlintide,US,available,Injection (pen),Subcutaneous,AstraZeneca,,2005,diabetes,
 symtuza,Symtuza,darunavir; cobicistat; emtricitabine; tenofovir-alafenamide,US,available,Tablet,Oral,Johnson & Johnson (Janssen),2018-07-17,2018,hiv,
 synjardy,Synjardy,empagliflozin; metformin,US,available,Tablet; extended-release tablet (Synjardy XR),Oral,Boehringer Ingelheim,,2015,diabetes,
+talflex-bi,Talflex BI,ketoprofen,PE,available,Prolonged-release tablet 150 mg,Oral,Laboratorios Bagó del Perú,,,,
 tivicay-pd,Tivicay PD,dolutegravir,US,available,Tablet for oral suspension,Oral,ViiV Healthcare,2020-06-12,2020,hiv,
 tivicay,Tivicay,dolutegravir,US,available,Tablet,Oral,ViiV Healthcare,2013-08-12,2013,hiv,
 toujeo,Toujeo,insulin-glargine,US,available,Injection (pen),Subcutaneous,Sanofi,,2015,diabetes,

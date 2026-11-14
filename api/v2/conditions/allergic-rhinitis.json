@@ -20,7 +20,7 @@
       "nasal allergies"
     ],
     "parent": null,
-    "approvedCount": 4,
+    "approvedCount": 5,
     "offLabelCount": 0
   },
   "data": {
@@ -73,6 +73,34 @@
         "review": "unverified",
         "usesComplete": false,
         "url": "https://nomadceuticals.com/api/v2/ingredients/cetirizine.json"
+      },
+      {
+        "id": "desloratadine",
+        "name": "desloratadine",
+        "kind": "drug",
+        "classes": [
+          "Antihistamine (second-generation)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "allergic-rhinitis",
+          "urticaria"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Clarinex",
+          "Deslomark",
+          "Dventil",
+          "Ryna-del"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/desloratadine.json"
       },
       {
         "id": "fluticasone",

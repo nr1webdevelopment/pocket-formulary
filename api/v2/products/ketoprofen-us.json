@@ -1,0 +1,89 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/ketoprofen-us.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "ketoprofen-us",
+    "brandName": "Ketoprofen (generic)",
+    "ingredients": [
+      "ketoprofen"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Capsule; extended-release capsule",
+    "route": "Oral",
+    "dosingFrequency": null,
+    "manufacturer": null,
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "rheumatoid-arthritis",
+      "osteoarthritis",
+      "pain",
+      "dysmenorrhea"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": "Prescription only in the US. Sold as generics; the original brands (Orudis, Oruvail) are no longer marketed.",
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ketoprofen",
+        "title": "DailyMed: ketoprofen",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "ketoprofen",
+        "name": "ketoprofen",
+        "kind": "drug",
+        "classes": [
+          "NSAID (nonsteroidal anti-inflammatory drug)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "dysmenorrhea",
+          "osteoarthritis",
+          "pain",
+          "rheumatoid-arthritis"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Bi-Profenid",
+          "Ketoprofen (generic)",
+          "Talflex BI"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ketoprofen.json"
+      }
+    ],
+    "indicationNames": [
+      "Rheumatoid arthritis",
+      "Osteoarthritis",
+      "Pain (mild to moderate)",
+      "Period pain (dysmenorrhoea)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/ketoprofen-us.json"
+    }
+  }
+}

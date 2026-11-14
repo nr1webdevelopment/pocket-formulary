@@ -1,0 +1,84 @@
+{
+  "id": "ketoprofen",
+  "name": "ketoprofen",
+  "synonyms": [],
+  "kind": "drug",
+  "classes": [
+    {
+      "name": "NSAID (nonsteroidal anti-inflammatory drug)",
+      "system": "nomad"
+    }
+  ],
+  "ids": {
+    "rxcui": null,
+    "unii": []
+  },
+  "approvals": [
+    {
+      "jurisdiction": "US",
+      "regulator": "FDA",
+      "status": "approved",
+      "checked": "2026-11-14",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "note": "Prescription only in the US (generic capsules and extended-release capsules). The low-dose over-the-counter versions were discontinued."
+    },
+    {
+      "jurisdiction": "PE",
+      "regulator": "DIGEMID",
+      "status": "approved",
+      "checked": "2026-11-14",
+      "source": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+      "note": "150 mg prolonged-release tablets (e.g. Talflex BI, registration EE-06850) are sold with a prescription in Peru. Some pharmacies hand them out without one."
+    }
+  ],
+  "uses": [
+    {
+      "condition": "rheumatoid-arthritis",
+      "type": "approved",
+      "jurisdiction": "US"
+    },
+    {
+      "condition": "osteoarthritis",
+      "type": "approved",
+      "jurisdiction": "US"
+    },
+    {
+      "condition": "pain",
+      "type": "approved",
+      "jurisdiction": "US",
+      "note": "Immediate-release capsules only."
+    },
+    {
+      "condition": "dysmenorrhea",
+      "type": "approved",
+      "jurisdiction": "US",
+      "note": "Immediate-release capsules only."
+    }
+  ],
+  "controlled": [],
+  "summary": "Anti-inflammatory painkiller (NSAID) related to ibuprofen. Prescription only in the US; the 150 mg slow-release tablets are prescription only in Peru too.",
+  "tier": "curated",
+  "review": {
+    "status": "unverified",
+    "checked": "2026-11-14",
+    "by": null,
+    "note": "Added 2026-11-14. Check the US uses against the FDA label and the Peru sale condition with DIGEMID."
+  },
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ketoprofen",
+      "title": "DailyMed labels for ketoprofen",
+      "type": "label"
+    },
+    {
+      "url": "https://inkafarma.pe/producto/talflex-bi-150mg-comprimido-de-lieracion-prolongada/068601",
+      "title": "Inkafarma: Talflex BI 150 mg (asks for a prescription)",
+      "type": "database"
+    },
+    {
+      "url": "https://www.vademecum.es/peru/medicamento/1482772/talflex-bi-150-mg-comp-lp",
+      "title": "Vademecum Peru: Talflex Bi 150 mg (con receta)",
+      "type": "database"
+    }
+  ]
+}

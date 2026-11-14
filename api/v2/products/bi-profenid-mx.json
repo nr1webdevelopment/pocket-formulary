@@ -1,0 +1,84 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/bi-profenid-mx.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "bi-profenid-mx",
+    "brandName": "Bi-Profenid",
+    "ingredients": [
+      "ketoprofen"
+    ],
+    "jurisdiction": "MX",
+    "status": "available",
+    "form": "Prolonged-release tablet 150 mg",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Sanofi",
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [],
+    "controlled": null,
+    "description": null,
+    "notes": "Sold as Bi-Profenid in Mexico and as Biprofenid in other Latin American countries. Not yet found in Peru's registry. Swallow whole; do not crush or chew.",
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://prixz.com/salud/bi-profenid-que-es-y-para-que-sirve/",
+        "title": "Prixz (Mexico): Bi-Profenid",
+        "type": "database"
+      },
+      {
+        "url": "https://www.farmatodo.com.co/producto/1024265-biprofenid-150mg",
+        "title": "Farmatodo (Colombia): Biprofenid 150 mg",
+        "type": "database"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "ketoprofen",
+        "name": "ketoprofen",
+        "kind": "drug",
+        "classes": [
+          "NSAID (nonsteroidal anti-inflammatory drug)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "dysmenorrhea",
+          "osteoarthritis",
+          "pain",
+          "rheumatoid-arthritis"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Bi-Profenid",
+          "Ketoprofen (generic)",
+          "Talflex BI"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ketoprofen.json"
+      }
+    ],
+    "indicationNames": [],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/bi-profenid-mx.json"
+    }
+  }
+}

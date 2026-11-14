@@ -1,0 +1,33 @@
+{
+  "id": "clarinex",
+  "brandName": "Clarinex",
+  "ingredients": [
+    "desloratadine"
+  ],
+  "jurisdiction": "US",
+  "status": "available",
+  "form": "Tablet; orally disintegrating tablet; oral solution",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Organon",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [
+    "allergic-rhinitis",
+    "urticaria"
+  ],
+  "controlled": null,
+  "description": null,
+  "notes": "Prescription only in the US.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Clarinex",
+      "title": "DailyMed: Clarinex",
+      "type": "label"
+    }
+  ]
+}

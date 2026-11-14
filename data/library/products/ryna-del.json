@@ -1,0 +1,30 @@
+{
+  "id": "ryna-del",
+  "brandName": "Ryna-del",
+  "ingredients": [
+    "desloratadine"
+  ],
+  "jurisdiction": "PE",
+  "status": "available",
+  "form": "Tablet 5 mg",
+  "route": "Oral",
+  "dosingFrequency": "Once daily",
+  "manufacturer": "Laboratorios Delfarma",
+  "approval": {
+    "date": null,
+    "year": null,
+    "application": null
+  },
+  "indications": [],
+  "controlled": null,
+  "description": null,
+  "notes": "Sale condition in Peru not yet confirmed.",
+  "attributes": {},
+  "sources": [
+    {
+      "url": "https://www.vademecum.es/peru/equivalencias/1431058/ryna-del-5-mg-tab-recub-",
+      "title": "Vademecum Peru: Ryna-del 5 mg",
+      "type": "database"
+    }
+  ]
+}

@@ -2031,6 +2031,54 @@
   "pt": "Agitação na demência de Alzheimer",
   "th": "อาการกระวนกระวายในภาวะสมองเสื่อมจากโรคอัลไซเมอร์"
  },
+ "lc_pain": {
+  "en": "Pain (mild to moderate)",
+  "zh-Hans": "疼痛（轻至中度）",
+  "zh-Hant": "疼痛（輕至中度）",
+  "es": "Dolor (leve a moderado)",
+  "pt": "Dor (ligeira a moderada)",
+  "th": "อาการปวด (เล็กน้อยถึงปานกลาง)"
+ },
+ "lc_osteoarthritis": {
+  "en": "Osteoarthritis",
+  "zh-Hans": "骨关节炎",
+  "zh-Hant": "骨關節炎",
+  "es": "Artrosis",
+  "pt": "Osteoartrose",
+  "th": "โรคข้อเสื่อม"
+ },
+ "lc_rheumatoid-arthritis": {
+  "en": "Rheumatoid arthritis",
+  "zh-Hans": "类风湿关节炎",
+  "zh-Hant": "類風濕關節炎",
+  "es": "Artritis reumatoide",
+  "pt": "Artrite reumatoide",
+  "th": "โรคข้ออักเสบรูมาตอยด์"
+ },
+ "lc_dysmenorrhea": {
+  "en": "Period pain (dysmenorrhoea)",
+  "zh-Hans": "痛经",
+  "zh-Hant": "痛經",
+  "es": "Dolor menstrual (dismenorrea)",
+  "pt": "Dores menstruais (dismenorreia)",
+  "th": "ปวดประจำเดือน"
+ },
+ "jur_PE": {
+  "en": "Peru",
+  "zh-Hans": "秘鲁",
+  "zh-Hant": "秘魯",
+  "es": "Perú",
+  "pt": "Peru",
+  "th": "เปรู"
+ },
+ "jur_MX": {
+  "en": "Mexico",
+  "zh-Hans": "墨西哥",
+  "zh-Hant": "墨西哥",
+  "es": "México",
+  "pt": "México",
+  "th": "เม็กซิโก"
+ },
  "privacyChoices": {
   "en": "Privacy choices",
   "zh-Hans": "隐私选项",
