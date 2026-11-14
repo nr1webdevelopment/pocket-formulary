@@ -1,0 +1,92 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/ritalin-la.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "ritalin-la",
+    "brandName": "Ritalin LA",
+    "ingredients": [
+      "methylphenidate"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Extended-release capsule",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (morning)",
+    "manufacturer": "Novartis",
+    "approval": {
+      "date": null,
+      "year": 2002,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": "CII",
+    "description": "Long-acting methylphenidate with a bimodal release that mimics two doses.",
+    "notes": "Capsule can be opened and sprinkled on applesauce.",
+    "attributes": {
+      "category": "Methylphenidate",
+      "type": "Stimulant"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "methylphenidate",
+        "name": "methylphenidate",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (methylphenidate)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Aptensio XR",
+          "Concerta",
+          "Cotempla XR-ODT",
+          "Daytrana",
+          "Jornay PM",
+          "QuilliChew ER",
+          "Quillivant XR",
+          "Ritalin",
+          "Ritalin LA"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/methylphenidate.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/ritalin-la.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json"
+    }
+  }
+}

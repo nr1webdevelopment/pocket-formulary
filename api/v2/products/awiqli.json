@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/awiqli.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "awiqli",
+    "brandName": "Awiqli",
+    "ingredients": [
+      "insulin-icodec"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Injection (pen, 700 units/mL)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once weekly",
+    "manufacturer": "Novo Nordisk",
+    "approval": {
+      "date": null,
+      "year": 2026,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "The first once-weekly basal insulin, approved March 2026.",
+    "notes": "Adults with type 2 diabetes only. New in 2026.",
+    "attributes": {
+      "category": "Insulin: long-acting",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "insulin-icodec",
+        "name": "insulin icodec",
+        "kind": "biologic",
+        "classes": [
+          "Once-weekly basal insulin"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Awiqli"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-icodec.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/awiqli.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/awiqli.json"
+    }
+  }
+}

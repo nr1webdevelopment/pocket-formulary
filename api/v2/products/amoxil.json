@@ -1,0 +1,81 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/amoxil.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "amoxil",
+    "brandName": "Amoxil",
+    "ingredients": [
+      "amoxicillin"
+    ],
+    "jurisdiction": "US",
+    "status": "unknown",
+    "form": "Capsule; tablet; oral suspension",
+    "route": "Oral",
+    "dosingFrequency": null,
+    "manufacturer": null,
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "otitis-media",
+      "pharyngitis"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": null,
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Amoxil",
+        "title": "DailyMed: Amoxil",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "amoxicillin",
+        "name": "amoxicillin",
+        "kind": "drug",
+        "classes": [
+          "Penicillin antibiotic"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "otitis-media",
+          "pharyngitis"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Amoxil"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/amoxicillin.json"
+      }
+    ],
+    "indicationNames": [
+      "Middle-ear infection (otitis media)",
+      "Sore throat and tonsillitis (bacterial pharyngitis)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/amoxil.json"
+    }
+  }
+}

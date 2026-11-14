@@ -1,0 +1,83 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/procentra.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "procentra",
+    "brandName": "ProCentra",
+    "ingredients": [
+      "dextroamphetamine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Oral solution",
+    "route": null,
+    "dosingFrequency": null,
+    "manufacturer": null,
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "adhd"
+    ],
+    "controlled": "CII",
+    "description": null,
+    "notes": null,
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=ProCentra",
+        "title": "DailyMed: ProCentra",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "dextroamphetamine",
+        "name": "dextroamphetamine",
+        "kind": "drug",
+        "classes": [
+          "CNS stimulant (amphetamine)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "adhd"
+        ],
+        "offLabelFor": [],
+        "controlled": {
+          "US": "CII"
+        },
+        "brands": [
+          "Dexedrine Spansule",
+          "ProCentra",
+          "Xelstrym",
+          "Zenzedi"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json"
+      }
+    ],
+    "indicationNames": [
+      "ADHD"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/procentra.json"
+    }
+  }
+}

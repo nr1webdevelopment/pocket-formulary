@@ -1,0 +1,52 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-dpp-4-inhibitor-biguanide",
+    "name": "DPP-4 inhibitor + biguanide",
+    "condition": "diabetes",
+    "medicineCount": 1
+  },
+  "count": 1,
+  "data": [
+    {
+      "id": "janumet",
+      "condition": "diabetes",
+      "brandName": "Janumet",
+      "genericName": "sitagliptin and metformin",
+      "drugClass": "DPP-4 inhibitor + biguanide",
+      "formulation": "Tablet; extended-release tablet (Janumet XR)",
+      "route": "Oral",
+      "dosingFrequency": "Twice daily with meals (XR once daily)",
+      "manufacturer": "Merck",
+      "approvalYear": 2007,
+      "status": "Available",
+      "description": "Combines Januvia with metformin in one tablet.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor-biguanide",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/janumet.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#janumet",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

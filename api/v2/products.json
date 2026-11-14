@@ -1,0 +1,2104 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "count": 185,
+  "data": [
+    {
+      "id": "abilify",
+      "brandName": "Abilify",
+      "ingredients": [
+        "aripiprazole"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/abilify.json"
+    },
+    {
+      "id": "actos",
+      "brandName": "Actos",
+      "ingredients": [
+        "pioglitazone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/actos.json"
+    },
+    {
+      "id": "adderall-xr",
+      "brandName": "Adderall XR",
+      "ingredients": [
+        "mixed-amphetamine-salts"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/adderall-xr.json"
+    },
+    {
+      "id": "adderall",
+      "brandName": "Adderall",
+      "ingredients": [
+        "mixed-amphetamine-salts"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/adderall.json"
+    },
+    {
+      "id": "adzenys-xr-odt",
+      "brandName": "Adzenys XR-ODT",
+      "ingredients": [
+        "amphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release orally disintegrating tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/adzenys-xr-odt.json"
+    },
+    {
+      "id": "afrezza",
+      "brandName": "Afrezza",
+      "ingredients": [
+        "insulin-human"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Inhalation powder (cartridge)",
+      "url": "https://nomadceuticals.com/api/v2/products/afrezza.json"
+    },
+    {
+      "id": "afrin",
+      "brandName": "Afrin",
+      "ingredients": [
+        "oxymetazoline"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/afrin.json"
+    },
+    {
+      "id": "amaryl",
+      "brandName": "Amaryl",
+      "ingredients": [
+        "glimepiride"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/amaryl.json"
+    },
+    {
+      "id": "amoxil",
+      "brandName": "Amoxil",
+      "ingredients": [
+        "amoxicillin"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Capsule; tablet; oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/amoxil.json"
+    },
+    {
+      "id": "antivert",
+      "brandName": "Antivert",
+      "ingredients": [
+        "meclizine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/antivert.json"
+    },
+    {
+      "id": "apidra",
+      "brandName": "Apidra",
+      "ingredients": [
+        "insulin-glulisine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/apidra.json"
+    },
+    {
+      "id": "aplenzin",
+      "brandName": "Aplenzin",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/aplenzin.json"
+    },
+    {
+      "id": "apretude",
+      "brandName": "Apretude",
+      "ingredients": [
+        "cabotegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Intramuscular injection",
+      "url": "https://nomadceuticals.com/api/v2/products/apretude.json"
+    },
+    {
+      "id": "aptensio-xr",
+      "brandName": "Aptensio XR",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/aptensio-xr.json"
+    },
+    {
+      "id": "aptivus",
+      "brandName": "Aptivus",
+      "ingredients": [
+        "tipranavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/aptivus.json"
+    },
+    {
+      "id": "astepro",
+      "brandName": "Astepro",
+      "ingredients": [
+        "azelastine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/astepro.json"
+    },
+    {
+      "id": "atarax",
+      "brandName": "Atarax",
+      "ingredients": [
+        "hydroxyzine"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/atarax.json"
+    },
+    {
+      "id": "ativan",
+      "brandName": "Ativan",
+      "ingredients": [
+        "lorazepam"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/ativan.json"
+    },
+    {
+      "id": "atripla",
+      "brandName": "Atripla",
+      "ingredients": [
+        "efavirenz",
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/atripla.json"
+    },
+    {
+      "id": "auvelity",
+      "brandName": "Auvelity",
+      "ingredients": [
+        "dextromethorphan",
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/auvelity.json"
+    },
+    {
+      "id": "awiqli",
+      "brandName": "Awiqli",
+      "ingredients": [
+        "insulin-icodec"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, 700 units/mL)",
+      "url": "https://nomadceuticals.com/api/v2/products/awiqli.json"
+    },
+    {
+      "id": "azstarys",
+      "brandName": "Azstarys",
+      "ingredients": [
+        "serdexmethylphenidate",
+        "dexmethylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/azstarys.json"
+    },
+    {
+      "id": "baqsimi",
+      "brandName": "Baqsimi",
+      "ingredients": [
+        "glucagon"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal powder",
+      "url": "https://nomadceuticals.com/api/v2/products/baqsimi.json"
+    },
+    {
+      "id": "basaglar",
+      "brandName": "Basaglar",
+      "ingredients": [
+        "insulin-glargine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/basaglar.json"
+    },
+    {
+      "id": "biktarvy",
+      "brandName": "Biktarvy",
+      "ingredients": [
+        "bictegravir",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/biktarvy.json"
+    },
+    {
+      "id": "bixlenvo",
+      "brandName": "Bixlenvo",
+      "ingredients": [
+        "bictegravir",
+        "lenacapavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/bixlenvo.json"
+    },
+    {
+      "id": "brenzavvy",
+      "brandName": "Brenzavvy",
+      "ingredients": [
+        "bexagliflozin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/brenzavvy.json"
+    },
+    {
+      "id": "buspar",
+      "brandName": "Buspar",
+      "ingredients": [
+        "buspirone"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/buspar.json"
+    },
+    {
+      "id": "cabenuva",
+      "brandName": "Cabenuva",
+      "ingredients": [
+        "cabotegravir",
+        "rilpivirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Intramuscular injections",
+      "url": "https://nomadceuticals.com/api/v2/products/cabenuva.json"
+    },
+    {
+      "id": "celexa",
+      "brandName": "Celexa",
+      "ingredients": [
+        "citalopram"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/celexa.json"
+    },
+    {
+      "id": "cetraxal",
+      "brandName": "Cetraxal",
+      "ingredients": [
+        "ciprofloxacin"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Ear drops",
+      "url": "https://nomadceuticals.com/api/v2/products/cetraxal.json"
+    },
+    {
+      "id": "cimduo",
+      "brandName": "Cimduo",
+      "ingredients": [
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/cimduo.json"
+    },
+    {
+      "id": "ciprodex",
+      "brandName": "Ciprodex",
+      "ingredients": [
+        "ciprofloxacin",
+        "dexamethasone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Ear drops (suspension)",
+      "url": "https://nomadceuticals.com/api/v2/products/ciprodex.json"
+    },
+    {
+      "id": "combivir",
+      "brandName": "Combivir",
+      "ingredients": [
+        "lamivudine",
+        "zidovudine"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/combivir.json"
+    },
+    {
+      "id": "complera",
+      "brandName": "Complera",
+      "ingredients": [
+        "emtricitabine",
+        "rilpivirine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/complera.json"
+    },
+    {
+      "id": "concerta",
+      "brandName": "Concerta",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet (OROS)",
+      "url": "https://nomadceuticals.com/api/v2/products/concerta.json"
+    },
+    {
+      "id": "contrave",
+      "brandName": "Contrave",
+      "ingredients": [
+        "naltrexone",
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/contrave.json"
+    },
+    {
+      "id": "cotempla-xr-odt",
+      "brandName": "Cotempla XR-ODT",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release orally disintegrating tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/cotempla-xr-odt.json"
+    },
+    {
+      "id": "cymbalta",
+      "brandName": "Cymbalta",
+      "ingredients": [
+        "duloxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Delayed-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/cymbalta.json"
+    },
+    {
+      "id": "daytrana",
+      "brandName": "Daytrana",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Transdermal patch",
+      "url": "https://nomadceuticals.com/api/v2/products/daytrana.json"
+    },
+    {
+      "id": "delstrigo",
+      "brandName": "Delstrigo",
+      "ingredients": [
+        "doravirine",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/delstrigo.json"
+    },
+    {
+      "id": "descovy",
+      "brandName": "Descovy",
+      "ingredients": [
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/descovy.json"
+    },
+    {
+      "id": "desyrel",
+      "brandName": "Desyrel",
+      "ingredients": [
+        "trazodone"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/desyrel.json"
+    },
+    {
+      "id": "dexedrine-spansule",
+      "brandName": "Dexedrine Spansule",
+      "ingredients": [
+        "dextroamphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/dexedrine-spansule.json"
+    },
+    {
+      "id": "dovato",
+      "brandName": "Dovato",
+      "ingredients": [
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/dovato.json"
+    },
+    {
+      "id": "drizalma-sprinkle",
+      "brandName": "Drizalma Sprinkle",
+      "ingredients": [
+        "duloxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Delayed-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/drizalma-sprinkle.json"
+    },
+    {
+      "id": "dupixent",
+      "brandName": "Dupixent",
+      "ingredients": [
+        "dupilumab"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, prefilled syringe)",
+      "url": "https://nomadceuticals.com/api/v2/products/dupixent.json"
+    },
+    {
+      "id": "dyanavel-xr",
+      "brandName": "Dyanavel XR",
+      "ingredients": [
+        "amphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release oral suspension; tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/dyanavel-xr.json"
+    },
+    {
+      "id": "edurant-ped",
+      "brandName": "Edurant PED",
+      "ingredients": [
+        "rilpivirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet for oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/edurant-ped.json"
+    },
+    {
+      "id": "edurant",
+      "brandName": "Edurant",
+      "ingredients": [
+        "rilpivirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/edurant.json"
+    },
+    {
+      "id": "effexor-xr",
+      "brandName": "Effexor XR",
+      "ingredients": [
+        "venlafaxine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/effexor-xr.json"
+    },
+    {
+      "id": "elavil",
+      "brandName": "Elavil",
+      "ingredients": [
+        "amitriptyline"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/elavil.json"
+    },
+    {
+      "id": "emsam",
+      "brandName": "Emsam",
+      "ingredients": [
+        "selegiline"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Transdermal patch",
+      "url": "https://nomadceuticals.com/api/v2/products/emsam.json"
+    },
+    {
+      "id": "emtriva",
+      "brandName": "Emtriva",
+      "ingredients": [
+        "emtricitabine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/emtriva.json"
+    },
+    {
+      "id": "epivir",
+      "brandName": "Epivir",
+      "ingredients": [
+        "lamivudine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/epivir.json"
+    },
+    {
+      "id": "epzicom",
+      "brandName": "Epzicom",
+      "ingredients": [
+        "abacavir",
+        "lamivudine"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/epzicom.json"
+    },
+    {
+      "id": "evekeo",
+      "brandName": "Evekeo",
+      "ingredients": [
+        "amphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; orally disintegrating tablet (Evekeo ODT)",
+      "url": "https://nomadceuticals.com/api/v2/products/evekeo.json"
+    },
+    {
+      "id": "evotaz",
+      "brandName": "Evotaz",
+      "ingredients": [
+        "atazanavir",
+        "cobicistat"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/evotaz.json"
+    },
+    {
+      "id": "exxua",
+      "brandName": "Exxua",
+      "ingredients": [
+        "gepirone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/exxua.json"
+    },
+    {
+      "id": "farxiga",
+      "brandName": "Farxiga",
+      "ingredients": [
+        "dapagliflozin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/farxiga.json"
+    },
+    {
+      "id": "fetzima",
+      "brandName": "Fetzima",
+      "ingredients": [
+        "levomilnacipran"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/fetzima.json"
+    },
+    {
+      "id": "fiasp",
+      "brandName": "Fiasp",
+      "ingredients": [
+        "insulin-aspart"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial, cartridge)",
+      "url": "https://nomadceuticals.com/api/v2/products/fiasp.json"
+    },
+    {
+      "id": "flonase",
+      "brandName": "Flonase",
+      "ingredients": [
+        "fluticasone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/flonase.json"
+    },
+    {
+      "id": "focalin-xr",
+      "brandName": "Focalin XR",
+      "ingredients": [
+        "dexmethylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/focalin-xr.json"
+    },
+    {
+      "id": "focalin",
+      "brandName": "Focalin",
+      "ingredients": [
+        "dexmethylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/focalin.json"
+    },
+    {
+      "id": "forfivo-xl",
+      "brandName": "Forfivo XL",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet (450 mg)",
+      "url": "https://nomadceuticals.com/api/v2/products/forfivo-xl.json"
+    },
+    {
+      "id": "fuzeon",
+      "brandName": "Fuzeon",
+      "ingredients": [
+        "enfuvirtide"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Subcutaneous injection",
+      "url": "https://nomadceuticals.com/api/v2/products/fuzeon.json"
+    },
+    {
+      "id": "genvoya",
+      "brandName": "Genvoya",
+      "ingredients": [
+        "elvitegravir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/genvoya.json"
+    },
+    {
+      "id": "glucophage",
+      "brandName": "Glucophage",
+      "ingredients": [
+        "metformin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; extended-release tablet (Glucophage XR)",
+      "url": "https://nomadceuticals.com/api/v2/products/glucophage.json"
+    },
+    {
+      "id": "glucotrol",
+      "brandName": "Glucotrol",
+      "ingredients": [
+        "glipizide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; extended-release tablet (Glucotrol XL)",
+      "url": "https://nomadceuticals.com/api/v2/products/glucotrol.json"
+    },
+    {
+      "id": "glyxambi",
+      "brandName": "Glyxambi",
+      "ingredients": [
+        "empagliflozin",
+        "linagliptin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/glyxambi.json"
+    },
+    {
+      "id": "humalog",
+      "brandName": "Humalog",
+      "ingredients": [
+        "insulin-lispro"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial, cartridge)",
+      "url": "https://nomadceuticals.com/api/v2/products/humalog.json"
+    },
+    {
+      "id": "humulin-n",
+      "brandName": "Humulin N",
+      "ingredients": [
+        "insulin-isophane-human"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (vial, pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/humulin-n.json"
+    },
+    {
+      "id": "humulin-r",
+      "brandName": "Humulin R",
+      "ingredients": [
+        "insulin-human"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (vial, pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/humulin-r.json"
+    },
+    {
+      "id": "idvynso",
+      "brandName": "Idvynso",
+      "ingredients": [
+        "doravirine",
+        "islatravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/idvynso.json"
+    },
+    {
+      "id": "inderal",
+      "brandName": "Inderal",
+      "ingredients": [
+        "propranolol"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/inderal.json"
+    },
+    {
+      "id": "intelence",
+      "brandName": "Intelence",
+      "ingredients": [
+        "etravirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/intelence.json"
+    },
+    {
+      "id": "intuniv",
+      "brandName": "Intuniv",
+      "ingredients": [
+        "guanfacine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/intuniv.json"
+    },
+    {
+      "id": "invokana",
+      "brandName": "Invokana",
+      "ingredients": [
+        "canagliflozin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/invokana.json"
+    },
+    {
+      "id": "isentress-hd",
+      "brandName": "Isentress HD",
+      "ingredients": [
+        "raltegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet (600 mg)",
+      "url": "https://nomadceuticals.com/api/v2/products/isentress-hd.json"
+    },
+    {
+      "id": "isentress",
+      "brandName": "Isentress",
+      "ingredients": [
+        "raltegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; chewable tablet; oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/isentress.json"
+    },
+    {
+      "id": "janumet",
+      "brandName": "Janumet",
+      "ingredients": [
+        "sitagliptin",
+        "metformin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; extended-release tablet (Janumet XR)",
+      "url": "https://nomadceuticals.com/api/v2/products/janumet.json"
+    },
+    {
+      "id": "januvia",
+      "brandName": "Januvia",
+      "ingredients": [
+        "sitagliptin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/januvia.json"
+    },
+    {
+      "id": "jardiance",
+      "brandName": "Jardiance",
+      "ingredients": [
+        "empagliflozin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/jardiance.json"
+    },
+    {
+      "id": "jornay-pm",
+      "brandName": "Jornay PM",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Delayed-release/extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/jornay-pm.json"
+    },
+    {
+      "id": "juluca",
+      "brandName": "Juluca",
+      "ingredients": [
+        "dolutegravir",
+        "rilpivirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/juluca.json"
+    },
+    {
+      "id": "kaletra",
+      "brandName": "Kaletra",
+      "ingredients": [
+        "lopinavir",
+        "ritonavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/kaletra.json"
+    },
+    {
+      "id": "kapvay",
+      "brandName": "Kapvay",
+      "ingredients": [
+        "clonidine"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/kapvay.json"
+    },
+    {
+      "id": "klonopin",
+      "brandName": "Klonopin",
+      "ingredients": [
+        "clonazepam"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/klonopin.json"
+    },
+    {
+      "id": "lantus",
+      "brandName": "Lantus",
+      "ingredients": [
+        "insulin-glargine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/lantus.json"
+    },
+    {
+      "id": "levemir",
+      "brandName": "Levemir",
+      "ingredients": [
+        "insulin-detemir"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/levemir.json"
+    },
+    {
+      "id": "lexapro",
+      "brandName": "Lexapro",
+      "ingredients": [
+        "escitalopram"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/lexapro.json"
+    },
+    {
+      "id": "lexiva",
+      "brandName": "Lexiva",
+      "ingredients": [
+        "fosamprenavir"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet; oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/lexiva.json"
+    },
+    {
+      "id": "lyumjev",
+      "brandName": "Lyumjev",
+      "ingredients": [
+        "insulin-lispro"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/lyumjev.json"
+    },
+    {
+      "id": "mounjaro",
+      "brandName": "Mounjaro",
+      "ingredients": [
+        "tirzepatide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (single-dose pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/mounjaro.json"
+    },
+    {
+      "id": "mydayis",
+      "brandName": "Mydayis",
+      "ingredients": [
+        "mixed-amphetamine-salts"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/mydayis.json"
+    },
+    {
+      "id": "nardil",
+      "brandName": "Nardil",
+      "ingredients": [
+        "phenelzine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/nardil.json"
+    },
+    {
+      "id": "nasonex",
+      "brandName": "Nasonex",
+      "ingredients": [
+        "mometasone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/nasonex.json"
+    },
+    {
+      "id": "nesina",
+      "brandName": "Nesina",
+      "ingredients": [
+        "alogliptin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/nesina.json"
+    },
+    {
+      "id": "norvir",
+      "brandName": "Norvir",
+      "ingredients": [
+        "ritonavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral powder; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/norvir.json"
+    },
+    {
+      "id": "novolog",
+      "brandName": "NovoLog",
+      "ingredients": [
+        "insulin-aspart"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial, cartridge)",
+      "url": "https://nomadceuticals.com/api/v2/products/novolog.json"
+    },
+    {
+      "id": "odefsey",
+      "brandName": "Odefsey",
+      "ingredients": [
+        "emtricitabine",
+        "rilpivirine",
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/odefsey.json"
+    },
+    {
+      "id": "ofloxacin-otic",
+      "brandName": "Ofloxacin Otic",
+      "ingredients": [
+        "ofloxacin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Ear drops",
+      "url": "https://nomadceuticals.com/api/v2/products/ofloxacin-otic.json"
+    },
+    {
+      "id": "onglyza",
+      "brandName": "Onglyza",
+      "ingredients": [
+        "saxagliptin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/onglyza.json"
+    },
+    {
+      "id": "onyda-xr",
+      "brandName": "Onyda XR",
+      "ingredients": [
+        "clonidine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/onyda-xr.json"
+    },
+    {
+      "id": "ozempic",
+      "brandName": "Ozempic",
+      "ingredients": [
+        "semaglutide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/ozempic.json"
+    },
+    {
+      "id": "pamelor",
+      "brandName": "Pamelor",
+      "ingredients": [
+        "nortriptyline"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/pamelor.json"
+    },
+    {
+      "id": "paxil",
+      "brandName": "Paxil",
+      "ingredients": [
+        "paroxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/paxil.json"
+    },
+    {
+      "id": "pexeva",
+      "brandName": "Pexeva",
+      "ingredients": [
+        "paroxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/pexeva.json"
+    },
+    {
+      "id": "pifeltro",
+      "brandName": "Pifeltro",
+      "ingredients": [
+        "doravirine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/pifeltro.json"
+    },
+    {
+      "id": "prezcobix-ped",
+      "brandName": "Prezcobix PED",
+      "ingredients": [
+        "darunavir",
+        "cobicistat"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/prezcobix-ped.json"
+    },
+    {
+      "id": "prezcobix",
+      "brandName": "Prezcobix",
+      "ingredients": [
+        "darunavir",
+        "cobicistat"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/prezcobix.json"
+    },
+    {
+      "id": "prezista",
+      "brandName": "Prezista",
+      "ingredients": [
+        "darunavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/prezista.json"
+    },
+    {
+      "id": "pristiq",
+      "brandName": "Pristiq",
+      "ingredients": [
+        "desvenlafaxine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/pristiq.json"
+    },
+    {
+      "id": "procentra",
+      "brandName": "ProCentra",
+      "ingredients": [
+        "dextroamphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/procentra.json"
+    },
+    {
+      "id": "prozac",
+      "brandName": "Prozac",
+      "ingredients": [
+        "fluoxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/prozac.json"
+    },
+    {
+      "id": "qelbree",
+      "brandName": "Qelbree",
+      "ingredients": [
+        "viloxazine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/qelbree.json"
+    },
+    {
+      "id": "quillichew-er",
+      "brandName": "QuilliChew ER",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release chewable tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/quillichew-er.json"
+    },
+    {
+      "id": "quillivant-xr",
+      "brandName": "Quillivant XR",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/quillivant-xr.json"
+    },
+    {
+      "id": "remeron-soltab",
+      "brandName": "Remeron SolTab",
+      "ingredients": [
+        "mirtazapine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Orally disintegrating tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/remeron-soltab.json"
+    },
+    {
+      "id": "remeron",
+      "brandName": "Remeron",
+      "ingredients": [
+        "mirtazapine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/remeron.json"
+    },
+    {
+      "id": "retrovir",
+      "brandName": "Retrovir",
+      "ingredients": [
+        "zidovudine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; capsule; syrup; IV infusion",
+      "url": "https://nomadceuticals.com/api/v2/products/retrovir.json"
+    },
+    {
+      "id": "rexulti",
+      "brandName": "Rexulti",
+      "ingredients": [
+        "brexpiprazole"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/rexulti.json"
+    },
+    {
+      "id": "reyataz",
+      "brandName": "Reyataz",
+      "ingredients": [
+        "atazanavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; oral powder",
+      "url": "https://nomadceuticals.com/api/v2/products/reyataz.json"
+    },
+    {
+      "id": "ritalin-la",
+      "brandName": "Ritalin LA",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/ritalin-la.json"
+    },
+    {
+      "id": "ritalin",
+      "brandName": "Ritalin",
+      "ingredients": [
+        "methylphenidate"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/ritalin.json"
+    },
+    {
+      "id": "rukobia",
+      "brandName": "Rukobia",
+      "ingredients": [
+        "fostemsavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/rukobia.json"
+    },
+    {
+      "id": "rybelsus",
+      "brandName": "Rybelsus (Ozempic pill)",
+      "ingredients": [
+        "semaglutide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/rybelsus.json"
+    },
+    {
+      "id": "selzentry",
+      "brandName": "Selzentry",
+      "ingredients": [
+        "maraviroc"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/selzentry.json"
+    },
+    {
+      "id": "semglee",
+      "brandName": "Semglee",
+      "ingredients": [
+        "insulin-glargine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/semglee.json"
+    },
+    {
+      "id": "seroquel-xr",
+      "brandName": "Seroquel XR",
+      "ingredients": [
+        "quetiapine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/seroquel-xr.json"
+    },
+    {
+      "id": "simtriyo",
+      "brandName": "Simtriyo",
+      "ingredients": [
+        "centanafadine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/simtriyo.json"
+    },
+    {
+      "id": "soliqua-100-33",
+      "brandName": "Soliqua 100/33",
+      "ingredients": [
+        "insulin-glargine",
+        "lixisenatide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/soliqua-100-33.json"
+    },
+    {
+      "id": "spravato",
+      "brandName": "Spravato",
+      "ingredients": [
+        "esketamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/spravato.json"
+    },
+    {
+      "id": "steglatro",
+      "brandName": "Steglatro",
+      "ingredients": [
+        "ertugliflozin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/steglatro.json"
+    },
+    {
+      "id": "strattera",
+      "brandName": "Strattera",
+      "ingredients": [
+        "atomoxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/strattera.json"
+    },
+    {
+      "id": "stribild",
+      "brandName": "Stribild",
+      "ingredients": [
+        "elvitegravir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/stribild.json"
+    },
+    {
+      "id": "sunlenca",
+      "brandName": "Sunlenca",
+      "ingredients": [
+        "lenacapavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; subcutaneous injection",
+      "url": "https://nomadceuticals.com/api/v2/products/sunlenca.json"
+    },
+    {
+      "id": "sustiva",
+      "brandName": "Sustiva",
+      "ingredients": [
+        "efavirenz"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet; capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/sustiva.json"
+    },
+    {
+      "id": "symfi-lo",
+      "brandName": "Symfi Lo",
+      "ingredients": [
+        "efavirenz",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/symfi-lo.json"
+    },
+    {
+      "id": "symfi",
+      "brandName": "Symfi",
+      "ingredients": [
+        "efavirenz",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/symfi.json"
+    },
+    {
+      "id": "symlin",
+      "brandName": "Symlin",
+      "ingredients": [
+        "pramlintide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/symlin.json"
+    },
+    {
+      "id": "symtuza",
+      "brandName": "Symtuza",
+      "ingredients": [
+        "darunavir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/symtuza.json"
+    },
+    {
+      "id": "synjardy",
+      "brandName": "Synjardy",
+      "ingredients": [
+        "empagliflozin",
+        "metformin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; extended-release tablet (Synjardy XR)",
+      "url": "https://nomadceuticals.com/api/v2/products/synjardy.json"
+    },
+    {
+      "id": "tivicay-pd",
+      "brandName": "Tivicay PD",
+      "ingredients": [
+        "dolutegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet for oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/tivicay-pd.json"
+    },
+    {
+      "id": "tivicay",
+      "brandName": "Tivicay",
+      "ingredients": [
+        "dolutegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/tivicay.json"
+    },
+    {
+      "id": "toujeo",
+      "brandName": "Toujeo",
+      "ingredients": [
+        "insulin-glargine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/toujeo.json"
+    },
+    {
+      "id": "tradjenta",
+      "brandName": "Tradjenta",
+      "ingredients": [
+        "linagliptin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/tradjenta.json"
+    },
+    {
+      "id": "tresiba",
+      "brandName": "Tresiba",
+      "ingredients": [
+        "insulin-degludec"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen, vial)",
+      "url": "https://nomadceuticals.com/api/v2/products/tresiba.json"
+    },
+    {
+      "id": "trintellix",
+      "brandName": "Trintellix",
+      "ingredients": [
+        "vortioxetine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/trintellix.json"
+    },
+    {
+      "id": "triumeq-pd",
+      "brandName": "Triumeq PD",
+      "ingredients": [
+        "abacavir",
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet for oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/triumeq-pd.json"
+    },
+    {
+      "id": "triumeq",
+      "brandName": "Triumeq",
+      "ingredients": [
+        "abacavir",
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/triumeq.json"
+    },
+    {
+      "id": "trizivir",
+      "brandName": "Trizivir",
+      "ingredients": [
+        "abacavir",
+        "lamivudine",
+        "zidovudine"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/trizivir.json"
+    },
+    {
+      "id": "trogarzo",
+      "brandName": "Trogarzo",
+      "ingredients": [
+        "ibalizumab"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Intravenous infusion or IV push",
+      "url": "https://nomadceuticals.com/api/v2/products/trogarzo.json"
+    },
+    {
+      "id": "trulicity",
+      "brandName": "Trulicity",
+      "ingredients": [
+        "dulaglutide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (single-dose pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/trulicity.json"
+    },
+    {
+      "id": "truvada",
+      "brandName": "Truvada",
+      "ingredients": [
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/truvada.json"
+    },
+    {
+      "id": "tybost",
+      "brandName": "Tybost",
+      "ingredients": [
+        "cobicistat"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/tybost.json"
+    },
+    {
+      "id": "tzield",
+      "brandName": "Tzield",
+      "ingredients": [
+        "teplizumab"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "IV infusion",
+      "url": "https://nomadceuticals.com/api/v2/products/tzield.json"
+    },
+    {
+      "id": "valium",
+      "brandName": "Valium",
+      "ingredients": [
+        "diazepam"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/valium.json"
+    },
+    {
+      "id": "vemlidy",
+      "brandName": "Vemlidy",
+      "ingredients": [
+        "tenofovir-alafenamide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/vemlidy.json"
+    },
+    {
+      "id": "victoza",
+      "brandName": "Victoza",
+      "ingredients": [
+        "liraglutide"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Injection (pen)",
+      "url": "https://nomadceuticals.com/api/v2/products/victoza.json"
+    },
+    {
+      "id": "viibryd",
+      "brandName": "Viibryd",
+      "ingredients": [
+        "vilazodone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/viibryd.json"
+    },
+    {
+      "id": "viramune-xr",
+      "brandName": "Viramune XR",
+      "ingredients": [
+        "nevirapine"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/viramune-xr.json"
+    },
+    {
+      "id": "viramune",
+      "brandName": "Viramune",
+      "ingredients": [
+        "nevirapine"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "Tablet; oral suspension",
+      "url": "https://nomadceuticals.com/api/v2/products/viramune.json"
+    },
+    {
+      "id": "viread",
+      "brandName": "Viread",
+      "ingredients": [
+        "tenofovir-disoproxil"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral powder",
+      "url": "https://nomadceuticals.com/api/v2/products/viread.json"
+    },
+    {
+      "id": "vistaril",
+      "brandName": "Vistaril",
+      "ingredients": [
+        "hydroxyzine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/vistaril.json"
+    },
+    {
+      "id": "vivitrol",
+      "brandName": "Vivitrol",
+      "ingredients": [
+        "naltrexone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release injectable suspension (monthly)",
+      "url": "https://nomadceuticals.com/api/v2/products/vivitrol.json"
+    },
+    {
+      "id": "vocabria",
+      "brandName": "Vocabria",
+      "ingredients": [
+        "cabotegravir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/vocabria.json"
+    },
+    {
+      "id": "vraylar",
+      "brandName": "Vraylar",
+      "ingredients": [
+        "cariprazine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/vraylar.json"
+    },
+    {
+      "id": "vyvanse",
+      "brandName": "Vyvanse",
+      "ingredients": [
+        "lisdexamfetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule; chewable tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/vyvanse.json"
+    },
+    {
+      "id": "wellbutrin-sr",
+      "brandName": "Wellbutrin SR",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Sustained-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/wellbutrin-sr.json"
+    },
+    {
+      "id": "wellbutrin-xl",
+      "brandName": "Wellbutrin XL",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet (24-hour)",
+      "url": "https://nomadceuticals.com/api/v2/products/wellbutrin-xl.json"
+    },
+    {
+      "id": "xanax-xr",
+      "brandName": "Xanax XR",
+      "ingredients": [
+        "alprazolam"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/xanax-xr.json"
+    },
+    {
+      "id": "xanax",
+      "brandName": "Xanax",
+      "ingredients": [
+        "alprazolam"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/xanax.json"
+    },
+    {
+      "id": "xelstrym",
+      "brandName": "Xelstrym",
+      "ingredients": [
+        "dextroamphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Transdermal patch",
+      "url": "https://nomadceuticals.com/api/v2/products/xelstrym.json"
+    },
+    {
+      "id": "xhance",
+      "brandName": "Xhance",
+      "ingredients": [
+        "fluticasone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Nasal spray",
+      "url": "https://nomadceuticals.com/api/v2/products/xhance.json"
+    },
+    {
+      "id": "xigduo-xr",
+      "brandName": "Xigduo XR",
+      "ingredients": [
+        "dapagliflozin",
+        "metformin"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Extended-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/xigduo-xr.json"
+    },
+    {
+      "id": "yeztugo",
+      "brandName": "Yeztugo",
+      "ingredients": [
+        "lenacapavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Subcutaneous injection (with oral initiation)",
+      "url": "https://nomadceuticals.com/api/v2/products/yeztugo.json"
+    },
+    {
+      "id": "zenzedi",
+      "brandName": "Zenzedi",
+      "ingredients": [
+        "dextroamphetamine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/zenzedi.json"
+    },
+    {
+      "id": "ziagen",
+      "brandName": "Ziagen",
+      "ingredients": [
+        "abacavir"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/ziagen.json"
+    },
+    {
+      "id": "zoloft",
+      "brandName": "Zoloft",
+      "ingredients": [
+        "sertraline"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/zoloft.json"
+    },
+    {
+      "id": "zulresso",
+      "brandName": "Zulresso",
+      "ingredients": [
+        "brexanolone"
+      ],
+      "jurisdiction": "US",
+      "status": "discontinued",
+      "form": "IV infusion",
+      "url": "https://nomadceuticals.com/api/v2/products/zulresso.json"
+    },
+    {
+      "id": "zurzuvae",
+      "brandName": "Zurzuvae",
+      "ingredients": [
+        "zuranolone"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Capsule",
+      "url": "https://nomadceuticals.com/api/v2/products/zurzuvae.json"
+    },
+    {
+      "id": "zyban",
+      "brandName": "Zyban",
+      "ingredients": [
+        "bupropion"
+      ],
+      "jurisdiction": "US",
+      "status": "unknown",
+      "form": "Sustained-release tablet",
+      "url": "https://nomadceuticals.com/api/v2/products/zyban.json"
+    },
+    {
+      "id": "zyrtec",
+      "brandName": "Zyrtec",
+      "ingredients": [
+        "cetirizine"
+      ],
+      "jurisdiction": "US",
+      "status": "available",
+      "form": "Tablet; oral solution",
+      "url": "https://nomadceuticals.com/api/v2/products/zyrtec.json"
+    }
+  ]
+}

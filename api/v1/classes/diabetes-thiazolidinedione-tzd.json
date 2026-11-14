@@ -1,0 +1,52 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-thiazolidinedione-tzd",
+    "name": "Thiazolidinedione (TZD)",
+    "condition": "diabetes",
+    "medicineCount": 1
+  },
+  "count": 1,
+  "data": [
+    {
+      "id": "actos",
+      "condition": "diabetes",
+      "brandName": "Actos",
+      "genericName": "pioglitazone",
+      "drugClass": "Thiazolidinedione (TZD)",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Takeda",
+      "approvalYear": 1999,
+      "status": "Available",
+      "description": "Improves the body's sensitivity to insulin.",
+      "notes": "Not recommended for people with heart failure.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: thiazolidinedione",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-thiazolidinedione-tzd",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/actos.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json",
+        "website": "https://nomadceuticals.com/#actos",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

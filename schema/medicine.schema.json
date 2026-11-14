@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/nr1webdevelopment/pocket-formulary/schema/medicine.schema.json",
+  "title": "Medicine",
+  "description": "An FDA-approved medicine. Condition-specific fields live in `attributes`.",
+  "type": "object",
+  "required": ["id", "condition", "brandName", "genericName", "drugClass", "status", "sourceUrl"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable slug, also used by the website (index.html#<id>)."},
+    "condition": {"enum": ["hiv", "adhd", "diabetes"]},
+    "brandName": {"type": "string", "minLength": 1},
+    "genericName": {"type": "string", "minLength": 1},
+    "drugClass": {"type": "string"},
+    "formulation": {"type": ["string", "null"]},
+    "route": {"type": ["string", "null"]},
+    "dosingFrequency": {"type": ["string", "null"]},
+    "manufacturer": {"type": ["string", "null"]},
+    "approvalYear": {"type": ["integer", "null"], "minimum": 1900, "maximum": 2100},
+    "approvalDate": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "status": {"type": "string"},
+    "description": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]},
+    "sourceUrl": {"type": "string", "pattern": "^https?://"},
+    "attributes": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean", "null"]}}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/index.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "description": "Ingredient-centred medicine library: approval status per country, approved and off-label uses, controlled status, and brands. Static JSON, GET only, no key.",
+    "counts": {
+      "ingredients": 117,
+      "products": 185,
+      "conditions": 21,
+      "fdaStatus": {
+        "approved": 116,
+        "otc_monograph": 1
+      },
+      "review": {
+        "unverified": 115,
+        "verified": 2
+      }
+    },
+    "endpoints": {
+      "ingredients": "https://nomadceuticals.com/api/v2/ingredients.json",
+      "ingredient": "https://nomadceuticals.com/api/v2/ingredients/{id}.json",
+      "products": "https://nomadceuticals.com/api/v2/products.json",
+      "product": "https://nomadceuticals.com/api/v2/products/{id}.json",
+      "conditions": "https://nomadceuticals.com/api/v2/conditions.json",
+      "condition": "https://nomadceuticals.com/api/v2/conditions/{id}.json",
+      "search": "https://nomadceuticals.com/api/v2/search.json",
+      "openapi": "https://nomadceuticals.com/api/v2/openapi.json",
+      "bulk": "https://nomadceuticals.com/dist/v2/library.json",
+      "v1": "https://nomadceuticals.com/api/v1/index.json"
+    },
+    "schemas": {
+      "ingredient": "https://nomadceuticals.com/schema/v2/ingredient.schema.json",
+      "product": "https://nomadceuticals.com/schema/v2/product.schema.json",
+      "condition": "https://nomadceuticals.com/schema/v2/condition.schema.json"
+    }
+  }
+}

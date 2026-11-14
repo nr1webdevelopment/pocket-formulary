@@ -1,0 +1,52 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-once-weekly-basal-insulin",
+    "name": "Once-weekly basal insulin",
+    "condition": "diabetes",
+    "medicineCount": 1
+  },
+  "count": 1,
+  "data": [
+    {
+      "id": "awiqli",
+      "condition": "diabetes",
+      "brandName": "Awiqli",
+      "genericName": "insulin icodec-abae",
+      "drugClass": "Once-weekly basal insulin",
+      "formulation": "Injection (pen, 700 units/mL)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2026,
+      "status": "Available",
+      "description": "The first once-weekly basal insulin, approved March 2026.",
+      "notes": "Adults with type 2 diabetes only. New in 2026.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-once-weekly-basal-insulin",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/awiqli.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json",
+        "website": "https://nomadceuticals.com/#awiqli",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

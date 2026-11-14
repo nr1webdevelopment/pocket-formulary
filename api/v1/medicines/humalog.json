@@ -1,0 +1,85 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/humalog.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "apidra",
+      "brandName": "Apidra",
+      "genericName": "insulin glulisine",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/apidra.json"
+    },
+    {
+      "id": "fiasp",
+      "brandName": "Fiasp",
+      "genericName": "insulin aspart (faster-acting)",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/fiasp.json"
+    },
+    {
+      "id": "lyumjev",
+      "brandName": "Lyumjev",
+      "genericName": "insulin lispro-aabc",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/lyumjev.json"
+    },
+    {
+      "id": "novolog",
+      "brandName": "NovoLog",
+      "genericName": "insulin aspart",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/novolog.json"
+    }
+  ],
+  "data": {
+    "id": "humalog",
+    "condition": "diabetes",
+    "brandName": "Humalog",
+    "genericName": "insulin lispro",
+    "drugClass": "Rapid-acting insulin analog",
+    "formulation": "Injection (pen, vial, cartridge)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "With meals",
+    "manufacturer": "Eli Lilly",
+    "approvalYear": 1996,
+    "status": "Available",
+    "description": "The first rapid-acting insulin analog, taken at mealtimes.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Insulin: rapid-acting",
+      "diabetesType": "Type 1 and type 2"
+    },
+    "classId": "diabetes-rapid-acting-insulin-analog",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/humalog.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+      "website": "https://nomadceuticals.com/#humalog",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

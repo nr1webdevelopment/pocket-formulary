@@ -1,0 +1,3751 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/search.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "legend": {
+    "t": "i = ingredient, p = product",
+    "n": "name",
+    "s": "synonyms",
+    "f": "US FDA status",
+    "a": "approved for (condition ids)",
+    "o": "used off-label for",
+    "b": "brand names",
+    "i": "ingredient ids",
+    "j": "jurisdiction",
+    "st": "product status"
+  },
+  "count": 302,
+  "data": [
+    {
+      "t": "i",
+      "id": "abacavir",
+      "n": "abacavir",
+      "s": [
+        "ABC"
+      ],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Epzicom",
+        "Triumeq",
+        "Triumeq PD",
+        "Trizivir",
+        "Ziagen"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "alogliptin",
+      "n": "alogliptin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Nesina"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "alprazolam",
+      "n": "alprazolam",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Xanax",
+        "Xanax XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "amitriptyline",
+      "n": "amitriptyline",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Elavil"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "amoxicillin",
+      "n": "amoxicillin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "otitis-media",
+        "pharyngitis"
+      ],
+      "o": [],
+      "b": [
+        "Amoxil"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "amphetamine",
+      "n": "amphetamine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Adzenys XR-ODT",
+        "Dyanavel XR",
+        "Evekeo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "aripiprazole",
+      "n": "aripiprazole",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Abilify"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "atazanavir",
+      "n": "atazanavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Evotaz",
+        "Reyataz"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "atomoxetine",
+      "n": "atomoxetine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Strattera"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "azelastine",
+      "n": "azelastine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "allergic-rhinitis"
+      ],
+      "o": [],
+      "b": [
+        "Astepro"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "bexagliflozin",
+      "n": "bexagliflozin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Brenzavvy"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "bictegravir",
+      "n": "bictegravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Biktarvy",
+        "Bixlenvo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "brexanolone",
+      "n": "brexanolone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "postpartum-depression"
+      ],
+      "o": [],
+      "b": [
+        "Zulresso"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "brexpiprazole",
+      "n": "brexpiprazole",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Rexulti"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "bupropion",
+      "n": "bupropion",
+      "s": [
+        "bupropion hydrochloride",
+        "bupropion hydrobromide (Aplenzin)",
+        "amfebutamone"
+      ],
+      "f": "approved",
+      "a": [
+        "alzheimers-agitation",
+        "depression",
+        "seasonal-affective-disorder",
+        "smoking-cessation",
+        "weight-management"
+      ],
+      "o": [
+        "adhd"
+      ],
+      "b": [
+        "Aplenzin",
+        "Auvelity",
+        "Contrave",
+        "Forfivo XL",
+        "Wellbutrin SR",
+        "Wellbutrin XL",
+        "Zyban"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "buspirone",
+      "n": "buspirone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Buspar"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "cabotegravir",
+      "n": "cabotegravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Apretude",
+        "Cabenuva",
+        "Vocabria"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "canagliflozin",
+      "n": "canagliflozin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Invokana"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "cariprazine",
+      "n": "cariprazine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Vraylar"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "centanafadine",
+      "n": "centanafadine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Simtriyo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "cetirizine",
+      "n": "cetirizine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "allergic-rhinitis",
+        "urticaria"
+      ],
+      "o": [],
+      "b": [
+        "Zyrtec"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ciprofloxacin",
+      "n": "ciprofloxacin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "o": [],
+      "b": [
+        "Cetraxal",
+        "Ciprodex"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "citalopram",
+      "n": "citalopram",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [
+        "anxiety"
+      ],
+      "b": [
+        "Celexa"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "clonazepam",
+      "n": "clonazepam",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Klonopin"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "clonidine",
+      "n": "clonidine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Kapvay",
+        "Onyda XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "cobicistat",
+      "n": "cobicistat",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Evotaz",
+        "Genvoya",
+        "Prezcobix",
+        "Prezcobix PED",
+        "Stribild",
+        "Symtuza",
+        "Tybost"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dapagliflozin",
+      "n": "dapagliflozin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Farxiga",
+        "Xigduo XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "darunavir",
+      "n": "darunavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Prezcobix",
+        "Prezcobix PED",
+        "Prezista",
+        "Symtuza"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "desvenlafaxine",
+      "n": "desvenlafaxine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Pristiq"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dexamethasone",
+      "n": "dexamethasone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "o": [],
+      "b": [
+        "Ciprodex"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dexmethylphenidate",
+      "n": "dexmethylphenidate",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Azstarys",
+        "Focalin",
+        "Focalin XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dextroamphetamine",
+      "n": "dextroamphetamine",
+      "s": [
+        "dexamfetamine"
+      ],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Dexedrine Spansule",
+        "ProCentra",
+        "Xelstrym",
+        "Zenzedi"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dextromethorphan",
+      "n": "dextromethorphan",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "alzheimers-agitation",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Auvelity"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "diazepam",
+      "n": "diazepam",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Valium"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dolutegravir",
+      "n": "dolutegravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Dovato",
+        "Juluca",
+        "Tivicay",
+        "Tivicay PD",
+        "Triumeq",
+        "Triumeq PD"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "doravirine",
+      "n": "doravirine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Delstrigo",
+        "Idvynso",
+        "Pifeltro"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dulaglutide",
+      "n": "dulaglutide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Trulicity"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "duloxetine",
+      "n": "duloxetine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Cymbalta",
+        "Drizalma Sprinkle"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "dupilumab",
+      "n": "dupilumab",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "nasal-polyps"
+      ],
+      "o": [],
+      "b": [
+        "Dupixent"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "efavirenz",
+      "n": "efavirenz",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Atripla",
+        "Sustiva",
+        "Symfi",
+        "Symfi Lo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "elvitegravir",
+      "n": "elvitegravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Genvoya",
+        "Stribild"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "empagliflozin",
+      "n": "empagliflozin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Glyxambi",
+        "Jardiance",
+        "Synjardy"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "emtricitabine",
+      "n": "emtricitabine",
+      "s": [
+        "FTC"
+      ],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Atripla",
+        "Biktarvy",
+        "Complera",
+        "Descovy",
+        "Emtriva",
+        "Genvoya",
+        "Odefsey",
+        "Stribild",
+        "Symtuza",
+        "Truvada"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "enfuvirtide",
+      "n": "enfuvirtide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Fuzeon"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ertugliflozin",
+      "n": "ertugliflozin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Steglatro"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "escitalopram",
+      "n": "escitalopram",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Lexapro"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "esketamine",
+      "n": "esketamine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Spravato"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "etravirine",
+      "n": "etravirine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Intelence"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "fluoxetine",
+      "n": "fluoxetine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Prozac"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "fluticasone",
+      "n": "fluticasone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "allergic-rhinitis",
+        "nasal-polyps"
+      ],
+      "o": [],
+      "b": [
+        "Flonase",
+        "Xhance"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "fosamprenavir",
+      "n": "fosamprenavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Lexiva"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "fostemsavir",
+      "n": "fostemsavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Rukobia"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "gepirone",
+      "n": "gepirone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Exxua"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "glimepiride",
+      "n": "glimepiride",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Amaryl"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "glipizide",
+      "n": "glipizide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Glucotrol"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "glucagon",
+      "n": "glucagon",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Baqsimi"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "guanfacine",
+      "n": "guanfacine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Intuniv"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "hydroxyzine",
+      "n": "hydroxyzine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Atarax",
+        "Vistaril"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ibalizumab",
+      "n": "ibalizumab",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Trogarzo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-aspart",
+      "n": "insulin aspart",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Fiasp",
+        "NovoLog"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-degludec",
+      "n": "insulin degludec",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Tresiba"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-detemir",
+      "n": "insulin detemir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Levemir"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-glargine",
+      "n": "insulin glargine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Basaglar",
+        "Lantus",
+        "Semglee",
+        "Soliqua 100/33",
+        "Toujeo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-glulisine",
+      "n": "insulin glulisine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Apidra"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-human",
+      "n": "insulin human",
+      "s": [
+        "regular insulin",
+        "human insulin"
+      ],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Afrezza",
+        "Humulin R"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-icodec",
+      "n": "insulin icodec",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Awiqli"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-isophane-human",
+      "n": "insulin isophane human",
+      "s": [
+        "NPH insulin",
+        "isophane insulin"
+      ],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Humulin N"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "insulin-lispro",
+      "n": "insulin lispro",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Humalog",
+        "Lyumjev"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "islatravir",
+      "n": "islatravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Idvynso"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lamivudine",
+      "n": "lamivudine",
+      "s": [
+        "3TC"
+      ],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Cimduo",
+        "Combivir",
+        "Delstrigo",
+        "Dovato",
+        "Epivir",
+        "Epzicom",
+        "Symfi",
+        "Symfi Lo",
+        "Triumeq",
+        "Triumeq PD",
+        "Trizivir"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lenacapavir",
+      "n": "lenacapavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Bixlenvo",
+        "Sunlenca",
+        "Yeztugo"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "levomilnacipran",
+      "n": "levomilnacipran",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Fetzima"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "linagliptin",
+      "n": "linagliptin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Glyxambi",
+        "Tradjenta"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "liraglutide",
+      "n": "liraglutide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Victoza"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lisdexamfetamine",
+      "n": "lisdexamfetamine",
+      "s": [
+        "lisdexamfetamine dimesylate"
+      ],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Vyvanse"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lixisenatide",
+      "n": "lixisenatide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Soliqua 100/33"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lopinavir",
+      "n": "lopinavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Kaletra"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "lorazepam",
+      "n": "lorazepam",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety"
+      ],
+      "o": [],
+      "b": [
+        "Ativan"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "maraviroc",
+      "n": "maraviroc",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Selzentry"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "meclizine",
+      "n": "meclizine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "vertigo"
+      ],
+      "o": [],
+      "b": [
+        "Antivert"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "metformin",
+      "n": "metformin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Glucophage",
+        "Janumet",
+        "Synjardy",
+        "Xigduo XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "methylphenidate",
+      "n": "methylphenidate",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Aptensio XR",
+        "Concerta",
+        "Cotempla XR-ODT",
+        "Daytrana",
+        "Jornay PM",
+        "QuilliChew ER",
+        "Quillivant XR",
+        "Ritalin",
+        "Ritalin LA"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "mirtazapine",
+      "n": "mirtazapine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [
+        "anxiety"
+      ],
+      "b": [
+        "Remeron",
+        "Remeron SolTab"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "mixed-amphetamine-salts",
+      "n": "mixed amphetamine salts",
+      "s": [
+        "dextroamphetamine and amphetamine",
+        "amphetamine aspartate, amphetamine sulfate, dextroamphetamine saccharate, dextroamphetamine sulfate"
+      ],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Adderall",
+        "Adderall XR",
+        "Mydayis"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "mometasone",
+      "n": "mometasone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "allergic-rhinitis",
+        "nasal-polyps"
+      ],
+      "o": [],
+      "b": [
+        "Nasonex"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "naltrexone",
+      "n": "naltrexone",
+      "s": [
+        "naltrexone hydrochloride"
+      ],
+      "f": "approved",
+      "a": [
+        "alcohol-use-disorder",
+        "opioid-use-disorder",
+        "weight-management"
+      ],
+      "o": [],
+      "b": [
+        "Contrave",
+        "Vivitrol"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "nevirapine",
+      "n": "nevirapine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Viramune",
+        "Viramune XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "nortriptyline",
+      "n": "nortriptyline",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Pamelor"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ofloxacin",
+      "n": "ofloxacin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "otitis-externa",
+        "otitis-media"
+      ],
+      "o": [],
+      "b": [
+        "Ofloxacin Otic"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "oxymetazoline",
+      "n": "oxymetazoline",
+      "s": [],
+      "f": "otc_monograph",
+      "a": [
+        "nasal-congestion"
+      ],
+      "o": [],
+      "b": [
+        "Afrin"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "paroxetine",
+      "n": "paroxetine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Paxil",
+        "Pexeva"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "phenelzine",
+      "n": "phenelzine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [
+        "anxiety"
+      ],
+      "b": [
+        "Nardil"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "pioglitazone",
+      "n": "pioglitazone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Actos"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "pramlintide",
+      "n": "pramlintide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Symlin"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "propranolol",
+      "n": "propranolol",
+      "s": [],
+      "f": "approved",
+      "a": [],
+      "o": [
+        "anxiety"
+      ],
+      "b": [
+        "Inderal"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "quetiapine",
+      "n": "quetiapine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Seroquel XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "raltegravir",
+      "n": "raltegravir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Isentress",
+        "Isentress HD"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "rilpivirine",
+      "n": "rilpivirine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Cabenuva",
+        "Complera",
+        "Edurant",
+        "Edurant PED",
+        "Juluca",
+        "Odefsey"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "ritonavir",
+      "n": "ritonavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Kaletra",
+        "Norvir"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "saxagliptin",
+      "n": "saxagliptin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Onglyza"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "selegiline",
+      "n": "selegiline",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Emsam"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "semaglutide",
+      "n": "semaglutide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Ozempic",
+        "Rybelsus (Ozempic pill)"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "serdexmethylphenidate",
+      "n": "serdexmethylphenidate",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Azstarys"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "sertraline",
+      "n": "sertraline",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Zoloft"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "sitagliptin",
+      "n": "sitagliptin",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Janumet",
+        "Januvia"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "tenofovir-alafenamide",
+      "n": "tenofovir alafenamide",
+      "s": [
+        "TAF"
+      ],
+      "f": "approved",
+      "a": [
+        "hepatitis-b",
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Biktarvy",
+        "Descovy",
+        "Genvoya",
+        "Odefsey",
+        "Symtuza",
+        "Vemlidy"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "tenofovir-disoproxil",
+      "n": "tenofovir disoproxil",
+      "s": [
+        "tenofovir disoproxil fumarate",
+        "TDF"
+      ],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Atripla",
+        "Cimduo",
+        "Complera",
+        "Delstrigo",
+        "Stribild",
+        "Symfi",
+        "Symfi Lo",
+        "Truvada",
+        "Viread"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "teplizumab",
+      "n": "teplizumab",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Tzield"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "tipranavir",
+      "n": "tipranavir",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Aptivus"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "tirzepatide",
+      "n": "tirzepatide",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "diabetes"
+      ],
+      "o": [],
+      "b": [
+        "Mounjaro"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "trazodone",
+      "n": "trazodone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Desyrel"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "venlafaxine",
+      "n": "venlafaxine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "anxiety",
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Effexor XR"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "vilazodone",
+      "n": "vilazodone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Viibryd"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "viloxazine",
+      "n": "viloxazine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "adhd"
+      ],
+      "o": [],
+      "b": [
+        "Qelbree"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "vortioxetine",
+      "n": "vortioxetine",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "depression"
+      ],
+      "o": [],
+      "b": [
+        "Trintellix"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "zidovudine",
+      "n": "zidovudine",
+      "s": [
+        "AZT",
+        "ZDV"
+      ],
+      "f": "approved",
+      "a": [
+        "hiv"
+      ],
+      "o": [],
+      "b": [
+        "Combivir",
+        "Retrovir",
+        "Trizivir"
+      ]
+    },
+    {
+      "t": "i",
+      "id": "zuranolone",
+      "n": "zuranolone",
+      "s": [],
+      "f": "approved",
+      "a": [
+        "postpartum-depression"
+      ],
+      "o": [],
+      "b": [
+        "Zurzuvae"
+      ]
+    },
+    {
+      "t": "p",
+      "id": "abilify",
+      "n": "Abilify",
+      "i": [
+        "aripiprazole"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "actos",
+      "n": "Actos",
+      "i": [
+        "pioglitazone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "adderall-xr",
+      "n": "Adderall XR",
+      "i": [
+        "mixed-amphetamine-salts"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "adderall",
+      "n": "Adderall",
+      "i": [
+        "mixed-amphetamine-salts"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "adzenys-xr-odt",
+      "n": "Adzenys XR-ODT",
+      "i": [
+        "amphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "afrezza",
+      "n": "Afrezza",
+      "i": [
+        "insulin-human"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "afrin",
+      "n": "Afrin",
+      "i": [
+        "oxymetazoline"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "amaryl",
+      "n": "Amaryl",
+      "i": [
+        "glimepiride"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "amoxil",
+      "n": "Amoxil",
+      "i": [
+        "amoxicillin"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "antivert",
+      "n": "Antivert",
+      "i": [
+        "meclizine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "apidra",
+      "n": "Apidra",
+      "i": [
+        "insulin-glulisine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "aplenzin",
+      "n": "Aplenzin",
+      "i": [
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "apretude",
+      "n": "Apretude",
+      "i": [
+        "cabotegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "aptensio-xr",
+      "n": "Aptensio XR",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "aptivus",
+      "n": "Aptivus",
+      "i": [
+        "tipranavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "astepro",
+      "n": "Astepro",
+      "i": [
+        "azelastine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "atarax",
+      "n": "Atarax",
+      "i": [
+        "hydroxyzine"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "ativan",
+      "n": "Ativan",
+      "i": [
+        "lorazepam"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "atripla",
+      "n": "Atripla",
+      "i": [
+        "efavirenz",
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "auvelity",
+      "n": "Auvelity",
+      "i": [
+        "dextromethorphan",
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "awiqli",
+      "n": "Awiqli",
+      "i": [
+        "insulin-icodec"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "azstarys",
+      "n": "Azstarys",
+      "i": [
+        "serdexmethylphenidate",
+        "dexmethylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "baqsimi",
+      "n": "Baqsimi",
+      "i": [
+        "glucagon"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "basaglar",
+      "n": "Basaglar",
+      "i": [
+        "insulin-glargine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "biktarvy",
+      "n": "Biktarvy",
+      "i": [
+        "bictegravir",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "bixlenvo",
+      "n": "Bixlenvo",
+      "i": [
+        "bictegravir",
+        "lenacapavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "brenzavvy",
+      "n": "Brenzavvy",
+      "i": [
+        "bexagliflozin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "buspar",
+      "n": "Buspar",
+      "i": [
+        "buspirone"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "cabenuva",
+      "n": "Cabenuva",
+      "i": [
+        "cabotegravir",
+        "rilpivirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "celexa",
+      "n": "Celexa",
+      "i": [
+        "citalopram"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "cetraxal",
+      "n": "Cetraxal",
+      "i": [
+        "ciprofloxacin"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "cimduo",
+      "n": "Cimduo",
+      "i": [
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ciprodex",
+      "n": "Ciprodex",
+      "i": [
+        "ciprofloxacin",
+        "dexamethasone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "combivir",
+      "n": "Combivir",
+      "i": [
+        "lamivudine",
+        "zidovudine"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "complera",
+      "n": "Complera",
+      "i": [
+        "emtricitabine",
+        "rilpivirine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "concerta",
+      "n": "Concerta",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "contrave",
+      "n": "Contrave",
+      "i": [
+        "naltrexone",
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "cotempla-xr-odt",
+      "n": "Cotempla XR-ODT",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "cymbalta",
+      "n": "Cymbalta",
+      "i": [
+        "duloxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "daytrana",
+      "n": "Daytrana",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "delstrigo",
+      "n": "Delstrigo",
+      "i": [
+        "doravirine",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "descovy",
+      "n": "Descovy",
+      "i": [
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "desyrel",
+      "n": "Desyrel",
+      "i": [
+        "trazodone"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "dexedrine-spansule",
+      "n": "Dexedrine Spansule",
+      "i": [
+        "dextroamphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "dovato",
+      "n": "Dovato",
+      "i": [
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "drizalma-sprinkle",
+      "n": "Drizalma Sprinkle",
+      "i": [
+        "duloxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "dupixent",
+      "n": "Dupixent",
+      "i": [
+        "dupilumab"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "dyanavel-xr",
+      "n": "Dyanavel XR",
+      "i": [
+        "amphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "edurant-ped",
+      "n": "Edurant PED",
+      "i": [
+        "rilpivirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "edurant",
+      "n": "Edurant",
+      "i": [
+        "rilpivirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "effexor-xr",
+      "n": "Effexor XR",
+      "i": [
+        "venlafaxine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "elavil",
+      "n": "Elavil",
+      "i": [
+        "amitriptyline"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "emsam",
+      "n": "Emsam",
+      "i": [
+        "selegiline"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "emtriva",
+      "n": "Emtriva",
+      "i": [
+        "emtricitabine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "epivir",
+      "n": "Epivir",
+      "i": [
+        "lamivudine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "epzicom",
+      "n": "Epzicom",
+      "i": [
+        "abacavir",
+        "lamivudine"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "evekeo",
+      "n": "Evekeo",
+      "i": [
+        "amphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "evotaz",
+      "n": "Evotaz",
+      "i": [
+        "atazanavir",
+        "cobicistat"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "exxua",
+      "n": "Exxua",
+      "i": [
+        "gepirone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "farxiga",
+      "n": "Farxiga",
+      "i": [
+        "dapagliflozin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "fetzima",
+      "n": "Fetzima",
+      "i": [
+        "levomilnacipran"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "fiasp",
+      "n": "Fiasp",
+      "i": [
+        "insulin-aspart"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "flonase",
+      "n": "Flonase",
+      "i": [
+        "fluticasone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "focalin-xr",
+      "n": "Focalin XR",
+      "i": [
+        "dexmethylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "focalin",
+      "n": "Focalin",
+      "i": [
+        "dexmethylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "forfivo-xl",
+      "n": "Forfivo XL",
+      "i": [
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "fuzeon",
+      "n": "Fuzeon",
+      "i": [
+        "enfuvirtide"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "genvoya",
+      "n": "Genvoya",
+      "i": [
+        "elvitegravir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "glucophage",
+      "n": "Glucophage",
+      "i": [
+        "metformin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "glucotrol",
+      "n": "Glucotrol",
+      "i": [
+        "glipizide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "glyxambi",
+      "n": "Glyxambi",
+      "i": [
+        "empagliflozin",
+        "linagliptin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "humalog",
+      "n": "Humalog",
+      "i": [
+        "insulin-lispro"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "humulin-n",
+      "n": "Humulin N",
+      "i": [
+        "insulin-isophane-human"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "humulin-r",
+      "n": "Humulin R",
+      "i": [
+        "insulin-human"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "idvynso",
+      "n": "Idvynso",
+      "i": [
+        "doravirine",
+        "islatravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "inderal",
+      "n": "Inderal",
+      "i": [
+        "propranolol"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "intelence",
+      "n": "Intelence",
+      "i": [
+        "etravirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "intuniv",
+      "n": "Intuniv",
+      "i": [
+        "guanfacine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "invokana",
+      "n": "Invokana",
+      "i": [
+        "canagliflozin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "isentress-hd",
+      "n": "Isentress HD",
+      "i": [
+        "raltegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "isentress",
+      "n": "Isentress",
+      "i": [
+        "raltegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "janumet",
+      "n": "Janumet",
+      "i": [
+        "sitagliptin",
+        "metformin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "januvia",
+      "n": "Januvia",
+      "i": [
+        "sitagliptin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "jardiance",
+      "n": "Jardiance",
+      "i": [
+        "empagliflozin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "jornay-pm",
+      "n": "Jornay PM",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "juluca",
+      "n": "Juluca",
+      "i": [
+        "dolutegravir",
+        "rilpivirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "kaletra",
+      "n": "Kaletra",
+      "i": [
+        "lopinavir",
+        "ritonavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "kapvay",
+      "n": "Kapvay",
+      "i": [
+        "clonidine"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "klonopin",
+      "n": "Klonopin",
+      "i": [
+        "clonazepam"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "lantus",
+      "n": "Lantus",
+      "i": [
+        "insulin-glargine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "levemir",
+      "n": "Levemir",
+      "i": [
+        "insulin-detemir"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "lexapro",
+      "n": "Lexapro",
+      "i": [
+        "escitalopram"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "lexiva",
+      "n": "Lexiva",
+      "i": [
+        "fosamprenavir"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "lyumjev",
+      "n": "Lyumjev",
+      "i": [
+        "insulin-lispro"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "mounjaro",
+      "n": "Mounjaro",
+      "i": [
+        "tirzepatide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "mydayis",
+      "n": "Mydayis",
+      "i": [
+        "mixed-amphetamine-salts"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "nardil",
+      "n": "Nardil",
+      "i": [
+        "phenelzine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "nasonex",
+      "n": "Nasonex",
+      "i": [
+        "mometasone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "nesina",
+      "n": "Nesina",
+      "i": [
+        "alogliptin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "norvir",
+      "n": "Norvir",
+      "i": [
+        "ritonavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "novolog",
+      "n": "NovoLog",
+      "i": [
+        "insulin-aspart"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "odefsey",
+      "n": "Odefsey",
+      "i": [
+        "emtricitabine",
+        "rilpivirine",
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ofloxacin-otic",
+      "n": "Ofloxacin Otic",
+      "i": [
+        "ofloxacin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "onglyza",
+      "n": "Onglyza",
+      "i": [
+        "saxagliptin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "onyda-xr",
+      "n": "Onyda XR",
+      "i": [
+        "clonidine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ozempic",
+      "n": "Ozempic",
+      "i": [
+        "semaglutide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "pamelor",
+      "n": "Pamelor",
+      "i": [
+        "nortriptyline"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "paxil",
+      "n": "Paxil",
+      "i": [
+        "paroxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "pexeva",
+      "n": "Pexeva",
+      "i": [
+        "paroxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "pifeltro",
+      "n": "Pifeltro",
+      "i": [
+        "doravirine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "prezcobix-ped",
+      "n": "Prezcobix PED",
+      "i": [
+        "darunavir",
+        "cobicistat"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "prezcobix",
+      "n": "Prezcobix",
+      "i": [
+        "darunavir",
+        "cobicistat"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "prezista",
+      "n": "Prezista",
+      "i": [
+        "darunavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "pristiq",
+      "n": "Pristiq",
+      "i": [
+        "desvenlafaxine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "procentra",
+      "n": "ProCentra",
+      "i": [
+        "dextroamphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "prozac",
+      "n": "Prozac",
+      "i": [
+        "fluoxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "qelbree",
+      "n": "Qelbree",
+      "i": [
+        "viloxazine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "quillichew-er",
+      "n": "QuilliChew ER",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "quillivant-xr",
+      "n": "Quillivant XR",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "remeron-soltab",
+      "n": "Remeron SolTab",
+      "i": [
+        "mirtazapine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "remeron",
+      "n": "Remeron",
+      "i": [
+        "mirtazapine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "retrovir",
+      "n": "Retrovir",
+      "i": [
+        "zidovudine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "rexulti",
+      "n": "Rexulti",
+      "i": [
+        "brexpiprazole"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "reyataz",
+      "n": "Reyataz",
+      "i": [
+        "atazanavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ritalin-la",
+      "n": "Ritalin LA",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ritalin",
+      "n": "Ritalin",
+      "i": [
+        "methylphenidate"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "rukobia",
+      "n": "Rukobia",
+      "i": [
+        "fostemsavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "rybelsus",
+      "n": "Rybelsus (Ozempic pill)",
+      "i": [
+        "semaglutide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "selzentry",
+      "n": "Selzentry",
+      "i": [
+        "maraviroc"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "semglee",
+      "n": "Semglee",
+      "i": [
+        "insulin-glargine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "seroquel-xr",
+      "n": "Seroquel XR",
+      "i": [
+        "quetiapine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "simtriyo",
+      "n": "Simtriyo",
+      "i": [
+        "centanafadine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "soliqua-100-33",
+      "n": "Soliqua 100/33",
+      "i": [
+        "insulin-glargine",
+        "lixisenatide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "spravato",
+      "n": "Spravato",
+      "i": [
+        "esketamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "steglatro",
+      "n": "Steglatro",
+      "i": [
+        "ertugliflozin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "strattera",
+      "n": "Strattera",
+      "i": [
+        "atomoxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "stribild",
+      "n": "Stribild",
+      "i": [
+        "elvitegravir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "sunlenca",
+      "n": "Sunlenca",
+      "i": [
+        "lenacapavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "sustiva",
+      "n": "Sustiva",
+      "i": [
+        "efavirenz"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "symfi-lo",
+      "n": "Symfi Lo",
+      "i": [
+        "efavirenz",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "symfi",
+      "n": "Symfi",
+      "i": [
+        "efavirenz",
+        "lamivudine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "symlin",
+      "n": "Symlin",
+      "i": [
+        "pramlintide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "symtuza",
+      "n": "Symtuza",
+      "i": [
+        "darunavir",
+        "cobicistat",
+        "emtricitabine",
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "synjardy",
+      "n": "Synjardy",
+      "i": [
+        "empagliflozin",
+        "metformin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "tivicay-pd",
+      "n": "Tivicay PD",
+      "i": [
+        "dolutegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "tivicay",
+      "n": "Tivicay",
+      "i": [
+        "dolutegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "toujeo",
+      "n": "Toujeo",
+      "i": [
+        "insulin-glargine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "tradjenta",
+      "n": "Tradjenta",
+      "i": [
+        "linagliptin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "tresiba",
+      "n": "Tresiba",
+      "i": [
+        "insulin-degludec"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "trintellix",
+      "n": "Trintellix",
+      "i": [
+        "vortioxetine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "triumeq-pd",
+      "n": "Triumeq PD",
+      "i": [
+        "abacavir",
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "triumeq",
+      "n": "Triumeq",
+      "i": [
+        "abacavir",
+        "dolutegravir",
+        "lamivudine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "trizivir",
+      "n": "Trizivir",
+      "i": [
+        "abacavir",
+        "lamivudine",
+        "zidovudine"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "trogarzo",
+      "n": "Trogarzo",
+      "i": [
+        "ibalizumab"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "trulicity",
+      "n": "Trulicity",
+      "i": [
+        "dulaglutide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "truvada",
+      "n": "Truvada",
+      "i": [
+        "emtricitabine",
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "tybost",
+      "n": "Tybost",
+      "i": [
+        "cobicistat"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "tzield",
+      "n": "Tzield",
+      "i": [
+        "teplizumab"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "valium",
+      "n": "Valium",
+      "i": [
+        "diazepam"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vemlidy",
+      "n": "Vemlidy",
+      "i": [
+        "tenofovir-alafenamide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "victoza",
+      "n": "Victoza",
+      "i": [
+        "liraglutide"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "viibryd",
+      "n": "Viibryd",
+      "i": [
+        "vilazodone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "viramune-xr",
+      "n": "Viramune XR",
+      "i": [
+        "nevirapine"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "viramune",
+      "n": "Viramune",
+      "i": [
+        "nevirapine"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "viread",
+      "n": "Viread",
+      "i": [
+        "tenofovir-disoproxil"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vistaril",
+      "n": "Vistaril",
+      "i": [
+        "hydroxyzine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vivitrol",
+      "n": "Vivitrol",
+      "i": [
+        "naltrexone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vocabria",
+      "n": "Vocabria",
+      "i": [
+        "cabotegravir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vraylar",
+      "n": "Vraylar",
+      "i": [
+        "cariprazine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "vyvanse",
+      "n": "Vyvanse",
+      "i": [
+        "lisdexamfetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "wellbutrin-sr",
+      "n": "Wellbutrin SR",
+      "i": [
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "wellbutrin-xl",
+      "n": "Wellbutrin XL",
+      "i": [
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "xanax-xr",
+      "n": "Xanax XR",
+      "i": [
+        "alprazolam"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "xanax",
+      "n": "Xanax",
+      "i": [
+        "alprazolam"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "xelstrym",
+      "n": "Xelstrym",
+      "i": [
+        "dextroamphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "xhance",
+      "n": "Xhance",
+      "i": [
+        "fluticasone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "xigduo-xr",
+      "n": "Xigduo XR",
+      "i": [
+        "dapagliflozin",
+        "metformin"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "yeztugo",
+      "n": "Yeztugo",
+      "i": [
+        "lenacapavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "zenzedi",
+      "n": "Zenzedi",
+      "i": [
+        "dextroamphetamine"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "ziagen",
+      "n": "Ziagen",
+      "i": [
+        "abacavir"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "zoloft",
+      "n": "Zoloft",
+      "i": [
+        "sertraline"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "zulresso",
+      "n": "Zulresso",
+      "i": [
+        "brexanolone"
+      ],
+      "j": "US",
+      "st": "discontinued"
+    },
+    {
+      "t": "p",
+      "id": "zurzuvae",
+      "n": "Zurzuvae",
+      "i": [
+        "zuranolone"
+      ],
+      "j": "US",
+      "st": "available"
+    },
+    {
+      "t": "p",
+      "id": "zyban",
+      "n": "Zyban",
+      "i": [
+        "bupropion"
+      ],
+      "j": "US",
+      "st": "unknown"
+    },
+    {
+      "t": "p",
+      "id": "zyrtec",
+      "n": "Zyrtec",
+      "i": [
+        "cetirizine"
+      ],
+      "j": "US",
+      "st": "available"
+    }
+  ]
+}

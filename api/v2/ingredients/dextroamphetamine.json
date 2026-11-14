@@ -1,0 +1,127 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "dextroamphetamine",
+    "name": "dextroamphetamine",
+    "synonyms": [
+      "dexamfetamine"
+    ],
+    "kind": "drug",
+    "classes": [
+      {
+        "name": "CNS stimulant (amphetamine)",
+        "system": "nomad"
+      }
+    ],
+    "ids": {
+      "rxcui": null,
+      "unii": []
+    },
+    "approvals": [
+      {
+        "jurisdiction": "US",
+        "regulator": "FDA",
+        "status": "approved",
+        "checked": "2026-11-12",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    ],
+    "uses": [
+      {
+        "condition": "adhd",
+        "type": "approved",
+        "jurisdiction": "US",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "conditionName": "ADHD"
+      }
+    ],
+    "controlled": [
+      {
+        "jurisdiction": "US",
+        "schedule": "CII",
+        "source": "https://www.deadiversion.usdoj.gov/schedules/orangebook/c_cs_alpha.pdf"
+      }
+    ],
+    "summary": null,
+    "tier": "curated",
+    "review": {
+      "status": "unverified",
+      "checked": "2026-11-12",
+      "by": null,
+      "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+    },
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dextroamphetamine",
+        "title": "DailyMed labels for dextroamphetamine",
+        "type": "label"
+      }
+    ],
+    "fda": {
+      "status": "approved",
+      "label": "FDA approved",
+      "approvedElsewhere": []
+    },
+    "products": [
+      {
+        "id": "dexedrine-spansule",
+        "brandName": "Dexedrine Spansule",
+        "ingredients": [
+          "dextroamphetamine"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release capsule",
+        "url": "https://nomadceuticals.com/api/v2/products/dexedrine-spansule.json"
+      },
+      {
+        "id": "procentra",
+        "brandName": "ProCentra",
+        "ingredients": [
+          "dextroamphetamine"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Oral solution",
+        "url": "https://nomadceuticals.com/api/v2/products/procentra.json"
+      },
+      {
+        "id": "xelstrym",
+        "brandName": "Xelstrym",
+        "ingredients": [
+          "dextroamphetamine"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Transdermal patch",
+        "url": "https://nomadceuticals.com/api/v2/products/xelstrym.json"
+      },
+      {
+        "id": "zenzedi",
+        "brandName": "Zenzedi",
+        "ingredients": [
+          "dextroamphetamine"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/zenzedi.json"
+      }
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/ingredients/dextroamphetamine.json",
+      "website": "https://nomadceuticals.com/#ingredient/dextroamphetamine"
+    }
+  }
+}

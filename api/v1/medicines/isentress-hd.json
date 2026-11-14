@@ -1,0 +1,102 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "apretude",
+      "brandName": "Apretude",
+      "genericName": "cabotegravir (extended-release injection)",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/apretude.json"
+    },
+    {
+      "id": "isentress",
+      "brandName": "Isentress",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress.json"
+    },
+    {
+      "id": "tivicay",
+      "brandName": "Tivicay",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay.json"
+    },
+    {
+      "id": "tivicay-pd",
+      "brandName": "Tivicay PD",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay-pd.json"
+    },
+    {
+      "id": "vocabria",
+      "brandName": "Vocabria",
+      "genericName": "cabotegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vocabria.json"
+    }
+  ],
+  "data": {
+    "id": "isentress-hd",
+    "condition": "hiv",
+    "brandName": "Isentress HD",
+    "genericName": "raltegravir",
+    "drugClass": "INSTI",
+    "route": "Oral",
+    "formulation": "Tablet (600 mg)",
+    "dosingFrequency": "Once daily (two tablets)",
+    "manufacturer": "Merck",
+    "approvalDate": "2017-05-26",
+    "approvalYear": 2017,
+    "status": "Available",
+    "description": "High-dose raltegravir allowing once-daily dosing.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "RAL",
+      "componentClasses": "INSTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-insti",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+      "website": "https://nomadceuticals.com/#isentress-hd",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

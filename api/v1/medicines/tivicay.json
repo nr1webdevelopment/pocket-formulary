@@ -1,0 +1,102 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/tivicay.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "apretude",
+      "brandName": "Apretude",
+      "genericName": "cabotegravir (extended-release injection)",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/apretude.json"
+    },
+    {
+      "id": "isentress",
+      "brandName": "Isentress",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress.json"
+    },
+    {
+      "id": "isentress-hd",
+      "brandName": "Isentress HD",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json"
+    },
+    {
+      "id": "tivicay-pd",
+      "brandName": "Tivicay PD",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay-pd.json"
+    },
+    {
+      "id": "vocabria",
+      "brandName": "Vocabria",
+      "genericName": "cabotegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vocabria.json"
+    }
+  ],
+  "data": {
+    "id": "tivicay",
+    "condition": "hiv",
+    "brandName": "Tivicay",
+    "genericName": "dolutegravir",
+    "drugClass": "INSTI",
+    "route": "Oral",
+    "formulation": "Tablet",
+    "dosingFrequency": "Once daily (twice daily in some cases)",
+    "manufacturer": "ViiV Healthcare",
+    "approvalDate": "2013-08-12",
+    "approvalYear": 2013,
+    "status": "Available",
+    "description": "Integrase inhibitor with a high barrier to resistance; a core of many first-line regimens.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "DTG",
+      "componentClasses": "INSTI",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-insti",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/tivicay.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-insti.json",
+      "website": "https://nomadceuticals.com/#tivicay",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

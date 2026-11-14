@@ -1,0 +1,118 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/contrave.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "contrave",
+    "jurisdiction": "US",
+    "route": "Oral",
+    "dosingFrequency": null,
+    "manufacturer": "Nalpropion Pharmaceuticals",
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "controlled": null,
+    "description": "Combination of naltrexone and bupropion for long-term weight management in adults with obesity, or overweight with a weight-related condition, alongside diet and exercise.",
+    "notes": null,
+    "attributes": {},
+    "brandName": "Contrave",
+    "ingredients": [
+      "naltrexone",
+      "bupropion"
+    ],
+    "status": "available",
+    "form": "Extended-release tablet",
+    "indications": [
+      "weight-management"
+    ],
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+        "title": "Contrave label (DailyMed)",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "naltrexone",
+        "name": "naltrexone",
+        "kind": "drug",
+        "classes": [
+          "Opioid antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "alcohol-use-disorder",
+          "opioid-use-disorder",
+          "weight-management"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Contrave",
+          "Vivitrol"
+        ],
+        "tier": "curated",
+        "review": "verified",
+        "usesComplete": true,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/naltrexone.json"
+      },
+      {
+        "id": "bupropion",
+        "name": "bupropion",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant (NDRI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "alzheimers-agitation",
+          "depression",
+          "seasonal-affective-disorder",
+          "smoking-cessation",
+          "weight-management"
+        ],
+        "offLabelFor": [
+          "adhd"
+        ],
+        "controlled": {},
+        "brands": [
+          "Aplenzin",
+          "Auvelity",
+          "Contrave",
+          "Forfivo XL",
+          "Wellbutrin SR",
+          "Wellbutrin XL",
+          "Zyban"
+        ],
+        "tier": "curated",
+        "review": "verified",
+        "usesComplete": true,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
+      }
+    ],
+    "indicationNames": [
+      "Chronic weight management"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/contrave.json"
+    }
+  }
+}

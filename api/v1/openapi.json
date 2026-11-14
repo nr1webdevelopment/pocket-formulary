@@ -1,0 +1,710 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NomadCeuticals Medicines API",
+    "version": "v1 (data 2.0.0)",
+    "description": "Free, read-only API of FDA-approved medicines for HIV, ADHD and diabetes. Static JSON files: GET only, no authentication. Paths end in .json. For general reference only, not medical advice.",
+    "license": {
+      "name": "CC BY 4.0 (data)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "contact": {
+      "url": "https://github.com/nr1webdevelopment/pocket-formulary"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://nomadceuticals.com/api/v1"
+    }
+  ],
+  "paths": {
+    "/index.json": {
+      "get": {
+        "summary": "API root",
+        "operationId": "getIndex",
+        "responses": {
+          "200": {
+            "description": "Versions, counts and endpoint list",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/medicines.json": {
+      "get": {
+        "summary": "List medicines",
+        "operationId": "listMedicines",
+        "responses": {
+          "200": {
+            "description": "Every medicine (summary fields)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/MedicineSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/medicines/{id}.json": {
+      "get": {
+        "summary": "Get a medicine",
+        "operationId": "getMedicine",
+        "responses": {
+          "200": {
+            "description": "One medicine with related medicines in the same class",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "$ref": "#/components/schemas/Medicine"
+                    },
+                    "related": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/MedicineSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "example": "biktarvy"
+          }
+        ]
+      }
+    },
+    "/conditions.json": {
+      "get": {
+        "summary": "List conditions",
+        "operationId": "listConditions",
+        "responses": {
+          "200": {
+            "description": "hiv, adhd and diabetes with counts",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Condition"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/conditions/{condition}.json": {
+      "get": {
+        "summary": "Medicines for a condition",
+        "operationId": "getCondition",
+        "responses": {
+          "200": {
+            "description": "Every medicine for one condition (full records)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Medicine"
+                      }
+                    },
+                    "condition": {
+                      "$ref": "#/components/schemas/Condition"
+                    },
+                    "classes": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "condition",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "enum": [
+                "adhd",
+                "diabetes",
+                "hiv"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "/classes.json": {
+      "get": {
+        "summary": "List drug classes",
+        "operationId": "listClasses",
+        "responses": {
+          "200": {
+            "description": "Every drug class with counts",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/DrugClass"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/classes/{classId}.json": {
+      "get": {
+        "summary": "Medicines in a drug class",
+        "operationId": "getClass",
+        "responses": {
+          "200": {
+            "description": "Every medicine in one class (full records)",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "api": {
+                      "type": "string"
+                    },
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "released": {
+                      "type": "string",
+                      "format": "date"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "attribution": {
+                      "type": "string"
+                    },
+                    "disclaimer": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Medicine"
+                      }
+                    },
+                    "drugClass": {
+                      "$ref": "#/components/schemas/DrugClass"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "classId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "enum": [
+                "adhd-alpha-2-adrenergic-agonist",
+                "adhd-alpha-2a-adrenergic-agonist",
+                "adhd-cns-stimulant-amphetamine",
+                "adhd-cns-stimulant-methylphenidate",
+                "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
+                "adhd-selective-norepinephrine-reuptake-inhibitor",
+                "diabetes-amylin-analog",
+                "diabetes-anti-cd3-monoclonal-antibody",
+                "diabetes-basal-insulin-glp-1-receptor-agonist",
+                "diabetes-biguanide",
+                "diabetes-dpp-4-inhibitor",
+                "diabetes-dpp-4-inhibitor-biguanide",
+                "diabetes-dual-gip-and-glp-1-receptor-agonist",
+                "diabetes-glp-1-receptor-agonist",
+                "diabetes-glucagon-hypoglycemia-rescue",
+                "diabetes-inhaled-rapid-acting-insulin",
+                "diabetes-intermediate-acting-human-insulin",
+                "diabetes-long-acting-insulin-analog",
+                "diabetes-long-acting-insulin-analog-biosimilar",
+                "diabetes-once-weekly-basal-insulin",
+                "diabetes-rapid-acting-insulin-analog",
+                "diabetes-sglt2-inhibitor",
+                "diabetes-sglt2-inhibitor-biguanide",
+                "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
+                "diabetes-short-acting-human-insulin",
+                "diabetes-sulfonylurea",
+                "diabetes-thiazolidinedione-tzd",
+                "diabetes-ultra-long-acting-insulin-analog",
+                "hiv-attachment-inhibitor",
+                "hiv-capsid-inhibitor",
+                "hiv-ccr5-antagonist",
+                "hiv-combination",
+                "hiv-fusion-inhibitor",
+                "hiv-insti",
+                "hiv-nnrti",
+                "hiv-nrti",
+                "hiv-pharmacokinetic-enhancer",
+                "hiv-pi",
+                "hiv-post-attachment-inhibitor"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "MedicineSummary": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "brandName": {
+            "type": "string"
+          },
+          "genericName": {
+            "type": "string"
+          },
+          "condition": {
+            "enum": [
+              "adhd",
+              "diabetes",
+              "hiv"
+            ]
+          },
+          "drugClass": {
+            "type": "string"
+          },
+          "classId": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          }
+        }
+      },
+      "Medicine": {
+        "description": "Full record. Fields follow https://nomadceuticals.com/schema/medicine.schema.json, plus classId and links.",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "condition": {
+            "enum": [
+              "adhd",
+              "diabetes",
+              "hiv"
+            ]
+          },
+          "brandName": {
+            "type": "string"
+          },
+          "genericName": {
+            "type": "string"
+          },
+          "drugClass": {
+            "type": "string"
+          },
+          "classId": {
+            "type": "string"
+          },
+          "formulation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "route": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "dosingFrequency": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "manufacturer": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "approvalYear": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "approvalDate": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sourceUrl": {
+            "type": "string"
+          },
+          "attributes": {
+            "type": "object"
+          },
+          "links": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Condition": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "enum": [
+              "adhd",
+              "diabetes",
+              "hiv"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "medicineCount": {
+            "type": "integer"
+          },
+          "classCount": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "DrugClass": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "condition": {
+            "enum": [
+              "adhd",
+              "diabetes",
+              "hiv"
+            ]
+          },
+          "medicineCount": {
+            "type": "integer"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

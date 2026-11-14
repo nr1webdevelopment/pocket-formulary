@@ -1,0 +1,44 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "baqsimi",
+    "condition": "diabetes",
+    "brandName": "Baqsimi",
+    "genericName": "glucagon (nasal)",
+    "drugClass": "Glucagon (hypoglycemia rescue)",
+    "formulation": "Nasal powder",
+    "route": "Nasal",
+    "dosingFrequency": "One dose as needed for severe low blood sugar",
+    "manufacturer": "Amphastar",
+    "approvalYear": 2019,
+    "status": "Available",
+    "description": "The first needle-free emergency treatment for severe low blood sugar.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Other",
+      "diabetesType": "Type 1 and type 2"
+    },
+    "classId": "diabetes-glucagon-hypoglycemia-rescue",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json",
+      "website": "https://nomadceuticals.com/#baqsimi",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

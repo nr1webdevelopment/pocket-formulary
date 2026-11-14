@@ -1,0 +1,543 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "NomadCeuticals Medicine Library API",
+    "version": "v2 (data 2.0.0)",
+    "description": "Ingredient-centred medicine library with approval status per country, approved and off-label uses, controlled status and brands. Static JSON files: GET only, no authentication. Not medical advice.",
+    "license": {
+      "name": "CC BY 4.0 (data)",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "contact": {
+      "url": "https://github.com/nr1webdevelopment/pocket-formulary"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://nomadceuticals.com/api/v2"
+    }
+  ],
+  "paths": {
+    "/index.json": {
+      "get": {
+        "operationId": "getIndex",
+        "summary": "API root",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/ingredients.json": {
+      "get": {
+        "operationId": "listIngredients",
+        "summary": "Every ingredient (summary)",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/IngredientSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/ingredients/{id}.json": {
+      "get": {
+        "operationId": "getIngredient",
+        "summary": "One ingredient with uses, approvals and products",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "example": "bupropion"
+          }
+        ]
+      }
+    },
+    "/products.json": {
+      "get": {
+        "operationId": "listProducts",
+        "summary": "Every product (summary)",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/ProductSummary"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/products/{id}.json": {
+      "get": {
+        "operationId": "getProduct",
+        "summary": "One product with its ingredients",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "example": "wellbutrin-xl"
+          }
+        ]
+      }
+    },
+    "/conditions.json": {
+      "get": {
+        "operationId": "listConditions",
+        "summary": "Every condition",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    },
+    "/conditions/{id}.json": {
+      "get": {
+        "operationId": "getCondition",
+        "summary": "Ingredients approved or used off-label for a condition",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "object",
+                      "properties": {
+                        "approved": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/IngredientSummary"
+                          }
+                        },
+                        "offLabel": {
+                          "type": "array",
+                          "items": {
+                            "$ref": "#/components/schemas/IngredientSummary"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "enum": [
+                "hiv",
+                "hepatitis-b",
+                "adhd",
+                "depression",
+                "postpartum-depression",
+                "anxiety",
+                "diabetes",
+                "allergic-rhinitis",
+                "nasal-polyps",
+                "nasal-congestion",
+                "otitis-media",
+                "otitis-externa",
+                "pharyngitis",
+                "vertigo",
+                "urticaria",
+                "seasonal-affective-disorder",
+                "smoking-cessation",
+                "weight-management",
+                "alcohol-use-disorder",
+                "opioid-use-disorder",
+                "alzheimers-agitation"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "/search.json": {
+      "get": {
+        "operationId": "getSearchIndex",
+        "summary": "Compact search index of ingredients and products",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "apiVersion": {
+                      "type": "string"
+                    },
+                    "dataVersion": {
+                      "type": "string"
+                    },
+                    "license": {
+                      "type": "string"
+                    },
+                    "links": {
+                      "type": "object"
+                    },
+                    "count": {
+                      "type": "integer"
+                    },
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "type": "object"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Unknown id"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "IngredientSummary": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "classes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "fda": {
+            "type": "object",
+            "properties": {
+              "status": {
+                "enum": [
+                  "approved",
+                  "otc_monograph",
+                  "not_approved",
+                  "withdrawn",
+                  "investigational",
+                  "unknown"
+                ]
+              },
+              "label": {
+                "type": "string"
+              }
+            }
+          },
+          "approvedFor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "offLabelFor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "controlled": {
+            "type": "object"
+          },
+          "brands": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tier": {
+            "enum": [
+              "curated",
+              "basic"
+            ]
+          },
+          "review": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      },
+      "ProductSummary": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "brandName": {
+            "type": "string"
+          },
+          "ingredients": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "jurisdiction": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "available",
+              "discontinued",
+              "unknown"
+            ]
+          },
+          "form": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/juluca.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "juluca",
+    "brandName": "Juluca",
+    "ingredients": [
+      "dolutegravir",
+      "rilpivirine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (with a meal)",
+    "manufacturer": "ViiV Healthcare",
+    "approval": {
+      "date": "2017-11-21",
+      "year": 2017,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "First two-drug complete regimen; for virologically suppressed adults switching therapy.",
+    "notes": null,
+    "attributes": {
+      "abbreviation": "DTG/RPV",
+      "componentClasses": "INSTI, NNRTI",
+      "isCombination": true,
+      "componentCount": 2,
+      "completeRegimen": true,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "dolutegravir",
+        "name": "dolutegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Dovato",
+          "Juluca",
+          "Tivicay",
+          "Tivicay PD",
+          "Triumeq",
+          "Triumeq PD"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dolutegravir.json"
+      },
+      {
+        "id": "rilpivirine",
+        "name": "rilpivirine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cabenuva",
+          "Complera",
+          "Edurant",
+          "Edurant PED",
+          "Juluca",
+          "Odefsey"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/rilpivirine.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/juluca.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/juluca.json"
+    }
+  }
+}
