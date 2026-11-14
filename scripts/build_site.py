@@ -101,6 +101,9 @@ page = (t.replace("/*__SITE_HEADER_CSS__*/", site_header.css()).replace("/*__SIT
 head = ('<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n')
 html = head + page.replace('<header id="sitebar">', '</head>\n<body>\n<header id="sitebar">', 1) + "\n</body>\n</html>\n"
+import analytics
+TAG = release.get("googleTagId")
+html = analytics.inject(html, TAG)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines, {len(providers)} providers, "
       f"{len(cities_doc['data'])} cities, languages: en + {', '.join(sorted(i18n['content']))}")
@@ -116,6 +119,7 @@ for lang in sorted(i18n["content"]):
 otc = otc.replace("__OTC_I18N__", js(otc_i18n))
 otc = site_header.inject(otc.replace("__FAVICON__", favicon), base="./", active="otc")
 assert not re.findall(r"__[A-Z_]+__", otc), "unfilled placeholder in otc_finder.html"
+otc = analytics.inject(otc, TAG)
 open(os.path.join(ROOT, "otc-finder.html"), "w", encoding="utf-8").write(otc)
 print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB): languages en + {', '.join(sorted(otc_i18n))} "
       f"({min(len(d) for d in otc_i18n.values())} strings each)")

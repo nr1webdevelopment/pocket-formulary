@@ -80,7 +80,9 @@ def main():
             shutil.copy2(os.path.join(ROOT, "assets", f), os.path.join(OUT, "assets"))
     open(os.path.join(OUT, ".htaccess"), "w").write(HTACCESS)
     import site_header  # the shared top bar (scripts/site_header.*)
-    open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(site_header.inject(NOT_FOUND, base="/"))
+    import analytics
+    open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
+        analytics.inject(site_header.inject(NOT_FOUND, base="/"), analytics.tag_id_from_release(ROOT)))
     import json, time
     site = json.load(open(os.path.join(ROOT, "data", "release.json"), encoding="utf-8")).get("siteUrl", "https://nomadceuticals.com/")
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {site}sitemap.xml\n")

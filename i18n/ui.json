@@ -2030,5 +2030,13 @@
   "es": "Agitación en la demencia por alzhéimer",
   "pt": "Agitação na demência de Alzheimer",
   "th": "อาการกระวนกระวายในภาวะสมองเสื่อมจากโรคอัลไซเมอร์"
+ },
+ "privacyChoices": {
+  "en": "Privacy choices",
+  "zh-Hans": "隐私选项",
+  "zh-Hant": "隱私選項",
+  "es": "Opciones de privacidad",
+  "pt": "Opções de privacidade",
+  "th": "ตัวเลือกความเป็นส่วนตัว"
  }
 }

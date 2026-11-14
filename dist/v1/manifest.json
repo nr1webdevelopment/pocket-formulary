@@ -6,6 +6,7 @@
   "homepage": "https://github.com/nr1webdevelopment/pocket-formulary",
   "siteUrl": "https://nomadceuticals.com/",
   "apiBaseUrl": "https://nomadceuticals.com/api/v1",
+  "googleTagId": "GTM-N9HSS427",
   "counts": {
     "medicines": 124,
     "providers": 166,
@@ -88,8 +89,8 @@
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",
-      "bytes": 79821,
-      "sha256": "751d0b61d3f33d6793b50c946e03bc685534c3f1ac4cf9393f93f883eb8fc9e8"
+      "bytes": 80080,
+      "sha256": "1d018ac978566342d484416f5e52508d13e007362980674d168a4a417cb0c22c"
     }
   }
 }

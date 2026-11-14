@@ -166,6 +166,8 @@ def write_docs(base, site, release, n_meds, n_classes):
     html = site_header.inject(html, base="../")
     left = re.findall(r"__[A-Z_]+__", html)
     assert not left, f"unfilled placeholders in api docs: {left}"
+    import analytics
+    html = analytics.inject(html, release.get("googleTagId"))
     with open(os.path.join(ROOT, "api", "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
 
