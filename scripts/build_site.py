@@ -81,6 +81,15 @@ def library_compact():
 
 
 slides_css, slides = hero_slides()
+SITE = release.get("siteUrl", "https://nomadceuticals.com/")
+gsv = release.get("googleSiteVerification")  # optional: Google Search Console meta-tag verification
+JSONLD = [
+    {"@context": "https://schema.org", "@type": "WebSite", "name": "NomadCeuticals", "url": SITE, "inLanguage": ["en", "zh-Hans", "zh-Hant", "es", "pt", "th"]},
+    {"@context": "https://schema.org", "@type": "Organization", "name": "NomadCeuticals", "url": SITE, "logo": SITE + "assets/og-image.png",
+     "sameAs": ["https://github.com/nr1webdevelopment/pocket-formulary"]},
+]
+t = (t.replace("__SITE__", SITE).replace("__JSONLD__", js(JSONLD))
+      .replace("__GSV__", f'<meta name="google-site-verification" content="{gsv}">\n' if gsv else ""))
 page = (t.replace("/*__SITE_HEADER_CSS__*/", site_header.css()).replace("/*__SITE_HEADER_JS__*/", site_header.js())
          .replace("__FAVICON__", favicon).replace("/*__SLIDES_CSS__*/", slides_css).replace("__SLIDES__", js(slides))
          .replace("__LIBRARY__", js(library_compact()))

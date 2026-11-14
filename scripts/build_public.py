@@ -31,6 +31,7 @@ ErrorDocument 404 /404.html
   AddType application/json .json
   AddType text/csv .csv
   AddType image/svg+xml .svg
+  AddType application/xml .xml
   AddCharset utf-8 .json .csv .html .svg
 </IfModule>
 
@@ -80,7 +81,16 @@ def main():
     open(os.path.join(OUT, ".htaccess"), "w").write(HTACCESS)
     import site_header  # the shared top bar (scripts/site_header.*)
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(site_header.inject(NOT_FOUND, base="/"))
-    open(os.path.join(OUT, "robots.txt"), "w").write("User-agent: *\nAllow: /\n")
+    import json, time
+    site = json.load(open(os.path.join(ROOT, "data", "release.json"), encoding="utf-8")).get("siteUrl", "https://nomadceuticals.com/")
+    open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {site}sitemap.xml\n")
+    today = time.strftime("%Y-%m-%d")
+    urls = [(site, "1.0"), (site + "otc-finder.html", "0.8"), (site + "api/", "0.5")]
+    open(os.path.join(OUT, "sitemap.xml"), "w").write(
+        '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+        + "".join(f"  <url><loc>{u}</loc><lastmod>{today}</lastmod><priority>{pr}</priority></url>\n" for u, pr in urls)
+        + "</urlset>\n")
+    shutil.copy2(os.path.join(ROOT, "assets", "og-image.png"), os.path.join(OUT, "assets"))
     n = sum(len(fs) for _, _, fs in os.walk(OUT))
     print(f"public/: {n} files ready to upload")
 
