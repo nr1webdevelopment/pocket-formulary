@@ -1,0 +1,254 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "mec",
+  "providers": [
+    {
+      "id": "sa-mec-al-noor-specialist-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "mec",
+      "name": {
+        "en": "Al-Noor Specialist Hospital"
+      },
+      "organization": "Ministry of Health (Makkah Health Cluster)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "SA",
+        "province": "Makkah",
+        "city": "Mecca",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "500-bed MOH hospital with a diabetes centre, which served 89 patients during the 2022 Hajj season (16,656 emergency visits in the same period). In 2024 it opened a 24-hour heat-stroke and heat-exhaustion centre run by its emergency department."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://moh.gov.sa/en/Ministry/MediaCenter/News/Pages/News-2022-07-26-002.aspx",
+          "title": "Al Noor Specialist Hospital Hajj season figures (26 Jul 2022)",
+          "publisher": "Ministry of Health, Saudi Arabia",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://alriyadhdaily.com/article/33185b23bfac4f1ea2e6a43c2a0b7c87",
+          "title": "Al-Noor Specialist Hospital in Makkah gears up for Hajj, dedicates center to heat-induced illnesses (10 Jun 2024)",
+          "publisher": "Riyadh Daily",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No address, phone or website found in the sources checked.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "sa-mec-imc-makkah",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "mec",
+      "name": {
+        "en": "International Medical Center (IMC) Makkah"
+      },
+      "organization": "International Medical Center (WellCare IMC)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "SA",
+        "province": "Makkah",
+        "city": "Mecca",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "3508 Fatimah Az Zahra, 8288, Makkah 24245"
+        },
+        "postcode": "24245",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+966 920027778"
+        ],
+        "line": null,
+        "website": "https://makkah.imc.med.sa/department/diabetes-and-endocrinology-center",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Outpatient clinics Sat–Thu 09:00–22:00; emergency 24/7.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Diabetes and Endocrinology Center for all ages: adult endocrinology and a consultant in paediatric endocrinology and diabetes, with diabetes educators (self-management skills) and clinical dietitians. Pumps, CGM and foot care are not mentioned."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://makkah.imc.med.sa/department/diabetes-and-endocrinology-center",
+          "title": "Diabetes and Endocrinology Center",
+          "publisher": "IMC Makkah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://makkah.imc.med.sa/nabilah-sulaimani",
+          "title": "Consultant, Pediatric Endocrinology & Diabetes",
+          "publisher": "IMC Makkah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Languages are those listed for the paediatric endocrinologist.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "sa-mec-saudi-german-hospital-makkah",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "mec",
+      "name": {
+        "en": "Saudi German Hospital Makkah"
+      },
+      "organization": "Saudi German Health",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "SA",
+        "province": "Makkah",
+        "city": "Mecca",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+966 920007997"
+        ],
+        "line": null,
+        "website": "https://makkah.saudigermanhealth.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Endocrinology Department in Makkah; its consultant in endocrinology and metabolism lists diabetes mellitus and its complications among conditions treated. Pumps, CGM and paediatric diabetes care are not mentioned. Book online or by phone/WhatsApp."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Arabic",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://makkah.saudigermanhealth.com/en/doctors/endocrinology-department",
+          "title": "Endocrinology Department",
+          "publisher": "Saudi German Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://makkah.saudigermanhealth.com/en/node/7851",
+          "title": "Dr. Shaza Abdalla Elwali — Endocrinology and Metabolism Consultant",
+          "publisher": "Saudi German Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The phone number is the group's site-wide line; it is not labelled as the Makkah hospital's. No street address in the sources checked.",
+      "updated": "2026-11-19"
+    }
+  ]
+}

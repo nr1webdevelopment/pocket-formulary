@@ -1,0 +1,1958 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "par",
+  "providers": [
+    {
+      "id": "fr-par-css-frederic-edelmann",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Centre de santé sexuelle Frédéric Edelmann (Hôtel-Dieu)"
+      },
+      "organization": "AP-HP / Ville de Paris",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": "Paris Centre",
+        "district": "4e arrondissement",
+        "address": {
+          "en": "1 place du Parvis Notre-Dame, 75004 Paris"
+        },
+        "postcode": "75004",
+        "locationNote": "Hôtel-Dieu hospital, Galerie A1, 6th floor.",
+        "nearestTransit": "Cité (Métro 4)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 34 83 00"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/hotel-dieu/service-de-centre-de-sante-sexuelle-frederic-edelmann-ap-hp-ville-de-paris",
+        "email": "css.paris.htd@aphp.fr",
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–19:00 (Santé.fr lists 08:30–19:00).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "HIV, hepatitis and STI screening (including rapid tests) and STI treatment, free; PrEP start and follow-up; PEP prescription and follow-up (call first, or go to an emergency department and follow up here). Free self-tests and condoms. Access regardless of age or health coverage. Simultaneous interpretation for people who don't speak French. Santé.fr says visits are strictly by appointment (Doctolib or AP-HP portal), while AP-HP says with or without appointment; call to check. Urgent STI/PEP cases can be seen within 24–48 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/hotel-dieu/service-de-centre-de-sante-sexuelle-frederic-edelmann-ap-hp-ville-de-paris",
+          "title": "Centre de Santé Sexuelle Frédéric Edelmann",
+          "publisher": "AP-HP",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sante.fr/centre-de-sante-sexuelle-paris-centre-cegidd-3",
+          "title": "Centre de santé sexuelle Paris Centre (CeGIDD)",
+          "publisher": "Santé.fr (Ministère de la Santé)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cegidd-saint-louis",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "CeGIDD — Hôpital Saint-Louis"
+      },
+      "organization": "AP-HP",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "10e arrondissement",
+        "address": {
+          "en": "1 avenue Claude-Vellefaux, 75010 Paris"
+        },
+        "postcode": "75010",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 49 42 05",
+          "+33 1 42 49 99 24"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Free (or no upfront payment) HIV and STI screening, named or anonymous, open regardless of age or health coverage. Across AP-HP CeGIDDs, PrEP consultations are by appointment and PEP is given during opening hours (start within 48 hours) but not at weekends; at weekends go to an emergency department. Check current hours with Sida Info Service (0800 840 800)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+          "title": "Les Centres gratuits d'information, de dépistage et de diagnostic (CeGIDD) des IST en Île-de-France",
+          "publisher": "AP-HP",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-saint-louis-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de maladies infectieuses et tropicales — Hôpital Saint-Louis"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "10e arrondissement",
+        "address": {
+          "en": "1 avenue Claude-Vellefaux, 75010 Paris"
+        },
+        "postcode": "75010",
+        "locationNote": "Enter via Porte 3, secteur vert.",
+        "nearestTransit": "Goncourt (Métro 11) or Colonel Fabien (Métro 2); bus 46 or 75",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 49 48 52",
+          "+33 1 42 49 46 83"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/saint-louis/service-de-maladies-infectieuses-et-tropicales",
+        "email": "rendez-vous.csprep.sls@aphp.fr",
+        "booking": null
+      },
+      "hours": "Walk-in infectious diseases consultation Mon–Fri from 08:30 (except public holidays; limited places, seen in order of arrival). Follow-up and PrEP by appointment (phone Mon–Fri 09:00–16:00, Doctolib or email).",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV care from diagnosis to treatment and follow-up; dedicated PrEP consultation. Sida Info Service says the infectious diseases departments at Saint-Louis, Pitié-Salpêtrière and Bichat see people without an appointment, including visitors who have run out of HIV treatment or PrEP; you pay for medicines at the pharmacy."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/saint-louis/service-de-maladies-infectieuses-et-tropicales",
+          "title": "Service de Maladies Infectieuses et Tropicales",
+          "publisher": "AP-HP – Hôpital Saint-Louis",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sida-info-service.org/medical-care-for-foreign-tourists-in-france/",
+          "title": "Medical care for tourists in France",
+          "publisher": "Sida Info Service",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cegidd-fernand-widal",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "CeGIDD — Hôpital Fernand-Widal"
+      },
+      "organization": "AP-HP",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "10e arrondissement",
+        "address": {
+          "en": "200 rue du Faubourg Saint-Denis, 75010 Paris"
+        },
+        "postcode": "75010",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 05 43 75"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Phone line is an answering machine. Free (or no upfront payment) HIV and STI screening, named or anonymous, open regardless of age or health coverage. Across AP-HP CeGIDDs, PrEP consultations are by appointment and PEP is given during opening hours (start within 48 hours) but not at weekends; at weekends go to an emergency department. Check current hours with Sida Info Service (0800 840 800)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+          "title": "Les Centres gratuits d'information, de dépistage et de diagnostic (CeGIDD) des IST en Île-de-France",
+          "publisher": "AP-HP",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/pages/centres-de-depistage-76",
+          "title": "Centres de prévention et de dépistage",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cegidd-bichat",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "CeGIDD — Hôpital Bichat-Claude-Bernard"
+      },
+      "organization": "AP-HP",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "18e arrondissement",
+        "address": {
+          "en": "46 rue Henri-Huchard, 75018 Paris"
+        },
+        "postcode": "75018",
+        "locationNote": null,
+        "nearestTransit": "Porte de Saint-Ouen (Métro 13)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 25 84 34",
+          "+33 1 40 25 72 79"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Dedicated PrEP consultation line: 01 40 25 72 79. PEP is listed for AP-HP CeGIDDs as a whole rather than this site. Free (or no upfront payment) HIV and STI screening, named or anonymous, open regardless of age or health coverage. Across AP-HP CeGIDDs, PrEP consultations are by appointment and PEP is given during opening hours (start within 48 hours) but not at weekends; at weekends go to an emergency department. Check current hours with Sida Info Service (0800 840 800)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+          "title": "Les Centres gratuits d'information, de dépistage et de diagnostic (CeGIDD) des IST en Île-de-France",
+          "publisher": "AP-HP",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-bichat-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de maladies infectieuses et tropicales — Hôpital Bichat-Claude-Bernard"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "18e arrondissement",
+        "address": {
+          "en": "46 rue Henri-Huchard, 75018 Paris"
+        },
+        "postcode": "75018",
+        "locationNote": null,
+        "nearestTransit": "Porte de Saint-Ouen (Métro 13)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 25 88 93",
+          "+33 1 40 25 88 92"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/bichat-claude-bernard/service-de-maladies-infectieuses-et-tropicales",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV infection and STIs are among the department's main areas; it has an urgent infectious diseases consultation and runs the hospital's CeGIDD. Book via Doctolib or phone. Sida Info Service says this department sees people without an appointment, including visitors who have run out of HIV treatment or PrEP; you pay for medicines at the pharmacy."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/bichat-claude-bernard/service-de-maladies-infectieuses-et-tropicales",
+          "title": "Service de Maladies infectieuses et tropicales",
+          "publisher": "AP-HP – Hôpital Bichat-Claude-Bernard",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sida-info-service.org/medical-care-for-foreign-tourists-in-france/",
+          "title": "Medical care for tourists in France",
+          "publisher": "Sida Info Service",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cegidd-pitie-salpetriere",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "CeGIDD — Hôpital Pitié-Salpêtrière"
+      },
+      "organization": "AP-HP",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "13e arrondissement",
+        "address": {
+          "en": "47-83 boulevard de l'Hôpital, 75013 Paris"
+        },
+        "postcode": "75013",
+        "locationNote": null,
+        "nearestTransit": "Saint-Marcel (Métro 5)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 17 76 22"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Free (or no upfront payment) HIV and STI screening, named or anonymous, open regardless of age or health coverage. Across AP-HP CeGIDDs, PrEP consultations are by appointment and PEP is given during opening hours (start within 48 hours) but not at weekends; at weekends go to an emergency department. Check current hours with Sida Info Service (0800 840 800)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/les-centres-gratuits-dinformation-de-depistage-et-de-diagnostic-cegidd-des-ist-en-ile-de-france",
+          "title": "Les Centres gratuits d'information, de dépistage et de diagnostic (CeGIDD) des IST en Île-de-France",
+          "publisher": "AP-HP",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-pitie-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de maladies infectieuses et tropicales — Hôpital Pitié-Salpêtrière"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "13e arrondissement",
+        "address": {
+          "en": "47-83 boulevard de l'Hôpital, 75013 Paris"
+        },
+        "postcode": "75013",
+        "locationNote": "'Pitié' entrance at 83 bd de l'Hôpital is open 24/7.",
+        "nearestTransit": "Saint-Marcel (Métro 5) or Chevaleret (Métro 6)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 16 01 59",
+          "+33 1 42 16 01 01"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/pitie-salpetriere/service-de-maladies-infectieuses-et-tropicales",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV infection, AIDS and STIs are listed areas of expertise; consultations see more than 10,000 patients a year. First appointment requests online, follow-ups via Doctolib. Sida Info Service says this department sees people without an appointment, including visitors who have run out of HIV treatment or PrEP; you pay for medicines at the pharmacy."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/pitie-salpetriere/service-de-maladies-infectieuses-et-tropicales",
+          "title": "Service de Maladies Infectieuses et Tropicales",
+          "publisher": "AP-HP – Hôpital Pitié-Salpêtrière",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sida-info-service.org/medical-care-for-foreign-tourists-in-france/",
+          "title": "Medical care for tourists in France",
+          "publisher": "Sida Info Service",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-saint-antoine-infectious-diseases-cegidd",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Hôpital Saint-Antoine — Maladies infectieuses et tropicales and CeGIDD"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "12e arrondissement",
+        "address": {
+          "en": "184 rue du Faubourg Saint-Antoine, 75012 Paris"
+        },
+        "postcode": "75012",
+        "locationNote": "Consultations: Bâtiment Mayer, porte B.",
+        "nearestTransit": "Reuilly-Diderot (Métro 1) or Faidherbe-Chaligny (Métro 8)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 49 28 24 45"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/saint-antoine/service-de-maladies-infectieuses-et-tropicales",
+        "email": "rdv-consultation.smit@aphp.fr",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "CeGIDD: free HIV, hepatitis and STI screening, named or anonymous, without appointment. PrEP consultations at the CeGIDD. PEP after sexual or blood exposure: call the department or go to the hospital's emergency department. HIV and hepatitis B/C follow-up. Book via Doctolib, phone or email."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/saint-antoine/service-de-maladies-infectieuses-et-tropicales?step=iAm",
+          "title": "Service de Maladies infectieuses et tropicales",
+          "publisher": "AP-HP – Hôpital Saint-Antoine",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cms-belleville",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Centre médico-social Belleville (CeGIDD)"
+      },
+      "organization": "Ville de Paris",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "20e arrondissement",
+        "address": {
+          "en": "218 rue de Belleville, 75020 Paris"
+        },
+        "postcode": "75020",
+        "locationNote": null,
+        "nearestTransit": "Télégraphe or Place des Fêtes (Métro 11); bus 60",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 33 52 00"
+        ],
+        "line": null,
+        "website": "https://www.paris.fr/pages/centres-de-depistage-76",
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV/STI testing by appointment Mon–Fri 09:00–12:15 and 13:30–16:45 (to 18:45 Mon), Sat 09:15–12:15. Rapid HIV test (TROD) by appointment Mon 09:00–12:00 and 13:30–16:00, Wed and Thu 09:00–12:00. Results without appointment after 7 days. (Page dated August 2022; confirm.)",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "City-run CeGIDD: free, confidential HIV and STI testing. Booking via Doctolib. Ville de Paris says CeGIDDs are open regardless of age or health coverage. PrEP can be prescribed at CeGIDDs, but the city doesn't say which sites offer it."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/pages/centres-de-depistage-76",
+          "title": "Centres de prévention et de dépistage",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cms-ridder",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Centre médico-social Ridder (CeGIDD)"
+      },
+      "organization": "Ville de Paris",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "14e arrondissement",
+        "address": {
+          "en": "3 rue de Ridder, 75014 Paris"
+        },
+        "postcode": "75014",
+        "locationNote": null,
+        "nearestTransit": "Plaisance (Métro 13); bus 62",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 58 14 30 30"
+        ],
+        "line": null,
+        "website": "https://www.paris.fr/pages/centres-de-depistage-76",
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV/STI testing by appointment Mon, Wed, Fri 12:00–17:30; Tue, Thu 09:00–17:30; Sat 09:15–11:15. Results without appointment Mon–Fri 12:00–18:30, Sat 09:15–11:45. (Page dated August 2022; confirm.)",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "City-run CeGIDD: free, confidential HIV and STI testing, with online booking. Ville de Paris says CeGIDDs are open regardless of age or health coverage. PrEP can be prescribed at CeGIDDs, but the city doesn't say which sites offer it."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/pages/centres-de-depistage-76",
+          "title": "Centres de prévention et de dépistage",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-institut-alfred-fournier",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Institut Alfred Fournier — Centre de santé sexuelle and CeGIDD"
+      },
+      "organization": "Institut Alfred Fournier",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "14e arrondissement",
+        "address": {
+          "en": "25 boulevard Saint-Jacques, 75014 Paris"
+        },
+        "postcode": "75014",
+        "locationNote": null,
+        "nearestTransit": "Saint-Jacques or Glacière (Métro 6)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 78 26 00",
+          "+33 1 40 78 26 71"
+        ],
+        "line": null,
+        "website": "https://www.paris.fr/lieux/centre-de-sante-sexuelle-institut-alfred-fournier-20628",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Listed by Ville de Paris as a sexual health centre (01 40 78 26 00) and CeGIDD (01 40 78 26 71) offering HIV and STI screening; visits with or without appointment. Ville de Paris says CeGIDDs are free and open regardless of age or health coverage. Hours not published; call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/lieux/centre-de-sante-sexuelle-institut-alfred-fournier-20628",
+          "title": "Centre de santé sexuelle – Institut Alfred Fournier",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/vihtest",
+          "title": "Infections sexuellement transmissibles (IST), VIH : prévention et dépistage",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-le-190",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Le 190 — Centre de santé sexuelle"
+      },
+      "organization": "Paris Attention!",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "11e arrondissement",
+        "address": {
+          "en": "90 rue Jean-Pierre Timbaud, 75011 Paris"
+        },
+        "postcode": "75011",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 55 25 32 72"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Free information, screening and diagnosis centre for LGBT+ people and partners of people living with HIV. Offers consultations without appointment, urgent slots for PEP, new HIV infections and symptomatic STIs, and PrEP follow-up; the Île-de-France Region voted funding in 2026 to extend walk-in hours. Hours not published in the sources; call first."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "msm"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.iledefrance.fr/tous-les-services/ma-region-pres-de-chez-moi/sante-social/sante/254425-extension-des-horaires-et-promotion-de-la-prep-au-centre-gratuit-dinformation-depistage-et-diagnostic-le-190",
+          "title": "Extension des horaires et promotion de la PrEP au centre gratuit d'information, dépistage et diagnostic Le 190",
+          "publisher": "Région Île-de-France",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-checkpoint-paris",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Checkpoint Paris"
+      },
+      "organization": "Checkpoint (Groupe SOS)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": "Paris Centre",
+        "district": "2e arrondissement",
+        "address": {
+          "en": "13 rue d'Alexandrie, 75002 Paris"
+        },
+        "postcode": "75002",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 44 78 00 00"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "About 70 hours a week, Mon–Sat, including evenings and Saturdays, with or without appointment (per 2024 activity report).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Community sexual health centre and CeGIDD for LGBT+ people and sex workers, including migrants without social security. Rapid HIV and hepatitis C tests, full STI check-ups with on-site chlamydia/gonorrhoea PCR (results in about 90 minutes), PrEP start and follow-up, PEP, vaccinations (hepatitis A/B, HPV, mpox), trans health and chemsex support. Free at the CeGIDD for people without health coverage or who want anonymity; professional interpreters used for some patients."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "sex_workers",
+        "migrants"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.groupe-sos.org/wp-content/uploads/2020/12/Rapport-Checkpoint_2024-VF.pdf",
+          "title": "Checkpoint Paris – rapport d'activité 2024",
+          "publisher": "Groupe SOS",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-cegidd-croix-rouge",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "par",
+      "name": {
+        "en": "CeGIDD Croix-Rouge Paris"
+      },
+      "organization": "Croix-Rouge française",
+      "type": "ngo_clinic",
+      "operator": "red_cross",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": "Paris Centre",
+        "district": "1er arrondissement",
+        "address": {
+          "en": "43 rue de Valois, 75001 Paris"
+        },
+        "postcode": "75001",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 61 30 04"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Listed by Ville de Paris as a CeGIDD (free HIV, hepatitis and STI screening, open regardless of age or health coverage). Hours and PrEP/PEP availability not published in the sources; call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.paris.fr/en/pages/sexual-health-parisian-centers-welcome-you-32518",
+          "title": "Sexual health: Parisian centers welcome you",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.paris.fr/pages/centres-de-depistage-76",
+          "title": "Centres de prévention et de dépistage",
+          "publisher": "Ville de Paris",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-robert-debre-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de psychiatrie de l'enfant et de l'adolescent — Hôpital Robert-Debré"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "19e arrondissement",
+        "address": {
+          "en": "48 boulevard Sérurier, 75019 Paris"
+        },
+        "postcode": "75019",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 03 20 02",
+          "+33 1 40 03 22 63",
+          "+33 1 40 03 22 67"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/robert-debre/service-de-psychiatrie-de-lenfant-et-de-ladolescent",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Babies and children up to age 15. The department includes a 'Centre d'excellence Trouble de l'attention et l'Hyperactivité' (ADHD centre of excellence). Request a first appointment online (AP-HP portal) or by phone. The page doesn't describe medication or referral rules; French public child psychiatry usually has waiting lists."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/robert-debre/service-de-psychiatrie-de-lenfant-et-de-ladolescent",
+          "title": "Service de Psychiatrie de l'enfant et de l'adolescent",
+          "publisher": "AP-HP – Hôpital Robert-Debré",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-ghu-sainte-anne-tdah-enfants",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Consultation TDAH enfants et adolescents — GHU Paris (Sainte-Anne)"
+      },
+      "organization": "GHU Paris psychiatrie & neurosciences",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "14e arrondissement",
+        "address": {
+          "en": "1 rue Cabanis, 75014 Paris"
+        },
+        "postcode": "75014",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 45 65 83 37"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–17:00.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Specialist ADHD (TDAH, with or without hyperactivity) consultation for children and adolescents at the Sainte-Anne site. Medication and referral rules aren't described in the source; call to ask."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ghu-paris.fr/sites/default/files/media/downloads/Guide%20des%20structures%20GHU_2024.pdf",
+          "title": "Guide des structures GHU 2024",
+          "publisher": "GHU Paris psychiatrie & neurosciences",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-ghu-sainte-anne-tdah-hp",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Consultation TDA/H – Haut Potentiel — GHU Paris (Sainte-Anne)"
+      },
+      "organization": "GHU Paris psychiatrie & neurosciences",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "14e arrondissement",
+        "address": {
+          "en": "Site Sainte-Anne, Bâtiment F, 1er étage, 1 rue Cabanis, 75014 Paris"
+        },
+        "postcode": "75014",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 45 65 64 02"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD and high-potential (giftedness) consultation for children, adolescents and adults. The same building (sector 75G04) also lists an adult neurodevelopmental disorders consultation (TDA/H – HP) without its own phone number. Medication and referral rules aren't described; call to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ghu-paris.fr/sites/default/files/media/downloads/Guide%20des%20structures%20GHU_2024.pdf",
+          "title": "Guide des structures GHU 2024",
+          "publisher": "GHU Paris psychiatrie & neurosciences",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://robertdebre.aphp.fr/wp-content/blogs.dir/23/files/2025/09/Centre-TDAH-France-VF.pdf",
+          "title": "Consultations TDAH et troubles des apprentissages (directory)",
+          "publisher": "AP-HP – Hôpital Robert-Debré",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-louis-mourier-tdah-adulte",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Consultation Addictologie-TDAH — Hôpital Louis-Mourier"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Colombes",
+        "area": "Hauts-de-Seine",
+        "district": null,
+        "address": {
+          "en": "178 rue des Renouillers, 92700 Colombes"
+        },
+        "postcode": "92700",
+        "locationNote": "In Colombes, just north-west of Paris.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 47 60 64 16"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Adult psychiatry service offering specialised diagnostic consultations for adult ADHD (coordinated by Pr Yann Le Strat). Referral, waiting times and prescribing aren't described in the source; call to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://annuaire.autismeinfoservice.fr/fiche/pdf/id:5796/",
+          "title": "Addictologie-TDAH, Hôpital Louis Mourier",
+          "publisher": "Autisme Info Service (annuaire)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-pitie-diabetologie",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de diabétologie — Hôpital Pitié-Salpêtrière"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "13e arrondissement",
+        "address": {
+          "en": "47-83 boulevard de l'Hôpital, 75013 Paris"
+        },
+        "postcode": "75013",
+        "locationNote": null,
+        "nearestTransit": "Saint-Marcel (Métro 5) or Chevaleret (Métro 6)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 42 17 81 18",
+          "+33 1 42 17 78 32"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/service/service-06-066",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Reference centre: type 1, type 2, gestational, monogenic and other diabetes; diabetic foot and Charcot foot care; CGM, insulin pumps and closed-loop systems; therapeutic education in short-stay and day hospital units; islet transplantation. Book online via mon.aphp.fr; teleconsultation possible."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/service/service-06-066",
+          "title": "Service de Diabétologie",
+          "publisher": "AP-HP – Hôpital Pitié-Salpêtrière",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-lariboisiere-diabetologie",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Département de diabétologie et endocrinologie (CUDC) — Hôpital Lariboisière"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "10e arrondissement",
+        "address": {
+          "en": "2 rue Ambroise-Paré, 75010 Paris"
+        },
+        "postcode": "75010",
+        "locationNote": "Outpatient Centre Universitaire de Diabétologie et de ses Complications (CUDC), Pavillon Servet.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 49 95 89 77",
+          "+33 1 49 95 90 73"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/lariboisiere/service-de-departement-de-diabetologie-et-endocrinologie",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Unstable type 1 diabetes including insulin pumps with closed-loop systems; FreeStyle glucose sensors and telemonitoring; therapeutic education; same-site consultations for kidney, eye, liver and heart complications. Book online (mon.aphp.fr) or call 01 49 95 89 77."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/lariboisiere/service-de-departement-de-diabetologie-et-endocrinologie",
+          "title": "Département de Diabétologie et Endocrinologie",
+          "publisher": "AP-HP – Hôpital Lariboisière",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-bichat-diabetologie",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service de diabétologie et endocrinologie — Hôpital Bichat-Claude-Bernard"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "18e arrondissement",
+        "address": {
+          "en": "46 rue Henri-Huchard, 75018 Paris"
+        },
+        "postcode": "75018",
+        "locationNote": null,
+        "nearestTransit": "Porte de Saint-Ouen (Métro 13, tram T3b)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 25 82 42"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/service/service-15-011",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Type 1 and type 2 diabetes, diabetic foot, insulin pump and closed-loop setup and follow-up, glucose Holter monitoring, and a day hospital for diabetes assessment and education. Book online (mon.aphp.fr) or call 01 40 25 82 42."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/service/service-15-011",
+          "title": "Service de Diabétologie et endocrinologie",
+          "publisher": "AP-HP – Hôpital Bichat-Claude-Bernard",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-robert-debre-endocrinologie-pediatrique",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service d'endocrinologie et diabétologie pédiatrique — Hôpital Robert-Debré"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "19e arrondissement",
+        "address": {
+          "en": "48 boulevard Sérurier, 75019 Paris"
+        },
+        "postcode": "75019",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 40 03 20 00"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/robert-debre/service-d-endocrinologie-et-diabetologie-pediatrique",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Children and adolescents with type 1 (including slow-onset), monogenic and type 2 diabetes, hypoglycaemia and obesity. First visits need a health professional's referral and are booked via mon.aphp.fr."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/robert-debre/service-d-endocrinologie-et-diabetologie-pediatrique",
+          "title": "Service d'Endocrinologie et Diabétologie Pédiatrique",
+          "publisher": "AP-HP – Hôpital Robert-Debré",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "fr-par-necker-diabetologie-pediatrique",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "par",
+      "name": {
+        "en": "Service d'endocrinologie, gynécologie et diabétologie pédiatriques — Hôpital Necker-Enfants malades"
+      },
+      "organization": "AP-HP",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "FR",
+        "province": "Île-de-France",
+        "city": "Paris",
+        "area": null,
+        "district": "15e arrondissement",
+        "address": {
+          "en": "149 rue de Sèvres, 75015 Paris"
+        },
+        "postcode": "75015",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+33 1 44 49 57 44"
+        ],
+        "line": null,
+        "website": "https://www.aphp.fr/necker-enfants-malades/service-d-endocrinologie-gynecologie-et-diabetologie-pediatrique",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Children and adolescents: type 1, slow-onset type 1 and monogenic diabetes, with therapeutic education and dietary, psychological and social support. First appointments online (mon.aphp.fr) or by phone."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aphp.fr/necker-enfants-malades/service-d-endocrinologie-gynecologie-et-diabetologie-pediatrique",
+          "title": "Service d'Endocrinologie, gynécologie et diabétologie pédiatrique",
+          "publisher": "AP-HP – Hôpital Necker-Enfants malades",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

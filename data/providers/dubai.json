@@ -1,0 +1,1089 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "dxb",
+  "providers": [
+    {
+      "id": "ae-dxb-rashid-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Rashid Hospital"
+      },
+      "organization": "Dubai Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Umm Hurair",
+        "district": null,
+        "address": {
+          "en": "315 Umm Hurair Second, Dubai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 60",
+          "+971 4 219 8888 (from outside the UAE)"
+        ],
+        "line": null,
+        "website": "https://dubaihealth.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Emergency department 24/7, walk-in. Infectious Diseases Clinic Wed & Thu 08:00–14:30; Communicable Diseases Clinic Tue 08:00–14:30 (2022 catalogue).",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "The 2022 service catalogue lists an 'HIV/AIDS program' within Infectious Diseases and names UAE nationals, residents, expats and visitors as eligible; it does not say whether HIV testing, PEP or antiretroviral treatment are given to non-nationals. Diabetic Clinic (Internal Medicine) Tue 15:00–21:30 and Wed 08:00–14:30; Diabetic Foot Clinic Wed 08:00–14:30. The walk-in emergency department is open 24/7 to visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.dha.gov.ae/uploads/062022/2eaca16b-dec5-4f19-b8bc-53b026f02fcf.pdf",
+          "title": "Rashid Hospital Service Catalogue (updated 18 Apr 2022)",
+          "publisher": "Dubai Health Authority",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dubaihealth.ae/speciality/infectious-diseases",
+          "title": "Infectious Diseases",
+          "publisher": "Dubai Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "UAE law requires HIV cases to be reported to the health authority, and residents who test positive face deportation; see the city notes before seeking HIV care here.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-dubai-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Dubai Hospital"
+      },
+      "organization": "Dubai Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Al Baraha",
+        "district": null,
+        "address": {
+          "en": "Al Khaleej Street, Al Baraha, Dubai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 60",
+          "+971 4 219 8888 (from outside the UAE)"
+        ],
+        "line": null,
+        "website": "https://dubaihealth.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Endocrinology clinic Tue 15:00–21:00, Fri 07:30–12:00; Diabetes clinic Mon 07:30–15:00; emergency 24/7 walk-in (2022 catalogue).",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Adult Endocrinology runs an insulin pump clinic and diabetes education (educator Mon & Wed 08:00–15:00, Tue 15:00–21:00, Fri 08:00–15:00); General Surgery does diabetic foot and wound care. Services are open to visitors. 2022 charges: endocrinology consultation AED 225 and emergency AED 187.50 for self-pay/non-UAE nationals (usually billed to insurance). Fast 7–8 hours before the first endocrinology visit."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.dha.gov.ae/uploads/062022/fb431907-99dd-4912-8db0-47a6aa474e05.pdf",
+          "title": "Dubai Hospital Service Catalogue (updated 3 Jun 2022)",
+          "publisher": "Dubai Health Authority",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-dubai-diabetes-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Dubai Diabetes Center"
+      },
+      "organization": "Dubai Health",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Al Hudaiba",
+        "district": null,
+        "address": {
+          "en": "Al Hudaiba Awards Buildings, Block C, First Floor, southern end of 2nd of December Street, Al Hudaiba, Dubai"
+        },
+        "postcode": null,
+        "locationNote": "Near Etihad Museum",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 60"
+        ],
+        "line": null,
+        "website": "https://dubaihealth.ae/facility/ambulatory-health-center/diabetes-center",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Thu 07:30–14:30, Fri 07:30–12:00 (Dubai Health website).",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Dedicated diabetes centre for adults and children (paediatric clinic up to age 18 led by a paediatric endocrinologist). Adult services include diabetes education, antenatal diabetes, an insulin pump clinic, psychological support and a foot care (podiatry) clinic; CGM sensor insertion and data review; dietitians and a demonstration kitchen; on-site pharmacy and lab. The 2020 catalogue lists visitors as eligible for adult and paediatric diabetes, education, lab, eye screening, podiatry and pharmacy services. Book on 800 60."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://international-diabetes-federation.s3.eu-west-1.amazonaws.com/media/uploads/2023/04/Dubai-Diabetes-Center_Service-Catalogue.pdf",
+          "title": "Dubai Diabetes Center Service Catalogue (first issued 20 Feb 2020)",
+          "publisher": "Dubai Health Authority (hosted by IDF)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dubaihealth.ae/facility/ambulatory-health-center/diabetes-center",
+          "title": "Diabetes Center",
+          "publisher": "Dubai Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Now listed by Dubai Health simply as 'Diabetes Center'.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-al-jalila-childrens-hospital",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Al Jalila Children's Hospital"
+      },
+      "organization": "Dubai Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Al Jaddaf",
+        "district": null,
+        "address": {
+          "en": "Al Jaddaf, Dubai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 60"
+        ],
+        "line": null,
+        "website": "https://dubaihealth.ae/speciality/child-and-adolescent-psychiatry",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Clinics Mon–Thu 08:00–17:30, Fri 09:00–11:30, Sun 09:00–14:30; paediatric emergency 24/7.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": true,
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Child and Adolescent Mental Health Center of Excellence (up to age 18) lists ADHD and offers psychiatric, psychological and behavioural assessment, psychometric testing and outpatient medication management, plus day and intensive outpatient programmes. Paediatric Endocrinology treats diabetes (pumps, CGM and education not described on the page). Book online or on 800 60 (24/7)."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dubaihealth.ae/speciality/child-and-adolescent-psychiatry",
+          "title": "Child and Adolescent Mental Health Center of Excellence",
+          "publisher": "Dubai Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dubaihealth.ae/speciality/pediatrics/pediatric-endocrinology",
+          "title": "Pediatric Endocrinology",
+          "publisher": "Dubai Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dubaihealth.ae/l/197362",
+          "title": "Al Jalila Children's Hospital",
+          "publisher": "Dubai Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-al-amal-psychiatric-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Al Amal Psychiatric Hospital"
+      },
+      "organization": "Emirates Health Services (EHS)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.ehs.gov.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Federal (EHS) psychiatric hospital serving Dubai and the Northern Emirates, JCI-accredited. Runs outpatient clinics for children, adults, older people and addiction, and since 2022 a weekly clinic for autism and ADHD for children and adolescents. Adult ADHD care is not described."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ehs.gov.ae/en/media-center/news/ehs-continues-to-enhance-mental-health-services",
+          "title": "EHS continues to enhance mental health services (8 Oct 2023)",
+          "publisher": "Emirates Health Services",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://u.ae/en/information-and-services/health-and-fitness/Health-and-wellbeing/mental-health",
+          "title": "Mental health",
+          "publisher": "UAE Government portal (u.ae)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Address and phone not found in the sources checked; eligibility for visitors not stated. Private Dubai clinics direct out-of-hours psychiatric emergencies here.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-al-barsha-health-centre",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Al Barsha Health Center"
+      },
+      "organization": "Dubai Health",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Al Barsha",
+        "district": null,
+        "address": {
+          "en": "Al Barsha 2, Street B72, Dubai"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 60",
+          "+971 4 219 8888 (from outside the UAE)"
+        ],
+        "line": null,
+        "website": "https://dubaihealth.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Diabetes Clinic Tue 07:30–14:30 (2022 catalogue). Children's ADHD clinic Tue 14:30–21:30 (2020 report).",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "Diabetes Clinic for treatment and follow-up, open to UAE nationals, residents, expats and visitors (2022 DHA catalogue). A January 2020 news report said DHA opened specialist ADHD clinics for children aged 6–12 at Al Barsha, Al Mizhar (Sun 07:30–14:30) and Nad Al Hammar (Thu 07:30–14:30) health centres, by referral from a family doctor. Confirm these still run."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.dha.gov.ae/uploads/022022/Al%20Barsha%20Health%20Center2022234545.pdf",
+          "title": "Al Barsha Health Center Service Catalogue (updated 10 Aug 2022)",
+          "publisher": "Dubai Health Authority",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://gulfnews.com/uae/health/adhd-clinics-introduced-by-dubai-health-authority-1.1578834246511",
+          "title": "ADHD clinics introduced by Dubai Health Authority (12 Jan 2020)",
+          "publisher": "Gulf News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-american-hospital-dubai",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "American Hospital Dubai"
+      },
+      "organization": "American Hospital Dubai",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://ahdubai.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Psychiatry and Behavioral Health diagnoses and treats ADHD in children and adults after a comprehensive evaluation; stimulant and non-stimulant medicines are prescribed. Diabetes, Endocrinology and Nutrition sees patients of all ages with a strong focus on education; Paediatric Endocrinology lists comprehensive diabetes care, insulin pump therapy and continuous glucose monitoring. Book through the hospital's online form."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ahdubai.com/services/psychiatry/attention-deficit-hyperactivity-disorder",
+          "title": "Attention Deficit Hyperactivity Disorder (ADHD)",
+          "publisher": "American Hospital Dubai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ahdubai.com/service/diabetes-endocrinology-and-nutrition",
+          "title": "Diabetes, Endocrinology and Nutrition",
+          "publisher": "American Hospital Dubai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ahdubai.com/services/pediatrics/endocrinology",
+          "title": "Pediatric Endocrinology",
+          "publisher": "American Hospital Dubai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Address and phone were not on the pages checked; use the hospital website.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-mediclinic-city-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Mediclinic City Hospital"
+      },
+      "organization": "Mediclinic Middle East",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.mediclinic.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "network",
+        "note": "Mediclinic's endocrinology and diabetes service (page under City Hospital) runs diabetes clinics for adults and children, offers CGM, 'insulin or diabetes technology' and structured education for newly diagnosed people with certified diabetes educators; 'some' Mediclinic hospitals run a diabetic foot clinic. The page covers hospitals in Dubai, Abu Dhabi and Al Ain without saying which offer what. International patient coordination is available."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.mediclinic.ae/en/city-hospital/services-and-specialities/endocrinology-diabetes.html",
+          "title": "Endocrinology and diabetes",
+          "publisher": "Mediclinic Middle East",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.mediclinic.ae/en/corporate/stay/international-patients.html",
+          "title": "International patients",
+          "publisher": "Mediclinic Middle East",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Network-level information and no address in the sources checked: confirm services and location of City Hospital with Mediclinic.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-emirates-hospital-jumeirah",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Emirates Hospital Jumeirah"
+      },
+      "organization": "Emirates Hospitals Group",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Jumeirah",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 444 444"
+        ],
+        "line": null,
+        "website": "https://emirateshospitals.ae",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabeticFootCare": true,
+        "basis": "network",
+        "note": "Group Diabetes Center: type 1, type 2 and paediatric and adolescent diabetes clinics, insulin pumps, CGM, diabetic foot clinic and dietitians, at Emirates Hospital Jumeirah, Emirates Specialty Hospital (DHCC) and group clinics. The group's psychiatry service has an adult ADHD page (clinical evaluation; stimulant and non-stimulant medicines) without saying which sites offer it."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://emirateshospitals.ae/services/diabetes-center",
+          "title": "Diabetes Center",
+          "publisher": "Emirates Hospitals Group",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://emirateshospitals.ae/services/psychiatry/adult-adhd/",
+          "title": "Adult ADHD Treatment in Dubai",
+          "publisher": "Emirates Hospitals Group",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-lighthouse-arabia",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "The LightHouse Arabia"
+      },
+      "organization": "The LightHouse Arabia",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Al Safa",
+        "district": null,
+        "address": {
+          "en": "821 Al Wasl Rd, Al Safa 2, Dubai"
+        },
+        "postcode": null,
+        "locationNote": "Second branch: Ibn Sina Building, Block B, 27B, Ground Floor, Unit 003, Dubai Healthcare City",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+971 4 380 2088"
+        ],
+        "line": null,
+        "website": "https://www.lighthousearabia.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–20:00, Sun 09:00–18:00, Sat closed.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Psychological and psychiatric clinic. Child and adolescent diagnostic assessments cover ADHD (e.g. Conners 4 for ages 6–18, attention and executive-function testing); psychiatrists provide medication management for teens and adults with ADHD. Adult psychiatrists usually see people from 16. Prescriptions can't be issued through online consultations; people living abroad can get a second-opinion report but not a prescription. For out-of-hours emergencies the clinic refers to Al Amal hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.lighthousearabia.com/services/psychiatry-1",
+          "title": "Psychiatry",
+          "publisher": "The LightHouse Arabia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.lighthousearabia.com/services/assessment-child",
+          "title": "Assessment (Children)",
+          "publisher": "The LightHouse Arabia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-thrive-wellbeing-centre",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Thrive Wellbeing Centre"
+      },
+      "organization": "Thrive Wellbeing Centre",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Jumeirah Lakes Towers (JLT)",
+        "district": null,
+        "address": {
+          "en": "Office 706-710, HDS Tower, Cluster F, Jumeirah Lakes Towers, Dubai"
+        },
+        "postcode": null,
+        "locationNote": "Second branch: Office 802, The Bridge, Dubai Sports City",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+971 4 514 7386",
+          "+971 56 895 2347 (also WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://www.thrive.ae/adhd-dubai",
+        "email": "reception@thrive.ae",
+        "booking": "https://thrive.ae/new-clients"
+      },
+      "hours": "JLT: Mon–Fri 09:00–20:00, Sat 10:00–19:00, Sun 09:00–17:00. By appointment only.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Licensed psychologists carry out ADHD assessments (the page doesn't say for which ages each clinician assesses); DHA-licensed adult psychiatrists handle medication. Book via the online form; the team calls back."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.thrive.ae/adhd-dubai",
+          "title": "ADHD Treatment in Dubai",
+          "publisher": "Thrive Wellbeing Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Child ADHD assessment may be available; confirm the clinician's age range when booking.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-chmc-german-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Clinic for Health and Medical Care (CHMC)"
+      },
+      "organization": "CHMC German Clinic for Psychiatry and Psychology",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Dubai Healthcare City",
+        "district": null,
+        "address": {
+          "en": "Al Razi Building No. 64, Block B, 3rd Floor, Clinic 3006, Dubai Healthcare City, Dubai"
+        },
+        "postcode": null,
+        "locationNote": "Second branch: HDS Business Centre, Cluster M, 10th Floor, Unit 1004, JLT",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+971 4 457 4240",
+          "+971 4 575 1705 (JLT)",
+          "+971 55 857 3970 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://chmc-dubai.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sat 08:00–18:00.",
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Assesses and treats ADHD in people aged 16 and over (does not treat children under 16). A consultant psychiatrist assesses before prescribing; methylphenidate, lisdexamfetamine and atomoxetine are named as options. The clinic notes that stimulants are strictly regulated in the UAE and only authorised doctors can prescribe them."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://chmc-dubai.com/faq/adhd-dubai/",
+          "title": "ADHD Treatment in Dubai — FAQ",
+          "publisher": "CHMC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "ae-dxb-dr-rami-hamed-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dxb",
+      "name": {
+        "en": "Dr. Rami Hamed Center (DRHC)"
+      },
+      "organization": "Dr. Rami Hamed Center",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "AE",
+        "province": "Dubai",
+        "city": "Dubai",
+        "area": "Dubai Healthcare City",
+        "district": null,
+        "address": {
+          "en": "Building 52, Dubai Healthcare City, Dubai"
+        },
+        "postcode": null,
+        "locationNote": "Second branch: Tulip Oasis 9, Wadi Al Safa 3, Majan",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+971 4 279 8200",
+          "+971 52 483 0895"
+        ],
+        "line": null,
+        "website": "https://www.drhc.ae",
+        "email": "info@drhc.ae",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Sexual health (STD) clinic advertising '100% confidential' HIV testing, including rapid tests with results in 30 minutes, and STI testing. PEP and PrEP are not mentioned. Note: UAE rules require health facilities to notify the health authority of HIV cases."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.drhc.ae/sexually-transmitted-diseases/aids-hiv",
+          "title": "AIDS / HIV — Sexually Transmitted Diseases Dubai",
+          "publisher": "DRHC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

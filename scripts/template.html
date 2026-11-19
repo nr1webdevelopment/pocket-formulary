@@ -1,11 +1,11 @@
 <title>NomadCeuticals: medicines and care for travellers</title>
-<meta name="description" content="Free, multilingual guide to medicines for HIV, ADHD, diabetes, mental health and more, with clinics and hospitals in 10 cities across Asia, the Americas and Europe, and a free medicines API.">
+<meta name="description" content="Free, multilingual guide to medicines for HIV, ADHD, diabetes, mental health and more, with clinics and hospitals in cities around the world, and a free medicines API.">
 <link rel="canonical" href="__SITE__">
 <meta name="theme-color" content="#000000">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="NomadCeuticals">
 <meta property="og:title" content="NomadCeuticals: medicines and care for travellers">
-<meta property="og:description" content="Medicines, approval status and care providers in 10 cities, in six languages. Free data and API.">
+<meta property="og:description" content="Medicines, approval status and care providers in cities around the world, in six languages. Free data and API.">
 <meta property="og:url" content="__SITE__">
 <meta property="og:image" content="__SITE__assets/og-image.png">
 <meta property="og:image:width" content="1200">
@@ -464,7 +464,7 @@ function topbar(active) {
 function renderFooter() {
   const f = document.getElementById("footer");
   f.innerHTML = `${esc(t("footer"))}${LANG !== "en" ? `<br><em>${esc(t("machineNote"))}</em>` : ""}
-    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a> · <a href="api/index.html">${esc(t("apiLink"))}</a>${window.gtag ? ` · <a href="#" onclick="window.NCConsent && NCConsent.open(); return false;">${esc(t("privacyChoices"))}</a>` : ""}.${SLIDES.some(s => s.credit) ? `<br>${esc(t("photoCredit", { names: SLIDES.map(s => s.credit).filter(Boolean).join(", ") }))}` : ""}`;
+    <br>${esc(t("releaseLine", { v: RELEASE.version, date: fmtDate(RELEASE.released) }))} <a href="${REPO}#download-the-latest-data">${esc(t("downloadData"))}</a> · <a href="api/index.html">${esc(t("apiLink"))}</a> · <a href="#" onclick="return ncReport()">${esc(t("reportProblem"))}</a>${window.gtag ? ` · <a href="#" onclick="window.NCConsent && NCConsent.open(); return false;">${esc(t("privacyChoices"))}</a>` : ""}.${SLIDES.some(s => s.credit) ? `<br>${esc(t("photoCredit", { names: SLIDES.map(s => s.credit).filter(Boolean).join(", ") }))}` : ""}`;
 }
 
 /* ---------------- medicines ---------------- */
@@ -635,7 +635,16 @@ function ingredientPage(r) {
 
 /* ---------------- providers ---------------- */
 const CITIES = Object.fromEntries(CITYDOC.cities.map(c => [c.code, c]));
-const REGIONS = [["regionAsia", ["bkk", "sha", "hkg", "mfm", "tpe", "sin"]], ["regionAmericas", ["sfo", "lax", "gdl"]], ["regionEurope", ["lis"]]];
+const REGION_OF = {
+  regionAsia: "TH HK MO MY SG IN CN JP TW KR VN ID PH LK KH LA MM NP",
+  regionMiddleEast: "AE SA IL PS LB JO IR EG QA BH OM KW",
+  regionEurope: "GB FR IT CZ NL ES AT DE GR RU IE BE HU PT DK PL SE CH RO BG TR NO FI",
+  regionAmericas: "US MX CA AR PE BR DO CO UY EC CL CR CU",
+  regionAfrica: "ZA MA GH NG KE TZ", regionOceania: "AU NZ FJ",
+};
+const REGIONS = Object.entries(REGION_OF).map(([rk, cc]) => [rk, CITYDOC.cities.filter(c => cc.split(" ").includes(c.country)).map(c => c.code)])
+  .concat([["regionOther", CITYDOC.cities.filter(c => !Object.values(REGION_OF).join(" ").split(" ").includes(c.country)).map(c => c.code)]])
+  .filter(([, codes]) => codes.length);
 const JNOTES = CITYDOC.jurisdictionNotes || {};
 const PBY = Object.fromEntries(PROVIDERS.map(p => [p.id, p]));
 const SVC = {
@@ -693,7 +702,7 @@ function providerShell() {
     ${hero("prov")}
     <nav class="citybar" aria-label="${esc(t("cityLabel"))}">
       <div class="citylabel">${t("cityLabel")}</div>
-      ${REGIONS.map(([rk, codes]) => `<div class="cityregion"><span class="rlabel">${esc(t(rk))}</span>${codes.filter(x => CITIES[x]).map(x =>
+      ${REGIONS.map(([rk, codes]) => `<div class="cityregion"><span class="rlabel">${esc(t(rk))}</span>${codes.filter(x => CITIES[x]).sort((a, b) => cityName(a).localeCompare(cityName(b), LANG)).map(x =>
         `<a class="citychip" href="#providers/${x}/${pstate.cond}" ${x === pstate.city ? 'aria-current="page"' : ""} title="${esc(tc(CITIES[x].countryName))}">${esc(cityName(x))}<span class="n">${PROVIDERS.filter(p => p.city === x).length}</span></a>`).join("")}</div>`).join("")}
     </nav>
     <div class="tabs tabs3" role="group" style="grid-template-columns: repeat(3, minmax(0, 1fr))">${Object.keys(PCOND).map(ptab).join("")}</div>
@@ -809,7 +818,6 @@ function providerProfile(p) {
   ].filter(([, v]) => v);
   if (facts.length % 2) facts.push([t("factType"), t("type_" + p.type)]);
   const prepMeds = p.conditions.includes("hiv") && s.prep ? DRUGS.filter(d => (d.extra || []).some(e => e[0] === "Used for" && /PrEP/.test(e[1]))) : [];
-  const issue = `${REPO}/issues/new?title=${encodeURIComponent("Correction: " + p.id)}&body=${encodeURIComponent("What's wrong or out of date?\n\n")}`;
   const n2 = pname2(p);
   app.innerHTML = `
     ${topbar("prov")}
@@ -848,7 +856,7 @@ function providerProfile(p) {
         <dt>${t("confirmedWith")}</dt><dd>${p.verification.lastVerified ? esc(t("verifiedOn", { date: fmtDate(p.verification.lastVerified), method: t("method_" + p.verification.method) })) : t("notYet")}</dd>
         ${p.verification.nextReviewDue ? `<dt>${t("nextCheck")}</dt><dd>${fmtDate(p.verification.nextReviewDue)}</dd>` : ""}
       </dl>
-      <a href="${issue}" target="_blank" rel="noopener">${t("report")}</a>
+      <a href="#" onclick="return ncReport(${esc(JSON.stringify({ about: pname(p), id: p.id }))})">${t("report")}</a>
     </div>
     <div class="src">${t("sourcesLabel")}<ul>${p.sources.map(x => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.publisher ? ` · ${esc(x.publisher)}` : ""}</li>`).join("")}</ul></div>`;
   window.scrollTo(0, 0);

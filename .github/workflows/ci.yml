@@ -1,9 +1,10 @@
 name: Validate data
 
+# Pull requests: data must be valid and the built files must match it.
+# Pushes to main are checked (and rebuilt) by deploy.yml, because saves from the admin dashboard only change data/.
 on:
-  push:
-    branches: [main]
   pull_request:
+  workflow_dispatch:
 
 jobs:
   validate:

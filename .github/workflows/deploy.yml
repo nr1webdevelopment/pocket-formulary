@@ -1,10 +1,11 @@
 name: Build public site
 
-# On every push to main: check the data, then publish ONLY the public website files
-# (scripts/build_public.py -> public/) to the `public` branch.
+# On every push to main (yours, or a save from the admin dashboard at nomadceuticals.com/admin/):
+#   1. rebuild everything made from the data (dist/, api/, index.html, otc-finder.html) and check it
+#   2. commit the rebuilt files back to main if they changed (so the repo always matches the live site)
+#   3. publish ONLY the public website files (scripts/build_public.py -> public/) to the `public` branch
 # Hostinger: hPanel -> Websites -> Advanced -> Git -> repository https://github.com/nr1webdevelopment/pocket-formulary,
-# branch "public", install path empty (public_html). Turn on auto-deployment and add its webhook URL to
-# GitHub -> Settings -> Webhooks so every push goes live automatically.
+# branch "public", install path empty (public_html). Auto-deployment is on, with its webhook in GitHub -> Settings -> Webhooks.
 on:
   push:
     branches: [main]
@@ -25,12 +26,22 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install "jsonschema>=4.18"
-      - name: Check data and API are up to date
+      - run: pip install "jsonschema>=4.18" pillow
+      - name: Rebuild data, API and pages
         run: |
           python scripts/build_dist.py
-          python scripts/validate.py
-          git diff --exit-code -- dist/ api/
+          python scripts/build_site.py
+      - name: Check the data
+        run: python scripts/validate.py
+      - name: Commit rebuilt files back to main
+        run: |
+          git add -A dist/ api/ index.html otc-finder.html images/.cache
+          if git diff --cached --quiet; then echo "Nothing to commit: built files already match."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Rebuild site files after ${GITHUB_SHA::7}"
+          # If main moved on meanwhile, a newer run of this workflow takes care of it.
+          git push origin HEAD:main || echo "main changed while building; skipped (the newer run will commit)."
       - name: Assemble public site
         run: python scripts/build_public.py
       - name: Publish to the public branch

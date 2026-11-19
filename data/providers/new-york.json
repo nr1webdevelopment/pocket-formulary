@@ -1,0 +1,1648 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "nyc",
+  "providers": [
+    {
+      "id": "us-nyc-doh-chelsea",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Chelsea Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Chelsea",
+        "address": {
+          "en": "303 9th Avenue, 1st Floor, New York, NY 10001"
+        },
+        "postcode": "10001",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–15:30. Chelsea Express (testing without symptoms): Mon, Wed–Fri 08:30–15:30; Tue 08:30–19:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Results at the main clinic take about seven days; Chelsea Express offers express testing and rapid chlamydia/gonorrhoea results (Quickie Lab). Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-doh-fort-greene",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Fort Greene Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Brooklyn",
+        "district": "Fort Greene",
+        "address": {
+          "en": "295 Flatbush Avenue Extension, 2nd Floor, Brooklyn, NY 11201"
+        },
+        "postcode": "11201",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–15:30. Fort Greene Express (1st floor): Mon, Wed–Fri 08:30–15:30; Tue 08:30–19:00. Main clinic closed Nov 11–19, 2026 for facility improvements; services resume Nov 20.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Also offers medication abortion (walk-ins until 2 p.m.); Express offers rapid chlamydia/gonorrhoea results. Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-doh-central-harlem",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Central Harlem Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Harlem",
+        "address": {
+          "en": "2238 Fifth Avenue, 1st Floor, New York, NY 10037"
+        },
+        "postcode": "10037",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–15:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Also walk-in pregnancy testing and medication abortion (walk-ins until 2 p.m.). Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-doh-morrisania",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Morrisania Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Bronx",
+        "district": "Morrisania",
+        "address": {
+          "en": "1309 Fulton Avenue, 2nd Floor, Bronx, NY 10456"
+        },
+        "postcode": "10456",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–15:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Also offers medication abortion. Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-doh-jamaica",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Jamaica Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Queens",
+        "district": "Jamaica",
+        "address": {
+          "en": "90-37 Parsons Boulevard, 1st Floor, Queens, NY 11432"
+        },
+        "postcode": "11432",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–15:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Also offers medication abortion (walk-ins until 2 p.m.). Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-doh-corona",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Corona Sexual Health Clinic"
+      },
+      "organization": "NYC Department of Health and Mental Hygiene",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Queens",
+        "district": "Corona",
+        "address": {
+          "en": "34-33 Junction Boulevard, 1st Floor, Queens, NY 11372"
+        },
+        "postcode": "11372",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 347 396 7959"
+        ],
+        "line": null,
+        "website": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Wed and Fri 08:30–15:30; Thu 08:30–19:15.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Low- or no-cost; anyone 12 or older is seen regardless of immigration status. Adults (19+) are asked for a sliding-scale fee but can still get services without insurance or if they can't pay; insurance is billed if you want. Most services are walk-in only; PrEP is walk-in but appointments are preferred. HIV testing, PrEP, PEP, HIV treatment and STI care are listed for the clinic system as a whole. Clinic hotline 347-396-7959 (Mon–Fri 09:00–15:30). When clinics are closed, call the 24/7 PEP Hotline 844-373-7692 (PEP within 72 hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+          "title": "Sexual Health Clinics",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nyc.gov/site/doh/health/health-topics/post-exposure-prophylaxis-pep.page",
+          "title": "Emergency Post-Exposure Prophylaxis (PEP)",
+          "publisher": "NYC Department of Health and Mental Hygiene",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-callen-lorde-chelsea",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Callen-Lorde Chelsea"
+      },
+      "organization": "Callen-Lorde Community Health Center",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": null,
+        "address": {
+          "en": "356 West 18th St, New York, NY 10011"
+        },
+        "postcode": "10011",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 271 7200"
+        ],
+        "line": null,
+        "website": "https://callen-lorde.org/locations-hours/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Walk-in STI testing on Saturdays at Chelsea. LGBTQ+-focused community health centre offering HIV prevention (PrEP, PEP), HIV treatment and care, and STI testing and treatment. For PEP you don't need to be a patient: walk in (allow 2–3 hours) or call 212-271-7200; if closed, go to an ER or call 844-3-PEPNYC. Sliding fee scale for the uninsured; pharmacy services regardless of ability to pay; uninsured patients may qualify for a medication assistance programme. Interpretation on request."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://callen-lorde.org/locations-hours/",
+          "title": "Locations & Hours",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/our-services/",
+          "title": "Our Services",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/sexual-health-clinic/pep/",
+          "title": "Post-Exposure Prophylaxis (PEP) Options",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-callen-lorde-bronx",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Callen-Lorde Bronx"
+      },
+      "organization": "Callen-Lorde Community Health Center",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Bronx",
+        "district": null,
+        "address": {
+          "en": "555 Bergen Ave, 4th Floor, Bronx, NY 10455"
+        },
+        "postcode": "10455",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 718 215 1800"
+        ],
+        "line": null,
+        "website": "https://callen-lorde.org/locations-hours/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "LGBTQ+-focused community health centre offering HIV prevention (PrEP, PEP), HIV treatment and care, and STI testing and treatment. For PEP you don't need to be a patient: walk in (allow 2–3 hours) or call 212-271-7200; if closed, go to an ER or call 844-3-PEPNYC. Sliding fee scale for the uninsured; pharmacy services regardless of ability to pay; uninsured patients may qualify for a medication assistance programme. Interpretation on request."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://callen-lorde.org/locations-hours/",
+          "title": "Locations & Hours",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/our-services/",
+          "title": "Our Services",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/sexual-health-clinic/pep/",
+          "title": "Post-Exposure Prophylaxis (PEP) Options",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-callen-lorde-brooklyn",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Callen-Lorde Brooklyn"
+      },
+      "organization": "Callen-Lorde Community Health Center",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Brooklyn",
+        "district": null,
+        "address": {
+          "en": "40 Flatbush Ave Ext, 3rd Floor, Brooklyn, NY 11201"
+        },
+        "postcode": "11201",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 718 215 1818"
+        ],
+        "line": null,
+        "website": "https://callen-lorde.org/locations-hours/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "LGBTQ+-focused community health centre offering HIV prevention (PrEP, PEP), HIV treatment and care, and STI testing and treatment. For PEP you don't need to be a patient: walk in (allow 2–3 hours) or call 212-271-7200; if closed, go to an ER or call 844-3-PEPNYC. Sliding fee scale for the uninsured; pharmacy services regardless of ability to pay; uninsured patients may qualify for a medication assistance programme. Interpretation on request."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://callen-lorde.org/locations-hours/",
+          "title": "Locations & Hours",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/our-services/",
+          "title": "Our Services",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://callen-lorde.org/sexual-health-clinic/pep/",
+          "title": "Post-Exposure Prophylaxis (PEP) Options",
+          "publisher": "Callen-Lorde Community Health Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-hh-bellevue-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NYC Health + Hospitals/Bellevue — HIV Services"
+      },
+      "organization": "NYC Health + Hospitals",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Kips Bay",
+        "address": {},
+        "postcode": null,
+        "locationNote": "Fourth Floor, Administration ('A') Building, Bellevue hospital campus.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 562 4038"
+        ],
+        "line": null,
+        "website": "https://www.nychealthandhospitals.org/bellevue/services/hiv-services/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–17:00; Thu also 17:00–20:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "network",
+        "note": "Free HIV counselling and testing, with rapid results in under an hour; HIV primary care, adherence support and harm reduction. NYC Health + Hospitals provides HIV care regardless of ability to pay or immigration status; PEP is available at all 11 public hospitals and PrEP at all 17 HIV clinics. Its Options sliding-scale programme covers people who live in or visit New York City."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nychealthandhospitals.org/bellevue/services/hiv-services/",
+          "title": "HIV Services",
+          "publisher": "NYC Health + Hospitals/Bellevue",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nychealthandhospitals.org/services/hivaids-care/",
+          "title": "HIV/AIDS Care",
+          "publisher": "NYC Health + Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nychealthandhospitals.org/financial-assistance/",
+          "title": "Financial Assistance",
+          "publisher": "NYC Health + Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-hh-harlem-prep",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NYC Health + Hospitals/Harlem — PrEP Program"
+      },
+      "organization": "NYC Health + Hospitals",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Harlem",
+        "address": {
+          "en": "15 West 136 Street, Kounts Pavilion, 2nd floor, New York, NY 10037"
+        },
+        "postcode": "10037",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 939 3715",
+          "+1 212 939 3701"
+        ],
+        "line": null,
+        "website": "https://www.nychealthandhospitals.org/harlem/services/hiv-prep/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–17:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "network",
+        "note": "PrEP programme; covered by Medicaid and most insurance, with patient assistance for the uninsured or those with high co-pays; immigration status doesn't affect access. PEP is listed for each of the system's 11 public hospitals, including Harlem. NYC Health + Hospitals provides HIV care regardless of ability to pay or immigration status; PEP is available at all 11 public hospitals and PrEP at all 17 HIV clinics. Its Options sliding-scale programme covers people who live in or visit New York City."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nychealthandhospitals.org/harlem/services/hiv-prep/",
+          "title": "HIV PrEP",
+          "publisher": "NYC Health + Hospitals/Harlem",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nychealthandhospitals.org/services/hivaids-care/",
+          "title": "HIV/AIDS Care",
+          "publisher": "NYC Health + Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nychealthandhospitals.org/financial-assistance/",
+          "title": "Financial Assistance",
+          "publisher": "NYC Health + Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-nyu-child-study-center",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NYU Langone Child Study Center (Hassenfeld Children's Hospital)"
+      },
+      "organization": "NYU Langone Health",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Murray Hill / Gramercy",
+        "address": {
+          "en": "One Park Avenue, 7th Floor, New York, NY 10016"
+        },
+        "postcode": "10016",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 646 754 5000",
+          "+1 646 929 7970"
+        ],
+        "line": null,
+        "website": "https://nyulangone.org/locations/child-study-center",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Office hours weekdays 08:00–20:00. Care starts with an intake phone call.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "ADHD diagnostic evaluations for children (646-929-7970) through the ADHD & Behavior Disorders Service; comprehensive child and adolescent psychopharmacology (medication) services."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://nyulangone.org/locations/child-study-center",
+          "title": "Child Study Center",
+          "publisher": "NYU Langone Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://nyulangone.org/conditions/attention-deficit-hyperactivity-disorder-in-children/diagnosis",
+          "title": "Diagnosing ADHD in Children",
+          "publisher": "NYU Langone Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-nyu-adult-adhd-program",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NYU Langone Psychiatry Associates — Adult ADHD Program"
+      },
+      "organization": "NYU Langone Health",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": null,
+        "address": {},
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 646 929 7800"
+        ],
+        "line": null,
+        "website": "https://www.nyulangone.org/locations/nyu-langone-psychiatry-associates/adult-adhd-program",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Comprehensive adult ADHD evaluations, medication consultation and management, CBT (individual and group) and neuropsychological testing; online visits available. Address, fees and referral rules aren't listed; call 646-929-7800."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyulangone.org/locations/nyu-langone-psychiatry-associates/adult-adhd-program",
+          "title": "Adult ADHD Program",
+          "publisher": "NYU Langone Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-child-mind-institute",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Child Mind Institute — ADHD and Behavior Disorders Center"
+      },
+      "organization": "Child Mind Institute",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Midtown East",
+        "address": {
+          "en": "215 East 50th Street, New York, NY 10022"
+        },
+        "postcode": "10022",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 308 3118"
+        ],
+        "line": null,
+        "website": "https://childmind.org/care/areas-of-expertise/adhd-and-behavior-disorders-center/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "ADHD diagnosis for children and teens (the institute sees ages 1–25, with some young-adult programmes to 29); medication management by child and adolescent psychiatrists. Out of network (no direct insurance billing): diagnostic evaluation $1,600–$3,500, psychiatric evaluation $4,260, ongoing treatment $340–$596/hour; financial aid for families who qualify. Telehealth only for residents of certain states."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://childmind.org/care/areas-of-expertise/adhd-and-behavior-disorders-center/",
+          "title": "ADHD and Behavior Disorders Center",
+          "publisher": "Child Mind Institute",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://childmind.org/our-care/for-patients/what-to-expect/frequently-asked-questions/",
+          "title": "Frequently Asked Questions",
+          "publisher": "Child Mind Institute",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-nyp-weill-cornell-adhd",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NewYork-Presbyterian/Weill Cornell — Psychiatry (ADHD)"
+      },
+      "organization": "NewYork-Presbyterian / Weill Cornell Medicine",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Upper East Side",
+        "address": {
+          "en": "525 East 68th Street, New York, NY 10065"
+        },
+        "postcode": "10065",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 746 6208"
+        ],
+        "line": null,
+        "website": "https://www.nyp.org/psychiatry/services/adhd",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Evaluation of children and teens (academic, social, emotional and developmental functioning); treatment plans may include counselling, parent training, school accommodations and medication including stimulants. Ask about adult evaluation. Outpatient services: 877-697-9355."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyp.org/psychiatry/services/adhd",
+          "title": "ADHD",
+          "publisher": "NewYork-Presbyterian",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-nyp-columbia-adhd",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NewYork-Presbyterian/Columbia — Psychiatry (ADHD)"
+      },
+      "organization": "NewYork-Presbyterian / Columbia University Irving Medical Center",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Washington Heights",
+        "address": {
+          "en": "622 West 168th Street, New York, NY 10032"
+        },
+        "postcode": "10032",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 305 6001",
+          "+1 212 305 2157"
+        ],
+        "line": null,
+        "website": "https://www.nyp.org/psychiatry/services/adhd",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Evaluation of children and teens, with treatment that can include medication (including stimulants), counselling and school support. A separate adult line (212-305-2157) is listed; ask whether adult ADHD evaluation is available."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nyp.org/psychiatry/services/adhd",
+          "title": "ADHD",
+          "publisher": "NewYork-Presbyterian",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-naomi-berrie-adult",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Naomi Berrie Diabetes Center — Adult Diabetes Program"
+      },
+      "organization": "ColumbiaDoctors / Columbia University Irving Medical Center",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Washington Heights",
+        "address": {
+          "en": "630 West 168th Street, New York, NY 10032"
+        },
+        "postcode": "10032",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 851 5494",
+          "+1 212 305 2862"
+        ],
+        "line": null,
+        "website": "https://www.columbiadoctors.org/specialties/endocrinology-diabetes-metabolism/naomi-berrie-diabetes-center/patient-care/adult-diabetes-program",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": false,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1, type 2, monogenic, cystic-fibrosis-related, post-transplant and pregnancy-related diabetes; current CGM and insulin pump technology; ADA-accredited education (individual and group, type 2 class in English and Spanish). Call 212-851-5494 for a first appointment with a recent A1c and medication list; type 2 patients usually attend a class before seeing an endocrinologist."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.columbiadoctors.org/specialties/endocrinology-diabetes-metabolism/naomi-berrie-diabetes-center/patient-care/adult-diabetes-program",
+          "title": "Adult Diabetes Program",
+          "publisher": "ColumbiaDoctors",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-naomi-berrie-pediatric",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Naomi Berrie Diabetes Center — Pediatric Diabetes Program"
+      },
+      "organization": "ColumbiaDoctors / Columbia University Irving Medical Center",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "Washington Heights",
+        "address": {
+          "en": "630 West 168th Street, New York, NY 10032"
+        },
+        "postcode": "10032",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 851 5494"
+        ],
+        "line": null,
+        "website": "https://www.columbiadoctors.org/childrens-health/specialties/endocrinology-diabetes-metabolism/innovative-programs-services/naomi-berrie-diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "basis": "site",
+        "note": "Type 1, type 2 (including many adolescent-onset cases) and atypical diabetes in children; one of the largest insulin pump programmes in the US; in-person and virtual visits (upload pump and CGM data first); art therapy; type 1 clinical trials."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.columbiadoctors.org/childrens-health/specialties/endocrinology-diabetes-metabolism/innovative-programs-services/naomi-berrie-diabetes",
+          "title": "Pediatric Diabetes Program",
+          "publisher": "ColumbiaDoctors",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-mount-sinai-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "Mount Sinai Diabetes Center"
+      },
+      "organization": "Mount Sinai Health System",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Manhattan",
+        "district": "East Harlem / Upper East Side",
+        "address": {
+          "en": "5 East 98th Street, 3rd Floor, New York, NY 10029"
+        },
+        "postcode": "10029",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 212 241 3422"
+        ],
+        "line": null,
+        "website": "https://www.mountsinai.org/locations/mount-sinai/care/diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "basis": "site",
+        "note": "Programmes for all forms of diabetes, including artificial-pancreas (closed-loop) trials for type 1, exercise and weight management programmes and vision health work in East Harlem. The page doesn't say whether children are seen or list pump/CGM/education services by name; call to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.mountsinai.org/locations/mount-sinai/care/diabetes",
+          "title": "Mount Sinai Diabetes Center",
+          "publisher": "Mount Sinai Health System",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "us-nyc-hh-queens-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "nyc",
+      "name": {
+        "en": "NYC Health + Hospitals/Queens — Diabetes Center of Excellence"
+      },
+      "organization": "NYC Health + Hospitals",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "US",
+        "province": "New York",
+        "city": "New York",
+        "area": "Queens",
+        "district": "Jamaica",
+        "address": {},
+        "postcode": null,
+        "locationNote": "Fourth floor, Pavilion Building, north-east side of the Queens Hospital Center campus.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+1 718 883 3180"
+        ],
+        "line": null,
+        "website": "https://www.nychealthandhospitals.org/queens/services/diabetes-care/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Adult diabetes assessment and treatment, dietitian, ADA-recognised self-management education with monthly classes in English and Spanish, insulin pump services and support group, CGM for eligible patients, and podiatry referral. Financial counsellors assess eligibility for the NYC Health + Hospitals Options sliding-scale programme, which covers people who live in or visit NYC."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nychealthandhospitals.org/queens/services/diabetes-care/",
+          "title": "Diabetes Care",
+          "publisher": "NYC Health + Hospitals/Queens",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nychealthandhospitals.org/financial-assistance/",
+          "title": "Financial Assistance",
+          "publisher": "NYC Health + Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

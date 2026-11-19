@@ -1,0 +1,2074 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "kul",
+  "providers": [
+    {
+      "id": "my-kul-klinik-kesihatan-kuala-lumpur",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Klinik Kesihatan Kuala Lumpur"
+      },
+      "organization": "Ministry of Health Malaysia (JKWPKL&P)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Titiwangsa",
+        "address": {
+          "en": "Jalan Temerloh, Taman Tasik Titiwangsa, 53200 Kuala Lumpur"
+        },
+        "postcode": "53200",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2618 3200"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by the Malaysian AIDS Council and the Malaysian AIDS Foundation as a government clinic giving PrEP free of charge. Free PrEP is for Malaysian citizens aged 18 and over; it needs a doctor's prescription after counselling and STI tests, with an HIV test every three months. Non-citizens: ask at registration what you would pay."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mac.org.my/v4/prep-pep/",
+          "title": "PrEP & PEP: where you can get free PrEP",
+          "publisher": "Malaysian AIDS Council",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://maf.org.my/V2/pre-exposure-prophylaxis-prep",
+          "title": "What is Pre-Exposure Prophylaxis (PrEP)",
+          "publisher": "Malaysian AIDS Foundation",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://jknkl.moh.gov.my/jkwpklp/images/MY-DOWNLOAD/PENERBITAN/penerbitan%20fasiliti_26032025-compressed.pdf",
+          "title": "Penerbitan fasiliti (senarai fasiliti kesihatan), 26 Mar 2025",
+          "publisher": "Jabatan Kesihatan Wilayah Persekutuan Kuala Lumpur & Putrajaya (KKM)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-klinik-kesihatan-cheras",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Klinik Kesihatan Cheras"
+      },
+      "organization": "Ministry of Health Malaysia (JKWPKL&P)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Cheras",
+        "address": {
+          "en": "No. 14, Jalan Yaacob Latif, 56000 Cheras, Kuala Lumpur"
+        },
+        "postcode": "56000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 9133 3322"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed by the Malaysian AIDS Council and the Malaysian AIDS Foundation as a government clinic giving PrEP free of charge. Free PrEP is for Malaysian citizens aged 18 and over; it needs a doctor's prescription after counselling and STI tests, with an HIV test every three months. Non-citizens: ask at registration what you would pay."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mac.org.my/v4/prep-pep/",
+          "title": "PrEP & PEP: where you can get free PrEP",
+          "publisher": "Malaysian AIDS Council",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://maf.org.my/V2/pre-exposure-prophylaxis-prep",
+          "title": "What is Pre-Exposure Prophylaxis (PrEP)",
+          "publisher": "Malaysian AIDS Foundation",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://jknkl.moh.gov.my/jkwpklp/images/MY-DOWNLOAD/PENERBITAN/penerbitan%20fasiliti_26032025-compressed.pdf",
+          "title": "Penerbitan fasiliti (senarai fasiliti kesihatan), 26 Mar 2025",
+          "publisher": "Jabatan Kesihatan Wilayah Persekutuan Kuala Lumpur & Putrajaya (KKM)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The state health department's facility list shows 03-9130 0196 for this clinic; the AIDS Council and AIDS Foundation give 03-9133 3322.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-hkl-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Hospital Kuala Lumpur — Infectious Disease Specialist Clinic"
+      },
+      "organization": "Hospital Kuala Lumpur (Ministry of Health Malaysia)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Jalan Pahang, 50586 Kuala Lumpur"
+        },
+        "postcode": "50586",
+        "locationNote": "Infectious Disease Specialist Clinic, Level 2, Specialist Complex and Ambulatory Care Centre (SCACC)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2615 5555"
+        ],
+        "line": null,
+        "website": "https://hkl.moh.gov.my/en/about-us/department/medical/general-medicine",
+        "email": null,
+        "booking": null
+      },
+      "hours": "ID clinic: Thursday and Friday mornings (Friday 08:00–13:00). GUM (sexual health) clinic: Tuesday mornings at the Dermatology clinic.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Malaysia's main public hospital: infectious disease specialists provide HIV care, a genitourinary medicine (GUM) clinic and a combined HIV/Kaposi sarcoma clinic with Oncology. Non-citizens pay foreigner rates (for example RM120 for a first specialist-clinic visit)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hkl.moh.gov.my/en/about-us/department/medical/general-medicine",
+          "title": "Department of General Medicine (Infectious Diseases and Endocrinology units)",
+          "publisher": "Hospital Kuala Lumpur (KKM)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://jknpahang.moh.gov.my/index.php/en/informasi2/caj-rawatan?showall=1",
+          "title": "Caj rawatan (treatment charges, incl. non-citizens)",
+          "publisher": "Jabatan Kesihatan Negeri Pahang (KKM)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Need PEP out of hours? Ask at a hospital emergency department; the foreigner charge for emergency treatment at government hospitals is about RM100.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-ummc-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "University Malaya Medical Centre (UMMC) — Infectious Disease Clinic"
+      },
+      "organization": "University Malaya Medical Centre (Universiti Malaya)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Lembah Pantai",
+        "address": {
+          "en": "Lembah Pantai, 59100 Kuala Lumpur"
+        },
+        "postcode": "59100",
+        "locationNote": "Klinik Perubatan 3 (outpatient); HIV ward 4U, Menara Utama",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 7949 2429",
+          "+60 3 7949 4422"
+        ],
+        "line": null,
+        "website": "https://medfom.um.edu.my/infectious-disease-service",
+        "email": null,
+        "booking": null
+      },
+      "hours": "General ID / HIV/STI / telemedicine clinic: Monday afternoon, Tuesday and Friday mornings. PrEP reviews in daycare Tuesday and Friday afternoons.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "site",
+        "note": "Outpatient HIV/STI care, PrEP and PEP, telemedicine follow-up for stable HIV patients, and an ID Wellness clinic (mental-health care for people living with HIV). 03-7949 2429 is the Department of Medicine."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://medfom.um.edu.my/infectious-disease-service",
+          "title": "Infectious Disease Service",
+          "publisher": "Department of Medicine, Faculty of Medicine, Universiti Malaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ceria.um.edu.my/infectious-diseases-unit-university-malaya/",
+          "title": "Infectious Diseases Unit University Malaya",
+          "publisher": "Centre of Excellence for Research in AIDS (CERiA), Universiti Malaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-pt-foundation",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "PT Foundation"
+      },
+      "organization": "PT Foundation (Pertubuhan Komuniti Prihatin)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Chow Kit / Jalan Raja Laut",
+        "address": {
+          "en": "7C-1, Jalan Ipoh Kecil, Off Jalan Raja Laut, 50350 Kuala Lumpur"
+        },
+        "postcode": "50350",
+        "locationNote": "A refugee-services directory lists PT Foundation's Community Health Care Centre (CHCC) at No. 2 (Level 1), Jalan Haji Salleh, Sentul, 51100 Kuala Lumpur. Confirm which site to visit.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 4044 4611",
+          "+60 3 4051 1163",
+          "+60 3 4051 3611"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV screening at the CHCC (per directory): Tue 14:00–16:15 and 19:00–20:15; Thu 10:00–11:30 and 14:00–16:45; Sat 10:00–12:30 and 15:00–16:45. Counselling by appointment.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Long-running community HIV organisation. Listed by the Malaysian AIDS Council as a PrEP provider. Its Community Health Care Clinic offers HIV screening and counselling (fees apply) and has run free PrEP starter-kit drives for students and low-income (B40) people."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mac.org.my/v4/prep-pep/",
+          "title": "PrEP & PEP: where you can get free PrEP",
+          "publisher": "Malaysian AIDS Council",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://refugeemalaysia.org/support/health-services/ngo-clinics-and-services/",
+          "title": "NGO Clinics and Services",
+          "publisher": "Refugee Malaysia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://says.com/my/lifestyle/malaysian-ngo-free-prep-starter-kits-tertiary-students-b40-persons",
+          "title": "This Malaysian NGO is providing free PrEP starter kits for tertiary students & B40 persons (Jan 2023)",
+          "publisher": "SAYS",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.timeout.com/kuala-lumpur/hospitals/pt-foundations-community-health-care-centre-chcc",
+          "title": "PT Foundation's Community Health Care Centre (CHCC) (2015)",
+          "publisher": "Time Out Kuala Lumpur",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Sources give three different addresses (a 2015 listing also shows Sentul Boulevard). Phone before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-klass",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Kuala Lumpur AIDS Support Services Society (KLASS)"
+      },
+      "organization": "KLASS",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Sentul",
+        "address": {
+          "en": "No 16-4, Jalan 13/48A, The Boulevard Shop Office, Off Jalan Sentul, 51000 Kuala Lumpur"
+        },
+        "postcode": "51000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 4045 6681",
+          "+60 3 2332 2081",
+          "+60 3 2300 2180"
+        ],
+        "line": null,
+        "website": "https://www.myklass.org",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Community organisation founded by doctors and people affected by HIV: community-based HIV testing, linkage to treatment and care, peer support and temporary shelter for people starting HIV treatment. Listed by the Malaysian AIDS Council as a PrEP provider."
+      },
+      "populationFocus": [
+        "msm",
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://mac.org.my/v4/prep-pep/",
+          "title": "PrEP & PEP: where you can get free PrEP",
+          "publisher": "Malaysian AIDS Council",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.myklass.org",
+          "title": "KLASS",
+          "publisher": "Kuala Lumpur AIDS Support Services Society",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.positivedestinations.info/organisation/16467-kuala-lumpur-aids-support-services-society-klass/",
+          "title": "Kuala Lumpur AIDS Support Services Society (KLASS)",
+          "publisher": "Positive Destinations (HIV Justice / aidsmap)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.malaymail.com/news/malaysia/2015/12/01/kuala-lumpur-aids-support-services-society-tests-and-treatments-for-gay-men/1014957",
+          "title": "KLASS tests and treatments for gay men (Dec 2015)",
+          "publisher": "Malay Mail",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-seed-foundation",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "SEED Foundation (Pertubuhan Pembangunan Kebajikan dan Persekitaran Positif Malaysia)"
+      },
+      "organization": "SEED Malaysia",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Jalan Raja Laut",
+        "address": {
+          "en": "No. 13-1A, Level 1, Jalan Raja Laut, 50350 Kuala Lumpur"
+        },
+        "postcode": "50350",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 4051 3532",
+          "+60 18 371 2563"
+        ],
+        "line": null,
+        "website": "https://seedfoundation.com.my",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Trans-led organisation. Its drop-in centre and outreach team (trained by the Ministry of Health) test for HIV, syphilis and hepatitis C and refer to clinics. The Malaysian AIDS Council lists SEED as a PrEP provider (at No. 69, Jalan Tiong Nam, 50350)."
+      },
+      "populationFocus": [
+        "transgender"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://seedfoundation.com.my/ourwork/",
+          "title": "Our work",
+          "publisher": "SEED Foundation Malaysia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://mac.org.my/v4/prep-pep/",
+          "title": "PrEP & PEP: where you can get free PrEP",
+          "publisher": "Malaysian AIDS Council",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-hisential-bangsar",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Hisential Clinic Bangsar"
+      },
+      "organization": "Hisential Clinics Malaysia",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Bangsar",
+        "address": {
+          "en": "Lot S122, 2nd Floor, Bangsar Shopping Centre, 285 Jalan Maarof, 59000 Kuala Lumpur"
+        },
+        "postcode": "59000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 8603 7220",
+          "+60 12 841 3969"
+        ],
+        "line": null,
+        "website": "https://hisential.com/hiv-pep",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 10:00–20:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Private sexual-health clinic: PEP (72-hour window), PrEP with monitoring, anonymous alias-only HIV testing (no IC, name or phone needed) and STI testing. Paid service; prices are not published online. +60 12-841 3969 is WhatsApp."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hisential.com/hiv-pep",
+          "title": "HIV PEP · 72-hour window · Kuala Lumpur",
+          "publisher": "Hisential Clinics",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hisential.com/hiv-prep",
+          "title": "HIV PrEP · Kuala Lumpur",
+          "publisher": "Hisential Clinics",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-muc-healthcare-bukit-bintang",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "MUC Healthcare (Jalan Alor)"
+      },
+      "organization": "MUC Healthcare",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Bukit Bintang",
+        "address": {
+          "en": "88A, Jalan Alor, 50200 Kuala Lumpur"
+        },
+        "postcode": "50200",
+        "locationNote": null,
+        "nearestTransit": "MRT Bukit Bintang",
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2142 5814"
+        ],
+        "line": null,
+        "website": null,
+        "email": "contact@mucclinics.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "Reported in 2020 as offering PrEP, PEP and HIV treatment with delivery across Malaysia; a month of PrEP cost about RM100 then. Confirm current services and prices."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://queerlapis.com/?p=5135",
+          "title": "This KL clinic delivers PrEP and HIV medication to anywhere in Malaysia (Nov 2020)",
+          "publisher": "Queer Lapis",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-acts-clinic-arrupe",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "ACTS Clinic — Arrupe (Brickfields)"
+      },
+      "organization": "ACTS Clinic",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Brickfields",
+        "address": {
+          "en": "44A, Jalan Padang Belia, 50470 Brickfields, Kuala Lumpur"
+        },
+        "postcode": "50470",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2272 2585",
+          "+60 11 1170 5982"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–13:00 and 14:00–17:00; Sun 09:00–13:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Low-cost community clinic listed in a directory for refugees in Malaysia: primary care, mental health, HIV testing and voluntary counselling. About RM10 per visit."
+      },
+      "populationFocus": [
+        "migrants",
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://refugeemalaysia.org/support/health-services/ngo-clinics-and-services/",
+          "title": "NGO Clinics and Services",
+          "publisher": "Refugee Malaysia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-health-junction-megan-avenue",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Health Junction Clinic (Megan Avenue 1)"
+      },
+      "organization": "Health Junction Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Jalan Tun Razak / Hampshire Park",
+        "address": {
+          "en": "C-0-1, Megan Avenue 1, Block C, Hampshire Park, Kuala Lumpur"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 10 294 4885"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–19:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "GP clinic listed for HIV and STD testing at about RM20."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://refugeemalaysia.org/support/health-services/ngo-clinics-and-services/",
+          "title": "NGO Clinics and Services",
+          "publisher": "Refugee Malaysia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-prince-court-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Prince Court Medical Centre — Infectious Diseases"
+      },
+      "organization": "Prince Court Medical Centre (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "KLCC / Jalan Kia Peng",
+        "address": {
+          "en": "39 Jalan Kia Peng, 50450 Kuala Lumpur"
+        },
+        "postcode": "50450",
+        "locationNote": "Multidisciplinary Clinic, Level 2, 2D",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2160 0000",
+          "1-800-88-7262"
+        ],
+        "line": null,
+        "website": "http://www.princecourt.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Private infectious-disease service: comprehensive care for people with HIV, with or without AIDS, including antiviral therapy; treats STIs such as chlamydia, gonorrhoea and syphilis. PrEP and PEP not mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://pcmc-pro.portal.cloud.sitefinity.com/medical-surgical-services/infectious-diseases",
+          "title": "Infectious Diseases",
+          "publisher": "Prince Court Medical Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-hta-child-adolescent-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Hospital Tunku Azizah — Child and Adolescent Psychiatry (Hospital Kuala Lumpur)"
+      },
+      "organization": "Hospital Kuala Lumpur Psychiatry Department (Ministry of Health Malaysia)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Kampung Baru",
+        "address": {
+          "en": "Jalan Raja Muda Abdul Aziz, Kampung Baru, 50300 Kuala Lumpur"
+        },
+        "postcode": "50300",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2600 3000",
+          "+60 3 2615 5555"
+        ],
+        "line": null,
+        "website": "https://hkl.moh.gov.my/en/about-us/department/medical-i/medical-directorate/psychiatry",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Hospital Kuala Lumpur's child and adolescent psychiatry service is based at Hospital Tunku Azizah (the women's and children's hospital) and covers ADHD, learning difficulties, autism, and mood and behaviour problems. HKL psychiatry outpatient hours: Mon–Thu 07:30–16:30, Fri 07:30–16:30 with longer Friday break. Public services can have long waits."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hkl.moh.gov.my/en/about-us/department/medical-i/medical-directorate/psychiatry",
+          "title": "Psychiatry and Mental Health Department",
+          "publisher": "Hospital Kuala Lumpur (KKM)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://icr.nih.gov.my/component/mymaplocations/crc-hospital-tunku-azizah?Itemid=101",
+          "title": "CRC Hospital Tunku Azizah (address and phone)",
+          "publisher": "Institute for Clinical Research, Ministry of Health Malaysia",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thesun.my/news/behind-the-burnout-why-thousands-of-adults-are-discovering-undiagnosed-adhd/",
+          "title": "Behind the burnout: why thousands of adults are discovering undiagnosed ADHD",
+          "publisher": "The Sun (Malaysia)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-prince-court-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Prince Court Medical Centre — Psychiatry"
+      },
+      "organization": "Prince Court Medical Centre (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "KLCC / Jalan Kia Peng",
+        "address": {
+          "en": "39 Jalan Kia Peng, 50450 Kuala Lumpur"
+        },
+        "postcode": "50450",
+        "locationNote": "Level 2, clinics 2C and 2D",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2160 0000",
+          "1-800-88-7262"
+        ],
+        "line": null,
+        "website": "https://princecourt.com/medical-surgical-services/psychiatry",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Lists ADHD among the behavioural conditions it treats, has child and adolescent psychiatry specialists, and offers medication management. Ages for ADHD care not stated: ask when booking. International patient line: +62 21 2789 9788."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://princecourt.com/medical-surgical-services/psychiatry",
+          "title": "Psychiatry",
+          "publisher": "Prince Court Medical Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-pantai-kl-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Pantai Hospital Kuala Lumpur — Psychiatry"
+      },
+      "organization": "Pantai Hospital Kuala Lumpur (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Bangsar / Bukit Pantai",
+        "address": {
+          "en": "8, Jalan Bukit Pantai, 59100 Kuala Lumpur"
+        },
+        "postcode": "59100",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2296 0888",
+          "+60 16 313 0888"
+        ],
+        "line": null,
+        "website": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/psychiatry",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Lists ADHD among conditions treated, and stimulants among the medicines used. Pantai Hospital says its child ADHD assessment package usually takes 3–4 sessions, with an initial consultation fee of RM450 (branch not specified). +60 16-313 0888 is WhatsApp."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/psychiatry",
+          "title": "Psychiatry — Pantai Hospital Kuala Lumpur",
+          "publisher": "Pantai Hospital Kuala Lumpur",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/the-mind",
+          "title": "The Mind (Psychology) — Pantai Hospital Kuala Lumpur",
+          "publisher": "Pantai Hospital Kuala Lumpur",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pantai.com.my/ask-a-doctor/need-a-proper-adhd-diagnosis-for-my-7-year-old-child-along-with-a-supporting-report-from-a-qualified-medical-professional",
+          "title": "Ask a doctor: ADHD diagnosis for a 7-year-old",
+          "publisher": "Pantai Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-gleneagles-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Gleneagles Hospital Kuala Lumpur — Child Development Services"
+      },
+      "organization": "Gleneagles Hospital Kuala Lumpur (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Jalan Ampang",
+        "address": {
+          "en": "282 & 286, Jalan Ampang, 50450 Kuala Lumpur"
+        },
+        "postcode": "50450",
+        "locationNote": "Specialist Clinic, Level 8, Block B",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 4141 3000",
+          "+60 12 344 4582"
+        ],
+        "line": null,
+        "website": "https://gleneagles.com.my/kuala-lumpur/facilities-services/child-development-services",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Developmental paediatricians diagnose developmental, behavioural and learning problems, including ADHD, from infancy to adolescence. +60 12-344 4582 is WhatsApp only."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://gleneagles.com.my/kuala-lumpur/facilities-services/child-development-services",
+          "title": "Child Developmental Services",
+          "publisher": "Gleneagles Hospital Kuala Lumpur",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-dr-seed-child-adolescent-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Dr Seed Specialist Clinic (Child & Adolescent Psychiatry)"
+      },
+      "organization": "Dr Seed Specialist Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Kepong",
+        "address": {
+          "en": "38, Ground Floor, Jalan Metro Perdana Timur 2, Taman Usahawan Kepong, 52100 Kuala Lumpur"
+        },
+        "postcode": "52100",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 12 837 2115"
+        ],
+        "line": null,
+        "website": "https://www.erufucare.com/clinic/dr-seed-specialist-clinic-child-adolescent-psychiatry",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Wed, Thu, Sat 09:00–17:00; Tue 12:00–19:00; Fri 12:00–21:00; closed Sun. By appointment.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "third_party",
+        "note": "Consultant child and adolescent psychiatrists and clinical psychologists; listed for ADHD assessment and treatment, with stimulants among the medicines used. The sister adult psychiatry clinic next door (No. 39, +60 12-801 2115) also lists ADHD assessment and treatment."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.erufucare.com/clinic/dr-seed-specialist-clinic-child-adolescent-psychiatry",
+          "title": "Dr Seed Specialist Clinic (Child & Adolescent Psychiatry)",
+          "publisher": "Erufu Care",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.erufucare.com/clinic/dr-seed-specialist-clinic-psychiatry",
+          "title": "Dr Seed Specialist Clinic (Psychiatry)",
+          "publisher": "Erufu Care",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-amarantine-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Amarantine Clinic"
+      },
+      "organization": "Amarantine Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Taman Desa",
+        "address": {
+          "en": "Jalan Desa, Kuala Lumpur"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 17 572 5038"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Psychiatrist Dr Renee Tan is listed in a 2026 guide to KL psychiatrists with adult ADHD assessments among her areas of expertise. Full street address not published in the guide."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.health365.asia/2026-guide-best-psychiatrists-kl",
+          "title": "2026 Guide to the Best Psychiatrists in KL",
+          "publisher": "Health365",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-hkl-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Hospital Kuala Lumpur — Endocrinology Specialist Clinic"
+      },
+      "organization": "Hospital Kuala Lumpur (Ministry of Health Malaysia)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Jalan Pahang, 50586 Kuala Lumpur"
+        },
+        "postcode": "50586",
+        "locationNote": "Endocrinology Specialist Clinic, Level 2, Specialist Complex and Ambulatory Care Centre (SCACC)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2615 5555"
+        ],
+        "line": null,
+        "website": "https://hkl.moh.gov.my/en/about-us/department/medical/general-medicine",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Endocrine clinic Mon–Wed mornings and Thu 08:00–13:00; Insulin clinic (type 2) Mon 14:00–17:00; Type 1 diabetes clinic Thu 14:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Public endocrinology service with a type 1 diabetes clinic, an insulin clinic for type 2 diabetes and inpatient care for diabetic emergencies and diabetes in pregnancy. Non-citizens pay foreigner rates (for example RM120 for a first specialist-clinic visit)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hkl.moh.gov.my/en/about-us/department/medical/general-medicine",
+          "title": "Department of General Medicine (Infectious Diseases and Endocrinology units)",
+          "publisher": "Hospital Kuala Lumpur (KKM)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://jknpahang.moh.gov.my/index.php/en/informasi2/caj-rawatan?showall=1",
+          "title": "Caj rawatan (treatment charges, incl. non-citizens)",
+          "publisher": "Jabatan Kesihatan Negeri Pahang (KKM)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-ummc-diabetes-care-unit",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "University Malaya Medical Centre (UMMC) — Endocrinology and Diabetes Care Unit"
+      },
+      "organization": "University Malaya Medical Centre (Universiti Malaya)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Lembah Pantai",
+        "address": {
+          "en": "Lembah Pantai, 59100 Kuala Lumpur"
+        },
+        "postcode": "59100",
+        "locationNote": "Diabetes Care Unit (DCU), Lobby Floor, Menara Selatan",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 7949 2429",
+          "+60 3 7949 4422"
+        ],
+        "line": null,
+        "website": "https://medfom.um.edu.my/endocrinology-service",
+        "email": "kj_med@ummc.edu.my",
+        "booking": null
+      },
+      "hours": "Insulin Pump Clinic 2nd Wednesday 14:00–17:00; Transitional (young people) Clinic Wed 08:00–12:00; Advanced Insulin Education Clinic Thu 08:00–12:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Diabetes Care Unit with structured self-management education, insulin pump and CGM support and weekly diabetic foot care rounds; a transitional clinic for young people with type 1 diabetes moving from paediatric to adult care."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://medfom.um.edu.my/endocrinology-service",
+          "title": "Endocrinology Service (updated 6 Nov 2024)",
+          "publisher": "Department of Medicine, Faculty of Medicine, Universiti Malaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-prince-court-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Prince Court Medical Centre — Endocrinology"
+      },
+      "organization": "Prince Court Medical Centre (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "KLCC / Jalan Kia Peng",
+        "address": {
+          "en": "39 Jalan Kia Peng, 50450 Kuala Lumpur"
+        },
+        "postcode": "50450",
+        "locationNote": "Endocrine Clinic, Level 2, 2B; Multidisciplinary Clinic, Level 2, 2D",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2160 0000",
+          "1-800-88-7262"
+        ],
+        "line": null,
+        "website": "https://princecourt.com/medical-surgical-services/endocrinology",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1, type 2 and gestational diabetes are a primary focus; insulin pump and continuous glucose monitoring; diabetes educators on the team."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://princecourt.com/medical-surgical-services/endocrinology",
+          "title": "Endocrinology",
+          "publisher": "Prince Court Medical Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://princecourt.com/medical-surgical-services/psychiatry",
+          "title": "Psychiatry",
+          "publisher": "Prince Court Medical Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-gleneagles-diabetes-care",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Gleneagles Hospital Kuala Lumpur — Diabetes Care Centre"
+      },
+      "organization": "Gleneagles Hospital Kuala Lumpur (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Jalan Ampang",
+        "address": {
+          "en": "282 & 286, Jalan Ampang, 50450 Kuala Lumpur"
+        },
+        "postcode": "50450",
+        "locationNote": "5th floor, Block A",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 4141 3118",
+          "+60 3 4141 3337",
+          "+60 3 4141 3000"
+        ],
+        "line": null,
+        "website": "https://gleneagles.com.my/kuala-lumpur/facilities-services/diabetes-care",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–17:00; Sat 09:00–13:00. Closed Sun and public holidays.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Self-management education for type 1, type 2, gestational diabetes and prediabetes; insulin injection teaching; insulin pump therapy; professional CGM; endocrinologists. The first two numbers reach the diabetes educators."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://gleneagles.com.my/kuala-lumpur/facilities-services/diabetes-care",
+          "title": "Diabetes Care Centre",
+          "publisher": "Gleneagles Hospital Kuala Lumpur",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/malaysia-list-of-medical-facilities/list-of-medical-facilities-in-malaysia",
+          "title": "List of English-speaking doctors and medical facilities in Malaysia (updated 10 Apr 2024)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-pantai-kl-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Pantai Hospital Kuala Lumpur — Endocrinology"
+      },
+      "organization": "Pantai Hospital Kuala Lumpur (IHH Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Bangsar / Bukit Pantai",
+        "address": {
+          "en": "8, Jalan Bukit Pantai, 59100 Kuala Lumpur"
+        },
+        "postcode": "59100",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 2296 0888",
+          "+60 16 313 0888"
+        ],
+        "line": null,
+        "website": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/endocrinology",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "basis": "site",
+        "note": "Endocrinologists manage type 1 and type 2 diabetes; insulin pump therapy and blood sugar monitoring listed. Paediatric endocrinology is listed as a subspecialty, but a children's diabetes service is not described. Emergency: +60 3-2296 0999."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.pantai.com.my/kuala-lumpur/medical-specialties/endocrinology",
+          "title": "Endocrinology — Pantai Hospital Kuala Lumpur",
+          "publisher": "Pantai Hospital Kuala Lumpur",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "my-kul-sunway-velocity-childrens-health",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "kul",
+      "name": {
+        "en": "Sunway Medical Centre Velocity — Children's Health and Development Centre"
+      },
+      "organization": "Sunway Medical Centre Velocity (Sunway Healthcare)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Cheras (Sunway Velocity)",
+        "address": {},
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MY",
+        "province": "Wilayah Persekutuan Kuala Lumpur",
+        "city": "Kuala Lumpur"
+      },
+      "contact": {
+        "phone": [
+          "+60 3 9772 9191"
+        ],
+        "line": null,
+        "website": "https://www.sunwaymedicalvelocity.com.my/en/childrens-health-and-development-centre/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Children's centre: developmental and behavioural services with interventions for ADHD, and ongoing care plans for type 1 diabetes; a paediatric endocrinologist is on staff. In the same hospital, psychiatrist Dr Lim Wai Jenn (also board certified in child and adolescent psychiatry) lists ADHD as a clinical focus (Tower B, Level 2, 2B-06; ext. 9353). Emergency: +60 3-9772 9111."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sunwaymedicalvelocity.com.my/en/childrens-health-and-development-centre/",
+          "title": "Children's Health and Development Centre",
+          "publisher": "Sunway Medical Centre Velocity",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sunwaymedicalvelocity.com.my/en/speciality/paediatric-endocrinology",
+          "title": "Paediatric Endocrinology",
+          "publisher": "Sunway Medical Centre Velocity",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sunwaymedicalvelocity.com.my/en/doctor/dr-lim-wai-jenn/",
+          "title": "Dr Lim Wai Jenn — Psychiatry",
+          "publisher": "Sunway Medical Centre Velocity",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Street address not given on the pages used; the hospital is in Sunway Velocity, Cheras.",
+      "updated": "2026-11-19"
+    }
+  ]
+}

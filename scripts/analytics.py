@@ -60,13 +60,14 @@ def banner():
   function choose(v) {
     try { localStorage.setItem("nc-consent", v); } catch (e) {}
     if (window.gtag) gtag("consent", "update", { analytics_storage: v === "granted" ? "granted" : "denied" });
-    box.hidden = true;
+    box.hidden = true; document.body.style.paddingBottom = "";
   }
+  function pad() { document.body.style.paddingBottom = box.offsetHeight + "px"; }
   document.getElementById("nc-consent-yes").addEventListener("click", function () { choose("granted"); });
   document.getElementById("nc-consent-no").addEventListener("click", function () { choose("denied"); });
-  window.NCConsent = { open: function () { fill(); box.hidden = false; document.getElementById("nc-consent-yes").focus(); } };
+  window.NCConsent = { open: function () { fill(); box.hidden = false; pad(); document.getElementById("nc-consent-yes").focus(); } };
   var saved = null; try { saved = localStorage.getItem("nc-consent"); } catch (e) {}
-  if (!saved) { setTimeout(function () { fill(); box.hidden = false; }, 0); }
+  if (!saved) { setTimeout(function () { fill(); box.hidden = false; pad(); }, 0); }
   new MutationObserver(function () { if (!box.hidden) fill(); }).observe(document.documentElement, { attributes: true, attributeFilter: ["lang"] });
 })();
 </script>

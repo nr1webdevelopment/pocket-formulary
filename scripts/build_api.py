@@ -168,6 +168,8 @@ def write_docs(base, site, release, n_meds, n_classes):
     assert not left, f"unfilled placeholders in api docs: {left}"
     import analytics
     html = analytics.inject(html, release.get("googleTagId"))
+    import report_form  # "Report a problem" dialog, posts to /report.php
+    html = report_form.inject(html)
     with open(os.path.join(ROOT, "api", "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
 

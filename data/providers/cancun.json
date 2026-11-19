@@ -1,0 +1,472 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "cun",
+  "providers": [
+    {
+      "id": "mx-cun-capasits-cancun",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cun",
+      "name": {
+        "es": "Centro Ambulatorio para la Prevención y Atención en SIDA e Infecciones de Transmisión Sexual (CAPASITS) de Cancún",
+        "en": "Centro Ambulatorio para la Prevención y Atención en SIDA e Infecciones de Transmisión Sexual (CAPASITS) de Cancún"
+      },
+      "organization": "Servicios Estatales de Salud de Quintana Roo (SESA)",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Región 102 (moving to Avenida Fonatur)",
+        "address": {},
+        "postcode": null,
+        "locationNote": "In September 2026 local media reported the unit was moving from Región 102 to Avenida Fonatur from October 2026 (no exact address published; no public transport on Av. Fonatur). Confirm the location before you go.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MX",
+        "province": "Quintana Roo",
+        "city": "Cancún"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "The state's specialised outpatient unit for HIV and STI prevention and care, where people collect antiretroviral treatment; it also has dental, psychology and nutrition areas. State health officials said in 2025 that all HIV services in the public health network are free. Testing, PrEP and PEP were not confirmed by the sources used."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ruptura360.mx/el-estado/uneme-capasits-cancun-medicamentos/",
+          "title": "El mapa del desamparo: cuando mover una clínica de salud significa dejar a la gente sin medicina (24 Sep 2026)",
+          "publisher": "Ruptura360",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ruptura360.mx/el-estado/casos-de-vih-quintana-roo-nacional/",
+          "title": "Con 739 nuevos casos de VIH, Quintana Roo lidera a nivel nacional (19 Sep 2025)",
+          "publisher": "Ruptura360",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://palcoquintanarroense.com.mx/?p=465455",
+          "title": "Visita de trabajo al CAPASITS de Cancún (21 Feb 2025)",
+          "publisher": "Palco Quintanarroense",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gob.mx/cms/uploads/attachment/file/912333/23QUINTANAROO.pdf",
+          "title": "Plan Maestro de Infraestructura Física en Salud — Quintana Roo (Mar 2024)",
+          "publisher": "Secretaría de Salud (Dirección General de Planeación y Desarrollo en Salud)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No phone number found in the sources used. A replacement CAPASITS building is in the federal health infrastructure plan.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "mx-cun-unidad-medica-municipal",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "cun",
+      "name": {
+        "es": "Unidad Médica Municipal de Benito Juárez",
+        "en": "Unidad Médica Municipal de Benito Juárez (Municipal Medical Unit)"
+      },
+      "organization": "H. Ayuntamiento de Benito Juárez (Cancún)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Supermanzana 5 (Centro)",
+        "address": {
+          "es": "Junto al Palacio Municipal, Supermanzana 5, Cancún, Benito Juárez, Quintana Roo",
+          "en": "Junto al Palacio Municipal, Supermanzana 5, Cancún, Benito Juárez, Quintana Roo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MX",
+        "province": "Quintana Roo",
+        "city": "Cancún"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "General medicine Mon–Fri 08:00–20:00; other services Mon–Fri 08:00–16:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "Free municipal clinic next to City Hall: HIV, syphilis and hepatitis C testing; diabetes and glucose screening; outpatient care for people with chronic conditions; psychology, dentistry and optometry."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ruptura360.mx/gobierno/servicios-unidad-medica-municipal-cancun/",
+          "title": "Aprovecha los servicios de la Unidad Médica Municipal en Cancún (9 May 2024)",
+          "publisher": "Ruptura360",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No phone number in the source. Confirm whether visitors can be seen.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "mx-cun-hospiten-cancun",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "cun",
+      "name": {
+        "es": "Hospiten Cancún",
+        "en": "Hospiten Cancún"
+      },
+      "organization": "Grupo Hospiten",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Supermanzana 10",
+        "address": {
+          "es": "Av. Bonampak, Lote 7A, Manzana 2, Supermanzana 10, C.P. 77500, Cancún, Quintana Roo",
+          "en": "Av. Bonampak, Lote 7A, Manzana 2, Supermanzana 10, C.P. 77500, Cancún, Quintana Roo"
+        },
+        "postcode": "77500",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MX",
+        "province": "Quintana Roo",
+        "city": "Cancún"
+      },
+      "contact": {
+        "phone": [
+          "+52 998 881 3700",
+          "+52 998 881 3737"
+        ],
+        "line": null,
+        "website": "https://hospiten.com/en/hospitals/hospiten-cancun",
+        "email": "cancun@hospiten.com",
+        "booking": null
+      },
+      "hours": "24-hour emergency department.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "site",
+        "note": "Private hospital with 24-hour emergency care, internal medicine, paediatrics and psychiatry. Endocrinology and child psychiatry are not listed for Cancún, and ADHD care is not mentioned: phone to ask whether a psychiatrist can assess ADHD or continue your medicine."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hospiten.com/en/hospitals/hospiten-cancun",
+          "title": "Hospiten Cancún",
+          "publisher": "Hospiten",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospiten.com/en/international-patient",
+          "title": "International Patient",
+          "publisher": "Hospiten",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/list-of-medical-facilities-in-mexico/mexico-list-of-medical-facilities-2021",
+          "title": "Mexico: list of medical facilities (2021)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "mx-cun-amerimed-cancun",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "cun",
+      "name": {
+        "es": "Hospital Amerimed Cancún",
+        "en": "Amerimed Hospital Cancún"
+      },
+      "organization": "Amerimed Hospitals",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Centro (Supermanzana 7)",
+        "address": {
+          "es": "Av. Tulum Sur No. 260, Manzanas 4, 5 y 9, Supermanzana 7, Centro, C.P. 77500, Cancún, Quintana Roo",
+          "en": "Av. Tulum Sur No. 260, Manzanas 4, 5 y 9, Supermanzana 7, Centro, C.P. 77500, Cancún, Quintana Roo"
+        },
+        "postcode": "77500",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MX",
+        "province": "Quintana Roo",
+        "city": "Cancún"
+      },
+      "contact": {
+        "phone": [
+          "+52 998 881 3400"
+        ],
+        "line": null,
+        "website": "https://www.amerimedcancun.com/index.php?lang=en",
+        "email": "contacto@amerimedhospitals.com",
+        "booking": "https://appamerimedhospitals.com/citas-pacientes"
+      },
+      "hours": "Emergency department 24/7.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "site",
+        "note": "Private hospital with 24/7 emergency medicine, internal medicine, paediatrics and laboratory; two psychiatrists listed in its directory. No endocrinologist listed, and ADHD care is not mentioned: phone to ask. Bilingual medical and administrative staff."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "es",
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.amerimedcancun.com/index.php?lang=en",
+          "title": "Amerimed Cancún",
+          "publisher": "Amerimed Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://amerimedcancun.com/especialidades-medicas-y-quirurgicas/",
+          "title": "Especialidades médicas y quirúrgicas",
+          "publisher": "Amerimed Cancún",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://amerimedcancun.com/directorio-medico/",
+          "title": "Directorio médico",
+          "publisher": "Amerimed Cancún",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://amerimedcancun.com/servicios-hospitalarios/",
+          "title": "Servicios hospitalarios",
+          "publisher": "Amerimed Cancún",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/list-of-medical-facilities-in-mexico/mexico-list-of-medical-facilities-2021",
+          "title": "Mexico: list of medical facilities (2021)",
+          "publisher": "UK Foreign, Commonwealth & Development Office",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "mx-cun-hospital-galenia",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cun",
+      "name": {
+        "es": "Hospital Galenia",
+        "en": "Hospital Galenia"
+      },
+      "organization": "Hospital Galenia",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "area": null,
+        "district": "Supermanzana 12",
+        "address": {
+          "es": "Av. Tulum Lote 01, Manzana 01, Supermanzana 12, Fracc. Santa María Siké, esquina Nizuc, Cancún, Quintana Roo",
+          "en": "Av. Tulum Lote 01, Manzana 01, Supermanzana 12, Fracc. Santa María Siké, esquina Nizuc, Cancún, Quintana Roo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "country": "MX",
+        "province": "Quintana Roo",
+        "city": "Cancún"
+      },
+      "contact": {
+        "phone": [
+          "+52 998 891 5200"
+        ],
+        "line": null,
+        "website": "https://www.hospitalgalenia.com/",
+        "email": "info@hospitalgalenia.com",
+        "booking": null
+      },
+      "hours": "Emergency department 24 hours, 365 days.",
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "site",
+        "note": "Private hospital with a 24-hour emergency department and paediatric intensive care; says it treats many patients from the US and Canada and works with international insurers (for example BUPA, AXA Assistance). No diabetes or endocrinology service is listed: use for emergencies."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hospitalgalenia.com/",
+          "title": "Hospital Galenia",
+          "publisher": "Hospital Galenia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospitalgalenia.com/contacto/",
+          "title": "Contacto",
+          "publisher": "Hospital Galenia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospitalgalenia.com/turismo-medico/",
+          "title": "Turismo médico",
+          "publisher": "Hospital Galenia",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Ambulance: +52 998 222 4363, +52 998 216 4456, +52 998 216 9857.",
+      "updated": "2026-11-19"
+    }
+  ]
+}

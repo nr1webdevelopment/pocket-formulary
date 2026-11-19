@@ -1,0 +1,291 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "ayt",
+  "providers": [
+    {
+      "id": "tr-ayt-akdeniz-university-hospital",
+      "conditions": [
+        "diabetes",
+        "adhd"
+      ],
+      "city": "ayt",
+      "name": {
+        "en": "Akdeniz Üniversitesi Hastanesi"
+      },
+      "organization": "Akdeniz Üniversitesi",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "Antalya",
+        "city": "Antalya",
+        "area": "Akdeniz University campus",
+        "district": null,
+        "address": {
+          "en": "Pınarbaşı Mahallesi, Dumlupınar Bulvarı, Akdeniz Üniversitesi Hastanesi, 07070 Kampüs, Antalya"
+        },
+        "postcode": "07070",
+        "locationNote": "Child and Adolescent Mental Health: Psychiatry Centre, ground floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 242 249 60 00",
+          "+90 242 249 67 90 (child and adolescent psychiatry)"
+        ],
+        "line": null,
+        "website": "https://hastane.akdeniz.edu.tr",
+        "email": null,
+        "booking": "http://hastanelab.akdeniz.edu.tr/MiamedRandevu"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Paediatric Endocrinology follows and treats babies, children and teens up to 18 with diabetes and hypoglycaemia (pumps, CGM and education not described). Child and Adolescent Mental Health runs a Neurodevelopmental Disorders outpatient clinic, but the pages checked don't name ADHD; adult psychiatry's 14 specialist clinics don't include an ADHD clinic. Has an International Patient Center (hospital.akdeniz.edu.tr/en)."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hastane.akdeniz.edu.tr/",
+          "title": "Akdeniz Üniversitesi Hastanesi",
+          "publisher": "Akdeniz Üniversitesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hastane.akdeniz.edu.tr/tr/cocuk_sagligi_calisma_alanlarimiz-10829",
+          "title": "Çocuk Sağlığı — Çalışma Alanlarımız (Çocuk Endokrinoloji)",
+          "publisher": "Akdeniz Üniversitesi Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hastane.akdeniz.edu.tr/tr/cocuk_ruh_sagligi_ve_hastaliklari_cocuk_psikiyatri-3710",
+          "title": "Çocuk ve Ergen Ruh Sağlığı",
+          "publisher": "Akdeniz Üniversitesi Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hastane.akdeniz.edu.tr/tr/cocuk_ve_ergen_ruh_sagligi_hakkimizda_calisma_alanlarimiz-10825",
+          "title": "Çocuk ve Ergen Ruh Sağlığı — Çalışma Alanlarımız",
+          "publisher": "Akdeniz Üniversitesi Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hastane.akdeniz.edu.tr/tr/ruh_sagligi_ve_hastaliklari_anabilim_dali_hakkimizda_calisma_alanlarimiz-10867",
+          "title": "Ruh Sağlığı ve Hastalıkları — Çalışma Alanlarımız",
+          "publisher": "Akdeniz Üniversitesi Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Akdeniz University Hospital. Its Infectious Diseases page could not be read during research, so HIV care here is unconfirmed; ask the hospital. Call child psychiatry to confirm ADHD assessment.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ayt-antalya-city-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "ayt",
+      "name": {
+        "en": "Antalya Şehir Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "Antalya",
+        "city": "Antalya",
+        "area": null,
+        "district": "Kepez",
+        "address": {
+          "en": "Göçerler Mahallesi 5379 Sokak, 07080 Kepez, Antalya"
+        },
+        "postcode": "07080",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 242 455 53 53"
+        ],
+        "line": null,
+        "website": "https://antalyasehir.saglik.gov.tr",
+        "email": "antalyash@saglik.gov.tr",
+        "booking": "https://www.mhrs.gov.tr"
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "diabetesEducation": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Lists a Diabetes Education Outpatient Clinic (Diyabet Eğitim Polikliniği) among its special services, plus adult Endocrinology and Metabolism and Paediatric Endocrinology clinics. The pages give no further detail. Book through MHRS."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://antalyasehir.saglik.gov.tr/TR-1060414/diyabet-egitim-poliklinigi.html",
+          "title": "Diyabet Eğitim Polikliniği",
+          "publisher": "Antalya Şehir Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://antalyasehir.saglik.gov.tr/TR-1042213/kliniklerimiz.html",
+          "title": "Kliniklerimiz",
+          "publisher": "Antalya Şehir Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://antalyasehir.saglik.gov.tr/TR-1042283/iletisim-bilgileri.html",
+          "title": "İletişim Bilgileri",
+          "publisher": "Antalya Şehir Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Antalya City Hospital. Also lists Infectious Diseases, Psychiatry and Child and Adolescent Psychiatry clinics, but their pages describe no services (HIV or ADHD care unconfirmed).",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ayt-antalya-training-research-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "ayt",
+      "name": {
+        "en": "Antalya Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "Antalya",
+        "city": "Antalya",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Varlık Mh. Kazım Karabekir Cd., 07100 Antalya"
+        },
+        "postcode": "07100",
+        "locationNote": "Emergency department: ground floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 242 249 44 00"
+        ],
+        "line": null,
+        "website": "https://antalyaeah.saglik.gov.tr",
+        "email": "antalyaeah@saglik.gov.tr",
+        "booking": null
+      },
+      "hours": "Emergency department 24/7.",
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Lists Endocrinology and Metabolism and Paediatric Endocrinology among its branches (no service details published). Its emergency department on the ground floor is open 24/7."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://antalyaeah.saglik.gov.tr/TR-946557/branslarimiz.html",
+          "title": "Branşlarımız",
+          "publisher": "Antalya Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://antalyaeah.saglik.gov.tr/TR-160065/acil-saglik-hizmetleri.html",
+          "title": "Acil Sağlık Hizmetleri",
+          "publisher": "Antalya Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://antalyaeah.saglik.gov.tr/TR-20509/iletisim.html",
+          "title": "İletişim",
+          "publisher": "Antalya Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Antalya Training and Research Hospital. Also lists Infectious Diseases and Psychiatry branches, without service details.",
+      "updated": "2026-11-19"
+    }
+  ]
+}

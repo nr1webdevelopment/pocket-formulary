@@ -2,89 +2,540 @@
   "dataset": "pocket-formulary/cities",
   "jurisdictionNotes": {
     "greater-china": {
-      "cities": ["sha", "hkg", "mfm", "tpe"],
+      "cities": [
+        "sha",
+        "hkg",
+        "mfm",
+        "tpe"
+      ],
       "text": "Mainland China, Hong Kong, Macau and Taiwan are four separate jurisdictions. Each has its own laws, medicine regulator, lists of approved and controlled medicines, prescription rules and health insurance. A medicine that is approved or prescribed in one may be unavailable or restricted in another, and a prescription from one is generally not accepted in the others. Check the rules where you are."
     }
   },
   "cities": [
-    {"code": "bkk", "file": "bangkok.json", "name": {"en": "Bangkok", "th": "กรุงเทพมหานคร"}, "country": "TH", "countryName": "Thailand", "jurisdiction": "Thailand",
-     "dialCode": "+66", "timezone": "Asia/Bangkok", "currency": "THB", "localLanguages": ["th"], "uiLanguage": "th",
-     "notes": {
-       "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. The city's BKK Pride Clinic network lists PrEP and PEP as free.",
-       "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine and needs a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel.",
-       "diabetes": "Specialist centres only so far. Routine diabetes care is also available at public hospitals and BMA public health centres, usually covered by Thai public health insurance."
-     },
-     "noteSources": {"adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf"}},
-    {"code": "sha", "file": "shanghai.json", "name": {"en": "Shanghai", "zh-Hans": "上海"}, "country": "CN", "countryName": "Mainland China", "jurisdiction": "Mainland China",
-     "dialCode": "+86", "timezone": "Asia/Shanghai", "currency": "CNY", "localLanguages": ["zh-Hans"], "uiLanguage": "zh-Hans",
-     "notes": {
-       "hiv": "Shanghai has more than 200 free HIV voluntary counselling and testing (VCT) sites. Find them through the city's official VCT finder or the 上海疾控 WeChat account. PEP must start within 72 hours.",
-       "adhd": "Only one public child psychiatry service is listed so far. Ask a local doctor which ADHD medicines are approved in Mainland China.",
-       "diabetes": "Large public teaching hospitals run diabetes and endocrine clinics; book through each hospital's official app or WeChat account."
-     },
-     "noteSources": {"hiv": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524"}},
-    {"code": "hkg", "file": "hong-kong.json", "name": {"en": "Hong Kong", "zh-Hant": "香港"}, "country": "HK", "countryName": "Hong Kong SAR", "jurisdiction": "Hong Kong SAR",
-     "dialCode": "+852", "timezone": "Asia/Hong_Kong", "currency": "HKD", "localLanguages": ["zh-Hant", "en"], "uiLanguage": "zh-Hant",
-     "notes": {
-       "hiv": "Reports from 2023 say Hong Kong has no public PrEP programme, so PrEP is mostly through private doctors and NGOs. For PEP within 72 hours, go to a public hospital emergency department (A&E), where doctors decide case by case, or to a private clinic (about HK$10,000–20,000 for the medicine). Department of Health clinics offer free or low-cost testing.",
-       "adhd": "Public child and adolescent psychiatry is through the Hospital Authority, usually by referral. Ask a local doctor which ADHD medicines are registered in Hong Kong.",
-       "diabetes": "Public diabetes care is through Hospital Authority clinics; specialist assessment centres may charge fees."
-     },
-     "noteSources": {"hiv": "https://aidsconcern.org.hk/en/?p=3641"}},
-    {"code": "mfm", "file": "macau.json", "name": {"en": "Macau", "zh-Hant": "澳門", "pt": "Macau"}, "country": "MO", "countryName": "Macau SAR", "jurisdiction": "Macau SAR",
-     "dialCode": "+853", "timezone": "Asia/Macau", "currency": "MOP", "localLanguages": ["zh-Hant", "pt"], "uiLanguage": "zh-Hant",
-     "notes": {
-       "hiv": "We found few public online sources for Macau. The Health Bureau (Serviços de Saúde) funds NGO HIV outreach, a hotline and rapid testing; call the Health Bureau to find a testing site, PrEP or PEP.",
-       "adhd": "Children's developmental assessments are coordinated by a joint government centre. Ask about ADHD assessment and medicines registered in Macau.",
-       "diabetes": "Public health centres and the public hospital provide chronic disease care; confirm diabetes services directly."
-     }},
-    {"code": "tpe", "file": "taipei.json", "name": {"en": "Taipei", "zh-Hant": "臺北"}, "country": "TW", "countryName": "Taiwan", "jurisdiction": "Taiwan",
-     "dialCode": "+886", "timezone": "Asia/Taipei", "currency": "TWD", "localLanguages": ["zh-Hant"], "uiLanguage": "zh-Hant",
-     "notes": {
-       "hiv": "Taiwan CDC subsidises PrEP for eligible people, such as Taiwanese nationals aged 35 or under at high risk and partners of people living with HIV; others can pay for it themselves. Non-occupational PEP is self-paid (about NT$30,000) at hospital infectious-disease clinics. CDC hotline: 1922.",
-       "adhd": "A National Taiwan University Hospital page describes methylphenidate as the only stimulant ADHD medicine available in Taiwan; check with a local doctor for current options.",
-       "diabetes": "Taiwan runs a diabetes shared-care network across hospitals and clinics; ask for a certified diabetes educator."
-     },
-     "noteSources": {"hiv": "https://www.cdc.gov.tw/Category/QAPage/pzjkJa4dgVjdk6emQjM-3g"}},
-    {"code": "sin", "file": "singapore.json", "name": {"en": "Singapore", "zh-Hans": "新加坡"}, "country": "SG", "countryName": "Singapore", "jurisdiction": "Singapore",
-     "dialCode": "+65", "timezone": "Asia/Singapore", "currency": "SGD", "localLanguages": ["en", "zh-Hans"], "uiLanguage": "en",
-     "notes": {
-       "hiv": "PrEP is prescribed at public clinics (DSC, NCID, NUH) and private GPs. Around 2022, guides quoted S$100–200 per visit plus the medicine. PEP must start within 72 hours.",
-       "adhd": "Public child ADHD care is mainly by referral from a polyclinic, CHAS GP or the school-linked REACH teams. Consultations and therapy can be subsidised by up to 70%.",
-       "diabetes": "Public diabetes centres are at the major hospitals; polyclinics manage most routine diabetes care."
-     },
-     "noteSources": {"adhd": "https://www.moh.gov.sg/newsroom/attention-deficit/"}},
-    {"code": "sfo", "file": "san-francisco.json", "name": {"en": "San Francisco"}, "country": "US", "countryName": "United States", "jurisdiction": "California, United States",
-     "dialCode": "+1", "timezone": "America/Los_Angeles", "currency": "USD", "localLanguages": ["en", "es", "zh-Hant"], "uiLanguage": "en",
-     "notes": {
-       "hiv": "San Francisco City Clinic offers free HIV testing, PrEP, PEP and treatment, including for uninsured and undocumented people. PEP must start within 72 hours.",
-       "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
-       "diabetes": "UCSF diabetes clinics need a referral from your doctor."
-     },
-     "noteSources": {"hiv": "https://www.sf.gov/cityclinic-location"}},
-    {"code": "lax", "file": "los-angeles.json", "name": {"en": "Los Angeles", "es": "Los Ángeles"}, "country": "US", "countryName": "United States", "jurisdiction": "California, United States",
-     "dialCode": "+1", "timezone": "America/Los_Angeles", "currency": "USD", "localLanguages": ["en", "es"], "uiLanguage": "en",
-     "notes": {
-       "hiv": "LA County Public Health sexual health clinics are free (no copay) and offer HIV testing, PrEP and PEP. Book on 213-449-7009. PEP must start within 72 hours.",
-       "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
-       "diabetes": "Specialist diabetes centres usually need a referral and insurance; LA County community clinics provide routine care."
-     },
-     "noteSources": {"hiv": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/"}},
-    {"code": "gdl", "file": "guadalajara.json", "name": {"en": "Guadalajara", "es": "Guadalajara"}, "country": "MX", "countryName": "Mexico", "jurisdiction": "Jalisco, Mexico",
-     "dialCode": "+52", "timezone": "America/Mexico_City", "currency": "MXN", "localLanguages": ["es"], "uiLanguage": "es",
-     "notes": {
-       "hiv": "The state's specialised HIV and STI centre (CAE) on Calle Gigantes offers testing, PrEP, PEP and treatment. Jalisco health line: +52 33 3823 3220. IMSS members can ask IMSS about PrEP. PEP must start within 72 hours.",
-       "adhd": "Public child psychiatry is at the Hospital Civil; ask which ADHD medicines are available in Mexico.",
-       "diabetes": "The Hospital Civil endocrinology service runs a diabetes clinic and free screening days."
-     },
-     "noteSources": {"hiv": "https://teladejuicio.mx/jalisco-impulsa-jornada-estatal-para-la-deteccion-temprana-del-vih-pruebas-gratuitas-y-atencion-en-todo-el-estado/"}},
-    {"code": "lis", "file": "lisbon.json", "name": {"en": "Lisbon", "pt": "Lisboa"}, "country": "PT", "countryName": "Portugal", "jurisdiction": "Portugal",
-     "dialCode": "+351", "timezone": "Europe/Lisbon", "currency": "EUR", "localLanguages": ["pt"], "uiLanguage": "pt",
-     "notes": {
-       "hiv": "Community centres such as CheckpointLX offer free, anonymous testing. PrEP is prescribed through the national health service (SNS); in July 2025 Lisbon's hospital PrEP clinics had waits of a year or more. For PEP within 72 hours, go to a hospital emergency department.",
-       "adhd": "Public ADHD care is through SNS child psychiatry and psychiatry services, by referral from your family doctor.",
-       "diabetes": "APDP runs a large diabetes clinic that works alongside the SNS."
-     },
-     "noteSources": {"hiv": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327"}}
+    {
+      "code": "bkk",
+      "file": "bangkok.json",
+      "name": {
+        "en": "Bangkok",
+        "th": "กรุงเทพมหานคร"
+      },
+      "country": "TH",
+      "countryName": "Thailand",
+      "jurisdiction": "Thailand",
+      "dialCode": "+66",
+      "timezone": "Asia/Bangkok",
+      "currency": "THB",
+      "localLanguages": [
+        "th"
+      ],
+      "uiLanguage": "th",
+      "notes": {
+        "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. The city's BKK Pride Clinic network lists PrEP and PEP as free.",
+        "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine and needs a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel.",
+        "diabetes": "Specialist centres only so far. Routine diabetes care is also available at public hospitals and BMA public health centres, usually covered by Thai public health insurance."
+      },
+      "noteSources": {
+        "adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf"
+      }
+    },
+    {
+      "code": "sha",
+      "file": "shanghai.json",
+      "name": {
+        "en": "Shanghai",
+        "zh-Hans": "上海"
+      },
+      "country": "CN",
+      "countryName": "Mainland China",
+      "jurisdiction": "Mainland China",
+      "dialCode": "+86",
+      "timezone": "Asia/Shanghai",
+      "currency": "CNY",
+      "localLanguages": [
+        "zh-Hans"
+      ],
+      "uiLanguage": "zh-Hans",
+      "notes": {
+        "hiv": "Shanghai has more than 200 free HIV voluntary counselling and testing (VCT) sites. Find them through the city's official VCT finder or the 上海疾控 WeChat account. PEP must start within 72 hours.",
+        "adhd": "Only one public child psychiatry service is listed so far. Ask a local doctor which ADHD medicines are approved in Mainland China.",
+        "diabetes": "Large public teaching hospitals run diabetes and endocrine clinics; book through each hospital's official app or WeChat account."
+      },
+      "noteSources": {
+        "hiv": "https://city.sina.cn/finance/2023-11-30/detail-imzwmafq5134469.d.html?vt=4&cid=76524&node_id=76524"
+      }
+    },
+    {
+      "code": "hkg",
+      "file": "hong-kong.json",
+      "name": {
+        "en": "Hong Kong",
+        "zh-Hant": "香港"
+      },
+      "country": "HK",
+      "countryName": "Hong Kong SAR",
+      "jurisdiction": "Hong Kong SAR",
+      "dialCode": "+852",
+      "timezone": "Asia/Hong_Kong",
+      "currency": "HKD",
+      "localLanguages": [
+        "zh-Hant",
+        "en"
+      ],
+      "uiLanguage": "zh-Hant",
+      "notes": {
+        "hiv": "Reports from 2023 say Hong Kong has no public PrEP programme, so PrEP is mostly through private doctors and NGOs. For PEP within 72 hours, go to a public hospital emergency department (A&E), where doctors decide case by case, or to a private clinic (about HK$10,000–20,000 for the medicine). Department of Health clinics offer free or low-cost testing.",
+        "adhd": "Public child and adolescent psychiatry is through the Hospital Authority, usually by referral. Ask a local doctor which ADHD medicines are registered in Hong Kong.",
+        "diabetes": "Public diabetes care is through Hospital Authority clinics; specialist assessment centres may charge fees."
+      },
+      "noteSources": {
+        "hiv": "https://aidsconcern.org.hk/en/?p=3641"
+      }
+    },
+    {
+      "code": "mfm",
+      "file": "macau.json",
+      "name": {
+        "en": "Macau",
+        "zh-Hant": "澳門",
+        "pt": "Macau"
+      },
+      "country": "MO",
+      "countryName": "Macau SAR",
+      "jurisdiction": "Macau SAR",
+      "dialCode": "+853",
+      "timezone": "Asia/Macau",
+      "currency": "MOP",
+      "localLanguages": [
+        "zh-Hant",
+        "pt"
+      ],
+      "uiLanguage": "zh-Hant",
+      "notes": {
+        "hiv": "We found few public online sources for Macau. The Health Bureau (Serviços de Saúde) funds NGO HIV outreach, a hotline and rapid testing; call the Health Bureau to find a testing site, PrEP or PEP.",
+        "adhd": "Children's developmental assessments are coordinated by a joint government centre. Ask about ADHD assessment and medicines registered in Macau.",
+        "diabetes": "Public health centres and the public hospital provide chronic disease care; confirm diabetes services directly."
+      }
+    },
+    {
+      "code": "tpe",
+      "file": "taipei.json",
+      "name": {
+        "en": "Taipei",
+        "zh-Hant": "臺北"
+      },
+      "country": "TW",
+      "countryName": "Taiwan",
+      "jurisdiction": "Taiwan",
+      "dialCode": "+886",
+      "timezone": "Asia/Taipei",
+      "currency": "TWD",
+      "localLanguages": [
+        "zh-Hant"
+      ],
+      "uiLanguage": "zh-Hant",
+      "notes": {
+        "hiv": "Taiwan CDC subsidises PrEP for eligible people, such as Taiwanese nationals aged 35 or under at high risk and partners of people living with HIV; others can pay for it themselves. Non-occupational PEP is self-paid (about NT$30,000) at hospital infectious-disease clinics. CDC hotline: 1922.",
+        "adhd": "A National Taiwan University Hospital page describes methylphenidate as the only stimulant ADHD medicine available in Taiwan; check with a local doctor for current options.",
+        "diabetes": "Taiwan runs a diabetes shared-care network across hospitals and clinics; ask for a certified diabetes educator."
+      },
+      "noteSources": {
+        "hiv": "https://www.cdc.gov.tw/Category/QAPage/pzjkJa4dgVjdk6emQjM-3g"
+      }
+    },
+    {
+      "code": "sin",
+      "file": "singapore.json",
+      "name": {
+        "en": "Singapore",
+        "zh-Hans": "新加坡"
+      },
+      "country": "SG",
+      "countryName": "Singapore",
+      "jurisdiction": "Singapore",
+      "dialCode": "+65",
+      "timezone": "Asia/Singapore",
+      "currency": "SGD",
+      "localLanguages": [
+        "en",
+        "zh-Hans"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "hiv": "PrEP is prescribed at public clinics (DSC, NCID, NUH) and private GPs. Around 2022, guides quoted S$100–200 per visit plus the medicine. PEP must start within 72 hours.",
+        "adhd": "Public child ADHD care is mainly by referral from a polyclinic, CHAS GP or the school-linked REACH teams. Consultations and therapy can be subsidised by up to 70%.",
+        "diabetes": "Public diabetes centres are at the major hospitals; polyclinics manage most routine diabetes care."
+      },
+      "noteSources": {
+        "adhd": "https://www.moh.gov.sg/newsroom/attention-deficit/"
+      }
+    },
+    {
+      "code": "sfo",
+      "file": "san-francisco.json",
+      "name": {
+        "en": "San Francisco"
+      },
+      "country": "US",
+      "countryName": "United States",
+      "jurisdiction": "California, United States",
+      "dialCode": "+1",
+      "timezone": "America/Los_Angeles",
+      "currency": "USD",
+      "localLanguages": [
+        "en",
+        "es",
+        "zh-Hant"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "hiv": "San Francisco City Clinic offers free HIV testing, PrEP, PEP and treatment, including for uninsured and undocumented people. PEP must start within 72 hours.",
+        "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
+        "diabetes": "UCSF diabetes clinics need a referral from your doctor."
+      },
+      "noteSources": {
+        "hiv": "https://www.sf.gov/cityclinic-location"
+      }
+    },
+    {
+      "code": "lax",
+      "file": "los-angeles.json",
+      "name": {
+        "en": "Los Angeles",
+        "es": "Los Ángeles"
+      },
+      "country": "US",
+      "countryName": "United States",
+      "jurisdiction": "California, United States",
+      "dialCode": "+1",
+      "timezone": "America/Los_Angeles",
+      "currency": "USD",
+      "localLanguages": [
+        "en",
+        "es"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "hiv": "LA County Public Health sexual health clinics are free (no copay) and offer HIV testing, PrEP and PEP. Book on 213-449-7009. PEP must start within 72 hours.",
+        "adhd": "Most ADHD care in the US goes through your primary care doctor or insurer; academic clinics often need a referral.",
+        "diabetes": "Specialist diabetes centres usually need a referral and insurance; LA County community clinics provide routine care."
+      },
+      "noteSources": {
+        "hiv": "http://publichealth.lacounty.gov/chs/sexualhealthclinics/"
+      }
+    },
+    {
+      "code": "gdl",
+      "file": "guadalajara.json",
+      "name": {
+        "en": "Guadalajara",
+        "es": "Guadalajara"
+      },
+      "country": "MX",
+      "countryName": "Mexico",
+      "jurisdiction": "Jalisco, Mexico",
+      "dialCode": "+52",
+      "timezone": "America/Mexico_City",
+      "currency": "MXN",
+      "localLanguages": [
+        "es"
+      ],
+      "uiLanguage": "es",
+      "notes": {
+        "hiv": "The state's specialised HIV and STI centre (CAE) on Calle Gigantes offers testing, PrEP, PEP and treatment. Jalisco health line: +52 33 3823 3220. IMSS members can ask IMSS about PrEP. PEP must start within 72 hours.",
+        "adhd": "Public child psychiatry is at the Hospital Civil; ask which ADHD medicines are available in Mexico.",
+        "diabetes": "The Hospital Civil endocrinology service runs a diabetes clinic and free screening days."
+      },
+      "noteSources": {
+        "hiv": "https://teladejuicio.mx/jalisco-impulsa-jornada-estatal-para-la-deteccion-temprana-del-vih-pruebas-gratuitas-y-atencion-en-todo-el-estado/"
+      }
+    },
+    {
+      "code": "lis",
+      "file": "lisbon.json",
+      "name": {
+        "en": "Lisbon",
+        "pt": "Lisboa"
+      },
+      "country": "PT",
+      "countryName": "Portugal",
+      "jurisdiction": "Portugal",
+      "dialCode": "+351",
+      "timezone": "Europe/Lisbon",
+      "currency": "EUR",
+      "localLanguages": [
+        "pt"
+      ],
+      "uiLanguage": "pt",
+      "notes": {
+        "hiv": "Community centres such as CheckpointLX offer free, anonymous testing. PrEP is prescribed through the national health service (SNS); in July 2025 Lisbon's hospital PrEP clinics had waits of a year or more. For PEP within 72 hours, go to a hospital emergency department.",
+        "adhd": "Public ADHD care is through SNS child psychiatry and psychiatry services, by referral from your family doctor.",
+        "diabetes": "APDP runs a large diabetes clinic that works alongside the SNS."
+      },
+      "noteSources": {
+        "hiv": "https://www.rtp.pt/noticias/pais/listas-de-espera-em-lisboa-para-prevencao-do-vih-superiores-a-um-ano_n1669327"
+      }
+    },
+    {
+      "code": "ayt",
+      "file": "antalya.json",
+      "name": {
+        "en": "Antalya"
+      },
+      "country": "TR",
+      "countryName": "Türkiye",
+      "jurisdiction": "Türkiye",
+      "dialCode": "+90",
+      "timezone": "Europe/Istanbul",
+      "currency": "TRY",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Public hospital outpatient clinics are booked through MHRS, the national appointment system: call 182 or use mhrs.gov.tr.",
+        "hiv": "No free anonymous HIV test centre (GDTM) or HIV clinic in Antalya is listed yet; a 2025 list of Turkey's 13 GDTMs had none here. HIV tests are also done at state, university and private hospitals and private labs. PEP must start within 72 hours (ideally 24): go to a hospital infectious diseases department or emergency department. PrEP is not given free in Turkey; it can be paid for privately with an infectious diseases specialist's approval.",
+        "adhd": "Turkish customs let you bring medicine for your own treatment only if you can show a prescription or a report from a doctor or health institution. For medicines with narcotic content, the report must state the medicine and the dose you need during your stay. No fixed quantity is published: bring only what you need for the trip. Stimulant ADHD medicines such as methylphenidate and lisdexamfetamine are controlled, so carry them in original packaging with the doctor's report, and check with a Turkish embassy before you travel. To get more in Turkey you need an assessment by a doctor in Turkey and a Turkish prescription. No ADHD service in Antalya is confirmed yet.",
+        "diabetes": "You can bring a reasonable amount of insulin and other medicines for personal use if you can show a prescription or doctor's report. Public hospital endocrinology and diabetes education clinics are listed below."
+      },
+      "noteSources": {
+        "general": "https://cemiltascioglush.saglik.gov.tr/EN-881422/infectious-diseases-and-clinical-microbiology.html",
+        "hiv": "https://www.tapv.org.tr/wp-content/uploads/2026/07/cybe-brosur-2026-tr-v2-web.pdf",
+        "adhd": "https://belgrad-be.mfa.gov.tr/Mission/ShowAnnouncement/162663",
+        "diabetes": "https://ticaret.gov.tr/gumruk-muhafaza/sikca-sorulan-sorular"
+      }
+    },
+    {
+      "code": "cun",
+      "file": "cancun.json",
+      "name": {
+        "en": "Cancún",
+        "es": "Cancún"
+      },
+      "country": "MX",
+      "countryName": "Mexico",
+      "jurisdiction": "Quintana Roo, Mexico",
+      "dialCode": "+52",
+      "timezone": "America/Cancun",
+      "currency": "MXN",
+      "localLanguages": [
+        "es"
+      ],
+      "uiLanguage": "es",
+      "notes": {
+        "general": "Hospitals in Mexico may ask you to pay up front and claim from your insurer later; not all deal directly with insurers. Prescriptions issued outside Mexico should be translated into Spanish, and pharmacies may still refuse them.",
+        "hiv": "The state's HIV clinic is CAPASITS Cancún; state health officials say HIV services in the public network are free. Local media reported in September 2026 that it was moving from Región 102 to Avenida Fonatur from October, so confirm the address first. Free HIV tests are offered at the municipal medical unit next to City Hall. PEP has to start within 72 hours; Mexican state health guidance says you can ask for it at any hospital.",
+        "adhd": "No ADHD specialist service in Cancún is confirmed yet; Hospiten and Amerimed list psychiatrists. Rules for bringing controlled medicines such as stimulants into Mexico are set by COFEPRIS, and this guide hasn't confirmed them: contact COFEPRIS before you travel (800 033 5050, contactociudadano@cofepris.gob.mx). Carry your prescription translated into Spanish.",
+        "diabetes": "No specialist diabetes centre is confirmed yet. Hospiten, Amerimed and Galenia have 24-hour emergency departments, and the municipal medical unit offers free glucose screening. Many pharmacies in large Mexican cities open 24 hours; bring enough insulin and supplies and a Spanish translation of your prescription."
+      },
+      "noteSources": {
+        "general": "https://www.gov.uk/foreign-travel-advice/mexico/health",
+        "hiv": "https://ruptura360.mx/el-estado/uneme-capasits-cancun-medicamentos/",
+        "hiv-free": "https://ruptura360.mx/el-estado/casos-de-vih-quintana-roo-nacional/",
+        "hiv-testing": "https://ruptura360.mx/gobierno/servicios-unidad-medica-municipal-cancun/",
+        "hiv-pep": "https://salud.sonora.gob.mx/media/attachments/2026/01/05/pep-y-prep-documento-2025.pdf",
+        "adhd": "https://www.gob.mx/cofepris",
+        "adhd-prescriptions": "https://www.gov.uk/foreign-travel-advice/mexico/health",
+        "diabetes": "https://www.gov.uk/foreign-travel-advice/mexico/health",
+        "diabetes-screening": "https://ruptura360.mx/gobierno/servicios-unidad-medica-municipal-cancun/"
+      }
+    },
+    {
+      "code": "dxb",
+      "file": "dubai.json",
+      "name": {
+        "en": "Dubai"
+      },
+      "country": "AE",
+      "countryName": "United Arab Emirates",
+      "jurisdiction": "Dubai, United Arab Emirates",
+      "dialCode": "+971",
+      "timezone": "Asia/Dubai",
+      "currency": "AED",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Dubai Health hospitals list visitors among the people they serve, and their emergency departments are walk-in 24/7. Non-UAE nationals pay (for example AED 187.50 for an emergency visit at Dubai Hospital in 2022) or use insurance.",
+        "hiv": "Tourists are not tested for HIV on entry. Anyone applying for a residence visa must take a blood test, and residents who test positive for HIV can be detained and deported. Health facilities must report HIV cases to the health authority, so a positive test is not fully confidential. Reports conflict on whether visitors may bring HIV medicines; check with the UAE Ministry of Health before you travel. PEP has been approved in the UAE since 2008 but is prescription-only.",
+        "adhd": "Narcotic and psychotropic (controlled) medicines need care. Visitors can apply in advance, free, for a Ministry of Health and Prevention (MOHAP) permit on its website or app using UAE PASS; this is optional for visitors. Without it, declare the medicines on arrival with a prescription issued within the last 3 months and a medical report from the last year, both stamped by the clinic. You can bring at most a 3-month supply. Transit passengers who stay in the airport don't need approval. Check MOHAP's list of controlled medicines for your specific ADHD medicine before you travel.",
+        "diabetes": "The public Dubai Diabetes Center (Al Hudaiba) treats adults and children, runs insulin pump, CGM, education and foot care clinics, and lists visitors as eligible. Carry your prescription for insulin and supplies."
+      },
+      "noteSources": {
+        "general": "https://www.dha.gov.ae/uploads/062022/fb431907-99dd-4912-8db0-47a6aa474e05.pdf",
+        "hiv": "https://www.gov.uk/foreign-travel-advice/united-arab-emirates/entry-requirements",
+        "adhd": "https://mohap.gov.ae/en/w/issue-of-permit-to-import-medicines-for-personal-use",
+        "diabetes": "https://international-diabetes-federation.s3.eu-west-1.amazonaws.com/media/uploads/2023/04/Dubai-Diabetes-Center_Service-Catalogue.pdf"
+      }
+    },
+    {
+      "code": "ist",
+      "file": "istanbul.json",
+      "name": {
+        "en": "Istanbul"
+      },
+      "country": "TR",
+      "countryName": "Türkiye",
+      "jurisdiction": "Türkiye",
+      "dialCode": "+90",
+      "timezone": "Europe/Istanbul",
+      "currency": "TRY",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Public hospital outpatient clinics are booked through MHRS, the national appointment system: call 182 or use mhrs.gov.tr.",
+        "hiv": "Free, anonymous HIV testing (no name or ID) is offered at voluntary counselling and testing centres (GDTM). In Istanbul these are run with Şişli, Beşiktaş and Avcılar municipalities and Bahçeşehir University. PEP must start within 72 hours (ideally 24): go to a hospital infectious diseases department or emergency department. PrEP is not given free in Turkey. You can pay for it yourself, but it needs an infectious diseases specialist's approval and regular check-ups.",
+        "adhd": "Turkish customs let you bring medicine for your own treatment only if you can show a prescription or a report from a doctor or health institution. For medicines with narcotic content, the report must state the medicine and the dose you need during your stay. No fixed quantity is published: bring only what you need for the trip. Stimulant ADHD medicines such as methylphenidate and lisdexamfetamine are controlled, so carry them in original packaging with the doctor's report, and check with a Turkish embassy before you travel. To get more in Turkey you need an assessment by a doctor in Turkey and a Turkish prescription.",
+        "diabetes": "You can bring a reasonable amount of insulin and other medicines for personal use if you can show a prescription or doctor's report. Several public and private hospitals list insulin pump and CGM support, including paediatric diabetes care."
+      },
+      "noteSources": {
+        "general": "https://cemiltascioglush.saglik.gov.tr/EN-881422/infectious-diseases-and-clinical-microbiology.html",
+        "hiv": "https://www.tapv.org.tr/wp-content/uploads/2026/07/cybe-brosur-2026-tr-v2-web.pdf",
+        "adhd": "https://belgrad-be.mfa.gov.tr/Mission/ShowAnnouncement/162663",
+        "diabetes": "https://ticaret.gov.tr/gumruk-muhafaza/sikca-sorulan-sorular"
+      }
+    },
+    {
+      "code": "kul",
+      "file": "kuala-lumpur.json",
+      "name": {
+        "en": "Kuala Lumpur",
+        "zh-Hans": "吉隆坡"
+      },
+      "country": "MY",
+      "countryName": "Malaysia",
+      "jurisdiction": "Malaysia",
+      "dialCode": "+60",
+      "timezone": "Asia/Kuala_Lumpur",
+      "currency": "MYR",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Non-citizens pay foreigner rates at government hospitals: for example RM40 a day for a general outpatient visit, RM120 for a first specialist-clinic visit and RM100 for emergency treatment. Private hospitals charge more; have travel insurance.",
+        "hiv": "Free PrEP at government health clinics (Klinik Kesihatan Kuala Lumpur and Cheras) is for Malaysian citizens aged 18 and over. Visitors can get PrEP and PEP at private clinics, which charge. PEP has to start within 72 hours: the Malaysian AIDS Council says it is available at selected Ministry of Health hospitals with infectious disease doctors, university hospitals and private clinics. Out of hours, go to a hospital emergency department.",
+        "adhd": "Methylphenidate (e.g. Ritalin, Concerta) and atomoxetine are the ADHD medicines on the Ministry of Health formulary. Methylphenidate, amphetamine and dexamphetamine are controlled psychotropic substances. You may bring up to one month's supply that was prescribed to you, in its original packaging, with the prescription or a doctor's letter in English (medicine name, dose, quantity). Amphetamine is also a 'dangerous drug' under the Dangerous Drugs Act 1952, and medicines containing dangerous drugs must be declared on arrival. Lisdexamfetamine (Vyvanse) isn't named in these rules, so check with the Pharmaceutical Services Programme (+603 7841 3200, pelesenanbpf@moh.gov.my) before you travel. Staying more than a month? Get a prescription from a Malaysian doctor. Private adult ADHD assessments typically cost RM500–1,500 or more; public clinics are cheaper but waits can be long.",
+        "diabetes": "Bring insulin and supplies in their original packaging. Malaysia lets travellers bring up to one month's supply of medicines for personal use; for longer stays get a prescription from a Malaysian doctor. Hospital Kuala Lumpur runs a type 1 diabetes clinic; private hospitals (Prince Court, Gleneagles, Pantai) offer insulin pump care."
+      },
+      "noteSources": {
+        "general": "https://jknpahang.moh.gov.my/index.php/en/informasi2/caj-rawatan?showall=1",
+        "hiv": "https://mac.org.my/v4/prep-pep/",
+        "hiv-prep-eligibility": "https://maf.org.my/V2/pre-exposure-prophylaxis-prep",
+        "adhd": "https://pharmacy.moh.gov.my/sites/default/files/document-upload/travellers-guide-bringing-medication-malaysia-personal-use-edited-16012019.pdf",
+        "adhd-psychotropics": "https://pharmacy.moh.gov.my/sites/default/files/document-upload/poisons-psychotropic-substances-regulations-1989-2-0_0.pdf",
+        "adhd-dangerous-drugs": "https://www.importlicensing.wto.org/sites/default/files/members/91/Act%20No.234%20-%20Dangerous%20Drugs%201952_01.01.2006.pdf",
+        "adhd-formulary": "https://mymahtas2.moh.gov.my/files/QR_Management_of_Attention-Deficit_Hyperactivity_Disorder_(Second_Edition)_06072021%20(1).pdf",
+        "adhd-cost": "https://thesun.my/news/behind-the-burnout-why-thousands-of-adults-are-discovering-undiagnosed-adhd/",
+        "diabetes": "https://pharmacy.moh.gov.my/sites/default/files/document-upload/travellers-guide-bringing-medication-malaysia-personal-use-edited-16012019.pdf",
+        "diabetes-hkl": "https://hkl.moh.gov.my/en/about-us/department/medical/general-medicine"
+      }
+    },
+    {
+      "code": "lon",
+      "file": "london.json",
+      "name": {
+        "en": "London"
+      },
+      "country": "GB",
+      "countryName": "United Kingdom",
+      "jurisdiction": "England, United Kingdom",
+      "dialCode": "+44",
+      "timezone": "Europe/London",
+      "currency": "GBP",
+      "localLanguages": [
+        "en"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "NHS A&E departments, urgent treatment centres, walk-in centres and NHS 111 are free for everyone, including visitors. If you are staying more than 24 hours and less than 3 months you can ask a GP practice to register you as a temporary patient, free of charge (practices can refuse). Prescription charges apply, and hospital care after you're admitted is charged at 150% of NHS cost unless you're exempt. In a life-threatening emergency call 999.",
+        "hiv": "Under NHS rules, diagnosing and treating HIV and other STIs is free for everyone, including overseas visitors. PEP should be started within 72 hours: go to a sexual health clinic (several take PEP walk-ins) or, if they're closed, an A&E department. PrEP is free on the NHS from sexual health clinics; official guidance doesn't say whether short-term visitors can start it, so call a clinic first.",
+        "adhd": "Methylphenidate, lisdexamfetamine and amphetamine are Schedule 2 controlled drugs in the UK. If you don't live in the UK you can bring up to 3 months' supply of medicine prescribed to you, with a letter from your prescriber giving your name, the medicine, dose and strength, travel dates and amount, and the prescriber's signature and registration details. More than 3 months needs a Home Office licence (ask at least 1 month before travel). UK pharmacies can't dispense foreign prescriptions for Schedule 1–3 controlled drugs, even from the EEA or Switzerland, so refills need a UK prescriber, usually a private psychiatrist. NHS ADHD services need a referral and can have waits of years.",
+        "diabetes": "Specialist NHS diabetes clinics need a referral from a GP or hospital team; A&E is free, and suspected new diabetes in a child needs same-day A&E care. If you run out of insulin or other medicines, pharmacies can supply certain emergency medicines without a prescription (you may have to pay), and if you've completely run out, NHS 111 online's emergency prescription service may refer you to a pharmacy. Prescriptions from EEA countries and Switzerland can be dispensed in the UK; prescriptions from elsewhere can't."
+      },
+      "noteSources": {
+        "general": "https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/how-to-access-nhs-services-in-england-if-you-are-visiting-from-abroad/",
+        "hiv": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+        "adhd": "https://www.gov.uk/guidance/controlled-drugs-personal-licences",
+        "diabetes": "https://www.gov.uk/guidance/prescriptions-issued-in-the-eea-and-switzerland-guidance-for-pharmacists"
+      }
+    },
+    {
+      "code": "mec",
+      "file": "mecca.json",
+      "name": {
+        "en": "Mecca"
+      },
+      "country": "SA",
+      "countryName": "Saudi Arabia",
+      "jurisdiction": "Saudi Arabia",
+      "dialCode": "+966",
+      "timezone": "Asia/Riyadh",
+      "currency": "SAR",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Saudi law bars non-Muslims from entering Mecca. During the Hajj season only pilgrims with a Hajj permit may enter or stay in the city; visit-visa holders are turned away and fined.",
+        "hiv": "Hajj and Umrah pilgrims and other short-term visitors are exempt from Saudi Arabia's HIV test requirement, but people coming to work or live must be tested, and a resident found to have HIV is expelled and banned from re-entering. Ministry of Health voluntary counselling and testing clinics are confidential: no name or ID is recorded and you get a code number. No HIV clinic in Mecca is listed yet. For PEP, go to a hospital emergency department straight away.",
+        "adhd": "Narcotic and psychotropic (controlled) medicines need a clearance permit from the Saudi Food and Drug Authority (SFDA) before you travel. Apply through the Controlled Drugs System (cds.sfda.gov.sa) with a passport copy, a prescription or report issued within the past 6 months and a photo of the medicine and its box. You can bring at most a 30-day supply, or enough for your stay if shorter. Check whether your ADHD medicine is controlled in Saudi Arabia before you travel. No ADHD service in Mecca is listed yet.",
+        "diabetes": "Saudi Ministry of Health advice for diabetic pilgrims: bring enough medicine, keep insulin cool in a cool box or fridge (not directly on ice), carry a detailed health report and a card saying you have diabetes, wear comfortable shoes and socks and check your feet daily, carry snacks, and stop the rituals if you feel signs of low blood sugar. Summer temperatures can exceed 50°C."
+      },
+      "noteSources": {
+        "general": "https://www.arabnews.com/saudi-arabia/saudi-citizen-arrested-referred-to-public-prosecution-for-helping-non-muslim-illegally-enter-makkah-spa-2127646",
+        "hiv": "https://www.moh.gov.sa/en/Ministry/Rules/Documents/Implementing-Regulations-of-Aids-Prevention-Law.pdf",
+        "adhd": "https://www.sfda.gov.sa/en/news/5521869",
+        "diabetes": "https://www.moh.gov.sa/en/healthawareness/pilgrims-health/pages/patients-diabetes.aspx"
+      }
+    },
+    {
+      "code": "nyc",
+      "file": "new-york.json",
+      "name": {
+        "en": "New York City"
+      },
+      "country": "US",
+      "countryName": "United States",
+      "jurisdiction": "New York, United States",
+      "dialCode": "+1",
+      "timezone": "America/New_York",
+      "currency": "USD",
+      "localLanguages": [
+        "en"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "NYC Health + Hospitals, the city's public hospital system, says no one is denied services because they can't pay, and serves patients regardless of immigration status. Its Options sliding-scale programme (fees can be $0) covers people who live in or visit New York City; NYC Care is for city residents only.",
+        "hiv": "NYC Health Department sexual health clinics see anyone aged 12 or older regardless of immigration status, mostly on a walk-in basis, for HIV testing, PrEP, PEP and HIV treatment. Adults are asked for a sliding-scale fee but are seen even without insurance or money. PEP must start within 72 hours: if clinics are closed, call the 24/7 NYC PEP Hotline 844-3-PEPNYC (844-373-7692) or go to an emergency room. NYC Health + Hospitals offers PEP at its 11 public hospitals and PrEP at its 17 HIV clinics, regardless of insurance or immigration status.",
+        "adhd": "Under DEA rules, foreign visitors may bring up to 50 dosage units of a controlled-substance medicine, such as an ADHD stimulant, for personal use. Declare it to US Customs and Border Protection and keep it in its original container, labelled with the drug name (or pharmacy/prescriber details and prescription number). Medicines not approved in the US can be confiscated. Private ADHD evaluations can be expensive without insurance; for example, the Child Mind Institute charges $1,600–$3,500 for a diagnostic evaluation.",
+        "diabetes": "Academic diabetes centres (Columbia's Naomi Berrie, Mount Sinai) book first appointments by phone and bill insurance. NYC Health + Hospitals runs diabetes services, such as Queens Hospital's Diabetes Center of Excellence, with sliding-scale financial assistance that covers visitors. In an emergency call 911 or go to the nearest emergency department."
+      },
+      "noteSources": {
+        "general": "https://www.nychealthandhospitals.org/financial-assistance/",
+        "hiv": "https://www.nyc.gov/site/doh/services/sexual-health-clinics.page",
+        "adhd": "https://www.dea.gov/sites/default/files/2026-05/Traveling%20With%20Medication_5.pdf",
+        "diabetes": "https://www.nychealthandhospitals.org/queens/services/diabetes-care/"
+      }
+    },
+    {
+      "code": "par",
+      "file": "paris.json",
+      "name": {
+        "en": "Paris"
+      },
+      "country": "FR",
+      "countryName": "France",
+      "jurisdiction": "France",
+      "dialCode": "+33",
+      "timezone": "Europe/Paris",
+      "currency": "EUR",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "In a medical emergency call 15 (SAMU) or 112; calls are free. Visitors usually pay doctors and pharmacies upfront and claim the money back from their insurer, so bring your EHIC/GHIC or insurance details and keep receipts. A prescription from a doctor in another EU country is valid in French pharmacies.",
+        "hiv": "PEP should start as soon as possible, ideally within 4 hours and no later than 48 hours: go to a hospital emergency department (urgences), especially at night or weekends. At the emergency department the consultation and tests aren't charged on the spot (you get an invoice later), and you're given a 3–5 day starter kit; you pay for the rest at a pharmacy. CeGIDD centres test for HIV and STIs free of charge, anonymously if you wish, whatever your health coverage. Visitors can get PrEP at a CeGIDD: the appointment and tests are free, but you pay for the medicine. If you run out of HIV treatment, the infectious diseases departments at Saint-Louis, Pitié-Salpêtrière and Bichat see people without an appointment.",
+        "adhd": "Methylphenidate (Ritalin, Concerta, Medikinet, Quasym and generics) and lisdexamfetamine (Xurta, authorised in January 2025) are available on a secure prescription (ordonnance sécurisée). Xurta is classed as a narcotic (stupéfiant): 28 days per prescription, with the first prescription each year reserved for neurologists, paediatricians or psychiatrists. In 2026 some Concerta and Quasym strengths were in short supply. To bring narcotic or psychotropic medicines into France from a Schengen country you need the certificate from your home country's authorities (Schengen Article 75); from outside Schengen you must carry your prescription. You can bring what your prescription covers, or one month's treatment without one.",
+        "diabetes": "AP-HP hospital diabetes departments take first appointments online (mon.aphp.fr) or by phone, and paediatric services ask for a referral from a health professional. For an urgent problem go to a hospital emergency department or call 15. Prescriptions from other EU countries can be filled in French pharmacies."
+      },
+      "noteSources": {
+        "general": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33954",
+        "hiv": "https://www.sida-info-service.org/medical-care-for-foreign-tourists-in-france/",
+        "adhd": "https://www.douane.gouv.fr/fiche/le-transport-de-medicaments-en-france-par-des-particuliers",
+        "diabetes": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_en.htm"
+      }
+    }
   ]
 }

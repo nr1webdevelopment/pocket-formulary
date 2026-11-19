@@ -1,0 +1,1876 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "lon",
+  "providers": [
+    {
+      "id": "gb-lon-mortimer-market-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Mortimer Market Centre (including Margaret Pyke Centre)"
+      },
+      "organization": "Central and North West London NHS Foundation Trust (CNWL)",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Camden",
+        "district": "Bloomsbury",
+        "address": {
+          "en": "Capper Street, off Tottenham Court Road, London WC1E 6JB"
+        },
+        "postcode": "WC1E 6JB",
+        "locationNote": null,
+        "nearestTransit": "Warren Street (Northern, Victoria) or Euston Square (Circle, Hammersmith & City, Metropolitan) Underground",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.sexualhealth.cnwl.nhs.uk/clinic/mortimer-market-centre-including-margaret-pyke-centre",
+        "email": null,
+        "booking": "https://www.sexualhealth.cnwl.nhs.uk/ncl-book-an-appointment/"
+      },
+      "hours": "Mon, Tue, Thu 08:30–19:00; Wed 08:30–19:00 (closed 13:00–16:30 on 1st and 3rd Wednesdays); Fri 08:30–15:00. Closed bank holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free, confidential NHS clinic. Walk-in is for emergencies only: PEP (must start within 72 hours) and emergency contraception; arrive at least an hour before closing, and you may have to wait, come back later or be sent to another clinic. Book online for everything else, including PrEP. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.sexualhealth.cnwl.nhs.uk/clinic/mortimer-market-centre-including-margaret-pyke-centre",
+          "title": "Mortimer Market Centre including Margaret Pyke Centre",
+          "publisher": "CNWL Sexual Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-56-dean-street",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "56 Dean Street"
+      },
+      "organization": "Chelsea and Westminster Hospital NHS Foundation Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Soho",
+        "address": {
+          "en": "56 Dean Street, Soho, London W1D 6AQ"
+        },
+        "postcode": "W1D 6AQ",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3315 5656"
+        ],
+        "line": null,
+        "website": "https://chelwest.nhs.uk/services/hiv-sexual-health/clinics/56-dean-street",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Tue 08:00–19:00; Wed 12:00–19:00; Thu 08:00–19:00; Fri 09:00–16:00; Sat 11:00–16:00. Closed Sun and bank holidays. Phone line: Mon, Tue, Thu 08:00–15:30; Wed 12:00–19:30; Fri 09:00–16:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free NHS sexual health and HIV clinic: STI testing and treatment, HIV testing, PEP, PrEP support and full outpatient HIV care. Book by phone or online; walk-in is mentioned only for people aged 19 or under. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://chelwest.nhs.uk/services/hiv-sexual-health/clinics/56-dean-street",
+          "title": "56 Dean Street",
+          "publisher": "Chelsea and Westminster Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-10-hammersmith-broadway",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "10 Hammersmith Broadway"
+      },
+      "organization": "Chelsea and Westminster Hospital NHS Foundation Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Hammersmith and Fulham",
+        "district": "Hammersmith",
+        "address": {
+          "en": "10 Hammersmith Broadway, London W6 7AL"
+        },
+        "postcode": "W6 7AL",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3315 1010"
+        ],
+        "line": null,
+        "website": "https://chelwest.nhs.uk/services/hiv-sexual-health/clinics/10-hammersmith-broadway",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Tue 09:00–19:00; Wed 13:00–19:00; Thu 09:00–16:00; Fri 08:30–12:00. Closed weekends and bank holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Rapid HIV tests, PrEP access and monitoring (book online), PEP after sexual exposure, STI testing and treatment, and follow-up care for people living with HIV. Same-day appointments are offered but limited; book by phone or online. For routine screening without symptoms the clinic points to Sexual Health London home testing kits. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://chelwest.nhs.uk/services/hiv-sexual-health/clinics/10-hammersmith-broadway",
+          "title": "10 Hammersmith Broadway",
+          "publisher": "Chelsea and Westminster Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-burrell-street",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Burrell Street Sexual Health Clinic"
+      },
+      "organization": "Guy's and St Thomas' NHS Foundation Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Southwark",
+        "district": "Bankside",
+        "address": {
+          "en": "4-5 Burrell Street, London SE1 0UN"
+        },
+        "postcode": "SE1 0UN",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7188 6666"
+        ],
+        "line": null,
+        "website": "https://www.guysandstthomas.nhs.uk/our-services/sexual-health",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon 08:00–15:30; Tue 08:00–19:30; Wed 12:00–19:30; Thu 08:00–19:30; Fri 08:00–15:30; Sat 08:00–15:30. Closed bank holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Walk-in, first come first served, for people with symptoms; priority for under-18s, emergency contraception and PEP. PrEP is by booked appointment only (phone 020 7188 6666, option 4). For a check-up without symptoms, order a home test kit online or collect one at reception. Arrive early; if the clinic is full you may be asked to come back the next day. Services are listed for the trust's sexual health service as a whole. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.guysandstthomas.nhs.uk/our-services/sexual-health/clinics",
+          "title": "Sexual health clinics",
+          "publisher": "Guy's and St Thomas' NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.guysandstthomas.nhs.uk/our-services/sexual-health",
+          "title": "Sexual health",
+          "publisher": "Guy's and St Thomas' NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-jefferiss-wing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Jefferiss Wing Centre for Sexual Health (St Mary's Hospital)"
+      },
+      "organization": "Imperial College Healthcare NHS Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Paddington",
+        "address": {
+          "en": "St Mary's Hospital, Praed Street, London W2 1NY"
+        },
+        "postcode": "W2 1NY",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3312 1225",
+          "+44 20 3312 7583"
+        ],
+        "line": null,
+        "website": "https://www.imperial.nhs.uk/sexual-health",
+        "email": "imperial.sexualhealth.smh@nhs.net",
+        "booking": null
+      },
+      "hours": "Mon–Fri; closed bank holidays. A trust leaflet gives walk-in hours Mon, Tue, Thu 08:45–18:15; Wed 11:45–18:15; Fri 08:45–15:15 (leaflet may be out of date; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Walk in for PEP with no appointment (ground-floor reception during opening hours); outside clinic hours go to A&E. Emergency walk-in also for emergency contraception, recent sexual assault and under-18s. PrEP and PrEP follow-up through the PROUD@JW clinic (first floor, St Mary's Hospital, Winsland Mews; call 020 3312 1225). Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.imperial.nhs.uk/sexual-health/lgbtq/prep-and-pep",
+          "title": "PrEP and PEP",
+          "publisher": "Imperial College Healthcare NHS Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://imperial.nhs.uk/sexual-health/about-us/visitor-information",
+          "title": "Visitor information",
+          "publisher": "Imperial College Healthcare NHS Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.imperial.nhs.uk/~/media/website/patient-information-leaflets/sexual-health-and-hiv/the-jefferiss-wing-centre-walkin-service.pdf",
+          "title": "The Jefferiss Wing Centre walk-in service (leaflet)",
+          "publisher": "Imperial College Healthcare NHS Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-clifden-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Clifden Centre (Homerton Sexual Health Services)"
+      },
+      "organization": "Homerton Healthcare NHS Foundation Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Hackney",
+        "district": "Homerton",
+        "address": {
+          "en": "Homerton Row, London E9 6SR"
+        },
+        "postcode": "E9 6SR",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7683 4103"
+        ],
+        "line": null,
+        "website": "https://homerton.nhs.uk/sexual-health",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Walk-in Mon, Tue, Thu 09:00–11:30 with booked appointments in the afternoon; Wed 12:00–15:30; Fri 09:00–15:30. Booked Saturday clinic 10:00–15:00 every other Saturday. Men who have sex with men clinic Thu 17:00–19:00; Open Doors clinic for sex workers Thu 13:30–15:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Walk-in and booked appointments (walk-in sessions moved to mornings from 2 November). Routine tests include HIV and syphilis blood tests and chlamydia/gonorrhoea tests. Homerton's HIV care is at the Jonathan Mann Clinic. The trust's pages don't say which clinic offers PEP or PrEP; call 020 7683 4103. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general",
+        "msm",
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.homerton.nhs.uk/opening-hours-and-clinics-locations",
+          "title": "Opening hours and clinic locations",
+          "publisher": "Homerton Healthcare NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://homerton.nhs.uk/sexualhealth-clinics",
+          "title": "Your visit",
+          "publisher": "Homerton Healthcare NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-ambrose-king-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Ambrose King Sexual Health Centre (Royal London Hospital)"
+      },
+      "organization": "Barts Health NHS Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Tower Hamlets",
+        "district": "Whitechapel",
+        "address": {
+          "en": "The Royal London Hospital, Mount Terrace, Whitechapel, London E1 2BB"
+        },
+        "postcode": "E1 2BB",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7480 4737"
+        ],
+        "line": null,
+        "website": "https://www.shl.uk/en-gb/clinic/ambrose-king-sexual-health-centre",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Free, confidential sexual health services including screening with HIV testing, and contraception. Opening hours and walk-in rules aren't listed; call before going. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.shl.uk/en-gb/clinic/ambrose-king-sexual-health-centre",
+          "title": "Ambrose King Sexual Health Centre",
+          "publisher": "Sexual Health London (NHS)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-camberwell-sexual-health-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Camberwell Sexual Health Centre"
+      },
+      "organization": "King's College Hospital NHS Foundation Trust",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": null,
+        "district": "Camberwell / Denmark Hill",
+        "address": {
+          "en": "Ground floor, Camberwell Building, 100 Denmark Hill, London SE5 9RS"
+        },
+        "postcode": "SE5 9RS",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3299 5091"
+        ],
+        "line": null,
+        "website": "https://www.kch.nhs.uk/?p=2092",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Tue, Fri 08:00–15:30; Wed 12:00–18:30; Thu 10:00–17:30. Closed weekends and bank holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Walk-in, first come first served, but you may not be seen the same day; booking online through Sexual Health London first is recommended. Priority for under-18s, PEP, emergency contraception and severe symptoms. CliniQ, for trans and non-binary people, is by appointment only. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general",
+        "transgender"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.kch.nhs.uk/?p=2092",
+          "title": "Camberwell Sexual Health Centre",
+          "publisher": "King's College Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-kings-caldecot-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "King's College Hospital HIV Service (Caldecot Centre)"
+      },
+      "organization": "King's College Hospital NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": null,
+        "district": "Camberwell / Denmark Hill",
+        "address": {
+          "en": "Ground floor, Caldecot Centre, 15-22 Caldecot Road, London SE5 9RS"
+        },
+        "postcode": "SE5 9RS",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3299 5000"
+        ],
+        "line": null,
+        "website": "https://www.kch.nhs.uk/service/a-z/hiv",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Antiretroviral treatment, regular follow-up, specialist HIV clinics and counselling for people living with HIV. Self-refer by email after a positive test, or be referred by a GP or other provider. Urgent problems: call 020 3299 5000 for a telephone triage appointment. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.kch.nhs.uk/service/a-z/hiv",
+          "title": "HIV",
+          "publisher": "King's College Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-kobler-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Kobler Outpatient Clinic (Chelsea and Westminster Hospital)"
+      },
+      "organization": "Chelsea and Westminster Hospital NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Kensington and Chelsea",
+        "district": "Chelsea",
+        "address": {
+          "en": "Ground Floor, St Stephen's Centre, Chelsea and Westminster Hospital, 369 Fulham Road, London SW10 9NH"
+        },
+        "postcode": "SW10 9NH",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3315 4040"
+        ],
+        "line": null,
+        "website": "https://www.chelwest.nhs.uk/services/hiv-sexual-health/clinics/kobler",
+        "email": "chelwest.jhcandkobler@nhs.net",
+        "booking": null
+      },
+      "hours": "Mon, Tue, Thu 08:30–16:30; Wed 11:30–19:00; Fri 08:30–13:00. Attend in person only with a face-to-face appointment.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Outpatient HIV care for people living with HIV, with a focus on ageing, other conditions and co-infections; peer support; requests when running low on medication (emergency one-month supply via the Klick app for registered patients). Nights, weekends and bank holidays: go to A&E and say you are a Kobler Clinic patient. Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chelwest.nhs.uk/services/hiv-sexual-health/clinics/kobler",
+          "title": "Kobler Outpatient Clinic",
+          "publisher": "Chelsea and Westminster Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-ian-charleson-day-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Ian Charleson Day Centre (Royal Free Hospital)"
+      },
+      "organization": "Royal Free London NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Camden",
+        "district": "Hampstead",
+        "address": {
+          "en": "Ground floor, Royal Free Hospital, Pond Street, London NW3 2QG"
+        },
+        "postcode": "NW3 2QG",
+        "locationNote": "From the main entrance walk straight down the corridor past the shops and lifts; the ICDC sign is on the left.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3758 2029"
+        ],
+        "line": null,
+        "website": "https://royalfree.nhs.uk/services/hiv-services",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Tue, Fri 08:00–17:30; Wed 10:00–17:30 (13:00–17:30 on the 4th Wednesday); Thu 07:30–18:30. Emergency walk-in Mon, Tue, Thu, Fri 09:00–16:00 (Wed 10:00–16:00, or 13:00–16:00 on the 4th Wednesday); call the nurses first if possible (option 2). Out of hours: ward 11 South, 020 7830 2712.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Open access: no GP referral needed, and you can refer yourself for an HIV test or HIV care. Walk-in finger-prick HIV test with results in minutes during clinic hours. Treatment, monitoring, specialist HIV pharmacy, psychology, women's health and an HIV antenatal team. Urgent patients are usually seen within 48 hours (Mon–Fri). Under NHS rules, diagnosing and treating STIs and HIV is free for everyone, including overseas visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://royalfree.nhs.uk/services/hiv-services",
+          "title": "HIV services",
+          "publisher": "Royal Free London NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://royalfree.nhs.uk/services/child-and-adolescent-mental-health-services/specialist-neurodevelopmental-services",
+          "title": "Specialist neurodevelopmental services",
+          "publisher": "Royal Free London NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/guidance/nhs-entitlements-migrant-health-guide",
+          "title": "NHS entitlements: migrant health guide",
+          "publisher": "UK Health Security Agency / GOV.UK",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-slam-national-adult-adhd",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "National Adult ADHD and Autism Service (Maudsley Hospital)"
+      },
+      "organization": "South London and Maudsley NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Southwark",
+        "district": "Denmark Hill",
+        "address": {
+          "en": "Maudsley Outpatient Department, Maudsley Hospital, Denmark Hill, London SE5 8AZ"
+        },
+        "postcode": "SE5 8AZ",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3228 6791"
+        ],
+        "line": null,
+        "website": "https://slam.nhs.uk/service-detail/service/national-adhd-and-autism-service-outpatients-164/",
+        "email": "adhdasdadmin@slam.nhs.uk",
+        "booking": null
+      },
+      "hours": "Admin Mon–Fri 09:00–17:00, except bank holidays.",
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "NHS tertiary service for clinically complex adults (18+): enhanced diagnostic assessment and starting/titrating ADHD medication in complex cases, in person or by video. As of November 2026 it is closed to new national referrals and open only to complex referrals from Lambeth, Lewisham, Croydon, Southwark, Bromley, Greenwich and Bexley. NHS clinician referral with ICB approval; no self-referrals. Current wait about 5 years. Not a route for visitors."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://slam.nhs.uk/service-detail/service/national-adhd-and-autism-service-outpatients-164/",
+          "title": "National Adult ADHD and Autism Service – Outpatients",
+          "publisher": "South London and Maudsley NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://slam.nhs.uk/service-detail/service/child-and-adolescent-neuropsychiatry-service-maudsley-hospital-100/",
+          "title": "Service detail (Maudsley Hospital address)",
+          "publisher": "South London and Maudsley NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-royal-free-camhs-adhd",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Royal Free CAMHS — Specialist Neurodevelopmental Services (ADHD)"
+      },
+      "organization": "Royal Free London NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Camden",
+        "district": "Hampstead",
+        "address": {
+          "en": "CAMHS, Ground floor, Royal Free Hospital, Pond Street, London NW3 2QG"
+        },
+        "postcode": "NW3 2QG",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://royalfree.nhs.uk/services/child-and-adolescent-mental-health-services/specialist-neurodevelopmental-services",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD assessment for children and young people aged 6–17; medication is discussed as a treatment option, with monitoring if prescribed. Only for children with a Camden GP, or a Barnet GP and living in NW2, NW11 or N3. Written referral from a GP, paediatrician, teacher, psychiatrist or CAMHS professional; waiting list. The page was due for review in October 2024, so check it's current."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://royalfree.nhs.uk/services/child-and-adolescent-mental-health-services/specialist-neurodevelopmental-services",
+          "title": "Specialist neurodevelopmental services",
+          "publisher": "Royal Free London NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-sloane-court-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Sloane Court Clinic — Adult ADHD Clinic"
+      },
+      "organization": "Sloane Court Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Kensington and Chelsea",
+        "district": "Chelsea",
+        "address": {
+          "en": "11 Sloane Court West, London SW3 4TD"
+        },
+        "postcode": "SW3 4TD",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7730 5945"
+        ],
+        "line": null,
+        "website": "https://sloanecourtclinic.com/getting-help/specialised-clinics/adult-attention-deficit-hyperactivity-disorder-add-adhd-clinic/faqs-on-our-adult-adhd-clinic/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Thu 08:00–20:00; Fri 08:00–18:00; limited Saturday appointments on request.",
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Private, adults 18+. Consultant psychiatrists assess for ADHD and prescribe medication after physical health checks. Self-referral form, or a referral letter (preferred). Joint ADHD and autism assessment £2,700; 30-minute follow-ups £245; £25 fee for prescriptions requested between appointments. The clinic cannot issue prescriptions to patients who are abroad; travel letters need 14 days' notice."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://sloanecourtclinic.com/getting-help/specialised-clinics/adult-attention-deficit-hyperactivity-disorder-add-adhd-clinic/faqs-on-our-adult-adhd-clinic/",
+          "title": "FAQs on our adult ADHD clinic",
+          "publisher": "Sloane Court Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-adhd-centre-marylebone",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "The ADHD Centre (London)"
+      },
+      "organization": "The ADHD Centre",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Marylebone",
+        "address": {
+          "en": "85 Wimpole Street, London W1G 9RJ"
+        },
+        "postcode": "W1G 9RJ",
+        "locationNote": "Second London clinic in Belgravia: 9 Eccleston Street, London SW1W 9LX. Online appointments by Zoom.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3966 1551"
+        ],
+        "line": null,
+        "website": "https://www.adhdcentre.co.uk/adhd-centre-london/",
+        "email": "enquiries@adhdcentre.co.uk",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Private, consultant psychiatrist-led assessments for adults and children, with stimulant and non-stimulant medication prescribed and regular reviews. Assessments from £695; in-person adult assessment £1,095, child £1,695. The site advertises assessments within 24 hours to the same week and a written report within 2 weeks."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.adhdcentre.co.uk/adhd-centre-london/",
+          "title": "ADHD Centre London",
+          "publisher": "The ADHD Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-chelsea-psychology-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "The Chelsea Psychology Clinic"
+      },
+      "organization": "The Chelsea Psychology Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Belgravia",
+        "address": {
+          "en": "2 Eaton Gate, London SW1W 9BJ"
+        },
+        "postcode": "SW1W 9BJ",
+        "locationNote": "Also at 100 Harley Street (W1G 7JA), 45 Pont Street, Knightsbridge (SW1X 0BD), 84 Brook Street, Mayfair (W1K 5EH) and 96 Kensington High Street (W8 4SG).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3092 7353"
+        ],
+        "line": null,
+        "website": "https://www.thechelseapsychologyclinic.com/adults/private-adhd-assessment-for-adults/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Private ADHD assessments for adults (£1,000; combined autism/ADHD £3,500) and, through a separate service, children. A specialist psychiatrist discusses medication options at assessment; the page doesn't say whether the clinic itself prescribes and manages medication."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.thechelseapsychologyclinic.com/adults/private-adhd-assessment-for-adults/",
+          "title": "Private ADHD Assessment for Adults",
+          "publisher": "The Chelsea Psychology Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-kings-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "King's College Hospital — Diabetes Service"
+      },
+      "organization": "King's College Hospital NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": null,
+        "district": "Camberwell / Denmark Hill",
+        "address": {
+          "en": "Ground Floor, Venetian Building, King's College Hospital, Caldecot Road, London SE5 9RS"
+        },
+        "postcode": "SE5 9RS",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3299 1919",
+          "+44 20 3299 8570"
+        ],
+        "line": null,
+        "website": "https://www.kch.nhs.uk/services/services-a-to-z/diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Consultant-led NHS service: type 1 and young person's clinics, pregnancy, complications, diabetic foot service, inpatient diabetes, islet transplantation. Hybrid closed-loop rollout prioritises children/young people and pregnancy (waits of 1–3 years). DAFNE education, dietitian, psychology and peer support. Referral by GP (NHS e-Referral) or hospital team. First appointments 020 3299 1919; other queries 020 3299 8570."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.kch.nhs.uk/services/services-a-to-z/diabetes",
+          "title": "Diabetes",
+          "publisher": "King's College Hospital NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-gstt-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Guy's and St Thomas' — Diabetes Service"
+      },
+      "organization": "Guy's and St Thomas' NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Lambeth",
+        "district": "Waterloo",
+        "address": {
+          "en": "Diabetes and endocrine day centre, 3rd floor, Lambeth Wing, St Thomas' Hospital, Westminster Bridge Road, London SE1 7EH"
+        },
+        "postcode": "SE1 7EH",
+        "locationNote": "Also at Guy's Hospital (diabetes and endocrine unit, 3rd floor, Southwark Wing, Great Maze Pond, SE1 9RT) and Southwark community clinics.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7188 1916"
+        ],
+        "line": null,
+        "website": "https://www.guysandstthomas.nhs.uk/our-services/diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Thu 08:30–17:00; Fri 08:30–16:30. Appointments line Mon–Fri 09:30–16:30.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Consultants in diabetes and endocrinology; insulin pump clinic; type 1, pregnancy, complex, kidney, genetic diabetes and a young adult clinic (16–24); individual and group education; podiatry-supported foot clinic; HEAL-D programme for people of Black African and Caribbean background with type 2 diabetes. Children under 16 are seen at Evelina London."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.guysandstthomas.nhs.uk/our-services/diabetes",
+          "title": "Diabetes",
+          "publisher": "Guy's and St Thomas' NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-evelina-childrens-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Evelina London Children's Hospital — Diabetes Service"
+      },
+      "organization": "Guy's and St Thomas' NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Lambeth",
+        "district": "Waterloo",
+        "address": {
+          "en": "Evelina London Children's Hospital, Westminster Bridge Road, London SE1 7EH"
+        },
+        "postcode": "SE1 7EH",
+        "locationNote": "Outpatients on Level 0 (Ocean).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 7188 7188 ext 53102"
+        ],
+        "line": null,
+        "website": "https://www.evelinalondon.nhs.uk/our-services/hospital/diabetes/",
+        "email": "gstt.paediatricappointmentsdiabetes-pf@nhs.net",
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–17:00. Out of hours, call 020 7188 7188, press 0 and ask for the children's diabetes on-call clinician.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "insulinPump": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Children and young people with diabetes: active insulin pump service, education with families and schools, transition to adult care, support in intensive care and for diabetes with kidney disease. The emergency department is always open."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.evelinalondon.nhs.uk/our-services/hospital/diabetes/",
+          "title": "Diabetes service",
+          "publisher": "Evelina London Children's Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-uclh-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "University College Hospital — Diabetes and Endocrinology Service"
+      },
+      "organization": "University College London Hospitals NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Camden",
+        "district": "Euston",
+        "address": {
+          "en": "Diabetes service, 3rd floor central, 250 Euston Road, London NW1 2PG"
+        },
+        "postcode": "NW1 2PG",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 7966 770 663",
+          "+44 20 3447 9347"
+        ],
+        "line": null,
+        "website": "https://uclh.nhs.uk/our-services/find-service/medical-specialties-1/diabetes",
+        "email": "uclh.dsn@nhs.net",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Type 1 and type 2 including newly diagnosed; one of the largest insulin pump centres in the UK; CGM; DAFNE education; podiatry; pregnancy care. Routine referral via the NHS e-Referral Service; urgent referrals through the endocrine registrar are seen within 2 working days."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://uclh.nhs.uk/our-services/find-service/medical-specialties-1/diabetes",
+          "title": "Diabetes",
+          "publisher": "University College London Hospitals NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-uclh-childrens-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "UCLH Children and Young People's Diabetes Service"
+      },
+      "organization": "University College London Hospitals NHS Foundation Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Camden",
+        "district": "Euston",
+        "address": {
+          "en": "Lower Ground Floor, Elizabeth Garrett Anderson Wing, University College Hospital, 235 Euston Road, London NW1 2BU"
+        },
+        "postcode": "NW1 2BU",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3447 9221",
+          "+44 7940 476811"
+        ],
+        "line": null,
+        "website": "https://www.uclh.nhs.uk/paediatricdiabetes",
+        "email": "uclh.cdadmin@nhs.net",
+        "booking": null
+      },
+      "hours": "Urgent line 07940 476811 staffed Mon–Fri 08:00–18:00; outside these hours it is answered by the on-call paediatric consultant.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Up to age 19: type 1, type 2, monogenic and steroid-related diabetes; insulin pumps including hybrid closed loop; continuous/flash glucose monitoring; dietitians, psychology and exercise clinics. Currently not accepting external transfer referrals, except newly diagnosed children via A&E and families moving into the area. Suspected new-onset diabetes needs same-day care at A&E."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.uclh.nhs.uk/paediatricdiabetes",
+          "title": "Children and young people's diabetes",
+          "publisher": "University College London Hospitals NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.uclh.nhs.uk/T1",
+          "title": "Children and young people's diabetes service (referrals)",
+          "publisher": "University College London Hospitals NHS Foundation Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-imperial-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "Imperial College Healthcare — Diabetes Services (St Mary's Hospital)"
+      },
+      "organization": "Imperial College Healthcare NHS Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Paddington",
+        "address": {
+          "en": "Diabetes Education Centre, First Floor, Mint Wing, St Mary's Hospital, Praed Street, London W2 1NY"
+        },
+        "postcode": "W2 1NY",
+        "locationNote": "Also at Charing Cross Hospital (9 East, Fulham Palace Road, W6 8RF; 020 3311 1062) and Hammersmith Hospital (Du Cane Road, W12 0HS; 020 8383 4693).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3312 1073",
+          "+44 20 3313 5000"
+        ],
+        "line": null,
+        "website": "https://www.imperial.nhs.uk/our-services/endocrinology/diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "St Mary's: type 1 clinics with pump and CGM support, daily diabetic foot clinics, adolescent clinics with paediatric specialists, hypoglycaemia clinics, structured type 1 education, and same-day consultations for newly diagnosed symptomatic high blood sugar. GP referral via NHS e-Referrals; outpatient appointments 020 3313 5000."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.imperial.nhs.uk/our-services/endocrinology/diabetes",
+          "title": "Diabetes",
+          "publisher": "Imperial College Healthcare NHS Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "gb-lon-imperial-childrens-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "lon",
+      "name": {
+        "en": "St Mary's Hospital — Children's Diabetes Service"
+      },
+      "organization": "Imperial College Healthcare NHS Trust",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "GB",
+        "province": "England",
+        "city": "London",
+        "area": "Westminster",
+        "district": "Paddington",
+        "address": {
+          "en": "Paediatric outpatients, 6th floor, QEQM building, St Mary's Hospital, Praed Street, London W2 1NY"
+        },
+        "postcode": "W2 1NY",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+44 20 3312 6482"
+        ],
+        "line": null,
+        "website": "https://www.imperial.nhs.uk/our-services/childrens-services/childrens-diabetes",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Birth to 19th birthday: named key worker, reviews about every 3 months, injections or insulin pump, CGM fitting, carbohydrate-counting workshops, psychology and school liaison. GP referral via NHS e-Referrals (children's endocrinology). New diagnoses and emergencies: on-call paediatric registrar via 020 3312 6666, bleep 1202."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.imperial.nhs.uk/our-services/childrens-services/childrens-diabetes",
+          "title": "Children's diabetes",
+          "publisher": "Imperial College Healthcare NHS Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

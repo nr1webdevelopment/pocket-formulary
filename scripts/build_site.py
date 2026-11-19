@@ -20,11 +20,21 @@ for path in sorted(glob.glob(os.path.join(ROOT, "i18n", "content.*.json"))):
 
 
 def encode_image(path, max_w=1400):
+    import hashlib
+    cache = os.path.join(ROOT, "images", ".cache")
+    key = hashlib.sha256(open(path, "rb").read() + f"|{max_w}|q70|m6".encode()).hexdigest()[:20]
+    cached = os.path.join(cache, key + ".webp")
+    if os.path.exists(cached):
+        data = open(cached, "rb").read()
+        print(f"  {os.path.basename(path)} -> cached WebP, {len(data)//1024} KB")
+        return 'url("data:image/webp;base64,' + base64.b64encode(data).decode() + '")'
     from PIL import Image, ImageOps
     im = ImageOps.exif_transpose(Image.open(path)).convert("RGB")
     im.thumbnail((max_w, max_w))
     buf = io.BytesIO()
     im.save(buf, "WEBP", quality=70, method=6)
+    os.makedirs(cache, exist_ok=True)
+    open(cached, "wb").write(buf.getvalue())
     print(f"  {os.path.basename(path)} -> {im.size[0]}x{im.size[1]} WebP, {len(buf.getvalue())//1024} KB")
     return 'url("data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode() + '")'
 
@@ -104,6 +114,8 @@ html = head + page.replace('<header id="sitebar">', '</head>\n<body>\n<header id
 import analytics
 TAG = release.get("googleTagId")
 html = analytics.inject(html, TAG)
+import report_form  # "Report a problem" dialog, posts to /report.php
+html = report_form.inject(html)
 open(os.path.join(ROOT, "index.html"), "w", encoding="utf-8").write(html)
 print(f"wrote index.html ({len(html.encode())//1024} KB): {len(drugs)} medicines, {len(providers)} providers, "
       f"{len(cities_doc['data'])} cities, languages: en + {', '.join(sorted(i18n['content']))}")
@@ -119,6 +131,7 @@ for lang in sorted(i18n["content"]):
 otc = otc.replace("__OTC_I18N__", js(otc_i18n))
 otc = site_header.inject(otc.replace("__FAVICON__", favicon), base="./", active="otc")
 assert not re.findall(r"__[A-Z_]+__", otc), "unfilled placeholder in otc_finder.html"
+otc = report_form.inject(otc)
 otc = analytics.inject(otc, TAG)
 open(os.path.join(ROOT, "otc-finder.html"), "w", encoding="utf-8").write(otc)
 print(f"wrote otc-finder.html ({len(otc.encode())//1024} KB): languages en + {', '.join(sorted(otc_i18n))} "

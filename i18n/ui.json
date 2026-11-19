@@ -1560,12 +1560,12 @@
   "th": "การดูแลสุขภาพ ไม่ว่าคุณจะไปที่ไหน"
  },
  "hero_travel_text": {
-  "en": "Clinics and hospitals for HIV, ADHD and diabetes care in {n} cities across Asia, the Americas and Europe, with addresses, phone numbers, hours and sources.",
-  "zh-Hans": "亚洲、美洲和欧洲 {n} 个城市的 HIV、ADHD 和糖尿病诊所与医院，附地址、电话、开放时间和信息来源。",
-  "zh-Hant": "亞洲、美洲和歐洲 {n} 個城市的 HIV、ADHD 和糖尿病診所與醫院，附地址、電話、開放時間和資料來源。",
-  "es": "Clínicas y hospitales para el VIH, el TDAH y la diabetes en {n} ciudades de Asia, América y Europa, con dirección, teléfono, horario y fuentes.",
-  "pt": "Clínicas e hospitais para HIV, PHDA e diabetes em {n} cidades da Ásia, das Américas e da Europa, com morada, telefone, horário e fontes.",
-  "th": "คลินิกและโรงพยาบาลด้านเอชไอวี สมาธิสั้น และเบาหวาน ใน {n} เมืองทั่วเอเชีย อเมริกา และยุโรป พร้อมที่อยู่ เบอร์โทร เวลาทำการ และแหล่งข้อมูล"
+  "en": "Clinics and hospitals for HIV, ADHD and diabetes care in {n} cities around the world, with addresses, phone numbers, hours and sources.",
+  "zh-Hans": "全球 {n} 个城市的 HIV、ADHD 和糖尿病诊所与医院，附地址、电话、开放时间和信息来源。",
+  "zh-Hant": "全球 {n} 個城市的 HIV、ADHD 和糖尿病診所與醫院，附地址、電話、開放時間和資料來源。",
+  "es": "Clínicas y hospitales para el VIH, el TDAH y la diabetes en {n} ciudades de todo el mundo, con dirección, teléfono, horario y fuentes.",
+  "pt": "Clínicas e hospitais para HIV, PHDA e diabetes em {n} cidades de todo o mundo, com morada, telefone, horário e fontes.",
+  "th": "คลินิกและโรงพยาบาลด้านเอชไอวี สมาธิสั้น และเบาหวาน ใน {n} เมืองทั่วโลก พร้อมที่อยู่ เบอร์โทร เวลาทำการ และแหล่งข้อมูล"
  },
  "hero_travel_cta": {
   "en": "Find a provider",
@@ -2086,5 +2086,45 @@
   "es": "Opciones de privacidad",
   "pt": "Opções de privacidade",
   "th": "ตัวเลือกความเป็นส่วนตัว"
+ },
+ "regionMiddleEast": {
+  "en": "Middle East",
+  "zh-Hans": "中东",
+  "zh-Hant": "中東",
+  "es": "Oriente Medio",
+  "pt": "Médio Oriente",
+  "th": "ตะวันออกกลาง"
+ },
+ "regionAfrica": {
+  "en": "Africa",
+  "zh-Hans": "非洲",
+  "zh-Hant": "非洲",
+  "es": "África",
+  "pt": "África",
+  "th": "แอฟริกา"
+ },
+ "regionOceania": {
+  "en": "Oceania",
+  "zh-Hans": "大洋洲",
+  "zh-Hant": "大洋洲",
+  "es": "Oceanía",
+  "pt": "Oceânia",
+  "th": "โอเชียเนีย"
+ },
+ "regionOther": {
+  "en": "Other",
+  "zh-Hans": "其他",
+  "zh-Hant": "其他",
+  "es": "Otros",
+  "pt": "Outros",
+  "th": "อื่น ๆ"
+ },
+ "reportProblem": {
+  "en": "Report a problem",
+  "zh-Hans": "报告问题",
+  "zh-Hant": "回報問題",
+  "es": "Informar de un problema",
+  "pt": "Comunicar um problema",
+  "th": "แจ้งปัญหา"
  }
 }

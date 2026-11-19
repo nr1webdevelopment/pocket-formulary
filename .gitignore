@@ -13,3 +13,6 @@ stanford-dl-test.txt
 
 # Built website for upload (scripts/build_public.py)
 public/
+
+# Admin secrets and inbox (only ever on the server, outside public_html)
+nc-private/

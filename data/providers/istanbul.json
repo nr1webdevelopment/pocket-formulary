@@ -1,0 +1,1393 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "ist",
+  "providers": [
+    {
+      "id": "tr-ist-sisli-municipality-vct",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Şişli Belediyesi Boysan Yakar Gönüllü Danışmanlık ve Test Merkezi"
+      },
+      "organization": "Şişli Belediyesi (Şişli Municipality), Health Affairs Directorate",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Şişli",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.sisli.bel.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 17:00–20:00 for free anonymous testing (per a January 2023 news report; confirm).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Ministry of Health voluntary counselling and testing centre (GDTM) run by Şişli Municipality since 2006. Free, anonymous HIV testing with no name or ID on weekdays 17:00–20:00 (under a 2014 protocol with the NGO SPoD); testing earlier in the day requires ID (a 2022 column said daytime tests cost 18 lira). GDTMs refer people with a positive result to a diagnosis and treatment centre."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.diken.com.tr/?p=1253451",
+          "title": "HIV için beş ildeki altı gönüllü test merkezi yetmiyor (17 Jan 2023)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.posta.com.tr/yazarlar/isil-cinmen/hiv-cok-degisti-peki-ya-sen-2222951",
+          "title": "HIV çok değişti, peki ya sen? (18 Mar 2022)",
+          "publisher": "Posta",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.diken.com.tr/?p=1646475",
+          "title": "HIV pozitif olanların yarısının hasta olduğundan haberi yok (22 Oct 2025)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.memurlar.net/haber/1119708/hiv-aids-e-yonelik-gonullu-test-merkezlerinin-sayisi-10-a-ulasiyor.html",
+          "title": "HIV/AIDS'e yönelik Gönüllü Test Merkezlerinin sayısı 10'a ulaşıyor (Anadolu Ajansı, 30 Nov 2024)",
+          "publisher": "Memurlar.net / Anadolu Ajansı",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Şişli Municipality Boysan Yakar Voluntary Counselling and Testing Centre. No street address found in sources; ask the municipality.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-besiktas-municipality-vct",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Beşiktaş Belediyesi Sağlıklı Yaşam Merkezi — Gönüllü Danışmanlık ve Test Merkezi"
+      },
+      "organization": "Beşiktaş Belediyesi (Beşiktaş Municipality)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Beşiktaş",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Municipal voluntary counselling and testing centre (GDTM) run with the Ministry of Health, at the municipality's Healthy Living Centre. News reports describe testing at the municipal GDTMs as free and confidential with no ID requested. Still listed in an October 2025 report."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.diken.com.tr/?p=1230458",
+          "title": "HIV'de gönüllü test merkezini sadece beş cesur ilçe belediyesi açtı (1 Dec 2022)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.posta.com.tr/yazarlar/isil-cinmen/hiv-cok-degisti-peki-ya-sen-2222951",
+          "title": "HIV çok değişti, peki ya sen? (18 Mar 2022)",
+          "publisher": "Posta",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.diken.com.tr/?p=1646475",
+          "title": "HIV pozitif olanların yarısının hasta olduğundan haberi yok (22 Oct 2025)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Beşiktaş Municipality Healthy Living Centre — Voluntary Counselling and Testing Centre. No address, hours or phone found in sources; confirm with the municipality before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-avcilar-municipality-vct",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Avcılar Belediyesi Gönüllü Danışmanlık ve Test Merkezi"
+      },
+      "organization": "Avcılar Belediyesi (Avcılar Municipality)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Avcılar",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Listed in October 2025 among Turkey's 13 voluntary counselling and testing centres (GDTM) run through a Ministry of Health–municipality partnership. Per Anadolu Ajansı (2024), GDTM testing is free, confidential and needs no appointment."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.diken.com.tr/?p=1646475",
+          "title": "HIV pozitif olanların yarısının hasta olduğundan haberi yok (22 Oct 2025)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.memurlar.net/haber/1119708/hiv-aids-e-yonelik-gonullu-test-merkezlerinin-sayisi-10-a-ulasiyor.html",
+          "title": "HIV/AIDS'e yönelik Gönüllü Test Merkezlerinin sayısı 10'a ulaşıyor (Anadolu Ajansı, 30 Nov 2024)",
+          "publisher": "Memurlar.net / Anadolu Ajansı",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Avcılar Municipality Voluntary Counselling and Testing Centre. Only news sources found; no address, hours or phone. Confirm before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-bahcesehir-university-vct",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Bahçeşehir University Volunteer Counseling and HIV Testing Center"
+      },
+      "organization": "Bahçeşehir Üniversitesi (BAU)",
+      "type": "private_clinic",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Beşiktaş",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "BAU Beşiktaş South Campus",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 533 624 87 50 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://bau.edu.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Free, anonymous and confidential HIV testing. Contact the centre on WhatsApp to apply and for details. The university says it 'invites everyone'. Also listed in an October 2025 report among Turkey's voluntary testing centres (GDTM)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://bau.edu.tr/news/19475-bahcesehir-university-volunteer-counseling-and-hiv-testing-center",
+          "title": "Bahçeşehir University Volunteer Counseling and HIV Testing Center",
+          "publisher": "Bahçeşehir University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.diken.com.tr/?p=1646475",
+          "title": "HIV pozitif olanların yarısının hasta olduğundan haberi yok (22 Oct 2025)",
+          "publisher": "Diken",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Turkish: Bahçeşehir Üniversitesi Gönüllü Danışmanlık ve HIV Test Merkezi. Hours not published.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-cemil-tascioglu-city-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Prof. Dr. Cemil Taşcıoğlu Şehir Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Infectious Diseases clinic and outpatient clinics: Block 1, 2nd floor, next to the emergency department",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "182 (MHRS appointment line)"
+        ],
+        "line": null,
+        "website": "https://cemiltascioglush.saglik.gov.tr",
+        "email": null,
+        "booking": "https://www.mhrs.gov.tr"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "The Infectious Diseases and Clinical Microbiology clinic says it treats HIV/AIDS, hepatitis B and C and travel-related infections, and follows people with AIDS in its outpatient clinics. PEP and PrEP are not mentioned. Book through MHRS, the national hospital appointment system: call 182 or use mhrs.gov.tr."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://cemiltascioglush.saglik.gov.tr/EN-881422/infectious-diseases-and-clinical-microbiology.html",
+          "title": "Infectious Diseases and Clinical Microbiology",
+          "publisher": "Prof. Dr. Cemil Taşcıoğlu City Hospital (Ministry of Health)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://cemiltascioglush.saglik.gov.tr/TR-827975/enfeksiyon-hastaliklari-ve-klinik-mikrobiyoloji.html",
+          "title": "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji",
+          "publisher": "Prof. Dr. Cemil Taşcıoğlu Şehir Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Prof. Dr. Cemil Taşcıoğlu City Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-haseki-training-research-hospital",
+      "conditions": [
+        "hiv",
+        "adhd"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Haseki Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Infectious Diseases inpatient clinic moved to the Sultangazi campus in 2019; its outpatient clinics stay at the central Haseki campus. Adult psychiatry outpatient clinics are at the Sultangazi campus.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://hasekieah.saglik.gov.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Infectious Diseases has followed HIV/AIDS patients since 1985 and says the hospital was one of the first designated by the Ministry of Health for HIV care. Child and adolescent psychiatry (ages 0–18) lists ADHD among the conditions it follows; adult psychiatry lists adult ADHD among conditions treated with medication. PEP and PrEP are not mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hasekieah.saglik.gov.tr/TR-623079/enfeksiyon-hastaliklari-ve-klinik-mikrobiyoloji.html",
+          "title": "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji",
+          "publisher": "Haseki Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hasekieah.saglik.gov.tr/TR-623083/cocuk-ve-ergen-ruh-sagligi-ve-hastaliklari.html",
+          "title": "Çocuk ve Ergen Ruh Sağlığı ve Hastalıkları",
+          "publisher": "Haseki Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hasekieah.saglik.gov.tr/TR-623082/ruh-sagligi-ve-hastaliklari.html",
+          "title": "Ruh Sağlığı ve Hastalıkları",
+          "publisher": "Haseki Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hasekieah.saglik.gov.tr/EN,507676/pediatric-and-adolescent-psychiatry.html",
+          "title": "Pediatric and Adolescent Psychiatry",
+          "publisher": "Haseki Training and Research Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Haseki Training and Research Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-taksim-training-research-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Taksim Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://taksimeah.saglik.gov.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Infectious Diseases outpatient clinic 08:30–16:30.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "The Infectious Diseases clinic lists HIV infection among its areas of work. HIV follow-up, PEP and PrEP are not described separately. Patients can choose their doctor. Book through MHRS, the national hospital appointment system: call 182 or use mhrs.gov.tr."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://taksimeah.saglik.gov.tr/TR-809988/enfeksiyon-hastaliklari-klinigi.html",
+          "title": "Enfeksiyon Hastalıkları Kliniği",
+          "publisher": "Taksim Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Taksim Training and Research Hospital. Confirm HIV outpatient care by phone before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-sisli-hamidiye-etfal",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Şişli Hamidiye Etfal Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": "Seyrantepe campus",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Infectious Diseases clinic: central building, 2nd floor (Seyrantepe campus)",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://sislietfaleah.saglik.gov.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Infectious Diseases outpatient clinics follow chronic infections including HIV/AIDS, hepatitis B and C. PEP and PrEP are not mentioned. Book through MHRS, the national hospital appointment system: call 182 or use mhrs.gov.tr."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://sislietfaleah.saglik.gov.tr/TR-639641/enfeksiyon-hastaliklari-ve-klinik-mikrobiyoloji-klinigi.html",
+          "title": "Enfeksiyon Hastalıkları ve Klinik Mikrobiyoloji Kliniği",
+          "publisher": "Şişli Hamidiye Etfal Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Şişli Hamidiye Etfal Training and Research Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-haydarpasa-numune",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://haydarpasanumuneah.saglik.gov.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Endocrinology outpatient clinics weekdays 09:00–13:30.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Infectious Diseases lists HIV treatment among its main services and gives 24-hour care to inpatients and emergency patients. The Endocrinology and Metabolism clinic follows diabetes in its outpatient clinic and has a 10-bed inpatient unit. Diabetes education, pumps and foot care are not described."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://haydarpasanumuneah.saglik.gov.tr/TR,86709/enfeksiyon-hastaliklari.html",
+          "title": "Enfeksiyon Hastalıkları",
+          "publisher": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://haydarpasanumuneah.saglik.gov.tr/TR,86708/endokrinoloji-ve-metabolizma-hastaliklari.html",
+          "title": "Endokrinoloji ve Metabolizma Hastalıkları",
+          "publisher": "Haydarpaşa Numune Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Haydarpaşa Numune Training and Research Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-umraniye-training-research-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Ümraniye Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Ümraniye",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://umraniyeah.saglik.gov.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Infectious Diseases diagnoses and treats HIV infection as outpatients and inpatients. Paediatric Endocrinology follows many children with diabetes; it uses carbohydrate counting, insulin pumps and continuous glucose monitoring, and has a diabetes education room with two diabetes education nurses and two dietitians."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://umraniyeah.saglik.gov.tr/TR-88271/enfeksiyon-hastaliklari.html",
+          "title": "Enfeksiyon Hastalıkları",
+          "publisher": "Ümraniye Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://umraniyeah.saglik.gov.tr/TR-88209/cocuk-endokrinolojisi.html",
+          "title": "Çocuk Endokrinolojisi",
+          "publisher": "Ümraniye Eğitim ve Araştırma Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Ümraniye Training and Research Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-goztepe-suleyman-yalcin-city-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Göztepe Prof. Dr. Süleyman Yalçın Şehir Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Psychiatry inpatient unit is on the Göztepe Training and Research Hospital campus",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://suleymanyalcinsh.saglik.gov.tr",
+        "email": null,
+        "booking": "https://www.mhrs.gov.tr"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Psychiatry runs an Adult ADHD Outpatient Clinic (Erişkin DEHB Polikliniği) for people aged 18+ with attention problems, including follow-up of people diagnosed in childhood. An MHRS appointment is required. No child psychiatry is listed on this page."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://suleymanyalcinsh.saglik.gov.tr/TR-586963/psikiyatri.html",
+          "title": "Psikiyatri",
+          "publisher": "Göztepe Prof. Dr. Süleyman Yalçın Şehir Hastanesi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Göztepe Prof. Dr. Süleyman Yalçın City Hospital.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-bakirkoy-mazhar-osman",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları Eğitim ve Araştırma Hastanesi"
+      },
+      "organization": "T.C. Sağlık Bakanlığı (Ministry of Health)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Bakırköy",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Child and adolescent outpatient clinics are on the central campus",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://bakirkoyruhsinireah.saglik.gov.tr",
+        "email": null,
+        "booking": "https://www.mhrs.gov.tr"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Specialist mental health hospital. Its child and adolescent mental health outpatient clinics (ages 0–18) list ADHD, learning disorders, autism and tic disorders among the problems they assess and treat. Appointments through MHRS."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://bakirkoyruhsinireah.saglik.gov.tr/TR-1474815/cocuk-ergen-ruh-sagligi-ve-hastaliklari-poliklinikleri.html",
+          "title": "Çocuk Ergen Ruh Sağlığı ve Hastalıkları Poliklinikleri",
+          "publisher": "Bakırköy Prof. Dr. Mazhar Osman Ruh Sağlığı ve Sinir Hastalıkları EAH",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Bakırköy Prof. Dr. Mazhar Osman Mental Health and Neurological Diseases Training and Research Hospital. Adult ADHD care is not described on the pages checked.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-npistanbul-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "NPİSTANBUL Hastanesi"
+      },
+      "organization": "NP Health Group (NPİSTANBUL)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Ümraniye",
+        "address": {
+          "en": "Yamanevler Mah. Ahmet Tevfik İleri Cad. No:18, 34768 Ümraniye, İstanbul"
+        },
+        "postcode": "34768",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 216 633 0 633",
+          "+90 533 259 48 48"
+        ],
+        "line": null,
+        "website": "https://npistanbul.com/en",
+        "email": null,
+        "booking": "https://online.npistanbul.com"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Private psychiatric hospital with adult psychiatry and child and adolescent psychiatry (ages 0–18). The child service lists ADHD and uses attention tests (MOXO, T.O.V.A.) in assessment. Its adult ADHD page says medication is the first-choice treatment, usually with CBT, but doesn't describe a dedicated adult assessment. Has an international patients office (npistanbulinternational.com) and offers telepsychiatry for clients abroad."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://npistanbul.com/en/child-adolescent-psychiatry",
+          "title": "Child Adolescent Psychiatry",
+          "publisher": "NPİSTANBUL",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://npistanbul.com/en/adult-attention-deficit-hyperactivity-disorder-adhd",
+          "title": "Adult Attention Deficit Hyperactivity Disorder (ADHD)",
+          "publisher": "NPİSTANBUL",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://npistanbul.com/en/npistanbul-hospital",
+          "title": "NPİSTANBUL Hospital",
+          "publisher": "NPİSTANBUL",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-florence-nightingale-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "İstanbul Florence Nightingale Hastanesi"
+      },
+      "organization": "Florence Nightingale Hastaneleri (Florence Nightingale Hospitals)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "444 0 436 (24/7 call centre)"
+        ],
+        "line": null,
+        "website": "https://www.florence.com.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "network",
+        "note": "Child and Adolescent Psychiatry lists ADHD; assessment can include clinical interviews, psychometric tests and, if needed, EEG/MRI, and treatment can include medication (stimulants are mentioned for ADHD), psychotherapy and school-based support. The group lists this department at İstanbul Florence Nightingale and Ataşehir Florence Nightingale hospitals (and a doctor at Kadıköy). Has an international patient section."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.florence.com.tr/en-us/medical-units/child-psychiatry",
+          "title": "Child and Adolescent Psychiatry",
+          "publisher": "Florence Nightingale Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Group-level page; confirm which branch has a child psychiatrist available before booking.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-acibadem-atasehir-diyam",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Acıbadem Ataşehir Hastanesi — DİYAM Diyabet Merkezi"
+      },
+      "organization": "Acıbadem Sağlık Grubu",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": "Ataşehir",
+        "address": {
+          "en": "Atatürk Mah., Turgut Özal Blv. No:11, 34642 Ataşehir, İstanbul"
+        },
+        "postcode": "34642",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 216 512 44 44"
+        ],
+        "line": null,
+        "website": "https://www.acibadem.com.tr/diyam/hakkimizda",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Acıbadem's diabetes centre (DİYAM). Offers tubed and patch insulin pumps with start-up training, CGM with optional 24-hour remote monitoring, routine closed-loop ('artificial pancreas') systems after a four-stage training programme, carbohydrate-counting and pump/CGM courses, complication screening (eye, kidney, heart, nerves, podiatric foot examination), dietitian planning and telemedicine follow-up. A dedicated children's service is not described."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.acibadem.com.tr/diyam/hakkimizda",
+          "title": "Acıbadem DİYAM — Hakkımızda",
+          "publisher": "Acıbadem",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Acıbadem Ataşehir Hospital — DİYAM Diabetes Centre.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-american-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Amerikan Hastanesi"
+      },
+      "organization": "Koç Healthcare",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Endocrinology, Diabetes and Metabolism: C Block, floor -1",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 212 444 3 777"
+        ],
+        "line": null,
+        "website": "https://www.amerikanhastanesi.org",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Endocrinology department Mon–Fri 08:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Endocrinology, Diabetes and Metabolism department lists diabetes mellitus among its main conditions. Pumps, CGM, education and foot care are not described on the page. International patients are handled through Koç Healthcare (kochealthcare.org/en)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.amerikanhastanesi.org/endocrinology-diabetes-and-metabolism",
+          "title": "Endocrinology, Diabetes and Metabolism",
+          "publisher": "American Hospital (Amerikan Hastanesi)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: American Hospital (Istanbul).",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "tr-ist-koc-university-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "ist",
+      "name": {
+        "en": "Koç Üniversitesi Hastanesi"
+      },
+      "organization": "Koç University / Koç Healthcare",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TR",
+        "province": "İstanbul",
+        "city": "Istanbul",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": "Endocrinology: G Block, ground floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+90 850 250 8 250"
+        ],
+        "line": null,
+        "website": "https://www.kuh.ku.edu.tr",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Adult endocrinology: diabetes nurses teach follow-up and insulin use, support type 1 pump users, and CGM is used; diabetic foot ulcers are managed in a weekly multidisciplinary meeting. Paediatric Endocrinology and Diabetes treats children with type 1 diabetes (incl. new diagnoses and DKA), starts insulin pumps with a 3-day outpatient programme, uses CGM for eligible children, and runs structured education, carbohydrate counting, diabetes camps and a Diabetes at School programme. International patients via kochealthcareinternational.org."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.kuh.ku.edu.tr/endocrinology-diabetes-and-metabolism",
+          "title": "Endocrinology, Diabetes and Metabolism",
+          "publisher": "Koç University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.kuh.ku.edu.tr/pediatric-endocrinology-and-diabetes/type-1-diabetes-in-children",
+          "title": "Type 1 diabetes in children",
+          "publisher": "Koç University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English: Koç University Hospital.",
+      "updated": "2026-11-19"
+    }
+  ]
+}
