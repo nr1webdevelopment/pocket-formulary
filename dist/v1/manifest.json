@@ -9,12 +9,13 @@
   "googleTagId": "GTM-N9HSS427",
   "counts": {
     "medicines": 124,
-    "providers": 443,
+    "providers": 460,
     "providersByCity": {
       "ayt": 3,
       "bkk": 49,
       "bom": 16,
       "can": 15,
+      "cnx": 17,
       "cun": 5,
       "del": 15,
       "dxb": 13,
@@ -41,12 +42,12 @@
       "tyo": 34
     },
     "providersByCondition": {
-      "adhd": 86,
-      "diabetes": 106,
-      "hiv": 286
+      "adhd": 91,
+      "diabetes": 111,
+      "hiv": 293
     },
     "providersByVerification": {
-      "unverified": 443
+      "unverified": 460
     }
   },
   "files": {
@@ -62,48 +63,48 @@
     },
     "providers.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json",
-      "bytes": 1215428,
-      "sha256": "5202f2d746c4ce4c789bb3ceae58ac4029802c9e2d6bb7b1a4fcea7e087351c7"
+      "bytes": 1283307,
+      "sha256": "340f7ba8167107f28d19ca7ed202ce728900980c01e0e0b4c137db99ef76aa4d"
     },
     "providers.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv",
-      "bytes": 417334,
-      "sha256": "ef4e04a0c944c6e2570fb07d5515a983014cad21189b2772a907eb4096e64c7a"
+      "bytes": 444157,
+      "sha256": "949f9ccb30da18d4224e3a3b6ab4b07b321496ea3c19cf2aede7bc1cc7bca403"
     },
     "cities.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.json",
-      "bytes": 65614,
-      "sha256": "0e55ee96fb54fc8adcbf7090262671e3ea5aee54f6a0f5f482b3e81bd2c05b3b"
+      "bytes": 68912,
+      "sha256": "e85bf2c756b14e4ddcc34f33e3c05c5c0556688d48e939eb97b81214a978a035"
     },
     "cities.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.csv",
-      "bytes": 52207,
-      "sha256": "cb7f37efe4f19e09e4309f990dd507b6761a454e4a88b3153e4aa9dbac9ca8eb"
+      "bytes": 55004,
+      "sha256": "0233b634a19cbc88b0ac7e1f58a539c0118f0f526a9882cc69b781703c94922c"
     },
     "i18n/content.es.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.es.json",
-      "bytes": 123077,
-      "sha256": "a4e2954067c9d0d0afe210c22125248ae037aa12972ad50b3d4294b84824f4ce"
+      "bytes": 123106,
+      "sha256": "2eb4b5ab15b8293afec0a2e68590f843f6ac46a3d3cf4b976a5fae34e895115e"
     },
     "i18n/content.pt.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.pt.json",
-      "bytes": 122355,
-      "sha256": "decc1667652594fe0ec04acd3ee3c5ddafa4dd63e31d6f3bee9ea5815c2efe76"
+      "bytes": 122384,
+      "sha256": "f06032b1e09d57a5d3599ddfd95c73dc26fcefee363427457eaf991141c180ef"
     },
     "i18n/content.th.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.th.json",
-      "bytes": 180805,
-      "sha256": "2a60377f0cfeead8a3dec3e5e4b1d80344d12782012fe3ee553ac5b735c35b94"
+      "bytes": 180851,
+      "sha256": "5efb6019194f83aaf1a6d4ec684f0aeb52c0991a99a005e06e185d1d540376d5"
     },
     "i18n/content.zh-Hans.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hans.json",
-      "bytes": 112278,
-      "sha256": "4e959b25343239c650facbff0fae44dcefdffe12b2ad1a6390b00323831ec3ff"
+      "bytes": 112303,
+      "sha256": "9a81efc59e72831854073c429a90002a8651d97378b579e70512ab89df91cb75"
     },
     "i18n/content.zh-Hant.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hant.json",
-      "bytes": 112818,
-      "sha256": "eb4031ff4936161f83825b3f5b6c7853674b3d00740b7d9d56e0ea6a471fb11a"
+      "bytes": 112843,
+      "sha256": "78b30d7997766351444a60fa03243ddb85bf106a9c261c03afa431242347778d"
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",

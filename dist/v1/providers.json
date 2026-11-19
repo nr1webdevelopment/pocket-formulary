@@ -4,7 +4,7 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/provider.schema.json",
-  "count": 443,
+  "count": 460,
   "data": [
     {
       "id": "ae-dxb-al-amal-psychiatric-hospital",
@@ -28556,6 +28556,1722 @@
       },
       "notes": null,
       "updated": "2026-10-23"
+    },
+    {
+      "id": "th-cnx-bangkok-hospital-chiang-mai-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Bangkok Hospital Chiang Mai — Comprehensive Diabetes Clinic",
+        "th": "โรงพยาบาลกรุงเทพเชียงใหม่"
+      },
+      "organization": "Bangkok Hospital Chiang Mai (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Nong Pa Khrang",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "88/8-9 Moo 6, Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai 50000",
+          "th": "88/8-9 ม.6 ต.หนองป่าครั่ง อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50000"
+        },
+        "postcode": "50000",
+        "locationNote": "Booked through the Internal Medicine Clinic.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 52 089 823",
+          "05 208 9888",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/chiangmai/content/comprehensive-diabetes-care-bcm",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Internal Medicine Clinic: Mon–Sun 08:00–22:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Endocrinologists, structured diabetes education (glucose testing, injections, foot care), monofilament foot screening with footwear advice from rehabilitation physicians, continuous glucose monitoring and insulin pump treatment. Children's diabetes isn't mentioned; the hospital's Pediatric Center (daily 07:00–22:00, +66 52 089 765) has 24-hour paediatric emergency care."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/content/comprehensive-diabetes-care-bcm",
+          "title": "Comprehensive diabetes care",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/center-clinic/internal-medicines/internal-medicine-clinic-bcm/overview",
+          "title": "Internal Medicine Clinic — overview",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/contact/head-office",
+          "title": "Contact information",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=north",
+          "title": "Hospital directory — North (Thai name, address, phone)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "1719 is the Bangkok Hospital group's local-call number.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-bangkok-hospital-chiang-mai-mental-health",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Bangkok Hospital Chiang Mai — Psychiatry Department and Pediatric Center",
+        "th": "โรงพยาบาลกรุงเทพเชียงใหม่"
+      },
+      "organization": "Bangkok Hospital Chiang Mai (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Nong Pa Khrang",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "88/8-9 Moo 6, Nong Pa Khrang, Mueang Chiang Mai, Chiang Mai 50000",
+          "th": "88/8-9 ม.6 ต.หนองป่าครั่ง อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50000"
+        },
+        "postcode": "50000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 52 089 865",
+          "+66 52 089 765",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/chiangmai/center-clinic/brain/mental-health-clinic-bcm/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Psychiatry: Mon–Sun 08:00–17:00. Pediatric Center: daily 07:00–22:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "The psychiatry department sees children, adolescents, adults and older people; for children it lists learning problems, inattention and difficulties with peers, and it prescribes medication when needed. The Pediatric Center lists child and adolescent psychiatry and child development and behaviour specialists. ADHD isn't named on the Chiang Mai pages; ask about ADHD assessment for children and adults and methylphenidate prescribing."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/center-clinic/brain/mental-health-clinic-bcm/overview",
+          "title": "Psychiatry Department — overview",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/center-clinic/undefined/pediatric-center-bcm/overview",
+          "title": "Pediatric Center — overview",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/chiangmai/contact/head-office",
+          "title": "Contact information",
+          "publisher": "Bangkok Hospital Chiang Mai",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=north",
+          "title": "Hospital directory — North (Thai name, address, phone)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "1719 is the Bangkok Hospital group's local-call number.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-caremat-buddy-station",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "CAREMAT — Chiang Mai Buddy Station",
+        "th": null
+      },
+      "organization": "CAREMAT Foundation",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Suthep",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "257/36 Suthep Road, Suthep, Mueang Chiang Mai, Chiang Mai",
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "Opposite the Office of Disease Prevention and Control (2014 description).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "052 003 122"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "2014 listing: Fri 17:00–20:00; Sat–Sun 13:00–17:00. May have changed.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Free, confidential HIV and syphilis testing and counselling, walk-ins welcome, with a 'buddy' to help people who test positive into treatment (CityLife, 2014). A Department of Disease Control report lists CAREMAT for HIV testing and PrEP in partnership with Nakornping Hospital. Hours and address are from 2014; confirm before going."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chiangmaicitylife.com/citynews/features/free-hiv-and-syphilis-testing-and-counselling-for-gay-and-transgender-people/",
+          "title": "Free HIV and Syphilis testing and counselling for gay and transgender people",
+          "publisher": "Chiang Mai CityLife",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ddc.moph.go.th/uploads/publish/1526720240123074333.pdf",
+          "title": "Report on HIV prevention and testing service units in Chiang Mai province (PDF)",
+          "publisher": "Department of Disease Control, Ministry of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://unaids.org/en/resources/presscentre/featurestories/2022/december/20221215_together-government-community-hiv-services",
+          "title": "Feature story: government and community HIV services (Sanpatong Hospital)",
+          "publisher": "UNAIDS",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The 2014 article says any ethnicity or nationality may test. No official CAREMAT website was found.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-maharaj-nakorn-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Maharaj Nakorn Chiang Mai Hospital — Psychiatry Clinic (incl. Child Psychiatry)",
+        "th": "โรงพยาบาลมหาราชนครเชียงใหม่ ห้องตรวจจิตเวช"
+      },
+      "organization": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Si Phum",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "110 Inthawarorot Road, Si Phum, Mueang Chiang Mai, Chiang Mai 50200",
+          "th": "110 ถ.อินทวโรรส ต.ศรีภูมิ อ.เมือง จ.เชียงใหม่ 50200"
+        },
+        "postcode": "50200",
+        "locationNote": "Room 24: Tawan Kangwanphong Building, 2nd Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 935 755"
+        ],
+        "line": null,
+        "website": "https://w2.med.cmu.ac.th/opd/psy24/",
+        "email": "medinfo@cmu.ac.th",
+        "booking": null
+      },
+      "hours": "Adult psychiatry clinic Mon–Fri 08:00–12:00; psychological assessment Mon–Fri 13:00–16:00. Child psychiatry: Mon and Thu 08:00–12:00 (from the outpatient schedule). Closed public holidays.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "The outpatient schedule lists a child psychiatry clinic in room 24; the room's own page describes adult psychiatry for people aged 18 and over, with afternoon psychological assessment sessions. ADHD isn't named on the pages opened; ask whether children and adults are assessed for ADHD and whether methylphenidate is prescribed. Expect a referral or appointment."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/psy24/",
+          "title": "Psychiatry clinic room 24",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/schedule/",
+          "title": "Outpatient clinic schedule",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.med.cmu.ac.th/web/suandok-hospital/",
+          "title": "Maharaj Nakorn Chiang Mai Hospital — outpatient clinics",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.med.cmu.ac.th/web/",
+          "title": "Faculty of Medicine, Chiang Mai University — homepage (address, phone)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The Australian Embassy hospital list gives Thai as the language spoken here.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-maharaj-nakorn-endocrine-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Maharaj Nakorn Chiang Mai Hospital — Endocrine and Diabetes Clinics",
+        "th": "โรงพยาบาลมหาราชนครเชียงใหม่ ห้องตรวจอายุรกรรม เบอร์ 21"
+      },
+      "organization": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Si Phum",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "110 Inthawarorot Road, Si Phum, Mueang Chiang Mai, Chiang Mai 50200",
+          "th": "110 ถ.อินทวโรรส ต.ศรีภูมิ อ.เมือง จ.เชียงใหม่ 50200"
+        },
+        "postcode": "50200",
+        "locationNote": "Adults: room 21, Sriphat Building, 9th Floor; endocrine sessions also in room 9 (Chalermphrabarami Building, 3rd Floor). Children: paediatric room 29, Sriphat Building, 6th Floor (053 935 759).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 935 752",
+          "053 935 740",
+          "053 935 759"
+        ],
+        "line": null,
+        "website": "https://w2.med.cmu.ac.th/opd/med21/",
+        "email": "medinfo@cmu.ac.th",
+        "booking": null
+      },
+      "hours": "Room 21: diabetes clinic Mon 08:00–12:00, thyroid Wed, endocrine Fri 08:00–12:00. Room 9: endocrine Tue and Thu mornings. After-hours endocrine clinic in room 9 on weekday evenings 16:30–19:00 and Sat 08:00–11:00. Paediatric endocrine clinics (room 29): Mon and Wed 08:00–12:00. Mon–Fri except public holidays.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Adult internal medicine endocrine service with a weekly diabetes clinic. The room 21 page carries diabetes education material (insulin types, starting insulin, glucose meters, hypoglycaemia, insulin storage, diet and exercise). Paediatrics runs paediatric endocrine clinics in room 29, but diabetes in children isn't named on its page; phone to confirm type 1 diabetes care. New patients at the after-hours specialty clinics must phone ahead for a queue. After hours, general clinic 108 (Building 108, 1st Floor, 053 935 710; Mon–Fri 16:00–20:00, Sat–Sun 08:00–16:00) serves foreign patients; register first at medical records room 19 in front of the emergency room."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "Thai"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/med21/",
+          "title": "Internal medicine room 21 (endocrine and neurology)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/ped29/",
+          "title": "Paediatric room 29 (allergy, haematology, endocrine, genetics, nephrology)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/schedule/",
+          "title": "Outpatient clinic schedule",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/opdmed/",
+          "title": "Medicine outpatient rooms",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/submainped/",
+          "title": "Paediatric outpatient rooms",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/afterhour/",
+          "title": "After-hours clinics (คลินิกนอกเวลา)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.med.cmu.ac.th/web/",
+          "title": "Faculty of Medicine, Chiang Mai University — homepage (address, phone)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The Australian Embassy hospital list gives Thai as the language spoken here.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-maharaj-nakorn-infectious-disease",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Maharaj Nakorn Chiang Mai Hospital — Infectious Disease Clinics",
+        "th": "โรงพยาบาลมหาราชนครเชียงใหม่"
+      },
+      "organization": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Si Phum",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "110 Inthawarorot Road, Si Phum, Mueang Chiang Mai, Chiang Mai 50200",
+          "th": "110 ถ.อินทวโรรส ต.ศรีภูมิ อ.เมือง จ.เชียงใหม่ 50200"
+        },
+        "postcode": "50200",
+        "locationNote": "Infectious disease: room 9 (Chalermphrabarami Building, 3rd Floor) and room 22 (Sriphat Building, 11th Floor). HIV counselling: psychiatry room 24 (Tawan Kangwanphong Building, 2nd Floor). Emergency: Chalermphrabarami Building, 1st Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 935 740",
+          "053 935 736",
+          "053 935 755",
+          "053 936 150"
+        ],
+        "line": null,
+        "website": "https://www.med.cmu.ac.th/web/suandok-hospital/",
+        "email": "medinfo@cmu.ac.th",
+        "booking": null
+      },
+      "hours": "Infectious disease clinics: room 9 Mon and Wed mornings, room 22 Thu and Fri 08:00–12:00. HIV counselling: weekdays (room 24). Days for some sessions are read from an unlabelled schedule; confirm.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Chiang Mai University's teaching hospital, one of northern Thailand's final referral centres. Its outpatient schedule lists infectious disease clinics, an HIV counselling session and an HIV eye clinic, but the pages opened don't spell out HIV testing, PrEP, PEP or antiretroviral treatment; ask. For PEP, go to the emergency unit. After hours, general clinic 108 (Building 108, 1st Floor, 053 935 710; Mon–Fri 16:00–20:00, Sat–Sun 08:00–16:00) serves foreign patients; register first at medical records room 19 in front of the emergency room."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "Thai"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/schedule/",
+          "title": "Outpatient clinic schedule",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.med.cmu.ac.th/web/suandok-hospital/",
+          "title": "Maharaj Nakorn Chiang Mai Hospital — outpatient clinics",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/emergency/",
+          "title": "Emergency unit",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://w2.med.cmu.ac.th/opd/afterhour/",
+          "title": "After-hours clinics (คลินิกนอกเวลา)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.med.cmu.ac.th/web/",
+          "title": "Faculty of Medicine, Chiang Mai University — homepage (address, phone)",
+          "publisher": "Maharaj Nakorn Chiang Mai Hospital, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Maharaj_Nakorn_Chiang_Mai_Hospital",
+          "title": "Maharaj Nakorn Chiang Mai Hospital",
+          "publisher": "Wikipedia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The Australian Embassy hospital list gives Thai as the language spoken here. Foreign patients are named as eligible at the after-hours general clinic 108.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-mplus-chiangmai",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "M PLUS Chiangmai",
+        "th": "เอ็มพลัสสหคลินิก (เชียงใหม่)"
+      },
+      "organization": "MPlus Foundation",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Pa Daet",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "142 Moo 1, Chom Chan Alley, Pa Daet, Mueang Chiang Mai, Chiang Mai 50100",
+          "th": null
+        },
+        "postcode": "50100",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 283 108"
+        ],
+        "line": "@Mplus Thailand",
+        "website": "https://www.mplusthailand.com/en/m-plus-chiangmai/",
+        "email": "mplusfoundation.cm@gmail.com",
+        "booking": "https://love2test.org/campaign/cmmplus-website"
+      },
+      "hours": "Mon–Fri 12:00–19:00; also the last Sunday of each month 12:00–18:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "network",
+        "note": "Rapid HIV test (antigen/antibody) with results in about 60 minutes; syphilis and hepatitis C screening, CD4 and viral load tests, and hormone-level testing for trans women and men. PrEP/PEP is listed as run in collaboration with Nakornping Hospital. These services are listed foundation-wide, not specifically for this clinic, and HIV treatment (ART) isn't mentioned. Prices and whether non-Thai clients are seen aren't stated; ask."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.mplusthailand.com/en/m-plus-chiangmai/",
+          "title": "M PLUS Chiangmai",
+          "publisher": "MPlus Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.mplusthailand.com/en/",
+          "title": "MPlus Foundation — homepage",
+          "publisher": "MPlus Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.mplusthailand.com/en/?p=43",
+          "title": "HIV Testing",
+          "publisher": "MPlus Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://unaids.org/en/resources/presscentre/featurestories/2022/december/20221213_thailand-mplus",
+          "title": "Feature story: Mplus, key population-led health services in Thailand",
+          "publisher": "UNAIDS",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ddc.moph.go.th/uploads/publish/1526720240123074333.pdf",
+          "title": "Report on HIV prevention and testing service units in Chiang Mai province (PDF)",
+          "publisher": "Department of Disease Control, Ministry of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Licensed clinic (licence no. 50110000465) and a National Health Security Office (NHSO) referral unit since 1 October 2019. The foundation also lists a Chiang Mai drop-in centre but gives no address. UNAIDS (Dec 2022) describes MPlus as a key-population-led service for men who have sex with men and transgender women that dispenses more than half of the PrEP in Chiang Mai province, with online booking.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-nakornping-hospital-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Nakornping Hospital — Chronic Disease Clinic and General Medicine",
+        "th": "โรงพยาบาลนครพิงค์ คลินิกโรคเรื้อรัง M370 / ห้องตรวจอายุรกรรมทั่วไป M380"
+      },
+      "organization": "Nakornping Hospital, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Don Kaeo",
+        "district": "Mae Rim",
+        "address": {
+          "en": "159 Moo 10, Chotana Road, Don Kaeo, Mae Rim, Chiang Mai 50180",
+          "th": "159 หมู่ที่ 10 ถนนโชตนา ตำบลดอนแก้ว อำเภอแม่ริม จังหวัดเชียงใหม่ 50180"
+        },
+        "postcode": "50180",
+        "locationNote": "Outpatient Building 3, 3rd Floor, Rooms M370 (chronic disease) and M380 (general medicine). Paediatrics: Building 3, 2nd Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 999 200 ext. 1192",
+          "053 999 200 ext. 1153"
+        ],
+        "line": null,
+        "website": "https://www.nkp-hospital.go.th/th/clinic.php",
+        "email": "info@nkp-hospital.go.th",
+        "booking": "http://his.nkp-hospital.go.th/NKP/SiteClient/Appointment"
+      },
+      "hours": "Mon–Fri 08:00–16:00 (closed public holidays).",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Diabetes is listed under the chronic disease clinic (appointments only) and general internal medicine. No dedicated endocrine or diabetic foot clinic is listed. The paediatrics clinic (ext. 9286) doesn't mention diabetes; ask. After-hours Special Medical Clinic (SMC), Outpatient Building 3: weekdays 16:00–20:00, Saturday 08:00–12:00, for self-paying patients (ext. 1150, 1159)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nkp-hospital.go.th/th/clinic.php",
+          "title": "Clinics, rooms and opening times (ห้องตรวจ/คลินิก)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nkp-hospital.go.th",
+          "title": "Nakornping Hospital — homepage (contact details, psychiatry services)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nkp-hospital.go.th/th/convenient.php",
+          "title": "Special Medical Clinic (SMC), after-hours specialist clinic",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-nakornping-hospital-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Nakornping Hospital — Internal Medicine Special Clinic (HIV)",
+        "th": "โรงพยาบาลนครพิงค์ ห้องตรวจคลินิกพิเศษอายุรกรรม M360"
+      },
+      "organization": "Nakornping Hospital, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Don Kaeo",
+        "district": "Mae Rim",
+        "address": {
+          "en": "159 Moo 10, Chotana Road, Don Kaeo, Mae Rim, Chiang Mai 50180",
+          "th": "159 หมู่ที่ 10 ถนนโชตนา ตำบลดอนแก้ว อำเภอแม่ริม จังหวัดเชียงใหม่ 50180"
+        },
+        "postcode": "50180",
+        "locationNote": "Outpatient Building 3, 3rd Floor, Room M360.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 999 200 ext. 2314"
+        ],
+        "line": null,
+        "website": "https://www.nkp-hospital.go.th/th/clinic.php",
+        "email": "info@nkp-hospital.go.th",
+        "booking": "http://his.nkp-hospital.go.th/NKP/SiteClient/Appointment"
+      },
+      "hours": "Mon–Fri 08:00–16:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "The hospital lists care for non-emergency HIV in this special internal medicine clinic during office hours; it doesn't name antiretroviral treatment, testing or PEP, so ask. PrEP is reported by MPlus and by a Department of Disease Control field report as provided by Nakornping Hospital with community partners (MPlus, CAREMAT). For PEP outside office hours, go to the emergency department and ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nkp-hospital.go.th/th/clinic.php",
+          "title": "Clinics, rooms and opening times (ห้องตรวจ/คลินิก)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nkp-hospital.go.th",
+          "title": "Nakornping Hospital — homepage (contact details, psychiatry services)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.mplusthailand.com/en/?p=43",
+          "title": "HIV Testing",
+          "publisher": "MPlus Foundation",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ddc.moph.go.th/uploads/publish/1526720240123074333.pdf",
+          "title": "Report on HIV prevention and testing service units in Chiang Mai province (PDF)",
+          "publisher": "Department of Disease Control, Ministry of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Nakornping_Hospital",
+          "title": "Nakornping Hospital",
+          "publisher": "Wikipedia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Nakornping is in Mae Rim district, north of Chiang Mai city.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-nakornping-hospital-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Nakornping Hospital — Psychiatry and Child & Adolescent Psychiatry Clinic",
+        "th": "โรงพยาบาลนครพิงค์ ห้องตรวจจิตเวช / คลินิกจิตเวชเด็กและวัยรุ่น"
+      },
+      "organization": "Nakornping Hospital, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Don Kaeo",
+        "district": "Mae Rim",
+        "address": {
+          "en": "159 Moo 10, Chotana Road, Don Kaeo, Mae Rim, Chiang Mai 50180",
+          "th": "159 หมู่ที่ 10 ถนนโชตนา ตำบลดอนแก้ว อำเภอแม่ริม จังหวัดเชียงใหม่ 50180"
+        },
+        "postcode": "50180",
+        "locationNote": "Building 16 (blue building), 1st Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 999 200 ext. 2801",
+          "053 999 200 ext. 2809"
+        ],
+        "line": null,
+        "website": "https://www.nkp-hospital.go.th/th/clinic.php",
+        "email": "info@nkp-hospital.go.th",
+        "booking": "http://his.nkp-hospital.go.th/NKP/SiteClient/Appointment"
+      },
+      "hours": "Psychiatry Mon–Fri 08:00–16:00. Child and adolescent psychiatry clinic: Tue, Wed, Thu 08:00–12:00. Adult clinics Mon–Thu mornings.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "The hospital's psychiatry service lists ADHD and autism under child and adolescent mental health, with a dedicated child and adolescent psychiatry clinic. Adult psychiatry is listed (stress, depression, bipolar disorder, psychosis, substance use) but adult ADHD isn't mentioned, and methylphenidate prescribing isn't stated; ask. After-hours Special Medical Clinic (SMC), Outpatient Building 3: weekdays 16:00–20:00, Saturday 08:00–12:00, for self-paying patients (ext. 1150, 1159)."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.nkp-hospital.go.th",
+          "title": "Nakornping Hospital — homepage (contact details, psychiatry services)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nkp-hospital.go.th/th/clinic.php",
+          "title": "Clinics, rooms and opening times (ห้องตรวจ/คลินิก)",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nkp-hospital.go.th/th/convenient.php",
+          "title": "Special Medical Clinic (SMC), after-hours specialist clinic",
+          "publisher": "Nakornping Hospital, Ministry of Public Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-rajanagarindra-child-development",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Rajanagarindra Institute of Child Development",
+        "th": null
+      },
+      "organization": "Department of Mental Health, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Don Kaeo",
+        "district": "Mae Rim",
+        "address": {
+          "en": "196 Moo 10, Fang Road, Don Kaeo, Mae Rim, Chiang Mai 50180",
+          "th": null
+        },
+        "postcode": "50180",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 908 300"
+        ],
+        "line": null,
+        "website": "https://www.ricd.go.th",
+        "email": "ricd2554@gmail.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "National Department of Mental Health institute for children with delayed development, intellectual disability and behavioural problems; its mission includes child and adolescent psychiatry. A 2018 Nation report names autism, ADHD and cerebral palsy as the commonest conditions it treats, and describes a clinic for stressed parents. Children only. Medication prescribing, fees and whether non-Thai children are seen aren't stated; phone first."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://apps.searo.who.int/PHI/Institute/Details/15",
+          "title": "Rajanagarindra Institute of Child Development — institute details",
+          "publisher": "WHO South-East Asia Regional Office",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nationthailand.com/national/30343265",
+          "title": "Chiang Mai clinic offers help to severely stressed parents of special needs kids",
+          "publisher": "The Nation",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The institute's own website (ricd.go.th) returned only a name and unrelated keywords when opened, so details here come from WHO and news sources.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-rajavej-endocrine-clinic",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Rajavej Chiang Mai Hospital — Endocrine Clinic",
+        "th": "โรงพยาบาลราชเวช เชียงใหม่ คลินิกต่อมไร้ท่อ"
+      },
+      "organization": "Rajavej Chiang Mai Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Wat Ket",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "316/1 Chiang Mai–Lamphun Road, Wat Ket, Mueang Chiang Mai, Chiang Mai 50000",
+          "th": "316/1 ถ.เชียงใหม่-ลำพูน ต.วัดเกต อ.เมือง จ.เชียงใหม่ 50000"
+        },
+        "postcode": "50000",
+        "locationNote": "Outpatient department, 1st Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "052 011 999 ext. 128",
+          "052 011 999 ext. 129"
+        ],
+        "line": null,
+        "website": "https://rajavejchiangmai.com/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%b2%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%81%e0%b8%9e%e0%b8%97%e0%b8%a2%e0%b9%8c/%e0%b8%84%e0%b8%a5%e0%b8%b4%e0%b8%99%e0%b8%b4%e0%b8%81%e0%b8%95%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%84%e0%b8%a3%e0%b9%89%e0%b8%97%e0%b9%88%e0%b8%ad/",
+        "email": "contactcenter@rajavejchiangmai.com",
+        "booking": null
+      },
+      "hours": "Clinic page: daily 08:00–20:00. The hospital's services list gives the endocrine clinic as Mon 17:00–19:00; confirm the specialist's session.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Treats diabetes with medication, insulin and nutrition; blood sugar and insulin-resistance testing. Paediatrics and the emergency department are open 24 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English",
+          "Thai"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://rajavejchiangmai.com/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%b2%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%81%e0%b8%9e%e0%b8%97%e0%b8%a2%e0%b9%8c/%e0%b8%84%e0%b8%a5%e0%b8%b4%e0%b8%99%e0%b8%b4%e0%b8%81%e0%b8%95%e0%b9%88%e0%b8%ad%e0%b8%a1%e0%b9%84%e0%b8%a3%e0%b9%89%e0%b8%97%e0%b9%88%e0%b8%ad/",
+          "title": "Endocrine clinic (คลินิกต่อมไร้ท่อ)",
+          "publisher": "Rajavej Chiang Mai Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rajavejchiangmai.com/%e0%b8%9a%e0%b8%a3%e0%b8%b4%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%97%e0%b8%b2%e0%b8%87%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b9%81%e0%b8%9e%e0%b8%97%e0%b8%a2%e0%b9%8c/",
+          "title": "Medical services (บริการทางการแพทย์)",
+          "publisher": "Rajavej Chiang Mai Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.rajavejchiangmai.com/",
+          "title": "Rajavej Chiang Mai Hospital — homepage",
+          "publisher": "Rajavej Chiang Mai Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Languages (English, Thai) are from the Australian Embassy hospital list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-sanpatong-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Sanpatong Hospital",
+        "th": null
+      },
+      "organization": "Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": null,
+        "district": "San Pa Tong",
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "District hospital in San Pa Tong. UNAIDS (2022) describes PrEP, index testing and same-day treatment initiation, working with MPlus, CAREMAT and FHI 360; a Department of Disease Control report lists HIV testing, PrEP and PEP. Contact details, costs and eligibility for non-Thai patients aren't given; confirm first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://unaids.org/en/resources/presscentre/featurestories/2022/december/20221215_together-government-community-hiv-services",
+          "title": "Feature story: government and community HIV services (Sanpatong Hospital)",
+          "publisher": "UNAIDS",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ddc.moph.go.th/uploads/publish/1526720240123074333.pdf",
+          "title": "Report on HIV prevention and testing service units in Chiang Mai province (PDF)",
+          "publisher": "Department of Disease Control, Ministry of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "No official hospital page was opened.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-saraphi-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Saraphi Hospital",
+        "th": null
+      },
+      "organization": "Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": null,
+        "district": "Saraphi",
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "A Department of Disease Control field report lists HIV testing, PrEP and PEP at this district hospital. Contact details, hours, costs and eligibility for non-Thai patients aren't given; confirm before visiting."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ddc.moph.go.th/uploads/publish/1526720240123074333.pdf",
+          "title": "Report on HIV prevention and testing service units in Chiang Mai province (PDF)",
+          "publisher": "Department of Disease Control, Ministry of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Only source is a government field report; no official hospital page was opened.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-sriphat-endocrine-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Sriphat Medical Center — Endocrine Clinic (Diabetes, Thyroid)",
+        "th": "ศูนย์ศรีพัฒน์ ระบบต่อมไร้ท่อ (โรคเบาหวาน, ไทรอยด์)"
+      },
+      "organization": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Si Phum",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "110/392 Inthawarorot Road, Si Phum, Mueang Chiang Mai, Chiang Mai 50200",
+          "th": null
+        },
+        "postcode": "50200",
+        "locationNote": "Sriphat Center outpatient building, 2nd and 3rd Floors.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 934 613",
+          "053 934 434",
+          "053 936 900-1",
+          "052 079 300"
+        ],
+        "line": "@ujp1794e",
+        "website": "https://sriphat.med.cmu.ac.th/th/service/detail/6",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Fee-paying specialist centre run by CMU's Faculty of Medicine. Diagnoses and treats endocrine disorders including diabetes, thyroid disease, obesity and high blood lipids; nine endocrinologists are listed. Education, pumps, CGM and foot care aren't mentioned; ask. Foreign Center (OPD building, 1st Floor; 053 936 910, 093 629 9774, 098 774 8436; sriphat.intertpps@yahoo.com) arranges interpreters (Japanese, Chinese, Myanmar), international insurance and medical reports. It does not accept Thai government or social security schemes."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/service/detail/6",
+          "title": "Endocrine system (diabetes, thyroid)",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/services",
+          "title": "Medical services",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/foreign-center",
+          "title": "Foreign Center",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/",
+          "title": "Sriphat Medical Center — homepage",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-sriphat-infectious-disease",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Sriphat Medical Center — Infectious Disease Clinic",
+        "th": "ศูนย์ศรีพัฒน์ โรคติดเชื้อ"
+      },
+      "organization": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Si Phum",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "110/392 Inthawarorot Road, Si Phum, Mueang Chiang Mai, Chiang Mai 50200",
+          "th": null
+        },
+        "postcode": "50200",
+        "locationNote": "Sriphat Center outpatient building, 2nd and 3rd Floors.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "053 934 613",
+          "053 934 434",
+          "053 936 900-1",
+          "052 079 300"
+        ],
+        "line": "@ujp1794e",
+        "website": "https://sriphat.med.cmu.ac.th/th/service/detail/8",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Infectious disease and tropical medicine specialists; HIV (โรคเอดส์) is listed among the diseases diagnosed and treated. PrEP, PEP and STI testing aren't mentioned; ask. Foreign Center (OPD building, 1st Floor; 053 936 910, 093 629 9774, 098 774 8436; sriphat.intertpps@yahoo.com) arranges interpreters (Japanese, Chinese, Myanmar), international insurance and medical reports. It does not accept Thai government or social security schemes."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/service/detail/8",
+          "title": "Infectious diseases",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/services",
+          "title": "Medical services",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/th/foreign-center",
+          "title": "Foreign Center",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sriphat.med.cmu.ac.th/",
+          "title": "Sriphat Medical Center — homepage",
+          "publisher": "Sriphat Medical Center, Faculty of Medicine, Chiang Mai University",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-cnx-suan-prung-psychiatric-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "cnx",
+      "name": {
+        "en": "Suan Prung Psychiatric Hospital",
+        "th": "โรงพยาบาลสวนปรุง"
+      },
+      "organization": "Department of Mental Health, Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chiang Mai",
+        "city": "Chiang Mai",
+        "area": "Hai Ya",
+        "district": "Mueang Chiang Mai",
+        "address": {
+          "en": "131 Changlo Road, Hai Ya, Mueang Chiang Mai, Chiang Mai 50100",
+          "th": "131 ถ.ช่างหล่อ ต.หายยา อ.เมือง จ.เชียงใหม่ 50100"
+        },
+        "postcode": "50100",
+        "locationNote": "SMC: Outpatient Building, 1st Floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 53 908 500",
+          "053 908 500 ext. 60323"
+        ],
+        "line": null,
+        "website": "https://www.suanprung.go.th/SP2025/index.php",
+        "email": "saraban_sp@suanprung.go.th",
+        "booking": null
+      },
+      "hours": "Outpatient doctors: 09:00–12:00 and 13:00–16:30 on scheduled days. After-hours Special Medical Clinic (SMC): Sat–Sun 08:00–16:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Government psychiatric hospital for northern Thailand. Its homepage carries ADHD information (behaviour therapy and medication chosen by the doctor for the child's age) but doesn't say which ADHD services the hospital itself provides, and no child psychiatry clinic is listed; ask. The weekend SMC has nine general psychiatrists; fees: foreign patients THB 1,100 new / 600 returning, ASEAN (AEC) THB 825 / 450, Thai THB 550 / 300."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English",
+          "Thai"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.suanprung.go.th/SP2025/index.php",
+          "title": "Suan Prung Hospital — homepage (contact, doctor schedule, ADHD information)",
+          "publisher": "Suan Prung Psychiatric Hospital, Department of Mental Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.suanprung.go.th/SP2025/smc.php",
+          "title": "Special Medical Clinic (SMC), after-hours",
+          "publisher": "Suan Prung Psychiatric Hospital, Department of Mental Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Languages (English, Thai) are from the Australian Embassy hospital list.",
+      "updated": "2026-11-19"
     },
     {
       "id": "th-hkt-bangkok-hospital-phuket-children-clinic",

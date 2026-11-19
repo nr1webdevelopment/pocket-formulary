@@ -4,7 +4,7 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/city.schema.json",
-  "count": 28,
+  "count": 29,
   "data": [
     {
       "code": "bkk",
@@ -788,6 +788,36 @@
         "hiv": "https://www.acc.jihs.go.jp/general/pep_eng.html",
         "adhd": "https://www.ncd.mhlw.go.jp/en/application2.html",
         "diabetes": "https://www.mhlw.go.jp/english/policy/health-medical/pharmaceuticals/dl/qa2.doc"
+      }
+    },
+    {
+      "code": "cnx",
+      "file": "chiang-mai.json",
+      "name": {
+        "en": "Chiang Mai",
+        "th": "เชียงใหม่"
+      },
+      "country": "TH",
+      "countryName": "Thailand",
+      "jurisdiction": "Thailand",
+      "dialCode": "+66",
+      "timezone": "Asia/Bangkok",
+      "currency": "THB",
+      "localLanguages": [
+        "th"
+      ],
+      "uiLanguage": "th",
+      "notes": {
+        "general": "The Australian Embassy lists McCormick Hospital (133 Kaewnawarat Road, +66 53 921 777), Lanna Hospital (1 Sukkasem Road, +66 52 134 777), Chiangmai Ram Hospital (8 Boon Rueangrit Road, +66 52 004 699), Rajavej Hospital (316/1 Chiang Mai–Lamphun Road, +66 52 011 999) and the government Suan Prung Psychiatric Hospital (131 Changlo Road, +66 53 908 500) as places where English is spoken. Maharaj Nakorn Chiang Mai Hospital (110 Intrawarorot Road, +66 53 936 150), the Chiang Mai University teaching hospital, is listed with Thai only. Nakornping Hospital, in Mae Rim north of the city, is the province's main Ministry of Public Health hospital.",
+        "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. Free PrEP under Thailand's universal health coverage scheme is for eligible Thai citizens, so visitors should expect to pay at private clinics and hospitals. In Chiang Mai, the MPlus clinic lists HIV testing and PrEP/PEP, run with Nakornping Hospital.",
+        "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in, even for personal use. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine: you may bring up to 30 days' supply for your own use, in its original packaging, with your doctor's prescription or medical document. Don't bring more than 30 days' supply without checking with the Thai FDA first. To get more in Thailand you need a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel. In Chiang Mai, Nakornping Hospital's psychiatry service lists ADHD under child and adolescent mental health; no adult ADHD service is confirmed yet. Suan Prung Psychiatric Hospital runs a weekend fee-paying psychiatry clinic that lists a price for foreign patients.",
+        "diabetes": "You can bring up to 30 days' supply of your medicines, in original labelled packaging, and medical devices in the quantities you need for personal use. Bangkok Hospital Chiang Mai runs a diabetes clinic with endocrinologists, education, foot screening, CGM and insulin pumps; Maharaj Nakorn Chiang Mai Hospital and its fee-paying Sriphat Medical Center have endocrine and diabetes clinics."
+      },
+      "noteSources": {
+        "general": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+        "hiv": "https://english.redcross.or.th/news/medical-and-health-care-services/5794/",
+        "adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf",
+        "diabetes": "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/"
       }
     }
   ],
