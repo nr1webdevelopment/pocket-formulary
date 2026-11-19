@@ -14,7 +14,7 @@ No third-party services are involved. Reports are stored on your Hostinger serve
 | Report form | `scripts/report_form.py` | Dialog added to every page by the builds. It posts to `/report.php`. |
 | Report endpoint | `server/report.php` | Checks the report: same website only, a hidden spam trap, and at most 5 reports per 10 minutes and 20 per day from one visitor. It saves the report and emails you. |
 | Admin | `server/admin/` | `index.php` + `app.js` + `app.css` (the dashboard), `api.php` (its JSON API), `setup.php` (one-time setup), `_inc.php` (shared code, never served). |
-| Private data | `nc-private/` on the server, **next to** `public_html`, never in git | `config.php` (login, GitHub token, settings) and `nomad.sqlite` (inbox). |
+| Private data | `nc-private/` on the server, **next to** `public_html`, never in git | `config.php` (login, GitHub token, mailbox password, settings) and `nomad.sqlite` (inbox). |
 
 `scripts/build_public.py` copies `server/` into the root of `public/`, so the files end up at `/report.php` and `/admin/`.
 
@@ -70,7 +70,10 @@ If setup says it can't create the folder: in hPanel → **File Manager**, go one
 
 1. On the site, open any clinic and click **Report a problem**. Send a test.
 2. Check that it appears in the admin inbox and that the email arrives. Check spam the first time. You can also use **Settings → Send a test email**.
-3. If no email arrives, Hostinger may need a mailbox on the domain. In hPanel → Emails, create `noreply@nomadceuticals.com` (or set up the free email plan), then send the test again.
+3. Set up a sending mailbox (needed for reliable email). Without one, the server's basic `mail()` is used, and many inboxes drop those messages silently:
+   - In hPanel → **Emails**, create a mailbox on the domain, e.g. `reports@nomadceuticals.com`. Hostinger adds the DNS records (SPF/DKIM) that let other mail servers trust it.
+   - In the admin, **Settings → Email notifications**: enter that address and its password, **Save**, then **Send a test email**. If it fails, the exact reason is shown (e.g. wrong password).
+   - It sends through `smtp.hostinger.com`, port 465 (SSL). Another provider's mailbox works too: change the server under "Server".
 
 ## Everyday use
 
@@ -88,12 +91,10 @@ If setup says it can't create the folder: in hPanel → **File Manager**, go one
 
 The admin and GitHub both commit to `main`, so **run `git pull` before you start working** and before you push. If a push is rejected, run `git pull` and push again.
 
-## Reset the password or token
+## Password, token and email settings
 
-Use hPanel → File Manager → `nc-private/`:
-
-1. Delete `config.php`. The inbox (`nomad.sqlite`) stays.
-2. Open https://nomadceuticals.com/admin/setup.php again.
+- **Change password**, **replace the GitHub token** (before it expires) or change email settings: admin → **Settings**. Replacing the token asks for your admin password.
+- **Forgot your password?** hPanel → File Manager → `nc-private/`: delete `config.php` (the inbox, `nomad.sqlite`, stays), then open https://nomadceuticals.com/admin/setup.php again.
 
 ## Testing locally (developers)
 

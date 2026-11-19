@@ -241,3 +241,76 @@ function nc_cities(): array {
     foreach ($doc['data'] as $c) $out[$c['code']] = ['code' => $c['code'], 'file' => $c['file'], 'country' => $c['country'], 'name' => $c['name']['en']];
     return $out;
 }
+
+/* ---------- settings: rewrite nc-private/config.php (atomic) ---------- */
+function nc_save_config(array $changes): bool {
+    $cfg = array_merge(nc_config() ?? [], $changes);
+    $dir = nc_private_dir();
+    $php = "<?php\n// NomadCeuticals admin settings. Written by the admin. Keep private: never upload to GitHub.\nreturn " . var_export($cfg, true) . ";\n";
+    $tmp = "$dir/config.php.tmp" . bin2hex(random_bytes(4));
+    if (@file_put_contents($tmp, $php) === false) return false;
+    @chmod($tmp, 0600);
+    if (!@rename($tmp, "$dir/config.php")) { @unlink($tmp); return false; }
+    if (function_exists('opcache_invalidate')) @opcache_invalidate("$dir/config.php", true);
+    return true;
+}
+
+/* ---------- email ----------
+ * With a mailbox set in Settings (smtp_user + smtp_pass), mail goes out through that mailbox over SMTP with a login
+ * (Hostinger: smtp.hostinger.com, port 465, SSL), which receiving servers trust. Without one, PHP's mail() is used,
+ * which many inboxes silently drop. Returns [true, ''] or [false, 'reason']. */
+function nc_send_mail(string $to, string $subject, string $body, ?string $replyTo = null): array {
+    $cfg = nc_config() ?? [];
+    $one = fn($s) => trim(str_replace(["\r", "\n"], ' ', (string)$s));
+    $to = $one($to);
+    $replyTo = $replyTo !== null && filter_var($replyTo, FILTER_VALIDATE_EMAIL) ? $one($replyTo) : null;
+    $encSubject = '=?UTF-8?B?' . base64_encode($one($subject)) . '?=';
+    $body = chunk_split(base64_encode(str_replace("\n", "\r\n", str_replace("\r\n", "\n", $body))));
+    if (empty($cfg['smtp_user']) || empty($cfg['smtp_pass'])) {
+        $from = $one($cfg['mail_from'] ?? 'noreply@localhost');
+        $h = "From: NomadCeuticals <$from>\r\nMIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64"
+           . ($replyTo ? "\r\nReply-To: $replyTo" : '');
+        return @mail($to, $encSubject, $body, $h, '-f' . $from) ? [true, ''] : [false, "PHP's mail() refused the message."];
+    }
+    $from = $one($cfg['smtp_user']);
+    $host = $cfg['smtp_host'] ?? 'smtp.hostinger.com';
+    $port = (int)($cfg['smtp_port'] ?? 465);
+    $ctx = stream_context_create(['ssl' => getenv('NC_SMTP_INSECURE') ? ['verify_peer' => false, 'verify_peer_name' => false] : []]);
+    $fp = @stream_socket_client(($port === 465 ? 'ssl://' : 'tcp://') . "$host:$port", $errno, $errstr, 20, STREAM_CLIENT_CONNECT, $ctx);
+    if (!$fp) return [false, "Couldn't connect to $host:$port ($errstr)."];
+    stream_set_timeout($fp, 20);
+    $read = function () use ($fp) { $all = ''; while (($l = fgets($fp, 1024)) !== false) { $all .= $l; if (strlen($l) < 4 || $l[3] === ' ') break; } return $all; };
+    $cmd = function (string $c, array $want) use ($fp, $read) {
+        if ($c !== '') fwrite($fp, $c . "\r\n");
+        $r = $read();
+        if (!in_array((int)substr($r, 0, 3), $want, true)) throw new RuntimeException(trim($r) ?: 'no answer');
+        return $r;
+    };
+    try {
+        $cmd('', [220]);
+        $ehlo = 'nomadceuticals.com';
+        $cmd("EHLO $ehlo", [250]);
+        if ($port === 587) {
+            $cmd('STARTTLS', [220]);
+            if (!stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_TLS_CLIENT)) throw new RuntimeException('TLS failed');
+            $cmd("EHLO $ehlo", [250]);
+        }
+        $cmd('AUTH LOGIN', [334]);
+        $cmd(base64_encode($cfg['smtp_user']), [334]);
+        try { $cmd(base64_encode($cfg['smtp_pass']), [235]); }
+        catch (RuntimeException $e) { throw new RuntimeException('The mailbox address or password was not accepted (' . $e->getMessage() . ').'); }
+        $cmd("MAIL FROM:<$from>", [250]);
+        $cmd("RCPT TO:<$to>", [250, 251]);
+        $cmd('DATA', [354]);
+        $msg = "Date: " . date('r') . "\r\nMessage-ID: <" . bin2hex(random_bytes(12)) . "@nomadceuticals.com>\r\n"
+             . "From: NomadCeuticals <$from>\r\nTo: <$to>\r\nSubject: $encSubject\r\n" . ($replyTo ? "Reply-To: $replyTo\r\n" : '')
+             . "MIME-Version: 1.0\r\nContent-Type: text/plain; charset=UTF-8\r\nContent-Transfer-Encoding: base64\r\n\r\n" . $body;
+        $cmd($msg . "\r\n.", [250]);
+        $cmd('QUIT', [221]);
+        fclose($fp);
+        return [true, ''];
+    } catch (Throwable $e) {
+        @fclose($fp);
+        return [false, $e->getMessage()];
+    }
+}

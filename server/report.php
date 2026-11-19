@@ -47,15 +47,12 @@ $cfg = nc_config();
 if ($cfg && !empty($cfg['notify_email'])) {
     $labels = ['wrong_info' => 'Wrong or out-of-date information', 'closed' => 'Closed, moved or no longer offers this',
                'site_bug' => 'Something on the site doesn\'t work', 'suggestion' => 'Suggestion', 'other' => 'Something else'];
-    $nohdr = fn($s) => trim(str_replace(["\r", "\n"], ' ', $s));
     $site = 'https://' . preg_replace('/[^a-z0-9.:-]/i', '', $host);
     $subject = 'NomadCeuticals report #' . $id . ': ' . $labels[$cat] . ($row[2] !== '' ? ' · ' . $row[2] : '');
     $body = "New report #$id\n\nType: {$labels[$cat]}\n" . ($row[2] !== '' ? "About: {$row[2]}\n" : '') . ($rid !== '' ? "Listing: $rid\n" : '')
           . ($row[4] !== '' ? "Page: {$row[4]}\n" : '') . ($row[5] !== '' ? "Language: {$row[5]}\n" : '') . "\n$details\n\n"
           . ($email !== '' ? "Reply to: $email\n" : "No reply address given.\n") . "\nOpen the inbox: $site/admin/#report-$id\n";
-    $from = $cfg['mail_from'] ?? ('noreply@' . preg_replace('/^www\./', '', preg_replace('/:\d+$/', '', $host)));
-    $headers = ['From: NomadCeuticals <' . $nohdr($from) . '>', 'Content-Type: text/plain; charset=UTF-8', 'X-Mailer: NomadCeuticals'];
-    if ($email !== '') $headers[] = 'Reply-To: ' . $nohdr($email);
-    @mail($nohdr($cfg['notify_email']), '=?UTF-8?B?' . base64_encode($nohdr($subject)) . '?=', $body, implode("\r\n", $headers), '-f' . $nohdr($from));
+    [$sent, $why] = nc_send_mail($cfg['notify_email'], $subject, $body, $email !== '' ? $email : null);
+    if (!$sent) { error_log("report.php: email failed: $why"); nc_audit('report_email_failed', $why); }
 }
 nc_json(['ok' => true]);

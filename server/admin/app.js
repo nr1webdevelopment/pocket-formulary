@@ -440,18 +440,58 @@
   }
 
   /* ---------- settings ---------- */
-  function showSettings() {
-    app.innerHTML = `<h1>Settings</h1><div class="stack" style="max-width:720px">
-      <div class="card stack"><h2>Email notifications</h2><p>New reports are emailed to the address you entered during setup. Check your spam folder the first time.</p>
-        <div class="row"><button class="btn" id="testmail" type="button">Send a test email</button><span id="mailres"></span></div></div>
-      <div class="card stack"><h2>Saving to GitHub</h2><p>Edits are saved as commits to <code>${esc(S.repo || "")}</code> (branch main). GitHub then rebuilds the site and Hostinger publishes it, usually within 2 minutes.</p>
-        <p class="muted">If you also edit files on your computer, run <code>git pull</code> before you start, so you have the admin's changes.</p></div>
-      <div class="card stack"><h2>Password or GitHub token</h2><p>To change them: in Hostinger's File Manager, open the <code>nc-private</code> folder (next to <code>public_html</code>), delete <code>config.php</code>, then open <a href="setup.php">setup</a> again. The inbox is kept.</p></div>
+  async function showSettings() {
+    app.innerHTML = `<h1>Settings</h1><p class="muted">Loading…</p>`;
+    let st;
+    try { st = await api("settings"); } catch (e) { if (!e.silent) app.innerHTML = `<h1>Settings</h1><p class="msg err">${esc(errText(e))}</p>`; return; }
+    const tokDate = st.token_updated ? fmtTime(st.token_updated) : "unknown";
+    app.innerHTML = `<h1>Settings</h1><div class="stack settings">
+      <form class="card stack" id="mailform"><h2>Email notifications</h2>
+        <p>New reports are emailed to you. For reliable delivery, send them from a real mailbox on your domain: create one in hPanel → <b>Emails</b> (for example <code>reports@nomadceuticals.com</code>) and enter it below. Without a mailbox, the server's basic mail function is used, and many inboxes silently drop those emails.</p>
+        <label>Send report emails to<input type="email" name="notify_email" required value="${esc(st.notify_email)}"></label>
+        <label>Sending mailbox <small>full address of the mailbox you created</small><input type="email" name="smtp_user" placeholder="reports@nomadceuticals.com" value="${esc(st.smtp_user)}"></label>
+        <label>Mailbox password <small>${st.smtp_pass_set ? "saved; leave empty to keep it" : "the password you gave the mailbox"}</small><input type="password" name="smtp_pass" autocomplete="new-password"></label>
+        <details><summary>Server (only change for a mailbox outside Hostinger)</summary>
+          <div class="row"><label>SMTP server<input name="smtp_host" value="${esc(st.smtp_host)}"></label>
+          <label>Port<select name="smtp_port"><option value="465"${st.smtp_port === 465 ? " selected" : ""}>465 (SSL)</option><option value="587"${st.smtp_port === 587 ? " selected" : ""}>587 (STARTTLS)</option></select></label></div></details>
+        <div class="row"><button class="btn primary" type="submit">Save</button><button class="btn" id="testmail" type="button">Send a test email</button></div>
+        <p id="mailres" role="status"></p></form>
+      <form class="card stack" id="tokform"><h2>GitHub token</h2>
+        <p>Edits are saved as commits to <code>${esc(S.repo || "")}</code> (branch main). Token last set: ${esc(tokDate)}. When it's about to expire, create a new fine-grained token (Contents: read and write, this repository only) and paste it here.</p>
+        <label>New token<input name="token" required autocomplete="off"></label>
+        <label>Your admin password<input type="password" name="password" required autocomplete="current-password"></label>
+        <div class="row"><button class="btn primary" type="submit">Replace token</button></div><p id="tokres" role="status"></p></form>
+      <form class="card stack" id="pwform"><h2>Password</h2>
+        <label>Current password<input type="password" name="current" required autocomplete="current-password"></label>
+        <label>New password <small>at least 12 characters</small><input type="password" name="new" required minlength="12" autocomplete="new-password"></label>
+        <div class="row"><button class="btn primary" type="submit">Change password</button></div><p id="pwres" role="status"></p></form>
+      <div class="card stack"><h2>Working on your computer too?</h2><p class="muted">Run <code>git pull</code> before you start, so you have the admin's changes.</p></div>
     </div>`;
+    const say = (id, ok, text) => { const el = $(id); el.className = "msg " + (ok ? "ok" : "err"); el.textContent = text; };
+    const form = f => Object.fromEntries(new FormData(f).entries());
+    $("#mailform").onsubmit = async e => {
+      e.preventDefault();
+      const d = form(e.target); d.smtp_port = +d.smtp_port;
+      try { await api("save_email", { body: d }); e.target.smtp_pass.value = ""; say("#mailres", true, "Saved. Now send a test email."); }
+      catch (err) { if (!err.silent) say("#mailres", false, errText(err)); }
+    };
     $("#testmail").onclick = async () => {
-      const out = $("#mailres"); out.textContent = "Sending…";
-      try { const j = await api("test_email", { body: {} }); out.textContent = j.ok ? "Sent. It should arrive within a few minutes." : "The server couldn't send it. Check that email is enabled for your Hostinger plan."; }
-      catch (e) { if (!e.silent) out.textContent = errText(e); }
+      const out = $("#mailres"); out.className = ""; out.textContent = "Sending…";
+      try {
+        const j = await api("test_email", { body: {} });
+        if (j.ok) say("#mailres", true, `Sent through ${j.via}. Check your inbox (and spam) in a minute or two.`);
+        else say("#mailres", false, `Not sent (${j.via}): ${j.message}`);
+      } catch (err) { if (!err.silent) say("#mailres", false, errText(err)); }
+    };
+    $("#tokform").onsubmit = async e => {
+      e.preventDefault();
+      try { await api("replace_token", { body: form(e.target) }); e.target.reset(); say("#tokres", true, "Token replaced. Saving listings uses the new one from now on."); }
+      catch (err) { if (!err.silent) say("#tokres", false, errText(err)); }
+    };
+    $("#pwform").onsubmit = async e => {
+      e.preventDefault();
+      try { await api("change_password", { body: form(e.target) }); e.target.reset(); say("#pwres", true, "Password changed."); }
+      catch (err) { if (!err.silent) say("#pwres", false, errText(err)); }
     };
   }
 

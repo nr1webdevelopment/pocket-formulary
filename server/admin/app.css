@@ -118,3 +118,6 @@ td .sub { display: block; color: var(--muted); font-size: 14px; }
   h1 { font-size: 24px; }
 }
 @media (min-width: 761px) { .back-to-list { display: none; } }
+.settings { max-width: 720px; }
+details summary { cursor: pointer; color: var(--muted, #5A6774); }
+details .row { margin-top: 10px; }

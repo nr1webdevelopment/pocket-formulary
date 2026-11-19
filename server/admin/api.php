@@ -10,7 +10,11 @@
  *   GET  ?a=cities                     cities with provider files
  *   GET  ?a=providers&city=bkk         that city's providers, read live from GitHub (+ file sha)
  *   POST ?a=provider_save {city, sha, original_id|null, record}   commit to GitHub
- *   POST ?a=test_email
+ *   GET  ?a=settings                   email + token settings (never returns secrets)
+ *   POST ?a=save_email {notify_email, smtp_user, smtp_pass?, smtp_host, smtp_port}
+ *   POST ?a=test_email                 send a test, returns the server's error if it fails
+ *   POST ?a=replace_token {password, token}
+ *   POST ?a=change_password {current, new}
  * Every POST except login needs the X-CSRF-Token header.
  */
 define('NC_ADMIN', 1);
@@ -41,6 +45,7 @@ if ($a === 'login' && $post) {
 }
 
 nc_require_login();
+if (!$post && !in_array($a, ['reports', 'cities', 'providers', 'settings'], true)) nc_json(['error' => 'post_only'], 405);
 if ($post) nc_require_csrf();
 
 switch ($a) {
@@ -130,13 +135,60 @@ case 'provider_save':
     nc_audit("provider_$verb", $rec->id);
     nc_json(['ok' => true, 'sha' => $r['body']['content']['sha'], 'commit' => $r['body']['commit']['html_url'] ?? null, 'record' => $rec]);
 
+case 'settings':
+    nc_json(['notify_email' => $cfg['notify_email'] ?? '', 'smtp_user' => $cfg['smtp_user'] ?? '', 'smtp_host' => $cfg['smtp_host'] ?? 'smtp.hostinger.com',
+             'smtp_port' => (int)($cfg['smtp_port'] ?? 465), 'smtp_pass_set' => !empty($cfg['smtp_pass']), 'token_updated' => $cfg['token_updated'] ?? ($cfg['created'] ?? null)]);
+
+case 'save_email':
+    $in = nc_body();
+    $notify = trim((string)($in['notify_email'] ?? ''));
+    $user = trim((string)($in['smtp_user'] ?? ''));
+    if (!filter_var($notify, FILTER_VALIDATE_EMAIL)) nc_json(['error' => 'bad_input', 'message' => 'Enter the address where report emails should go.'], 400);
+    if ($user !== '' && !filter_var($user, FILTER_VALIDATE_EMAIL)) nc_json(['error' => 'bad_input', 'message' => 'The sending mailbox must be a full email address.'], 400);
+    $host = preg_replace('/[^a-z0-9.-]/i', '', (string)($in['smtp_host'] ?? 'smtp.hostinger.com')) ?: 'smtp.hostinger.com';
+    $port = (int)($in['smtp_port'] ?? 465);
+    if (!in_array($port, [465, 587], true)) nc_json(['error' => 'bad_input', 'message' => 'Port must be 465 (SSL) or 587 (STARTTLS).'], 400);
+    $changes = ['notify_email' => $notify, 'smtp_user' => $user, 'smtp_host' => $host, 'smtp_port' => $port];
+    if (($in['smtp_pass'] ?? '') !== '') $changes['smtp_pass'] = (string)$in['smtp_pass'];
+    if ($user === '') $changes['smtp_pass'] = '';
+    if (!nc_save_config($changes)) nc_json(['error' => 'server', 'message' => "Couldn't write the settings file."], 500);
+    nc_audit('save_email', $user ?: 'mail()');
+    nc_json(['ok' => true]);
+
 case 'test_email':
+    $cfg = nc_config();
     $to = $cfg['notify_email'] ?? '';
     if (!$to) nc_json(['error' => 'no_email'], 400);
-    $from = $cfg['mail_from'];
-    $ok = @mail($to, 'NomadCeuticals admin: test email', "This is a test from the NomadCeuticals admin. Report emails will look like they come from $from.\n",
-                "From: NomadCeuticals <$from>\r\nContent-Type: text/plain; charset=UTF-8", "-f$from");
-    nc_audit('test_email', $ok ? 'sent' : 'failed');
-    nc_json(['ok' => $ok]);
+    $via = !empty($cfg['smtp_user']) ? "the mailbox {$cfg['smtp_user']}" : "PHP mail() (no sending mailbox set)";
+    [$ok, $why] = nc_send_mail($to, 'NomadCeuticals admin: test email', "This is a test from the NomadCeuticals admin, sent through $via.\nIf you can read this, report emails will reach you.\n");
+    nc_audit('test_email', $ok ? 'sent' : "failed: $why");
+    nc_json(['ok' => $ok, 'message' => $why, 'via' => $via]);
+
+case 'replace_token':
+    $in = nc_body();
+    if (!password_verify((string)($in['password'] ?? ''), $cfg['password_hash'])) { nc_hit('login_fail'); nc_json(['error' => 'bad_input', 'message' => 'Your current password is wrong.'], 400); }
+    $token = trim((string)($in['token'] ?? ''));
+    $base = getenv('NC_GITHUB_API') ?: 'https://api.github.com';
+    $ch = curl_init($base . '/repos/' . $cfg['github_repo']);
+    curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 20, CURLOPT_HTTPHEADER => [
+        'Accept: application/vnd.github+json', 'User-Agent: nomadceuticals-admin', 'Authorization: Bearer ' . $token]]);
+    $res = json_decode((string)curl_exec($ch), true);
+    $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    if ($code === 401) nc_json(['error' => 'bad_input', 'message' => "GitHub didn't accept that token. Check you copied all of it."], 400);
+    if ($code !== 200) nc_json(['error' => 'bad_input', 'message' => "The token can't see {$cfg['github_repo']} (GitHub said $code)."], 400);
+    if (empty($res['permissions']['push'])) nc_json(['error' => 'bad_input', 'message' => "That token's account can't change {$cfg['github_repo']}."], 400);
+    if (!nc_save_config(['github_token' => $token, 'token_updated' => nc_now()])) nc_json(['error' => 'server', 'message' => "Couldn't write the settings file."], 500);
+    nc_audit('replace_token');
+    nc_json(['ok' => true]);
+
+case 'change_password':
+    $in = nc_body();
+    if (!password_verify((string)($in['current'] ?? ''), $cfg['password_hash'])) { nc_hit('login_fail'); nc_json(['error' => 'bad_input', 'message' => 'Your current password is wrong.'], 400); }
+    $new = (string)($in['new'] ?? '');
+    if (mb_strlen($new) < 12) nc_json(['error' => 'bad_input', 'message' => 'The new password needs at least 12 characters.'], 400);
+    if (!nc_save_config(['password_hash' => password_hash($new, PASSWORD_DEFAULT)])) nc_json(['error' => 'server', 'message' => "Couldn't write the settings file."], 500);
+    nc_audit('change_password');
+    nc_json(['ok' => true]);
 }
 nc_json(['error' => 'unknown_action'], 404);
