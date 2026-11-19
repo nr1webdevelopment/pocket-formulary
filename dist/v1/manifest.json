@@ -62,13 +62,13 @@
     },
     "providers.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json",
-      "bytes": 1215435,
-      "sha256": "87a3ae0f4a5da04db1a7f98d4ef1e0869957689971207276b71ef0a378bd3479"
+      "bytes": 1215428,
+      "sha256": "5202f2d746c4ce4c789bb3ceae58ac4029802c9e2d6bb7b1a4fcea7e087351c7"
     },
     "providers.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv",
-      "bytes": 417341,
-      "sha256": "bf243a0723c36df4158e99e4ad91b1fbb911104776eb95dd3bd243a307be75d5"
+      "bytes": 417334,
+      "sha256": "ef4e04a0c944c6e2570fb07d5515a983014cad21189b2772a907eb4096e64c7a"
     },
     "cities.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.json",
