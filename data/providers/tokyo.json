@@ -275,7 +275,7 @@
       "organization": "Japan Institute for Health Security (JIHS), formerly NCGM",
       "type": "public_hospital",
       "operator": "government_national",
-      "network": null,
+      "network": "Unknown",
       "location": {
         "country": "JP",
         "province": "Tokyo",
