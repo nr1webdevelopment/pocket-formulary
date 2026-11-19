@@ -275,7 +275,7 @@
       "organization": "Japan Institute for Health Security (JIHS), formerly NCGM",
       "type": "public_hospital",
       "operator": "government_national",
-      "network": "Unknown",
+      "network": null,
       "location": {
         "country": "JP",
         "province": "Tokyo",
@@ -283,7 +283,7 @@
         "area": "Shinjuku",
         "district": "Toyama",
         "address": {
-          "en": "1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655"
+          "en": "1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655, Japan"
         },
         "postcode": "162-8655",
         "locationNote": null,
