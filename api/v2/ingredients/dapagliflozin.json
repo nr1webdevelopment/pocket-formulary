@@ -1,0 +1,98 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/ingredients/dapagliflozin.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "dapagliflozin",
+    "name": "dapagliflozin",
+    "synonyms": [],
+    "kind": "drug",
+    "classes": [
+      {
+        "name": "SGLT2 inhibitor",
+        "system": "nomad"
+      }
+    ],
+    "ids": {
+      "rxcui": null,
+      "unii": []
+    },
+    "approvals": [
+      {
+        "jurisdiction": "US",
+        "regulator": "FDA",
+        "status": "approved",
+        "checked": "2026-11-12",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    ],
+    "uses": [
+      {
+        "condition": "diabetes",
+        "type": "approved",
+        "jurisdiction": "US",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "conditionName": "Diabetes"
+      }
+    ],
+    "controlled": [],
+    "summary": null,
+    "tier": "curated",
+    "review": {
+      "status": "unverified",
+      "checked": "2026-11-12",
+      "by": null,
+      "note": "Migrated from earlier NomadCeuticals, PSY96 and ENT data; check against the FDA label."
+    },
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=dapagliflozin",
+        "title": "DailyMed labels for dapagliflozin",
+        "type": "label"
+      }
+    ],
+    "fda": {
+      "status": "approved",
+      "label": "FDA approved",
+      "approvedElsewhere": []
+    },
+    "products": [
+      {
+        "id": "farxiga",
+        "brandName": "Farxiga",
+        "ingredients": [
+          "dapagliflozin"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/farxiga.json"
+      },
+      {
+        "id": "xigduo-xr",
+        "brandName": "Xigduo XR",
+        "ingredients": [
+          "dapagliflozin",
+          "metformin"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/xigduo-xr.json"
+      }
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/ingredients/dapagliflozin.json",
+      "website": "https://nomadceuticals.com/#ingredient/dapagliflozin"
+    }
+  }
+}

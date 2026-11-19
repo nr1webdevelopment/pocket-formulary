@@ -1,0 +1,118 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/auvelity.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "auvelity",
+    "brandName": "Auvelity",
+    "ingredients": [
+      "dextromethorphan",
+      "bupropion"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Extended-release tablet",
+    "route": "Oral",
+    "dosingFrequency": null,
+    "manufacturer": "Axsome Therapeutics",
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "depression",
+      "alzheimers-agitation"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": null,
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79",
+        "title": "Auvelity label (DailyMed)",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "dextromethorphan",
+        "name": "dextromethorphan",
+        "kind": "drug",
+        "classes": [
+          "NMDA receptor antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "alzheimers-agitation",
+          "depression"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Auvelity"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dextromethorphan.json"
+      },
+      {
+        "id": "bupropion",
+        "name": "bupropion",
+        "kind": "drug",
+        "classes": [
+          "Atypical antidepressant (NDRI)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "alzheimers-agitation",
+          "depression",
+          "seasonal-affective-disorder",
+          "smoking-cessation",
+          "weight-management"
+        ],
+        "offLabelFor": [
+          "adhd"
+        ],
+        "controlled": {},
+        "brands": [
+          "Aplenzin",
+          "Auvelity",
+          "Contrave",
+          "Forfivo XL",
+          "Wellbutrin SR",
+          "Wellbutrin XL",
+          "Zyban"
+        ],
+        "tier": "curated",
+        "review": "verified",
+        "usesComplete": true,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bupropion.json"
+      }
+    ],
+    "indicationNames": [
+      "Depression",
+      "Agitation in Alzheimer's dementia"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/auvelity.json"
+    }
+  }
+}

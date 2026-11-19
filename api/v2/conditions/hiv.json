@@ -1,0 +1,800 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/hiv.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "hiv",
+    "name": "HIV (treatment and prevention)",
+    "area": "infectious-disease",
+    "aliases": [
+      "HIV-1",
+      "PrEP"
+    ],
+    "parent": null,
+    "approvedCount": 29,
+    "offLabelCount": 0
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "abacavir",
+        "name": "abacavir",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Epzicom",
+          "Triumeq",
+          "Triumeq PD",
+          "Trizivir",
+          "Ziagen"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/abacavir.json"
+      },
+      {
+        "id": "atazanavir",
+        "name": "atazanavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Evotaz",
+          "Reyataz"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/atazanavir.json"
+      },
+      {
+        "id": "bictegravir",
+        "name": "bictegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Biktarvy",
+          "Bixlenvo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bictegravir.json"
+      },
+      {
+        "id": "cabotegravir",
+        "name": "cabotegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Apretude",
+          "Cabenuva",
+          "Vocabria"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/cabotegravir.json"
+      },
+      {
+        "id": "cobicistat",
+        "name": "cobicistat",
+        "kind": "drug",
+        "classes": [
+          "Pharmacokinetic Enhancer"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Evotaz",
+          "Genvoya",
+          "Prezcobix",
+          "Prezcobix PED",
+          "Stribild",
+          "Symtuza",
+          "Tybost"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/cobicistat.json"
+      },
+      {
+        "id": "darunavir",
+        "name": "darunavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Prezcobix",
+          "Prezcobix PED",
+          "Prezista",
+          "Symtuza"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/darunavir.json"
+      },
+      {
+        "id": "dolutegravir",
+        "name": "dolutegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Dovato",
+          "Juluca",
+          "Tivicay",
+          "Tivicay PD",
+          "Triumeq",
+          "Triumeq PD"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dolutegravir.json"
+      },
+      {
+        "id": "doravirine",
+        "name": "doravirine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Delstrigo",
+          "Idvynso",
+          "Pifeltro"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/doravirine.json"
+      },
+      {
+        "id": "efavirenz",
+        "name": "efavirenz",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Sustiva",
+          "Symfi",
+          "Symfi Lo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/efavirenz.json"
+      },
+      {
+        "id": "elvitegravir",
+        "name": "elvitegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Genvoya",
+          "Stribild"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/elvitegravir.json"
+      },
+      {
+        "id": "emtricitabine",
+        "name": "emtricitabine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Biktarvy",
+          "Complera",
+          "Descovy",
+          "Emtriva",
+          "Genvoya",
+          "Odefsey",
+          "Stribild",
+          "Symtuza",
+          "Truvada"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/emtricitabine.json"
+      },
+      {
+        "id": "enfuvirtide",
+        "name": "enfuvirtide",
+        "kind": "drug",
+        "classes": [
+          "Fusion Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Fuzeon"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/enfuvirtide.json"
+      },
+      {
+        "id": "etravirine",
+        "name": "etravirine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Intelence"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/etravirine.json"
+      },
+      {
+        "id": "fosamprenavir",
+        "name": "fosamprenavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Lexiva"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/fosamprenavir.json"
+      },
+      {
+        "id": "fostemsavir",
+        "name": "fostemsavir",
+        "kind": "drug",
+        "classes": [
+          "Attachment Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Rukobia"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/fostemsavir.json"
+      },
+      {
+        "id": "ibalizumab",
+        "name": "ibalizumab",
+        "kind": "biologic",
+        "classes": [
+          "Post-Attachment Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Trogarzo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ibalizumab.json"
+      },
+      {
+        "id": "islatravir",
+        "name": "islatravir",
+        "kind": "drug",
+        "classes": [
+          "NRTTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Idvynso"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/islatravir.json"
+      },
+      {
+        "id": "lamivudine",
+        "name": "lamivudine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cimduo",
+          "Combivir",
+          "Delstrigo",
+          "Dovato",
+          "Epivir",
+          "Epzicom",
+          "Symfi",
+          "Symfi Lo",
+          "Triumeq",
+          "Triumeq PD",
+          "Trizivir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lamivudine.json"
+      },
+      {
+        "id": "lenacapavir",
+        "name": "lenacapavir",
+        "kind": "drug",
+        "classes": [
+          "Capsid Inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Bixlenvo",
+          "Sunlenca",
+          "Yeztugo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lenacapavir.json"
+      },
+      {
+        "id": "lopinavir",
+        "name": "lopinavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Kaletra"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lopinavir.json"
+      },
+      {
+        "id": "maraviroc",
+        "name": "maraviroc",
+        "kind": "drug",
+        "classes": [
+          "CCR5 Antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Selzentry"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/maraviroc.json"
+      },
+      {
+        "id": "nevirapine",
+        "name": "nevirapine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Viramune",
+          "Viramune XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/nevirapine.json"
+      },
+      {
+        "id": "raltegravir",
+        "name": "raltegravir",
+        "kind": "drug",
+        "classes": [
+          "INSTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Isentress",
+          "Isentress HD"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/raltegravir.json"
+      },
+      {
+        "id": "rilpivirine",
+        "name": "rilpivirine",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cabenuva",
+          "Complera",
+          "Edurant",
+          "Edurant PED",
+          "Juluca",
+          "Odefsey"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/rilpivirine.json"
+      },
+      {
+        "id": "ritonavir",
+        "name": "ritonavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Kaletra",
+          "Norvir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ritonavir.json"
+      },
+      {
+        "id": "tenofovir-alafenamide",
+        "name": "tenofovir alafenamide",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hepatitis-b",
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Biktarvy",
+          "Descovy",
+          "Genvoya",
+          "Odefsey",
+          "Symtuza",
+          "Vemlidy"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-alafenamide.json"
+      },
+      {
+        "id": "tenofovir-disoproxil",
+        "name": "tenofovir disoproxil",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Cimduo",
+          "Complera",
+          "Delstrigo",
+          "Stribild",
+          "Symfi",
+          "Symfi Lo",
+          "Truvada",
+          "Viread"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-disoproxil.json"
+      },
+      {
+        "id": "tipranavir",
+        "name": "tipranavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Aptivus"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tipranavir.json"
+      },
+      {
+        "id": "zidovudine",
+        "name": "zidovudine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Combivir",
+          "Retrovir",
+          "Trizivir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/zidovudine.json"
+      }
+    ],
+    "offLabel": []
+  }
+}

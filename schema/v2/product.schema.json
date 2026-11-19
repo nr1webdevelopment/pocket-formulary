@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://nomadceuticals.com/schema/v2/product.schema.json",
+  "title": "Product",
+  "description": "A branded (or generic) product sold in one jurisdiction. Links to one or more ingredients (combination products list several).",
+  "type": "object",
+  "required": ["id", "brandName", "ingredients", "jurisdiction", "status", "sources"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9-]+$", "description": "Stable slug. Products from API v1 keep their v1 id."},
+    "brandName": {"type": "string", "minLength": 1},
+    "ingredients": {"type": "array", "minItems": 1, "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "Ingredient ids, in label order."},
+    "jurisdiction": {"type": "string", "pattern": "^[A-Z]{2}$|^EU$"},
+    "status": {"enum": ["available", "discontinued", "unknown"]},
+    "form": {"type": ["string", "null"]},
+    "route": {"type": ["string", "null"]},
+    "dosingFrequency": {"type": ["string", "null"]},
+    "manufacturer": {"type": ["string", "null"]},
+    "approval": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "year": {"type": ["integer", "null"]},
+        "application": {"type": ["string", "null"], "description": "e.g. NDA021437, BLA761055"}
+      }
+    },
+    "indications": {"type": "array", "items": {"type": "string", "pattern": "^[a-z0-9-]+$"}, "description": "Condition ids this product is approved for in its jurisdiction."},
+    "controlled": {"type": ["string", "null"], "description": "Controlled-substance schedule in this jurisdiction, e.g. CII."},
+    "description": {"type": ["string", "null"]},
+    "notes": {"type": ["string", "null"]},
+    "attributes": {"type": "object", "additionalProperties": {"type": ["string", "number", "boolean", "null"]}},
+    "v1": {"type": "object", "description": "Fields kept for API v1 compatibility (condition, drugClass, genericName)."},
+    "sources": {"type": "array", "minItems": 1, "items": {"type": "object", "required": ["url"], "properties": {"url": {"type": "string", "pattern": "^https?://"}, "title": {"type": "string"}, "type": {"type": "string"}}}}
+  }
+}

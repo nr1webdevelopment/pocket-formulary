@@ -1,0 +1,51 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/trogarzo.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [],
+  "data": {
+    "id": "trogarzo",
+    "condition": "hiv",
+    "brandName": "Trogarzo",
+    "genericName": "ibalizumab-uiyk",
+    "drugClass": "Post-Attachment Inhibitor",
+    "route": "Injection",
+    "formulation": "Intravenous infusion or IV push",
+    "dosingFrequency": "Every 2 weeks (after loading dose)",
+    "manufacturer": "Theratechnologies (TaiMed Biologics)",
+    "approvalDate": "2018-03-06",
+    "approvalYear": 2018,
+    "status": "Available",
+    "description": "Monoclonal antibody for heavily treatment-experienced adults with multidrug-resistant HIV.",
+    "notes": null,
+    "sourceUrl": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+    "attributes": {
+      "abbreviation": "IBA",
+      "componentClasses": "Post-Attachment Inhibitor",
+      "isCombination": false,
+      "componentCount": 1,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "classId": "hiv-post-attachment-inhibitor",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/trogarzo.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/hiv.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/hiv-post-attachment-inhibitor.json",
+      "website": "https://nomadceuticals.com/#trogarzo",
+      "source": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines"
+    }
+  }
+}

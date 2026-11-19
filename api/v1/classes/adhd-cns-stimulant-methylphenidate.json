@@ -1,0 +1,383 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "adhd-cns-stimulant-methylphenidate",
+    "name": "CNS stimulant (methylphenidate)",
+    "condition": "adhd",
+    "medicineCount": 12
+  },
+  "count": 12,
+  "data": [
+    {
+      "id": "aptensio-xr",
+      "condition": "adhd",
+      "brandName": "Aptensio XR",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Rhodes Pharmaceuticals",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Long-acting methylphenidate capsule with immediate and extended-release beads.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/aptensio-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#aptensio-xr",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "azstarys",
+      "condition": "adhd",
+      "brandName": "Azstarys",
+      "genericName": "serdexmethylphenidate and dexmethylphenidate",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Corium",
+      "approvalYear": 2021,
+      "status": "Available",
+      "description": "Combines fast-acting dexmethylphenidate with a prodrug that releases more through the day.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Dexmethylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/azstarys.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#azstarys",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "concerta",
+      "condition": "adhd",
+      "brandName": "Concerta",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release tablet (OROS)",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Johnson & Johnson (Janssen)",
+      "approvalYear": 2000,
+      "status": "Available",
+      "description": "Long-acting methylphenidate using an osmotic pump that releases medicine over about 12 hours.",
+      "notes": "Swallow whole; do not crush or chew.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/concerta.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#concerta",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "cotempla-xr-odt",
+      "condition": "adhd",
+      "brandName": "Cotempla XR-ODT",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release orally disintegrating tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Aytu BioPharma",
+      "approvalYear": 2017,
+      "status": "Available",
+      "description": "Long-acting methylphenidate that dissolves in the mouth.",
+      "notes": "Approved for children 6–17.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/cotempla-xr-odt.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#cotempla-xr-odt",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "daytrana",
+      "condition": "adhd",
+      "brandName": "Daytrana",
+      "genericName": "methylphenidate (transdermal)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Transdermal patch",
+      "route": "Skin patch",
+      "dosingFrequency": "Once daily (worn up to 9 hours)",
+      "manufacturer": "Noven Pharmaceuticals",
+      "approvalYear": 2006,
+      "status": "Available",
+      "description": "The first methylphenidate skin patch.",
+      "notes": "Approved for children and adolescents 6–17.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/daytrana.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#daytrana",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "focalin",
+      "condition": "adhd",
+      "brandName": "Focalin",
+      "genericName": "dexmethylphenidate",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Twice daily",
+      "manufacturer": "Novartis",
+      "approvalYear": 2001,
+      "status": "Available",
+      "description": "Short-acting dexmethylphenidate, the more active half of the methylphenidate molecule.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Dexmethylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/focalin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#focalin",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "focalin-xr",
+      "condition": "adhd",
+      "brandName": "Focalin XR",
+      "genericName": "dexmethylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Novartis",
+      "approvalYear": 2005,
+      "status": "Available",
+      "description": "Long-acting dexmethylphenidate.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Dexmethylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/focalin-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#focalin-xr",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "jornay-pm",
+      "condition": "adhd",
+      "brandName": "Jornay PM",
+      "genericName": "methylphenidate (delayed- and extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Delayed-release/extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (evening)",
+      "manufacturer": "Collegium Pharmaceutical",
+      "approvalYear": 2018,
+      "status": "Available",
+      "description": "Taken in the evening so it starts working on waking the next morning.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/jornay-pm.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#jornay-pm",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "quillichew-er",
+      "condition": "adhd",
+      "brandName": "QuilliChew ER",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release chewable tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Tris Pharma",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Long-acting chewable methylphenidate tablet.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/quillichew-er.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#quillichew-er",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "quillivant-xr",
+      "condition": "adhd",
+      "brandName": "Quillivant XR",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release oral suspension",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Tris Pharma",
+      "approvalYear": 2012,
+      "status": "Available",
+      "description": "Long-acting liquid methylphenidate for people who cannot swallow pills.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/quillivant-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#quillivant-xr",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "ritalin",
+      "condition": "adhd",
+      "brandName": "Ritalin",
+      "genericName": "methylphenidate",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "2–3 times daily",
+      "manufacturer": "Novartis",
+      "approvalYear": 1955,
+      "status": "Available",
+      "description": "Short-acting methylphenidate; one of the oldest ADHD medicines still in use.",
+      "notes": "Effect lasts about 3–4 hours per dose.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/ritalin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#ritalin",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "ritalin-la",
+      "condition": "adhd",
+      "brandName": "Ritalin LA",
+      "genericName": "methylphenidate (extended-release)",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "formulation": "Extended-release capsule",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Novartis",
+      "approvalYear": 2002,
+      "status": "Available",
+      "description": "Long-acting methylphenidate with a bimodal release that mimics two doses.",
+      "notes": "Capsule can be opened and sprinkled on applesauce.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Methylphenidate",
+        "type": "Stimulant",
+        "controlledSubstance": "Schedule II"
+      },
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-methylphenidate.json",
+        "website": "https://nomadceuticals.com/#ritalin-la",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/glucotrol.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "glucotrol",
+    "brandName": "Glucotrol",
+    "ingredients": [
+      "glipizide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; extended-release tablet (Glucotrol XL)",
+    "route": "Oral",
+    "dosingFrequency": "Once or twice daily before meals",
+    "manufacturer": "Pfizer",
+    "approval": {
+      "date": null,
+      "year": 1984,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "Helps the pancreas release more insulin.",
+    "notes": "Can cause low blood sugar.",
+    "attributes": {
+      "category": "Oral: sulfonylurea",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "glipizide",
+        "name": "glipizide",
+        "kind": "drug",
+        "classes": [
+          "Sulfonylurea"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glucotrol"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/glipizide.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/glucotrol.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/glucotrol.json"
+    }
+  }
+}

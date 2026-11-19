@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/mounjaro.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "mounjaro",
+    "brandName": "Mounjaro",
+    "ingredients": [
+      "tirzepatide"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Injection (single-dose pen, vial)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once weekly",
+    "manufacturer": "Eli Lilly",
+    "approval": {
+      "date": null,
+      "year": 2022,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "First dual GIP/GLP-1 agonist; strong effects on blood sugar and weight.",
+    "notes": "In August 2026 the FDA added a use to lower heart attack and stroke risk in high-risk adults with type 2 diabetes.",
+    "attributes": {
+      "category": "GLP-1 and GIP/GLP-1 agonists",
+      "diabetesType": "Type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "tirzepatide",
+        "name": "tirzepatide",
+        "kind": "drug",
+        "classes": [
+          "Dual GIP and GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Mounjaro"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tirzepatide.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/mounjaro.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json"
+    }
+  }
+}

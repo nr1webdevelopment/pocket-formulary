@@ -1,0 +1,84 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/clarinex.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "clarinex",
+    "brandName": "Clarinex",
+    "ingredients": [
+      "desloratadine"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet; orally disintegrating tablet; oral solution",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Organon",
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "allergic-rhinitis",
+      "urticaria"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": "Prescription only in the US.",
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Clarinex",
+        "title": "DailyMed: Clarinex",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "desloratadine",
+        "name": "desloratadine",
+        "kind": "drug",
+        "classes": [
+          "Antihistamine (second-generation)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "allergic-rhinitis",
+          "urticaria"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Clarinex",
+          "Deslomark",
+          "Dventil",
+          "Ryna-del"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/desloratadine.json"
+      }
+    ],
+    "indicationNames": [
+      "Allergic rhinitis (hay fever)",
+      "Chronic hives (urticaria)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/clarinex.json"
+    }
+  }
+}

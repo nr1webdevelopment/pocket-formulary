@@ -1,0 +1,131 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/ingredients/naltrexone.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "naltrexone",
+    "name": "naltrexone",
+    "synonyms": [
+      "naltrexone hydrochloride"
+    ],
+    "kind": "drug",
+    "classes": [
+      {
+        "name": "Opioid antagonist",
+        "system": "nomad"
+      }
+    ],
+    "ids": {
+      "rxcui": null,
+      "unii": []
+    },
+    "approvals": [
+      {
+        "jurisdiction": "US",
+        "regulator": "FDA",
+        "status": "approved",
+        "checked": "2026-11-12",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f"
+      }
+    ],
+    "uses": [
+      {
+        "condition": "alcohol-use-disorder",
+        "type": "approved",
+        "jurisdiction": "US",
+        "note": "Tablets and monthly injection (Vivitrol)",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f",
+        "conditionName": "Alcohol dependence"
+      },
+      {
+        "condition": "opioid-use-disorder",
+        "type": "approved",
+        "jurisdiction": "US",
+        "note": "Blocks the effects of opioids (tablets); prevents relapse after detox (Vivitrol)",
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49aa3d6d-2270-4615-aafa-b440859ab870",
+        "conditionName": "Opioid dependence"
+      },
+      {
+        "condition": "weight-management",
+        "type": "approved",
+        "jurisdiction": "US",
+        "note": "With bupropion (Contrave)",
+        "via": [
+          "contrave"
+        ],
+        "source": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+        "conditionName": "Chronic weight management"
+      }
+    ],
+    "usesComplete": true,
+    "controlled": [],
+    "summary": null,
+    "tier": "curated",
+    "review": {
+      "status": "verified",
+      "checked": "2026-11-12",
+      "by": "DailyMed label check (Claude)",
+      "note": "Indications checked against the Vivitrol, Contrave and a generic naltrexone tablet label on DailyMed."
+    },
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd11c435-b0f0-4bb9-ae78-60f101f3703f",
+        "title": "Vivitrol label (DailyMed, rev. 5/2026)",
+        "type": "label"
+      },
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=49aa3d6d-2270-4615-aafa-b440859ab870",
+        "title": "Naltrexone tablets, Accord (DailyMed)",
+        "type": "label"
+      },
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=485ff360-32c8-11df-928b-0002a5d5c51b",
+        "title": "Contrave label (DailyMed, rev. 11/2025)",
+        "type": "label"
+      }
+    ],
+    "fda": {
+      "status": "approved",
+      "label": "FDA approved",
+      "approvedElsewhere": []
+    },
+    "products": [
+      {
+        "id": "contrave",
+        "brandName": "Contrave",
+        "ingredients": [
+          "naltrexone",
+          "bupropion"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release tablet",
+        "url": "https://nomadceuticals.com/api/v2/products/contrave.json"
+      },
+      {
+        "id": "vivitrol",
+        "brandName": "Vivitrol",
+        "ingredients": [
+          "naltrexone"
+        ],
+        "jurisdiction": "US",
+        "status": "available",
+        "form": "Extended-release injectable suspension (monthly)",
+        "url": "https://nomadceuticals.com/api/v2/products/vivitrol.json"
+      }
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/ingredients/naltrexone.json",
+      "website": "https://nomadceuticals.com/#ingredient/naltrexone"
+    }
+  }
+}

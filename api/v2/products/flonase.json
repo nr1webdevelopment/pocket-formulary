@@ -1,0 +1,80 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/flonase.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "flonase",
+    "brandName": "Flonase",
+    "ingredients": [
+      "fluticasone"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Nasal spray",
+    "route": "Nasal",
+    "dosingFrequency": null,
+    "manufacturer": null,
+    "approval": {
+      "date": null,
+      "year": null,
+      "application": null
+    },
+    "indications": [
+      "allergic-rhinitis"
+    ],
+    "controlled": null,
+    "description": null,
+    "notes": "Over the counter (no prescription needed) in the US.",
+    "attributes": {},
+    "sources": [
+      {
+        "url": "https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=Flonase",
+        "title": "DailyMed: Flonase",
+        "type": "label"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "fluticasone",
+        "name": "fluticasone",
+        "kind": "drug",
+        "classes": [
+          "Corticosteroid (nasal)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "allergic-rhinitis",
+          "nasal-polyps"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Flonase",
+          "Xhance"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/fluticasone.json"
+      }
+    ],
+    "indicationNames": [
+      "Allergic rhinitis (hay fever)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/flonase.json"
+    }
+  }
+}

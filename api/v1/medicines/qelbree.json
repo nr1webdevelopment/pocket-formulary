@@ -1,0 +1,56 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/qelbree.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "strattera",
+      "brandName": "Strattera",
+      "genericName": "atomoxetine",
+      "condition": "adhd",
+      "drugClass": "Selective norepinephrine reuptake inhibitor",
+      "status": "Available",
+      "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/strattera.json"
+    }
+  ],
+  "data": {
+    "id": "qelbree",
+    "condition": "adhd",
+    "brandName": "Qelbree",
+    "genericName": "viloxazine (extended-release)",
+    "drugClass": "Selective norepinephrine reuptake inhibitor",
+    "formulation": "Extended-release capsule",
+    "route": "Oral",
+    "dosingFrequency": "Once daily",
+    "manufacturer": "Supernus Pharmaceuticals",
+    "approvalYear": 2021,
+    "status": "Available",
+    "description": "Non-stimulant option for children 6 and older and adults.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Non-stimulant",
+      "type": "Non-stimulant",
+      "controlledSubstance": "Not controlled"
+    },
+    "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/qelbree.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/adhd-selective-norepinephrine-reuptake-inhibitor.json",
+      "website": "https://nomadceuticals.com/#qelbree",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

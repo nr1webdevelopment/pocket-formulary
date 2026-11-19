@@ -1,0 +1,52 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-dual-gip-and-glp-1-receptor-agonist",
+    "name": "Dual GIP and GLP-1 receptor agonist",
+    "condition": "diabetes",
+    "medicineCount": 1
+  },
+  "count": 1,
+  "data": [
+    {
+      "id": "mounjaro",
+      "condition": "diabetes",
+      "brandName": "Mounjaro",
+      "genericName": "tirzepatide",
+      "drugClass": "Dual GIP and GLP-1 receptor agonist",
+      "formulation": "Injection (single-dose pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2022,
+      "status": "Available",
+      "description": "First dual GIP/GLP-1 agonist; strong effects on blood sugar and weight.",
+      "notes": "In August 2026 the FDA added a use to lower heart attack and stroke risk in high-risk adults with type 2 diabetes.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dual-gip-and-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#mounjaro",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

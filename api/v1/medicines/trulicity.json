@@ -1,0 +1,75 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/trulicity.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "ozempic",
+      "brandName": "Ozempic",
+      "genericName": "semaglutide",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/ozempic.json"
+    },
+    {
+      "id": "rybelsus",
+      "brandName": "Rybelsus (Ozempic pill)",
+      "genericName": "semaglutide (oral)",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json"
+    },
+    {
+      "id": "victoza",
+      "brandName": "Victoza",
+      "genericName": "liraglutide",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/victoza.json"
+    }
+  ],
+  "data": {
+    "id": "trulicity",
+    "condition": "diabetes",
+    "brandName": "Trulicity",
+    "genericName": "dulaglutide",
+    "drugClass": "GLP-1 receptor agonist",
+    "formulation": "Injection (single-dose pen)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once weekly",
+    "manufacturer": "Eli Lilly",
+    "approvalYear": 2014,
+    "status": "Available",
+    "description": "Once-weekly GLP-1 injection.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "GLP-1 and GIP/GLP-1 agonists",
+      "diabetesType": "Type 2"
+    },
+    "classId": "diabetes-glp-1-receptor-agonist",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/trulicity.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+      "website": "https://nomadceuticals.com/#trulicity",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

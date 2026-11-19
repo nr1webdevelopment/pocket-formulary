@@ -1,0 +1,767 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/diabetes.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "diabetes",
+    "name": "Diabetes",
+    "area": "endocrine",
+    "aliases": [
+      "type 1 diabetes",
+      "type 2 diabetes"
+    ],
+    "parent": null,
+    "approvedCount": 30,
+    "offLabelCount": 0
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "alogliptin",
+        "name": "alogliptin",
+        "kind": "drug",
+        "classes": [
+          "DPP-4 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Nesina"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/alogliptin.json"
+      },
+      {
+        "id": "bexagliflozin",
+        "name": "bexagliflozin",
+        "kind": "drug",
+        "classes": [
+          "SGLT2 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Brenzavvy"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/bexagliflozin.json"
+      },
+      {
+        "id": "canagliflozin",
+        "name": "canagliflozin",
+        "kind": "drug",
+        "classes": [
+          "SGLT2 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Invokana"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/canagliflozin.json"
+      },
+      {
+        "id": "dapagliflozin",
+        "name": "dapagliflozin",
+        "kind": "drug",
+        "classes": [
+          "SGLT2 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Farxiga",
+          "Xigduo XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dapagliflozin.json"
+      },
+      {
+        "id": "dulaglutide",
+        "name": "dulaglutide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Trulicity"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/dulaglutide.json"
+      },
+      {
+        "id": "empagliflozin",
+        "name": "empagliflozin",
+        "kind": "drug",
+        "classes": [
+          "SGLT2 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glyxambi",
+          "Jardiance",
+          "Synjardy"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/empagliflozin.json"
+      },
+      {
+        "id": "ertugliflozin",
+        "name": "ertugliflozin",
+        "kind": "drug",
+        "classes": [
+          "SGLT2 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Steglatro"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/ertugliflozin.json"
+      },
+      {
+        "id": "glimepiride",
+        "name": "glimepiride",
+        "kind": "drug",
+        "classes": [
+          "Sulfonylurea"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Amaryl"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/glimepiride.json"
+      },
+      {
+        "id": "glipizide",
+        "name": "glipizide",
+        "kind": "drug",
+        "classes": [
+          "Sulfonylurea"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glucotrol"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/glipizide.json"
+      },
+      {
+        "id": "glucagon",
+        "name": "glucagon",
+        "kind": "drug",
+        "classes": [
+          "Glucagon (hypoglycemia rescue)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Baqsimi"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/glucagon.json"
+      },
+      {
+        "id": "insulin-aspart",
+        "name": "insulin aspart",
+        "kind": "biologic",
+        "classes": [
+          "Rapid-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Fiasp",
+          "NovoLog"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-aspart.json"
+      },
+      {
+        "id": "insulin-degludec",
+        "name": "insulin degludec",
+        "kind": "biologic",
+        "classes": [
+          "Ultra-long-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Tresiba"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-degludec.json"
+      },
+      {
+        "id": "insulin-detemir",
+        "name": "insulin detemir",
+        "kind": "biologic",
+        "classes": [
+          "Long-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Levemir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-detemir.json"
+      },
+      {
+        "id": "insulin-glargine",
+        "name": "insulin glargine",
+        "kind": "biologic",
+        "classes": [
+          "Long-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Basaglar",
+          "Lantus",
+          "Semglee",
+          "Soliqua 100/33",
+          "Toujeo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glargine.json"
+      },
+      {
+        "id": "insulin-glulisine",
+        "name": "insulin glulisine",
+        "kind": "biologic",
+        "classes": [
+          "Rapid-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Apidra"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-glulisine.json"
+      },
+      {
+        "id": "insulin-human",
+        "name": "insulin human",
+        "kind": "biologic",
+        "classes": [
+          "Inhaled rapid-acting insulin"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Afrezza",
+          "Humulin R"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-human.json"
+      },
+      {
+        "id": "insulin-icodec",
+        "name": "insulin icodec",
+        "kind": "biologic",
+        "classes": [
+          "Once-weekly basal insulin"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Awiqli"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-icodec.json"
+      },
+      {
+        "id": "insulin-isophane-human",
+        "name": "insulin isophane human",
+        "kind": "biologic",
+        "classes": [
+          "Intermediate-acting human insulin"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Humulin N"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-isophane-human.json"
+      },
+      {
+        "id": "insulin-lispro",
+        "name": "insulin lispro",
+        "kind": "biologic",
+        "classes": [
+          "Rapid-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Humalog",
+          "Lyumjev"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-lispro.json"
+      },
+      {
+        "id": "linagliptin",
+        "name": "linagliptin",
+        "kind": "drug",
+        "classes": [
+          "DPP-4 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glyxambi",
+          "Tradjenta"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/linagliptin.json"
+      },
+      {
+        "id": "liraglutide",
+        "name": "liraglutide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Victoza"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/liraglutide.json"
+      },
+      {
+        "id": "lixisenatide",
+        "name": "lixisenatide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Soliqua 100/33"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lixisenatide.json"
+      },
+      {
+        "id": "metformin",
+        "name": "metformin",
+        "kind": "drug",
+        "classes": [
+          "Biguanide"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Glucophage",
+          "Janumet",
+          "Synjardy",
+          "Xigduo XR"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/metformin.json"
+      },
+      {
+        "id": "pioglitazone",
+        "name": "pioglitazone",
+        "kind": "drug",
+        "classes": [
+          "Thiazolidinedione (TZD)"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Actos"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/pioglitazone.json"
+      },
+      {
+        "id": "pramlintide",
+        "name": "pramlintide",
+        "kind": "drug",
+        "classes": [
+          "Amylin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Symlin"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/pramlintide.json"
+      },
+      {
+        "id": "saxagliptin",
+        "name": "saxagliptin",
+        "kind": "drug",
+        "classes": [
+          "DPP-4 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Onglyza"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/saxagliptin.json"
+      },
+      {
+        "id": "semaglutide",
+        "name": "semaglutide",
+        "kind": "drug",
+        "classes": [
+          "GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Ozempic",
+          "Rybelsus (Ozempic pill)"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/semaglutide.json"
+      },
+      {
+        "id": "sitagliptin",
+        "name": "sitagliptin",
+        "kind": "drug",
+        "classes": [
+          "DPP-4 inhibitor"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Janumet",
+          "Januvia"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/sitagliptin.json"
+      },
+      {
+        "id": "teplizumab",
+        "name": "teplizumab",
+        "kind": "biologic",
+        "classes": [
+          "Anti-CD3 monoclonal antibody"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Tzield"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/teplizumab.json"
+      },
+      {
+        "id": "tirzepatide",
+        "name": "tirzepatide",
+        "kind": "drug",
+        "classes": [
+          "Dual GIP and GLP-1 receptor agonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Mounjaro"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tirzepatide.json"
+      }
+    ],
+    "offLabel": []
+  }
+}

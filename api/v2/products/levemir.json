@@ -1,0 +1,82 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/levemir.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "levemir",
+    "brandName": "Levemir",
+    "ingredients": [
+      "insulin-detemir"
+    ],
+    "jurisdiction": "US",
+    "status": "discontinued",
+    "form": "Injection (pen, vial)",
+    "route": "Subcutaneous",
+    "dosingFrequency": "Once or twice daily",
+    "manufacturer": "Novo Nordisk",
+    "approval": {
+      "date": null,
+      "year": 2005,
+      "application": null
+    },
+    "indications": [
+      "diabetes"
+    ],
+    "controlled": null,
+    "description": "Long-acting basal insulin.",
+    "notes": "Discontinued in the US at the end of 2024.",
+    "attributes": {
+      "category": "Insulin: long-acting",
+      "diabetesType": "Type 1 and type 2"
+    },
+    "sources": [
+      {
+        "url": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "insulin-detemir",
+        "name": "insulin detemir",
+        "kind": "biologic",
+        "classes": [
+          "Long-acting insulin analog"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "diabetes"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Levemir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/insulin-detemir.json"
+      }
+    ],
+    "indicationNames": [
+      "Diabetes"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/levemir.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/levemir.json"
+    }
+  }
+}

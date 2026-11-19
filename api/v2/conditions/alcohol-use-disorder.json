@@ -1,0 +1,58 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/conditions/alcohol-use-disorder.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "alcohol-use-disorder",
+    "name": "Alcohol dependence",
+    "area": "mental-health",
+    "aliases": [
+      "alcohol use disorder",
+      "AUD"
+    ],
+    "parent": null,
+    "approvedCount": 1,
+    "offLabelCount": 0
+  },
+  "data": {
+    "approved": [
+      {
+        "id": "naltrexone",
+        "name": "naltrexone",
+        "kind": "drug",
+        "classes": [
+          "Opioid antagonist"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "alcohol-use-disorder",
+          "opioid-use-disorder",
+          "weight-management"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Contrave",
+          "Vivitrol"
+        ],
+        "tier": "curated",
+        "review": "verified",
+        "usesComplete": true,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/naltrexone.json"
+      }
+    ],
+    "offLabel": []
+  }
+}

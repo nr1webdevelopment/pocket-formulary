@@ -1,0 +1,116 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "related": [
+    {
+      "id": "adderall",
+      "brandName": "Adderall",
+      "genericName": "mixed amphetamine salts",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall.json"
+    },
+    {
+      "id": "adderall-xr",
+      "brandName": "Adderall XR",
+      "genericName": "mixed amphetamine salts (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json"
+    },
+    {
+      "id": "dyanavel-xr",
+      "brandName": "Dyanavel XR",
+      "genericName": "amphetamine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json"
+    },
+    {
+      "id": "evekeo",
+      "brandName": "Evekeo",
+      "genericName": "amphetamine sulfate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/evekeo.json"
+    },
+    {
+      "id": "mydayis",
+      "brandName": "Mydayis",
+      "genericName": "mixed amphetamine salts (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/mydayis.json"
+    },
+    {
+      "id": "vyvanse",
+      "brandName": "Vyvanse",
+      "genericName": "lisdexamfetamine",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json"
+    },
+    {
+      "id": "xelstrym",
+      "brandName": "Xelstrym",
+      "genericName": "dextroamphetamine (transdermal)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json"
+    }
+  ],
+  "data": {
+    "id": "adzenys-xr-odt",
+    "condition": "adhd",
+    "brandName": "Adzenys XR-ODT",
+    "genericName": "amphetamine (extended-release)",
+    "drugClass": "CNS stimulant (amphetamine)",
+    "formulation": "Extended-release orally disintegrating tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (morning)",
+    "manufacturer": "Aytu BioPharma",
+    "approvalYear": 2016,
+    "status": "Available",
+    "description": "Long-acting amphetamine that dissolves in the mouth.",
+    "notes": null,
+    "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+    "approvalDate": null,
+    "attributes": {
+      "category": "Amphetamine",
+      "type": "Stimulant",
+      "controlledSubstance": "Schedule II"
+    },
+    "classId": "adhd-cns-stimulant-amphetamine",
+    "links": {
+      "self": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json",
+      "condition": "https://nomadceuticals.com/api/v1/conditions/adhd.json",
+      "class": "https://nomadceuticals.com/api/v1/classes/adhd-cns-stimulant-amphetamine.json",
+      "website": "https://nomadceuticals.com/#adzenys-xr-odt",
+      "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+    }
+  }
+}

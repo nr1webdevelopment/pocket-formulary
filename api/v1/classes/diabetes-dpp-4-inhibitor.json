@@ -1,0 +1,139 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "drugClass": {
+    "id": "diabetes-dpp-4-inhibitor",
+    "name": "DPP-4 inhibitor",
+    "condition": "diabetes",
+    "medicineCount": 4
+  },
+  "count": 4,
+  "data": [
+    {
+      "id": "januvia",
+      "condition": "diabetes",
+      "brandName": "Januvia",
+      "genericName": "sitagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Merck",
+      "approvalYear": 2006,
+      "status": "Available",
+      "description": "The first DPP-4 inhibitor; boosts the body's own incretin hormones.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/januvia.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#januvia",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "nesina",
+      "condition": "diabetes",
+      "brandName": "Nesina",
+      "genericName": "alogliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Takeda",
+      "approvalYear": 2013,
+      "status": "Available",
+      "description": "DPP-4 inhibitor taken once daily.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/nesina.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#nesina",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "onglyza",
+      "condition": "diabetes",
+      "brandName": "Onglyza",
+      "genericName": "saxagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "AstraZeneca",
+      "approvalYear": 2009,
+      "status": "Available",
+      "description": "DPP-4 inhibitor taken once daily.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/onglyza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#onglyza",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "tradjenta",
+      "condition": "diabetes",
+      "brandName": "Tradjenta",
+      "genericName": "linagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Boehringer Ingelheim",
+      "approvalYear": 2011,
+      "status": "Available",
+      "description": "DPP-4 inhibitor that needs no dose change for kidney function.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#tradjenta",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

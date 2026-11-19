@@ -1,0 +1,1325 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "condition": {
+    "id": "diabetes",
+    "name": "Diabetes",
+    "description": "Insulins and other glucose-lowering medicines for type 1 and type 2 diabetes.",
+    "medicineCount": 41,
+    "classCount": 22
+  },
+  "classes": [
+    {
+      "id": "diabetes-amylin-analog",
+      "name": "Amylin analog",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-amylin-analog.json"
+    },
+    {
+      "id": "diabetes-anti-cd3-monoclonal-antibody",
+      "name": "Anti-CD3 monoclonal antibody",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json"
+    },
+    {
+      "id": "diabetes-basal-insulin-glp-1-receptor-agonist",
+      "name": "Basal insulin + GLP-1 receptor agonist",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json"
+    },
+    {
+      "id": "diabetes-biguanide",
+      "name": "Biguanide",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-biguanide.json"
+    },
+    {
+      "id": "diabetes-dpp-4-inhibitor",
+      "name": "DPP-4 inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json"
+    },
+    {
+      "id": "diabetes-dpp-4-inhibitor-biguanide",
+      "name": "DPP-4 inhibitor + biguanide",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json"
+    },
+    {
+      "id": "diabetes-dual-gip-and-glp-1-receptor-agonist",
+      "name": "Dual GIP and GLP-1 receptor agonist",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json"
+    },
+    {
+      "id": "diabetes-glp-1-receptor-agonist",
+      "name": "GLP-1 receptor agonist",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json"
+    },
+    {
+      "id": "diabetes-glucagon-hypoglycemia-rescue",
+      "name": "Glucagon (hypoglycemia rescue)",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json"
+    },
+    {
+      "id": "diabetes-inhaled-rapid-acting-insulin",
+      "name": "Inhaled rapid-acting insulin",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json"
+    },
+    {
+      "id": "diabetes-intermediate-acting-human-insulin",
+      "name": "Intermediate-acting human insulin",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-intermediate-acting-human-insulin.json"
+    },
+    {
+      "id": "diabetes-long-acting-insulin-analog",
+      "name": "Long-acting insulin analog",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json"
+    },
+    {
+      "id": "diabetes-long-acting-insulin-analog-biosimilar",
+      "name": "Long-acting insulin analog (biosimilar)",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json"
+    },
+    {
+      "id": "diabetes-once-weekly-basal-insulin",
+      "name": "Once-weekly basal insulin",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json"
+    },
+    {
+      "id": "diabetes-rapid-acting-insulin-analog",
+      "name": "Rapid-acting insulin analog",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json"
+    },
+    {
+      "id": "diabetes-sglt2-inhibitor",
+      "name": "SGLT2 inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json"
+    },
+    {
+      "id": "diabetes-sglt2-inhibitor-biguanide",
+      "name": "SGLT2 inhibitor + biguanide",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json"
+    },
+    {
+      "id": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
+      "name": "SGLT2 inhibitor + DPP-4 inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json"
+    },
+    {
+      "id": "diabetes-short-acting-human-insulin",
+      "name": "Short-acting human insulin",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-short-acting-human-insulin.json"
+    },
+    {
+      "id": "diabetes-sulfonylurea",
+      "name": "Sulfonylurea",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json"
+    },
+    {
+      "id": "diabetes-thiazolidinedione-tzd",
+      "name": "Thiazolidinedione (TZD)",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json"
+    },
+    {
+      "id": "diabetes-ultra-long-acting-insulin-analog",
+      "name": "Ultra-long-acting insulin analog",
+      "url": "https://nomadceuticals.com/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json"
+    }
+  ],
+  "count": 41,
+  "data": [
+    {
+      "id": "actos",
+      "condition": "diabetes",
+      "brandName": "Actos",
+      "genericName": "pioglitazone",
+      "drugClass": "Thiazolidinedione (TZD)",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Takeda",
+      "approvalYear": 1999,
+      "status": "Available",
+      "description": "Improves the body's sensitivity to insulin.",
+      "notes": "Not recommended for people with heart failure.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: thiazolidinedione",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-thiazolidinedione-tzd",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/actos.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-thiazolidinedione-tzd.json",
+        "website": "https://nomadceuticals.com/#actos",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "afrezza",
+      "condition": "diabetes",
+      "brandName": "Afrezza",
+      "genericName": "insulin human (inhaled)",
+      "drugClass": "Inhaled rapid-acting insulin",
+      "formulation": "Inhalation powder (cartridge)",
+      "route": "Inhaled",
+      "dosingFrequency": "At the start of meals",
+      "manufacturer": "MannKind",
+      "approvalYear": 2014,
+      "status": "Available",
+      "description": "The only inhaled mealtime insulin in the US.",
+      "notes": "Adults only; not for people who smoke or have chronic lung disease.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-inhaled-rapid-acting-insulin",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/afrezza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-inhaled-rapid-acting-insulin.json",
+        "website": "https://nomadceuticals.com/#afrezza",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "amaryl",
+      "condition": "diabetes",
+      "brandName": "Amaryl",
+      "genericName": "glimepiride",
+      "drugClass": "Sulfonylurea",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily with breakfast",
+      "manufacturer": "Sanofi",
+      "approvalYear": 1995,
+      "status": "Available",
+      "description": "Once-daily sulfonylurea that boosts insulin release.",
+      "notes": "Can cause low blood sugar.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: sulfonylurea",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sulfonylurea",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/amaryl.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json",
+        "website": "https://nomadceuticals.com/#amaryl",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "apidra",
+      "condition": "diabetes",
+      "brandName": "Apidra",
+      "genericName": "insulin glulisine",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2004,
+      "status": "Available",
+      "description": "Rapid-acting mealtime insulin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/apidra.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#apidra",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "awiqli",
+      "condition": "diabetes",
+      "brandName": "Awiqli",
+      "genericName": "insulin icodec-abae",
+      "drugClass": "Once-weekly basal insulin",
+      "formulation": "Injection (pen, 700 units/mL)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2026,
+      "status": "Available",
+      "description": "The first once-weekly basal insulin, approved March 2026.",
+      "notes": "Adults with type 2 diabetes only. New in 2026.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-once-weekly-basal-insulin",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/awiqli.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-once-weekly-basal-insulin.json",
+        "website": "https://nomadceuticals.com/#awiqli",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "baqsimi",
+      "condition": "diabetes",
+      "brandName": "Baqsimi",
+      "genericName": "glucagon (nasal)",
+      "drugClass": "Glucagon (hypoglycemia rescue)",
+      "formulation": "Nasal powder",
+      "route": "Nasal",
+      "dosingFrequency": "One dose as needed for severe low blood sugar",
+      "manufacturer": "Amphastar",
+      "approvalYear": 2019,
+      "status": "Available",
+      "description": "The first needle-free emergency treatment for severe low blood sugar.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Other",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-glucagon-hypoglycemia-rescue",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glucagon-hypoglycemia-rescue.json",
+        "website": "https://nomadceuticals.com/#baqsimi",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "basaglar",
+      "condition": "diabetes",
+      "brandName": "Basaglar",
+      "genericName": "insulin glargine",
+      "drugClass": "Long-acting insulin analog",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Follow-on insulin glargine, similar to Lantus.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-long-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/basaglar.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#basaglar",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "brenzavvy",
+      "condition": "diabetes",
+      "brandName": "Brenzavvy",
+      "genericName": "bexagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "TheracosBio",
+      "approvalYear": 2023,
+      "status": "Available",
+      "description": "Lower-cost SGLT2 inhibitor approved in 2023.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: SGLT2 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/brenzavvy.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#brenzavvy",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "farxiga",
+      "condition": "diabetes",
+      "brandName": "Farxiga",
+      "genericName": "dapagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "AstraZeneca",
+      "approvalYear": 2014,
+      "status": "Available",
+      "description": "SGLT2 inhibitor also approved for heart failure and chronic kidney disease.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: SGLT2 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/farxiga.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#farxiga",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "fiasp",
+      "condition": "diabetes",
+      "brandName": "Fiasp",
+      "genericName": "insulin aspart (faster-acting)",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "At the start of a meal or within 20 minutes after",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2017,
+      "status": "Available",
+      "description": "Faster-acting formulation of insulin aspart.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/fiasp.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#fiasp",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "glucophage",
+      "condition": "diabetes",
+      "brandName": "Glucophage",
+      "genericName": "metformin",
+      "drugClass": "Biguanide",
+      "formulation": "Tablet; extended-release tablet (Glucophage XR)",
+      "route": "Oral",
+      "dosingFrequency": "Once or twice daily with meals",
+      "manufacturer": "Bristol Myers Squibb",
+      "approvalYear": 1994,
+      "status": "Available",
+      "description": "First-line medicine for type 2 diabetes; lowers glucose made by the liver.",
+      "notes": "Most people take generic metformin.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: biguanide",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-biguanide",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/glucophage.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-biguanide.json",
+        "website": "https://nomadceuticals.com/#glucophage",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "glucotrol",
+      "condition": "diabetes",
+      "brandName": "Glucotrol",
+      "genericName": "glipizide",
+      "drugClass": "Sulfonylurea",
+      "formulation": "Tablet; extended-release tablet (Glucotrol XL)",
+      "route": "Oral",
+      "dosingFrequency": "Once or twice daily before meals",
+      "manufacturer": "Pfizer",
+      "approvalYear": 1984,
+      "status": "Available",
+      "description": "Helps the pancreas release more insulin.",
+      "notes": "Can cause low blood sugar.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: sulfonylurea",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sulfonylurea",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/glucotrol.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sulfonylurea.json",
+        "website": "https://nomadceuticals.com/#glucotrol",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "glyxambi",
+      "condition": "diabetes",
+      "brandName": "Glyxambi",
+      "genericName": "empagliflozin and linagliptin",
+      "drugClass": "SGLT2 inhibitor + DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Boehringer Ingelheim",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Combines Jardiance with Tradjenta.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/glyxambi.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#glyxambi",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "humalog",
+      "condition": "diabetes",
+      "brandName": "Humalog",
+      "genericName": "insulin lispro",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 1996,
+      "status": "Available",
+      "description": "The first rapid-acting insulin analog, taken at mealtimes.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/humalog.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#humalog",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "humulin-n",
+      "condition": "diabetes",
+      "brandName": "Humulin N",
+      "genericName": "insulin isophane (NPH)",
+      "drugClass": "Intermediate-acting human insulin",
+      "formulation": "Injection (vial, pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once or twice daily",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 1982,
+      "status": "Available",
+      "description": "Intermediate-acting NPH insulin, often used as a lower-cost basal option.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: short- and intermediate-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-intermediate-acting-human-insulin",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/humulin-n.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-intermediate-acting-human-insulin.json",
+        "website": "https://nomadceuticals.com/#humulin-n",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "humulin-r",
+      "condition": "diabetes",
+      "brandName": "Humulin R",
+      "genericName": "insulin human regular",
+      "drugClass": "Short-acting human insulin",
+      "formulation": "Injection (vial, pen)",
+      "route": "Subcutaneous / IV",
+      "dosingFrequency": "About 30 minutes before meals",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 1982,
+      "status": "Available",
+      "description": "The first medicine made with recombinant DNA technology.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: short- and intermediate-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-short-acting-human-insulin",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/humulin-r.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-short-acting-human-insulin.json",
+        "website": "https://nomadceuticals.com/#humulin-r",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "invokana",
+      "condition": "diabetes",
+      "brandName": "Invokana",
+      "genericName": "canagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (before first meal)",
+      "manufacturer": "Johnson & Johnson (Janssen)",
+      "approvalYear": 2013,
+      "status": "Available",
+      "description": "The first SGLT2 inhibitor; removes extra glucose through the urine.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: SGLT2 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/invokana.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#invokana",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "janumet",
+      "condition": "diabetes",
+      "brandName": "Janumet",
+      "genericName": "sitagliptin and metformin",
+      "drugClass": "DPP-4 inhibitor + biguanide",
+      "formulation": "Tablet; extended-release tablet (Janumet XR)",
+      "route": "Oral",
+      "dosingFrequency": "Twice daily with meals (XR once daily)",
+      "manufacturer": "Merck",
+      "approvalYear": 2007,
+      "status": "Available",
+      "description": "Combines Januvia with metformin in one tablet.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor-biguanide",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/janumet.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#janumet",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "januvia",
+      "condition": "diabetes",
+      "brandName": "Januvia",
+      "genericName": "sitagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Merck",
+      "approvalYear": 2006,
+      "status": "Available",
+      "description": "The first DPP-4 inhibitor; boosts the body's own incretin hormones.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/januvia.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#januvia",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "jardiance",
+      "condition": "diabetes",
+      "brandName": "Jardiance",
+      "genericName": "empagliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Boehringer Ingelheim",
+      "approvalYear": 2014,
+      "status": "Available",
+      "description": "SGLT2 inhibitor shown to lower the risk of cardiovascular death in type 2 diabetes.",
+      "notes": "Also approved for heart failure and chronic kidney disease.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: SGLT2 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/jardiance.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#jardiance",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "lantus",
+      "condition": "diabetes",
+      "brandName": "Lantus",
+      "genericName": "insulin glargine",
+      "drugClass": "Long-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2000,
+      "status": "Available",
+      "description": "The first long-acting basal insulin analog.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-long-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/lantus.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#lantus",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "levemir",
+      "condition": "diabetes",
+      "brandName": "Levemir",
+      "genericName": "insulin detemir",
+      "drugClass": "Long-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once or twice daily",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2005,
+      "status": "Discontinued",
+      "description": "Long-acting basal insulin.",
+      "notes": "Discontinued in the US at the end of 2024.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-long-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/levemir.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#levemir",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "lyumjev",
+      "condition": "diabetes",
+      "brandName": "Lyumjev",
+      "genericName": "insulin lispro-aabc",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "At the start of a meal or within 20 minutes after",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2020,
+      "status": "Available",
+      "description": "Faster-acting formulation of insulin lispro.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/lyumjev.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#lyumjev",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "mounjaro",
+      "condition": "diabetes",
+      "brandName": "Mounjaro",
+      "genericName": "tirzepatide",
+      "drugClass": "Dual GIP and GLP-1 receptor agonist",
+      "formulation": "Injection (single-dose pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2022,
+      "status": "Available",
+      "description": "First dual GIP/GLP-1 agonist; strong effects on blood sugar and weight.",
+      "notes": "In August 2026 the FDA added a use to lower heart attack and stroke risk in high-risk adults with type 2 diabetes.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dual-gip-and-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dual-gip-and-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#mounjaro",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "nesina",
+      "condition": "diabetes",
+      "brandName": "Nesina",
+      "genericName": "alogliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Takeda",
+      "approvalYear": 2013,
+      "status": "Available",
+      "description": "DPP-4 inhibitor taken once daily.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/nesina.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#nesina",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "novolog",
+      "condition": "diabetes",
+      "brandName": "NovoLog",
+      "genericName": "insulin aspart",
+      "drugClass": "Rapid-acting insulin analog",
+      "formulation": "Injection (pen, vial, cartridge)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "With meals",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2000,
+      "status": "Available",
+      "description": "Rapid-acting mealtime insulin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: rapid-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/novolog.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-rapid-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#novolog",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "onglyza",
+      "condition": "diabetes",
+      "brandName": "Onglyza",
+      "genericName": "saxagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "AstraZeneca",
+      "approvalYear": 2009,
+      "status": "Available",
+      "description": "DPP-4 inhibitor taken once daily.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/onglyza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#onglyza",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "ozempic",
+      "condition": "diabetes",
+      "brandName": "Ozempic",
+      "genericName": "semaglutide",
+      "drugClass": "GLP-1 receptor agonist",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2017,
+      "status": "Available",
+      "description": "Once-weekly GLP-1 injection that lowers blood sugar and supports weight loss.",
+      "notes": "Also approved to reduce cardiovascular and kidney risk in certain adults.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/ozempic.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#ozempic",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "rybelsus",
+      "condition": "diabetes",
+      "brandName": "Rybelsus (Ozempic pill)",
+      "genericName": "semaglutide (oral)",
+      "drugClass": "GLP-1 receptor agonist",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily, 30 minutes before first food",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2019,
+      "status": "Available",
+      "description": "The first GLP-1 medicine in pill form.",
+      "notes": "Being renamed Ozempic pill in the US during 2026.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#rybelsus",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "semglee",
+      "condition": "diabetes",
+      "brandName": "Semglee",
+      "genericName": "insulin glargine-yfgn",
+      "drugClass": "Long-acting insulin analog (biosimilar)",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Biocon Biologics",
+      "approvalYear": 2020,
+      "status": "Available",
+      "description": "Insulin glargine biosimilar.",
+      "notes": "In 2021 it became the first interchangeable biosimilar insulin, so pharmacies can substitute it for Lantus.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-long-acting-insulin-analog-biosimilar",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/semglee.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog-biosimilar.json",
+        "website": "https://nomadceuticals.com/#semglee",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "soliqua-100-33",
+      "condition": "diabetes",
+      "brandName": "Soliqua 100/33",
+      "genericName": "insulin glargine and lixisenatide",
+      "drugClass": "Basal insulin + GLP-1 receptor agonist",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily, within an hour before the first meal",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2016,
+      "status": "Available",
+      "description": "Basal insulin and a GLP-1 agonist in one daily injection.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-basal-insulin-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/soliqua-100-33.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-basal-insulin-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#soliqua-100-33",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "steglatro",
+      "condition": "diabetes",
+      "brandName": "Steglatro",
+      "genericName": "ertugliflozin",
+      "drugClass": "SGLT2 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning)",
+      "manufacturer": "Merck",
+      "approvalYear": 2017,
+      "status": "Available",
+      "description": "SGLT2 inhibitor taken once daily.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: SGLT2 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/steglatro.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor.json",
+        "website": "https://nomadceuticals.com/#steglatro",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "symlin",
+      "condition": "diabetes",
+      "brandName": "Symlin",
+      "genericName": "pramlintide",
+      "drugClass": "Amylin analog",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Before major meals",
+      "manufacturer": "AstraZeneca",
+      "approvalYear": 2005,
+      "status": "Available",
+      "description": "Amylin analog used with mealtime insulin to smooth blood sugar after meals.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Other",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-amylin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/symlin.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-amylin-analog.json",
+        "website": "https://nomadceuticals.com/#symlin",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "synjardy",
+      "condition": "diabetes",
+      "brandName": "Synjardy",
+      "genericName": "empagliflozin and metformin",
+      "drugClass": "SGLT2 inhibitor + biguanide",
+      "formulation": "Tablet; extended-release tablet (Synjardy XR)",
+      "route": "Oral",
+      "dosingFrequency": "Twice daily with meals (XR once daily)",
+      "manufacturer": "Boehringer Ingelheim",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Combines Jardiance with metformin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor-biguanide",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/synjardy.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#synjardy",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "toujeo",
+      "condition": "diabetes",
+      "brandName": "Toujeo",
+      "genericName": "insulin glargine U-300",
+      "drugClass": "Long-acting insulin analog",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Concentrated (300 units/mL) insulin glargine with a flatter, longer profile.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-long-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/toujeo.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#toujeo",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "tradjenta",
+      "condition": "diabetes",
+      "brandName": "Tradjenta",
+      "genericName": "linagliptin",
+      "drugClass": "DPP-4 inhibitor",
+      "formulation": "Tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Boehringer Ingelheim",
+      "approvalYear": 2011,
+      "status": "Available",
+      "description": "DPP-4 inhibitor that needs no dose change for kidney function.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Oral: DPP-4 inhibitor",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-dpp-4-inhibitor",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-dpp-4-inhibitor.json",
+        "website": "https://nomadceuticals.com/#tradjenta",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "tresiba",
+      "condition": "diabetes",
+      "brandName": "Tresiba",
+      "genericName": "insulin degludec",
+      "drugClass": "Ultra-long-acting insulin analog",
+      "formulation": "Injection (pen, vial)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily (flexible timing)",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2015,
+      "status": "Available",
+      "description": "Ultra-long-acting basal insulin lasting over 42 hours.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Insulin: long-acting",
+        "diabetesType": "Type 1 and type 2"
+      },
+      "classId": "diabetes-ultra-long-acting-insulin-analog",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/tresiba.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-ultra-long-acting-insulin-analog.json",
+        "website": "https://nomadceuticals.com/#tresiba",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "trulicity",
+      "condition": "diabetes",
+      "brandName": "Trulicity",
+      "genericName": "dulaglutide",
+      "drugClass": "GLP-1 receptor agonist",
+      "formulation": "Injection (single-dose pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once weekly",
+      "manufacturer": "Eli Lilly",
+      "approvalYear": 2014,
+      "status": "Available",
+      "description": "Once-weekly GLP-1 injection.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/trulicity.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#trulicity",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "tzield",
+      "condition": "diabetes",
+      "brandName": "Tzield",
+      "genericName": "teplizumab-mzwv",
+      "drugClass": "Anti-CD3 monoclonal antibody",
+      "formulation": "IV infusion",
+      "route": "Intravenous",
+      "dosingFrequency": "Once daily for 14 days (one course)",
+      "manufacturer": "Sanofi",
+      "approvalYear": 2022,
+      "status": "Available",
+      "description": "The first medicine that delays the onset of stage 3 type 1 diabetes.",
+      "notes": "For people 8 and older with stage 2 type 1 diabetes.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Other",
+        "diabetesType": "Type 1"
+      },
+      "classId": "diabetes-anti-cd3-monoclonal-antibody",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/tzield.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-anti-cd3-monoclonal-antibody.json",
+        "website": "https://nomadceuticals.com/#tzield",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "victoza",
+      "condition": "diabetes",
+      "brandName": "Victoza",
+      "genericName": "liraglutide",
+      "drugClass": "GLP-1 receptor agonist",
+      "formulation": "Injection (pen)",
+      "route": "Subcutaneous",
+      "dosingFrequency": "Once daily",
+      "manufacturer": "Novo Nordisk",
+      "approvalYear": 2010,
+      "status": "Available",
+      "description": "Daily GLP-1 injection that lowers blood sugar and reduces cardiovascular risk.",
+      "notes": "Approved for children 10 and older.",
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "GLP-1 and GIP/GLP-1 agonists",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/victoza.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-glp-1-receptor-agonist.json",
+        "website": "https://nomadceuticals.com/#victoza",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    },
+    {
+      "id": "xigduo-xr",
+      "condition": "diabetes",
+      "brandName": "Xigduo XR",
+      "genericName": "dapagliflozin and metformin",
+      "drugClass": "SGLT2 inhibitor + biguanide",
+      "formulation": "Extended-release tablet",
+      "route": "Oral",
+      "dosingFrequency": "Once daily (morning, with food)",
+      "manufacturer": "AstraZeneca",
+      "approvalYear": 2014,
+      "status": "Available",
+      "description": "Combines Farxiga with extended-release metformin.",
+      "notes": null,
+      "sourceUrl": "https://www.accessdata.fda.gov/scripts/cder/daf/",
+      "approvalDate": null,
+      "attributes": {
+        "category": "Combination pills",
+        "diabetesType": "Type 2"
+      },
+      "classId": "diabetes-sglt2-inhibitor-biguanide",
+      "links": {
+        "self": "https://nomadceuticals.com/api/v1/medicines/xigduo-xr.json",
+        "condition": "https://nomadceuticals.com/api/v1/conditions/diabetes.json",
+        "class": "https://nomadceuticals.com/api/v1/classes/diabetes-sglt2-inhibitor-biguanide.json",
+        "website": "https://nomadceuticals.com/#xigduo-xr",
+        "source": "https://www.accessdata.fda.gov/scripts/cder/daf/"
+      }
+    }
+  ]
+}

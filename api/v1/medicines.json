@@ -1,0 +1,1257 @@
+{
+  "api": "NomadCeuticals Medicines API",
+  "apiVersion": "v1",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Check the current label and talk with a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v1/medicines.json",
+    "index": "https://nomadceuticals.com/api/v1/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "count": 124,
+  "data": [
+    {
+      "id": "adderall",
+      "brandName": "Adderall",
+      "genericName": "mixed amphetamine salts",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall.json"
+    },
+    {
+      "id": "adderall-xr",
+      "brandName": "Adderall XR",
+      "genericName": "mixed amphetamine salts (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/adderall-xr.json"
+    },
+    {
+      "id": "adzenys-xr-odt",
+      "brandName": "Adzenys XR-ODT",
+      "genericName": "amphetamine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/adzenys-xr-odt.json"
+    },
+    {
+      "id": "aptensio-xr",
+      "brandName": "Aptensio XR",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/aptensio-xr.json"
+    },
+    {
+      "id": "azstarys",
+      "brandName": "Azstarys",
+      "genericName": "serdexmethylphenidate and dexmethylphenidate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/azstarys.json"
+    },
+    {
+      "id": "concerta",
+      "brandName": "Concerta",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/concerta.json"
+    },
+    {
+      "id": "cotempla-xr-odt",
+      "brandName": "Cotempla XR-ODT",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/cotempla-xr-odt.json"
+    },
+    {
+      "id": "daytrana",
+      "brandName": "Daytrana",
+      "genericName": "methylphenidate (transdermal)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/daytrana.json"
+    },
+    {
+      "id": "dyanavel-xr",
+      "brandName": "Dyanavel XR",
+      "genericName": "amphetamine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/dyanavel-xr.json"
+    },
+    {
+      "id": "evekeo",
+      "brandName": "Evekeo",
+      "genericName": "amphetamine sulfate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/evekeo.json"
+    },
+    {
+      "id": "focalin",
+      "brandName": "Focalin",
+      "genericName": "dexmethylphenidate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin.json"
+    },
+    {
+      "id": "focalin-xr",
+      "brandName": "Focalin XR",
+      "genericName": "dexmethylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/focalin-xr.json"
+    },
+    {
+      "id": "intuniv",
+      "brandName": "Intuniv",
+      "genericName": "guanfacine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "Alpha-2A adrenergic agonist",
+      "status": "Available",
+      "classId": "adhd-alpha-2a-adrenergic-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/intuniv.json"
+    },
+    {
+      "id": "jornay-pm",
+      "brandName": "Jornay PM",
+      "genericName": "methylphenidate (delayed- and extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/jornay-pm.json"
+    },
+    {
+      "id": "mydayis",
+      "brandName": "Mydayis",
+      "genericName": "mixed amphetamine salts (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/mydayis.json"
+    },
+    {
+      "id": "onyda-xr",
+      "brandName": "Onyda XR",
+      "genericName": "clonidine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "Alpha-2 adrenergic agonist",
+      "status": "Available",
+      "classId": "adhd-alpha-2-adrenergic-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/onyda-xr.json"
+    },
+    {
+      "id": "qelbree",
+      "brandName": "Qelbree",
+      "genericName": "viloxazine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "Selective norepinephrine reuptake inhibitor",
+      "status": "Available",
+      "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/qelbree.json"
+    },
+    {
+      "id": "quillichew-er",
+      "brandName": "QuilliChew ER",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillichew-er.json"
+    },
+    {
+      "id": "quillivant-xr",
+      "brandName": "Quillivant XR",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/quillivant-xr.json"
+    },
+    {
+      "id": "ritalin",
+      "brandName": "Ritalin",
+      "genericName": "methylphenidate",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/ritalin.json"
+    },
+    {
+      "id": "ritalin-la",
+      "brandName": "Ritalin LA",
+      "genericName": "methylphenidate (extended-release)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (methylphenidate)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-methylphenidate",
+      "url": "https://nomadceuticals.com/api/v1/medicines/ritalin-la.json"
+    },
+    {
+      "id": "simtriyo",
+      "brandName": "Simtriyo",
+      "genericName": "centanafadine (extended-release)",
+      "condition": "adhd",
+      "drugClass": "Norepinephrine, dopamine and serotonin reuptake inhibitor (NDSRI)",
+      "status": "Available",
+      "classId": "adhd-norepinephrine-dopamine-and-serotonin-reuptake-inhibitor-ndsri",
+      "url": "https://nomadceuticals.com/api/v1/medicines/simtriyo.json"
+    },
+    {
+      "id": "strattera",
+      "brandName": "Strattera",
+      "genericName": "atomoxetine",
+      "condition": "adhd",
+      "drugClass": "Selective norepinephrine reuptake inhibitor",
+      "status": "Available",
+      "classId": "adhd-selective-norepinephrine-reuptake-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/strattera.json"
+    },
+    {
+      "id": "vyvanse",
+      "brandName": "Vyvanse",
+      "genericName": "lisdexamfetamine",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vyvanse.json"
+    },
+    {
+      "id": "xelstrym",
+      "brandName": "Xelstrym",
+      "genericName": "dextroamphetamine (transdermal)",
+      "condition": "adhd",
+      "drugClass": "CNS stimulant (amphetamine)",
+      "status": "Available",
+      "classId": "adhd-cns-stimulant-amphetamine",
+      "url": "https://nomadceuticals.com/api/v1/medicines/xelstrym.json"
+    },
+    {
+      "id": "actos",
+      "brandName": "Actos",
+      "genericName": "pioglitazone",
+      "condition": "diabetes",
+      "drugClass": "Thiazolidinedione (TZD)",
+      "status": "Available",
+      "classId": "diabetes-thiazolidinedione-tzd",
+      "url": "https://nomadceuticals.com/api/v1/medicines/actos.json"
+    },
+    {
+      "id": "afrezza",
+      "brandName": "Afrezza",
+      "genericName": "insulin human (inhaled)",
+      "condition": "diabetes",
+      "drugClass": "Inhaled rapid-acting insulin",
+      "status": "Available",
+      "classId": "diabetes-inhaled-rapid-acting-insulin",
+      "url": "https://nomadceuticals.com/api/v1/medicines/afrezza.json"
+    },
+    {
+      "id": "amaryl",
+      "brandName": "Amaryl",
+      "genericName": "glimepiride",
+      "condition": "diabetes",
+      "drugClass": "Sulfonylurea",
+      "status": "Available",
+      "classId": "diabetes-sulfonylurea",
+      "url": "https://nomadceuticals.com/api/v1/medicines/amaryl.json"
+    },
+    {
+      "id": "apidra",
+      "brandName": "Apidra",
+      "genericName": "insulin glulisine",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/apidra.json"
+    },
+    {
+      "id": "awiqli",
+      "brandName": "Awiqli",
+      "genericName": "insulin icodec-abae",
+      "condition": "diabetes",
+      "drugClass": "Once-weekly basal insulin",
+      "status": "Available",
+      "classId": "diabetes-once-weekly-basal-insulin",
+      "url": "https://nomadceuticals.com/api/v1/medicines/awiqli.json"
+    },
+    {
+      "id": "baqsimi",
+      "brandName": "Baqsimi",
+      "genericName": "glucagon (nasal)",
+      "condition": "diabetes",
+      "drugClass": "Glucagon (hypoglycemia rescue)",
+      "status": "Available",
+      "classId": "diabetes-glucagon-hypoglycemia-rescue",
+      "url": "https://nomadceuticals.com/api/v1/medicines/baqsimi.json"
+    },
+    {
+      "id": "basaglar",
+      "brandName": "Basaglar",
+      "genericName": "insulin glargine",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/basaglar.json"
+    },
+    {
+      "id": "brenzavvy",
+      "brandName": "Brenzavvy",
+      "genericName": "bexagliflozin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/brenzavvy.json"
+    },
+    {
+      "id": "farxiga",
+      "brandName": "Farxiga",
+      "genericName": "dapagliflozin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/farxiga.json"
+    },
+    {
+      "id": "fiasp",
+      "brandName": "Fiasp",
+      "genericName": "insulin aspart (faster-acting)",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/fiasp.json"
+    },
+    {
+      "id": "glucophage",
+      "brandName": "Glucophage",
+      "genericName": "metformin",
+      "condition": "diabetes",
+      "drugClass": "Biguanide",
+      "status": "Available",
+      "classId": "diabetes-biguanide",
+      "url": "https://nomadceuticals.com/api/v1/medicines/glucophage.json"
+    },
+    {
+      "id": "glucotrol",
+      "brandName": "Glucotrol",
+      "genericName": "glipizide",
+      "condition": "diabetes",
+      "drugClass": "Sulfonylurea",
+      "status": "Available",
+      "classId": "diabetes-sulfonylurea",
+      "url": "https://nomadceuticals.com/api/v1/medicines/glucotrol.json"
+    },
+    {
+      "id": "glyxambi",
+      "brandName": "Glyxambi",
+      "genericName": "empagliflozin and linagliptin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor + DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor-dpp-4-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/glyxambi.json"
+    },
+    {
+      "id": "humalog",
+      "brandName": "Humalog",
+      "genericName": "insulin lispro",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/humalog.json"
+    },
+    {
+      "id": "humulin-n",
+      "brandName": "Humulin N",
+      "genericName": "insulin isophane (NPH)",
+      "condition": "diabetes",
+      "drugClass": "Intermediate-acting human insulin",
+      "status": "Available",
+      "classId": "diabetes-intermediate-acting-human-insulin",
+      "url": "https://nomadceuticals.com/api/v1/medicines/humulin-n.json"
+    },
+    {
+      "id": "humulin-r",
+      "brandName": "Humulin R",
+      "genericName": "insulin human regular",
+      "condition": "diabetes",
+      "drugClass": "Short-acting human insulin",
+      "status": "Available",
+      "classId": "diabetes-short-acting-human-insulin",
+      "url": "https://nomadceuticals.com/api/v1/medicines/humulin-r.json"
+    },
+    {
+      "id": "invokana",
+      "brandName": "Invokana",
+      "genericName": "canagliflozin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/invokana.json"
+    },
+    {
+      "id": "janumet",
+      "brandName": "Janumet",
+      "genericName": "sitagliptin and metformin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor + biguanide",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor-biguanide",
+      "url": "https://nomadceuticals.com/api/v1/medicines/janumet.json"
+    },
+    {
+      "id": "januvia",
+      "brandName": "Januvia",
+      "genericName": "sitagliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/januvia.json"
+    },
+    {
+      "id": "jardiance",
+      "brandName": "Jardiance",
+      "genericName": "empagliflozin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/jardiance.json"
+    },
+    {
+      "id": "lantus",
+      "brandName": "Lantus",
+      "genericName": "insulin glargine",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/lantus.json"
+    },
+    {
+      "id": "levemir",
+      "brandName": "Levemir",
+      "genericName": "insulin detemir",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Discontinued",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/levemir.json"
+    },
+    {
+      "id": "lyumjev",
+      "brandName": "Lyumjev",
+      "genericName": "insulin lispro-aabc",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/lyumjev.json"
+    },
+    {
+      "id": "mounjaro",
+      "brandName": "Mounjaro",
+      "genericName": "tirzepatide",
+      "condition": "diabetes",
+      "drugClass": "Dual GIP and GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-dual-gip-and-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/mounjaro.json"
+    },
+    {
+      "id": "nesina",
+      "brandName": "Nesina",
+      "genericName": "alogliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/nesina.json"
+    },
+    {
+      "id": "novolog",
+      "brandName": "NovoLog",
+      "genericName": "insulin aspart",
+      "condition": "diabetes",
+      "drugClass": "Rapid-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-rapid-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/novolog.json"
+    },
+    {
+      "id": "onglyza",
+      "brandName": "Onglyza",
+      "genericName": "saxagliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/onglyza.json"
+    },
+    {
+      "id": "ozempic",
+      "brandName": "Ozempic",
+      "genericName": "semaglutide",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/ozempic.json"
+    },
+    {
+      "id": "rybelsus",
+      "brandName": "Rybelsus (Ozempic pill)",
+      "genericName": "semaglutide (oral)",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/rybelsus.json"
+    },
+    {
+      "id": "semglee",
+      "brandName": "Semglee",
+      "genericName": "insulin glargine-yfgn",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog (biosimilar)",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog-biosimilar",
+      "url": "https://nomadceuticals.com/api/v1/medicines/semglee.json"
+    },
+    {
+      "id": "soliqua-100-33",
+      "brandName": "Soliqua 100/33",
+      "genericName": "insulin glargine and lixisenatide",
+      "condition": "diabetes",
+      "drugClass": "Basal insulin + GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-basal-insulin-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/soliqua-100-33.json"
+    },
+    {
+      "id": "steglatro",
+      "brandName": "Steglatro",
+      "genericName": "ertugliflozin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/steglatro.json"
+    },
+    {
+      "id": "symlin",
+      "brandName": "Symlin",
+      "genericName": "pramlintide",
+      "condition": "diabetes",
+      "drugClass": "Amylin analog",
+      "status": "Available",
+      "classId": "diabetes-amylin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/symlin.json"
+    },
+    {
+      "id": "synjardy",
+      "brandName": "Synjardy",
+      "genericName": "empagliflozin and metformin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor + biguanide",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor-biguanide",
+      "url": "https://nomadceuticals.com/api/v1/medicines/synjardy.json"
+    },
+    {
+      "id": "toujeo",
+      "brandName": "Toujeo",
+      "genericName": "insulin glargine U-300",
+      "condition": "diabetes",
+      "drugClass": "Long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-long-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/toujeo.json"
+    },
+    {
+      "id": "tradjenta",
+      "brandName": "Tradjenta",
+      "genericName": "linagliptin",
+      "condition": "diabetes",
+      "drugClass": "DPP-4 inhibitor",
+      "status": "Available",
+      "classId": "diabetes-dpp-4-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tradjenta.json"
+    },
+    {
+      "id": "tresiba",
+      "brandName": "Tresiba",
+      "genericName": "insulin degludec",
+      "condition": "diabetes",
+      "drugClass": "Ultra-long-acting insulin analog",
+      "status": "Available",
+      "classId": "diabetes-ultra-long-acting-insulin-analog",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tresiba.json"
+    },
+    {
+      "id": "trulicity",
+      "brandName": "Trulicity",
+      "genericName": "dulaglutide",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/trulicity.json"
+    },
+    {
+      "id": "tzield",
+      "brandName": "Tzield",
+      "genericName": "teplizumab-mzwv",
+      "condition": "diabetes",
+      "drugClass": "Anti-CD3 monoclonal antibody",
+      "status": "Available",
+      "classId": "diabetes-anti-cd3-monoclonal-antibody",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tzield.json"
+    },
+    {
+      "id": "victoza",
+      "brandName": "Victoza",
+      "genericName": "liraglutide",
+      "condition": "diabetes",
+      "drugClass": "GLP-1 receptor agonist",
+      "status": "Available",
+      "classId": "diabetes-glp-1-receptor-agonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/victoza.json"
+    },
+    {
+      "id": "xigduo-xr",
+      "brandName": "Xigduo XR",
+      "genericName": "dapagliflozin and metformin",
+      "condition": "diabetes",
+      "drugClass": "SGLT2 inhibitor + biguanide",
+      "status": "Available",
+      "classId": "diabetes-sglt2-inhibitor-biguanide",
+      "url": "https://nomadceuticals.com/api/v1/medicines/xigduo-xr.json"
+    },
+    {
+      "id": "apretude",
+      "brandName": "Apretude",
+      "genericName": "cabotegravir (extended-release injection)",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/apretude.json"
+    },
+    {
+      "id": "aptivus",
+      "brandName": "Aptivus",
+      "genericName": "tipranavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nomadceuticals.com/api/v1/medicines/aptivus.json"
+    },
+    {
+      "id": "atripla",
+      "brandName": "Atripla",
+      "genericName": "efavirenz, emtricitabine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/atripla.json"
+    },
+    {
+      "id": "biktarvy",
+      "brandName": "Biktarvy",
+      "genericName": "bictegravir, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/biktarvy.json"
+    },
+    {
+      "id": "bixlenvo",
+      "brandName": "Bixlenvo",
+      "genericName": "bictegravir and lenacapavir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/bixlenvo.json"
+    },
+    {
+      "id": "cabenuva",
+      "brandName": "Cabenuva",
+      "genericName": "cabotegravir and rilpivirine (extended-release injections)",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/cabenuva.json"
+    },
+    {
+      "id": "cimduo",
+      "brandName": "Cimduo",
+      "genericName": "lamivudine and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/cimduo.json"
+    },
+    {
+      "id": "combivir",
+      "brandName": "Combivir",
+      "genericName": "lamivudine and zidovudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/combivir.json"
+    },
+    {
+      "id": "complera",
+      "brandName": "Complera",
+      "genericName": "emtricitabine, rilpivirine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/complera.json"
+    },
+    {
+      "id": "delstrigo",
+      "brandName": "Delstrigo",
+      "genericName": "doravirine, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/delstrigo.json"
+    },
+    {
+      "id": "descovy",
+      "brandName": "Descovy",
+      "genericName": "emtricitabine and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/descovy.json"
+    },
+    {
+      "id": "dovato",
+      "brandName": "Dovato",
+      "genericName": "dolutegravir and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/dovato.json"
+    },
+    {
+      "id": "edurant",
+      "brandName": "Edurant",
+      "genericName": "rilpivirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant.json"
+    },
+    {
+      "id": "edurant-ped",
+      "brandName": "Edurant PED",
+      "genericName": "rilpivirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/edurant-ped.json"
+    },
+    {
+      "id": "emtriva",
+      "brandName": "Emtriva",
+      "genericName": "emtricitabine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/emtriva.json"
+    },
+    {
+      "id": "epivir",
+      "brandName": "Epivir",
+      "genericName": "lamivudine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/epivir.json"
+    },
+    {
+      "id": "epzicom",
+      "brandName": "Epzicom",
+      "genericName": "abacavir and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/epzicom.json"
+    },
+    {
+      "id": "evotaz",
+      "brandName": "Evotaz",
+      "genericName": "atazanavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/evotaz.json"
+    },
+    {
+      "id": "fuzeon",
+      "brandName": "Fuzeon",
+      "genericName": "enfuvirtide",
+      "condition": "hiv",
+      "drugClass": "Fusion Inhibitor",
+      "status": "Discontinued",
+      "classId": "hiv-fusion-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/fuzeon.json"
+    },
+    {
+      "id": "genvoya",
+      "brandName": "Genvoya",
+      "genericName": "elvitegravir, cobicistat, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/genvoya.json"
+    },
+    {
+      "id": "idvynso",
+      "brandName": "Idvynso",
+      "genericName": "doravirine and islatravir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/idvynso.json"
+    },
+    {
+      "id": "intelence",
+      "brandName": "Intelence",
+      "genericName": "etravirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/intelence.json"
+    },
+    {
+      "id": "isentress",
+      "brandName": "Isentress",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress.json"
+    },
+    {
+      "id": "isentress-hd",
+      "brandName": "Isentress HD",
+      "genericName": "raltegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/isentress-hd.json"
+    },
+    {
+      "id": "juluca",
+      "brandName": "Juluca",
+      "genericName": "dolutegravir and rilpivirine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/juluca.json"
+    },
+    {
+      "id": "kaletra",
+      "brandName": "Kaletra",
+      "genericName": "lopinavir and ritonavir",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/kaletra.json"
+    },
+    {
+      "id": "lexiva",
+      "brandName": "Lexiva",
+      "genericName": "fosamprenavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Discontinued",
+      "classId": "hiv-pi",
+      "url": "https://nomadceuticals.com/api/v1/medicines/lexiva.json"
+    },
+    {
+      "id": "norvir",
+      "brandName": "Norvir",
+      "genericName": "ritonavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nomadceuticals.com/api/v1/medicines/norvir.json"
+    },
+    {
+      "id": "odefsey",
+      "brandName": "Odefsey",
+      "genericName": "emtricitabine, rilpivirine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/odefsey.json"
+    },
+    {
+      "id": "pifeltro",
+      "brandName": "Pifeltro",
+      "genericName": "doravirine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Available",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/pifeltro.json"
+    },
+    {
+      "id": "prezcobix",
+      "brandName": "Prezcobix",
+      "genericName": "darunavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix.json"
+    },
+    {
+      "id": "prezcobix-ped",
+      "brandName": "Prezcobix PED",
+      "genericName": "darunavir and cobicistat",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezcobix-ped.json"
+    },
+    {
+      "id": "prezista",
+      "brandName": "Prezista",
+      "genericName": "darunavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nomadceuticals.com/api/v1/medicines/prezista.json"
+    },
+    {
+      "id": "retrovir",
+      "brandName": "Retrovir",
+      "genericName": "zidovudine",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/retrovir.json"
+    },
+    {
+      "id": "reyataz",
+      "brandName": "Reyataz",
+      "genericName": "atazanavir",
+      "condition": "hiv",
+      "drugClass": "PI",
+      "status": "Available",
+      "classId": "hiv-pi",
+      "url": "https://nomadceuticals.com/api/v1/medicines/reyataz.json"
+    },
+    {
+      "id": "rukobia",
+      "brandName": "Rukobia",
+      "genericName": "fostemsavir",
+      "condition": "hiv",
+      "drugClass": "Attachment Inhibitor",
+      "status": "Available",
+      "classId": "hiv-attachment-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/rukobia.json"
+    },
+    {
+      "id": "selzentry",
+      "brandName": "Selzentry",
+      "genericName": "maraviroc",
+      "condition": "hiv",
+      "drugClass": "CCR5 Antagonist",
+      "status": "Available",
+      "classId": "hiv-ccr5-antagonist",
+      "url": "https://nomadceuticals.com/api/v1/medicines/selzentry.json"
+    },
+    {
+      "id": "stribild",
+      "brandName": "Stribild",
+      "genericName": "elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/stribild.json"
+    },
+    {
+      "id": "sunlenca",
+      "brandName": "Sunlenca",
+      "genericName": "lenacapavir",
+      "condition": "hiv",
+      "drugClass": "Capsid Inhibitor",
+      "status": "Available",
+      "classId": "hiv-capsid-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/sunlenca.json"
+    },
+    {
+      "id": "sustiva",
+      "brandName": "Sustiva",
+      "genericName": "efavirenz",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/sustiva.json"
+    },
+    {
+      "id": "symfi",
+      "brandName": "Symfi",
+      "genericName": "efavirenz, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi.json"
+    },
+    {
+      "id": "symfi-lo",
+      "brandName": "Symfi Lo",
+      "genericName": "efavirenz, lamivudine, and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/symfi-lo.json"
+    },
+    {
+      "id": "symtuza",
+      "brandName": "Symtuza",
+      "genericName": "darunavir, cobicistat, emtricitabine, and tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/symtuza.json"
+    },
+    {
+      "id": "tivicay",
+      "brandName": "Tivicay",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay.json"
+    },
+    {
+      "id": "tivicay-pd",
+      "brandName": "Tivicay PD",
+      "genericName": "dolutegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tivicay-pd.json"
+    },
+    {
+      "id": "triumeq",
+      "brandName": "Triumeq",
+      "genericName": "abacavir, dolutegravir, and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq.json"
+    },
+    {
+      "id": "triumeq-pd",
+      "brandName": "Triumeq PD",
+      "genericName": "abacavir, dolutegravir, and lamivudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/triumeq-pd.json"
+    },
+    {
+      "id": "trizivir",
+      "brandName": "Trizivir",
+      "genericName": "abacavir, lamivudine, and zidovudine",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Discontinued",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/trizivir.json"
+    },
+    {
+      "id": "trogarzo",
+      "brandName": "Trogarzo",
+      "genericName": "ibalizumab-uiyk",
+      "condition": "hiv",
+      "drugClass": "Post-Attachment Inhibitor",
+      "status": "Available",
+      "classId": "hiv-post-attachment-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/trogarzo.json"
+    },
+    {
+      "id": "truvada",
+      "brandName": "Truvada",
+      "genericName": "emtricitabine and tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "Combination",
+      "status": "Available",
+      "classId": "hiv-combination",
+      "url": "https://nomadceuticals.com/api/v1/medicines/truvada.json"
+    },
+    {
+      "id": "tybost",
+      "brandName": "Tybost",
+      "genericName": "cobicistat",
+      "condition": "hiv",
+      "drugClass": "Pharmacokinetic Enhancer",
+      "status": "Discontinued",
+      "classId": "hiv-pharmacokinetic-enhancer",
+      "url": "https://nomadceuticals.com/api/v1/medicines/tybost.json"
+    },
+    {
+      "id": "vemlidy",
+      "brandName": "Vemlidy",
+      "genericName": "tenofovir alafenamide",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vemlidy.json"
+    },
+    {
+      "id": "viramune",
+      "brandName": "Viramune",
+      "genericName": "nevirapine",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune.json"
+    },
+    {
+      "id": "viramune-xr",
+      "brandName": "Viramune XR",
+      "genericName": "nevirapine (extended-release)",
+      "condition": "hiv",
+      "drugClass": "NNRTI",
+      "status": "Discontinued",
+      "classId": "hiv-nnrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/viramune-xr.json"
+    },
+    {
+      "id": "viread",
+      "brandName": "Viread",
+      "genericName": "tenofovir disoproxil fumarate",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/viread.json"
+    },
+    {
+      "id": "vocabria",
+      "brandName": "Vocabria",
+      "genericName": "cabotegravir",
+      "condition": "hiv",
+      "drugClass": "INSTI",
+      "status": "Available",
+      "classId": "hiv-insti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/vocabria.json"
+    },
+    {
+      "id": "yeztugo",
+      "brandName": "Yeztugo",
+      "genericName": "lenacapavir",
+      "condition": "hiv",
+      "drugClass": "Capsid Inhibitor",
+      "status": "Available",
+      "classId": "hiv-capsid-inhibitor",
+      "url": "https://nomadceuticals.com/api/v1/medicines/yeztugo.json"
+    },
+    {
+      "id": "ziagen",
+      "brandName": "Ziagen",
+      "genericName": "abacavir",
+      "condition": "hiv",
+      "drugClass": "NRTI",
+      "status": "Available",
+      "classId": "hiv-nrti",
+      "url": "https://nomadceuticals.com/api/v1/medicines/ziagen.json"
+    }
+  ]
+}

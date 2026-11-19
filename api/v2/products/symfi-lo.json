@@ -1,0 +1,160 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/symfi-lo.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "symfi-lo",
+    "brandName": "Symfi Lo",
+    "ingredients": [
+      "efavirenz",
+      "lamivudine",
+      "tenofovir-disoproxil"
+    ],
+    "jurisdiction": "US",
+    "status": "discontinued",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (empty stomach, at bedtime)",
+    "manufacturer": "Viatris (Mylan)",
+    "approval": {
+      "date": "2018-02-05",
+      "year": 2018,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Lower-dose (efavirenz 400 mg) version of Symfi.",
+    "notes": "Brand discontinued.",
+    "attributes": {
+      "abbreviation": "EFV/3TC/TDF",
+      "componentClasses": "NNRTI, NRTI",
+      "isCombination": true,
+      "componentCount": 3,
+      "completeRegimen": true,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": false,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "efavirenz",
+        "name": "efavirenz",
+        "kind": "drug",
+        "classes": [
+          "NNRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Sustiva",
+          "Symfi",
+          "Symfi Lo"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/efavirenz.json"
+      },
+      {
+        "id": "lamivudine",
+        "name": "lamivudine",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Cimduo",
+          "Combivir",
+          "Delstrigo",
+          "Dovato",
+          "Epivir",
+          "Epzicom",
+          "Symfi",
+          "Symfi Lo",
+          "Triumeq",
+          "Triumeq PD",
+          "Trizivir"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/lamivudine.json"
+      },
+      {
+        "id": "tenofovir-disoproxil",
+        "name": "tenofovir disoproxil",
+        "kind": "drug",
+        "classes": [
+          "NRTI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Atripla",
+          "Cimduo",
+          "Complera",
+          "Delstrigo",
+          "Stribild",
+          "Symfi",
+          "Symfi Lo",
+          "Truvada",
+          "Viread"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/tenofovir-disoproxil.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/symfi-lo.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/symfi-lo.json"
+    }
+  }
+}

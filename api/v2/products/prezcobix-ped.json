@@ -1,0 +1,123 @@
+{
+  "api": "NomadCeuticals Medicine Library API",
+  "apiVersion": "v2",
+  "dataVersion": "2.0.0",
+  "released": "2026-10-23",
+  "license": "CC-BY-4.0",
+  "attribution": "Data from NomadCeuticals (https://github.com/nr1webdevelopment/pocket-formulary), CC BY 4.0",
+  "disclaimer": "For general reference only, not medical advice. Approval status and uses differ by country; check the official label and ask a clinician or pharmacist.",
+  "links": {
+    "self": "https://nomadceuticals.com/api/v2/products/prezcobix-ped.json",
+    "index": "https://nomadceuticals.com/api/v2/index.json",
+    "docs": "https://nomadceuticals.com/api/"
+  },
+  "data": {
+    "id": "prezcobix-ped",
+    "brandName": "Prezcobix PED",
+    "ingredients": [
+      "darunavir",
+      "cobicistat"
+    ],
+    "jurisdiction": "US",
+    "status": "available",
+    "form": "Tablet",
+    "route": "Oral",
+    "dosingFrequency": "Once daily (with food)",
+    "manufacturer": "Johnson & Johnson (Janssen)",
+    "approval": {
+      "date": "2026-02-27",
+      "year": 2026,
+      "application": null
+    },
+    "indications": [
+      "hiv"
+    ],
+    "controlled": null,
+    "description": "Pediatric-dose version of Prezcobix.",
+    "notes": "New in 2026.",
+    "attributes": {
+      "abbreviation": "DRV/COBI",
+      "componentClasses": "PI, Pharmacokinetic Enhancer",
+      "isCombination": true,
+      "componentCount": 2,
+      "completeRegimen": false,
+      "use": "Treatment",
+      "longActing": false,
+      "pediatricVersion": true,
+      "lastVerified": "2026-10-20"
+    },
+    "sources": [
+      {
+        "url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/fda-approved-hiv-medicines",
+        "title": "Original source (API v1)",
+        "type": "reference"
+      }
+    ],
+    "ingredientDetails": [
+      {
+        "id": "darunavir",
+        "name": "darunavir",
+        "kind": "drug",
+        "classes": [
+          "PI"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Prezcobix",
+          "Prezcobix PED",
+          "Prezista",
+          "Symtuza"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/darunavir.json"
+      },
+      {
+        "id": "cobicistat",
+        "name": "cobicistat",
+        "kind": "drug",
+        "classes": [
+          "Pharmacokinetic Enhancer"
+        ],
+        "fda": {
+          "status": "approved",
+          "label": "FDA approved"
+        },
+        "approvedFor": [
+          "hiv"
+        ],
+        "offLabelFor": [],
+        "controlled": {},
+        "brands": [
+          "Evotaz",
+          "Genvoya",
+          "Prezcobix",
+          "Prezcobix PED",
+          "Stribild",
+          "Symtuza",
+          "Tybost"
+        ],
+        "tier": "curated",
+        "review": "unverified",
+        "usesComplete": false,
+        "url": "https://nomadceuticals.com/api/v2/ingredients/cobicistat.json"
+      }
+    ],
+    "indicationNames": [
+      "HIV (treatment and prevention)"
+    ],
+    "links": {
+      "self": "https://nomadceuticals.com/api/v2/products/prezcobix-ped.json",
+      "v1": "https://nomadceuticals.com/api/v1/medicines/prezcobix-ped.json"
+    }
+  }
+}
