@@ -1,0 +1,1330 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "can",
+  "providers": [
+    {
+      "id": "cn-can-eighth-peoples-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Guangzhou Eighth People's Hospital (Guangzhou Medical University)",
+        "zh-Hans": "广州医科大学附属市八医院（广州市第八人民医院）"
+      },
+      "organization": "Guangzhou Eighth People's Hospital, Guangzhou Medical University",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Yuexiu",
+        "address": {
+          "en": "627 Dongfeng East Road, Yuexiu District, Guangzhou (Dongfeng campus)",
+          "zh-Hans": "广州市越秀区东风东路627号（东风院区）"
+        },
+        "postcode": null,
+        "locationNote": "Second campus: Jiahe campus, 8 Huaying Road, Baiyun District (白云区华英路8号), inquiries +86 20 3655 4252, emergency +86 20 3605 2120. In 2021 the PrEP/PEP clinic was on the 2nd floor of the infection clinic at the Dongfeng campus.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8383 8688"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "Guangzhou's infectious-disease hospital and one of its four designated HIV antiretroviral treatment hospitals, which run the city's HIV PrEP/PEP clinics. In 2021 the clinic saw about 2,500 people a year and quoted roughly CNY 300 a month for Chinese-made PrEP and about CNY 2,000 for a course of PEP; PrEP needs an assessment, blood tests and follow-up every 3 months. PEP must start within 72 hours. National free ART generally does not cover foreign nationals, so expect to pay."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.southcn.com/node_54a44f01a2/3e391e58bb.shtml",
+          "title": "艾滋病暴露前预防药物获批一年多却在门诊遇冷 (1 Dec 2021)",
+          "publisher": "Nanfang Daily / Southcn (南方网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://m.gz.bendibao.com/cyfw/49353.html",
+          "title": "广州市第八人民医院（广州市传染病医院）",
+          "publisher": "Guangzhou Bendibao (广州本地宝)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.guahao.cn/hospital/introduction/98673c5e-c720-11e1-913c-5cf9dd2e7135000",
+          "title": "广州医科大学附属市八医院简介",
+          "publisher": "WeDoctor (微医)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-sysu-third-affiliated-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "The Third Affiliated Hospital of Sun Yat-sen University",
+        "zh-Hans": "中山大学附属第三医院"
+      },
+      "organization": "Sun Yat-sen University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Tianhe",
+        "address": {
+          "en": "600 Tianhe Road, Tianhe District, Guangzhou"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8525 3333"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "One of Guangzhou's four designated HIV antiretroviral treatment hospitals, which run the city's HIV PrEP/PEP clinics. Ask for the infectious diseases department. PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-nanfang-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Nanfang Hospital, Southern Medical University",
+        "zh-Hans": "南方医科大学南方医院"
+      },
+      "organization": "Southern Medical University",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Baiyun",
+        "address": {
+          "en": "1838 Guangzhou Avenue North, Baiyun District, Guangzhou",
+          "zh-Hans": "广州市广州大道北1838号"
+        },
+        "postcode": "510515",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 6164 1114",
+          "+86 20 6164 1888 (appointments)"
+        ],
+        "line": null,
+        "website": "https://www.nfyy.com/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "One of Guangzhou's four designated HIV antiretroviral treatment hospitals, which run the city's HIV PrEP/PEP clinics. PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.nfyy.com/",
+          "title": "南方医科大学南方医院",
+          "publisher": "Nanfang Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-panyu-central-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Panyu District Central Hospital",
+        "zh-Hans": "广州市番禺区中心医院"
+      },
+      "organization": "Panyu District Central Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Panyu",
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "One of Guangzhou's four designated HIV antiretroviral treatment hospitals, which run the city's HIV PrEP/PEP clinics. Address and phone not found in the sources used; check before going. PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-yuncheng-chc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Yuncheng Street Community Health Service Center (Baiyun)",
+        "zh-Hans": "白云区云城街社区卫生服务中心"
+      },
+      "organization": "Baiyun District, Guangzhou",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Baiyun",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市白云区齐富路27号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 199 2831 0705"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV testing: Mon–Fri 08:00–11:00, 14:00–16:30 (book via the 查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "Opened Guangdong's first community-level HIV PrEP/PEP clinic in August 2025 and is listed as a VCT site (free counselling and initial screening). PEP must start within 72 hours; clinic hours are short, so outside them use a designated hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-united-family-hospital",
+      "conditions": [
+        "hiv",
+        "adhd",
+        "diabetes"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Guangzhou United Family Hospital",
+        "zh-Hans": "广州和睦家医院"
+      },
+      "organization": "United Family Healthcare",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": "Pazhou",
+        "district": "Haizhu",
+        "address": {
+          "en": "31 Pazhou Avenue, Haizhu District, Guangzhou 510335"
+        },
+        "postcode": "510335",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 400 891 9191 (24-hour service centre)",
+          "+86 20 3610 2333 (24-hour urgent care)"
+        ],
+        "line": null,
+        "website": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+        "email": null,
+        "booking": null
+      },
+      "hours": "24-hour emergency department.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "third_party",
+        "note": "International private hospital with a 24-hour emergency department, English and multilingual patient support and direct billing with participating insurers. HIV: named in December 2025 as also running an HIV PrEP/PEP clinic. ADHD: its Mental Health department (psychiatrists including a child and adolescent psychiatrist) assesses and treats ADHD in children and adolescents; adult ADHD is not listed. Diabetes: endocrinologists are on staff; call to confirm diabetes clinics. Fees are high without insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://guangzhou.ufh.com.cn/locations/guangzhou-united-family-hospital?lang=en",
+          "title": "Guangzhou United Family Hospital",
+          "publisher": "United Family Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.ufh.com.cn/department_city/mental-health?lang=en",
+          "title": "Mental Health — Guangzhou United Family",
+          "publisher": "United Family Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://huacheng.gz-cmc.com/pages/2025/12/01/SF14775509371bcdd7e4e9434db97c6a.html",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Guangzhou Daily / Huacheng (广州日报·花城+)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://news.dayoo.com/gzrbrmt/202512/01/170638_54900513.htm",
+          "title": "全省首创社区HIV暴露前后预防门诊，广州创新提升艾滋病防控服务可及性 (1 Dec 2025)",
+          "publisher": "Dayoo (大洋网)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.medbridgenz.com/hospital-profiles/guangzhou-united-family-hospital",
+          "title": "Guangzhou United Family Hospital",
+          "publisher": "MedBridge NZ",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-guangzhou-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Guangzhou Center for Disease Control and Prevention",
+        "zh-Hans": "广州市疾病预防控制中心"
+      },
+      "organization": "Guangzhou Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Baiyun",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市白云区启德路1号5号楼215室"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 159 2018 1069"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon and Tue 09:00–11:00, 14:30–16:30; book at least a day ahead (查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese. Official WeChat account for HIV information: 广州疾控i健康."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-yuexiu-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Yuexiu District Center for Disease Control and Prevention",
+        "zh-Hans": "广州市越秀区疾病预防控制中心"
+      },
+      "organization": "Yuexiu District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Yuexiu",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市越秀区较场西路23号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8383 4655"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Thu 09:00–11:30, 14:30–16:30 (book via the 查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-haizhu-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Haizhu District Center for Disease Control and Prevention",
+        "zh-Hans": "广州市海珠区疾病预防控制中心"
+      },
+      "organization": "Haizhu District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Haizhu",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市海珠区广州大道南1696号四楼"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8420 1471"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–11:30, 14:00–17:00; booking required (查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-baiyun-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Baiyun District Center for Disease Control and Prevention",
+        "zh-Hans": "广州市白云区疾病预防控制中心"
+      },
+      "organization": "Baiyun District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Baiyun",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市白云区均禾街新石路84号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8640 5314",
+          "+86 138 0254 9849"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–11:30, 13:30–15:30; book at least 2 hours ahead (查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-panyu-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Panyu District Center for Disease Control and Prevention — Red Ribbon Centre",
+        "zh-Hans": "广州市番禺区疾病预防控制中心 红丝带中心"
+      },
+      "organization": "Panyu District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Panyu",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市番禺区市桥街德胜路71号1楼红丝带中心"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8462 5340"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:30–11:30, 14:30–17:30 (book via the 查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-liwan-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Liwan District Center for Disease Control and Prevention",
+        "zh-Hans": "广州市荔湾区疾病预防控制中心"
+      },
+      "organization": "Liwan District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Liwan",
+        "address": {
+          "en": null,
+          "zh-Hans": "广州市荔湾区中山八路周门西街32号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8102 0099"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–11:30, 14:30–17:00 (book via the 查呗 WeChat mini program).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-brain-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "can",
+      "name": {
+        "en": "The Affiliated Brain Hospital of Guangzhou Medical University (Guangzhou Huiai Hospital)",
+        "zh-Hans": "广州医科大学附属脑科医院（广州市惠爱医院）"
+      },
+      "organization": "Guangzhou Medical University",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Liwan",
+        "address": {
+          "en": "36 Mingxin Road, Fangcun, Liwan District, Guangzhou"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8189 1425"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Guangzhou's main public psychiatric hospital. A doctor directory lists child and adolescent psychiatrists and psychiatrists for childhood ADHD; its clinicians also lead adult ADHD work, but no source confirms an adult ADHD clinic or which medicines it prescribes. Consultations are in Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.haodf.com/hospital/449/tuijian-xiaoerduodongzheng.html",
+          "title": "广州医科大学附属脑科医院 小儿多动症推荐专家",
+          "publisher": "Haodf (好大夫在线)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://ufh.com.cn/en/%E7%B2%BE%E7%A5%9E%E5%BF%83%E7%90%86%E7%A7%91%E5%A4%A7%E5%92%96%E9%BD%90%E8%81%9A%E5%92%8C%E7%9D%A6%E5%AE%B6%EF%BC%8Cadhd%E8%A7%84%E8%8C%83%E5%8C%96%E8%AF%8A%E7%96%97%E5%AD%A6%E6%9C%AF%E7%A0%94/",
+          "title": "精神心理科大咖齐聚和睦家，ADHD规范化诊疗学术研讨会成功举办 (6 Jul 2024)",
+          "publisher": "United Family Healthcare",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-women-childrens-medical-center",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Guangzhou Women and Children's Medical Center",
+        "zh-Hans": "广州市妇女儿童医疗中心"
+      },
+      "organization": "Guangzhou Women and Children's Medical Center (Guangzhou Medical University)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Yuexiu",
+        "address": {
+          "en": "318 Renmin Middle Road, Yuexiu District, Guangzhou (Children's campus)",
+          "zh-Hans": "人民中路318号（儿童院区）"
+        },
+        "postcode": null,
+        "locationNote": "Other campuses: Zhujiang New Town (金穗路9号), Baiyun (新达路91-93号) and Zengcheng (增城大道293号); the behavioural development department assesses children at all four.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8188 6332"
+        ],
+        "line": null,
+        "website": "https://www.gzfezx.com/",
+        "email": "fezxllb@163.com",
+        "booking": "https://guahao.wjw.gz.gov.cn/"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Children only. ADHD: the Behavioural Development department (行为发育科) diagnoses, assesses and treats ADHD, with behaviour training for preschool children and executive-function courses for school-age children; the source doesn't mention medication. Diabetes: the Genetics and Endocrinology department runs a childhood diabetes diagnosis and treatment centre (a National Health Commission partner centre for integrated diabetes management). Book through the city's unified booking system."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.gzfezx.com/division/show/207.html",
+          "title": "行为发育科",
+          "publisher": "Guangzhou Women and Children's Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gzfezx.com/division/show/114.html",
+          "title": "遗传内分泌科",
+          "publisher": "Guangzhou Women and Children's Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gzfezx.com/",
+          "title": "广州市妇女儿童医疗中心",
+          "publisher": "Guangzhou Women and Children's Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-can-guangdong-provincial-peoples-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "can",
+      "name": {
+        "en": "Guangdong Provincial People's Hospital — Endocrinology",
+        "zh-Hans": "广东省人民医院 内分泌科"
+      },
+      "organization": "Guangdong Provincial People's Hospital (Guangdong Academy of Medical Sciences)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Guangzhou",
+        "area": null,
+        "district": "Yuexiu",
+        "address": {
+          "en": "106 Zhongshan Er Road, Yuexiu District, Guangzhou",
+          "zh-Hans": "广州市中山二路106号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 20 8382 7812"
+        ],
+        "line": null,
+        "website": "https://www.gdghospital.org.cn/Specialistthree/index_subjectid_20.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Endocrinology department with 40 beds, treating diabetes and thyroid, adrenal, pituitary and other endocrine diseases (about 1,500 inpatients a year). The hospital also has the Guangzhou Concord Medical Centre, a general practice service with English-speaking staff (Australian consulate list)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.gdghospital.org.cn/Specialistthree/index_subjectid_20.html",
+          "title": "内分泌科",
+          "publisher": "Guangdong Provincial People's Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gdghospital.org.cn/",
+          "title": "广东省人民医院",
+          "publisher": "Guangdong Provincial People's Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

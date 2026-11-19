@@ -1,0 +1,1504 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "rom",
+  "providers": [
+    {
+      "id": "it-rom-inmi-spallanzani-chip",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "CHIP – Centro di Prevenzione e Cura HIV e IST (INMI Lazzaro Spallanzani)"
+      },
+      "organization": "INMI Lazzaro Spallanzani IRCCS",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Via Portuense 292, 00149 Roma"
+        },
+        "postcode": "00149",
+        "locationNote": "Padiglione Centrale, main hall, ground floor (formerly 'Stanza 13'). Out-of-hours PEP: the Institute's Accettazione, Via Giacomo Folchi 6/A, open 24/7.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 55170 1"
+        ],
+        "line": null,
+        "website": "https://www.inmi.it/servizio/craids",
+        "email": "stanza13@inmi.it",
+        "booking": null
+      },
+      "hours": "Reception Mon–Sat 08:30–13:00 (not public holidays); counselling, rapid tests and STI screening Mon–Sat 08:00–13:00 and Wed 14:00–15:30; symptomatic STI walk-ins 08:30–10:30. Accettazione open 24/7 for urgent PEP.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Lazio's regional HIV/AIDS reference centre. Free HIV test (lab or 15–20 minute rapid test), confidential or anonymous on request, no GP referral needed; book by emailing stanza13@inmi.it with your name, tax code (codice fiscale), phone and reason. PEP is walk-in (start within 72 hours, ideally 48) and free to assess; out of hours use the 24/7 Accettazione. PrEP: free first consultation, same-day start if suitable; follow-up visits and tests carry the SSN co-payment (ticket) unless exempt. Rapid ART start after a new diagnosis and re-linkage for people who stopped ART. STI tests and specialist visits carry the ticket. Doxy-PEP in selected cases. The page says nothing about visitors or non-residents."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.inmi.it/servizio/craids",
+          "title": "CHIP – Centro di Prevenzione e Cura HIV e IST",
+          "publisher": "INMI Lazzaro Spallanzani IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://testfinder.info/centers/ambulatorio-stanza13-spallanzani",
+          "title": "Ambulatorio stanza13 Spallanzani",
+          "publisher": "Testfinder (EACS/ECDC-supported directory)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-umberto-i-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Malattie Infettive – Policlinico Umberto I"
+      },
+      "organization": "Azienda Ospedaliero-Universitaria Policlinico Umberto I (Sapienza)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Viale del Policlinico 155, 00161 Roma"
+        },
+        "postcode": "00161",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 4997 0801"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:00–13:00 (Testfinder, 2021).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Testfinder (last updated December 2021) lists free HIV testing (venous blood), ART, PrEP and PEP, hepatitis and STI testing and treatment, by appointment with no referral needed. STI and hepatitis tests are free only if you're exempt. The hospital's own pages couldn't be opened, so call to confirm current services and how to book."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.testfinder.info/centers/policlinico-umberto-i",
+          "title": "Policlinico Umberto I",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-gemelli-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "UOC Malattie Infettive – Policlinico Gemelli"
+      },
+      "organization": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Largo Agostino Gemelli 8, 00168 Roma"
+        },
+        "postcode": "00168",
+        "locationNote": "Complesso CEMI, Ala S (outpatients and day hospital ground and first floors).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 3015 4735",
+          "+39 06 3015 4861",
+          "+39 06 9939"
+        ],
+        "line": null,
+        "website": "https://www.policlinicogemelli.it/reparti/malattie-infettive",
+        "email": "ambulatorio.malattieinfettive@policlinicogemelli.it",
+        "booking": null
+      },
+      "hours": "Outpatient booking line Mon and Thu 13:00–14:00; ReCUP 06 99 39 Mon–Fri 07:30–19:30, Sat 07:30–13:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV outpatient clinic and AIDS reference centre: monitoring, antiretroviral therapy including long-acting regimens, hepatitis co-infection and prophylaxis; home-care unit for eligible patients. By appointment only: the first visit is booked through the regional ReCUP, follow-ups with the specialist. Testing, PrEP and PEP aren't described on the page."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.policlinicogemelli.it/reparti/malattie-infettive",
+          "title": "Malattie Infettive",
+          "publisher": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-ifo-san-gallicano-mst-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Dermatologia Infettiva – Centro MST e Ambulatorio HIV (Istituto San Gallicano)"
+      },
+      "organization": "IFO – Istituti Fisioterapici Ospitalieri (Istituto Dermatologico San Gallicano IRCCS)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Mostacciano",
+        "address": {
+          "en": "Via Elio Chianesi 53, 00144 Roma"
+        },
+        "postcode": "00144",
+        "locationNote": "Closest access to the clinics is from Via Fermo Ognibene 23.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 5266 2807",
+          "+39 06 9939"
+        ],
+        "line": null,
+        "website": "https://www.ifo.it/attivita-cliniche/ambulatori-di-dermatologia/dermatologia-infettiva/",
+        "email": "mst.hiv@ifo.it",
+        "booking": "https://pensarapido.ifo.it/"
+      },
+      "hours": "Mon–Fri (closed weekends). Testfinder lists testing Mon–Fri 08:30–11:00. HAART pick-up Thu 14:30–16:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "STI centre (prevention, diagnosis and treatment) and a third-level HIV/AIDS clinic covering diagnosis to treatment, with antiretroviral pick-up. IFO says outpatient visits are free and booked through CUP (06 9939); Testfinder (updated November 2025) lists free HIV, hepatitis and STI testing, walk-in or by appointment, no referral. Also sees minors with suspected sexually acquired infections. PrEP and PEP aren't mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ifo.it/attivita-cliniche/ambulatori-di-dermatologia/dermatologia-infettiva/",
+          "title": "Dermatologia Infettiva (Centro MST, Ambulatorio HIV-AIDS)",
+          "publisher": "IFO – Istituto Dermatologico San Gallicano IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.testfinder.info/centers/dermatologia-msthiv-ifo-istituto-dermatologico-san-gallicano-irccs-1/",
+          "title": "Dermatologia MST/HIV – IFO Istituto Dermatologico San Gallicano IRCCS",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-roma-checkpoint",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Roma Checkpoint"
+      },
+      "organization": "Roma Checkpoint",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Via Galvani 51F, Roma"
+        },
+        "postcode": null,
+        "locationNote": "Entrance on the #Rainbowall side.",
+        "nearestTransit": "Piramide (Metro B)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 713 713"
+        ],
+        "line": null,
+        "website": "https://www.romacheckpoint.com",
+        "email": "romacheckpoint@gmail.com",
+        "booking": "https://romacheckpoint.setmore.com"
+      },
+      "hours": "Evening sessions; check the booking site (Arcigay listed 18:30–20:30 sessions in April 2024).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Community testing point: rapid, anonymous, free 4th-generation HIV finger-prick test (result in about 20 minutes) and a rapid syphilis test. Book online (Setmore) or through the Gay Help Line 800 713 713 (toll-free in Italy). The site also has information pages on PEP, PrEP and LGBT-friendly doctors but doesn't say they're provided here."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "msm"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.romacheckpoint.com",
+          "title": "Roma Checkpoint",
+          "publisher": "Roma Checkpoint",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.arcigay.it/en/articoli/dove-e-quando-fare-il-test-hiv/",
+          "title": "Where and when to take the HIV test",
+          "publisher": "Arcigay",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://testfinder.info/centers/roma-checkpoint",
+          "title": "Roma Checkpoint",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-checkpoint-plus-roma",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Checkpoint Plus Roma"
+      },
+      "organization": "Plus Roma APS",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Via Isernia 4, 00182 Roma"
+        },
+        "postcode": "00182",
+        "locationNote": "Via Isernia 4 is Plus Roma's registered address, listed by Testfinder as the testing site; Plus Roma shows the way in a video on its site.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 7978 1821"
+        ],
+        "line": null,
+        "website": "https://www.plusroma.it/checkpoint/",
+        "email": "checkpoint@plusroma.it",
+        "booking": "https://checkpoint.plusroma.it/prenota/"
+      },
+      "hours": "Phone line Tue and Thu 18:00–21:00 (Plus Roma). Testfinder (2021) lists testing Mon and Thu 18:00–21:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Community-run checkpoint: free, anonymous rapid HIV and syphilis tests (Testfinder also lists HCV), with counselling and referral to care. By appointment only; you don't need to give your real name. The site's description mentions PrEP access but the page doesn't explain it; ask when you call."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.plusroma.it/checkpoint/",
+          "title": "Checkpoint Plus Roma",
+          "publisher": "Plus Roma",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://testfinder.info/centers/checkpoint-plus-roma",
+          "title": "Checkpoint Plus Roma",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-inmp-poliambulatorio",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "INMP – Poliambulatorio (Trastevere)"
+      },
+      "organization": "INMP – Istituto Nazionale per la promozione della salute delle popolazioni Migranti e per il contrasto delle malattie della Povertà",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Trastevere",
+        "address": {
+          "en": "Via delle Fratte di Trastevere 52, Roma"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 5855 8503"
+        ],
+        "line": null,
+        "website": "https://www.inmp.it",
+        "email": "info@inmp.it",
+        "booking": null
+      },
+      "hours": "Reception Mon–Sat 07:30–13:30, Mon–Thu also 14:00–18:00. PrEP clinic Mon and Tue 08:00–10:00. Phone booking Mon–Fri 08:00–12:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "National public institute for migrant health. Runs a PrEP clinic (Mon and Tue mornings) and infectious and tropical diseases visits. Issues STP and ENI codes, which give eligible foreigners without Italian health registration access to National Health Service care; a walk-in STP-ENI clinic serves people without a family doctor. Transcultural mediators on staff. Most clinics need a phone booking."
+      },
+      "populationFocus": [
+        "migrants",
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.inmp.it/eng/content/download/27272/179644/file/Pieghevole%20Carta%20dei%20Servizi%20-%202026.pdf",
+          "title": "Carta dei Servizi 2026 (Poliambulatorio)",
+          "publisher": "INMP – Istituto Nazionale per la promozione della salute delle popolazioni Migranti e per il contrasto delle malattie della Povertà",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-tor-vergata-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "UOC Malattie Infettive – Policlinico Tor Vergata"
+      },
+      "organization": "A.O.U. Policlinico Tor Vergata",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Tor Vergata",
+        "address": {
+          "en": "Viale Oxford 81, 00133 Roma"
+        },
+        "postcode": "00133",
+        "locationNote": "Outpatient clinic: Linea 4, ground floor (access before the bar of Torre 6).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 2090 3437",
+          "+39 06 9939"
+        ],
+        "line": null,
+        "website": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2695-u-o-c-malattie-infettive",
+        "email": "dhmalattieinfettive@ptvonline.it",
+        "booking": null
+      },
+      "hours": "HIV testing Mon–Fri 08:00–11:30; results Tue and Thu 14:00–16:00 (in person only). Clinic Tue and Thu 09:00–12:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free HIV testing with counselling, anonymous and with no referral needed according to a December 2025 report; HIV clinic and day service; STI clinic. First specialist visits are booked through ReCUP (06 99 39). The unit lists a PrEP email (prep@ptvonline.it) but doesn't describe the service. From December 2025 the emergency department also offers HIV/hepatitis screening to adults."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2695-u-o-c-malattie-infettive",
+          "title": "U.O.C. Malattie Infettive",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.quotidianosanita.it/?p=147584",
+          "title": "Hiv. Policlinico e Università Tor Vergata lanciano nuovi servizi per la diagnosi precoce",
+          "publisher": "Quotidiano Sanità",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-tor-vergata-adhd-children",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Centro Specialistico ADHD – Neuropsichiatria Infantile, Policlinico Tor Vergata"
+      },
+      "organization": "A.O.U. Policlinico Tor Vergata",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Tor Vergata",
+        "address": {
+          "en": "Viale Oxford 81, 00133 Roma"
+        },
+        "postcode": "00133",
+        "locationNote": "UOSD Neuropsichiatria Infantile: Torre 6, Linea T6, 4th floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 2090 0249",
+          "+39 06 2090 2721",
+          "+39 06 9939"
+        ],
+        "line": null,
+        "website": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2715-centro-specialistico-per-il-disturbo-del-deficit-attentivo-con-iperattivita",
+        "email": "neuro.infantile@ptvonline.it",
+        "booking": null
+      },
+      "hours": "Clinic phone 13:00–14:30.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Regional reference centre for children and teens up to 18. Assessment with interviews and rating scales, parent training, comorbidity work-up, and the therapeutic plan needed to prescribe methylphenidate (Ritalin) or atomoxetine (Strattera), with dose titration. First visits are booked through the regional ReCUP (06 99 39), usually with a referral (impegnativa); expect waiting lists."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2715-centro-specialistico-per-il-disturbo-del-deficit-attentivo-con-iperattivita",
+          "title": "Centro Specialistico per il Disturbo del Deficit Attentivo con Iperattività",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2716-u-o-s-d-neuropsichiatria-infantile",
+          "title": "U.O.S.D. Neuropsichiatria Infantile",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ptvonline.it/index.php/menu-at/comunicati-stampa/3779-avvio-al-policlinico-tor-vergata-del-centro-di-riferimento-regionale-adhd-per-adulti",
+          "title": "Avvio al Policlinico Tor Vergata del Centro di Riferimento Regionale ADHD per adulti",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-tor-vergata-adhd-adults",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Centro di Riferimento Regionale ADHD per adulti – Policlinico Tor Vergata"
+      },
+      "organization": "A.O.U. Policlinico Tor Vergata",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Tor Vergata",
+        "address": {
+          "en": "Viale Oxford 81, 00133 Roma"
+        },
+        "postcode": "00133",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 9939",
+          "+39 06 2090 1"
+        ],
+        "line": null,
+        "website": "https://www.ptvonline.it/index.php/menu-at/comunicati-stampa/3779-avvio-al-policlinico-tor-vergata-del-centro-di-riferimento-regionale-adhd-per-adulti",
+        "email": "info@ptvonline.it",
+        "booking": null
+      },
+      "hours": "Opened in 2022–23 with two clinic days a month (to be expanded).",
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Lazio's regional reference centre for adult ADHD, in the psychiatry department: diagnosis, treatment pathways and transition from child services. Book through the regional ReCUP (06 99 39) with a referral reading 'Prima visita Psichiatrica, per diagnosi disturbi dell'attenzione'. Limited clinic days, so expect a wait. The 2023 announcement doesn't say whether medication is started here."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ptvonline.it/index.php/menu-at/comunicati-stampa/3779-avvio-al-policlinico-tor-vergata-del-centro-di-riferimento-regionale-adhd-per-adulti",
+          "title": "Avvio al Policlinico Tor Vergata del Centro di Riferimento Regionale ADHD per adulti",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-gemelli-child-neuropsychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Neuropsichiatria Infantile – Policlinico Gemelli"
+      },
+      "organization": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Largo Agostino Gemelli 8, 00168 Roma"
+        },
+        "postcode": "00168",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 8880 5560",
+          "+39 06 8881 8881"
+        ],
+        "line": null,
+        "website": "https://www.policlinicogemelli.it/en/?p=21873",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Paediatric neuropsychiatry unit; behaviour disorders and ADHD are among the conditions treated. Appointments through the National Health Service (SSN booking 06 8880 5560) or privately (06 8881 8881). Medication and waiting times aren't described."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.policlinicogemelli.it/en/?p=21873",
+          "title": "Prof. Eugenio Maria Mercuri – Neuropsichiatria Infantile",
+          "publisher": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-bambino-gesu-neuropsychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Neuropsichiatria dell'Infanzia e dell'Adolescenza – Ospedale Pediatrico Bambino Gesù"
+      },
+      "organization": "Ospedale Pediatrico Bambino Gesù IRCCS",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Piazza Sant'Onofrio 4, Roma"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 6818 1",
+          "+39 06 6859 1"
+        ],
+        "line": null,
+        "website": "https://www.ospedalebambinogesu.it/il-bambino/pediatria-in-pillole/malattie-dalla-a-alla-z/2019/02/20/news/deficit-di-attenzione-e-iperattivita--80083/",
+        "email": "urp@opbg.net",
+        "booking": null
+      },
+      "hours": "CUP booking line Mon–Fri 08:00–16:00, Sat 08:00–12:45.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "The hospital's child and adolescent neuropsychiatry unit publishes its ADHD guidance: clinical diagnosis using developmental history and input from parents and school, with medication for moderate to severe ADHD in school-age children. Book through the CUP (06 6818 1). The ADHD page dates from 2019, so check current pathways."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ospedalebambinogesu.it/il-bambino/pediatria-in-pillole/malattie-dalla-a-alla-z/2019/02/20/news/deficit-di-attenzione-e-iperattivita--80083/",
+          "title": "Deficit di Attenzione e Iperattività",
+          "publisher": "Ospedale Pediatrico Bambino Gesù",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://italy.embassy.gov.au/rome/Englishspeakingdoctors.html",
+          "title": "English speaking doctors in Italy (Rome)",
+          "publisher": "Australian Embassy, Italy",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-santandrea-adhd-adults",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Ambulatorio ADHD adulti – UOC Psichiatria, Ospedale Sant'Andrea"
+      },
+      "organization": "Azienda Ospedaliero-Universitaria Sant'Andrea (Sapienza)",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Via di Grottarossa 1035-1039, Roma"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://ospedalesantandrea.it",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": false,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "third_party",
+        "note": "Adult ADHD clinic in the psychiatry department, open since 2016 (about 30 new patients a year in 2020). A 2020 national survey says the surveyed adult centres prescribe atomoxetine and methylphenidate. The hospital's own pages couldn't be opened, so call the hospital to confirm the clinic still runs and how to book (usually via ReCUP with a psychiatry referral)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://rivistadipsichiatria.it/archivio/3503/articoli/34894",
+          "title": "Survey on centres and procedures for the diagnosis and treatment of adult ADHD in public services in Italy",
+          "publisher": "Rivista di Psichiatria (2020)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.aslroma1.it/uploads/files/57_26_HIV_brochure-ilovepdf-compressed.pdf",
+          "title": "Test HIV – dove farlo (brochure)",
+          "publisher": "ASL Roma 1",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-gemelli-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "UOSD Diabetologia – Policlinico Gemelli"
+      },
+      "organization": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Largo Agostino Gemelli 8, 00168 Roma"
+        },
+        "postcode": "00168",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 9939",
+          "+39 06 8880 5560",
+          "+39 06 8881 8881",
+          "+39 06 3055 612"
+        ],
+        "line": null,
+        "website": "https://www.policlinicogemelli.it/reparti/diabetologia/",
+        "email": "ambulatorio.diabetologia@policlinicogemelli.it",
+        "booking": "https://prenoting.policlinicogemelli.it/"
+      },
+      "hours": "ReCUP 06 99 39 Mon–Fri 07:30–19:30, Sat 07:30–13:00. Prescription renewals for regular patients Wed 15:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Type 1 (injections, insulin pumps, integrated pump-sensor systems), type 2, gestational and pre-existing diabetes in pregnancy (diabeteingravidanza@policlinicogemelli.it), LADA, MODY and other forms; staff certified to insert implantable glucose sensors; multidisciplinary diabetic foot centre with fast-track admission. First visit via ReCUP (SSN) or privately (06 8881 8881). Part of the hospital's Endocrinology and Diabetology area."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.policlinicogemelli.it/reparti/diabetologia/",
+          "title": "Diabetologia (UOSD)",
+          "publisher": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.policlinicogemelli.it/reparti/endocrinologia-diabetologia",
+          "title": "Medicina Interna, Endocrinologia e Diabetologia",
+          "publisher": "Fondazione Policlinico Universitario A. Gemelli IRCCS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-tor-vergata-endocrinology-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "UOC Endocrinologia e Diabetologia – Policlinico Tor Vergata"
+      },
+      "organization": "A.O.U. Policlinico Tor Vergata",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": "Tor Vergata",
+        "address": {
+          "en": "Viale Oxford 81, 00133 Roma"
+        },
+        "postcode": "00133",
+        "locationNote": "Diabetes and pump clinics: Torre 8, Linea T8, 2nd floor. Diabetic foot clinic: Linea 3, Entrata C, 2nd floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 2090 0354",
+          "+39 06 9939"
+        ],
+        "line": null,
+        "website": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2617-u-o-c-endocrinologia-e-diabetologia",
+        "email": "segreteria.dai@ptvonline.it",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Diabetes and complications care, insulin pump therapy with a dedicated pump clinic, therapeutic education, diabetic neuropathy and a complex diabetic foot clinic. First visits through ReCUP (06 99 39); follow-ups booked at the hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ptvonline.it/index.php/mnu-azienda/column-1-azienda/2013-05-23-11-17-37/tutte-le-unita-operative/2617-u-o-c-endocrinologia-e-diabetologia",
+          "title": "U.O.C. Endocrinologia e Diabetologia",
+          "publisher": "Policlinico Tor Vergata",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-campus-bio-medico-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Endocrinologia e Diabetologia – Policlinico Universitario Campus Bio-Medico"
+      },
+      "organization": "Fondazione Policlinico Universitario Campus Bio-Medico",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Via Alvaro del Portillo 200, Roma"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.policlinicocampusbiomedico.it/unita-operativa/endocrinologia-e-diabetologia",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": null,
+        "basis": "third_party",
+        "note": "Endocrinology and diabetology unit: prevention and treatment of diabetes and its chronic complications, and individual and group education courses for type 1 and type 2 diabetes. The university reports the unit uses flash glucose monitoring (FreeStyle Libre 2) and a connected insulin pen. Ask whether a visit is SSN-covered or private when booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.qsalute.it/endocrinologia-diabetologia-campus-bio-medico-roma/",
+          "title": "Endocrinologia Diabetologia Campus Bio-Medico Roma",
+          "publisher": "QSalute",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.unicampus.it/en/news/diabetes-mellitus-smart-pen-for-glucose-monitoring/",
+          "title": "Diabetes mellitus: smart pen for glucose monitoring",
+          "publisher": "Università Campus Bio-Medico di Roma",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-bambino-gesu-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "Diabetologia – Ospedale Pediatrico Bambino Gesù"
+      },
+      "organization": "Ospedale Pediatrico Bambino Gesù IRCCS",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Piazza Sant'Onofrio 4, Roma"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 6818 1",
+          "+39 06 6859 1"
+        ],
+        "line": null,
+        "website": "https://www.ospedalebambinogesu.it/diabete-mellito-tipo-i-89700/",
+        "email": "urp@opbg.net",
+        "booking": null
+      },
+      "hours": "CUP booking line Mon–Fri 08:00–16:00, Sat 08:00–12:45.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Paediatric diabetology centre (head Prof. Stefano Cianfarani) for children and teens with type 1 and other diabetes; publishes a family guide that includes advice on travelling and time zones with pumps. Education is presented as central to care. A child with signs of diabetes such as ketone breath or marked tiredness should be taken to an emergency department (pronto soccorso) straight away."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ospedalebambinogesu.it/diabete-mellito-tipo-i-89700/",
+          "title": "Diabete mellito tipo 1",
+          "publisher": "Ospedale Pediatrico Bambino Gesù",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://img.ospedalebambinogesu.it/images/2023/04/12/094924097-6634ee9d-6f90-4e94-9356-b375005f278b.pdf",
+          "title": "Guida al diabete (Centro di Diabetologia Pediatrica)",
+          "publisher": "Ospedale Pediatrico Bambino Gesù",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://italy.embassy.gov.au/rome/Englishspeakingdoctors.html",
+          "title": "English speaking doctors in Italy (Rome)",
+          "publisher": "Australian Embassy, Italy",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "it-rom-salvator-mundi-international-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "rom",
+      "name": {
+        "en": "UPMC Salvator Mundi International Hospital"
+      },
+      "organization": "UPMC Italy",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IT",
+        "province": "Lazio",
+        "city": "Rome",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Viale delle Mura Gianicolensi 67, 00152 Roma"
+        },
+        "postcode": "00152",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+39 06 588 961"
+        ],
+        "line": null,
+        "website": "https://upmc.it/en/locations/salvator-mundi",
+        "email": "smih_IPS@upmc.it",
+        "booking": null
+      },
+      "hours": "Urgent Care daily 07:30–19:00, no appointment needed.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Private international hospital. Endocrinology treats type 1, type 2 and gestational diabetes (visits, glucose curves, nutrition counselling). Walk-in Urgent Care is a paid service for self-paying or insured patients. International Patient Services (smih_IPS@upmc.it) work in English and Italian; the hospital has agreements with major insurers. Also lists psychiatry and infectious diseases."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": [
+          "English",
+          "Italian"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://upmc.it/en/locations/salvator-mundi",
+          "title": "UPMC Salvator Mundi International Hospital",
+          "publisher": "UPMC Italy",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://upmc.it/hr/locations/salvator-mundi/services/endocrinology",
+          "title": "Endocrinology",
+          "publisher": "UPMC Salvator Mundi International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://upmc.it/hr/locations/salvator-mundi/services/urgent-care",
+          "title": "Urgent Care",
+          "publisher": "UPMC Salvator Mundi International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://upmc.it/hr/locations/salvator-mundi/patients-visitors/international-patient-services",
+          "title": "International Patient Services",
+          "publisher": "UPMC Salvator Mundi International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

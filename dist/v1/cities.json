@@ -4,7 +4,7 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/city.schema.json",
-  "count": 19,
+  "count": 28,
   "data": [
     {
       "code": "bkk",
@@ -529,6 +529,265 @@
         "hiv": "https://www.sida-info-service.org/medical-care-for-foreign-tourists-in-france/",
         "adhd": "https://www.douane.gouv.fr/fiche/le-transport-de-medicaments-en-france-par-des-particuliers",
         "diabetes": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_en.htm"
+      }
+    },
+    {
+      "code": "bom",
+      "file": "mumbai.json",
+      "name": {
+        "en": "Mumbai"
+      },
+      "country": "IN",
+      "countryName": "India",
+      "jurisdiction": "Maharashtra, India",
+      "dialCode": "+91",
+      "timezone": "Asia/Kolkata",
+      "currency": "INR",
+      "localLanguages": [
+        "en"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "In an emergency dial 112 (ambulance, fire and police); the service supports English, Hindi and other languages, and the 112 India app can share your location. Most medicines that need a prescription in the UK also need one in India, so carry your prescription and the original packaging.",
+        "hiv": "Government ART centres run by NACO give people living with HIV free diagnostics and free first-, second- and third-line antiretroviral treatment; Mumbai has ART centres at KEM (Parel), Sion, Nair, J. J., Cooper, Bhabha (Bandra), Rajawadi and other municipal hospitals (Wadia Hospital for children). NACO's guidelines don't say whether non-Indian nationals are covered, so call or visit in OPD hours before relying on them for a refill. PEP should start as soon as possible, ideally within 2 hours and no later than 72 hours after exposure: go to a hospital emergency (casualty) department. NACO's 2022 PrEP guidelines allow PrEP through government ART centres, STI clinics, private infectious-disease clinics and community sites, but its 2025 programme guidelines still list PrEP as 'proposed (when approved)', so free government PrEP is not routinely available; private infectious-disease doctors prescribe it for a fee.",
+        "adhd": "Under a Central Bureau of Narcotics public notice of 17 October 2026, international travellers may bring narcotic or psychotropic (controlled) medicines for personal use, but only the quantity needed for the treatment course prescribed for their stay. Carry a valid prescription that states the medicine name, dose and treatment length, plus other medical documents, and keep them ready for Indian Customs. No fixed quantity limit is given. Substances in Schedule I of the NDPS Rules are prohibited; if you need one, apply to the Narcotics Commissioner well before you travel. In India, these medicines can be supplied to a foreigner only on a medical prescription, by licensed pharmacists. Public options include the Pediatric Neurodevelopmental Centre at Sion Hospital, which screens children for ADHD; private hospitals such as Bombay Hospital and Hinduja assess children, and Amaha offers adult ADHD assessments.",
+        "diabetes": "KEM Hospital runs diabetes and diabetic foot clinics on Monday, Tuesday, Friday and Saturday mornings; private hospitals such as Bombay Hospital (adults and children, CGM), Hinduja and Lilavati have endocrinology services for a fee. Bring your prescription and the original packaging for insulin and supplies: most medicines that need a prescription in the UK also need one in India."
+      },
+      "noteSources": {
+        "general": "https://www.gov.uk/foreign-travel-advice/india/health",
+        "hiv": "https://www.aidsdatahub.org/sites/default/files/resource/naco-national-guidelines-hiv-care-and-treatment-2021.pdf",
+        "adhd": "https://cbn.gov.in/pdf/notification/PN-Foreign_Traveler-17-10-2026.pdf",
+        "diabetes": "https://www.gov.uk/foreign-travel-advice/india/health"
+      }
+    },
+    {
+      "code": "can",
+      "file": "guangzhou.json",
+      "name": {
+        "en": "Guangzhou",
+        "zh-Hans": "广州"
+      },
+      "country": "CN",
+      "countryName": "Mainland China",
+      "jurisdiction": "Mainland China",
+      "dialCode": "+86",
+      "timezone": "Asia/Shanghai",
+      "currency": "CNY",
+      "localLanguages": [
+        "zh-Hans"
+      ],
+      "uiLanguage": "zh-Hans",
+      "notes": {
+        "general": "Healthcare is not free in China and can be very expensive, so have travel and medical insurance. In an emergency call 120 for an ambulance. Mainland China is a separate jurisdiction from Hong Kong and Macau, with its own medicine rules; prescriptions from Hong Kong or abroad are generally not accepted. Guangzhou United Family Hospital (Pazhou) has a 24-hour emergency department and English-speaking staff, and Clifford Hospital in Panyu has an international hotline and a 24-hour emergency line; most public hospitals work in Chinese only.",
+        "hiv": "Guangzhou's HIV PrEP/PEP clinics are at the four designated HIV treatment hospitals (Guangzhou Eighth People's Hospital, the Third Affiliated Hospital of Sun Yat-sen University, Nanfang Hospital and Panyu District Central Hospital), at Yuncheng Street Community Health Service Center in Baiyun (since August 2025) and at Guangzhou United Family Hospital. Guangzhou CDC and the district CDCs offer HIV testing; most take bookings through the 查呗 WeChat mini program. China lifted its entry ban on people with HIV in 2010. PEP should start as soon as possible, ideally within 2 hours and no later than 72 hours, and is taken for 28 days. Voluntary HIV counselling and initial screening are free under national policy. China's free antiretroviral treatment does not cover foreign nationals (except some in cross-border marriages): they pay for treatment or get it at home, so bring enough HIV medicine for your whole stay.",
+        "adhd": "Methylphenidate (e.g. Concerta, Ritalin) is a Category 1 psychotropic medicine in Mainland China and is marked on the official list as produced and used in China. Amphetamine and dexamfetamine (e.g. Adderall, Dexedrine) are also Category 1 psychotropics but aren't marked as produced or used in China; lisdexamfetamine (Vyvanse) isn't on the 2013 list, so check with a Chinese embassy before travelling with it. Atomoxetine isn't on the 2013 narcotic or psychotropic lists. China Customs says you can carry narcotic and Category 1 psychotropic medicines for your own treatment only with a medical diagnosis certificate from a medical institution and proof of identity, and only up to the most allowed on one Chinese prescription (Customs gives 3 days' supply for most forms and 7 days for controlled-release forms). These medicines can't be sent by post. In Guangzhou, the Affiliated Brain Hospital of Guangzhou Medical University and Guangzhou Women and Children's Medical Center assess children; Guangzhou United Family Hospital's mental health team sees children and teenagers with ADHD in English.",
+        "diabetes": "Bring enough insulin, other diabetes medicines and supplies for your trip: the UK government warns that some medicines may not be available in China. Large public hospitals such as Guangdong Provincial People's Hospital run endocrinology and diabetes clinics, mostly in Chinese; Guangzhou Women and Children's Medical Center has a childhood diabetes centre. For a diabetes emergency, call 120 or go to an emergency department; Guangzhou United Family Hospital's is open 24 hours."
+      },
+      "noteSources": {
+        "general": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+        "hiv": "https://ncaids.chinacdc.cn/sjb/wjgf/202011/W020201116802422550750.pdf",
+        "adhd": "https://news.qq.com/rain/a/20220311A06RX400",
+        "diabetes": "https://gov.uk/foreign-travel-advice/china/health"
+      }
+    },
+    {
+      "code": "del",
+      "file": "delhi.json",
+      "name": {
+        "en": "Delhi"
+      },
+      "country": "IN",
+      "countryName": "India",
+      "jurisdiction": "Delhi, India",
+      "dialCode": "+91",
+      "timezone": "Asia/Kolkata",
+      "currency": "INR",
+      "localLanguages": [
+        "en"
+      ],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "In an emergency dial 112 (ambulance, fire and police); the service supports English, Hindi and other languages, and the 112 India app can share your location. Most medicines that need a prescription in the UK also need one in India, so carry your prescription and the original packaging.",
+        "hiv": "Government ART centres run by NACO give people living with HIV free diagnostics and free first-, second- and third-line antiretroviral treatment; Delhi has ART centres at AIIMS, Safdarjung, RML, Lok Nayak, GTB, DDU and other government hospitals (Kalawati Saran Children's Hospital for children). NACO's guidelines don't say whether non-Indian nationals are covered, so call or visit in OPD hours before relying on them for a refill. PEP should start as soon as possible, ideally within 2 hours and no later than 72 hours after exposure: go to a hospital emergency (casualty) department. NACO's 2022 PrEP guidelines allow PrEP through government ART centres, STI clinics, private infectious-disease clinics and community sites, but its 2025 programme guidelines still list PrEP as 'proposed (when approved)', so free government PrEP is not routinely available; private infectious-disease doctors prescribe it for a fee.",
+        "adhd": "Under a Central Bureau of Narcotics public notice of 17 October 2026, international travellers may bring narcotic or psychotropic (controlled) medicines for personal use, but only the quantity needed for the treatment course prescribed for their stay. Carry a valid prescription that states the medicine name, dose and treatment length, plus other medical documents, and keep them ready for Indian Customs. No fixed quantity limit is given. Substances in Schedule I of the NDPS Rules are prohibited; if you need one, apply to the Narcotics Commissioner well before you travel. In India, these medicines can be supplied to a foreigner only on a medical prescription, by licensed pharmacists. Public child psychiatry runs through weekly child guidance clinics (for example AIIMS and IHBAS) with morning or early-afternoon token queues; private clinics such as Children First and Sir Ganga Ram's Child Development Clinic assess children for ADHD.",
+        "diabetes": "Government hospitals (AIIMS, Safdarjung, Lok Nayak) run diabetes and endocrinology clinics, including paediatric clinics, on set weekdays with morning registration. Private hospitals such as Sir Ganga Ram, Fortis C-DOC and Apollo offer insulin pump and CGM care for a fee. Bring your prescription and the original packaging for insulin and supplies: most medicines that need a prescription in the UK also need one in India."
+      },
+      "noteSources": {
+        "general": "https://www.gov.uk/foreign-travel-advice/india/health",
+        "hiv": "https://www.aidsdatahub.org/sites/default/files/resource/naco-national-guidelines-hiv-care-and-treatment-2021.pdf",
+        "adhd": "https://cbn.gov.in/pdf/notification/PN-Foreign_Traveler-17-10-2026.pdf",
+        "diabetes": "https://www.gov.uk/foreign-travel-advice/india/health"
+      }
+    },
+    {
+      "code": "hkt",
+      "file": "phuket.json",
+      "name": {
+        "en": "Phuket",
+        "th": "ภูเก็ต"
+      },
+      "country": "TH",
+      "countryName": "Thailand",
+      "jurisdiction": "Thailand",
+      "dialCode": "+66",
+      "timezone": "Asia/Bangkok",
+      "currency": "THB",
+      "localLanguages": [
+        "th"
+      ],
+      "uiLanguage": "th",
+      "notes": {
+        "general": "The Australian Embassy lists Bangkok Hospital Phuket and Bangkok Hospital Siriroj (Phuket International Hospital) in Phuket Town as private hospitals where English is spoken. Vachira Phuket Hospital is the province's main government hospital.",
+        "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. Free PrEP under Thailand's universal health coverage scheme is for eligible Thai citizens, so visitors should expect to pay at private clinics and hospitals.",
+        "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in, even for personal use. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine: you may bring up to 30 days' supply for your own use, in its original packaging, with your doctor's prescription or medical document. Don't bring more than 30 days' supply without checking with the Thai FDA first. To get more in Thailand you need a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel. In Phuket, Bangkok Hospital Phuket's Children Clinic lists ADHD; no adult ADHD service is confirmed yet.",
+        "diabetes": "You can bring up to 30 days' supply of your medicines, in original labelled packaging, and medical devices in the quantities you need for personal use. Bangkok Hospital Phuket has a diabetes and endocrine centre with endocrinologists; Vachira Phuket Hospital runs a public diabetes clinic."
+      },
+      "noteSources": {
+        "general": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+        "hiv": "https://english.redcross.or.th/news/medical-and-health-care-services/5794/",
+        "adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf",
+        "diabetes": "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/"
+      }
+    },
+    {
+      "code": "prg",
+      "file": "prague.json",
+      "name": {
+        "en": "Prague"
+      },
+      "country": "CZ",
+      "countryName": "Czech Republic",
+      "jurisdiction": "Czech Republic",
+      "dialCode": "+420",
+      "timezone": "Europe/Prague",
+      "currency": "CZK",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Anyone who needs urgent medical care in the Czech Republic is entitled to it, insured or not, but you may be billed afterwards depending on your insurance. For an emergency call 155. A prescription from a doctor in another EU country is valid in Czech pharmacies, though the medicine may have another name or be unavailable.",
+        "hiv": "PEP should start as soon as possible, ideally within 48 hours: the HIV centres at Nemocnice Na Bulovce (weekdays 06:30–14:00) and ÚVN Střešovice give it. PEP and PrEP are not covered by Czech health insurance (PEP exceptions: crime victims and healthcare workers injured at work), so visitors should expect to pay. PrEP is prescribed at Prague's HIV centres and a few clinics (Bulovka, ÚVN, Motol, ČSAP's PrEP Point, Medicentrum); some only see people with particular Czech insurers. ČSAP's CheckPoint in Karlín offers free, anonymous HIV tests without an appointment, open to foreigners; from 14 October to 31 December 2026 its syphilis and hepatitis tests are temporarily charged.",
+        "adhd": "If you live in another Schengen country, carry the Schengen certificate (Article 75) from your home authorities: one per controlled medicine, valid for up to 30 days. For travel from outside Schengen or longer stays, check in advance with the Ministry of Health's Inspectorate for Narcotic and Psychotropic Substances (opl@mzd.gov.cz, +420 224 972 710). Czech prescriptions for highly addictive substances are issued as 'blue stripe' ePrescriptions with mandatory record-keeping. English-speaking private clinics in Prague see children with ADHD, but Canadian Medical says it doesn't specialise in adult ADHD.",
+        "diabetes": "IKEM and the VFN diabetes centre are Prague's main public diabetes centres; VFN's children's clinic runs a weekly paediatric diabetology session. Private clinics such as Canadian Medical and Unicare see self-paying visitors and bill some international insurers directly. In an emergency call 155. Prescriptions from other EU countries can be filled in Czech pharmacies."
+      },
+      "noteSources": {
+        "general": "https://www.aids-pomoc.cz/english",
+        "hiv": "https://www.chciprep.cz/nemocnice-na-bulovce-hiv-centrum",
+        "adhd": "https://eur-lex.europa.eu/eli/dec/1994/28(3)/oj",
+        "diabetes": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_en.htm"
+      }
+    },
+    {
+      "code": "pyx",
+      "file": "pattaya.json",
+      "name": {
+        "en": "Pattaya",
+        "th": "พัทยา"
+      },
+      "country": "TH",
+      "countryName": "Thailand",
+      "jurisdiction": "Thailand",
+      "dialCode": "+66",
+      "timezone": "Asia/Bangkok",
+      "currency": "THB",
+      "localLanguages": [
+        "th"
+      ],
+      "uiLanguage": "th",
+      "notes": {
+        "general": "The Australian Embassy lists government Banglamung Hospital and private Pattaya Memorial Hospital (328/1 Moo 9 Central Pattaya Road, +66 38 488 777) and Pattaya International Hospital (Soi Pattaya 4, Pattaya 2nd Road) as hospitals where English is spoken.",
+        "hiv": "PEP has to start within 72 hours. Go to a clinic that lists PEP or a hospital emergency department. Free PrEP under Thailand's universal health coverage scheme is for eligible Thai citizens, so visitors should expect to pay at private clinics and hospitals.",
+        "adhd": "Amphetamine-based ADHD medicines such as Adderall and dexamphetamine are Category 1 narcotics in Thailand: not available, and they can't be brought in, even for personal use. Methylphenidate (e.g. Ritalin, Concerta) is a controlled Category 2 medicine: you may bring up to 30 days' supply for your own use, in its original packaging, with your doctor's prescription or medical document. Don't bring more than 30 days' supply without checking with the Thai FDA first. To get more in Thailand you need a prescription from a doctor in Thailand. Rules for lisdexamfetamine (Vyvanse) are unclear, so check with the Thai FDA before you travel. In Pattaya, Bangkok Hospital Pattaya's Mental Health Center lists ADHD among the conditions it treats.",
+        "diabetes": "You can bring up to 30 days' supply of your medicines, in original labelled packaging, and medical devices in the quantities you need for personal use. Bangkok Hospital Pattaya has a diabetes and endocrine centre with endocrinologists, diabetes education and foot screening."
+      },
+      "noteSources": {
+        "general": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+        "hiv": "https://english.redcross.or.th/news/medical-and-health-care-services/5794/",
+        "adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf",
+        "diabetes": "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/"
+      }
+    },
+    {
+      "code": "rom",
+      "file": "rome.json",
+      "name": {
+        "en": "Rome"
+      },
+      "country": "IT",
+      "countryName": "Italy",
+      "jurisdiction": "Italy",
+      "dialCode": "+39",
+      "timezone": "Europe/Rome",
+      "currency": "EUR",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Public hospital specialist visits are booked through the Lazio regional booking centre ReCUP (06 99 39), usually with a referral (impegnativa); first visits often carry a co-payment (ticket). A prescription from a doctor in another EU country is valid in Italian pharmacies, but the medicine may have another name or not be available. Foreigners without Italian health registration can get an STP or ENI code for National Health Service care, for example at the INMP clinic in Trastevere.",
+        "hiv": "PEP should start within 72 hours, ideally within 48: walk in at the Spallanzani's CHIP centre (Via Portuense 292, Mon–Sat mornings) or, out of hours, its 24/7 Accettazione at Via Giacomo Folchi 6/A; the PEP assessment and HIV test are free. Since May 2023 PrEP (emtricitabine/tenofovir disoproxil) has been reimbursed by the National Health Service: an infectious disease specialist prescribes it and it's dispensed only by hospital pharmacies. AIFA's rules don't say whether short-term visitors qualify, so ask the PrEP clinic (e.g. Spallanzani, INMP). Free, anonymous rapid HIV tests are offered at community checkpoints such as Roma Checkpoint and Checkpoint Plus Roma.",
+        "adhd": "Methylphenidate (e.g. Ritalin) and atomoxetine (Strattera) are prescribed in Lazio under a therapeutic plan from an authorised centre such as Tor Vergata; for adults, reimbursed methylphenidate is mainly for people who started treatment before 18, and public adult ADHD services are few, with waits. No lisdexamfetamine (Vyvanse/Elvanse) medicine is authorised in Italy; since May 2025 it is a Table I controlled substance and subject to Italy's traveller rules for narcotic medicines. Travellers resident in another Schengen country need their home country's Schengen certificate (Article 75), one per medicine, valid up to 30 days. Others should carry a certificate or prescription from their home country's health authority giving the patient's details, trade name, active ingredient and total quantity, which customs checks on entry.",
+        "diabetes": "Public diabetes centres (Gemelli, Tor Vergata, Campus Bio-Medico) take first visits through ReCUP (06 99 39) or privately. For an urgent problem go to a hospital emergency department (pronto soccorso), or Bambino Gesù for children. UPMC Salvator Mundi's paid Urgent Care (daily 07:30–19:00) sees English-speaking walk-ins. Prescriptions from other EU countries can be filled in Italian pharmacies."
+      },
+      "noteSources": {
+        "general": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_en.htm",
+        "hiv": "https://www.aifa.gov.it/en/-/aifa-approva-rimborsabilita-farmaci-per-la-prep",
+        "adhd": "https://portale.fnomceo.it/wp-content/uploads/2025/05/DECRETO-18-APRILE-25.pdf",
+        "diabetes": "https://www.policlinicogemelli.it/reparti/diabetologia/"
+      }
+    },
+    {
+      "code": "szx",
+      "file": "shenzhen.json",
+      "name": {
+        "en": "Shenzhen",
+        "zh-Hans": "深圳"
+      },
+      "country": "CN",
+      "countryName": "Mainland China",
+      "jurisdiction": "Mainland China",
+      "dialCode": "+86",
+      "timezone": "Asia/Shanghai",
+      "currency": "CNY",
+      "localLanguages": [
+        "zh-Hans"
+      ],
+      "uiLanguage": "zh-Hans",
+      "notes": {
+        "general": "Healthcare is not free in China and can be very expensive, so have travel and medical insurance. In an emergency call 120 for an ambulance. Mainland China is a separate jurisdiction from Hong Kong and Macau, with its own medicine rules; prescriptions from Hong Kong or abroad are generally not accepted. Several Shenzhen hospitals have international departments, including The University of Hong Kong–Shenzhen Hospital (English booking line), Shenzhen People's Hospital, Peking University Shenzhen Hospital (English-language services) and Shenzhen New Frontier United Family Hospital (24-hour emergency department). Public hospital appointments can be booked through the 健康深圳 WeChat mini program; a Chinese-speaking companion helps.",
+        "hiv": "In December 2025 Shenzhen had seven HIV PEP clinics (爱心门诊), set up since 2018 for PEP and PrEP. Shenzhen Third People's Hospital's clinic is open every day including public holidays, and the TCM Anorectal Hospital in Futian is open until 22:30 daily; outside clinic hours, go to an emergency department. District CDCs are among the city's free HIV testing (VCT) sites. China lifted its entry ban on people with HIV in 2010. PEP should start as soon as possible, ideally within 2 hours and no later than 72 hours, and is taken for 28 days. Voluntary HIV counselling and initial screening are free under national policy. China's free antiretroviral treatment does not cover foreign nationals (except some in cross-border marriages): they pay for treatment or get it at home, so bring enough HIV medicine for your whole stay.",
+        "adhd": "Methylphenidate (e.g. Concerta, Ritalin) is a Category 1 psychotropic medicine in Mainland China and is marked on the official list as produced and used in China. Amphetamine and dexamfetamine (e.g. Adderall, Dexedrine) are also Category 1 psychotropics but aren't marked as produced or used in China; lisdexamfetamine (Vyvanse) isn't on the 2013 list, so check with a Chinese embassy before travelling with it. Atomoxetine isn't on the 2013 narcotic or psychotropic lists. China Customs says you can carry narcotic and Category 1 psychotropic medicines for your own treatment only with a medical diagnosis certificate from a medical institution and proof of identity, and only up to the most allowed on one Chinese prescription (Customs gives 3 days' supply for most forms and 7 days for controlled-release forms). These medicines can't be sent by post. In Shenzhen, Shenzhen Kangning Hospital assesses children and adults (adult ADHD bookings have been months ahead), and Shenzhen New Frontier United Family Hospital has English-speaking psychiatrists.",
+        "diabetes": "Bring enough insulin, other diabetes medicines and supplies for your trip: the UK government warns that some medicines may not be available in China. Large public hospitals run endocrinology and diabetes clinics, mostly in Chinese. The University of Hong Kong–Shenzhen Hospital and Shenzhen New Frontier United Family Hospital (24-hour emergency department) have English-speaking services; for a diabetes emergency, call 120 or go to an emergency department."
+      },
+      "noteSources": {
+        "general": "https://gov.uk/foreign-travel-advice/china/health",
+        "hiv": "https://ncaids.chinacdc.cn/sjb/wjgf/202011/W020201116802422550750.pdf",
+        "adhd": "https://news.qq.com/rain/a/20220311A06RX400",
+        "diabetes": "https://gov.uk/foreign-travel-advice/china/health"
+      }
+    },
+    {
+      "code": "tyo",
+      "file": "tokyo.json",
+      "name": {
+        "en": "Tokyo"
+      },
+      "country": "JP",
+      "countryName": "Japan",
+      "jurisdiction": "Japan",
+      "dialCode": "+81",
+      "timezone": "Asia/Tokyo",
+      "currency": "JPY",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "For an ambulance call 119. The Tokyo Metropolitan Government's free Himawari line (03-5285-8181, daily 09:00–20:00, in English, Chinese, Korean, Thai and Spanish) helps you find clinics that speak your language and estimate costs without Japanese insurance. Visitors without Japanese health insurance pay the full bill, so bring travel insurance details.",
+        "hiv": "PEP must start within 72 hours. The national AIDS Clinical Center (JIHS, Shinjuku) gives PEP on weekdays 08:30–14:00; it isn't covered by Japanese insurance and costs ¥20,000 for the first consultation plus ¥10,000 a day for the medicine (¥280,000 for 28 days) plus tax. Outside those hours an emergency doctor may give a few days' supply until you can get to the clinic. Private sexual health clinics also sell PEP and PrEP at your own cost; PLACE TOKYO's MHLW-funded 'PrEP in JAPAN' site lists them. HIV and syphilis tests are free and anonymous at the Tokyo Metropolitan Government's Shinjuku East Exit testing room and ward health centres; you need to book, results take a week and no certificates are issued. Hospital HIV clinics ask new patients for a referral letter (from abroad, in Japanese or English) and suggest bringing a month's supply of your current medicine.",
+        "adhd": "Amphetamine (Adderall) and dexamfetamine are prohibited in Japan: you can't bring them in, even with a prescription. Lisdexamfetamine (Vyvanse) is a stimulant raw material and needs advance permission from the MHLW Narcotics Control Department: apply at least 14 days before you travel (Tokyo accepts no last-minute applications), with the application form, a doctor's certificate dated within 3 months giving the reason you take it, and photos of the packaging. Methylphenidate (Ritalin, Concerta) is a psychotropic: up to 2.16 g of methylphenidate in total needs no paperwork, more needs a doctor's certificate, and psychotropics can't be sent by post. In Japan, Vyvanse is prescribed and dispensed only by doctors and pharmacies registered with a national distribution system, Concerta goes only through registered pharmacies, and Concerta has been in short supply since September 2025.",
+        "diabetes": "You can bring up to one month's supply of insulin or other self-injected medicine with its syringes without an import certificate. For more, apply for a Yunyu Kakunin-sho (import confirmation) and get it before you leave home. Syringes or needles brought without the medicine count as medical devices and always need one. Hospital diabetes departments usually want a referral letter and an appointment (JIHS may charge ¥11,000 without one); for an urgent problem go to an emergency department, such as St. Luke's, which is open 24 hours."
+      },
+      "noteSources": {
+        "general": "https://www.hokeniryo.metro.tokyo.lg.jp/iryo/iryo_hoken/medical_info_eng/himawari",
+        "hiv": "https://www.acc.jihs.go.jp/general/pep_eng.html",
+        "adhd": "https://www.ncd.mhlw.go.jp/en/application2.html",
+        "diabetes": "https://www.mhlw.go.jp/english/policy/health-medical/pharmaceuticals/dl/qa2.doc"
       }
     }
   ],

@@ -1,0 +1,2906 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "tyo",
+  "providers": [
+    {
+      "id": "jp-tyo-tmg-shinjuku-east-exit-testing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Shinjuku East Exit Testing & Counseling Room (Shinjuku Higashiguchi Kensa Sodanshitsu)"
+      },
+      "organization": "Tokyo Metropolitan Government",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Kabukicho",
+        "address": {
+          "en": "SIL Shinjuku Building 2F, 2-46-3 Kabukicho, Shinjuku-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": "Seibu-Shinjuku Station north exit (about 1 min); Shin-Okubo (JR Yamanote, about 5 min); JR Shinjuku east exit (about 10 min)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 6694 3566"
+        ],
+        "line": null,
+        "website": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/kensa/kensa_yakan",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 15:00–20:00 (Wednesdays women only); Sat–Sun 13:00–17:00. Closed public holidays (except 1–30 June and 16 Nov–15 Dec) and New Year.",
+      "services": {
+        "hivTesting": true,
+        "prep": false,
+        "pep": false,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free, anonymous HIV test (standard, not rapid) with syphilis tested at the same time; chlamydia and gonorrhoea urine tests only 1–30 June and 16 Nov–15 Dec. Booking required, from 2 weeks ahead: online (Tokyo HIV Testing Booking Site) or the booking centre on 03-6694-3566 (10:00–20:00). Results a week later, in person only; no certificates. Test at least 60 days after a possible exposure for an accurate result. Wednesdays are for women only. The page doesn't mention English support. It doesn't provide PrEP, PEP or treatment (testing site only)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/kensa/kensa_yakan",
+          "title": "Tokyo Metropolitan Shinjuku East Exit Testing & Counseling Room",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://metropolisjapan.com/hiv-testing-prevention-clinics-tokyo-yokohama/",
+          "title": "Guide to HIV Testing, Prevention and Free Clinics in Tokyo and Yokohama (2 September 2026)",
+          "publisher": "Metropolis Japan",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-shinjuku-health-centre-hiv-testing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Shinjuku City Public Health Center: free anonymous HIV/STI testing (at Higashi-Shinjuku Health Center)"
+      },
+      "organization": "Shinjuku City",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": null,
+        "address": {
+          "en": "Higashi-Shinjuku Health Center 2F, 7-26-4 Shinjuku, Shinjuku-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": "Higashi-Shinjuku Station (Toei Oedo / Fukutoshin lines), exit A2, about 3 min",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5273 3859"
+        ],
+        "line": null,
+        "website": "https://www.city.shinjuku.lg.jp/fukushi/file02_02_00009.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Set dates only; regular sessions reception 14:30–16:00, evening sessions 18:00–19:00. Check the schedule online.",
+      "services": {
+        "hivTesting": true,
+        "prep": false,
+        "pep": false,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free and anonymous: HIV test always included; syphilis, chlamydia and hepatitis B on request. Set dates only (afternoon sessions, reception 14:30–16:00, plus some evening sessions); book online or by phone (03-5273-3859, weekdays 08:30–17:00) from a month ahead until the day before. Results in person a week later; no certificates. Shinjuku City publishes the schedule in English, and MHLW's HIV testing map lists this site as offering English, Portuguese, Spanish and Thai. Testing site only (no PrEP, PEP or treatment)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": [
+          "en",
+          "pt",
+          "es",
+          "th"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.city.shinjuku.lg.jp/fukushi/file02_02_00009.html",
+          "title": "HIV and STI testing and consultation",
+          "publisher": "Shinjuku City",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.foreign.city.shinjuku.lg.jp/en/news/260415_3/",
+          "title": "Shinjuku Public Health Center: free, anonymous STI testing (15 April 2026)",
+          "publisher": "Shinjuku City (foreign residents site)",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.mhlw.go.jp/hivkensa/language/en/",
+          "title": "HIV Testing and HIV/AIDS Counseling Map in Japan (multilingual sites)",
+          "publisher": "Ministry of Health, Labour and Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tmg-tama-testing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Tama Area Testing & Counseling Office (Tachikawa)"
+      },
+      "organization": "Tokyo Metropolitan Government",
+      "type": "public_clinic",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Tachikawa (Tama area)",
+        "district": null,
+        "address": {
+          "en": "2F Tokyo Metropolitan Tachikawa Welfare and Health Building, 2-21-19 Shibasaki-cho, Tachikawa-shi, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 50 3801 5309"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekends (per a 2026 guide); call to confirm.",
+      "services": {
+        "hivTesting": true,
+        "prep": false,
+        "pep": false,
+        "art": false,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Tokyo Metropolitan Government testing office for the Tama area; the TMG describes its HIV tests as free and anonymous. A 2026 guide says it offers same-day HIV and syphilis tests on Saturdays and Sundays and that English is available by phone (050-3801-5309, 10:00–20:00). Testing only."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.metro.tokyo.jp/english/topics/2019/0306.html",
+          "title": "HIV testing information in Easy Japanese (Minami-Shinjuku and Tama Area Testing and Counseling Offices)",
+          "publisher": "Tokyo Metropolitan Government",
+          "type": "government_announcement",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://metropolisjapan.com/hiv-testing-prevention-clinics-tokyo-yokohama/",
+          "title": "Guide to HIV Testing, Prevention and Free Clinics in Tokyo and Yokohama (2 September 2026)",
+          "publisher": "Metropolis Japan",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-jihs-aids-clinical-center",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "AIDS Clinical Center (ACC), National Center for Global Health and Medicine Hospital"
+      },
+      "organization": "Japan Institute for Health Security (JIHS), formerly NCGM",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Toyama",
+        "address": {
+          "en": "1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655"
+        },
+        "postcode": "162-8655",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3202 7181",
+          "+81 3 3202 7494"
+        ],
+        "line": null,
+        "website": "https://www.acc.jihs.go.jp/general/",
+        "email": "support@jihs.go.jp",
+        "booking": null
+      },
+      "hours": "PEP service: weekdays 08:30–14:00. Appointment centre: weekdays 08:30–17:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": true,
+        "stiTesting": null,
+        "basis": "site",
+        "note": "Japan's national HIV centre. PEP after sexual exposure (within 72 hours): weekdays 08:30–14:00 at the ACC outpatient clinic; tell reception you want HIV preventive medicine. All self-pay (Japanese insurance doesn't cover PEP): ¥20,000 first consultation plus ¥10,000 per day of medicine (¥280,000 for 28 days) plus tax, ¥10,000 extra outside service hours; credit cards accepted. You get 14 days of ARVs first, then 14 more after blood tests. Outside hours an ER doctor may give one or several days' supply, then you return to ACC. HIV treatment: new patients need a referral letter (patients treated abroad: in Japanese or English) and should bring at least a month's supply of current medicine; HIV drugs are rarely prescribed at the first visit. Interpreter fee ¥7,700/day when needed. Visitors without Japanese insurance contact the International Health Care Center first (+81-3-6228-0749, support@jihs.go.jp; charged ¥30 per point). The hospital's SH clinic for gay and bisexual men wasn't taking new patients in 2026."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.acc.jihs.go.jp/general/pep_eng.html",
+          "title": "Post-Exposure Prophylaxis after sexual exposure",
+          "publisher": "AIDS Clinical Center, JIHS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.acc.jihs.go.jp/general/outpatient.html",
+          "title": "Outpatient visit guide (Japanese)",
+          "publisher": "AIDS Clinical Center, JIHS",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hosp.jihs.go.jp/en/icc/outpatient.html",
+          "title": "Outpatient consultation for patients without Japanese health insurance",
+          "publisher": "JIHS Center Hospital, International Health Care Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "On-site interpreters (English, Chinese, Vietnamese, Nepali, Burmese) on weekday daytimes when available; tablet interpreting in 19 languages.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-komagome-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Cancer and Infectious Diseases Center Komagome Hospital"
+      },
+      "organization": "Tokyo Metropolitan Hospital Organization",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Honkomagome",
+        "address": {
+          "en": "3-18-22 Honkomagome, Bunkyo-ku, Tokyo 113-8677"
+        },
+        "postcode": "113-8677",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3823 2101",
+          "+81 3 3823 4890"
+        ],
+        "line": null,
+        "website": "https://www.tmhp.jp/komagome/en/aboutus/features.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": null,
+        "basis": "site",
+        "note": "Designated AIDS centre hospital and Tokyo's infectious disease medical centre; among the busiest HIV outpatient services in Tokyo (over 200 patients a month in FY2024, per the Tokyo Metropolitan Government). The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first. Reservations 03-3823-4890."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.tmhp.jp/komagome/en/aboutus/features.html",
+          "title": "Features of Komagome Hospital",
+          "publisher": "Tokyo Metropolitan Komagome Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tokyo-medical-university-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Medical University Hospital"
+      },
+      "organization": "Tokyo Medical University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Nishi-Shinjuku",
+        "address": {
+          "en": "6-7-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3342 6111"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "One of Tokyo's highest-volume HIV hospitals (over 200 outpatients a month in FY2024, per the Tokyo Metropolitan Government); HIV care via Clinical Laboratory Medicine / Infectious Diseases. The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-jikei-university-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The Jikei University Hospital"
+      },
+      "organization": "The Jikei University School of Medicine",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Minato",
+        "district": "Nishi-Shimbashi",
+        "address": {
+          "en": "3-19-18 Nishi-Shimbashi, Minato-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3433 1111"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Over 200 HIV outpatients a month in FY2024 (Tokyo Metropolitan Government); HIV care through the Infectious Diseases department. The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-imsut-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The Institute of Medical Science Hospital, The University of Tokyo (IMSUT Hospital)"
+      },
+      "organization": "The University of Tokyo",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Minato",
+        "district": "Shirokanedai",
+        "address": {
+          "en": "4-6-1 Shirokanedai, Minato-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3443 8111",
+          "+81 3 6409 2042"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Department of Infectious Diseases and Applied Immunology has run an HIV clinic since 1986; about 570 people with HIV under care in 2023, 557 on ART, including long-acting cabotegravir + rilpivirine research. Over 200 HIV outpatients a month in FY2024 (Tokyo Metropolitan Government). The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ims.u-tokyo.ac.jp/imsut/content/000002756.pdf",
+          "title": "Department of Infectious Diseases and Applied Immunology: activity report 2022–2023",
+          "publisher": "The Institute of Medical Science, The University of Tokyo",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-twmu-hospital-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Women's Medical University Hospital: HIV care"
+      },
+      "organization": "Tokyo Women's Medical University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Kawada-cho",
+        "address": {
+          "en": "8-1 Kawada-cho, Shinjuku-ku, Tokyo 162-8666"
+        },
+        "postcode": "162-8666",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3353 8111"
+        ],
+        "line": null,
+        "website": "https://hosp.twmu.ac.jp/departments/infection.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV clinic: Wed, Fri and Sat.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "HIV care is given in the haematology outpatient clinic on Wednesdays, Fridays and Saturdays only. Over 200 HIV outpatients a month in FY2024 (Tokyo Metropolitan Government). Referral letter needed for referred patients. The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hosp.twmu.ac.jp/departments/infection.html",
+          "title": "Infection Medicine department (Japanese)",
+          "publisher": "Tokyo Women's Medical University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-keio-university-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Keio University Hospital"
+      },
+      "organization": "Keio University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Shinanomachi",
+        "address": {
+          "en": "35 Shinanomachi, Shinjuku-ku, Tokyo 160-8582"
+        },
+        "postcode": "160-8582",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://infection.med.keio.ac.jp/en/clinical",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Designated core AIDS treatment hospital in Tokyo with an HIV team of physicians, specialist pharmacists, nurses and social workers (100–199 HIV outpatients a month in FY2024). The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://infection.med.keio.ac.jp/en/clinical",
+          "title": "HIV Treatment",
+          "publisher": "Keio University School of Medicine, Infectious Diseases",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ut-hospital-infectious-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The University of Tokyo Hospital: Infectious Diseases"
+      },
+      "organization": "The University of Tokyo",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Hongo",
+        "address": {
+          "en": "7-3-1 Hongo, Bunkyo-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3815 5411"
+        ],
+        "line": null,
+        "website": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/infectious-diseases/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Government-designated AIDS centre; HIV specialists provide treatment, and the outpatient clinic does antigen/antibody and viral nucleic-acid tests for infections. The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first. Contact the hospital's International Patients service about visits without Japanese insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/infectious-diseases/index.html",
+          "title": "Infectious Diseases",
+          "publisher": "The University of Tokyo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-st-lukes-international-hospital-hiv",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "St. Luke's International Hospital: Infectious Diseases"
+      },
+      "organization": "St. Luke's International University",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Chuo",
+        "district": "Akashi-cho",
+        "address": {
+          "en": "9-1 Akashi-cho, Chuo-ku, Tokyo 104-8560"
+        },
+        "postcode": "104-8560",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3541 5151"
+        ],
+        "line": null,
+        "website": "https://hospital.luke.ac.jp/eng/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (50–99 HIV outpatients a month in FY2024). The Tokyo Metropolitan Government lists it as a cooperating hospital for emergency HIV preventive medication after occupational (e.g. needle-stick) exposure; the list doesn't say whether it gives PEP after sexual exposure, so call first. The 24-hour ER handles out-of-hours contacts on that list. Uninsured patients pay in full on the day; first-time visitors without an appointment pay an extra ¥33,000 (weekday daytime) or ¥77,000 (out of hours)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospital.luke.ac.jp/eng/for-patients/payment/index.html",
+          "title": "Payment",
+          "publisher": "St. Luke's International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-okubo-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Okubo Hospital"
+      },
+      "organization": "Tokyo Metropolitan Hospital Organization",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Kabukicho",
+        "address": {
+          "en": "2-44-1 Kabukicho, Shinjuku-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5273 7711"
+        ],
+        "line": null,
+        "website": "https://www.tmhp.jp/okubo/en/internationalhealthcarecenter_20251001.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "third_party",
+        "note": "AIDS care cooperating hospital (50–99 HIV outpatients a month in FY2024, per the Tokyo Metropolitan Government); its ER is the contact on the TMG emergency preventive-medication list (occupational exposure). An International Health Care Center opened in October 2025 for residents and overseas visitors, with English-speaking staff on weekday daytimes and tablet/voice interpreting; call the main line and ask for the International Office."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/kansen/info/aids/aids/iryo/syoshin_jushin_annnai",
+          "title": "AIDS care cooperating hospitals: first-visit guide (FY2024 outpatient volumes)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hokeniryo.metro.tokyo.lg.jp/documents/d/hokeniryo/r8_10_hiv_yobolist",
+          "title": "Cooperating hospitals for emergency HIV preventive medication: emergency contact list (as of 1 October 2026)",
+          "publisher": "Tokyo Metropolitan Government, Bureau of Public Health",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.tmhp.jp/okubo/en/internationalhealthcarecenter_20251001.html",
+          "title": "International Health Care Center (IHC)",
+          "publisher": "Tokyo Metropolitan Okubo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Listed by the Tokyo Metropolitan Government as an AIDS care cooperating hospital (HIV treatment). Japanese HIV hospitals generally ask new patients for a referral letter; if you're already on treatment, bring your records and some medicine with you.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-personal-health-clinic-ueno",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Personal Health Clinic (Ueno)"
+      },
+      "organization": "Personal Health Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Yushima",
+        "address": {
+          "en": "6F Ueno Fuji Building, 3-39-3 Yushima, Bunkyo-ku, Tokyo 113-0034"
+        },
+        "postcode": "113-0034",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5817 4415"
+        ],
+        "line": null,
+        "website": "https://ph-clinic.org/en",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Tue, Thu, Fri 14:30–20:30; Sat 12:00–15:00 and 16:30–20:00. Closed Wed, Sun and public holidays. Last reception 15 min before closing.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "site",
+        "note": "Sexual health clinic with English-speaking doctors, nurses and staff (other languages by phone interpreter). 15-minute HIV test, PrEP and PEP (generics available) and testing/treatment for all STIs. Walk-ins accepted; some services bookable online. Not covered by insurance: you pay in full (cash or card); ¥4,000 to sign overseas insurance forms. PLACE TOKYO's PrEP directory also lists PrEP follow-up and hormone therapy."
+      },
+      "populationFocus": [
+        "general",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://ph-clinic.org/en",
+          "title": "Personal Health Clinic (English)",
+          "publisher": "Personal Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://prep.ptokyo.org/facilities",
+          "title": "PrEP in JAPAN: facilities (Tokyo)",
+          "publisher": "PLACE TOKYO (NPO), with MHLW research grant",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-private-care-clinic-tokyo-shinjuku",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Private Care Clinic Tokyo (Shinjuku)"
+      },
+      "organization": "Private Care Clinic Tokyo",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Nishi-Shinjuku",
+        "address": {
+          "en": "3F/4F Kagaya Building, 7-10-7 Nishi-Shinjuku, Shinjuku-ku, Tokyo 160-0023"
+        },
+        "postcode": "160-0023",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://pcct.jp/en/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "English service Mon–Sat 11:00–20:00 (closed 13:00–14:30). Closed Sun.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Walk-in sexual health clinic with English service. PEP (within 72 hours): ¥77,000 incl. tax for a 30-day set of a generic bictegravir/FTC/TAF tablet, including same-day HIV, hepatitis B and kidney tests and the 1-month test. PrEP: generic, ¥12,100 per month (daily or 30 on-demand pills), ¥5,500 for a 4-pill on-demand set, plus ¥2,750 first consultation; adults 18+. Self-pay only (tests ¥3,850–19,800, treatment ¥3,300–23,100); cash or card. PrEP/PEP reception about 11:00–12:30 and 14:30–19:30. A second branch near Tokyo Station is listed in PLACE TOKYO's PrEP directory."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://pcct.jp/en/",
+          "title": "Private Care Clinic Tokyo (English)",
+          "publisher": "Private Care Clinic Tokyo",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://pcct.jp/en/std/pep/",
+          "title": "PEP",
+          "publisher": "Private Care Clinic Tokyo",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://pcct.jp/en/std/prep/",
+          "title": "PrEP",
+          "publisher": "Private Care Clinic Tokyo",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://prep.ptokyo.org/facilities",
+          "title": "PrEP in JAPAN: facilities (Tokyo)",
+          "publisher": "PLACE TOKYO (NPO), with MHLW research grant",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-aozora-clinic-shimbashi",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Aozora Clinic Shimbashi"
+      },
+      "organization": "Shichikaikai Medical Corporation",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Minato",
+        "district": "Shimbashi",
+        "address": {
+          "en": "3F New Shimbashi Building, 2-16-1 Shimbashi, Minato-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3506 8880"
+        ],
+        "line": null,
+        "website": "https://aozoracl.com/pep_en",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "STI clinic with English pages. PEP (start within 72 hours, 28–30 days): ¥33,000 consultation and 14-day check plus ¥214,500 for 28 days of medicine (incl. tax). Daily PrEP: ¥22,000 first consultation and tests plus ¥132,000 per 30 days; on-demand PrEP by consultation; 3-monthly tests extra. The clinic notes PrEP is self-pay. Its Shinjuku branch has closed."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aozoracl.com/pep_en",
+          "title": "PEP / PrEP therapy for HIV prevention",
+          "publisher": "Aozora Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://prep.ptokyo.org/facilities",
+          "title": "PrEP in JAPAN: facilities (Tokyo)",
+          "publisher": "PLACE TOKYO (NPO), with MHLW research grant",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-karada-naika-clinic-shibuya",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "KARADA Internal Medicine Clinic Shibuya"
+      },
+      "organization": "KARADA Naika Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shibuya",
+        "district": "Jinnan",
+        "address": {
+          "en": "6F Marudai Building, 1-23-13 Jinnan, Shibuya-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 6416 3127"
+        ],
+        "line": null,
+        "website": "https://sti-check.com/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 10:00–13:00, 15:00–19:00; Sat–Sun 09:00–12:00, 13:30–16:30.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Listed in PLACE TOKYO's PrEP directory for PrEP (original Descovy or a generic), PrEP monitoring and online consultations, PEP, doxy-PEP, HIV care (the clinic says several specialists work there), STI checks and vaccinations; insurance-covered care also listed. Fees and language support aren't listed. The same group has branches in Gotanda and Nakano."
+      },
+      "populationFocus": [
+        "general",
+        "msm"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prep.ptokyo.org/facilities",
+          "title": "PrEP in JAPAN: facilities (Tokyo)",
+          "publisher": "PLACE TOKYO (NPO), with MHLW research grant",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://prep.ptokyo.org/facility/detail/157",
+          "title": "KARADA Internal Medicine Clinic Shibuya",
+          "publisher": "PrEP in JAPAN (PLACE TOKYO)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-shinjuku-higashiguchi-primary-care-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Shinjuku Higashiguchi Primary Care Clinic"
+      },
+      "organization": "Shinjuku Higashiguchi Primary Care Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Shinjuku 3-chome",
+        "address": {
+          "en": "6F Shinjuku Pandora Building, 3-23-12 Shinjuku, Shinjuku-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3226 7777"
+        ],
+        "line": null,
+        "website": "https://shinjuku.clinic/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 18:00–22:00; Sat, Sun and holidays 14:00–20:30. Closed only over New Year.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": true,
+        "basis": "third_party",
+        "note": "Evening and weekend clinic listed in PLACE TOKYO's PrEP directory for PrEP (Descovy, original or generic), PEP, STI checks, hormone therapy and vaccinations. Open every day except New Year. Fees and staff languages aren't listed."
+      },
+      "populationFocus": [
+        "general",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://prep.ptokyo.org/facilities",
+          "title": "PrEP in JAPAN: facilities (Tokyo)",
+          "publisher": "PLACE TOKYO (NPO), with MHLW research grant",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://prep.ptokyo.org/facility/detail/494",
+          "title": "Shinjuku Higashiguchi Primary Care Clinic",
+          "publisher": "PrEP in JAPAN (PLACE TOKYO)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-shirakaba-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Shirakaba Clinic"
+      },
+      "organization": "Shirakaba Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Sumiyoshi-cho",
+        "address": {
+          "en": "B-STEP Building 2F, 8-28 Sumiyoshi-cho, Shinjuku-ku, Tokyo 162-0065"
+        },
+        "postcode": "162-0065",
+        "locationNote": null,
+        "nearestTransit": "Akebonobashi Station (Toei Shinjuku Line)",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5919 3127"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Wed–Fri and holidays 13:00–16:30, 18:00–21:00; Sat–Sun 10:00–12:00, 13:30–17:00. Closed Mon–Tue.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Listed among HIV/AIDS medical institutions in Shinjuku City's HIV/AIDS support map (infectious-disease internal medicine, dermatology, psychiatry, counselling). A 2026 guide lists a same-day HIV, syphilis and hepatitis B test package for ¥3,850 (medical certificate ¥3,300), appointment only, and says the clinic has an English page. PrEP, PEP and HIV treatment weren't confirmed in the sources; call to ask."
+      },
+      "populationFocus": [
+        "general",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.city.shinjuku.lg.jp/content/000441049.pdf",
+          "title": "Shinjuku City HIV/AIDS support agencies map (FY2023 edition)",
+          "publisher": "Shinjuku City Health Department",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://metropolisjapan.com/hiv-testing-prevention-clinics-tokyo-yokohama/",
+          "title": "Guide to HIV Testing, Prevention and Free Clinics in Tokyo and Yokohama (2 September 2026)",
+          "publisher": "Metropolis Japan",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://doctorsfile.jp/h/19161/",
+          "title": "Shirakaba Clinic",
+          "publisher": "Doctors File",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tell-counseling-assessment",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "TELL Counseling: Psychological Assessment for Children"
+      },
+      "organization": "TELL (Tokyo English Life Line)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shibuya",
+        "district": "Omotesando",
+        "address": {},
+        "postcode": null,
+        "locationNote": "Tokyo office in Omotesando; see the contact page for the address.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://telljp.com/psychological-assessment-children/",
+        "email": null,
+        "booking": "https://telljp.com/counseling/appointment/"
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "English or Japanese assessments for ADHD, autism, developmental and learning problems for under-18s (adults only case by case, usually not accepted); reports always in English. In person at the Tokyo office, intake and feedback online; report about 6 weeks after the last session. Fees (incl. tax): intake ¥24,200–36,300; comprehensive neuropsychological assessment ¥435,600. Parents/guardians start the process. TELL doesn't say it prescribes; its listed psychiatrist wasn't taking appointments, so medication needs a separate doctor. Waitlists may apply."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://telljp.com/psychological-assessment-children/",
+          "title": "Psychological Assessment for Children",
+          "publisher": "TELL",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://telljp.com/counseling/",
+          "title": "TELL Counseling",
+          "publisher": "TELL",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tokyo-mental-health",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Mental Health"
+      },
+      "organization": "Tokyo Mental Health (TMH)",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Chuo",
+        "district": "Shintomi",
+        "address": {},
+        "postcode": null,
+        "locationNote": "Shintomi Therapy Office; psychiatry clinic held at American Clinic Tokyo (3F No.1 Niikura Bldg., 1-7-4 Akasaka, Minato-ku).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.tokyomentalhealth.com/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "English-language counselling, psychology and psychiatry. Psychological testing for adults and children covers ADHD, learning difficulties and autism (not accepting enquiries for children under 8). Psychiatry by a UK-licensed English-speaking psychiatrist focused on medication for conditions such as depression and anxiety; whether ADHD medication is prescribed isn't stated. Waiting list possible. TRICARE provider."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.tokyomentalhealth.com/",
+          "title": "Tokyo Mental Health",
+          "publisher": "Tokyo Mental Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tokyo-metropolitan-childrens-medical-center-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Children's Medical Center: Child and Adolescent Psychiatry"
+      },
+      "organization": "Tokyo Metropolitan Hospital Organization",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Fuchu (Tama area)",
+        "district": null,
+        "address": {
+          "en": "2-8-29 Musashidai, Fuchu-shi, Tokyo 183-8561"
+        },
+        "postcode": "183-8561",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 42 312 8200",
+          "+81 42 300 5111"
+        ],
+        "line": null,
+        "website": "https://www.tmhp.jp/shouni/section/psychiatry/child-adolescent-psychiatry/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Large child and adolescent psychiatry department (202 beds, 14 full-time doctors); developmental disorders such as autism and ADHD are a core focus, with outpatient day care and team care. Book on 042-312-8200. Referral rules, waiting times and medication aren't described; call to ask. English pages available."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.tmhp.jp/shouni/section/psychiatry/child-adolescent-psychiatry/index.html",
+          "title": "Child and Adolescent Psychiatry (Japanese)",
+          "publisher": "Tokyo Metropolitan Children's Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ncnp-hospital-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "National Center of Neurology and Psychiatry (NCNP) Hospital: Child Psychiatry"
+      },
+      "organization": "National Center of Neurology and Psychiatry",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Kodaira (Tama area)",
+        "district": null,
+        "address": {
+          "en": "4-1-1 Ogawahigashi-machi, Kodaira-shi, Tokyo 187-8551"
+        },
+        "postcode": "187-8551",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 42 341 2711",
+          "+81 42 346 2190"
+        ],
+        "line": null,
+        "website": "https://hsp.ncnp.go.jp/clinical/department.php?@uid=rN48RJb96KW9YD7s",
+        "email": null,
+        "booking": "https://hsp.ncnp.go.jp/outpatient/entry_online.php"
+      },
+      "hours": "Main line weekdays 08:30–17:15; closed weekends, holidays and 29 Dec–3 Jan.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "National psychiatric centre; its child psychiatry department treats neurodevelopmental disorders including autism spectrum disorder and ADHD. First visits are requested online or via the consultation desk; revisits via the booking centre (042-346-2190, weekdays 09:00–15:00). Referral rules and medication aren't described on the pages read."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hsp.ncnp.go.jp/clinical/",
+          "title": "Clinical departments (Japanese)",
+          "publisher": "NCNP Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hsp.ncnp.go.jp/outpatient/",
+          "title": "Outpatient information (Japanese)",
+          "publisher": "NCNP Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ncchd-psychosocial-medicine",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "National Center for Child Health and Development (NCCHD): Department of Psychosocial Medicine"
+      },
+      "organization": "National Center for Child Health and Development",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Setagaya",
+        "district": "Okura",
+        "address": {
+          "en": "2-10-1 Okura, Setagaya-ku, Tokyo 157-8535"
+        },
+        "postcode": "157-8535",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5494 7300",
+          "+81 3 3416 0181"
+        ],
+        "line": null,
+        "website": "https://www.ncchd.go.jp/en/hospital/about/section/heart/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "Psychiatric and psychological care for children, adolescents and pregnant women, including comprehensive treatment for neurodevelopmental disorders such as ASD and ADHD with medication, psychotherapy and parent support. Reservations 03-5494-7300 (weekdays 09:00–17:00). Patients living overseas must go through a medical coordinator with a referral letter and are charged double the Japanese insurance fee."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ncchd.go.jp/en/hospital/about/section/heart/index.html",
+          "title": "Department of Psychosocial Medicine",
+          "publisher": "NCCHD",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ncchd.go.jp/en/hospital/outpatient/international_patients.html",
+          "title": "International patients",
+          "publisher": "NCCHD",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ut-hospital-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The University of Tokyo Hospital: Department of Child Psychiatry"
+      },
+      "organization": "The University of Tokyo",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Hongo",
+        "address": {
+          "en": "7-3-1 Hongo, Bunkyo-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3815 5411"
+        ],
+        "line": null,
+        "website": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/child-psychiatry/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Treats ADHD (including with other conditions), autism, tics, learning disabilities and other childhood conditions, with parent training for parents of children with ADHD; inpatient developmental assessment for adults is mentioned under autism. Referral, waiting times and medication aren't described."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/child-psychiatry/index.html",
+          "title": "Department of Child Psychiatry",
+          "publisher": "The University of Tokyo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ut-hospital-neuropsychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The University of Tokyo Hospital: Neuropsychiatry"
+      },
+      "organization": "The University of Tokyo",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Hongo",
+        "address": {
+          "en": "7-3-1 Hongo, Bunkyo-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3815 5411"
+        ],
+        "line": null,
+        "website": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/neuropsychiatry/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "University psychiatry department listing developmental disorders such as autism spectrum disorder and ADHD among its specialties; outpatient care by advance appointment. The page doesn't specify ages, referral or medication; Japanese university hospitals usually expect a referral letter."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/neuropsychiatry/index.html",
+          "title": "Neuropsychiatry",
+          "publisher": "The University of Tokyo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-jihs-diabetes-care-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Comprehensive Diabetes Care Center, National Center for Global Health and Medicine Hospital"
+      },
+      "organization": "Japan Institute for Health Security (JIHS), formerly NCGM",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Toyama",
+        "address": {
+          "en": "1-21-1 Toyama, Shinjuku-ku, Tokyo 162-8655"
+        },
+        "postcode": "162-8655",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3202 7494",
+          "+81 3 3202 7181"
+        ],
+        "line": null,
+        "website": "https://www.hosp.jihs.go.jp/cdcc/index.html",
+        "email": "support@jihs.go.jp",
+        "booking": null
+      },
+      "hours": "New patients weekdays 09:00–11:00; outpatients 09:00–16:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Type 1, type 2, secondary and hereditary diabetes: insulin pumps, CGM and carb counting, education admissions, injection and self-monitoring training, nutrition advice, and a foot care and shoe clinic. Referral letter (dated within about 3 months) and appointment normally required; without one, ¥11,000 may be charged. New patients weekdays 09:00–11:00; urgent cases may be seen outside these times. Visitors without Japanese insurance should contact the International Health Care Center first (+81-3-6228-0749; ¥30 per point)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.hosp.jihs.go.jp/cdcc/index.html",
+          "title": "Comprehensive Diabetes Care Center (Japanese)",
+          "publisher": "JIHS Center Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hosp.jihs.go.jp/en/icc/outpatient.html",
+          "title": "Outpatient consultation for patients without Japanese health insurance",
+          "publisher": "JIHS Center Hospital, International Health Care Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-st-lukes-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "St. Luke's International Hospital: Endocrinology"
+      },
+      "organization": "St. Luke's International University",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Chuo",
+        "district": "Akashi-cho",
+        "address": {
+          "en": "9-1 Akashi-cho, Chuo-ku, Tokyo 104-8560"
+        },
+        "postcode": "104-8560",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5550 7120",
+          "+81 3 3541 5151"
+        ],
+        "line": null,
+        "website": "https://hospital.luke.ac.jp/eng/find-a-physician/05_endocrinology/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "ER 24 hours, 365 days.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1 and type 2 diabetes, mostly as outpatients (insulin can be started in clinic), with Joslin-style education classes; service in Japanese and English. Appointment system: bring a referral letter before calling 03-5550-7120; scheduling can take over a month. The ER is open 24/7 for urgent problems. Uninsured patients pay in full on the day; extra ¥33,000 for same-day/unbooked visits and ¥77,000 out of hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hospital.luke.ac.jp/eng/find-a-physician/05_endocrinology/index.html",
+          "title": "Endocrinology",
+          "publisher": "St. Luke's International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospital.luke.ac.jp/eng/faq/index.html",
+          "title": "FAQ",
+          "publisher": "St. Luke's International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospital.luke.ac.jp/eng/for-patients/emergency-care/index.html",
+          "title": "Emergency care",
+          "publisher": "St. Luke's International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hospital.luke.ac.jp/eng/for-patients/payment/index.html",
+          "title": "Payment",
+          "publisher": "St. Luke's International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-twmu-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Women's Medical University Hospital: Diabetes & Metabolism"
+      },
+      "organization": "Tokyo Women's Medical University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Shinjuku",
+        "district": "Kawada-cho",
+        "address": {
+          "en": "8-1 Kawada-cho, Shinjuku-ku, Tokyo 162-8666"
+        },
+        "postcode": "162-8666",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3353 8111"
+        ],
+        "line": null,
+        "website": "https://hosp.twmu.ac.jp/departments/diabetologymetabolism.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1, type 2, gestational and other diabetes and complications; dedicated clinics for children and young people with type 1 ('Young' sessions), pregnancy, kidney disease and genetic diabetes. Insulin pumps (CSII, SAP, hybrid closed loop; 167 users in 2023) and CGM (FreeStyle Libre 2 and Dexcom G7 available as self-pay options). Team education by nurses, dietitians and pharmacists. Bring a referral letter (referral reception weekdays 07:30–14:00); web first-visit booking available."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hosp.twmu.ac.jp/departments/diabetologymetabolism.html",
+          "title": "Diabetes & Metabolism (Japanese)",
+          "publisher": "Tokyo Women's Medical University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ut-hospital-diabetes",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "The University of Tokyo Hospital: Diabetes and Metabolic Diseases"
+      },
+      "organization": "The University of Tokyo",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Hongo",
+        "address": {
+          "en": "7-3-1 Hongo, Bunkyo-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3815 5411"
+        ],
+        "line": null,
+        "website": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/diabetes-and-metabolic-diseases/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Specialist diabetes outpatients every day; insulin pumps (CSII and sensor-augmented pump), CGM, genetic diagnosis (e.g. MODY), weekly outpatient classes and inpatient education by certified diabetes educators, and a diabetic foot clinic. Children: the hospital's Pediatrics department lists diabetes and endocrine disease. Contact International Patients about visits without Japanese insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/diabetes-and-metabolic-diseases/index.html",
+          "title": "Diabetes and Metabolic Diseases",
+          "publisher": "The University of Tokyo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.h.u-tokyo.ac.jp/english/centers-services/clinical-divisions/pediatrics/index.html",
+          "title": "Pediatrics",
+          "publisher": "The University of Tokyo Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-juntendo-diabetes-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Juntendo University Hospital: Diabetes & Endocrinology"
+      },
+      "organization": "Juntendo University",
+      "type": "private_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Bunkyo",
+        "district": "Hongo",
+        "address": {
+          "en": "3-1-3 Hongo, Bunkyo-ku, Tokyo 113-8431"
+        },
+        "postcode": "113-8431",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3813 3111",
+          "+81 3 5802 1985"
+        ],
+        "line": null,
+        "website": "https://hosp.juntendo.ac.jp/clinic/department/tonyo_naibunpitsu/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Diabetes, other lifestyle diseases and hormone disorders, run by certified diabetes and endocrinology specialists. First visits weekdays 08:00–11:00 and Saturdays 08:00–11:00 (not the 2nd Saturday). The hospital's International Health Care Center (03-5802-1985; Japanese, English, Chinese) arranges care for foreign residents and overseas patients; tourists aren't mentioned, so ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "en",
+          "zh-Hans"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hosp.juntendo.ac.jp/clinic/department/tonyo_naibunpitsu/index.html",
+          "title": "Diabetes & Endocrinology (Japanese)",
+          "publisher": "Juntendo University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hosp.juntendo.ac.jp/ihc/",
+          "title": "International Health Care Center",
+          "publisher": "Juntendo University Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tokyo-metropolitan-childrens-medical-center-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Metropolitan Children's Medical Center: Endocrinology and Metabolism"
+      },
+      "organization": "Tokyo Metropolitan Hospital Organization",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Fuchu (Tama area)",
+        "district": null,
+        "address": {
+          "en": "2-8-29 Musashidai, Fuchu-shi, Tokyo 183-8561"
+        },
+        "postcode": "183-8561",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 42 312 8200",
+          "+81 42 300 5111"
+        ],
+        "line": null,
+        "website": "https://www.tmhp.jp/shouni/section/internal/endo-and-metabo/index.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Paediatric endocrinology department; diabetes is among the common conditions treated. A referral letter isn't required. Book on 042-312-8200. The hospital also provides paediatric emergency and critical care."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.tmhp.jp/shouni/section/internal/endo-and-metabo/index.html",
+          "title": "Endocrinology and Metabolism (Japanese)",
+          "publisher": "Tokyo Metropolitan Children's Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.tmhp.jp/shouni/",
+          "title": "Tokyo Metropolitan Children's Medical Center",
+          "publisher": "Tokyo Metropolitan Hospital Organization",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-ncchd-endocrinology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "National Center for Child Health and Development (NCCHD): Division of Endocrinology and Metabolism"
+      },
+      "organization": "National Center for Child Health and Development",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Setagaya",
+        "district": "Okura",
+        "address": {
+          "en": "2-10-1 Okura, Setagaya-ku, Tokyo 157-8535"
+        },
+        "postcode": "157-8535",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 5494 7300",
+          "+81 3 3416 0181"
+        ],
+        "line": null,
+        "website": "https://www.ncchd.go.jp/en/hospital/about/section/medical_subspecialties/endocrinology.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Type 1 and type 2 diabetes from fetal life to young adulthood, with specialist nurses, dietitians and pharmacists and health and lifestyle education; accepts patients from overseas. Reservations 03-5494-7300 (weekdays 09:00–17:00). Patients living overseas go through a medical coordinator with a referral letter and pay double the Japanese insurance fee."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ncchd.go.jp/en/hospital/about/section/medical_subspecialties/endocrinology.html",
+          "title": "Division of Endocrinology and Metabolism",
+          "publisher": "NCCHD",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ncchd.go.jp/en/hospital/outpatient/international_patients.html",
+          "title": "International patients",
+          "publisher": "NCCHD",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "jp-tyo-tokyo-medical-and-surgical-clinic",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "tyo",
+      "name": {
+        "en": "Tokyo Medical and Surgical Clinic"
+      },
+      "organization": "Tokyo Medical and Surgical Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "JP",
+        "province": "Tokyo",
+        "city": "Tokyo",
+        "area": "Minato",
+        "district": "Shiba-koen",
+        "address": {
+          "en": "32 Shiba-koen Building 2F, 3-4-30 Shiba-koen, Minato-ku, Tokyo"
+        },
+        "postcode": null,
+        "locationNote": "Opposite Tokyo Tower.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+81 3 3436 3028"
+        ],
+        "line": null,
+        "website": "https://tmsc.jp/medical-consultations/primary-care/",
+        "email": "info@tmsc.jp",
+        "booking": null
+      },
+      "hours": "Mon–Fri 08:30–17:30; Sat 08:30–13:00. Out-of-hours urgent consultations available.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "basis": "site",
+        "note": "International clinic for the foreign community with doctors trained in the US, UK, Australia and New Zealand. Primary care doctors manage chronic conditions including diabetes; same-day appointments for acute problems where possible and out-of-hours urgent consultations; dietitian and podiatry also offered. Not part of Japanese National Health Insurance (self-pay). Book online or by phone."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.tmsc.jp/",
+          "title": "Tokyo Medical and Surgical Clinic",
+          "publisher": "Tokyo Medical and Surgical Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://tmsc.jp/medical-consultations/primary-care/",
+          "title": "Primary Care",
+          "publisher": "Tokyo Medical and Surgical Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

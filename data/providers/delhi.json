@@ -1,0 +1,1377 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "del",
+  "providers": [
+    {
+      "id": "in-del-aiims-new-delhi",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "All India Institute of Medical Sciences (AIIMS), New Delhi"
+      },
+      "organization": "AIIMS New Delhi (Ministry of Health and Family Welfare)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "South Delhi",
+        "district": "Ansari Nagar",
+        "address": {
+          "en": "Ansari Nagar, New Delhi 110029"
+        },
+        "postcode": "110029",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 2658 8500",
+          "+91 11 2658 8700"
+        ],
+        "line": null,
+        "website": "https://aiims.edu",
+        "email": null,
+        "booking": "https://ors.gov.in"
+      },
+      "hours": "Endocrinology OPD Mon–Fri mornings; Paediatric and Adolescent Endocrine Clinic Mon afternoon; Diabetes of the Young Clinic Sat morning (Feb 2024 schedule).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Government ART centre (NACO/DSACS lists) and an ICTC for HIV testing in the Department of Microbiology (Room 5, ground floor, New Medicine OPD Block, per a 2015 DSACS list). The Dermatology department is listed by DSACS as an STD clinic. Endocrinology & Metabolism runs diabetes OPDs on weekday mornings, a Paediatric and Adolescent Endocrine Clinic (Monday afternoon), a Diabetes of the Young clinic (Saturday morning) and a gestational diabetes clinic (Friday morning) (schedule last updated Feb 2024). OPD appointments can be booked through the ORS portal. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://aiims.edu/index.php/en/2014-11-25-12-14-39/outpatient-services",
+          "title": "Endocrinology outpatient services",
+          "publisher": "AIIMS New Delhi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-safdarjung-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Safdarjung Hospital and Vardhman Mahavir Medical College"
+      },
+      "organization": "Ministry of Health and Family Welfare, Government of India",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "South Delhi",
+        "district": null,
+        "address": {
+          "en": "NH 48, near AIIMS, Ansari Nagar West, New Delhi 110029"
+        },
+        "postcode": "110029",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 2616 5060"
+        ],
+        "line": null,
+        "website": "https://vmmc-sjh.mohfw.gov.in",
+        "email": null,
+        "booking": null
+      },
+      "hours": "ART Clinic Mon–Fri 09:00–16:00, Sat 09:00–13:00. Endocrinology new cases Tue & Thu; paediatric & adolescent endocrine clinic Wed.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "ART Clinic (NACO project) under the Department of Medicine, Mon–Fri 09:00–16:00 and Sat 09:00–13:00. ICTC for HIV testing in Microbiology, Room 554, New OPD Building (2015 DSACS list); Dermatology is a DSACS-listed STD clinic. Endocrinology (5th floor, Super Speciality Block, rooms 512–519): new cases Tue and Thu, follow-up diabetic clinic twice a week, paediatric and adolescent clinic on Wednesdays including young-onset diabetes (onset under 25). Dieticians and health educators teach insulin technique and home glucose monitoring; foot-care advice and a foot lab. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.vmmc-sjh.mohfw.gov.in/medicine",
+          "title": "Department of Medicine",
+          "publisher": "Safdarjung Hospital & VMMC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://vmmc-sjh.mohfw.gov.in/endocrinology",
+          "title": "Department of Endocrinology",
+          "publisher": "Safdarjung Hospital & VMMC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-rml-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Dr. Ram Manohar Lohia Hospital (Atal Bihari Vajpayee Institute of Medical Sciences)"
+      },
+      "organization": "Ministry of Health and Family Welfare, Government of India",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "New Delhi",
+        "district": null,
+        "address": {
+          "en": "Baba Kharak Singh Marg, New Delhi 110001"
+        },
+        "postcode": "110001",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://rmlh.nic.in",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Government ART centre (DSACS and NACO lists). ICTC for HIV testing in the Department of Microbiology and a DSACS-listed STD clinic in Dermatology (2015 lists; phone numbers there may be out of date). The hospital site now carries the name Atal Bihari Vajpayee Institute of Medical Sciences and lists medical and paediatric emergency areas. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rmlh.nic.in/",
+          "title": "Dr. Ram Manohar Lohia Hospital",
+          "publisher": "Atal Bihari Vajpayee Institute of Medical Sciences & Dr. RML Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-lok-nayak-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Lok Nayak Hospital (LNJP)"
+      },
+      "organization": "Government of NCT of Delhi (Maulana Azad Medical College)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Central Delhi",
+        "district": null,
+        "address": {
+          "en": "Jawahar Lal Nehru Marg, New Delhi 110002"
+        },
+        "postcode": "110002",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 2323 6000"
+        ],
+        "line": null,
+        "website": "https://lnjp.delhi.gov.in",
+        "email": "lnh-msoffice@delhi.gov.in",
+        "booking": null
+      },
+      "hours": "OPD registration Mon–Sat 07:30–11:30. Diabetes Clinic Mon; Endocrinology Clinic Wed; Paediatric Endocrine Clinic Mon.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Government ART centre (DSACS and NACO lists); Dermatology is a DSACS-listed STD clinic, and a PPTCT (HIV testing in pregnancy) centre is listed in Gynaecology. Special clinics: Diabetes Clinic Mon and Endocrinology Clinic Wed (OPD Block 3rd floor, rooms 316, 322–325); Paediatric Endocrine Clinic Mon (OPD Block 5th floor, rooms 506–514). New registration Mon–Sat 07:30–11:30 at the Main OPD Building ground floor. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://lnjp.delhi.gov.in/sites/default/files/lnjp/marquee-files/opd_schedule_as_per_format_1.pdf",
+          "title": "OPD schedule",
+          "publisher": "Lok Nayak Hospital, GNCTD",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-gtb-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Guru Teg Bahadur Hospital (GTB)"
+      },
+      "organization": "Government of NCT of Delhi (University College of Medical Sciences)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Shahdara",
+        "district": "Dilshad Garden",
+        "address": {
+          "en": "Dilshad Garden, Delhi 110095"
+        },
+        "postcode": "110095",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 2258 6262",
+          "+91 11 2258 8383 (casualty)"
+        ],
+        "line": null,
+        "website": "https://gtbh.delhi.gov.in",
+        "email": null,
+        "booking": null
+      },
+      "hours": "OPD 09:00–13:00; emergency 24 hours.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Government ART centre (DSACS and NACO lists). UCMS & GTB Hospital ICTC for HIV testing (Room 308, 2015 DSACS list) and a DSACS-listed STD clinic in Dermatology. OPD 09:00–13:00; emergency open 24 hours. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gtbh.delhi.gov.in/gtbh/location",
+          "title": "Location",
+          "publisher": "Guru Teg Bahadur Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-ddu-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Deen Dayal Upadhyay Hospital (DDU)"
+      },
+      "organization": "Government of NCT of Delhi",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "West Delhi",
+        "district": "Hari Nagar",
+        "address": {
+          "en": "Hari Nagar, New Delhi 110064"
+        },
+        "postcode": "110064",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Government ART centre (DSACS and NACO lists), ICTC in Microbiology (6/9, first floor) and a Dermatology & STD clinic (DSACS lists, 2015). Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7302",
+          "title": "STD Clinic",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-lbs-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Lal Bahadur Shastri Hospital (LBS), Khichripur"
+      },
+      "organization": "Government of NCT of Delhi",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "East Delhi",
+        "district": "Khichripur",
+        "address": {
+          "en": "Khichripur, Delhi 110091"
+        },
+        "postcode": "110091",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre (FIART) here; a 2015 DSACS list gives an ICTC for HIV testing in Room 93/3, first floor, Residential Block. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/updated_ictc_staff_list_17-3-15_2_pdf.pdf",
+          "title": "ICTC staff list (2015)",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-dr-bsa-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Dr. Baba Saheb Ambedkar Hospital (BSA)"
+      },
+      "organization": "Government of NCT of Delhi",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "North West Delhi",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": "110085",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Government ART centre (DSACS and NACO lists) and a DSACS-listed STI/RTI (DSRC) centre. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://dsacs.delhi.gov.in/sites/default/files/dsacs/generic_multiple_files/directory_of_sti.pdf",
+          "title": "Directory of DSRC (STI/RTI) centres",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-kalawati-saran-childrens-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Kalawati Saran Children's Hospital"
+      },
+      "organization": "Ministry of Health and Family Welfare, Government of India (Lady Hardinge Medical College)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "New Delhi",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Children's hospital with a government ART centre (DSACS and NACO lists) for children living with HIV. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://dsacs.delhi.gov.in/hi/node/7298",
+          "title": "ART Centers",
+          "publisher": "Delhi State AIDS Control Society",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-humsafar-sahyog-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "del",
+      "name": {
+        "en": "The Humsafar Trust SAHYOG Clinic, Delhi"
+      },
+      "organization": "The Humsafar Trust",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "South West Delhi",
+        "district": null,
+        "address": {
+          "en": "B61 Block 1, Sitapuri Part-1, New Delhi 110045"
+        },
+        "postcode": "110045",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 81305 36289"
+        ],
+        "line": null,
+        "website": "https://humsafar.org/health/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "10:00–18:30",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Community clinic for gay, bisexual, transgender and hijra communities and people living with HIV. HIV and syphilis testing with pre- and post-test counselling (walk-ins accepted; reports by evening; arrive by 19:30 for testing), doctor check-ups Mon–Fri with some medicines free, psychologist counselling, nutrition counselling and referrals to LGBTQ+-friendly lawyers. Nominal fee Rs 1,000 per year. The page does not mention PrEP or PEP."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://humsafar.org/health/",
+          "title": "Health",
+          "publisher": "The Humsafar Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-ihbas",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Institute of Human Behaviour and Allied Sciences (IHBAS)"
+      },
+      "organization": "Government of NCT of Delhi",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Shahdara",
+        "district": "Dilshad Garden",
+        "address": {
+          "en": "Jhilmil, Dilshad Garden, Delhi 110095"
+        },
+        "postcode": "110095",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://ihbas.delhi.gov.in",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Psychiatry walk-in OPD Mon–Sat, tokens 07:00–12:00; Child Guidance Clinic Tue afternoon, tokens 12:30–14:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Government mental health institute. Child Guidance Clinic and Child & Adolescent Psychiatry Clinic every Tuesday afternoon (tokens 12:30–14:00); adult psychiatry walk-in OPD Mon–Sat mornings (tokens 07:00–12:00). The OPD page does not name ADHD, so ask at registration whether ADHD assessment and prescribing are offered."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ihbas.delhi.gov.in/ihbas/opd",
+          "title": "OPD",
+          "publisher": "IHBAS, Delhi",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-children-first-amaha",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Children First (Amaha), Safdarjung Enclave"
+      },
+      "organization": "Amaha Health",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "South Delhi",
+        "district": "Safdarjung Enclave",
+        "address": {
+          "en": "A2/35 Safdarjung Enclave, New Delhi 110029"
+        },
+        "postcode": "110029",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 96500 44774"
+        ],
+        "line": null,
+        "website": "https://www.amahahealth.com/services/children-first/neurodiversity-hub/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child and adolescent mental health centre. Its Neurodiversity Hub lists ADHD/ADD assessments (developmental assessments for ages 0–6 and psychoeducational assessments from 6 up) by psychologists and psychiatrists. Psychiatric medication is prescribed to children only when the benefit outweighs the risks; ADHD medication is not mentioned specifically. Amaha separately offers adult ADHD assessments (90 minutes, online or in person in Delhi; a companion who knew you in childhood must attend) and says some ADHD medicines can only be prescribed in person."
+      },
+      "populationFocus": [
+        "children",
+        "youth"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.amahahealth.com/services/children-first/neurodiversity-hub/",
+          "title": "Neurodiversity Hub",
+          "publisher": "Amaha Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.amahahealth.com/services/children-first/psychiatric-care/",
+          "title": "Psychiatric care",
+          "publisher": "Amaha Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.amahahealth.com/adhd",
+          "title": "Adult ADHD",
+          "publisher": "Amaha Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-sir-ganga-ram-hospital",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Sir Ganga Ram Hospital"
+      },
+      "organization": "Sir Ganga Ram Trust Society",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Central Delhi",
+        "district": "Rajinder Nagar",
+        "address": {
+          "en": "Sir Ganga Ram Hospital Marg, Rajinder Nagar, New Delhi 110060"
+        },
+        "postcode": "110060",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 4225 4000",
+          "+91 98112 44200 (Child Development Clinic)",
+          "+91 95552 76476 (Child Development Clinic)"
+        ],
+        "line": null,
+        "website": "https://sgrh.com",
+        "email": "childdevelopmentclinicindia@gmail.com",
+        "booking": null
+      },
+      "hours": "Endocrinology general OPD Tue & Fri 09:00–10:00; private OPD daily 09:00–18:00.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Paediatrics runs a Child Development Clinic that lists ADHD among the conditions it assesses (with behaviour modification, speech and occupational therapy), plus a paediatric clinic for growth, puberty, obesity and diabetes offering diagnosis, education and ongoing care, with insulin pump and CGM expertise for children. Endocrinology & Metabolism runs a Diabetes and Obesity Clinic (general OPD Tue & Fri 09:00–10:00; private OPD daily 09:00–18:00; endocrine services round the clock). Pump, CGM and education are stated for the children's service."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://sgrh.com/departments/endocrinology_and_metabolism",
+          "title": "Endocrinology and Metabolism",
+          "publisher": "Sir Ganga Ram Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://sgrh.com/departments/paediatrics",
+          "title": "Paediatrics",
+          "publisher": "Sir Ganga Ram Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-fortis-c-doc",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Fortis C-DOC Hospital for Diabetes and Allied Specialities"
+      },
+      "organization": "Fortis Healthcare",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "South Delhi",
+        "district": "Chirag Enclave",
+        "address": {
+          "en": "B-16, Chirag Enclave, opposite Devika Tower, New Delhi 110048"
+        },
+        "postcode": "110048",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [
+          "+91 11 4910 1222"
+        ],
+        "line": null,
+        "website": "https://fortiscdoc.com",
+        "email": "info@fortiscdoc.com",
+        "booking": null
+      },
+      "hours": "Mon–Sat 09:00–19:00; diagnostic lab 24/7.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Specialist diabetes, metabolic and endocrine hospital with endocrinologists, insulin pump services, an advanced diabetic foot and wound care centre, a diabetic eye lab, dialysis and a 24/7 lab and pharmacy. Children's diabetes care, CGM and education aren't described on the pages checked."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://fortiscdoc.com/",
+          "title": "Fortis C-DOC Chirag Enclave",
+          "publisher": "Fortis C-DOC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fortishealthcare.com/location/fortis-cdoc-chirag-enclave-new-delhi",
+          "title": "Fortis C-DOC, Chirag Enclave, New Delhi",
+          "publisher": "Fortis Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-del-apollo-hospitals-delhi",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "del",
+      "name": {
+        "en": "Apollo Hospitals Delhi"
+      },
+      "organization": "Apollo Hospitals",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Delhi",
+        "city": "Delhi"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.apollohospitals.com/delhi/endocrinology",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Endocrinology department treats type 1 and type 2 diabetes with CGM, insulin pump therapy and patient education, and has a paediatric endocrinology service (children's diabetes isn't mentioned specifically). The page gives no address or phone; use the hospital finder on the site."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.apollohospitals.com/delhi/endocrinology",
+          "title": "Endocrinology – Apollo Hospitals Delhi",
+          "publisher": "Apollo Hospitals",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

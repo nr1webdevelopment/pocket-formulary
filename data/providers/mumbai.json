@@ -1,0 +1,1337 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "bom",
+  "providers": [
+    {
+      "id": "in-bom-kem-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "King Edward Memorial Hospital (KEM) and Seth GS Medical College"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Parel",
+        "district": null,
+        "address": {
+          "en": "Acharya Donde Marg, Parel, Mumbai 400012"
+        },
+        "postcode": "400012",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 2410 7000"
+        ],
+        "line": null,
+        "website": "https://kem.edu",
+        "email": "kemwebsite@kem.edu",
+        "booking": null
+      },
+      "hours": "Diabetes OPD & foot clinic Mon, Tue, Fri, Sat 08:30–10:30 (Fri = new patients).",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "NACO lists a government ART centre at KEM, Parel. Endocrinology (first floor, multi-storeyed building) treats adults and children; Diabetes OPD and Diabetes Foot Clinic Mon, Tue, Fri (new patients) and Sat 08:30–10:30. Children's diabetes isn't named specifically (the department lists a Puberty and Growth Clinic). Psychiatry runs a Child Guidance Clinic (Mon and Sat 09:00) but doesn't mention ADHD. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://kem.edu/kem-new/endocrinology.html",
+          "title": "Endocrinology",
+          "publisher": "Seth GS Medical College & KEM Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://kem.edu/kem-new/contact-us.html",
+          "title": "Contact us",
+          "publisher": "Seth GS Medical College & KEM Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://kem.edu/kem-new/psychiatry.html",
+          "title": "Psychiatry",
+          "publisher": "Seth GS Medical College & KEM Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-ltmg-sion-hospital",
+      "conditions": [
+        "hiv",
+        "adhd"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Lokmanya Tilak Municipal General Hospital (Sion Hospital)"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Sion",
+        "district": null,
+        "address": {
+          "en": "Dr. Babasaheb Ambedkar Road, Sion (West), Mumbai 400022"
+        },
+        "postcode": "400022",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 2406 3000",
+          "+91 22 2409 2020",
+          "+91 22 2407 6381",
+          "+91 22 2408 2504"
+        ],
+        "line": null,
+        "website": "https://ltmgh.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "NACO lists ART centres at LTMG Hospital, Sion. The Paediatrics department's Pediatric Neurodevelopmental (PND) Centre (OPD 21, 2nd floor, New OPD Building) screens for ADHD as part of learning-disability certification; secretary 022-24043989 or 24076381 ext. 3697, 11:00–14:00 Mon–Sat. Adult ADHD services aren't described. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://ltmgh.com/?p=2429",
+          "title": "Learning disability certification – Pediatrics",
+          "publisher": "Lokmanya Tilak Municipal General Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-nair-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "B.Y.L. Nair Charitable Hospital and T.N. Medical College"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Mumbai Central",
+        "district": null,
+        "address": {
+          "en": "Dr. A. L. Nair Road, Mumbai 400008"
+        },
+        "postcode": "400008",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 2302 7000",
+          "+91 22 6868 7777"
+        ],
+        "line": null,
+        "website": "https://tnmcnair.edu.in",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists a government ART centre at B. Y. L. Nair Hospital. The hospital also has Endocrinology and Psychiatry departments, but their web pages give no service details. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://tnmcnair.edu.in/department/endocrinology",
+          "title": "Endocrinology",
+          "publisher": "T.N. Medical College & B.Y.L. Nair Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-jj-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Sir J. J. Group of Hospitals"
+      },
+      "organization": "Government of Maharashtra (Grant Government Medical College)",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Nagpada",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists two ART centres at Sir J. J. Hospital, Nagpada (the original ART centre and a 2nd ARTC). Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-bj-wadia-hospital-for-children",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Bai Jerbai Wadia Hospital for Children"
+      },
+      "organization": "Bai Jerbai Wadia Hospital for Children (trust hospital)",
+      "type": "private_hospital",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "Children's hospital; NACO lists an ART centre here for children living with HIV. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-cooper-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Dr. R. N. Cooper Municipal General Hospital"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Juhu",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre at Dr. RN Cooper Hospital, Juhu. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-kb-bhabha-hospital-bandra",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "K. B. Bhabha Municipal General Hospital, Bandra"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Bandra",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre at K. B. Bhabha Hospital, Bandra. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-rajawadi-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Rajawadi Municipal General Hospital"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Ghatkopar (East)",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre at Rajawadi Hospital, Ghatkopar (E). Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-siddharth-hospital-goregaon",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Siddharth Municipal General Hospital"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Goregaon",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre at Siddharth Hospital, Mumbai. Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-dr-bsa-hospital-kandivali",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Dr. Babasaheb Ambedkar Municipal General Hospital, Kandivali"
+      },
+      "organization": "Municipal Corporation of Greater Mumbai (BMC)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Kandivali (West)",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "basis": "site",
+        "note": "NACO lists an ART centre at Dr. BSA MGH, Kandivali (W). Government ART centre under NACO. NACO's 2021 guidelines say people living with HIV get free diagnostics and free first-, second- and third-line ART at these centres; they don't say whether non-Indian nationals are covered, so call or visit in OPD hours to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://naco.mohfw.gov.in/wp-content/uploads/2024/06/ART-CENTRE-FACILITIES.pdf",
+          "title": "ART Centre Facilities",
+          "publisher": "National AIDS Control Organisation (NACO), Ministry of Health and Family Welfare",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-humsafar-sahyog-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "The Humsafar Trust SAHYOG Clinic and Link ART Centre, Mumbai"
+      },
+      "organization": "The Humsafar Trust",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Santacruz (East)",
+        "district": "Vakola",
+        "address": {
+          "en": "3rd Floor, Manthan Plaza, Nehru Road, Vakola, Santacruz (East), Mumbai 400055"
+        },
+        "postcode": "400055",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 98929 40966"
+        ],
+        "line": null,
+        "website": "https://humsafar.org/health/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "12:00–20:30",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "India's best-known LGBTQ+ community health organisation. SAHYOG clinic: HIV and syphilis testing with counselling (walk-ins accepted; reports by evening; arrive by 19:30), doctor check-ups Mon–Fri with some medicines free, psychologist and nutrition counselling, legal referrals; nominal fee Rs 1,000 per year. Its Link ART Centre in Santacruz East gives free NACO HIV medicines, but only to stable clients with a suppressed viral load who have been enrolled at a nodal ART centre for a year. Free STI check-ups and HIV tests also run through its outreach projects (Aarambh in Masjid Bunder, Dostana in Kandivali East, Yaarana in Vikhroli East). PrEP and PEP are not mentioned."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "lgbtqia",
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "low_cost",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://humsafar.org/health/",
+          "title": "Health",
+          "publisher": "The Humsafar Trust",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-jaslok-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Jaslok Hospital & Research Centre"
+      },
+      "organization": "Jaslok Hospital & Research Centre",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "15, Dr. G. Deshmukh Marg, Mumbai 400026"
+        },
+        "postcode": "400026",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 99301 92000",
+          "+91 99201 66688 (24x7)",
+          "+91 22 4017 3333",
+          "+91 80 6234 4444 (emergency)"
+        ],
+        "line": null,
+        "website": "https://jaslokhospital.net",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Private hospital. Its HIV/STI page describes PEP (start as soon as possible, no later than 72 hours), PrEP, 4th-generation HIV tests and NAT, STI testing and treatment, and ART; its infectious diseases consultant's profile lists HIV care, ART sequencing for treatment failure, PrEP and PEP. Appointment lines Mon–Sun 08:00–20:00. Fees apply."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://jaslokhospital.net/home/procedure/hiv-medicine-post-exposure-prophylaxis-other-sexually-transmitted-diseases",
+          "title": "HIV Medicine & Post Exposure Prophylaxis & other Sexually Transmitted Diseases",
+          "publisher": "Jaslok Hospital & Research Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.jaslokhospital.net/doctor-profile/445",
+          "title": "Dr. Raj Harjani – Consultant Infectious Diseases",
+          "publisher": "Jaslok Hospital & Research Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://consmumbai.esteri.it/wp-content/uploads/2023/05/Lista-Ospedali.pdf",
+          "title": "Lista Ospedali (list of hospitals)",
+          "publisher": "Consulate General of Italy in Mumbai",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-bombay-hospital",
+      "conditions": [
+        "hiv",
+        "adhd",
+        "diabetes"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Bombay Hospital & Medical Research Centre"
+      },
+      "organization": "Bombay Hospital Trust",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Marine Lines",
+        "district": null,
+        "address": {
+          "en": "12, Vitthaldas Thackersey Marg, near Liberty Cinema, New Marine Lines, Mumbai 400020"
+        },
+        "postcode": "400020",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 2206 7676",
+          "+91 22 4051 1111"
+        ],
+        "line": null,
+        "website": "https://www.bombayhospital.com",
+        "email": "helpdesk@bombayhospital.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "cgm": true,
+        "basis": "site",
+        "note": "Trust hospital. General Medicine & Infectious Disease provides ART with viral load and CD4 testing (PEP/PrEP not mentioned). Child ADHD service: behavioural and developmental assessment by paediatric, psychology and neurology teams, with medicines prescribed for symptom management (specific drugs not named); adult ADHD not mentioned. Endocrinology sees adults and children (including a paediatric endocrinologist), treats type 1 and type 2 diabetes and uses CGM. Fees apply."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bombayhospital.com/services/hiv-treatment-mumbai",
+          "title": "HIV Treatment",
+          "publisher": "Bombay Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bombayhospital.com/services/adhd-child-treatment-mumbai",
+          "title": "ADHD Child Treatment",
+          "publisher": "Bombay Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bombayhospital.com/services/endocrinology",
+          "title": "Endocrinology",
+          "publisher": "Bombay Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-hinduja-hospital",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "P. D. Hinduja Hospital & Medical Research Centre"
+      },
+      "organization": "P. D. Hinduja Hospital & Medical Research Centre",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Mahim",
+        "district": null,
+        "address": {
+          "en": "SVS Rd, Mahim West, Shivaji Park, Mumbai 400016"
+        },
+        "postcode": "400016",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 6766 8181",
+          "+91 22 4510 8181",
+          "+91 22 2445 2575 (emergency)",
+          "+91 98208 85000 (emergency)"
+        ],
+        "line": null,
+        "website": "https://www.hindujahospital.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Emergency 24×7.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Child Development Centre (paediatric neurologists) lists ADHD among conditions treated, with neurodevelopmental and behavioural assessment; medication isn't mentioned. The endocrinology page covers type 1 diabetes and insulin therapies. 24×7 emergency. International Patient Services help overseas patients with visas, care coordination and stay. A second campus is at Khar (724, 11th Road, Khar West). Fees apply."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hindujahospital.com/speciality/child-development-centre/",
+          "title": "Child Development Centre",
+          "publisher": "P. D. Hinduja Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hindujahospital.com/speciality/endocrinology/",
+          "title": "Endocrinology",
+          "publisher": "P. D. Hinduja Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hindujahospital.com/locate-us/",
+          "title": "Locate us",
+          "publisher": "P. D. Hinduja Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hindujahospital.com/llms.txt",
+          "title": "Site overview",
+          "publisher": "P. D. Hinduja Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://consmumbai.esteri.it/wp-content/uploads/2023/05/Lista-Ospedali.pdf",
+          "title": "Lista Ospedali (list of hospitals)",
+          "publisher": "Consulate General of Italy in Mumbai",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-lilavati-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Lilavati Hospital & Research Centre"
+      },
+      "organization": "Lilavati Kirtilal Mehta Medical Trust",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Bandra (West)",
+        "district": null,
+        "address": {
+          "en": "A-791, Bandra Reclamation, Bandra (W), Mumbai 400050"
+        },
+        "postcode": "400050",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 22 6931 8000",
+          "+91 22 6931 8050 (OPD)",
+          "+91 22 6931 8063 (casualty)"
+        ],
+        "line": null,
+        "website": "https://www.lilavatihospital.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Lists a Diabetology, Endocrinology and Endocrine Surgery centre of excellence (no service details online) and a casualty department. Fees apply."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.lilavatihospital.com/centres-of-excellence",
+          "title": "Centres of Excellence",
+          "publisher": "Lilavati Hospital & Research Centre",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://consmumbai.esteri.it/wp-content/uploads/2023/05/Lista-Ospedali.pdf",
+          "title": "Lista Ospedali (list of hospitals)",
+          "publisher": "Consulate General of Italy in Mumbai",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "in-bom-amaha-bandra",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "bom",
+      "name": {
+        "en": "Amaha Mental Health Centre, Bandra"
+      },
+      "organization": "Amaha Health",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "IN",
+        "area": "Bandra",
+        "district": null,
+        "address": {
+          "en": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null,
+        "province": "Maharashtra",
+        "city": "Mumbai"
+      },
+      "contact": {
+        "phone": [
+          "+91 20 7117 1501",
+          "+91 86577 98202 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://www.amahahealth.com/centre-mumbai/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "network",
+        "note": "Amaha offers a 90-minute adult ADHD assessment (DIVA, over-18s; a companion who knew you in childhood must attend), online or in person at its Mumbai centre in Bandra (no street address published), followed by psychiatrist care with medication if needed. It recommends in-person visits because some ADHD medicines can't be prescribed digitally. Guidance call Rs 199; other fees not published."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.amahahealth.com/adhd",
+          "title": "Adult ADHD",
+          "publisher": "Amaha Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.amahahealth.com/centre-mumbai/",
+          "title": "Mumbai centre",
+          "publisher": "Amaha Health",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

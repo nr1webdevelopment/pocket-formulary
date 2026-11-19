@@ -1,0 +1,1670 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "szx",
+  "providers": [
+    {
+      "id": "cn-szx-third-peoples-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Third People's Hospital — Love Clinic (Aixin Menzhen)",
+        "zh-Hans": "深圳市第三人民医院 爱心门诊"
+      },
+      "organization": "Shenzhen Third People's Hospital (Second Affiliated Hospital of Southern University of Science and Technology)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Longgang",
+        "address": {
+          "en": "Building B, 1st floor, 29 Bulan Road, Longgang District, Shenzhen",
+          "zh-Hans": "深圳市龙岗区布澜路29号B栋一楼"
+        },
+        "postcode": null,
+        "locationNote": "A 2021 health-commission notice put the clinic in Building D, 1st floor; the December 2025 report says Building B, 1st floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 6122 2333 ext. 14500"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 07:00–12:00, 14:00–17:00; Sat–Sun 08:00–12:00, 14:00–17:00; open on public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "Shenzhen's designated infectious-disease hospital. Its Love Clinic (爱心门诊) is one of the city's seven HIV PEP clinics; a 2021 notice said that outside clinic hours (and at lunchtime) PEP patients should go to the hospital's emergency department, and bookings can be made through the hospital's WeChat account. Doctors listed for the Love Clinic in a booking directory include HIV antiretroviral treatment specialists. PEP must start within 72 hours. National free ART generally does not cover foreign nationals, so expect to pay."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://m.bendibao.com/show877896.html",
+          "title": "深圳艾滋病预防阻断门诊地址+电话 (2 Dec 2021, byline 深圳卫健委)",
+          "publisher": "Shenzhen Bendibao (深圳本地宝)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://js.guahaoe.com/department/shiftcase/913a292c-f363-4a06-869c-8900b100f14f000",
+          "title": "深圳市第三人民医院 爱心门诊 — doctor list",
+          "publisher": "WeDoctor (微医) booking directory",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sz.gov.cn/en_szgov/life/hospitals/municipal/content/post_11220998.html",
+          "title": "Municipal hospitals",
+          "publisher": "Shenzhen Government Online",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-luohu-peoples-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Luohu District People's Hospital",
+        "zh-Hans": "深圳市罗湖区人民医院"
+      },
+      "organization": "Luohu District People's Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Luohu",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市罗湖区友谊路47号"
+        },
+        "postcode": null,
+        "locationNote": "The Luohu Love Clinic (PEP) is at the Chunfeng campus, 2069 Chunfeng Road, Luohu (罗湖区春风路2069号).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8217 7939"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "HIV testing (VCT): weekdays 08:00–12:00, 14:00–17:00. Love Clinic (PEP): daily 08:00–12:00, 14:00–17:00, open on public holidays.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "cgm": true,
+        "diabetesEducation": true,
+        "basis": "third_party",
+        "note": "HIV: listed as a VCT site (free counselling and initial screening) and runs the Luohu Love Clinic (罗湖爱心门诊), one of Shenzhen's seven PEP clinics; PEP must start within 72 hours. Diabetes: in October 2026 the hospital opened a diabetes and obesity management centre (Shenzhen branch of Guangdong Second Provincial People's Hospital's centre) on the 1st floor of the inpatient building, with screening, follow-up, nutrition and exercise advice, CGM fitting guidance and health talks."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://m.bendibao.com/show877896.html",
+          "title": "深圳艾滋病预防阻断门诊地址+电话 (2 Dec 2021, byline 深圳卫健委)",
+          "publisher": "Shenzhen Bendibao (深圳本地宝)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.cn-healthcare.com/articlewm/20261015/content-1678810.html",
+          "title": "广东省第二人民医院糖胖病逆转中心深圳分中心正式开业 (15 Oct 2026)",
+          "publisher": "cn-healthcare (健康界)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-ucas-shenzhen-hospital-guangming",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "University of Chinese Academy of Sciences Shenzhen Hospital (West Campus) — Guangming Love Clinic",
+        "zh-Hans": "中国科学院大学深圳医院（西院区） 光明爱心门诊"
+      },
+      "organization": "University of Chinese Academy of Sciences Shenzhen Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Guangming",
+        "address": {
+          "en": "4253 Songbai Road, Matian Subdistrict, Guangming District, Shenzhen",
+          "zh-Hans": "深圳市光明区马田街道松白路4253号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2716 5666 ext. 8703"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–12:00, 14:00–17:00; open on public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "One of Shenzhen's seven HIV PEP clinics (爱心门诊). PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://m.bendibao.com/show877896.html",
+          "title": "深圳艾滋病预防阻断门诊地址+电话 (2 Dec 2021, byline 深圳卫健委)",
+          "publisher": "Shenzhen Bendibao (深圳本地宝)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://chinaservicesinfo.com/s/202002/14/WS5e465654498ea01b9aea0fa6/designated-hospitals-and-fever-clinics-in-shenzhen-guangdong-province.html",
+          "title": "Designated hospitals and fever clinics in Shenzhen (14 Feb 2020)",
+          "publisher": "China Daily / chinaservicesinfo.com",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-nanshan-hospital-love-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Nanshan Hospital — Nanshan Love Clinic",
+        "zh-Hans": "南山爱心门诊"
+      },
+      "organization": "Shenzhen Nanshan Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Nanshan",
+        "address": {
+          "en": "89 Taoyuan Road, Nanshan District, Shenzhen (outpatient building, 1st floor, door 7)",
+          "zh-Hans": "南山区桃园路89号门诊综合类一楼7号门"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2655 3111 ext. 28103"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mornings only, 08:00–12:00; closed all day Tuesday and on public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "One of Shenzhen's seven HIV PEP clinics (爱心门诊). Mornings only, so outside these hours use another clinic; PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sz.gov.cn/en_szgov/life/hospitals/municipal/content/post_11220998.html",
+          "title": "Municipal hospitals",
+          "publisher": "Shenzhen Government Online",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-longhua-love-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Longhua Love Clinic",
+        "zh-Hans": "龙华爱心门诊"
+      },
+      "organization": "Longhua Love Clinic (Longhua District, Shenzhen)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Longhua",
+        "address": {
+          "en": "Love Clinic, fever clinic 1st floor, 38 Jianshe East Road, Longhua District, Shenzhen",
+          "zh-Hans": "深圳市龙华区建设东路38号发热门诊一楼爱心门诊"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 188 2462 6759"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mornings only, 08:00–12:00; closed on public holidays. Phone answered weekday mornings.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "One of Shenzhen's seven HIV PEP clinics (爱心门诊). The source does not name the hospital that runs it. PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-tcm-anorectal-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Traditional Chinese Medicine Anorectal Hospital (Futian)",
+        "zh-Hans": "深圳市中医肛肠医院（福田）"
+      },
+      "organization": "Shenzhen Traditional Chinese Medicine Anorectal Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": "1 Meiao 2nd Road, Futian District, Shenzhen",
+          "zh-Hans": "深圳市福田区梅坳二路1号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8839 3911"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:30–22:30, including public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "One of Shenzhen's seven HIV PEP clinics, with the longest hours (until 22:30 every day). The December 2025 report says it also offers oral and long-acting injectable PrEP. PEP must start within 72 hours."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-hku-shenzhen-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "The University of Hong Kong–Shenzhen Hospital",
+        "zh-Hans": "香港大学深圳医院"
+      },
+      "organization": "The University of Hong Kong–Shenzhen Hospital (HKU-SZH)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": "1 Haiyuan 1st Road, Futian District, Shenzhen 518053",
+          "zh-Hans": "深圳市福田区海园一路1号"
+        },
+        "postcode": "518053",
+        "locationNote": "Comprehensive Care Clinic (综合关爱门诊): outpatient and medical technology building, basement level 1. International Medical Center: Block V.",
+        "nearestTransit": "Shenzhen Bay Park station (Metro Line 9), Exit E",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8691 3333",
+          "+86 755 8691 3366 (English outpatient line)",
+          "+86 755 8691 3388 (International Medical Center)",
+          "+86 755 8691 3333 ext. 2433 (Comprehensive Care Clinic)"
+        ],
+        "line": null,
+        "website": "https://www.hku-szh.org/en/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Comprehensive Care Clinic: Mon–Sat 08:30–12:00, 14:00–17:30. English outpatient line: Mon–Sat 08:00–17:30. International Medical Center: Mon–Fri 08:00–17:30; Sat–Sun 08:00–12:30, 14:00–17:30; closed public holidays.",
+      "services": {
+        "hivTesting": null,
+        "prep": null,
+        "pep": true,
+        "art": null,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "third_party",
+        "note": "HIV: the Comprehensive Care Clinic (综合关爱门诊) is one of Shenzhen's seven HIV PEP clinics; PEP must start within 72 hours. Diabetes: endocrinology is listed among the hospital's medical services, but no source found describes its diabetes clinics, so call to confirm. A Hong Kong–managed public hospital with an English booking line and an International Medical Center (bilingual service, direct billing with some insurers). Payment by cash, UnionPay or WeChat Pay."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://news.qq.com/rain/a/20251201A070PX00",
+          "title": "艾滋病可防可控，记住“黄金72小时”！深圳艾滋病阻断门诊增至7家 (1 Dec 2025)",
+          "publisher": "Shenzhen Special Zone Daily (深圳特区报) via Tencent News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.hku-szh.org/en/imc/index.html",
+          "title": "IMC — The Hong Kong University-Shenzhen Hospital",
+          "publisher": "HKU-Shenzhen Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hkuhs.med.hku.hk/en/Service-Unit/HKU-SZH/HKU-SZH---Useful-Information-for-Hong-Kong-Residents",
+          "title": "HKU-SZH — Useful Information for Hong Kong Residents",
+          "publisher": "HKU Health System",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.medbridgenz.com/hospital-profiles/university-of-hong-kong-shenzhen-hospital",
+          "title": "HKU-Shenzhen Hospital: International Care",
+          "publisher": "MedBridge NZ",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.eyeshenzhen.com/content/2026-01/16/content_31904902.htm",
+          "title": "International medical services in SZ hospitals",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.eyeshenzhen.com/content/2025-11/07/content_31759615.htm",
+          "title": "Medical Care (updated 7 Nov 2025)",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://guangzhou.china.embassy.gov.au/files/gzho/acggz_medical_2020.pdf",
+          "title": "Contact List - Hospitals - Guangzhou Responsible Area",
+          "publisher": "Australian Consulate-General Guangzhou (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-luohu-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Luohu District Center for Disease Control and Prevention",
+        "zh-Hans": "深圳市罗湖区疾病预防控制中心"
+      },
+      "organization": "Luohu District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Luohu",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市罗湖区清水河一路112号智丰大厦"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2560 0474"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 08:30–12:00, 14:00–17:30.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-futian-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Futian District Center for Disease Control and Prevention",
+        "zh-Hans": "福田区疾病预防控制中心"
+      },
+      "organization": "Futian District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": null,
+          "zh-Hans": "福田区红荔西路8043号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8203 4411"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 09:00–12:00, 14:00–17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-nanshan-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Nanshan District Center for Disease Control and Prevention",
+        "zh-Hans": "深圳市南山区疾病预防控制中心"
+      },
+      "organization": "Nanshan District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Nanshan",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市南山区南商路95号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2642 5268"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 09:00–12:00, 14:00–17:30 (closed public holidays).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-nanshan-chronic-disease-hospital",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Nanshan District Chronic Disease Prevention and Treatment Hospital",
+        "zh-Hans": "深圳市南山区慢性病防治院"
+      },
+      "organization": "Nanshan District Chronic Disease Prevention and Treatment Hospital",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Nanshan",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市南山区华明路7号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2652 1124"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 08:00–12:00, 14:00–17:00 (closed public holidays).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-baoan-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Bao'an District Center for Disease Control and Prevention",
+        "zh-Hans": "深圳市宝安区疾病预防控制中心"
+      },
+      "organization": "Bao'an District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Bao'an",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市宝安区新安街道海秀路3号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2778 6303"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 09:00–12:00, 14:00–18:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-longgang-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Longgang District Center for Disease Control and Prevention",
+        "zh-Hans": "深圳市龙岗区疾病预防控制中心"
+      },
+      "organization": "Longgang District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Longgang",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市龙岗区龙城街道和谐路39号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2892 4443"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 08:30–12:00, 14:00–17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-longhua-cdc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Longhua District Center for Disease Control and Prevention",
+        "zh-Hans": "深圳市龙华区疾病预防控制中心"
+      },
+      "organization": "Longhua District Center for Disease Control and Prevention",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Longhua",
+        "address": {
+          "en": null,
+          "zh-Hans": "深圳市龙华区龙观路96号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2774 0493"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Weekdays 08:00–12:00, 14:00–17:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "basis": "site",
+        "note": "Listed in China CDC's national directory of HIV voluntary counselling and testing (VCT) sites. Under national policy, voluntary HIV counselling and initial screening are free. Call ahead; staff may only speak Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chinaaids.cn/sjb/jcjg_10324/zyzxjcmz_11141/202411/t20241111_302526.htm",
+          "title": "广东省自愿咨询检测机构名录 (Guangdong VCT directory, updated Nov 2024)",
+          "publisher": "National Center for AIDS/STD Control and Prevention, China CDC (chinaaids.cn)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-kangning-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Kangning Hospital (Shenzhen Mental Health Center)",
+        "zh-Hans": "深圳市康宁医院（深圳市精神卫生中心）"
+      },
+      "organization": "Shenzhen Kangning Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Luohu",
+        "address": {
+          "en": "1080 Cuizhu Road, Luohu District, Shenzhen (Luohu campus)",
+          "zh-Hans": "深圳市罗湖区翠竹路1080号"
+        },
+        "postcode": null,
+        "locationNote": "Second campus in Pingshan District (Zhenbi Road).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2553 3524"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mornings 08:00–12:00 (registration 07:30–11:00); check afternoon hours with the hospital.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Shenzhen's specialist psychiatric hospital, with a child and adolescent psychiatry clinic whose doctors list ADHD in children and adults. A 2023 report said it has an adult ADHD service offering rating-scale assessment, with bookings full several months ahead. No source confirms which ADHD medicines it prescribes. Consultations are in Chinese."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://js.guahaoe.com/department/shiftcase/ee88cc43-9cd5-49b6-9eef-7349beee1166000",
+          "title": "深圳市康宁医院 儿少精神科门诊 — doctor list",
+          "publisher": "WeDoctor (微医) booking directory",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bohe.cn/hospital/273/",
+          "title": "深圳市康宁医院",
+          "publisher": "Bohe (博禾医生) hospital directory",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.thepaper.cn/newsDetail_forward_24991108",
+          "title": "成年人多动症背后，一座原生家庭的围城 (20 Oct 2023)",
+          "publisher": "The Paper (澎湃新闻)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sz.gov.cn/en_szgov/life/hospitals/municipal/content/post_11220998.html",
+          "title": "Municipal hospitals",
+          "publisher": "Shenzhen Government Online",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-childrens-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Children's Hospital",
+        "zh-Hans": "深圳市儿童医院"
+      },
+      "organization": "Shenzhen Children's Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": "7019 Yitian Road, Futian District, Shenzhen"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8393 6101"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "The city's children's hospital (54 departments). A booking directory lists an ADHD clinic (多动症) whose doctors specialise in childhood ADHD, autism and developmental-behavioural disorders. Children only. No source confirms medication prescribing, waiting times or English-speaking staff."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://js.guahaoe.com/department/shiftcase/b01cda2c-6eeb-43e5-a9f6-369551798ddf000",
+          "title": "深圳市儿童医院 多动症 — doctor list",
+          "publisher": "WeDoctor (微医) booking directory",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sz.gov.cn/en_szgov/life/hospitals/municipal/content/post_11220998.html",
+          "title": "Municipal hospitals",
+          "publisher": "Shenzhen Government Online",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-united-family-new-frontier",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen New Frontier United Family Hospital",
+        "zh-Hans": "深圳新风和睦家医院"
+      },
+      "organization": "United Family Healthcare",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": "4012 Fuqiang Road, Xinzhou Community, Shatou Street, Futian District, Shenzhen",
+          "zh-Hans": "福田区福强路4012号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": "Shawei station (Metro Line 7), Exit C",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 400 891 9191 (24-hour service centre)",
+          "+86 755 2351 3555 (24-hour emergency)",
+          "+852 5801 1515 (24-hour Hong Kong line)"
+        ],
+        "line": null,
+        "website": "https://szu.ufh.com.cn/locations/%E6%B7%B1%E5%9C%B3%E6%96%B0%E9%A3%8E%E5%92%8C%E7%9D%A6%E5%AE%B6%E5%8C%BB%E9%99%A2?lang=en",
+        "email": null,
+        "booking": null
+      },
+      "hours": "24-hour emergency department.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "International private hospital with a 24/7 emergency department and settlement with 50+ insurers. ADHD: its Mental Health Center has English- and Chinese-speaking psychiatrists; one lists ADHD in adults, children and adolescents, treated with psychotherapy and medication. Diabetes: a chief physician of endocrinology is on staff and there are internal medicine and paediatrics departments; call to confirm diabetes clinics. Fees are high without insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://szu.ufh.com.cn/locations/%E6%B7%B1%E5%9C%B3%E6%96%B0%E9%A3%8E%E5%92%8C%E7%9D%A6%E5%AE%B6%E5%8C%BB%E9%99%A2?lang=en",
+          "title": "Shenzhen New Frontier United Family Hospital",
+          "publisher": "United Family Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://szu.ufh.com.cn/medical_staff/30755/lang=en",
+          "title": "Zehua LI — Psychiatrist",
+          "publisher": "United Family Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://szu.ufh.com.cn/medical_staff/30440/lang=en",
+          "title": "Ruirong HE — Psychiatrist",
+          "publisher": "United Family Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.eyeshenzhen.com/content/2026-01/16/content_31904902.htm",
+          "title": "International medical services in SZ hospitals",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-gucm-shenzhen-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Hospital of Guangzhou University of Chinese Medicine",
+        "zh-Hans": "广州中医药大学深圳医院"
+      },
+      "organization": "Guangzhou University of Chinese Medicine Shenzhen Hospital",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": null,
+        "district": "Futian",
+        "address": {
+          "en": "6001 Beihuan Boulevard, Futian District, Shenzhen",
+          "zh-Hans": "福田区北环大道6001号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": "Meijing station (Metro Line 9), Exit A2",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 8354 9999"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "network",
+        "note": "Runs a diabetes 'three-practitioner co-management' model (endocrinologist, Chinese-medicine doctor and health manager) at ten of its affiliated community health centres, with personalised medication advice. The hospital also has an international health service area with VIP wards."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.163.com/dy/article/IUNFHK200530QRMB.html",
+          "title": "深圳：糖尿病“三师共管照护”门诊授牌 (1 Apr 2024)",
+          "publisher": "People's Daily client via NetEase (人民资讯)",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.eyeshenzhen.com/content/2026-01/16/content_31904902.htm",
+          "title": "International medical services in SZ hospitals",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://chinaservicesinfo.com/s/202002/14/WS5e465654498ea01b9aea0fa6/designated-hospitals-and-fever-clinics-in-shenzhen-guangdong-province.html",
+          "title": "Designated hospitals and fever clinics in Shenzhen (14 Feb 2020)",
+          "publisher": "China Daily / chinaservicesinfo.com",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cn-szx-qianhai-shekou-ftz-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "szx",
+      "name": {
+        "en": "Shenzhen Qianhai Shekou Free Trade Zone Hospital",
+        "zh-Hans": "深圳市前海蛇口自贸区医院"
+      },
+      "organization": "Shenzhen Qianhai Shekou Free Trade Zone Hospital (formerly Shekou People's Hospital)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "CN",
+        "province": "Guangdong",
+        "city": "Shenzhen",
+        "area": "Shekou",
+        "district": "Nanshan",
+        "address": {
+          "en": "36 Gongye 7th Road, Nanshan District, Shenzhen",
+          "zh-Hans": "南山区工业七路36号"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": "Sihai station (Metro Line 12), Exit A",
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+86 755 2160 6999",
+          "+86 755 2686 3563 (24-hour emergency)"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Outpatients daily 08:00–12:00, 14:00–17:00; emergency 24 hours.",
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "third_party",
+        "note": "Public hospital in Shekou used by expats. Endocrinology is listed among its specialties and it has an International Specialists Center with billing to commercial insurers; most outpatient departments have staff who can communicate in English. No source describes its diabetes clinics, so call to confirm. Appointments up to 7 days ahead."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.eyeshenzhen.com/content/2025-11/07/content_31759615.htm",
+          "title": "Medical Care (updated 7 Nov 2025)",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.eyeshenzhen.com/content/2026-01/16/content_31904902.htm",
+          "title": "International medical services in SZ hospitals",
+          "publisher": "EyeShenzhen (Amazing Shenzhen)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pacificprime.com/blog/best-hospitals-in-shenzhen-for-expats.html",
+          "title": "Best hospitals in Shenzhen for expats",
+          "publisher": "Pacific Prime",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

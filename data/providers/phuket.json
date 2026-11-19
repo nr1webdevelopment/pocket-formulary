@@ -1,0 +1,869 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "hkt",
+  "providers": [
+    {
+      "id": "th-hkt-bangkok-hospital-phuket-diabetes-endocrine-kidney-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Bangkok Hospital Phuket — Diabetes Endocrine and Kidney Center",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Phuket (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Talat Yai",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "2/1 Hongyok Utis Road, Talat Yai, Mueang Phuket, Phuket 83000",
+          "th": "2/1 ถ.หงษ์หยกอุทิศ ต.ตลาดใหญ่ อ.เมือง จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": "5th Floor",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 7625 4425 ext. 3720"
+        ],
+        "line": "@phukethospital",
+        "website": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/diabetes-endocrine-kidney-center-bpk/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Tue, Thu 08:00–16:00; Wed, Fri, Sat, Sun 08:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Team of endocrinologists and nurse practitioners. Services listed include type 1 and type 2 diabetes screening, diabetes in pregnancy, medical nutrition for diabetics and specialist consultations; facilities include a nutrition therapy room and a diabetes equipment demonstration room. Children's diabetes care, pumps and CGM are not mentioned; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/other/diabetes-endocrine-kidney-center-bpk/overview",
+          "title": "Diabetes Endocrine and Kidney Center — overview",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/diabetes/diabetes-endocrine-kidney-center-bpk/treatments-and-services",
+          "title": "Diabetes Endocrine and Kidney Center — treatments and services",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/diabetes/diabetes-endocrine-kidney-center-bpk/facilities",
+          "title": "Diabetes Endocrine and Kidney Center — facilities",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Languages (Thai, English) are from the Australian Embassy hospital list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-bangkok-hospital-phuket-children-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Bangkok Hospital Phuket — Children Clinic",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Phuket (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Talat Yai",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "2/1 Hongyok Utis Road, Talat Yai, Mueang Phuket, Phuket 83000",
+          "th": "2/1 ถ.หงษ์หยกอุทิศ ต.ตลาดใหญ่ อ.เมือง จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": "Children Clinic: 1st Floor. Mental Health Center (adults): 2nd Floor, ext. 1023, daily 08:00–17:00.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 7625 4425 ext. 1011"
+        ],
+        "line": "@phukethospital",
+        "website": "https://www.bangkokhospital.com/en/phuket/center-clinic/undefined/children-clinic-bpk/treatments-and-services",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–23:00.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD, autism, behaviour problems and delayed development are handled by a multidisciplinary team; child and adolescent psychiatry and a child development centre are listed. The hospital's adult Mental Health Center offers drug therapy and counselling but does not mention ADHD; ask whether adults are assessed and whether methylphenidate is prescribed."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/undefined/children-clinic-bpk/treatments-and-services",
+          "title": "Children Clinic — treatments and services",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/center-clinic/undefined/mental-health-center-bpk/treatments-and-services",
+          "title": "Mental Health Center — treatments and services",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Languages (Thai, English) are from the Australian Embassy hospital list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-bangkok-hospital-phuket-hiv-testing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Bangkok Hospital Phuket",
+        "th": "โรงพยาบาลกรุงเทพภูเก็ต"
+      },
+      "organization": "Bangkok Hospital Phuket (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Talat Yai",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "2/1 Hongyok Utis Road, Talat Yai, Mueang Phuket, Phuket 83000",
+          "th": "2/1 ถ.หงษ์หยกอุทิศ ต.ตลาดใหญ่ อ.เมือง จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 254 425",
+          "1719"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/phuket",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Listed by Phuket Pride as a place to get an HIV test. The hospital sells an STD screening programme (8,900 baht, valid to 31 Dec 2026) but its page doesn't list the tests included. PrEP, PEP and HIV treatment aren't mentioned; for PEP after hours go to the emergency department and ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.phuket-pride.org/hiv-prevention.html",
+          "title": "HIV Prevention — where to get an HIV test in Phuket",
+          "publisher": "Phuket Pride",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/phuket/package/sexually-transmitted-disease-program-bpk",
+          "title": "Sexually Transmitted Disease Program",
+          "publisher": "Bangkok Hospital Phuket",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "1719 is the Bangkok Hospital group's local-call number.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-bangkok-hospital-siriroj-internal-medicine",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Bangkok Hospital Siriroj — General Medicine, Cardiology and Neurology Clinic",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Siriroj (formerly Siriroj International / Phuket International Hospital)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Wichit",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "44 Chaloem Phrakiat Rama 9 Road, Wichit, Mueang Phuket, Phuket 83000",
+          "th": "44 ถ.เฉลิมพระเกียรติ ร.9 ต.วิชิต อ.เมือง จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": "2nd Floor, Building 3",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 361 888 ext. 1271",
+          "076 361 888 ext. 1272"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/siriroj/center-clinic/heart/general-medicine-cardiology-and-neurology-clinic-bsi/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–20:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Clinic lists diagnosis, treatment and counselling for infectious diseases including HIV infection and STIs, and care for diabetes, its complications and other hormone disorders. A hospital article says emergency PEP (within 72 hours) is available through an 'Accidental Love' package. PrEP is not mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/siriroj/center-clinic/heart/general-medicine-cardiology-and-neurology-clinic-bsi/overview",
+          "title": "General Medicine, Cardiology and Neurology Clinic",
+          "publisher": "Bangkok Hospital Siriroj",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/siriroj/content/how-to-maintain-sexual-health-bsi",
+          "title": "How to maintain sexual health",
+          "publisher": "Bangkok Hospital Siriroj",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/siriroj/content/diabetes-bsi",
+          "title": "Diabetes",
+          "publisher": "Bangkok Hospital Siriroj",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.phuket-pride.org/hiv-prevention.html",
+          "title": "HIV Prevention — where to get an HIV test in Phuket",
+          "publisher": "Phuket Pride",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Phuket Pride also lists Siriroj for HIV testing. The Australian Embassy list gives the company name Bangkok Phuket International Hospital Co., Ltd. at the same address, with English and Thai spoken.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-bangkok-hospital-siriroj-children-child-psychiatry",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Bangkok Hospital Siriroj — Children's Clinic and Child Psychiatry",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Siriroj",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Wichit",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "44 Chaloem Phrakiat Rama 9 Road, Wichit, Mueang Phuket, Phuket 83000",
+          "th": "44 ถ.เฉลิมพระเกียรติ ร.9 ต.วิชิต อ.เมือง จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": "3rd Floor, Building 3",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 361 888 ext. 3367",
+          "076 361 888 ext. 3368"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/siriroj/center-clinic/center-group/childrens-clinic-child-psychiatry-bsi/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–20:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Clinic for children up to age 15 offering 'specialized pediatric neurological and psychological care' and a development package; ADHD is not named, so call to confirm ADHD assessment and prescribing."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/siriroj/center-clinic/center-group/childrens-clinic-child-psychiatry-bsi/overview",
+          "title": "Children's Clinic & Child Psychiatry — overview",
+          "publisher": "Bangkok Hospital Siriroj",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/siriroj/center-clinic/center-group/childrens-clinic-child-psychiatry-bsi/treatments-and-services",
+          "title": "Children's Clinic & Child Psychiatry — treatments and services",
+          "publisher": "Bangkok Hospital Siriroj",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-vachira-phuket-hospital",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Vachira Phuket Hospital",
+        "th": "โรงพยาบาลวชิระภูเก็ต"
+      },
+      "organization": "Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Talat Yai",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "353 Yaowarat Road, Talat Yai, Mueang Phuket, Phuket 83000",
+          "th": null
+        },
+        "postcode": "83000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 237 237"
+        ],
+        "line": null,
+        "website": "https://www.vachiraphuket.go.th",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "diabetesEducation": true,
+        "basis": "third_party",
+        "note": "Phuket's main government (Ministry of Public Health regional) hospital. Phuket Pride lists it for HIV testing. A 2024 study in the hospital's own journal describes its '360-degree' diabetes clinic, where patients get medication and education from a multidisciplinary team. PrEP, PEP and ART are not confirmed by an official page; ask the hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.phuket-pride.org/hiv-prevention.html",
+          "title": "HIV Prevention — where to get an HIV test in Phuket",
+          "publisher": "Phuket Pride",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://he03.tci-thaijo.org/index.php/VCHPK/article/view/3957",
+          "title": "Food consumption behaviour of diabetic patients at the 360-degree diabetes clinic, Vachira Phuket Hospital (2024)",
+          "publisher": "Journal of Health Science and Public Health, Vachira Phuket (Vachira Phuket Hospital R&D Center)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ha.or.th/en/Hospitals/Certificate%20Status/Details/900",
+          "title": "Vachiraphuket Hospital — accreditation status",
+          "publisher": "The Healthcare Accreditation Institute",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Vachira_Phuket_Hospital",
+          "title": "Vachira Phuket Hospital (street address)",
+          "publisher": "Wikipedia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Phone number is as listed by Phuket Pride; confirm it. Street address is from Wikipedia, not an official page.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-pulse-clinic-phuket",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "PULSE Clinic Phuket (Patong Beach, Phuket Town, Phuket International Airport)",
+        "th": null
+      },
+      "organization": "PULSE Social Enterprise",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "PULSE lists three Phuket branches (Phuket International Airport, Patong Beach, Phuket Town); street addresses aren't given in text on its site.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 633 368",
+          "095 261 5282"
+        ],
+        "line": "@pulseclinic",
+        "website": "https://www.pulse-clinic.com/locations/pulse-patong",
+        "email": null,
+        "booking": "https://www.pulse-clinic.com/booking"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "PULSE says its clinics offer HIV testing, PrEP, same-day emergency PEP (start within 72 hours) and HIV treatment, for 'locals and foreigners', and its PEP page lists Phuket. Services are described for the network, not each Phuket branch; confirm by phone or LINE."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.pulse-clinic.com/bangkok-hiv-clinic",
+          "title": "HIV clinic — testing, ART, PrEP, PEP",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pulse-clinic.com/condom-broke-emergency-pep-in-bangkok-pattaya-phuket-thailand",
+          "title": "Emergency HIV PEP in Bangkok, Pattaya, Phuket",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pulse-clinic.com/",
+          "title": "PULSE Clinic — homepage (branch list)",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://page.line.me/946svqfh",
+          "title": "PULSE Clinic LINE Official Account (branch phone numbers)",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-hkt-dibuk-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "hkt",
+      "name": {
+        "en": "Dibuk Hospital",
+        "th": "โรงพยาบาลดีบุก"
+      },
+      "organization": "Bangkok Dusit Medical Services",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Phuket",
+        "city": "Phuket",
+        "area": "Wichit",
+        "district": "Mueang Phuket",
+        "address": {
+          "en": "89/8-9 Moo 2, Chao Fa Road, Wichit, Mueang Phuket, Phuket 83000",
+          "th": "เลขที่ 89/8-9 หมู่ 2 ถ.เจ้าฟ้า ต.วิชิต อ.เมืองภูเก็ต จ.ภูเก็ต 83000"
+        },
+        "postcode": "83000",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "076 298 298",
+          "076 609 050"
+        ],
+        "line": null,
+        "website": "https://www.dibukhospital.com",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "basis": "site",
+        "note": "The General Medicine Clinic lists diabetes and endocrine conditions such as diabetes and thyroid disease. No dedicated diabetes centre, endocrinologist or children's diabetes service is mentioned. Children's clinic open daily 08:00–17:00."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.dibukhospital.com",
+          "title": "Dibuk Hospital — homepage",
+          "publisher": "Dibuk Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.dibukhospital.com/th/center-clinic/general-medicine-clinic",
+          "title": "General Medicine Clinic (คลินิกอายุรกรรม)",
+          "publisher": "Dibuk Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=south",
+          "title": "Hospital directory — South (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=south",
+          "title": "Hospital directory — South (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "pyx",
+  "providers": [
+    {
+      "id": "th-pyx-bangkok-hospital-pattaya-diabetes-endocrine-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "Bangkok Hospital Pattaya — Diabetes and Endocrine Center",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Pattaya (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": "Na Kluea",
+        "district": "Bang Lamung",
+        "address": {
+          "en": "301 Moo 6, Sukhumvit Road Km. 143, Na Kluea, Bang Lamung, Chon Buri 20150",
+          "th": "301 ม.6 ถนนสุขุมวิท กม.143 ต.นาเกลือ อ.บางละมุง จ.ชลบุรี 20150"
+        },
+        "postcode": "20150",
+        "locationNote": "Building E, 3rd floor. Child Health Center (paediatric endocrine disorders): Building B, ground floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 3825 9986",
+          "+66 3825 9999"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/pattaya/center-clinic/internal-medicines/diabetes-mellitus-dm-endocrinology-bph/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sun 08:00–17:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Endocrinologists give diabetes management and education; specially trained nurses teach patients and families; diabetic foot screening to international standards (including monofilament testing) and diabetic wound care. The hospital's Child Health Center lists endocrine disorders in children but doesn't name diabetes; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/pattaya/center-clinic/internal-medicines/diabetes-mellitus-dm-endocrinology-bph/overview",
+          "title": "Diabetes and Endocrine Center",
+          "publisher": "Bangkok Hospital Pattaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/pattaya/center-clinic/undefined/child-health-bph/treatments-and-services",
+          "title": "Child Health Center — treatments and services",
+          "publisher": "Bangkok Hospital Pattaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=east",
+          "title": "Hospital directory — East (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=east",
+          "title": "Hospital directory — East (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The hospital's International Service offers interpreters in more than 20 languages.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-pyx-bangkok-hospital-pattaya-mental-health-center",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "Bangkok Hospital Pattaya — Mental Health Center",
+        "th": null
+      },
+      "organization": "Bangkok Hospital Pattaya (Bangkok Dusit Medical Services)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": "Na Kluea",
+        "district": "Bang Lamung",
+        "address": {
+          "en": "301 Moo 6, Sukhumvit Road Km. 143, Na Kluea, Bang Lamung, Chon Buri 20150",
+          "th": "301 ม.6 ถนนสุขุมวิท กม.143 ต.นาเกลือ อ.บางละมุง จ.ชลบุรี 20150"
+        },
+        "postcode": "20150",
+        "locationNote": "Building E, 2nd floor. Child Health Center (paediatric and adolescent psychiatry): Building B, ground floor, daily 07:00–23:00.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 3825 9986"
+        ],
+        "line": null,
+        "website": "https://www.bangkokhospital.com/en/pattaya/center-clinic/brain/mental-health-bph/overview",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sun 09:00–17:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "ADHD is listed among the psychiatric disorders the centre treats, with outpatient medication management by psychiatrists; the page doesn't say whether stimulants are prescribed. For children, the hospital's Child Health Center lists paediatric and adolescent psychiatry and developmental paediatrics but doesn't name ADHD; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.bangkokhospital.com/en/pattaya/center-clinic/brain/mental-health-bph/overview",
+          "title": "Mental Health Center",
+          "publisher": "Bangkok Hospital Pattaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/pattaya/center-clinic/undefined/child-health-bph/treatments-and-services",
+          "title": "Child Health Center — treatments and services",
+          "publisher": "Bangkok Hospital Pattaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/pattaya/visit/international-services-bph",
+          "title": "International Services",
+          "publisher": "Bangkok Hospital Pattaya",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/en/directory?area=east",
+          "title": "Hospital directory — East (addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bangkokhospital.com/th/directory?area=east",
+          "title": "Hospital directory — East (Thai names and addresses)",
+          "publisher": "Bangkok Dusit Medical Services / Bangkok Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "The hospital's International Service offers interpreters in more than 20 languages.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-pyx-swing-pattaya",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "SWING Pattaya Medical Technology Clinic",
+        "th": "สวิงพัทยา"
+      },
+      "organization": "Service Workers in Group Foundation (SWING)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": "Nong Prue",
+        "district": "Bang Lamung",
+        "address": {
+          "en": "45/54 Moo 10, Nong Prue, Bang Lamung, Chon Buri 20150",
+          "th": null
+        },
+        "postcode": "20150",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "038 412 297",
+          "038 412 298"
+        ],
+        "line": "@swingthailand",
+        "website": "https://www.swingthailand.org/en/contact",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 10:00–18:00.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "network",
+        "note": "Same-day ART for people diagnosed with HIV was launched at SWING Pattaya in February 2023 (with NHSO, IHRI and the Chonburi Provincial Public Health Office). HIV, syphilis and hepatitis C testing, gonorrhoea/chlamydia screening and PrEP are listed for SWING's clinics generally. PEP isn't mentioned. Serves male service workers; ask whether others and foreigners are seen."
+      },
+      "populationFocus": [
+        "sex_workers"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.swingthailand.org/en/contact",
+          "title": "Contact — clinic locations",
+          "publisher": "Service Workers in Group Foundation (SWING)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.swingthailand.org/en/blog/5608/14-february-2023-same-day-art-project-launch-event-at-swing-pattaya",
+          "title": "14 February 2023: Same Day ART project launch event at SWING Pattaya",
+          "publisher": "Service Workers in Group Foundation (SWING)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.swingthailand.org/en",
+          "title": "SWING Clinic — services",
+          "publisher": "Service Workers in Group Foundation (SWING)",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-pyx-pulse-clinic-pattaya",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "PULSE Clinic Pattaya (North Pattaya and South Pattaya)",
+        "th": null
+      },
+      "organization": "PULSE Social Enterprise",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": null,
+        "district": "Bang Lamung",
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": "PULSE lists a North Pattaya and a South Pattaya clinic (laboratory and pharmacy) plus PULSE Pharmacy Pattaya; street addresses aren't given in text on its site.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 65 237 1936"
+        ],
+        "line": "@pulseclinic",
+        "website": "https://www.pulse-clinic.com/locations/pulse-pattaya",
+        "email": "pulseliving@pulse-clinic.com",
+        "booking": "https://www.pulse-clinic.com/booking"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "PULSE says its clinics offer HIV testing, PrEP, same-day emergency PEP (start within 72 hours) and HIV treatment for locals and foreigners; its PEP page lists Pattaya, and same/next-day STD PCR results are offered at its Bangkok and Pattaya branches. The phone number is PULSE's network line, not a Pattaya branch number."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.pulse-clinic.com/bangkok-hiv-clinic",
+          "title": "HIV clinic — testing, ART, PrEP, PEP",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pulse-clinic.com/condom-broke-emergency-pep-in-bangkok-pattaya-phuket-thailand",
+          "title": "Emergency HIV PEP in Bangkok, Pattaya, Phuket",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://pulse-clinic.com/thailand-pcr-28-stds-promotion-std-test-bangkok-pattaya-phuket-hatyai-chiangmai",
+          "title": "PCR 28 STDs test — Bangkok, Pattaya, Phuket (branch list and contacts)",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pulse-clinic.com/",
+          "title": "PULSE Clinic — homepage (branch list)",
+          "publisher": "PULSE Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-pyx-sisters-foundation",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "Sisters Foundation",
+        "th": null
+      },
+      "organization": "Sisters Foundation",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": null,
+        "district": "Bang Lamung",
+        "address": {
+          "en": null,
+          "th": null
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": "https://www.facebook.com/sistersfoundationTH",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Trans-led drop-in centre. A 2021 GATE profile lists free, confidential HIV, syphilis and STI testing, PrEP information, hormone counselling and referral to treatment for trans women living with HIV. No official website or address found; contact via Facebook (facebook.com/sistersfoundationTH)."
+      },
+      "populationFocus": [
+        "transgender"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://gate.ngo/communityspotlights/sisters-foundation-thailand",
+          "title": "Community spotlight: Sisters Foundation Thailand",
+          "publisher": "GATE",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://weareaptn.org/partner/sisters-foundation/",
+          "title": "Sisters Foundation (partner profile)",
+          "publisher": "Asia Pacific Transgender Network (APTN)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Details come from NGO directories only; confirm current services before visiting.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "th-pyx-banglamung-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "pyx",
+      "name": {
+        "en": "Banglamung Hospital",
+        "th": null
+      },
+      "organization": "Ministry of Public Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "TH",
+        "province": "Chon Buri",
+        "city": "Pattaya",
+        "area": null,
+        "district": "Bang Lamung",
+        "address": {
+          "en": "669 Moo 5, Mueang Pattaya, Bang Lamung, Chon Buri 20150",
+          "th": null
+        },
+        "postcode": "20150",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+66 38 477 511",
+          "+66 94 292 8808",
+          "+66 84 252 7133"
+        ],
+        "line": null,
+        "website": null,
+        "email": "foreign.coblm@gmail.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": null,
+        "basis": "third_party",
+        "note": "Government hospital serving Pattaya; the Australian Embassy lists it with English and Thai spoken and a foreign-patient email. No diabetes service is confirmed by a source; call to ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "Thai",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://thailand.embassy.gov.au/files/bkok/Hospital%20List%20(August%202025).pdf",
+          "title": "Contact List — Hospitals — Thailand (August 2025)",
+          "publisher": "Australian Embassy Thailand (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}

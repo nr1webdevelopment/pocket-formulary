@@ -1,0 +1,1188 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "prg",
+  "providers": [
+    {
+      "id": "cz-prg-bulovka-hiv-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "HIV centrum – Klinika infekčních nemocí, Nemocnice Na Bulovce"
+      },
+      "organization": "Fakultní nemocnice Bulovka",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 8",
+        "district": "Libeň",
+        "address": {
+          "en": "Budínova 67/2, 180 00 Praha 8 – Libeň"
+        },
+        "postcode": "180 00",
+        "locationNote": "Building no. 7, 2nd floor, entrance from the outdoor balcony marked 'Speciální ambulance'.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 266 082 629",
+          "+420 266 082 772"
+        ],
+        "line": null,
+        "website": "https://bulovka.cz",
+        "email": "hivprep@bulovka.cz",
+        "booking": null
+      },
+      "hours": "Mon–Fri 06:30–14:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": null,
+        "basis": "third_party",
+        "note": "The national HIV/AIDS centre at Bulovka's infectious diseases clinic. PEP is given here, ideally within 48 hours of exposure; it is not covered by Czech health insurance except for victims of crime (e.g. rape) and healthcare workers injured at work, so others pay. PrEP is prescribed but not covered by insurance; collect it at the hospital pharmacy by the main entrance (call ahead to check stock). HIV treatment isn't described on the page we could open; the hospital's own site blocks automated access, so call to confirm."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chciprep.cz/nemocnice-na-bulovce-hiv-centrum",
+          "title": "Nemocnice Na Bulovce – HIV centrum",
+          "publisher": "ČSAP – chciprep.cz",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-uvn-hiv-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "HIV centrum – Klinika infekčních nemocí, Ústřední vojenská nemocnice"
+      },
+      "organization": "Ústřední vojenská nemocnice – Vojenská fakultní nemocnice Praha",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 6",
+        "district": "Střešovice",
+        "address": {
+          "en": "U Vojenské nemocnice 1200, 169 02 Praha 6 – Střešovice"
+        },
+        "postcode": "169 02",
+        "locationNote": "Building E, entrance E5.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 973 208 255"
+        ],
+        "line": null,
+        "website": "https://www.uvn.cz/cs/hiv-centrum-uvn",
+        "email": "hiv@uvn.cz",
+        "booking": null
+      },
+      "hours": "Phone Mon–Fri 13:00–15:00; visits by appointment only.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "basis": "third_party",
+        "note": "HIV centre at the Central Military Hospital. HIV treatment for patients of insurers 111, 201, 207, 209, 211 and 213. PEP ideally within 48 hours; PrEP for as long as the risk lasts. Neither PEP nor PrEP is covered by insurance (PEP exceptions: crime victims and healthcare workers injured at work). Book by phone; the email isn't for urgent problems or bookings. PrEP can be collected at the ÚVN hospital pharmacy."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chciprep.cz/ustredni-vojenska-nemocnice-praha-stresovice-hiv-centrum",
+          "title": "Ústřední vojenská nemocnice Praha – HIV centrum",
+          "publisher": "ČSAP – chciprep.cz",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-motol-infectious-diseases-prep",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Klinika infekčních nemocí a cestovní medicíny 2. LF UK a FN Motol – PrEP"
+      },
+      "organization": "Fakultní nemocnice v Motole",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 5",
+        "district": "Motol",
+        "address": {
+          "en": "V Úvalu 84, 150 06 Praha 5 – Motol"
+        },
+        "postcode": "150 06",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 224 436 930"
+        ],
+        "line": null,
+        "website": "https://www.fnmotol.cz",
+        "email": null,
+        "booking": "https://objednavky.fnmotol.cz"
+      },
+      "hours": "Phone 07:00–15:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Specialised PrEP clinic at Motol's infectious diseases and travel medicine clinic; book online. PrEP isn't covered by health insurance; collect it from the FN Motol hospital pharmacy (call ahead to check stock)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chciprep.cz/klinika-infekcnich-nemoci-a-cestovni-mediciny-2-lf-uk-a-fn-motol",
+          "title": "Klinika infekčních nemocí a cestovní medicíny 2. LF UK a FN Motol",
+          "publisher": "ČSAP – chciprep.cz",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-csap-checkpoint-dum-svetla",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "CheckPoint and PrEP Point – Dům světla (Czech AIDS Help Society)"
+      },
+      "organization": "Česká společnost AIDS pomoc (ČSAP)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 8",
+        "district": "Karlín",
+        "address": {
+          "en": "Malého 282/3, 186 00 Praha 8 – Karlín"
+        },
+        "postcode": "186 00",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 224 814 284",
+          "800 800 980",
+          "800 550 540"
+        ],
+        "line": null,
+        "website": "https://www.hiv-testovani.cz/",
+        "email": "info@aids-pomoc.cz",
+        "booking": "https://bookle.cz/medical"
+      },
+      "hours": "Testing sessions in the afternoon/evening on set days (e.g. 19 Nov 15:00–18:00, 23 Nov 16:00–19:00 in 2026; Testfinder listed Mon 16–19, Wed 9–12, Thu 15–18). PrEP Point Mon, Wed, Fri 09:00–17:00, Tue and Thu 09:00–20:00, by appointment.",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Free, anonymous HIV testing with no appointment during opening hours, open to foreigners; results online, by SMS or in person. Syphilis and hepatitis B/C tests are also offered but are temporarily charged from 14 October to 31 December 2026 because ministry funding ran out. The PrEP Point (book on Bookle) prescribes PrEP only to people insured with VZP (111), ZP MV ČR (211), RBP (213), ZPŠ (209), VOZP (201) or ČPZP (205); PrEP itself isn't covered by insurance. ČSAP also helps foreigners keep HIV treatment going (English, WhatsApp +420 720 956 544)."
+      },
+      "populationFocus": [
+        "general",
+        "msm",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": true,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.hiv-testovani.cz/",
+          "title": "HIV testování",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.chciprep.cz/prep-point-dum-svetla-csap",
+          "title": "PrEP Point Dům světla ČSAP",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.aids-pomoc.cz/",
+          "title": "Česká společnost AIDS pomoc",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.aids-pomoc.cz/english",
+          "title": "Czech AIDS Help Society – English",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://testfinder.info/centers/ceska-spolecnost-aids-pomoc-zs-dum-svetla-praha/",
+          "title": "Česká společnost AIDS pomoc – Dům světla Praha",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-csap-venerologie-dum-svetla",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Venerologie – Dům světla (Czech AIDS Help Society)"
+      },
+      "organization": "Česká společnost AIDS pomoc (ČSAP)",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 8",
+        "district": "Karlín",
+        "address": {
+          "en": "Malého 282/3, 186 00 Praha 8 – Karlín"
+        },
+        "postcode": "186 00",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "800 800 980"
+        ],
+        "line": null,
+        "website": "https://www.aids-pomoc.cz/venerologie",
+        "email": null,
+        "booking": "https://bookle.cz/medical"
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": null,
+        "art": false,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Sexual health clinic: preventive check-ups with testing for gonorrhoea, chlamydia, syphilis, HIV, hepatitis B and C, HPV and other STIs as recommended; treatment of acute symptoms or a possible exposure; PrEP first and follow-up visits; hepatitis A/B, HPV and meningococcal B vaccines. Book on Bookle, where you can choose your preferred language. Insured visits (VZP, ZP MV ČR, RBP, ZPŠ, VOZP, ČPZP) are billed to the insurer and aren't anonymous; prices for self-payers aren't published."
+      },
+      "populationFocus": [
+        "general",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.aids-pomoc.cz/venerologie",
+          "title": "Venerologie – Dům světla",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.aids-pomoc.cz/english",
+          "title": "Czech AIDS Help Society – English",
+          "publisher": "Česká společnost AIDS pomoc",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-medicentrum-venerologie",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Medicentrum – Venerologie Praha"
+      },
+      "organization": "Medicentrum",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 5",
+        "district": "Smíchov",
+        "address": {
+          "en": "Lidická 337/30, 150 00 Praha 5 – Smíchov"
+        },
+        "postcode": "150 00",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 257 323 219"
+        ],
+        "line": null,
+        "website": "https://medicentrum.cz/venerologie-praha/",
+        "email": "dermatovenerologie@medicentrum.cz",
+        "booking": null
+      },
+      "hours": "Mon–Thu 08:00–13:15 and 14:00–15:30; Fri 08:00–13:15 and 14:00–15:00.",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "Venereology clinic listed by ČSAP as a PrEP centre. PrEP isn't covered by insurance. The clinic doesn't accept clients of RBP (213) or ZPŠ (209). Contact by phone or email to book."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chciprep.cz/venerologie-praha",
+          "title": "Medicentrum – Venerologie Praha",
+          "publisher": "ČSAP – chciprep.cz",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-bulovka-dermatovenerology-prep",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Dermatovenerologická klinika – PrEP ordinace, Nemocnice Na Bulovce"
+      },
+      "organization": "Fakultní nemocnice Bulovka",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 8",
+        "district": "Libeň",
+        "address": {
+          "en": "Budínova 67/2, 180 00 Praha 8 – Libeň"
+        },
+        "postcode": "180 00",
+        "locationNote": "Pavilion no. 9.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 266 082 234"
+        ],
+        "line": null,
+        "website": "https://bulovka.cz",
+        "email": "venerologie@bulovka.cz",
+        "booking": null
+      },
+      "hours": "PrEP clinic Tue 08:00–12:00 (other times by arrangement).",
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": null,
+        "art": null,
+        "basis": "third_party",
+        "note": "PrEP clinic in Bulovka's dermatovenereology department, with counselling and care for people at higher HIV risk. Always book by email first. PrEP isn't covered by insurance."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": false,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.chciprep.cz/nemocnice-na-bulovce-dermatovenerologicka-klinika",
+          "title": "Nemocnice Na Bulovce – Dermatovenerologická klinika",
+          "publisher": "ČSAP – chciprep.cz",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-vfn-sexuologicky-ustav-testing",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Sexuologický ústav – Všeobecná fakultní nemocnice (HIV/STI testing)"
+      },
+      "organization": "Všeobecná fakultní nemocnice v Praze / 1. LF UK",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 2",
+        "district": null,
+        "address": {
+          "en": "Ke Karlovu 11, Praha 2"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 224 965 246"
+        ],
+        "line": null,
+        "website": "https://www.vfn.cz/pacienti/kliniky-ustavy/sexuologicky-ustav/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Testing Thu 08:00–11:00 (Testfinder, 2021).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": false,
+        "stiTesting": true,
+        "basis": "third_party",
+        "note": "Testfinder (last updated November 2021) lists HIV, hepatitis and syphilis testing, free with Czech public health insurance. Call before going: the listing is old and the institute's own testing page couldn't be checked."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://testfinder.info/centers/sexuologicky-ustav-praha/",
+          "title": "Sexuologický ústav Praha",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.vfn.cz/pacienti/kliniky-ustavy/psychiatricka-klinika/",
+          "title": "Psychiatrická klinika (Ke Karlovu 11)",
+          "publisher": "Všeobecná fakultní nemocnice v Praze",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-sananim-contact-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Kontaktní centrum SANANIM"
+      },
+      "organization": "SANANIM z.ú.",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": null,
+        "district": null,
+        "address": {
+          "en": "Na skalce 819/15, Praha"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": 50.06739,
+        "lng": 14.40033
+      },
+      "contact": {
+        "phone": [
+          "+420 602 666 415"
+        ],
+        "line": null,
+        "website": "https://www.sananim.cz/o-nas-1/kontaktni-centrum-kc.html",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon, Wed 13:00–20:00; Tue, Thu, Fri 09:00–20:00; weekends and public holidays 13:00–20:00 (Testfinder, 2021).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": false,
+        "basis": "third_party",
+        "note": "Harm-reduction contact centre for people who use drugs: free rapid finger-prick HIV and hepatitis tests, walk-in, no referral; counselling, needle and syringe programme and opioid substitution treatment."
+      },
+      "populationFocus": [
+        "people_who_use_drugs"
+      ],
+      "access": {
+        "cost": "free",
+        "walkIn": true,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://testfinder.info/centers/kontaktni-centrum-sananim/",
+          "title": "Kontaktní centrum SANANIM",
+          "publisher": "Testfinder",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-canadian-medical",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Canadian Medical"
+      },
+      "organization": "Canadian Medical s.r.o.",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": "Canadian Medical",
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": null,
+        "district": null,
+        "address": {},
+        "postcode": null,
+        "locationNote": "Prague clinics: AFI (Evropská 859/115a, Praha 6), Apeiron (Sokolovská 192, Praha 8), Pankrác House (Lomnického 1705/5, Praha 4), The Park (V parku 2308/8, Praha 11), Waltrovka (Walterovo náměstí 329, Praha 5) and Palác YMCA (Na Příkopě 1041/12, Praha 1). The site doesn't say which clinics offer psychiatry or diabetology.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 222 300 300"
+        ],
+        "line": null,
+        "website": "https://www.canadian.cz/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "basis": "network",
+        "note": "Private clinic network used by expats. Psychiatry treats attention and hyperactivity disorders in children (ADHD) but says it is not a specialised facility for adult ADHD. Diabetology offers individual treatment, complication screening for all patients and gestational diabetes care with its gynaecologists; advanced diabetic foot problems go to partner facilities. Direct billing with about 19 international insurers at AFI, Waltrovka, The Park and Apeiron; uninsured people pay the price list. For emergencies call 155."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.canadian.cz/",
+          "title": "Canadian Medical",
+          "publisher": "Canadian Medical",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.canadian.cz/cs/specializace/psychiatrie/",
+          "title": "Psychiatrie",
+          "publisher": "Canadian Medical",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.canadian.cz/cs/specializace/diabetologie/",
+          "title": "Diabetologie",
+          "publisher": "Canadian Medical",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.canadian.cz/cs/zdravotni-pece/zahranicni-klienti/",
+          "title": "Zahraniční klienti",
+          "publisher": "Canadian Medical",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-unicare-medical-center",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Unicare Medical Center"
+      },
+      "organization": "Unicare Medical Center",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 6",
+        "district": null,
+        "address": {
+          "en": "Na Dlouhém lánu 11, Praha 6"
+        },
+        "postcode": null,
+        "locationNote": "Reception entrance from Za Lány.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 235 356 553"
+        ],
+        "line": null,
+        "website": "https://www.unicare.cz/",
+        "email": "reception@unicare.cz",
+        "booking": "https://www.unicare.cz/making-an-appointment/"
+      },
+      "hours": "Mon–Fri 08:00–20:00.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "diabetesEducation": true,
+        "basis": "site",
+        "note": "Private English-speaking clinic (staff speak 16 languages). Psychiatry lists ADHD among issues it addresses, using medication and psychotherapy, but doesn't say whether it diagnoses ADHD or for which ages; ask when booking. Diabetology and endocrinology covers type 1 and type 2 diabetes, education and self-management, and follow-up. Direct billing with insurers such as Aetna, Allianz, BUPA, Cigna and GeoBlue (get a payment guarantee first); uninsured visitors pay at reception."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English",
+          "Czech"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.unicare.cz/",
+          "title": "Unicare Medical Center",
+          "publisher": "Unicare Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.unicare.cz/medical-specialization-psychiatry/",
+          "title": "Psychiatry",
+          "publisher": "Unicare Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.unicare.cz/medical-specialization-diabetology-endocrinology/",
+          "title": "Diabetology & Endocrinology",
+          "publisher": "Unicare Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.unicare.cz/for-international-clients/",
+          "title": "For international clients",
+          "publisher": "Unicare Medical Center",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-ikem-diabetology-centre",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Centrum diabetologie – IKEM"
+      },
+      "organization": "IKEM – Institut klinické a experimentální medicíny",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 4",
+        "district": null,
+        "address": {
+          "en": "Vídeňská 1958/9, 140 21 Praha 4"
+        },
+        "postcode": "140 21",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 236 051 111",
+          "+420 236 052 252",
+          "+420 236 053 002"
+        ],
+        "line": null,
+        "website": "https://www.ikem.cz/cs/centrum-diabetologie/a-24/",
+        "email": "ikem@ikem.cz",
+        "booking": null
+      },
+      "hours": "Central admissions Mon–Fri 07:00–16:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "The Czech Republic's largest diabetology centre, focused on patients with organ complications: education clinic (including material on travelling with diabetes), podiatry and a diabetic foot programme, endocrinology, nutrition and obesity clinics, and the country's only pancreas and islet transplant programme. Acute admissions +420 236 053 002/3003."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.ikem.cz/cs/centrum-diabetologie/a-24/",
+          "title": "Centrum diabetologie",
+          "publisher": "IKEM – Institut klinické a experimentální medicíny",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.ikem.cz/",
+          "title": "IKEM",
+          "publisher": "IKEM – Institut klinické a experimentální medicíny",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-vfn-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Diabetologické centrum – III. interní klinika, Všeobecná fakultní nemocnice"
+      },
+      "organization": "Všeobecná fakultní nemocnice v Praze / 1. LF UK",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 2",
+        "district": null,
+        "address": {
+          "en": "Karlovo náměstí 32, 128 08 Praha 2"
+        },
+        "postcode": "128 08",
+        "locationNote": "Fakultní poliklinika, building A, 1st floor (diabetic foot clinic: building C1, 1st floor).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 224 966 455",
+          "+420 224 966 694",
+          "+420 224 966 684"
+        ],
+        "line": null,
+        "website": "https://www.vfn.cz/pacienti/kliniky-ustavy/iii-interni-klinika-endokrinologie-a-metabolismu/odborne-ambulance/",
+        "email": "rezervace.cedo@vfn.cz",
+        "booking": null
+      },
+      "hours": "Diabetology clinic Mon–Fri 08:00–12:00. Diabetic foot clinic Tue 10:00–15:00, Wed 08:00–13:00, Fri 08:00–14:00.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Joint VFN and Charles University diabetes centre: full care for type 1 and type 2 diabetes, including people on insulin pumps, and a diabetic foot clinic. Book by phone or email (rezervace.cedo@vfn.cz). Prescriptions by email (recepty.cedo@vfn.cz) are only for regular patients; urgent prescription needs by phone or in person."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.vfn.cz/pacienti/kliniky-ustavy/iii-interni-klinika-endokrinologie-a-metabolismu/odborne-ambulance/",
+          "title": "Odborné ambulance – III. interní klinika",
+          "publisher": "Všeobecná fakultní nemocnice v Praze",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.vfn.cz/pacienti/kliniky-ustavy/iii-interni-klinika-endokrinologie-a-metabolismu/",
+          "title": "III. interní klinika – endokrinologie a metabolismu",
+          "publisher": "Všeobecná fakultní nemocnice v Praze",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "cz-prg-vfn-paediatric-diabetology",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "prg",
+      "name": {
+        "en": "Dětská diabetologická ambulance – Klinika pediatrie a dědičných poruch metabolismu, VFN"
+      },
+      "organization": "Všeobecná fakultní nemocnice v Praze / 1. LF UK",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "CZ",
+        "province": "Prague",
+        "city": "Prague",
+        "area": "Praha 2",
+        "district": null,
+        "address": {
+          "en": "Ke Karlovu 455/2, 128 08 Praha 2"
+        },
+        "postcode": "128 08",
+        "locationNote": "Dětský areál Karlov (DAK), building E1b, ground floor.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+420 224 967 741",
+          "+420 224 967 777"
+        ],
+        "line": null,
+        "website": "https://www.vfn.cz/pacienti/kliniky-ustavy/klinika-detskeho-a-dorostoveho-lekarstvi/odborne-ambulance/",
+        "email": "endokrinologie.kpdpm@vfn.cz",
+        "booking": null
+      },
+      "hours": "Diabetology Tue 08:00–12:00. Booking by phone Tue–Thu 08:00–10:00 or by email.",
+      "services": {
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "basis": "site",
+        "note": "Paediatric diabetology session within the children's endocrinology and obesity clinic. For a first visit send the child's details, insurer, a parent's phone number and a copy of the GP referral. The clinic's catchment area is Praha 1, 2 and 4. The 24-hour records desk is +420 224 967 777."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.vfn.cz/pacienti/kliniky-ustavy/klinika-detskeho-a-dorostoveho-lekarstvi/odborne-ambulance/",
+          "title": "Odborné ambulance – Klinika pediatrie a dědičných poruch metabolismu",
+          "publisher": "Všeobecná fakultní nemocnice v Praze",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.vfn.cz/pacienti/kliniky-ustavy/klinika-detskeho-a-dorostoveho-lekarstvi/",
+          "title": "Klinika pediatrie a dědičných poruch metabolismu",
+          "publisher": "Všeobecná fakultní nemocnice v Praze",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    }
+  ]
+}
