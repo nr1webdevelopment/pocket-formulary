@@ -4,7 +4,7 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/provider.schema.json",
-  "count": 460,
+  "count": 496,
   "data": [
     {
       "id": "ae-dxb-al-amal-psychiatric-hospital",
@@ -11804,6 +11804,1369 @@
       },
       "notes": null,
       "updated": "2026-10-23"
+    },
+    {
+      "id": "id-dps-bali-international-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali International Hospital"
+      },
+      "organization": "Bali International Hospital (Sanur Special Economic Zone)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanur Kaja",
+        "district": "Denpasar Selatan",
+        "address": {
+          "en": "Jalan Kawasan Ekonomi Khusus Sanur, Lot H1–H2, Sanur Kaja, Denpasar Selatan, Kota Denpasar, Bali 80227"
+        },
+        "postcode": "80227",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "1500238 (call centre, within Indonesia)",
+          "150919 (emergency)",
+          "+62 812 1166 1127 (WhatsApp, text only)"
+        ],
+        "line": null,
+        "website": "https://bih.id",
+        "email": "info@bih.id",
+        "booking": null
+      },
+      "hours": "Emergency department and WhatsApp line 24/7.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "The hospital lists endocrinology consultations, personalised treatment plans, nutrition counselling, medication management and diabetes screening, and its Family Medicine clinic manages chronic diseases including diabetes. Children's diabetes care, pumps and CGM aren't mentioned. It also offers STI screening for residents and visitors (HIV testing not separately stated)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bih.id/articles/prevention-and-treatment-of-diabetes",
+          "title": "Prevention and treatment of diabetes",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/integrative-clinics",
+          "title": "Integrated clinics",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/contact-us",
+          "title": "Contact us",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/articles/why-std-or-sti-testing-is-important-in-bali-protect-your-health-with-confidence",
+          "title": "Why STD or STI testing is important in Bali",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO list. Its FAQ gives the address as Jl. Bypass Ngurah Rai No. 126, Sanur Kaja.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-medika-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali Medika Clinic"
+      },
+      "organization": "Bali Medika Clinic (supported by Yayasan Bali Peduli)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Kalianget No. 3, Kuta, Bali"
+        },
+        "postcode": null,
+        "locationNote": "In the Kuta–Seminyak tourist area.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 791 3737"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–14:00 and 17:00–21:00; Sat 10:00–14:00 (Travel Gay Asia listing). Confirm by phone.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Opened in 2011 as Indonesia's first clinic for gay men, MSM and LGBT people. A 2011 Fridae report lists confidential check-ups, STI screening, HIV testing, CD4 testing, antiretroviral treatment, hormone therapy and counselling, open to anyone at risk; Indonesians were treated free and foreigners paid market rates. A current LGBT travel directory lists general practice and sexual health care for the LGBT community. PrEP and PEP aren't mentioned; ask."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "Indonesian",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.travelgayasia.com/venue/bali-medika",
+          "title": "Bali Medika Clinic",
+          "publisher": "Travel Gay Asia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.travelgayasia.com/gay-bali-everything-else",
+          "title": "Gay Bali — services",
+          "publisher": "Travel Gay Asia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fridae.asia/gay-news/2011/11/04/11309.bali-gets-indonesias-first-gay-medical-clinic",
+          "title": "Bali gets Indonesia's first gay medical clinic (4 Nov 2011)",
+          "publisher": "Fridae",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Service details date mainly from 2011; check current services and hours by phone before visiting.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-mental-health-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali Mental Health Clinic (BMHC)"
+      },
+      "organization": "Bali Mental Health Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Pemecutan Klod",
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Jl. Imam Bonjol No. 125, Pemecutan Klod, Denpasar Barat, Bali 80112"
+        },
+        "postcode": "80112",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 813 7000 0306 (phone/WhatsApp)",
+          "+62 361 488610 (call centre)",
+          "+62 361 484186 (24-hour emergency)"
+        ],
+        "line": null,
+        "website": "https://www.balimentalhealthclinic.com",
+        "email": null,
+        "booking": "https://www.balimentalhealthclinic.com/help-center/request-an-appointment/"
+      },
+      "hours": "Outpatient centre (12 hours); 24/7 emergency line and mental-health ambulance.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Psychiatric clinic founded by a group of psychiatrists (opened 2023) with psychiatrists and clinical psychologists, outpatient, inpatient and telehealth care, and programmes for children with special needs. ADHD is listed among the conditions its outpatient centre treats, and its ADHD page says medicines are often used; it doesn't say whether it diagnoses ADHD in children or adults or which medicines it prescribes. Ask when booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balimentalhealthclinic.com",
+          "title": "Bali Mental Health Clinic (home)",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.balimentalhealthclinic.com/adhd-attention-deficit-hyperactivity-disorder/",
+          "title": "ADHD (Attention Deficit Hyperactivity Disorder)",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.balimentalhealthclinic.com/outpatient-centre-bali-mental-health-clinic-care/",
+          "title": "Outpatient Centre",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://indonesiaexpat.id/lifestyle/sports-health/bali-mental-health-clinic-is-inaugurated-to-provide-mental-health-treatment",
+          "title": "Bali Mental Health Clinic is inaugurated to provide mental health treatment",
+          "publisher": "Indonesia Expat",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Its outpatient page says it serves people living in or visiting Bali.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-peduli-denpasar",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Yayasan Bali Peduli — Denpasar Clinic"
+      },
+      "organization": "Yayasan Bali Peduli",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Pemecutan Klod",
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Pertokoan Imam Bonjol Square No. A-17, Jl. Imam Bonjol, Pemecutan Klod, Denpasar Barat, Denpasar"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 845 6543",
+          "+62 812 3889 5287 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "http://www.balipeduli.org/",
+        "email": "info@balipeduli.org",
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–20:00 WITA; Sat 09:00–14:00 WITA, or by appointment. For lab tests arrive at least 1 hour before closing.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Says it provides STI and HIV testing and treatment plus counselling: HIV rapid test and confirmation, CD4 count and HIV viral load, syphilis tests, swabs and STI PCR panels (gonorrhoea, chlamydia and HPV molecular tests only at this site), hepatitis tests. Non-Indonesians pay contribution fees (from 1 Feb 2026): admin Rp40,000, counselling Rp150,000, HIV rapid test Rp200,000, confirmation Rp200,000. Whether it starts or continues ART, PrEP or PEP isn't stated; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balipeduli.org/contact-us/find-clinic-get-tested/",
+          "title": "Find a clinic, get tested (locations, services, fees)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://www.balipeduli.org/",
+          "title": "Yayasan Bali Peduli (home, fees for non-Indonesians)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bimc-hospital-kuta",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "BIMC Hospital Kuta"
+      },
+      "organization": "BIMC Hospital (Siloam Hospitals group)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Bypass Ngurah Rai No. 100X, Kuta, Badung, Bali 80361"
+        },
+        "postcode": "80361",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 761263",
+          "+62 811 3960 8500 (WhatsApp, appointments)"
+        ],
+        "line": null,
+        "website": "https://bimcbali.com/bimc-hospital-kuta",
+        "email": "admin@bimcbali.com",
+        "booking": null
+      },
+      "hours": "24 hours (emergency department, medical centre, laboratory and pharmacy).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "STD screening packages cover HIV, syphilis, gonorrhoea, chlamydia and hepatitis B and C; prices aren't published. PrEP, PEP and HIV treatment aren't mentioned; for PEP go to the 24-hour emergency department and ask. Diabetes: the hospital says it offers comprehensive diabetes care from internists, with blood glucose monitoring and fasting glucose and HbA1c tests in its 24/7 laboratory; no endocrinologist is listed. Psychiatrists and paediatricians also consult here."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bimcbali.com/bimc-kuta/how-std-screening-helps-reduce-the-risk-of-hiv-aids.html",
+          "title": "How STD screening helps reduce the risk of HIV/AIDS",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/bimc-kuta/diabetes-care-update-managing-blood-sugar-for-long-term-wellness.html",
+          "title": "Diabetes care update: managing blood sugar for long-term wellness",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/bimc-hospital-kuta",
+          "title": "BIMC Hospital Kuta",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/poli-spesialis",
+          "title": "Poli Spesialis (specialists by location)",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Accredited by ACHS International (2023–2027). The hospital describes itself as the preferred choice of international travellers; English-speaking staff per the UK FCDO list. The article gives the call centre as +62 811 960 8500 while the footer gives +62 811 3960 8500.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-klinik-anggrek-bali-peduli-ubud",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Klinik Anggrek — Bali Peduli Ubud"
+      },
+      "organization": "Yayasan Bali Peduli",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Gianyar",
+        "area": "Sayan",
+        "district": "Ubud",
+        "address": {
+          "en": "Puskesmas Ubud II, Banjar Kutuh, Sayan, Ubud, Gianyar"
+        },
+        "postcode": null,
+        "locationNote": "Inside the Ubud II community health centre (Puskesmas Ubud II).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 813 3951 4136"
+        ],
+        "line": null,
+        "website": "http://www.balipeduli.org/",
+        "email": "info@balipeduli.org",
+        "booking": null
+      },
+      "hours": "Mon–Thu 08:00–14:00, Fri 08:00–13:00, Sat 08:00–14:00 WITA; also Tue and Thu 16:00–20:00. For lab tests arrive at least 1 hour before closing.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Bali Peduli's Ubud clinic. The network lists HIV rapid testing and confirmation, CD4 and viral load, and STI testing (molecular gonorrhoea/chlamydia/HPV tests only in Denpasar), with counselling. Non-Indonesians pay Bali Peduli's contribution fees (e.g. HIV rapid test Rp200,000). PrEP, PEP and ART aren't stated; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balipeduli.org/contact-us/find-clinic-get-tested/",
+          "title": "Find a clinic, get tested (locations, services, fees)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://www.balipeduli.org/",
+          "title": "Yayasan Bali Peduli (home, fees for non-Indonesians)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-ngoerah-hospital-child-growth-development-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — Child Growth and Development Clinic"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "A 2017 Udayana University study used the register of children with ADHD at the hospital's Growth and Development Clinic (Klinik Tumbuh Kembang), 2014–2016. The hospital's current outpatient list shows a paediatric clinic (Poli Anak) and a psychiatric clinic (Poliklinik Jiwa) but doesn't name the growth and development clinic, so ask at registration which clinic sees children with ADHD. Adult ADHD assessment and whether methylphenidate is prescribed aren't stated; ask the psychiatric clinic."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://jurnal.harianregional.com/eum/id-33447",
+          "title": "Hubungan ADHD dengan status gizi anak di Klinik Tumbuh Kembang RSUP Sanglah (E-Jurnal Medika Udayana, 2017)",
+          "publisher": "E-Jurnal Medika Udayana (Universitas Udayana)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-ngoerah-hospital-diabetic-clinic",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — Diabetic Clinic (Poliklinik Diabetic)"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "The hospital lists a Diabetic clinic, an internal medicine clinic, a nutrition (Gizi) clinic and a paediatric clinic among its outpatient polyclinics; the executive Wing Amerta also has internal medicine and paediatric clinics. Its site publishes a series on diabetes nutrition therapy. Children's diabetes care, endocrinologists, pumps and CGM aren't named on the pages; ask. For urgent problems (very high or low blood sugar) use the 24-hour emergency department."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-wing-amerta/",
+          "title": "Pelayanan Wing Amerta (executive outpatient wing)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO medical facilities list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-ngoerah-hospital-vct-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — VCT Clinic (Poliklinik VCT)"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "The hospital lists a VCT (voluntary counselling and testing) clinic among its outpatient polyclinics, plus a dermatology and venereology (Kulit dan Kelamin) clinic and a methadone clinic. HIV treatment: a 2022 detikBali report says the internal medicine department's tropical and infectious diseases division was caring for 2,550 people with HIV on antiretroviral treatment, and a doctor there said he has many foreign patients. PrEP and PEP are not mentioned; for PEP out of hours go to the 24-hour emergency department (IGD)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.detik.com/bali/berita/d-6260827/rsup-prof-ngoerah-tangani-2-550-kasus-hiv",
+          "title": "RSUP Prof Ngoerah tangani 2.550 kasus HIV (29 Aug 2022)",
+          "publisher": "detikBali",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://keslan.kemkes.go.id/Wisatamedis/detail/13",
+          "title": "Wisata Medis: RSUP Prof Ngoerah",
+          "publisher": "Ministry of Health (Ditjen Kesehatan Lanjutan)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO medical facilities list. The executive Wing Amerta outpatient wing (afternoon clinics Mon–Fri 16:00–18:00) offers faster, paid appointments in some specialties.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-puskesmas-i-denpasar-barat",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "UPTD Puskesmas I Denpasar Barat"
+      },
+      "organization": "Denpasar City Health Office (Dinas Kesehatan Kota Denpasar)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": null,
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Jl. Gunung Rinjani No. 65, Denpasar"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 482045",
+          "+62 819 9592 3366 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://www.puskesmasdenbar1.denpasarkota.go.id",
+        "email": "puskesmas1denbar@gmail.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Community health centre with a VCT clinic (pre- and post-test counselling with an HIV test; HIV diagnosis and therapy) and an STI clinic (examination, treatment, condoms). It continues ART prescribed by the supervising referral hospital. Uninsured patients pay fees set by city regulation; people registered with BPJS here are not charged. ANTARA (Dec 2025) reports that every puskesmas in Denpasar has HIV care, support and treatment services. PrEP isn't mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.puskesmasdenbar1.denpasarkota.go.id/public/uploads/download/download_222207010716_standar-pelayanan-publik.pdf",
+          "title": "Standar Pelayanan Publik (service standards)",
+          "publisher": "UPTD Puskesmas I Denpasar Barat",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.antaranews.com/berita/394201/denpasar-catat-kenaikan-kasus-hiv-aids-terbanyak-usia-produktif?",
+          "title": "Denpasar catat kenaikan kasus HIV/AIDS (2 Dec 2025)",
+          "publisher": "ANTARA News Bali",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsd-mangusada-vct-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "RSD Mangusada — VCT Clinic"
+      },
+      "organization": "Badung Regency Government (RSD Mangusada Kabupaten Badung)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": null,
+        "district": null,
+        "address": {},
+        "postcode": null,
+        "locationNote": "Badung Regency's government referral hospital (class B).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 9006812 (hotline outside working hours)",
+          "+62 878 5012 7333 (WhatsApp, complaints, working hours)"
+        ],
+        "line": null,
+        "website": "https://rsudmangusada.badungkab.go.id",
+        "email": "rsdm@rsdmangusada.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": null,
+        "basis": "site",
+        "note": "The hospital's 2024 profile lists a VCT clinic (7,909 visits in 2023) and a PMTCT (prevention of mother-to-child transmission) clinic, as well as internal medicine, paediatric and psychiatric clinics. ART, PrEP and PEP aren't named; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://rsudmangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/profil%202024_.pdf",
+          "title": "Profil RSD Mangusada 2024",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://mangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/Laporan%20Humas%20%26%20Pemasaran%20Triwulan%20IV%20Periode%20Oktober%20-%20Desember%202024.pdf",
+          "title": "Laporan Humas & Pemasaran Triwulan IV 2024 (contacts)",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rsudmangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/FIN%20LAPORAN%20RSD%20MANGUSADA%20TAHUN%202024.pdf",
+          "title": "Laporan RSD Mangusada 2024",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Street address not given in the hospital documents found; call before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsia-puri-bunda-vidastana-child-development-center",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "RSIA Puri Bunda — VidaStana Child Development Center"
+      },
+      "organization": "RSIA Puri Bunda (Puri Bunda Hospital for Mothers and Children)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Dauh Puri Kaja",
+        "district": "Denpasar Utara",
+        "address": {
+          "en": "Jalan Gatot Subroto IV No. 19, Dauh Puri Kaja, Denpasar Utara, Bali 80233"
+        },
+        "postcode": "80233",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 811 3899 766 (hotline and WhatsApp booking)"
+        ],
+        "line": null,
+        "website": "https://www.puribunda.com/en/?p=18319",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Developmental paediatrician: Mon, Wed, Thu 17:00–20:00; Fri 16:00–19:00; Sat 10:00–18:00; Sun 17:00–21:00, or by appointment. Psychologist most days; confirm by phone.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child development centre with a paediatric developmental specialist (Sp.A(K)) who diagnoses developmental disorders including ADHD, and a clinical psychologist (psychological and IQ testing, counselling). Speech, occupational and physiotherapy and multisensory classes. No doctor's referral is needed. No child psychiatrist is listed, so ask whether ADHD medicine is prescribed here or by referral."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.puribunda.com/en/?p=18319",
+          "title": "VidaStana Child Development Center",
+          "publisher": "RSIA Puri Bunda",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsj-provinsi-bali-bangli",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Rumah Sakit Jiwa Manah Shanti Mahottama (Bali Provincial Mental Hospital)"
+      },
+      "organization": "Bali Provincial Government",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Bangli",
+        "area": null,
+        "district": "Bangli",
+        "address": {
+          "en": "Jl. Kusuma Yudha No. 29, Bangli"
+        },
+        "postcode": null,
+        "locationNote": "In Bangli Regency, about an hour inland from Denpasar.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 366 91073",
+          "+62 812 4642 2848 (WhatsApp/call, information)"
+        ],
+        "line": null,
+        "website": "https://rsjiwa.baliprov.go.id/",
+        "email": "admin.rsjiwa@baliprov.go.id",
+        "booking": null
+      },
+      "hours": "24-hour emergency department.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Bali's public psychiatric hospital: psychiatric outpatient clinic (Poliklinik Jiwa), inpatient care, psychological testing, drug rehabilitation and a 24-hour emergency department. ADHD services, child and adolescent psychiatry and waiting times aren't stated online; call before travelling."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://rsjiwa.baliprov.go.id/",
+          "title": "Rumah Sakit Jiwa Provinsi Bali (home)",
+          "publisher": "Rumah Sakit Jiwa Manah Shanti Mahottama",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rsjiwa.baliprov.go.id/rawat-jalan",
+          "title": "Rawat Jalan (outpatient)",
+          "publisher": "Rumah Sakit Jiwa Manah Shanti Mahottama",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO list. The US State Department notes that hospital-based psychiatric care in Indonesia is available only through government institutions.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-siloam-hospitals-denpasar",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Siloam Hospitals Denpasar"
+      },
+      "organization": "Siloam Hospitals",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Sunset Road No. 818, Kuta, Badung, Bali 80361"
+        },
+        "postcode": "80361",
+        "locationNote": "Also known as Siloam Hospital Bali.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 779900",
+          "+62 851 1710 7799 (WhatsApp, customer care)"
+        ],
+        "line": null,
+        "website": "https://www.siloamhospitals.com",
+        "email": "info.siloamhospitalsbali@siloamhospitals.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "third_party",
+        "note": "Alodokter lists endocrinology among the hospital's services, and Hello Sehat lists an internal medicine consultant in endocrinology, metabolism and diabetes (Dr. dr. Tjokorda Gde Dalem Pemayun, SpPD-KEMD) practising here. A paediatric nutrition and metabolic disease consultant also practises here; whether children's diabetes is managed isn't stated. Psychiatrists who see children and adults also consult here (ADHD not mentioned)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://alodokter.com/cari-rumah-sakit/siloam-hospitals-denpasar",
+          "title": "Siloam Hospitals Denpasar",
+          "publisher": "Alodokter",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hellosehat.com/care/dokter/dr-dr-tjokorda-gde-dalem-pemayun-sppd-kemd-9726/",
+          "title": "Dr. dr. Tjokorda Gde Dalem Pemayun, SpPD-KEMD",
+          "publisher": "Hello Sehat",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.alodokter.com/cari-dokter/dokter-anak/siloam-hospitals-denpasar/badung",
+          "title": "Dokter anak di Siloam Hospitals Denpasar",
+          "publisher": "Alodokter",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hellosehat.com/care/bali/dokter/psikiatri/",
+          "title": "Psikiater di Bali",
+          "publisher": "Hello Sehat",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Accredited LAM-KPRS and JCI; English-speaking staff, per the UK FCDO list.",
+      "updated": "2026-11-19"
     },
     {
       "id": "in-bom-amaha-bandra",
@@ -38852,6 +40215,2046 @@
       },
       "notes": null,
       "updated": "2026-10-23"
+    },
+    {
+      "id": "vn-sgn-alocare-thu-duc",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Phòng khám Alocare (Alocare Community Clinic) – Thủ Đức"
+      },
+      "organization": "Alocare",
+      "type": "key_population_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "Thủ Đức (former district)",
+        "address": {
+          "en": "651/2 Phạm Văn Đồng, Hiệp Bình Chánh, Thủ Đức, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 12:00–20:00 (per Hello Bacsi).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Community clinic that grew out of the Aloboy group, serving mainly gay men, transgender people, people who use drugs and sex workers (SGGP 2019, which also says it gives HIV treatment). Licensed for PrEP since September 2020 (SGGP 2020). Directories list HIV testing (about 150,000 VND), PrEP, PEP, STI testing (gonorrhoea/chlamydia about 370,000 VND) and treatment. Phone not published by the directories; call or visit to confirm."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "sex_workers",
+        "people_who_use_drugs"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hellobacsi.com/care/benh-vien/phong-kham-alo-care-thu-duc-1933/",
+          "title": "Phòng khám ALO CARE Thủ Đức",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.docosan.com/en/clinics/phong-kham-dieu-tri-hiv-aids-alocare-632",
+          "title": "Phòng Khám Điều Trị HIV/AIDS AloCare",
+          "publisher": "Docosan",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sggp.org.vn/no-luc-day-lui-dich-hivaids-post542514.html",
+          "title": "Nỗ lực đẩy lùi dịch HIV/AIDS (31 Dec 2019)",
+          "publisher": "Sài Gòn Giải Phóng",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sggp.org.vn/phong-chong-hiv-prep-phao-cuu-sinh-post576897.html",
+          "title": "Phòng chống HIV: PrEP – “phao cứu sinh” (1 Dec 2020)",
+          "publisher": "Sài Gòn Giải Phóng",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-childrens-hospital-1",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Nhi Đồng 1 (Children's Hospital 1)"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "District 10 (former)",
+        "address": {
+          "en": "341 Sư Vạn Hạnh, Phường 10, Quận 10, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3927 1119"
+        ],
+        "line": null,
+        "website": "https://nhidong.org.vn/",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "diabetesCare": false,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": true,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Children only. The Psychology Department (Khoa Tâm lý) diagnoses and treats ADHD; its doctors say medicine is used only when indicated, together with psychological therapy. Medpro (2024) quotes on-request psychology visits at about 500,000–1,000,000 VND including a deposit; book ahead, it's busy. Paediatric endocrinologists run a type 1 diabetes club for families (Dec 2024), and Viet Nam News (2024) names the hospital as a major centre managing children with type 1 diabetes."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://nhidong.org.vn/chuyen-muc/tang-dong-giam-chu-y-o-tre-noi-lo-cua-phu-huynh-c56-574.aspx",
+          "title": "Tăng động giảm chú ý ở trẻ – nỗi lo của phụ huynh",
+          "publisher": "Bệnh viện Nhi Đồng 1",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://nhidong.org.vn/cau-lac-bo-ba-me/tham-gia-cau-lac-bo-dai-thao-duong-song-chung-cung-benh-dai-thao-duong-tip-1-c55-3519.aspx",
+          "title": "Câu lạc bộ Đái tháo đường “Sống chung cùng bệnh đái tháo đường típ 1”",
+          "publisher": "Bệnh viện Nhi Đồng 1",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://medpro.vn/tin-tuc/chi-phi-dia-chi-kham-tam-ly-cho-tre-tphcm",
+          "title": "Chi phí, địa chỉ khám tâm lý cho trẻ TPHCM (23 Nov 2024)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://vietnamnews.vn/society/1658159/rising-trend-of-type-1-diabetes-among-vietnamese-children.html",
+          "title": "Rising trend of Type 1 diabetes among Vietnamese children (26 Jun 2024)",
+          "publisher": "Viet Nam News",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-childrens-hospital-2",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Nhi Đồng 2 (Children's Hospital 2) – Psychology Department"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "District 1 (former)",
+        "address": {
+          "en": "14 Lý Tự Trọng, Bến Nghé Ward, District 1, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3829 5723"
+        ],
+        "line": null,
+        "website": "https://benhviennhi.org.vn/",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Psychology Department: Mon–Fri 07:00–11:00 and 13:00–16:00 (per Medpro).",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": false,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Children only. Medpro says the Psychology Department evaluates children with hyperactivity and poor concentration, with tailored therapy; it lists fees from about 38,700 VND (regular) to 300,000 VND (high-quality clinic). The hospital also runs a high-quality psychology clinic (Khoa Phòng khám chất lượng cao – Tâm lý) and publishes ADHD guidance for parents. Medication prescribing isn't stated."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://medpro.vn/tin-tuc/khoa-tam-ly-benh-vien-nhi-dong-2",
+          "title": "Khoa Tâm lý Bệnh viện Nhi Đồng 2 (updated 31 Jul 2026)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://www.benhviennhi.org.vn/news/detail/6626/phan-biet-tre-tang-dong-va-tre-hieu-dong.html",
+          "title": "Phân biệt trẻ tăng động và trẻ hiếu động",
+          "publisher": "Bệnh viện Nhi Đồng 2",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-cho-ray-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Chợ Rẫy (Cho Ray Hospital) – Endocrinology"
+      },
+      "organization": "Ministry of Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Chợ Lớn Ward",
+        "district": "District 5 (former)",
+        "address": {
+          "en": "201B Nguyễn Chí Thanh, Chợ Lớn Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3855 4137"
+        ],
+        "line": null,
+        "website": "https://choray.vn/",
+        "email": "bvchoray@choray.vn",
+        "booking": null
+      },
+      "hours": "Outpatient Mon–Fri 06:00–16:00 (per Hello Bacsi); 24-hour emergency.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": true,
+        "basis": "third_party",
+        "note": "Large national referral hospital. Its clinical departments include an Endocrinology Department with a Diabetic Foot Unit (Khoa Nội tiết và Đơn vị Bàn chân đái tháo đường). It also has on-request (fee-paying) departments and an international general internal medicine department (floor 10B1). DFAT lists staff as Vietnamese-speaking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hellobacsi.com/care/benh-vien/benh-vien-cho-ray-67/",
+          "title": "Bệnh viện Chợ Rẫy",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-columbia-asia-gia-dinh",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Columbia Asia Gia Dinh International Hospital – Diabetes Clinic"
+      },
+      "organization": "Columbia Asia",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "Bình Thạnh (former district)",
+        "address": {
+          "en": "01 Nơ Trang Long, Bình Thạnh, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3803 0678"
+        ],
+        "line": null,
+        "website": "https://www.columbiaasia.com/vietnam/hospitals/gia-dinh/gia-dinh-services-facilities",
+        "email": null,
+        "booking": null
+      },
+      "hours": "24-hour Accident & Emergency.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "Hospital lists a Diabetes Clinic giving coordinated care for diabetes, thyroid disease and metabolic problems, by referral, and 24-hour emergency care. Address and phone from the Singapore consulate list."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.columbiaasia.com/vietnam/hospitals/gia-dinh/gia-dinh-services-facilities",
+          "title": "Gia Dinh – Services & Facilities",
+          "publisher": "Columbia Asia Vietnam",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-diag-medical-centre",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Trung tâm Y khoa DIAG (DIAG Medical Centre)"
+      },
+      "organization": "DIAG",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Hòa Hưng Ward",
+        "district": "District 10 (former)",
+        "address": {
+          "en": "414–420 Cao Thắng, Phường Hòa Hưng, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sun 05:30–21:00 (per Medpro).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Private laboratory chain (main branch; Medpro says 40+ sample-collection points). Medpro lists HIV Ag/Ab combo test about 170,000 VND, HIV RNA PCR about 1,150,000 VND and STI packages from about 983,000 VND. Testing only, not treatment; a positive result needs confirmation and referral to an HIV clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://medpro.vn/tin-tuc/dia-chi-xet-nghiem-hiv-uy-tin",
+          "title": "6 địa chỉ xét nghiệm HIV/AIDS uy tín, bảo mật tại TPHCM (updated 9 Nov 2026)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.docosan.com/blog/?p=103567",
+          "title": "Where to get an STD test in Ho Chi Minh City? (updated 3 Jan 2025)",
+          "publisher": "Docosan",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-ethos-asia",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Ethos Asia"
+      },
+      "organization": "Ethos Asia",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "An Khánh Ward (Thảo Điền)",
+        "district": "District 2 (former), Thủ Đức",
+        "address": {
+          "en": "FIDECO Compound, 14 Thảo Điền, An Khánh Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 909 805 036",
+          "+84 909 806 536"
+        ],
+        "line": null,
+        "website": null,
+        "email": "anita@ethosasia.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "Listed by the Australian Consulate-General for child development assessments: psychoeducational, autism, ADHD, cognitive profile, gifted and infant assessments. English and Vietnamese. Psychology service, not a psychiatric one: for ADHD medication you need a psychiatrist (e.g. FV Hospital or Family Medical Practice)."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "en",
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hcmc.consulate.gov.au/files/hchi/list_of_counselling_and_psychological_services_jul_2026.pdf",
+          "title": "List of counselling and psychological services (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-family-medical-practice-thao-dien",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Family Medical Practice HCMC – District 2 Medical Centre (Thảo Điền)"
+      },
+      "organization": "Family Medical Practice",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "An Khánh Ward (Thảo Điền)",
+        "district": "District 2 (former), Thủ Đức",
+        "address": {
+          "en": "95 Thảo Điền, An Khánh Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3744 2000",
+          "+84 28 3744 9000"
+        ],
+        "line": null,
+        "website": "https://www.vietnammedicalpractice.com/clinical-services/psychiatry/",
+        "email": "d2.reception@vietnammedicalpractice.com",
+        "booking": null
+      },
+      "hours": "Open 24/7 (DFAT). Emergency: *9999 or +84 28 3744 9000.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "basis": "site",
+        "note": "FMP's psychiatry service lists ADHD among the conditions it treats for adults, adolescents and children, and offers psychiatric medication evaluation and prescription. DFAT lists the psychiatry department at this District 2 centre. Other HCMC FMP clinics: Diamond Plaza, 34 Lê Duẩn (+84 28 3822 7848) and District 7. English and Vietnamese. Fee-paying international clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en",
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vietnammedicalpractice.com/clinical-services/psychiatry/",
+          "title": "Psychiatry",
+          "publisher": "Family Medical Practice",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.consulate.gov.au/files/hchi/list_of_counselling_and_psychological_services_jul_2026.pdf",
+          "title": "List of counselling and psychological services (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-fv-hospital",
+      "conditions": [
+        "adhd",
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "FV Hospital (Bệnh viện FV / Franco-Vietnamese Hospital)"
+      },
+      "organization": "FV Hospital",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Tân Mỹ Ward (Phú Mỹ Hưng)",
+        "district": "District 7 (former)",
+        "address": {
+          "en": "6 Nguyễn Lương Bằng, Tân Mỹ Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3511 3333",
+          "+84 28 3511 3500"
+        ],
+        "line": null,
+        "website": "https://www.fvhospital.com/",
+        "email": "information@fvhospital.com",
+        "booking": null
+      },
+      "hours": "24-hour emergency: +84 28 3511 3500.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": true,
+        "adhdMedication": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "FV says its mental health specialists assess, diagnose and treat ADHD, using stimulant and non-stimulant medicines; three psychiatrists list ADHD and the psychiatry team says it sees children, adolescents and adults (the ADHD page itself doesn't give an age range, so ask when booking). Endocrinology unit manages diabetes, prediabetes and metabolic disorders, plus children's growth and puberty disorders; a dedicated diabetes centre is listed as work in progress (2026). International private hospital; DFAT lists Chinese, French, Japanese, Khmer, Korean and Russian, and FV's psychiatrists list English. Fee-paying."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "vi",
+          "en",
+          "fr"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.fvhospital.com/?p=239643",
+          "title": "Understanding Attention-Deficit Hyperactivity Disorder (ADHD)",
+          "publisher": "FV Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fvhospital.com/en/specialties/psychiatry/meet-our-experts/",
+          "title": "Psychiatry – Our Expert Team",
+          "publisher": "FV Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fvhospital.com/en/specialties/endocrinology/",
+          "title": "Endocrinology",
+          "publisher": "FV Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fvhospital.com/en/news/dr-nguyen-nhat-nam-phd-joins-fv-hospital-as-head-of-endocrinology-unit/",
+          "title": "Dr Nguyen Nhat Nam, PhD joins FV Hospital as Head of Endocrinology Unit (24 Jul 2026)",
+          "publisher": "FV Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-galant-district-5",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Phòng khám Đa khoa Galant (Galant General Clinic) – District 5"
+      },
+      "organization": "Galant",
+      "type": "key_population_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Chợ Quán Ward",
+        "district": "District 5 (former)",
+        "address": {
+          "en": "104 Trần Bình Trọng, Phường 1, Quận 5, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Daily 08:00–20:00 (per Hello Bacsi and Medpro; Docosan lists 09:00–17:00).",
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Directories list HIV testing (HIV Ag/Ab combo about 169,000 VND; basic STI panel about 399,000 VND per Medpro), STI testing and treatment, PrEP and PEP counselling and prescribing, and HIV treatment. In 2019 SGGP reported Galant was the first private clinic licensed to give HIV medicines (ARVs) under Vietnamese health insurance. A 2017 Nhân Dân report gave the address as 119 Trần Bình Trọng and said the clinic has a counselling room for transgender people. Galant also lists branches in Bình Thạnh (Yên Đỗ street) and Tân Bình. The clinic has no official website we could find; call or visit to confirm."
+      },
+      "populationFocus": [
+        "lgbtqia",
+        "transgender",
+        "sex_workers"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hellobacsi.com/care/benh-vien/phong-kham-da-khoa-galant-3205/",
+          "title": "Phòng khám Đa khoa Galant",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://medpro.vn/tin-tuc/dia-chi-xet-nghiem-hiv-uy-tin",
+          "title": "6 địa chỉ xét nghiệm HIV/AIDS uy tín, bảo mật tại TPHCM (updated 9 Nov 2026)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.docosan.com/en/clinics/phong-kham-da-khoa-galant---co-so-1-quan-5-504",
+          "title": "Phòng Khám Đa Khoa Galant – Cơ sở 1 Quận 5",
+          "publisher": "Docosan",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.sggp.org.vn/no-luc-day-lui-dich-hivaids-post542514.html",
+          "title": "Nỗ lực đẩy lùi dịch HIV/AIDS (31 Dec 2019)",
+          "publisher": "Sài Gòn Giải Phóng",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://nhandan.vn/mo-hinh-phong-kham-nen-nhan-rong-post310159.html",
+          "title": "Mô hình phòng khám nên nhân rộng (23 Nov 2017)",
+          "publisher": "Nhân Dân",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-galant-tan-binh",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Phòng khám Điều trị HIV/AIDS Galant – Tân Bình (Galant HIV Clinic, branch 3)"
+      },
+      "organization": "Galant",
+      "type": "key_population_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "Tân Bình (former district)",
+        "address": {},
+        "postcode": null,
+        "locationNote": "On Ngô Thị Thu Minh street, Tân Bình; full address not published in the directory.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": null,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Directory listing: PrEP and PEP counselling and prescribing, treatment of HIV and related conditions, STI treatment (syphilis, genital warts, gonorrhoea), hepatitis B and C. Described as a clinic for the LGBT community, founded 2016. Vietnamese and English listed. Address and phone not shown publicly; contact Galant's main clinic in District 5."
+      },
+      "populationFocus": [
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "vi",
+          "en"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.docosan.com/en/clinics/phong-kham-dieu-tri-hiv--aids-galant---co-so-3-quan-tan-binh-654",
+          "title": "Phòng Khám Điều Trị HIV/AIDS Galant – Cơ sở 3 Quận Tân Bình",
+          "publisher": "Docosan",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-glink-district-10",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Glink Clinic Ho Chi Minh City (Phòng khám Glink Tp.HCM 1)"
+      },
+      "organization": "Glink (social enterprise)",
+      "type": "key_population_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "District 10 (former)",
+        "address": {
+          "en": "224/38 Lý Thường Kiệt, Phường 14, Quận 10, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 932 108 534"
+        ],
+        "line": null,
+        "website": "https://www.glinkvn.com/location/phong-kham-glink-quan-10-tp-hcm/",
+        "email": "info@glinkvn.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": true,
+        "pep": true,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "Branch page lists rapid HIV and STI testing, PrEP, PEP, HIV treatment (ART), transgender health and mental health (by appointment). Glink says PEP should start no more than 72 hours after exposure. The transgender health service lists hormone-use counselling and monitoring; it doesn't say whether hormones are prescribed. A 2018 case study says services are paid, with discounts or free screening for clients who can't pay, and that Glink was Vietnam's first private clinic licensed for HIV treatment (2017). Hours and prices aren't published: call first."
+      },
+      "populationFocus": [
+        "msm",
+        "transgender",
+        "lgbtqia"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.glinkvn.com/location/phong-kham-glink-quan-10-tp-hcm/",
+          "title": "Phòng Khám Glink Tp.HCM 1",
+          "publisher": "Glink",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.glinkvn.com/service/pep/",
+          "title": "Dự phòng sau phơi nhiễm HIV – PEP",
+          "publisher": "Glink",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.glinkvn.com/service/suc-khoe-nguoi-chuyen-gioi/",
+          "title": "Sức khỏe người chuyển giới",
+          "publisher": "Glink",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://differentiatedservicedelivery.org/wp-content/uploads/13-Viet-Nam-G-Link.pdf",
+          "title": "Viet Nam: G-Link case study",
+          "publisher": "differentiatedservicedelivery.org (IAS)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-hcmc-psychiatric-hospital",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Tâm thần TP.HCM (Ho Chi Minh City Psychiatric Hospital)"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Chợ Quán Ward",
+        "district": "District 5 (former)",
+        "address": {
+          "en": "766 Võ Văn Kiệt, Chợ Quán Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": "Child and adolescent services are at the third campus, 165B Phan Đăng Lưu, Cầu Kiệu Ward (former Phú Nhuận district), per Pharmacity. The Singapore consulate lists another site at 192 Hàm Tử.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3924 2671"
+        ],
+        "line": null,
+        "website": "https://bvtt-tphcm.org.vn/",
+        "email": "info@bvtt-tphcm.org.vn",
+        "booking": null
+      },
+      "hours": "Mon–Fri 07:30–11:30 and 13:30–16:30, weekday evening sessions about 16:30–19:00 at the main campus, weekend mornings; 24/7 emergency (per Pharmacity 2026; confirm).",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": true,
+        "basis": "third_party",
+        "note": "City public psychiatric hospital. Pharmacity's 2026 guide says the child and adolescent programme covers ADHD, autism, language delay, anxiety and depression, usually combining medication with therapy; psychological tests cost about 100,000–500,000 VND, and a service visit about 150,000–300,000 VND. The hospital publishes articles on adult ADHD, but we found no stated adult ADHD clinic. DFAT: Vietnamese, limited English."
+      },
+      "populationFocus": [
+        "general",
+        "children"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://hcmc.consulate.gov.au/files/hchi/list_of_counselling_and_psychological_services_jul_2026.pdf",
+          "title": "List of counselling and psychological services (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pharmacity.vn/benh-vien-tam-than-tphcm.htm",
+          "title": "Kinh nghiệm đi khám tại Bệnh viện Tâm Thần TP.HCM (3 Jun 2026)",
+          "publisher": "Pharmacity",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bvtt-tphcm.org.vn/mot-ky-thuat-dieu-tri-tre-tang-dong-giam-chu-y-adhd-moi/",
+          "title": "Một kỹ thuật điều trị trẻ tăng động giảm chú ý (ADHD) mới",
+          "publisher": "Bệnh viện Tâm thần TP.HCM",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-hospital-for-tropical-diseases",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Bệnh Nhiệt đới (Hospital for Tropical Diseases)"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Chợ Quán Ward",
+        "district": "District 5 (former)",
+        "address": {
+          "en": "764 Võ Văn Kiệt, Phường Chợ Quán, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3923 8704",
+          "+84 28 3923 5804",
+          "+84 797 764 764"
+        ],
+        "line": null,
+        "website": "https://bvbnd.vn/",
+        "email": "bv.bnhietdoi@tphcm.gov.vn",
+        "booking": "https://booking.bvbnd.vn/dkKham"
+      },
+      "hours": "Testing: 06:30–20:00 daily (per Medpro); confirm with the hospital.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "site",
+        "note": "The city's infectious-diseases hospital. Its Infectious Diseases Department E treats adults and children with HIV/AIDS. Medpro lists HIV tests (rapid antibody about 58,600 VND; automated about 116,400 VND). The hospital website doesn't mention PrEP or PEP: call the hotline. DFAT lists staff as Vietnamese-speaking. Has an emergency department and an on-request (fee-paying) clinic."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bvbnd.vn/",
+          "title": "Bệnh viện Bệnh Nhiệt đới – homepage",
+          "publisher": "Bệnh viện Bệnh Nhiệt đới",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.bvbnd.vn/khoa-nhiem-e/",
+          "title": "Khoa Nhiễm E",
+          "publisher": "Bệnh viện Bệnh Nhiệt đới",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://medpro.vn/tin-tuc/dia-chi-xet-nghiem-hiv-uy-tin",
+          "title": "6 địa chỉ xét nghiệm HIV/AIDS uy tín, bảo mật tại TPHCM (updated 9 Nov 2026)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-hospital-of-dermato-venereology",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Da Liễu TP.HCM (Ho Chi Minh City Hospital of Dermato-Venereology)"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Xuân Hòa Ward",
+        "district": "District 3 (former)",
+        "address": {
+          "en": "02 Nguyễn Thông, Phường Xuân Hòa, Ho Chi Minh City (formerly Ward 6/Võ Thị Sáu, District 3)"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3930 8131",
+          "+84 908 051 200"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": "https://medpro.vn/dalieuhcm"
+      },
+      "hours": "Mon–Fri 07:00–11:00 and 12:00–16:00, with after-hours sessions 06:00–07:00, 11:00–12:00 and 16:00–18:30; Sat 07:30–11:00 and 13:00–18:30; Sun 07:30–11:00 and 13:00–15:00 (per Medpro; may change).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Public specialist hospital for skin and sexually transmitted infections. Clinical Department 3 sees people with HIV/AIDS who have skin conditions or STIs. Medpro lists a confirmatory HIV test (about 230,000 VND). PrEP and PEP aren't mentioned. Phone numbers are from a 2024 Pharmacity guide (after-hours mobile +84 901 365 638; bookings +84 909 100 819)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://medpro.vn/dalieuhcm",
+          "title": "Bệnh viện Da Liễu TPHCM",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://medpro.vn/tin-tuc/dia-chi-xet-nghiem-hiv-uy-tin",
+          "title": "6 địa chỉ xét nghiệm HIV/AIDS uy tín, bảo mật tại TPHCM (updated 9 Nov 2026)",
+          "publisher": "Medpro",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.pharmacity.vn/tham-kham-tai-benh-vien-da-lieu-tp-ho-chi-minh.htm",
+          "title": "Hướng dẫn thăm khám tại Bệnh viện Da liễu TP.Hồ Chí Minh (16 May 2024)",
+          "publisher": "Pharmacity",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-pasteur-institute",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Viện Pasteur TP.HCM (Pasteur Institute Ho Chi Minh City)"
+      },
+      "organization": "Ministry of Health",
+      "type": "public_clinic",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": null,
+        "address": {},
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3829 7308"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Testing department: Mon–Fri 07:00–11:00 and 13:00–17:00; Sat 07:00–11:00 (afternoon for results only); closed Sun (per a 2021 guide; may be out of date).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": null,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "UNAIDS Viet Nam lists the Pasteur Institute in HCMC as a voluntary HIV counselling and testing venue. Phone is the blood/HIV testing line given by Hello Bacsi (last updated 2021). Testing only; ask for referral for treatment or PrEP."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://vietnam.unaids.org/?p=574",
+          "title": "Information on how and where to test for HIV",
+          "publisher": "UNAIDS Viet Nam",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hellobacsi.com/suc-khoe/benh-vien/huong-dan-kham-chua-benh-o-vien-pasteur-tp-ho-chi-minh/",
+          "title": "Hướng dẫn khám chữa bệnh ở Viện Pasteur TP Hồ Chí Minh (updated 16 Apr 2021)",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-peoples-hospital-115",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Nhân dân 115 (People's Hospital 115)"
+      },
+      "organization": "Ho Chi Minh City Department of Health",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "District 10 (former)",
+        "address": {
+          "en": "527 Sư Vạn Hạnh, Phường 12, Quận 10, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3865 4249",
+          "+84 28 3865 5110",
+          "+84 967 701 010"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Sat 07:30–11:30 and 13:00–16:00; Sun 07:30–11:30 (per Hello Bacsi). 24/7 hotline +84 967 701 010.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "third_party",
+        "note": "Hello Bacsi lists an Endocrinology Department; a published cost study covers all insured diabetes treatment episodes at the hospital in 2019–2022 (99% outpatient). The Singapore consulate lists the 24/7 hotline and customer care line +84 906 336 115."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hellobacsi.com/care/benh-vien/benh-vien-nhan-dan-115-70/",
+          "title": "Bệnh viện Nhân Dân 115",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://vnras.com/?p=55309",
+          "title": "Phân tích chi phí trực tiếp y tế cho người bệnh đái tháo đường tại Bệnh viện Nhân dân 115 giai đoạn 2019–2022",
+          "publisher": "VNRAS",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-tam-anh-general-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Đa khoa Tâm Anh TP.HCM (Tam Anh General Hospital HCMC) – Endocrinology & Diabetes"
+      },
+      "organization": "Tâm Anh Hospital System",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Tân Sơn Hòa Ward",
+        "district": "Tân Bình (former district)",
+        "address": {
+          "en": "2B Phổ Quang, Tân Sơn Hòa Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 7102 6789",
+          "+84 93 180 6858"
+        ],
+        "line": null,
+        "website": "https://tamanhhospital.vn/chuyen-khoa/noi-tiet-dai-thao-duong/",
+        "email": "cskh@tahospital.vn",
+        "booking": null
+      },
+      "hours": "Mon–Sat 06:00–16:00; some after-hours clinics 16:00–19:00; some Sunday clinics 06:30–12:00; emergency 24/7.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "Endocrinology department treats type 1, type 2 and gestational diabetes and complications, with a dedicated diabetic foot clinic; also children's growth and puberty disorders (diabetes care for children not stated). Services listed are for the hospital system, not specifically the HCMC branch. Fee-paying private hospital."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://tamanhhospital.vn/chuyen-khoa/noi-tiet-dai-thao-duong/",
+          "title": "Khoa Nội tiết – Đái tháo đường",
+          "publisher": "Bệnh viện Đa khoa Tâm Anh",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-thong-nhat-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Thống Nhất (Thong Nhat Hospital) – Endocrinology Clinic"
+      },
+      "organization": "Ministry of Health",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "Tân Bình (former district)",
+        "address": {
+          "en": "1 Lý Thường Kiệt, Phường 7, Tân Bình, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3869 0277"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 07:00–16:00 (per Hello Bacsi); emergency care available.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "third_party",
+        "note": "Has an Endocrinology Department; a 2022–2023 study of outpatients with type 2 diabetes was carried out at its Endocrinology Clinic (phòng khám Nội tiết)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://hellobacsi.com/care/benh-vien/benh-vien-thong-nhat-46/",
+          "title": "Bệnh Viện Thống Nhất",
+          "publisher": "Hello Bacsi",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://tapchinghiencuuyhoc.vn/index.php/tcncyh/article/view/3072",
+          "title": "Yếu tố ảnh hưởng tuân thủ điều trị ở bệnh nhân đái tháo đường típ 2 điều trị ngoại trú",
+          "publisher": "Tạp chí Nghiên cứu Y học",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-university-medical-center",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Bệnh viện Đại học Y Dược TP.HCM (University Medical Center HCMC) – Endocrinology Department"
+      },
+      "organization": "University of Medicine and Pharmacy at Ho Chi Minh City",
+      "type": "public_hospital",
+      "operator": "university",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": null,
+        "district": "District 5 (former)",
+        "address": {
+          "en": "215 Hồng Bàng, Ward 11, District 5, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": "Endocrinology Department: Floor 9, Area A.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3952 5900",
+          "+84 28 3855 4269"
+        ],
+        "line": null,
+        "website": "https://bvdaihoc.com.vn/en/specialties/endocrinology-department",
+        "email": null,
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": true,
+        "endocrinologist": true,
+        "insulinPump": true,
+        "cgm": true,
+        "diabetesEducation": true,
+        "diabeticFootCare": true,
+        "basis": "site",
+        "note": "University teaching hospital. The Endocrinology Department lists diabetes care, insulin pump, CGM, patient education, diabetic foot care and paediatric care, with multidisciplinary groups for diabetic foot and gestational diabetes. Department phone +84 28 3952 5900; the Singapore consulate lists +84 28 3855 4269 for campus 1."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://bvdaihoc.com.vn/en/specialties/endocrinology-department",
+          "title": "Endocrinology Department",
+          "publisher": "University Medical Center HCMC",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hochiminhcity.mfa.gov.sg/consular-services/list-of-hospitals/",
+          "title": "List of hospitals",
+          "publisher": "Consulate-General of Singapore in Ho Chi Minh City",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-victoria-healthcare",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Victoria Healthcare International Clinics (Hệ thống Phòng khám Quốc tế Victoria)"
+      },
+      "organization": "Victoria Healthcare",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": "Victoria Healthcare",
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Tân Định Ward",
+        "district": null,
+        "address": {
+          "en": "20/20Bis/22 Đinh Tiên Hoàng, Tân Định Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": "Other HCMC clinics (DFAT): 135A Nguyễn Văn Trỗi (Phú Nhuận Ward); 1056 Nguyễn Văn Linh, Sky Garden (Tân Hưng Ward); 37–39 Lương Định Của (An Khánh Ward).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3910 4545",
+          "+84 28 7309 4545"
+        ],
+        "line": null,
+        "website": "https://victoriavn.com/",
+        "email": "customercare@victoriavn.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "network",
+        "note": "Victoria lists an endocrinologist who specialises in diagnosing and managing diabetes; the page doesn't say which of the four clinics he works at. English and Vietnamese (DFAT). Fee-paying."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en",
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://victoriavn.com/en/find-doctors/endocrinology/nguyen-van-huuu",
+          "title": "Dr Nguyen Van Huu – Endocrinology",
+          "publisher": "Victoria Healthcare",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "vn-sgn-vinmec-central-park",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "sgn",
+      "name": {
+        "en": "Vinmec Central Park International Hospital (Bệnh viện Đa khoa Quốc tế Vinmec Central Park)"
+      },
+      "organization": "Vinmec Healthcare System",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "VN",
+        "province": "Ho Chi Minh City",
+        "city": "Ho Chi Minh City",
+        "area": "Thạnh Mỹ Tây Ward",
+        "district": "Bình Thạnh (former district)",
+        "address": {
+          "en": "720A Điện Biên Phủ, Thạnh Mỹ Tây Ward, Ho Chi Minh City"
+        },
+        "postcode": null,
+        "locationNote": "DFAT lists the address as 208 Nguyễn Hữu Cảnh, Vinhomes Tân Cảng (same complex).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+84 28 3622 1166"
+        ],
+        "line": null,
+        "website": "https://www.vinmec.com/eng/hospital/vinmec-central-park-international-hospital-1",
+        "email": null,
+        "booking": null
+      },
+      "hours": "24-hour emergency (DFAT).",
+      "services": {
+        "diabetesCare": null,
+        "diabetesCareChildren": true,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "International private hospital with interpreters in English, Khmer and Korean. Its Paediatrics–Neonatology department lists successful treatment of diabetic ketoacidosis. The hospital page lists no endocrinology department, so adult diabetes follow-up isn't confirmed; use the emergency department for urgent diabetes problems. A Paediatric Psychology Clinic (6 months–16 years) does developmental and learning assessments but doesn't list ADHD."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "en",
+          "vi"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.vinmec.com/eng/hospital/vinmec-central-park-international-hospital-1",
+          "title": "Vinmec Central Park International Hospital",
+          "publisher": "Vinmec",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://vinmec.com/en/khoa-nhi-so-sinh-benh-vien-da-khoa-quoc-te-vinmec-central-park-47751/nhi",
+          "title": "Pediatrics – Neonatology Department of Vinmec Central Park International Hospital",
+          "publisher": "Vinmec",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.vinmec.com/eng/hospital/pediatric-psychology-clinic-vinmec-central-park-international-hospital",
+          "title": "Pediatric Psychology Clinic – Vinmec Central Park",
+          "publisher": "Vinmec",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+          "title": "List of hospitals and clinics (July 2026)",
+          "publisher": "Australian Consulate-General Ho Chi Minh City (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
     }
   ]
 }

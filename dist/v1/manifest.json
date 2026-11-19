@@ -9,7 +9,7 @@
   "googleTagId": "GTM-N9HSS427",
   "counts": {
     "medicines": 124,
-    "providers": 460,
+    "providers": 496,
     "providersByCity": {
       "ayt": 3,
       "bkk": 49,
@@ -18,6 +18,7 @@
       "cnx": 17,
       "cun": 5,
       "del": 15,
+      "dps": 14,
       "dxb": 13,
       "gdl": 9,
       "hkg": 24,
@@ -35,6 +36,7 @@
       "pyx": 6,
       "rom": 18,
       "sfo": 19,
+      "sgn": 22,
       "sha": 11,
       "sin": 9,
       "szx": 19,
@@ -42,12 +44,12 @@
       "tyo": 34
     },
     "providersByCondition": {
-      "adhd": 91,
-      "diabetes": 111,
-      "hiv": 293
+      "adhd": 101,
+      "diabetes": 125,
+      "hiv": 308
     },
     "providersByVerification": {
-      "unverified": 460
+      "unverified": 496
     }
   },
   "files": {
@@ -63,48 +65,48 @@
     },
     "providers.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.json",
-      "bytes": 1283307,
-      "sha256": "340f7ba8167107f28d19ca7ed202ce728900980c01e0e0b4c137db99ef76aa4d"
+      "bytes": 1405251,
+      "sha256": "e1902207368522819358bae20dcff914dd8ae15f7a4ec6bd3b381aacf5c5448a"
     },
     "providers.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/providers.csv",
-      "bytes": 444157,
-      "sha256": "949f9ccb30da18d4224e3a3b6ab4b07b321496ea3c19cf2aede7bc1cc7bca403"
+      "bytes": 489624,
+      "sha256": "70ed927dcd43e531b138a22706cb9770f1d7b2e925986d929b40ba1c479994cf"
     },
     "cities.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.json",
-      "bytes": 68912,
-      "sha256": "e85bf2c756b14e4ddcc34f33e3c05c5c0556688d48e939eb97b81214a978a035"
+      "bytes": 78168,
+      "sha256": "69cab03e612bb0a64b5b026e592c4753b07c59ae36513f8fef9b6ea2e8dc92d3"
     },
     "cities.csv": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/cities.csv",
-      "bytes": 55004,
-      "sha256": "0233b634a19cbc88b0ac7e1f58a539c0118f0f526a9882cc69b781703c94922c"
+      "bytes": 63714,
+      "sha256": "462bb4713362ac6ed86978432614986183e23e4563ebb05366d351d1372e74df"
     },
     "i18n/content.es.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.es.json",
-      "bytes": 123106,
-      "sha256": "2eb4b5ab15b8293afec0a2e68590f843f6ac46a3d3cf4b976a5fae34e895115e"
+      "bytes": 123240,
+      "sha256": "ff00ce6535956d94e5ca5a8cdbf8992b857b352e65a722e7ccb9147bc28070ba"
     },
     "i18n/content.pt.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.pt.json",
-      "bytes": 122384,
-      "sha256": "f06032b1e09d57a5d3599ddfd95c73dc26fcefee363427457eaf991141c180ef"
+      "bytes": 122524,
+      "sha256": "d090f1a9cdcfeecb5bfd4b60c6947faa45202dd31b976042e5f7aef8d268e1a4"
     },
     "i18n/content.th.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.th.json",
-      "bytes": 180851,
-      "sha256": "5efb6019194f83aaf1a6d4ec684f0aeb52c0991a99a005e06e185d1d540376d5"
+      "bytes": 181072,
+      "sha256": "6e2e596dab9436257709b40fbe0fe8b78853f93c19bc68b70b97ddbd9da7c12b"
     },
     "i18n/content.zh-Hans.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hans.json",
-      "bytes": 112303,
-      "sha256": "9a81efc59e72831854073c429a90002a8651d97378b579e70512ab89df91cb75"
+      "bytes": 112440,
+      "sha256": "580c5ab77cc5a8a9db184f9bc4cc22621a55982f2e623651d4f06882df000844"
     },
     "i18n/content.zh-Hant.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/content.zh-Hant.json",
-      "bytes": 112843,
-      "sha256": "78b30d7997766351444a60fa03243ddb85bf106a9c261c03afa431242347778d"
+      "bytes": 112971,
+      "sha256": "23acebf0d290927ab1ee1f83fb930c4a2fe797329b8b755853ab31c99fdf7ec5"
     },
     "i18n/ui.json": {
       "url": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/dist/v1/i18n/ui.json",

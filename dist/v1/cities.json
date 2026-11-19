@@ -4,7 +4,7 @@
   "released": "2026-10-23",
   "license": "CC-BY-4.0",
   "schema": "https://raw.githubusercontent.com/nr1webdevelopment/pocket-formulary/main/schema/city.schema.json",
-  "count": 29,
+  "count": 31,
   "data": [
     {
       "code": "bkk",
@@ -818,6 +818,76 @@
         "hiv": "https://english.redcross.or.th/news/medical-and-health-care-services/5794/",
         "adhd": "https://thaiconsulateperth.com/wp-content/uploads/2016/09/FAQs_for_Drugs_Narcotics_19092016.pdf",
         "diabetes": "https://www.tatnews.org/2024/11/thailand-fda-issues-traveller-friendly-guidelines-for-importing-personal-health-products/"
+      }
+    },
+    {
+      "code": "dps",
+      "file": "bali.json",
+      "name": {
+        "en": "Bali"
+      },
+      "country": "ID",
+      "countryName": "Indonesia",
+      "jurisdiction": "Indonesia",
+      "dialCode": "+62",
+      "timezone": "Asia/Makassar",
+      "currency": "IDR",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Tourists pay for all medical care in Indonesia. Hospitals usually want proof of medical insurance or a deposit before treating you, so carry your insurance details. For a medical emergency call 119 (ambulance and rescue 118). Psychiatric services are limited. Prof. Ngoerah Hospital in Denpasar (formerly Sanglah) is the main public referral hospital; the UK government lists BIMC (Kuta and Nusa Dua), Siloam (Kuta), Kasih Ibu, Bali International Hospital (Sanur) and Bali Royal Hospital as having English-speaking staff.",
+        "hiv": "The US State Department says it knows of no HIV entry restrictions for visitors or foreign residents of Indonesia. PEP must be started as soon as possible and within 72 hours: go to a hospital emergency department (IGD) and ask for HIV PEP. Indonesia's government PrEP programme requires Indonesian citizenship, so visitors should bring their own supply. HIV and STI testing is available at puskesmas (community health centres), Prof. Ngoerah Hospital's VCT clinic and Bali Peduli's clinics in Denpasar and Ubud; Bali Peduli publishes fees for non-Indonesians (HIV rapid test Rp200,000 in 2026).",
+        "adhd": "Amphetamine and dexamphetamine are Category I narcotics in Indonesia, and the US State Department says amphetamine-based ADHD medicines such as Adderall and Vyvanse (lisdexamfetamine) are illegal there. Don't bring them. Methylphenidate (e.g. Ritalin, Concerta) is a Category II psychotropic: it's sold in Indonesia only as a slow-release tablet and only with a doctor's prescription. The Ministry of Health said in 2022 that atomoxetine was not available. If you bring prescribed medicine, carry a doctor's letter (your name as in your passport, the medicine, daily dose and that it's for personal use), keep it in its original packaging with the prescription, declare it on the All Indonesia arrival form, and bring only enough for your stay. BPOM's import rules require extra approval for narcotics and psychotropics, and travellers may be asked to complete a BPOM form, so contact BPOM before travelling with methylphenidate. Never post medicines to Indonesia.",
+        "diabetes": "Insulin is a prescription-only medicine (obat keras) in Indonesia, and buying prescription-only medicine without an Indonesian prescription is illegal, so bring enough insulin and supplies for your whole trip, in original packaging, with a doctor's letter and prescription, and declare them on arrival. If you need more, see a doctor in Bali for a prescription. Prof. Ngoerah Hospital runs a public diabetic clinic (weekdays), Bali International Hospital and Siloam Hospitals Denpasar list endocrinology, and BIMC Kuta's emergency department, laboratory and pharmacy are open 24 hours."
+      },
+      "noteSources": {
+        "general": "https://www.smartraveller.gov.au/destinations/asia/indonesia",
+        "general-facilities": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+        "hiv": "https://travel.state.gov/en/international-travel/travel-advisories/indonesia.html",
+        "hiv-prep": "https://hivpreventioncoalition.unaids.org/sites/default/files/attachments/indonesia_petunjuk_teknis_prep_2023_eng.pdf",
+        "hiv-testing-fees": "https://balipeduli.org/contact-us/find-clinic-get-tested/",
+        "adhd": "https://peraturan.go.id/files/permenkes-no-15-tahun-2025.pdf",
+        "adhd-methylphenidate": "https://jdih.kemkes.go.id/storage/documents/pdfs/2025permenkes006.pdf",
+        "adhd-availability": "https://keslan.kemkes.go.id/view_artikel/997/mengenal-obat-obatan-pada-adhd",
+        "adhd-travel": "https://travel.state.gov/en/international-travel/travel-advisories/indonesia.html",
+        "adhd-bpom": "https://peraturan.go.id/files/peraturan-bpom-no-28-tahun-2023.pdf",
+        "diabetes": "https://satusehat.kemkes.go.id/kfa-browser/poa-detail/93020912",
+        "diabetes-travel": "https://www.smartraveller.gov.au/destinations/asia/indonesia"
+      }
+    },
+    {
+      "code": "sgn",
+      "file": "ho-chi-minh-city.json",
+      "name": {
+        "en": "Ho Chi Minh City"
+      },
+      "country": "VN",
+      "countryName": "Vietnam",
+      "jurisdiction": "Vietnam",
+      "dialCode": "+84",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "currency": "VND",
+      "localLanguages": [],
+      "uiLanguage": "en",
+      "notes": {
+        "general": "Medical care is not free for visitors in Vietnam, even at public hospitals. Many providers want payment up front, often in cash, and the US State Department says US health insurance is usually not accepted, so have travel insurance that covers medical evacuation. For an ambulance, dial 115. International hospitals and clinics with English-speaking staff include FV Hospital, Family Medical Practice, Vinmec Central Park, Columbia Asia and Victoria Healthcare.",
+        "hiv": "The US State Department knows of no HIV entry restrictions for visitors or foreign residents. In November 2023, 37 public and private clinics in Ho Chi Minh City offered PrEP. PrEP isn't covered by Vietnam's national health insurance; a 2024 EU report quoted about 700,000 VND a month for imported PrEP and about 300,000 VND for the Vietnamese-made version. PEP has to start within 72 hours: go to a clinic that lists PEP (such as Glink or Galant) or the Hospital for Tropical Diseases. HIV medicines (ART) have not been free since 2019: insured patients pay up to 20%, and uninsured people, including most visitors, pay full price. Bring enough HIV medicine for your trip.",
+        "adhd": "Vietnam strictly restricts medicines containing narcotic or psychotropic substances, and the US State Department warns that common ADHD ingredients may be affected, so check with Vietnam's Ministry of Health before you travel. The Vietnamese Embassy in Australia says you may bring, for your own use and without an import licence, up to 7 days' supply of a narcotic medicine or 10 days' supply of a psychotropic medicine. You must declare these medicines to customs and carry the prescription, which must show your name and age, the medicine, its strength, the quantity or number of days, the dosage, and the doctor's name, signature and address. The UK government says more than 7 days' supply of these medicines is illegal, so 7 days is the safe limit. If you need more, declare it on arrival with your itinerary and a doctor's letter explaining why; customs decides. Methylphenidate is registered in Vietnam as Concerta (18, 27 and 36 mg) and Medikinet MR (5, 10 and 20 mg), but the Drug Administration warned of temporary Concerta shortages in 2025. We found no official confirmation that amphetamine-based medicines (Adderall, Vyvanse) are available. Psychiatric services are limited; private psychiatrists at FV Hospital and Family Medical Practice list ADHD care.",
+        "diabetes": "Bring insulin and supplies in their original packaging with your prescription. Under the rules the Vietnamese Embassy in Australia describes, ordinary (non-controlled) medicines for personal use are limited to US$200 in customs value per entry, no more than three times a year. Medicines for serious illnesses may be worth up to 10 million VND per entry, up to four times a year. University Medical Center HCMC lists insulin pump, CGM and diabetes education services. Cho Ray Hospital has a diabetic foot unit, and Children's Hospital 1 treats children with type 1 diabetes. For urgent problems, international hospitals such as FV Hospital and Vinmec Central Park have 24-hour emergency departments."
+      },
+      "noteSources": {
+        "general": "https://travel.state.gov/en/international-travel/travel-advisories/vietnam.html",
+        "general-ambulance": "https://gov.uk/foreign-travel-advice/vietnam/health",
+        "general-hospitals": "https://hcmc.vietnam.embassy.gov.au/files/hchi/list_of_hospitals_jul_2026.pdf",
+        "hiv": "https://hcdc.vn/mo-rong-dieu-tri-prep-huong-den-bao-phu-toan-thanh-pho-fg2UvQ.html",
+        "hiv-costs": "https://coi.euaa.europa.eu/administration/easo/PLib/2024_09_EUAA_MedCOI_Report_Vietnam_HIV.pdf",
+        "hiv-entry": "https://travel.state.gov/en/international-travel/travel-advisories/vietnam.html",
+        "adhd": "https://vietnamembassy.org.au/en/bring-medication-viet-nam",
+        "adhd-uk": "https://gov.uk/foreign-travel-advice/vietnam/health",
+        "adhd-methylphenidate": "https://luatvietnam.vn/thuc-pham/cong-van-1964-qld-kd-cua-cuc-quan-ly-duoc-ve-viec-dam-bao-cung-ung-thuoc-chua-hoat-chat-methylphenidat-hcl-405276-d6.html",
+        "adhd-shortage": "https://soyt.langson.gov.vn/upload/105380/20250205/T2_cung_ung_Methylphenidat_ffd6e.pdf",
+        "diabetes": "https://vietnamembassy.org.au/en/bring-medication-viet-nam",
+        "diabetes-umc": "https://bvdaihoc.com.vn/en/specialties/endocrinology-department"
       }
     }
   ],

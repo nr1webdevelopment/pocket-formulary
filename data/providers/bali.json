@@ -1,0 +1,1369 @@
+{
+  "dataset": "pocket-formulary/providers",
+  "city": "dps",
+  "providers": [
+    {
+      "id": "id-dps-ngoerah-hospital-vct-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — VCT Clinic (Poliklinik VCT)"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "The hospital lists a VCT (voluntary counselling and testing) clinic among its outpatient polyclinics, plus a dermatology and venereology (Kulit dan Kelamin) clinic and a methadone clinic. HIV treatment: a 2022 detikBali report says the internal medicine department's tropical and infectious diseases division was caring for 2,550 people with HIV on antiretroviral treatment, and a doctor there said he has many foreign patients. PrEP and PEP are not mentioned; for PEP out of hours go to the 24-hour emergency department (IGD)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.detik.com/bali/berita/d-6260827/rsup-prof-ngoerah-tangani-2-550-kasus-hiv",
+          "title": "RSUP Prof Ngoerah tangani 2.550 kasus HIV (29 Aug 2022)",
+          "publisher": "detikBali",
+          "type": "news",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://keslan.kemkes.go.id/Wisatamedis/detail/13",
+          "title": "Wisata Medis: RSUP Prof Ngoerah",
+          "publisher": "Ministry of Health (Ditjen Kesehatan Lanjutan)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO medical facilities list. The executive Wing Amerta outpatient wing (afternoon clinics Mon–Fri 16:00–18:00) offers faster, paid appointments in some specialties.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-ngoerah-hospital-diabetic-clinic",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — Diabetic Clinic (Poliklinik Diabetic)"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "The hospital lists a Diabetic clinic, an internal medicine clinic, a nutrition (Gizi) clinic and a paediatric clinic among its outpatient polyclinics; the executive Wing Amerta also has internal medicine and paediatric clinics. Its site publishes a series on diabetes nutrition therapy. Children's diabetes care, endocrinologists, pumps and CGM aren't named on the pages; ask. For urgent problems (very high or low blood sugar) use the 24-hour emergency department."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-wing-amerta/",
+          "title": "Pelayanan Wing Amerta (executive outpatient wing)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO medical facilities list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-ngoerah-hospital-child-growth-development-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Prof. Dr. I.G.N.G. Ngoerah Hospital — Child Growth and Development Clinic"
+      },
+      "organization": "RSUP Prof. Dr. I.G.N.G. Ngoerah (Ministry of Health central general hospital)",
+      "type": "public_hospital",
+      "operator": "government_national",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanglah",
+        "district": null,
+        "address": {
+          "en": "Jl. Diponegoro, Denpasar, Bali 80113"
+        },
+        "postcode": "80113",
+        "locationNote": "Main public referral hospital for Bali and Nusa Tenggara (formerly Sanglah Hospital). The Australian Consulate list gives Jl. Kesehatan Selatan 1, Sanglah.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 227911 (to 227915)",
+          "+62 851 0640 5474 (appointments)",
+          "+62 822 4798 5258 (emergency command centre)"
+        ],
+        "line": null,
+        "website": "https://profngoerahhospitalbali.com/home/",
+        "email": "info@profngoerahhospitalbali.com",
+        "booking": "https://pendaftaran.rsupsanglah.com/"
+      },
+      "hours": "Outpatient clinics Mon–Fri 07:30–16:00 WITA, closed on public holidays; registration Mon–Thu 07:00–13:30, Fri 07:00–13:00. Emergency department 24 hours.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "third_party",
+        "note": "A 2017 Udayana University study used the register of children with ADHD at the hospital's Growth and Development Clinic (Klinik Tumbuh Kembang), 2014–2016. The hospital's current outpatient list shows a paediatric clinic (Poli Anak) and a psychiatric clinic (Poliklinik Jiwa) but doesn't name the growth and development clinic, so ask at registration which clinic sees children with ADHD. Adult ADHD assessment and whether methylphenidate is prescribed aren't stated; ask the psychiatric clinic."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://jurnal.harianregional.com/eum/id-33447",
+          "title": "Hubungan ADHD dengan status gizi anak di Klinik Tumbuh Kembang RSUP Sanglah (E-Jurnal Medika Udayana, 2017)",
+          "publisher": "E-Jurnal Medika Udayana (Universitas Udayana)",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/pelayanan-rawat-jalan-umum/",
+          "title": "Pelayanan Rawat Jalan Umum (outpatient polyclinics)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://profngoerahhospitalbali.com/home/",
+          "title": "Home (services, contact, registration)",
+          "publisher": "RSUP Prof. Dr. I.G.N.G. Ngoerah",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-medika-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali Medika Clinic"
+      },
+      "organization": "Bali Medika Clinic (supported by Yayasan Bali Peduli)",
+      "type": "key_population_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Kalianget No. 3, Kuta, Bali"
+        },
+        "postcode": null,
+        "locationNote": "In the Kuta–Seminyak tourist area.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 791 3737"
+        ],
+        "line": null,
+        "website": null,
+        "email": null,
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–14:00 and 17:00–21:00; Sat 10:00–14:00 (Travel Gay Asia listing). Confirm by phone.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "genderAffirmingHormones": null,
+        "basis": "third_party",
+        "note": "Opened in 2011 as Indonesia's first clinic for gay men, MSM and LGBT people. A 2011 Fridae report lists confidential check-ups, STI screening, HIV testing, CD4 testing, antiretroviral treatment, hormone therapy and counselling, open to anyone at risk; Indonesians were treated free and foreigners paid market rates. A current LGBT travel directory lists general practice and sexual health care for the LGBT community. PrEP and PEP aren't mentioned; ask."
+      },
+      "populationFocus": [
+        "msm",
+        "lgbtqia",
+        "transgender"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "Indonesian",
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.travelgayasia.com/venue/bali-medika",
+          "title": "Bali Medika Clinic",
+          "publisher": "Travel Gay Asia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.travelgayasia.com/gay-bali-everything-else",
+          "title": "Gay Bali — services",
+          "publisher": "Travel Gay Asia",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.fridae.asia/gay-news/2011/11/04/11309.bali-gets-indonesias-first-gay-medical-clinic",
+          "title": "Bali gets Indonesia's first gay medical clinic (4 Nov 2011)",
+          "publisher": "Fridae",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Service details date mainly from 2011; check current services and hours by phone before visiting.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bimc-hospital-kuta",
+      "conditions": [
+        "hiv",
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "BIMC Hospital Kuta"
+      },
+      "organization": "BIMC Hospital (Siloam Hospitals group)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Bypass Ngurah Rai No. 100X, Kuta, Badung, Bali 80361"
+        },
+        "postcode": "80361",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 761263",
+          "+62 811 3960 8500 (WhatsApp, appointments)"
+        ],
+        "line": null,
+        "website": "https://bimcbali.com/bimc-hospital-kuta",
+        "email": "admin@bimcbali.com",
+        "booking": null
+      },
+      "hours": "24 hours (emergency department, medical centre, laboratory and pharmacy).",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": null,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "STD screening packages cover HIV, syphilis, gonorrhoea, chlamydia and hepatitis B and C; prices aren't published. PrEP, PEP and HIV treatment aren't mentioned; for PEP go to the 24-hour emergency department and ask. Diabetes: the hospital says it offers comprehensive diabetes care from internists, with blood glucose monitoring and fasting glucose and HbA1c tests in its 24/7 laboratory; no endocrinologist is listed. Psychiatrists and paediatricians also consult here."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bimcbali.com/bimc-kuta/how-std-screening-helps-reduce-the-risk-of-hiv-aids.html",
+          "title": "How STD screening helps reduce the risk of HIV/AIDS",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/bimc-kuta/diabetes-care-update-managing-blood-sugar-for-long-term-wellness.html",
+          "title": "Diabetes care update: managing blood sugar for long-term wellness",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/bimc-hospital-kuta",
+          "title": "BIMC Hospital Kuta",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bimcbali.com/poli-spesialis",
+          "title": "Poli Spesialis (specialists by location)",
+          "publisher": "BIMC Hospital Bali",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Accredited by ACHS International (2023–2027). The hospital describes itself as the preferred choice of international travellers; English-speaking staff per the UK FCDO list. The article gives the call centre as +62 811 960 8500 while the footer gives +62 811 3960 8500.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-puskesmas-i-denpasar-barat",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "UPTD Puskesmas I Denpasar Barat"
+      },
+      "organization": "Denpasar City Health Office (Dinas Kesehatan Kota Denpasar)",
+      "type": "public_clinic",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": null,
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Jl. Gunung Rinjani No. 65, Denpasar"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 482045",
+          "+62 819 9592 3366 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "https://www.puskesmasdenbar1.denpasarkota.go.id",
+        "email": "puskesmas1denbar@gmail.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": true,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Community health centre with a VCT clinic (pre- and post-test counselling with an HIV test; HIV diagnosis and therapy) and an STI clinic (examination, treatment, condoms). It continues ART prescribed by the supervising referral hospital. Uninsured patients pay fees set by city regulation; people registered with BPJS here are not charged. ANTARA (Dec 2025) reports that every puskesmas in Denpasar has HIV care, support and treatment services. PrEP isn't mentioned."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "mixed",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.puskesmasdenbar1.denpasarkota.go.id/public/uploads/download/download_222207010716_standar-pelayanan-publik.pdf",
+          "title": "Standar Pelayanan Publik (service standards)",
+          "publisher": "UPTD Puskesmas I Denpasar Barat",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.antaranews.com/berita/394201/denpasar-catat-kenaikan-kasus-hiv-aids-terbanyak-usia-produktif?",
+          "title": "Denpasar catat kenaikan kasus HIV/AIDS (2 Dec 2025)",
+          "publisher": "ANTARA News Bali",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-peduli-denpasar",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Yayasan Bali Peduli — Denpasar Clinic"
+      },
+      "organization": "Yayasan Bali Peduli",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Pemecutan Klod",
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Pertokoan Imam Bonjol Square No. A-17, Jl. Imam Bonjol, Pemecutan Klod, Denpasar Barat, Denpasar"
+        },
+        "postcode": null,
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 845 6543",
+          "+62 812 3889 5287 (WhatsApp)"
+        ],
+        "line": null,
+        "website": "http://www.balipeduli.org/",
+        "email": "info@balipeduli.org",
+        "booking": null
+      },
+      "hours": "Mon–Fri 09:00–20:00 WITA; Sat 09:00–14:00 WITA, or by appointment. For lab tests arrive at least 1 hour before closing.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "site",
+        "note": "Says it provides STI and HIV testing and treatment plus counselling: HIV rapid test and confirmation, CD4 count and HIV viral load, syphilis tests, swabs and STI PCR panels (gonorrhoea, chlamydia and HPV molecular tests only at this site), hepatitis tests. Non-Indonesians pay contribution fees (from 1 Feb 2026): admin Rp40,000, counselling Rp150,000, HIV rapid test Rp200,000, confirmation Rp200,000. Whether it starts or continues ART, PrEP or PEP isn't stated; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balipeduli.org/contact-us/find-clinic-get-tested/",
+          "title": "Find a clinic, get tested (locations, services, fees)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://www.balipeduli.org/",
+          "title": "Yayasan Bali Peduli (home, fees for non-Indonesians)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-klinik-anggrek-bali-peduli-ubud",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Klinik Anggrek — Bali Peduli Ubud"
+      },
+      "organization": "Yayasan Bali Peduli",
+      "type": "ngo_clinic",
+      "operator": "ngo",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Gianyar",
+        "area": "Sayan",
+        "district": "Ubud",
+        "address": {
+          "en": "Puskesmas Ubud II, Banjar Kutuh, Sayan, Ubud, Gianyar"
+        },
+        "postcode": null,
+        "locationNote": "Inside the Ubud II community health centre (Puskesmas Ubud II).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 813 3951 4136"
+        ],
+        "line": null,
+        "website": "http://www.balipeduli.org/",
+        "email": "info@balipeduli.org",
+        "booking": null
+      },
+      "hours": "Mon–Thu 08:00–14:00, Fri 08:00–13:00, Sat 08:00–14:00 WITA; also Tue and Thu 16:00–20:00. For lab tests arrive at least 1 hour before closing.",
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": true,
+        "basis": "network",
+        "note": "Bali Peduli's Ubud clinic. The network lists HIV rapid testing and confirmation, CD4 and viral load, and STI testing (molecular gonorrhoea/chlamydia/HPV tests only in Denpasar), with counselling. Non-Indonesians pay Bali Peduli's contribution fees (e.g. HIV rapid test Rp200,000). PrEP, PEP and ART aren't stated; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balipeduli.org/contact-us/find-clinic-get-tested/",
+          "title": "Find a clinic, get tested (locations, services, fees)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "http://www.balipeduli.org/",
+          "title": "Yayasan Bali Peduli (home, fees for non-Indonesians)",
+          "publisher": "Yayasan Bali Peduli",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsd-mangusada-vct-clinic",
+      "conditions": [
+        "hiv"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "RSD Mangusada — VCT Clinic"
+      },
+      "organization": "Badung Regency Government (RSD Mangusada Kabupaten Badung)",
+      "type": "public_hospital",
+      "operator": "government_local",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": null,
+        "district": null,
+        "address": {},
+        "postcode": null,
+        "locationNote": "Badung Regency's government referral hospital (class B).",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 9006812 (hotline outside working hours)",
+          "+62 878 5012 7333 (WhatsApp, complaints, working hours)"
+        ],
+        "line": null,
+        "website": "https://rsudmangusada.badungkab.go.id",
+        "email": "rsdm@rsdmangusada.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "hivTesting": true,
+        "prep": null,
+        "pep": null,
+        "art": null,
+        "stiTesting": null,
+        "basis": "site",
+        "note": "The hospital's 2024 profile lists a VCT clinic (7,909 visits in 2023) and a PMTCT (prevention of mother-to-child transmission) clinic, as well as internal medicine, paediatric and psychiatric clinics. ART, PrEP and PEP aren't named; ask."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://rsudmangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/profil%202024_.pdf",
+          "title": "Profil RSD Mangusada 2024",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://mangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/Laporan%20Humas%20%26%20Pemasaran%20Triwulan%20IV%20Periode%20Oktober%20-%20Desember%202024.pdf",
+          "title": "Laporan Humas & Pemasaran Triwulan IV 2024 (contacts)",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rsudmangusada.badungkab.go.id/new/public/ckfinder/userfiles/files/FIN%20LAPORAN%20RSD%20MANGUSADA%20TAHUN%202024.pdf",
+          "title": "Laporan RSD Mangusada 2024",
+          "publisher": "RSD Mangusada Kabupaten Badung",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Street address not given in the hospital documents found; call before going.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-siloam-hospitals-denpasar",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Siloam Hospitals Denpasar"
+      },
+      "organization": "Siloam Hospitals",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Badung",
+        "area": "Kuta",
+        "district": "Kuta",
+        "address": {
+          "en": "Jl. Sunset Road No. 818, Kuta, Badung, Bali 80361"
+        },
+        "postcode": "80361",
+        "locationNote": "Also known as Siloam Hospital Bali.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 361 779900",
+          "+62 851 1710 7799 (WhatsApp, customer care)"
+        ],
+        "line": null,
+        "website": "https://www.siloamhospitals.com",
+        "email": "info.siloamhospitalsbali@siloamhospitals.com",
+        "booking": null
+      },
+      "hours": null,
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "third_party",
+        "note": "Alodokter lists endocrinology among the hospital's services, and Hello Sehat lists an internal medicine consultant in endocrinology, metabolism and diabetes (Dr. dr. Tjokorda Gde Dalem Pemayun, SpPD-KEMD) practising here. A paediatric nutrition and metabolic disease consultant also practises here; whether children's diabetes is managed isn't stated. Psychiatrists who see children and adults also consult here (ADHD not mentioned)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bali.indonesia.embassy.gov.au/blli/medical.html",
+          "title": "Hospital and medical services (Bali)",
+          "publisher": "Australian Consulate-General Bali (DFAT)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://alodokter.com/cari-rumah-sakit/siloam-hospitals-denpasar",
+          "title": "Siloam Hospitals Denpasar",
+          "publisher": "Alodokter",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hellosehat.com/care/dokter/dr-dr-tjokorda-gde-dalem-pemayun-sppd-kemd-9726/",
+          "title": "Dr. dr. Tjokorda Gde Dalem Pemayun, SpPD-KEMD",
+          "publisher": "Hello Sehat",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.alodokter.com/cari-dokter/dokter-anak/siloam-hospitals-denpasar/badung",
+          "title": "Dokter anak di Siloam Hospitals Denpasar",
+          "publisher": "Alodokter",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://hellosehat.com/care/bali/dokter/psikiatri/",
+          "title": "Psikiater di Bali",
+          "publisher": "Hello Sehat",
+          "type": "third_party_directory",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Accredited LAM-KPRS and JCI; English-speaking staff, per the UK FCDO list.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-international-hospital",
+      "conditions": [
+        "diabetes"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali International Hospital"
+      },
+      "organization": "Bali International Hospital (Sanur Special Economic Zone)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Sanur Kaja",
+        "district": "Denpasar Selatan",
+        "address": {
+          "en": "Jalan Kawasan Ekonomi Khusus Sanur, Lot H1–H2, Sanur Kaja, Denpasar Selatan, Kota Denpasar, Bali 80227"
+        },
+        "postcode": "80227",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "1500238 (call centre, within Indonesia)",
+          "150919 (emergency)",
+          "+62 812 1166 1127 (WhatsApp, text only)"
+        ],
+        "line": null,
+        "website": "https://bih.id",
+        "email": "info@bih.id",
+        "booking": null
+      },
+      "hours": "Emergency department and WhatsApp line 24/7.",
+      "services": {
+        "diabetesCare": true,
+        "diabetesCareChildren": null,
+        "endocrinologist": true,
+        "insulinPump": null,
+        "cgm": null,
+        "diabetesEducation": null,
+        "diabeticFootCare": null,
+        "basis": "site",
+        "note": "The hospital lists endocrinology consultations, personalised treatment plans, nutrition counselling, medication management and diabetes screening, and its Family Medicine clinic manages chronic diseases including diabetes. Children's diabetes care, pumps and CGM aren't mentioned. It also offers STI screening for residents and visitors (HIV testing not separately stated)."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://bih.id/articles/prevention-and-treatment-of-diabetes",
+          "title": "Prevention and treatment of diabetes",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/integrative-clinics",
+          "title": "Integrated clinics",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/contact-us",
+          "title": "Contact us",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://bih.id/articles/why-std-or-sti-testing-is-important-in-bali-protect-your-health-with-confidence",
+          "title": "Why STD or STI testing is important in Bali",
+          "publisher": "Bali International Hospital",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO list. Its FAQ gives the address as Jl. Bypass Ngurah Rai No. 126, Sanur Kaja.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-bali-mental-health-clinic",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Bali Mental Health Clinic (BMHC)"
+      },
+      "organization": "Bali Mental Health Clinic",
+      "type": "private_clinic",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Pemecutan Klod",
+        "district": "Denpasar Barat",
+        "address": {
+          "en": "Jl. Imam Bonjol No. 125, Pemecutan Klod, Denpasar Barat, Bali 80112"
+        },
+        "postcode": "80112",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 813 7000 0306 (phone/WhatsApp)",
+          "+62 361 488610 (call centre)",
+          "+62 361 484186 (24-hour emergency)"
+        ],
+        "line": null,
+        "website": "https://www.balimentalhealthclinic.com",
+        "email": null,
+        "booking": "https://www.balimentalhealthclinic.com/help-center/request-an-appointment/"
+      },
+      "hours": "Outpatient centre (12 hours); 24/7 emergency line and mental-health ambulance.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Psychiatric clinic founded by a group of psychiatrists (opened 2023) with psychiatrists and clinical psychologists, outpatient, inpatient and telehealth care, and programmes for children with special needs. ADHD is listed among the conditions its outpatient centre treats, and its ADHD page says medicines are often used; it doesn't say whether it diagnoses ADHD in children or adults or which medicines it prescribes. Ask when booking."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": true,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://balimentalhealthclinic.com",
+          "title": "Bali Mental Health Clinic (home)",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.balimentalhealthclinic.com/adhd-attention-deficit-hyperactivity-disorder/",
+          "title": "ADHD (Attention Deficit Hyperactivity Disorder)",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.balimentalhealthclinic.com/outpatient-centre-bali-mental-health-clinic-care/",
+          "title": "Outpatient Centre",
+          "publisher": "Bali Mental Health Clinic",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://indonesiaexpat.id/lifestyle/sports-health/bali-mental-health-clinic-is-inaugurated-to-provide-mental-health-treatment",
+          "title": "Bali Mental Health Clinic is inaugurated to provide mental health treatment",
+          "publisher": "Indonesia Expat",
+          "type": "news",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "Its outpatient page says it serves people living in or visiting Bali.",
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsia-puri-bunda-vidastana-child-development-center",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "RSIA Puri Bunda — VidaStana Child Development Center"
+      },
+      "organization": "RSIA Puri Bunda (Puri Bunda Hospital for Mothers and Children)",
+      "type": "private_hospital",
+      "operator": "private",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Denpasar",
+        "area": "Dauh Puri Kaja",
+        "district": "Denpasar Utara",
+        "address": {
+          "en": "Jalan Gatot Subroto IV No. 19, Dauh Puri Kaja, Denpasar Utara, Bali 80233"
+        },
+        "postcode": "80233",
+        "locationNote": null,
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 811 3899 766 (hotline and WhatsApp booking)"
+        ],
+        "line": null,
+        "website": "https://www.puribunda.com/en/?p=18319",
+        "email": null,
+        "booking": null
+      },
+      "hours": "Developmental paediatrician: Mon, Wed, Thu 17:00–20:00; Fri 16:00–19:00; Sat 10:00–18:00; Sun 17:00–21:00, or by appointment. Psychologist most days; confirm by phone.",
+      "services": {
+        "adhdAssessmentChildren": true,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Child development centre with a paediatric developmental specialist (Sp.A(K)) who diagnoses developmental disorders including ADHD, and a clinical psychologist (psychological and IQ testing, counselling). Speech, occupational and physiotherapy and multisensory classes. No doctor's referral is needed. No child psychiatrist is listed, so ask whether ADHD medicine is prescribed here or by referral."
+      },
+      "populationFocus": [
+        "children"
+      ],
+      "access": {
+        "cost": "fee",
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": []
+      },
+      "sources": [
+        {
+          "url": "https://www.puribunda.com/en/?p=18319",
+          "title": "VidaStana Child Development Center",
+          "publisher": "RSIA Puri Bunda",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": null,
+      "updated": "2026-11-19"
+    },
+    {
+      "id": "id-dps-rsj-provinsi-bali-bangli",
+      "conditions": [
+        "adhd"
+      ],
+      "city": "dps",
+      "name": {
+        "en": "Rumah Sakit Jiwa Manah Shanti Mahottama (Bali Provincial Mental Hospital)"
+      },
+      "organization": "Bali Provincial Government",
+      "type": "public_hospital",
+      "operator": "government_regional",
+      "network": null,
+      "location": {
+        "country": "ID",
+        "province": "Bali",
+        "city": "Bangli",
+        "area": null,
+        "district": "Bangli",
+        "address": {
+          "en": "Jl. Kusuma Yudha No. 29, Bangli"
+        },
+        "postcode": null,
+        "locationNote": "In Bangli Regency, about an hour inland from Denpasar.",
+        "nearestTransit": null,
+        "lat": null,
+        "lng": null
+      },
+      "contact": {
+        "phone": [
+          "+62 366 91073",
+          "+62 812 4642 2848 (WhatsApp/call, information)"
+        ],
+        "line": null,
+        "website": "https://rsjiwa.baliprov.go.id/",
+        "email": "admin.rsjiwa@baliprov.go.id",
+        "booking": null
+      },
+      "hours": "24-hour emergency department.",
+      "services": {
+        "adhdAssessmentChildren": null,
+        "adhdAssessmentAdults": null,
+        "adhdMedication": null,
+        "basis": "site",
+        "note": "Bali's public psychiatric hospital: psychiatric outpatient clinic (Poliklinik Jiwa), inpatient care, psychological testing, drug rehabilitation and a 24-hour emergency department. ADHD services, child and adolescent psychiatry and waiting times aren't stated online; call before travelling."
+      },
+      "populationFocus": [
+        "general"
+      ],
+      "access": {
+        "cost": null,
+        "walkIn": null,
+        "foreignersAccepted": null,
+        "languages": [
+          "English"
+        ]
+      },
+      "sources": [
+        {
+          "url": "https://rsjiwa.baliprov.go.id/",
+          "title": "Rumah Sakit Jiwa Provinsi Bali (home)",
+          "publisher": "Rumah Sakit Jiwa Manah Shanti Mahottama",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://rsjiwa.baliprov.go.id/rawat-jalan",
+          "title": "Rawat Jalan (outpatient)",
+          "publisher": "Rumah Sakit Jiwa Manah Shanti Mahottama",
+          "type": "official_provider_site",
+          "accessed": "2026-11-19"
+        },
+        {
+          "url": "https://www.gov.uk/government/publications/indonesia-list-of-medical-facilities-and-funeral-directors/list-of-medical-facilities-in-indonesia",
+          "title": "List of medical facilities in Indonesia (updated 9 July 2026)",
+          "publisher": "Foreign, Commonwealth & Development Office (UK)",
+          "type": "government_registry",
+          "accessed": "2026-11-19"
+        }
+      ],
+      "verification": {
+        "status": "unverified",
+        "sourceChecked": "2026-11-19",
+        "lastVerified": null,
+        "method": null,
+        "verifiedBy": null,
+        "nextReviewDue": null
+      },
+      "notes": "English-speaking staff per the UK FCDO list. The US State Department notes that hospital-based psychiatric care in Indonesia is available only through government institutions.",
+      "updated": "2026-11-19"
+    }
+  ]
+}
